@@ -82,16 +82,29 @@
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         cqs'16
-                        ~
-                        ]
-                        cqs'4
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        c'16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        bqs16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        c'8.
-                        [
+                        b8
+                        ~
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        b16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        bqs16
+                        ~
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        bqs16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
-                        bqs16
+                        c'16
                         ]
                     }
                     {
@@ -102,23 +115,27 @@
                         \times 12/13 {
                             % [Voice 1 measure 2] %! COMMENT_MEASURE_NUMBERS
                             r16
-                            b4
-                            \set stemLeftBeamCount = 2
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            cqs'8
+                            ~
+                            [
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            cqs'8.
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            c'8.
+                            \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             bqs16
-                            [
                             \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            c'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cqs'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            c'16
-                            ~
+                            \set stemRightBeamCount = 1
+                            b16
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 0
+                            bqs8
                             ]
-                            c'4
                         }
                     }
                     {
@@ -135,7 +152,7 @@
                             r2
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
-                            bqs8
+                            c'8
                             [
                             ]
                         }
@@ -145,20 +162,25 @@
                     }
                     {
                         % [Voice 1 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        r8.
+                        r16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
-                        b16
-                        ~
+                        cqs'16
                         [
                         \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        c'16
+                        \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 1
-                        b16
+                        bqs16
+                        ~
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
                         bqs8.
-                        ~
                         \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        b16
+                        \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         bqs16
                         \set stemLeftBeamCount = 2
@@ -224,23 +246,34 @@
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            r8.
-                            r8
+                            r16
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
-                            c'8.
+                            c'8
+                            ~
                             [
                             \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
+                            c'16
+                            \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             cqs'16
                             ~
                             \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
+                            \set stemRightBeamCount = 2
                             cqs'16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            c'8.
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            c'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            bqs16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            b16
+                            ~
                             ]
+                            b4
                         }
                     }
                     {
@@ -250,7 +283,7 @@
                     {
                         r4
                         bqs4
-                        b4
+                        c'4
                         \bar "||"
                     }
                 }
@@ -289,7 +322,7 @@
                     }
                     {
                         % [Voice 2 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        r16
+                        r8.
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         dqf'16
@@ -300,16 +333,22 @@
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         cqs'16
-                        ]
-                        c'4
                         ~
                         \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        cqs'16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
                         c'16
-                        [
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        dqs'16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        d'16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
-                        dqs'8.
+                        dqf'8
                         ]
                     }
                     {
@@ -321,8 +360,8 @@
                     }
                     {
                         % [Voice 2 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        d'4
-                        dqf'4
+                        cs'4
+                        cqs'4
                     }
                     {
                         r2
@@ -333,42 +372,50 @@
                             % [Voice 2 measure 6] %! COMMENT_MEASURE_NUMBERS
                             r8
                             \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            cs'16
-                            ~
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            cs'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            cqs'16
-                            \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             c'16
+                            [
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             dqs'16
-                            ]
-                            d'4
-                            ~
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            d'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            dqf'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            cs'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
+                            cqs'16
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            c'8.
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            dqs'8
                         }
                     }
                     {
                         % [Voice 2 measure 7] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 0
+                        \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 2
                         d'16
-                        [
-                        \set stemLeftBeamCount = 1
+                        \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 1
-                        dqf'8.
+                        dqf'16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
                         cs'8
+                        ~
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        cqs'8
+                        cs'8.
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        cqs'16
                         ~
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
@@ -408,24 +455,32 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 2 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            r16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            dqf'8
-                            ~
+                            r8
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            dqf'16
                             [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            dqf'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            cs'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            cqs'8
-                            \set stemLeftBeamCount = 1
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            cs'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            cqs'16
+                            ]
+                            c'4
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            dqs'16
+                            [
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            d'16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            dqf'16
+                            \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
-                            c'8
+                            cs'16
                             ]
                         }
                     }
@@ -437,12 +492,12 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            dqs'4
+                            cqs'4
                         }
                     }
                     {
                         % [Voice 2 measure 12] %! COMMENT_MEASURE_NUMBERS
-                        d'4
+                        c'4
                     }
                     {
                         r1
@@ -467,27 +522,34 @@
                         r2
                     }
                     {
-                        r8
+                        r16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        fqs16
+                        [
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
+                        fs8
+                        ~
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        fs16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         fqs16
-                        [
+                        ~
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fqs16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         fs16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 1
-                        fqs16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8.
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8
+                        gqf16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
-                        gqf8
+                        fs8.
                         ]
                     }
                     {
@@ -499,7 +561,7 @@
                         \times 6/5 {
                             % [Voice 3 measure 3] %! COMMENT_MEASURE_NUMBERS
                             r4
-                            fs4.
+                            fqs4.
                         }
                     }
                     {
@@ -510,14 +572,14 @@
                         r8
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        fqs8
+                        fs8
                         ~
                         [
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        fqs8
+                        fs8
                         ]
-                        fs4.
+                        fqs4.
                     }
                     {
                         % [Voice 3 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -527,26 +589,32 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 3 measure 6] %! COMMENT_MEASURE_NUMBERS
-                            r16
+                            r8
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            fs8.
+                            [
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
+                            gqf16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
+                            fs16
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             fqs8
-                            [
-                            ]
-                            fs4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
+                            fs16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
-                            gqf16
-                            [
+                            fqs16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             fs16
                             \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            fqs16
-                            \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
-                            fs8.
+                            gqf16
                             ]
                         }
                     }
@@ -555,11 +623,11 @@
                         \times 6/5 {
                             % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
                             r8
-                            fqs4
+                            fs4
                             ~
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
-                            fqs8
+                            fs8
                             [
                             ]
                             r8
@@ -571,32 +639,29 @@
                     }
                     {
                         % [Voice 3 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8
-                        ~
-                        [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        fs16
+                        r8.
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
-                        gqf16
-                        ~
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        gqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        fs16
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8.
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
                         fqs16
+                        [
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fs16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fqs16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fs16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        gqf16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        fs16
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 0
+                        fqs8.
                         ]
                     }
                     {
@@ -606,7 +671,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 3 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            r16
+                            r8
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             fs16
@@ -614,20 +679,16 @@
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             fqs16
-                            ~
-                            ]
-                            fqs4
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fs8.
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            gqf16
-                            ~
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
-                            gqf16
+                            fs16
+                            ~
+                            ]
+                            fs4
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            gqf8.
+                            [
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
                             fs16
@@ -694,24 +755,34 @@
                     }
                     {
                         % [Voice 4 measure 4] %! COMMENT_MEASURE_NUMBERS
-                        r8.
+                        r16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         eqf16
+                        ~
                         [
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        eqf16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 2
                         ef16
                         \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
+                        \set stemRightBeamCount = 2
                         eqf16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        ef16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        ef8
+                        eqf8
                         ~
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        ef8.
+                        eqf8
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        ef16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
                         eqf16
@@ -740,12 +811,14 @@
                     }
                     {
                         \times 4/5 {
-                            r8
+                            r16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             eqf16
-                            ~
                             [
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            ef16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             eqf16
@@ -759,11 +832,11 @@
                         % [Voice 4 measure 8] %! COMMENT_MEASURE_NUMBERS
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        ef8.
+                        ef8
                         \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 1
+                        eqf8
+                        \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 2
                         ef16
                         \set stemLeftBeamCount = 2
@@ -792,20 +865,25 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 2
                             ef16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            eqf16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            ef16
                             ~
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 2
                             ef16
                             \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
+                            \set stemRightBeamCount = 2
                             eqf16
-                            ~
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            eqf8.
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            ef16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
-                            ef16
+                            eqf16
                             ]
                         }
                     }
@@ -817,14 +895,14 @@
                         r8
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
-                        eqf8
+                        ef8
                         ~
                         [
                         ]
                     }
                     {
                         % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
-                        eqf2
+                        ef2
                     }
                     {
                         r2
@@ -834,25 +912,26 @@
                         r2
                     }
                     {
-                        r16
+                        r4
                         \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        ef16
+                        \set stemRightBeamCount = 2
+                        eqf16
                         [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        eqf8
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        eqf8.
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        ef16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        eqf16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        ef16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        eqf16
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 1
                         ef16
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        ef8
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
                         eqf8

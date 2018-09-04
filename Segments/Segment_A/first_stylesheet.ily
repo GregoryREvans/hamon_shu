@@ -10,7 +10,7 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	title =  \markup \override #'(font-name . "Didot") \fontsize #15 \bold\center-column {"Hamon shu" }
+	title =  \markup \override #'(font-name . "Didot") \fontsize #15 \bold\center-column {"Hamon shū" }
 	subtitle = \markup \override #'(font-name . "Didot") {" "}
 	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #6 \center-column {"string quartet no.1"}
 	arranger = \markup \override #'(font-name . "Didot") \fontsize #2.3 {"Gregory Rowland Evans"}
@@ -20,7 +20,8 @@
     \accidentalStyle forget
 	%\accidentalStyle modern
 	%\accidentalStyle modern-cautionary
-	%\accidentalStyle modern
+	%\accidentalStyle neo-modern
+	%\accidentalStyle dodecaphonic
     indent = #5
 	%ragged-last = ##t
     %ragged-right = ##t

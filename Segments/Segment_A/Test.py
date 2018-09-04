@@ -35,7 +35,7 @@ bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 
 rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[1, 1, 1, 5, 3, 2, 4],
+        counts=[1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 5, 3, 1, 1, 2, 1, 1, 1, 4],
         denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
@@ -44,7 +44,7 @@ rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
         ),
     extra_counts_per_division=[0, 1, ],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest],
+        left_classes=[abjad.Rest, abjad.Note],
         left_counts=[1, 0, 1],
         ),
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
