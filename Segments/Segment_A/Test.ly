@@ -2,6 +2,7 @@
 \language "english" %! LilyPondFile
 
 \include "first_stylesheet.ily" %! LilyPondFile
+\include "abjad.ily"            %! LilyPondFile
 
 \header { %! LilyPondFile
     tagline = ##f
@@ -17,40 +18,32 @@
         \context TimeSignatureContext = "Global Context"
         {
             % [Global Context measure 1] %! COMMENT_MEASURE_NUMBERS
-            \time 5/4
+            \mark \markup {
+                \bold
+                    {
+                        A
+                    }
+                }
             s1 * 5/4
             % [Global Context measure 2] %! COMMENT_MEASURE_NUMBERS
-            \time 4/4
             s1 * 1
             % [Global Context measure 3] %! COMMENT_MEASURE_NUMBERS
-            \time 3/4
             s1 * 3/4
             % [Global Context measure 4] %! COMMENT_MEASURE_NUMBERS
-            \time 5/4
             s1 * 5/4
             % [Global Context measure 5] %! COMMENT_MEASURE_NUMBERS
-            \time 4/4
             s1 * 1
             % [Global Context measure 6] %! COMMENT_MEASURE_NUMBERS
-            \time 3/4
             s1 * 3/4
             % [Global Context measure 7] %! COMMENT_MEASURE_NUMBERS
-            \time 3/4
             s1 * 3/4
+            s1 * 1
             % [Global Context measure 8] %! COMMENT_MEASURE_NUMBERS
-            \time 4/4
-            s1 * 1
-            % [Global Context measure 9] %! COMMENT_MEASURE_NUMBERS
-            \time 5/4
             s1 * 5/4
-            % [Global Context measure 10] %! COMMENT_MEASURE_NUMBERS
-            \time 3/4
+            % [Global Context measure 9] %! COMMENT_MEASURE_NUMBERS
             s1 * 3/4
-            % [Global Context measure 11] %! COMMENT_MEASURE_NUMBERS
-            \time 4/4
             s1 * 1
-            % [Global Context measure 12] %! COMMENT_MEASURE_NUMBERS
-            \time 5/4
+            % [Global Context measure 10] %! COMMENT_MEASURE_NUMBERS
             s1 * 5/4
         }
         \context StaffGroup = "Staff Group"
@@ -69,77 +62,60 @@
                         \markup { "vln. I" }
                         \set Staff.instrumentName =
                         \markup { "Violin I" }
-                        \tempo 4=60
+                        \tempo 4=120
                         \clef "treble"
                         r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        bqs16
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
                         c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cqs'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        bqs16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        b8
+                        \mp
+                        - \tenuto
+                        \<
+                        cs'16
+                        - \tenuto
+                        d'16
+                        - \tenuto
                         ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        b16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        bqs16
-                        ~
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        bqs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        c'16
-                        ]
+                        d'8.
+                        d'16
+                        - \tenuto
+                        ef'8.
+                        - \tenuto
+                        e'16
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 1 measure 2] %! COMMENT_MEASURE_NUMBERS
                             r16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            cqs'8
+                            e'4
+                            \mp
+                            - \tenuto
+                            \<
+                            f'16
+                            - \tenuto
+                            fs'16
+                            - \tenuto
+                            g'16
+                            - \tenuto
+                            af'16
+                            - \tenuto
                             ~
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            cqs'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            c'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            bqs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            b16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            bqs8
-                            ]
+                            af'8.
+                            af'16
+                            \ff
+                            - \tenuto
+                            \!
                         }
                     }
                     {
                         r4
+                        \!
                     }
                     {
                         % [Voice 1 measure 3] %! COMMENT_MEASURE_NUMBERS
@@ -153,49 +129,41 @@
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
                             c'8
-                            [
-                            ]
+                            \mp
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                         }
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 1 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cqs'16
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        bqs16
+                        r8.
+                        af'16
+                        \mp
+                        - \tenuto
                         ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        bqs8.
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        b16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        bqs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
+                        af'16
+                        \<
+                        a'8.
+                        - \tenuto
+                        ~
+                        a'16
+                        bf'16
+                        - \tenuto
                         c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cqs'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        c'16
-                        ]
+                        - \tenuto
+                        cs'16
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         r4
+                        \!
                     }
                     {
                         % [Voice 1 measure 6] %! COMMENT_MEASURE_NUMBERS
@@ -206,84 +174,85 @@
                         r2.
                     }
                     {
-                        % [Voice 1 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r4
                     }
                     {
                         r4.
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        bqs8
+                        c'8
+                        \ff
+                        - \tenuto
                         ~
-                        [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        bqs8
+                        c'8
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
-                        b8
-                        ]
+                        c'8
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
-                        % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 1 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4.
-                            bqs4
+                            c'4
+                            \ff
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                         }
                     }
                     {
-                        % [Voice 1 measure 10] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
                         r2.
+                        \!
                     }
                     {
-                        % [Voice 1 measure 11] %! COMMENT_MEASURE_NUMBERS
                         r4
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            r16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            c'8
+                            r8.
+                            r8
+                            cs'8.
+                            \mp
+                            - \tenuto
+                            \<
+                            d'16
+                            - \tenuto
                             ~
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            c'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cqs'16
-                            ~
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cqs'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            c'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            bqs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            b16
-                            ~
-                            ]
-                            b4
+                            d'16
+                            ef'8.
+                            \ff
+                            - \tenuto
+                            \!
                         }
                     }
                     {
-                        % [Voice 1 measure 12] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 1 measure 10] %! COMMENT_MEASURE_NUMBERS
                         r2
+                        \!
                     }
                     {
                         r4
-                        bqs4
                         c'4
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        c'4
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \bar "||"
                     }
                 }
@@ -310,197 +279,185 @@
                     }
                     {
                         % [Voice 2 measure 2] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 0
+                        \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
-                        dqs'8
-                        [
-                        ]
-                        d'4.
+                        c'8
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        c'4.
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 2 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        r8.
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        dqf'16
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cs'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cqs'16
-                        ~
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        cqs'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        dqs'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        d'16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        dqf'8
-                        ]
+                        r16
+                        ef'16
+                        \mp
+                        - \tenuto
+                        \<
+                        e'16
+                        - \tenuto
+                        f'16
+                        - \tenuto
+                        fs'4
+                        - \tenuto
+                        fs'16
+                        - \tenuto
+                        g'8.
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         % [Voice 2 measure 4] %! COMMENT_MEASURE_NUMBERS
                         r1
+                        \!
                     }
                     {
                         r4
                     }
                     {
                         % [Voice 2 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        cs'4
-                        cqs'4
+                        c'4
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        c'4
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 2 measure 6] %! COMMENT_MEASURE_NUMBERS
                             r8
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            c'16
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            dqs'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            d'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            dqf'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cs'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            cqs'16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            c'8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            dqs'8
+                            g'16
+                            \mp
+                            - \tenuto
+                            ~
+                            g'8.
+                            \<
+                            af'16
+                            - \tenuto
+                            a'16
+                            - \tenuto
+                            bf'16
+                            - \tenuto
+                            c'4
+                            - \tenuto
                         }
                     }
                     {
                         % [Voice 2 measure 7] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        d'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        dqf'16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        cs'8
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        cs'8.
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        cqs'16
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        cqs'8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
                         c'16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        dqs'16
-                        ]
+                        - \tenuto
+                        cs'8.
+                        - \tenuto
+                        d'8
+                        - \tenuto
+                        ef'8
+                        - \tenuto
+                        ~
+                        ef'8
+                        e'16
+                        - \tenuto
+                        f'16
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
-                        % [Voice 2 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r4
                             \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            d'8
+                            \set stemRightBeamCount = 1
+                            c'8
+                            \mp
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ~
-                            [
-                            ]
                         }
                     }
                     {
-                        % [Voice 2 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        d'4
+                        % [Voice 2 measure 8] %! COMMENT_MEASURE_NUMBERS
+                        c'4
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r1
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % [Voice 2 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            r8
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            dqf'16
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cs'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            cqs'16
-                            ]
-                            c'4
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            dqs'16
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            d'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            dqf'16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 0
-                            cs'16
-                            ]
+                            % [Voice 2 measure 9] %! COMMENT_MEASURE_NUMBERS
+                            r16
+                            f'4
+                            \mp
+                            - \tenuto
+                            \<
+                            f'16
+                            - \tenuto
+                            fs'8.
+                            - \tenuto
+                            g'8
+                            - \tenuto
+                            af'8
+                            \ff
+                            - \tenuto
+                            \!
                         }
                     }
                     {
-                        % [Voice 2 measure 11] %! COMMENT_MEASURE_NUMBERS
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
                             r8
-                            cqs'4
+                            c'4
+                            \mp
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                         }
                     }
                     {
-                        % [Voice 2 measure 12] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 2 measure 10] %! COMMENT_MEASURE_NUMBERS
                         c'4
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r1
+                        \!
                     }
                 }
             }
@@ -518,104 +475,93 @@
                         \markup { vla. }
                         \set Staff.instrumentName =
                         \markup { Viola }
-                        \clef "varC"
+                        \clef "alto"
                         r2
                     }
                     {
-                        r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        fqs16
-                        [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8
+                        r8
+                        af'16
+                        \mp
+                        - \tenuto
+                        \<
+                        a'16
+                        - \tenuto
+                        bf'16
+                        - \tenuto
+                        c'8.
+                        - \tenuto
                         ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        fs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fqs16
-                        ~
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fqs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        gqf16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        fs8.
-                        ]
+                        c'16
+                        c'16
+                        - \tenuto
+                        cs'8
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         % [Voice 3 measure 2] %! COMMENT_MEASURE_NUMBERS
                         r1
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             % [Voice 3 measure 3] %! COMMENT_MEASURE_NUMBERS
                             r4
-                            fqs4.
+                            c'4.
+                            \mp
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                         }
                     }
                     {
                         % [Voice 3 measure 4] %! COMMENT_MEASURE_NUMBERS
                         r2
+                        \!
                     }
                     {
                         r8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8
+                        c'8
+                        \ff
+                        - \tenuto
                         ~
-                        [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs8
-                        ]
-                        fqs4.
+                        c'8
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        c'4.
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         % [Voice 3 measure 5] %! COMMENT_MEASURE_NUMBERS
                         r1
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             % [Voice 3 measure 6] %! COMMENT_MEASURE_NUMBERS
-                            r8
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fs8.
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            gqf16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            fs16
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fqs8
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            fs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            fqs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            fs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 0
-                            gqf16
-                            ]
+                            r16
+                            cs'8
+                            \mp
+                            - \tenuto
+                            \<
+                            d'4
+                            - \tenuto
+                            ef'16
+                            - \tenuto
+                            e'16
+                            - \tenuto
+                            f'16
+                            - \tenuto
+                            fs'8.
+                            \ff
+                            - \tenuto
+                            \!
                         }
                     }
                     {
@@ -623,89 +569,90 @@
                         \times 6/5 {
                             % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
                             r8
-                            fs4
+                            \!
+                            c'4
+                            \ff
+                            - \tenuto
                             ~
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fs8
-                            [
-                            ]
+                            c'8
+                            - \tweak stencil #constante-hairpin
+                            \<
                             r8
+                            \!
                         }
                     }
                     {
-                        % [Voice 3 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r1
                     }
                     {
-                        % [Voice 3 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        r8.
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fqs16
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fqs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        fs16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        gqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        fs16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        fqs8.
-                        ]
+                        % [Voice 3 measure 8] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        fs'8
+                        \mp
+                        - \tenuto
+                        ~
+                        fs'16
+                        \<
+                        g'16
+                        - \tenuto
+                        ~
+                        g'16
+                        af'16
+                        - \tenuto
+                        ~
+                        af'8.
+                        a'16
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % [Voice 3 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            r8
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            fs16
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            fqs16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            fs16
+                            % [Voice 3 measure 9] %! COMMENT_MEASURE_NUMBERS
+                            r16
+                            a'16
+                            \mp
+                            - \tenuto
+                            \<
+                            bf'16
+                            - \tenuto
                             ~
-                            ]
-                            fs4
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            gqf8.
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 0
-                            fs16
-                            ]
+                            bf'8.
+                            bf'16
+                            - \tenuto
+                            c'8.
+                            - \tenuto
+                            cs'16
+                            - \tenuto
+                            ~
+                            cs'16
+                            d'16
+                            \ff
+                            - \tenuto
+                            \!
                         }
                     }
                     {
-                        % [Voice 3 measure 11] %! COMMENT_MEASURE_NUMBERS
                         r1
+                        \!
                     }
                     {
-                        % [Voice 3 measure 12] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 3 measure 10] %! COMMENT_MEASURE_NUMBERS
                         r4
-                        fqs2
+                        c'2
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r2
+                        \!
                     }
                 }
             }
@@ -729,13 +676,16 @@
                             r2
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
-                            eqf8
-                            [
-                            ]
+                            c'8
+                            \ff
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                         }
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 4 measure 2] %! COMMENT_MEASURE_NUMBERS
@@ -743,53 +693,50 @@
                     }
                     {
                         r8
-                        ef4.
+                        c'4.
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ~
                     }
                     {
                         % [Voice 4 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        ef4
+                        c'4
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 4 measure 4] %! COMMENT_MEASURE_NUMBERS
-                        r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
+                        r8.
+                        d'16
+                        \mp
+                        - \tenuto
+                        \<
+                        ef'16
+                        - \tenuto
+                        e'16
+                        - \tenuto
+                        f'8
+                        - \tenuto
                         ~
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        ef16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        ef16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        eqf8
-                        ~
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        eqf8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        ef16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        eqf16
-                        ]
+                        f'8
+                        f'16
+                        - \tenuto
+                        fs'16
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 4 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -800,10 +747,15 @@
                     }
                     {
                         % [Voice 4 measure 6] %! COMMENT_MEASURE_NUMBERS
-                        ef4
+                        c'4
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                     }
                     {
                         r2
+                        \!
                     }
                     {
                         % [Voice 4 measure 7] %! COMMENT_MEASURE_NUMBERS
@@ -811,131 +763,112 @@
                     }
                     {
                         \times 4/5 {
-                            r16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            eqf16
-                            [
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            ef16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            eqf16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 1
-                            ef16
+                            r8
+                            fs'16
+                            \mp
+                            - \tenuto
                             ~
+                            fs'16
+                            \<
+                            g'16
+                            - \tenuto
                         }
                     }
                     {
-                        % [Voice 4 measure 8] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        ef8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        eqf8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 2
-                        ef16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        eqf16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        ef8
-                        ]
+                        g'8.
+                        - \tenuto
+                        af'16
+                        - \tenuto
+                        a'16
+                        - \tenuto
+                        bf'16
+                        - \tenuto
+                        c'8
+                        \ff
+                        - \tenuto
+                        \!
                     }
                     {
                         r2
+                        \!
                     }
                     {
-                        % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
+                        % [Voice 4 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r2
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
                             r8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            eqf8.
-                            [
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 2
-                            ef16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            eqf16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            ef16
+                            c'8.
+                            \mp
+                            - \tenuto
+                            \<
+                            cs'16
+                            - \tenuto
                             ~
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            ef16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            eqf16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 2
-                            ef16
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 0
-                            eqf16
-                            ]
+                            cs'16
+                            d'16
+                            - \tenuto
+                            ~
+                            d'8.
+                            ef'16
+                            \ff
+                            - \tenuto
+                            \!
                         }
+                    }
+                    {
+                        % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
+                        r2
+                        \!
+                    }
+                    {
+                        r8
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
+                        c'8
+                        \ff
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ~
+                    }
+                    {
+                        c'2
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                    }
+                    {
+                        r2
+                        \!
                     }
                     {
                         % [Voice 4 measure 10] %! COMMENT_MEASURE_NUMBERS
                         r2
                     }
                     {
-                        r8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        ef8
+                        r16
+                        ef'16
+                        \mp
+                        - \tenuto
+                        \<
+                        e'8
+                        - \tenuto
                         ~
-                        [
-                        ]
-                    }
-                    {
-                        % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
-                        ef2
-                    }
-                    {
-                        r2
-                    }
-                    {
-                        % [Voice 4 measure 12] %! COMMENT_MEASURE_NUMBERS
-                        r2
-                    }
-                    {
-                        r4
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        [
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        ef16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        ef16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 2
-                        eqf16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 1
-                        ef16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        eqf8
-                        ]
+                        e'8
+                        e'16
+                        - \tenuto
+                        f'16
+                        - \tenuto
+                        ~
+                        f'8
+                        fs'8
+                        \ff
+                        - \tenuto
+                        \!
                     }
                 }
             }

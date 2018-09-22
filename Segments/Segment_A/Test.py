@@ -2,10 +2,10 @@ import abjad
 import itertools
 import os
 import pathlib
-import random
 import time
 import abjadext.rmakers
-#from TaleaMusicMaker import TaleaMusicMaker
+from MusicMaker import MusicMaker
+from AttachmentHandler import AttachmentHandler
 
 print('Interpreting file ...')
 
@@ -20,22 +20,11 @@ time_signatures = [
 
 bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 
-# Define rhythm-makers: two for actual music, one for silence.
+# Define rhythm-makers: two to be sued by the MusicMaker, one for silence.
 
-# musicmaker_one = TaleaMusicMaker(
-#     counts=[2, 2, 5, 3, 1, 1, 3, 1],
-#     denominator=8,
-#     pitches=[0],
-#     clef='percussion',
-#     extra_counts_per_division=[1, 0, 0, 1, 0, 3, 0, 0],
-#     mask_indices=[0],
-#     mask_period=0,
-#     beams=False,
-# ).make_basic_rhythm()
-
-rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
+rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 5, 3, 1, 1, 2, 1, 1, 1, 4],
+        counts=[1, 1, 1, 5, 3, 2, 4],
         denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
@@ -44,7 +33,7 @@ rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
         ),
     extra_counts_per_division=[0, 1, ],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest, abjad.Note],
+        left_classes=[abjad.Rest],
         left_counts=[1, 0, 1],
         ),
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
@@ -54,7 +43,7 @@ rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
         ),
     )
 
-rmaker_two = abjadext.rmakers.TaleaRhythmMaker(
+rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
         counts=[4, 3, -1, 2],
         denominator=8,
@@ -74,6 +63,29 @@ rmaker_two = abjadext.rmakers.TaleaRhythmMaker(
         rewrite_rest_filled=True,
         ),
     )
+
+# Initialize AttachmentHandler
+
+attachment_handler_one = AttachmentHandler(
+    starting_dynamic='mp',
+    ending_dynamic='ff',
+    hairpin_indicator='<',
+    articulation='tenuto',
+)
+
+# Initialize two MusicMakers with the rhythm-makers.
+
+rmaker_one = MusicMaker(
+    rmaker=rmaker_001,
+    pitches=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    continuous=True,
+    attachment_handler=attachment_handler_one,
+)
+rmaker_two = MusicMaker(
+    rmaker=rmaker_002,
+    continuous=True,
+    attachment_handler=attachment_handler_one,
+)
 
 silence_maker = abjadext.rmakers.NoteRhythmMaker(
     division_masks=[
@@ -289,9 +301,7 @@ for staff in score['Staff Group']:
 # Add skips and time signatures to the global context
 
 for time_signature in time_signatures:
-    skip = abjad.Skip(1)
-    abjad.attach(abjad.Multiplier(time_signature), skip)
-    abjad.attach(time_signature, skip)
+    skip = abjad.Skip(1, multiplier=(time_signature))
     score['Global Context'].append(skip)
 
 # Define a helper function that takes a rhythm maker and some durations and
@@ -301,9 +311,9 @@ for time_signature in time_signatures:
 print('Making containers ...')
 
 def make_container(rhythm_maker, durations):
-    state=rhythm_maker.state
-    selections = rhythm_maker(durations, previous_state=state)
-    container = abjad.Container(selections)
+    selections = rhythm_maker(durations)
+    container = abjad.Container([])
+    container.extend(selections)
     # # Add analysis brackets so we can see the phrasing graphically
     # start_indicator = abjad.LilyPondLiteral('\startGroup', format_slot='after')
     # stop_indicator = abjad.LilyPondLiteral('\stopGroup', format_slot='after')
@@ -331,7 +341,6 @@ def make_container(rhythm_maker, durations):
 def key_function(timespan):
     """
     Get the timespan's annotation's rhythm-maker.
-
     If the annotation's rhythm-maker is None, return the silence maker.
     """
     return timespan.annotation.rhythm_maker or silence_maker
@@ -359,7 +368,7 @@ print('Splitting and rewriting ...')
 
 # split and rewite meters
 for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
-    for i, shard in enumerate(abjad.mutate(voice[:]).split(time_signatures)):
+    for i , shard in enumerate(abjad.mutate(voice[:]).split(time_signatures)):
         time_signature = time_signatures[i]
         abjad.mutate(shard).rewrite_meter(time_signature)
 
@@ -378,6 +387,14 @@ for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
 #         abjad.attach(start_command, selection[0])
 #         abjad.attach(stop_command, selection[-1])
 
+for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
+    for rest in abjad.iterate(staff).components(abjad.Rest):
+        previous_leaf = abjad.inspect(rest).leaf(-1)
+        if isinstance(previous_leaf, abjad.Note):
+            abjad.attach(abjad.StopHairpin(), rest)
+        elif isinstance(previous_leaf, abjad.Note):
+            pass
+
 # Make pitches
 print('Adding pitch material ...')
 def cyc(lst):
@@ -386,73 +403,28 @@ def cyc(lst):
         yield lst[count%len(lst)]
         count += 1
 
-random.seed(1)
-violin_random_walk_1 = list()
-violin_random_walk_1.append(-1 if random.random() < 0.5 else 1)
-for i in range(1, 6):
-    movement = -1 if random.random() < 0.5 else 1
-    value = violin_random_walk_1[i-1] + movement
-    violin_random_walk_1.append(value)
-violin1_notes = [(x / 2.0) for x in violin_random_walk_1]
-
-random.seed(3)
-viola_random_walk_1 = list()
-viola_random_walk_1.append(-1 if random.random() < 0.5 else 1)
-for i in range(1, 6):
-    movement = -1 if random.random() < 0.5 else 1
-    value = viola_random_walk_1[i-1] + movement
-    viola_random_walk_1.append(value)
-viola_notes = [((x / 2.0) - 6) for x in viola_random_walk_1]
-
-random.seed(4)
-violin_random_walk_2 = list()
-violin_random_walk_2.append(-1 if random.random() < 0.5 else 1)
-for i in range(1, 6):
-    movement = -1 if random.random() < 0.5 else 1
-    value = violin_random_walk_2[i-1] + movement
-    violin_random_walk_2.append(value)
-violin2_notes = [((x / 2.0) + 3) for x in violin_random_walk_2]
-
-random.seed(7)
-cello_random_walk_1 = list()
-cello_random_walk_1.append(-1 if random.random() < 0.5 else 1)
-for i in range(1, 6):
-    movement = -1 if random.random() < 0.5 else 1
-    value = cello_random_walk_1[i-1] + movement
-    cello_random_walk_1.append(value)
-cello_notes = [((x / 2.0) - 8) for x in cello_random_walk_1]
-
-scales = [
-    violin1_notes,
-    violin2_notes,
-    viola_notes,
-    cello_notes,
-]
-
-staffs = [staff for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff)]
-
-for staff , scale in zip(staffs , scales):
-    logicl_ties = [i for i in abjad.iterate(staff).logical_ties(pitched=True)]
-    pitches = cyc(scale)
-    for i , logicl_tie in enumerate(logicl_ties):
-        if logicl_tie.is_pitched ==True:
-            pitch = next(pitches)
-            for note in logicl_tie:
-                note.written_pitch = pitch
 
 #attach instruments and clefs
 
 print('Adding attachments ...')
 bar_line = abjad.BarLine('||')
-metro = abjad.MetronomeMark((1, 4), 60)
-# markup = abjad.Markup(r'\bold { Invocation }')
-# mark = abjad.RehearsalMark(markup=markup)
+metro = abjad.MetronomeMark((1, 4), 120)
+markup = abjad.Markup(r'\bold { A }')
+mark = abjad.RehearsalMark(markup=markup)
 
 instruments = cyc([
     abjad.Violin(),
     abjad.Violin(),
     abjad.Viola(),
     abjad.Cello(),
+])
+
+clefs = cyc([
+    abjad.Clef('treble'),
+    abjad.Clef('treble'),
+    #abjad.Clef('varC'),
+    abjad.Clef('alto'),
+    abjad.Clef('bass'),
 ])
 
 abbreviations = cyc([
@@ -469,13 +441,6 @@ names = cyc([
     abjad.StartMarkup(markup=abjad.Markup('Violoncello'),),
 ])
 
-clefs = cyc([
-    abjad.Clef('treble'),
-    abjad.Clef('treble'),
-    abjad.Clef('varC'),
-    abjad.Clef('bass'),
-])
-
 for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
     leaf1 = abjad.select(staff).leaves()[0]
     abjad.attach(next(instruments), leaf1)
@@ -489,17 +454,20 @@ for staff in abjad.select(score['Staff Group']).components(abjad.Staff)[0]:
     abjad.attach(metro, leaf1)
     abjad.attach(bar_line, last_leaf)
 
-# for staff in abjad.iterate(score['Global Context']).components(abjad.Staff):
-#     leaf1 = abjad.select(staff).leaves()[0]
-#     abjad.attach(mark, leaf1)
+for staff in abjad.iterate(score['Global Context']).components(abjad.Staff):
+    leaf1 = abjad.select(staff).leaves()[0]
+    abjad.attach(mark, leaf1)
+
+for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
+    abjad.Instrument.transpose_from_sounding_pitch(staff)
 
 # Make a lilypond file and show it:
 
 score_file = abjad.LilyPondFile.new(
     score,
-    includes=['first_stylesheet.ily'],
+    includes=['first_stylesheet.ily', 'abjad.ily'],
     )
-# Comment measure numbers
+
 abjad.SegmentMaker.comment_measure_numbers(score)
 ###################
 
@@ -528,3 +496,4 @@ if path.exists():
 
 # for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
 #     abjad.show(staff)
+# abjad.show(score)
