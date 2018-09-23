@@ -33,6 +33,7 @@ class AttachmentHandler:
                 abjad.attach(abjad.HairpinIndicator(self.hairpin_indicator), leaves[0])
                 abjad.attach(abjad.LilyPondLiteral(r'\!', 'after'), leaves[-1])
                 abjad.attach(abjad.Dynamic(self.ending_dynamic), leaves[-1])
+                abjad.attach(abjad.HairpinIndicator('--'), leaves[-1])
             else:
                 leaves = abjad.select(run).leaves()
                 dynamic = next(self._cyc_dynamics)

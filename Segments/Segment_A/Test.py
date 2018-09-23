@@ -46,7 +46,7 @@ rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
 rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
         counts=[4, 3, -1, 2],
-        denominator=8,
+        denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
@@ -90,7 +90,7 @@ rmaker_one = MusicMaker(
 )
 rmaker_two = MusicMaker(
     rmaker=rmaker_002,
-    #pitches=[-10, -12, -15, -5, [5, 3, 1], 2.5, 1, 0.5],
+    pitches=[6, [9, 7], 8, 4],
     continuous=True,
     attachment_handler=attachment_handler_two,
 )

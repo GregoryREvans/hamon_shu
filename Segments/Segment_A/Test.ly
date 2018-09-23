@@ -99,6 +99,8 @@
                         fs'8.
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -133,6 +135,8 @@
                             e'16
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ]
                             \!
                         }
@@ -147,16 +151,30 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 12/11 {
                             % [Voice 1 measure 4] %! COMMENT_MEASURE_NUMBERS
-                            r2
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            c'8
+                            r4
+                            fs'8.
                             \ffff
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            r16
+                            \!
+                            <g' a'>16
+                            \ffff
+                            - \accent
+                            ~
+                            [
+                            <g' a'>16
+                            \>
+                            af'16
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            \!
                         }
                     }
                     {
@@ -181,6 +199,8 @@
                         fs'4..
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \!
                     }
                     {
@@ -200,23 +220,32 @@
                         r4
                     }
                     {
-                        r4.
-                        c'8
+                        r8.
+                        af'16
                         \mf
                         - \accent
                         ~
                         [
-                        c'8
+                        af'8
                         - \tweak stencil #constante-hairpin
                         \<
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        c'8
+                        ]
+                        r16
+                        \!
+                        e'16
                         \ffff
+                        - \accent
+                        ~
+                        [
+                        e'16
+                        \>
+                        fs'8.
+                        \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
+                        \!
                     }
                     {
                         % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
@@ -225,13 +254,31 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r4.
-                            c'4
+                        \times 12/11 {
+                            r16
+                            fs'8
+                            \ffff
+                            - \accent
+                            ~
+                            [
+                            fs'16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r16
+                            \!
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
+                            <g' a'>8
+                            \ffff
+                            - \accent
+                            \>
+                            af'4
                             \mf
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            \!
                         }
                     }
                     {
@@ -269,6 +316,8 @@
                             af'16
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ]
                             \!
                         }
@@ -280,17 +329,23 @@
                     }
                     {
                         r4
-                        c'4
+                        af'8
                         \ffff
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        c'4
+                        \>
+                        [
+                        e'8
+                        - \accent
+                        ~
+                        e'8
+                        fs'8
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
                         \bar "||"
+                        %\!
                     }
                 }
             }
@@ -312,24 +367,31 @@
                         r1
                     }
                     {
-                        r4
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r8
+                            fs'16
+                            \ffff
+                            - \accent
+                            \>
+                            [
+                        }
                     }
                     {
                         % [Voice 2 measure 2] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        \set stemLeftBeamCount = 0
-                        \set stemRightBeamCount = 1
-                        c'8
-                        \ffff
+                        fs'16
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        c'4.
+                        <g' a'>16
+                        - \accent
+                        ~
+                        <g' a'>8.
+                        af'8.
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
+                        \!
                     }
                     {
                         r2
@@ -357,6 +419,8 @@
                         c'8
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \!
                     }
                     {
@@ -365,24 +429,34 @@
                         \!
                     }
                     {
-                        r4
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            r16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
+                            af'8
+                            \ffff
+                            - \accent
+                            \>
+                        }
                     }
                     {
                         % [Voice 2 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        c'4
-                        \ffff
+                        e'4
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        c'4
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        fs'8.
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        \!
+                        r16
+                        \!
                     }
                     {
                         r2
-                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -431,6 +505,8 @@
                         cs'16
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -441,23 +517,30 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r4
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            \set stemLeftBeamCount = 0
-                            \set stemRightBeamCount = 1
-                            c'8
+                        \times 8/7 {
+                            r8
+                            fs'16
                             \ffff
                             - \accent
-                            - \tweak stencil #constante-hairpin
-                            \<
                             ~
+                            [
+                            fs'8.
+                            \>
+                            <g' a'>16
+                            - \accent
                         }
                     }
                     {
                         % [Voice 2 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        c'4
+                        <g' a'>8
+                        \mf
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        \!
+                        r16
+                        af'16
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -490,6 +573,8 @@
                             c'8.
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ]
                             \!
                         }
@@ -501,19 +586,32 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r8
-                            c'4
+                        \times 8/7 {
+                            r16
+                            af'4
                             \ffff
                             - \accent
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            \>
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
+                            e'8
+                            - \accent
+                            [
                         }
                     }
                     {
                         % [Voice 2 measure 12] %! COMMENT_MEASURE_NUMBERS
-                        c'4
+                        e'16
                         \mf
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        \!
+                        r16
+                        \!
+                        fs'8
+                        \ffff
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
@@ -561,6 +659,8 @@
                         e'16
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -571,14 +671,30 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 12/11 {
                             % [Voice 3 measure 3] %! COMMENT_MEASURE_NUMBERS
                             r4
-                            c'4.
-                            \ffff
+                            fs'8.
+                            \mf
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            r16
+                            \!
+                            <g' a'>16
+                            \ffff
+                            - \accent
+                            ~
+                            [
+                            <g' a'>16
+                            \>
+                            af'16
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            \!
                         }
                     }
                     {
@@ -587,23 +703,32 @@
                         \!
                     }
                     {
-                        r8
-                        c'8
-                        \mf
+                        r8.
+                        af'16
+                        \ffff
                         - \accent
                         ~
                         [
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        c'8
+                        af'8
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
-                        c'4.
+                        r16
+                        \!
+                        e'16
                         \ffff
+                        - \accent
+                        ~
+                        [
+                        e'16
+                        \>
+                        fs'8.
+                        \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
+                        \!
                     }
                     {
                         % [Voice 3 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -632,31 +757,46 @@
                             c'4..
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             \!
                         }
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 12/11 {
                             % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
-                            r8
+                            r16
                             \!
-                            c'4
+                            fs'8
                             \mf
                             - \accent
                             ~
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            c'8
+                            [
+                            fs'16
                             - \tweak stencil #constante-hairpin
                             \<
-                            r8
+                            ]
+                            r16
+                            \!
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 1
+                            <g' a'>8
+                            \ffff
+                            - \accent
+                            \>
+                            af'4
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
                             \!
                         }
                     }
                     {
                         % [Voice 3 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r1
+                        \!
                     }
                     {
                         % [Voice 3 measure 9] %! COMMENT_MEASURE_NUMBERS
@@ -683,6 +823,8 @@
                         <g' a'>8
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -711,6 +853,8 @@
                             d'8
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             \!
                         }
                     }
@@ -722,11 +866,22 @@
                     {
                         % [Voice 3 measure 12] %! COMMENT_MEASURE_NUMBERS
                         r4
-                        c'2
+                        af'8
                         \ffff
+                        - \accent
+                        \>
+                        [
+                        e'8
+                        - \accent
+                        ~
+                        e'8
+                        fs'8
+                        \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
+                        \!
                     }
                     {
                         r2
@@ -744,21 +899,32 @@
                 {
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 12/11 {
                             % [Voice 4 measure 1] %! COMMENT_MEASURE_NUMBERS
                             \set Staff.shortInstrumentName =
                             \markup { vc. }
                             \set Staff.instrumentName =
                             \markup { Violoncello }
                             \clef "bass"
-                            r2
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            c'8
+                            r8
+                            fs'16
+                            \ffff
+                            - \accent
+                            ~
+                            [
+                            fs'16
+                            \>
+                            <g' a'>16
+                            - \accent
+                            ~
+                            <g' a'>8.
+                            af'8.
                             \mf
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            ]
+                            \!
                         }
                     }
                     {
@@ -770,25 +936,38 @@
                         r2
                     }
                     {
-                        r8
-                        c'4.
+                        r16
+                        af'16
                         \ffff
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
                         ~
+                        [
+                        af'16
+                        \>
+                        e'16
+                        - \accent
+                        ~
+                        e'8.
+                        fs'16
+                        - \accent
                     }
                     {
-                        % [Voice 4 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        c'4
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            % [Voice 4 measure 3] %! COMMENT_MEASURE_NUMBERS
+                            fs'8
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            \!
+                            r16
+                            \!
+                        }
                     }
                     {
                         r2
-                        \!
                     }
                     {
                         % [Voice 4 measure 4] %! COMMENT_MEASURE_NUMBERS
@@ -813,6 +992,8 @@
                         c'16
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -825,15 +1006,35 @@
                         r2
                     }
                     {
-                        r2
-                    }
-                    {
-                        % [Voice 4 measure 6] %! COMMENT_MEASURE_NUMBERS
-                        c'4
+                        r8
+                        fs'4
                         \ffff
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \>
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        <g' a'>8
+                        - \accent
+                        [
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            % [Voice 4 measure 6] %! COMMENT_MEASURE_NUMBERS
+                            <g' a'>16
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            \!
+                            r16
+                            af'16
+                            \ffff
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                        }
                     }
                     {
                         r2
@@ -874,6 +1075,8 @@
                         cs'16
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
@@ -907,6 +1110,8 @@
                             c'8.
                             \ff
                             - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ]
                             \!
                         }
@@ -917,25 +1122,36 @@
                         \!
                     }
                     {
-                        r8
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        c'8
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ~
-                    }
-                    {
-                        % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
-                        c'2
+                        r16
+                        af'8.
                         \ffff
                         - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \>
+                        [
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
+                            af'16
+                            - \accent
+                            e'8
+                            \mf
+                            - \accent
+                            ~
+                            \!
+                            e'16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r16
+                            \!
+                            fs'8
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                        }
                     }
                     {
                         r2
@@ -965,6 +1181,8 @@
                         e'16
                         \ff
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
                         \!
                     }
