@@ -24,16 +24,16 @@ bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 
 rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[1, 1, 1, 5, 3, 2, 4],
+        counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
         denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_rests=False,
         ),
-    extra_counts_per_division=[0, 1, ],
+    extra_counts_per_division=[0, 1, 0, -1],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest],
+        left_classes=[abjad.Note, abjad.Rest],
         left_counts=[1, 0, 1],
         ),
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
@@ -54,7 +54,7 @@ rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
         ),
     extra_counts_per_division=[-1, 0,],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest],
+        left_classes=[abjad.Rest, abjad.Note],
         left_counts=[1, 0, 1],
         ),
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
@@ -69,22 +69,30 @@ rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
 attachment_handler_one = AttachmentHandler(
     starting_dynamic='mp',
     ending_dynamic='ff',
-    hairpin_indicator='<',
+    hairpin_indicator='<|',
     articulation='tenuto',
+)
+
+attachment_handler_two = AttachmentHandler(
+    starting_dynamic='ffff',
+    ending_dynamic='mf',
+    hairpin_indicator='>',
+    articulation='accent',
 )
 
 # Initialize two MusicMakers with the rhythm-makers.
 
 rmaker_one = MusicMaker(
     rmaker=rmaker_001,
-    pitches=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
     continuous=True,
     attachment_handler=attachment_handler_one,
 )
 rmaker_two = MusicMaker(
     rmaker=rmaker_002,
+    #pitches=[-10, -12, -15, -5, [5, 3, 1], 2.5, 1, 0.5],
     continuous=True,
-    attachment_handler=attachment_handler_one,
+    attachment_handler=attachment_handler_two,
 )
 
 silence_maker = abjadext.rmakers.NoteRhythmMaker(
@@ -302,6 +310,7 @@ for staff in score['Staff Group']:
 
 for time_signature in time_signatures:
     skip = abjad.Skip(1, multiplier=(time_signature))
+    abjad.attach(time_signature, skip)
     score['Global Context'].append(skip)
 
 # Define a helper function that takes a rhythm maker and some durations and
@@ -371,6 +380,37 @@ for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
     for i , shard in enumerate(abjad.mutate(voice[:]).split(time_signatures)):
         time_signature = time_signatures[i]
         abjad.mutate(shard).rewrite_meter(time_signature)
+
+for voice in abjad.select(score).components(abjad.Voice):
+    for run in abjad.select(voice).runs():
+        abjad.beam(run)
+        for leaf in run:
+            # continue if leaf can't be beamed
+            if abjad.Duration(1, 4) <= leaf.written_duration:
+                continue
+            previous_leaf = abjad.inspect(leaf).leaf(-1)
+            next_leaf = abjad.inspect(leaf).leaf(1)
+            # if next leaf is quarter note (or greater) ...
+            if (isinstance(next_leaf, (abjad.Chord, abjad.Note)) and
+                abjad.Duration(1, 4) <= next_leaf.written_duration):
+                left = previous_leaf.written_duration.flag_count
+                right = leaf.written_duration.flag_count # right-pointing nib
+                beam_count = abjad.BeamCount(
+                    left=left,
+                    right=right,
+                    )
+                abjad.attach(beam_count, leaf)
+                continue
+            # if previous leaf is quarter note (or greater) ...
+            if (isinstance(previous_leaf, (abjad.Chord, abjad.Note)) and
+                abjad.Duration(1, 4) <= previous_leaf.written_duration):
+                left = leaf.written_duration.flag_count # left-pointing nib
+                right = next_leaf.written_duration.flag_count
+                beam_count = abjad.BeamCount(
+                    left=left,
+                    right=right,
+                    )
+                abjad.attach(beam_count, leaf)
 
 # print('Beautifying score ...')
 # # cutaway score
@@ -465,7 +505,7 @@ for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
 
 score_file = abjad.LilyPondFile.new(
     score,
-    includes=['first_stylesheet.ily', 'abjad.ily'],
+    includes=['first_stylesheet.ily', '/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily'],
     )
 
 abjad.SegmentMaker.comment_measure_numbers(score)
