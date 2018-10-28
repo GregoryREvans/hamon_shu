@@ -34,18 +34,20 @@ class AttachmentHandler:
         for run in abjad.select(selections).runs():
             leaves = abjad.select(run).leaves()
             span = abjad.StartTextSpan(
+                #command='startTextSpanOne',
                 left_text=abjad.Markup(next(text)).upright(),
                 right_text=abjad.Markup(next(text)).upright(),
                 style=self.line_style,
                 )
             abjad.attach(span, leaves[0])
-            abjad.attach(abjad.StopTextSpan(), leaves[-1])
+            # abjad.attach(abjad.StopTextSpan(), leaves[-1])
 
     def _apply_text_and_span_l_only(self, selections):
         text = self._cyc_text
         for run in abjad.select(selections).runs():
             leaves = abjad.select(run).leaves()
             span = abjad.StartTextSpan(
+                #command='startTextSpanOne',
                 left_text=abjad.Markup(next(text)).upright(),
                 style='solid-line-with-hook',
                 )

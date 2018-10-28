@@ -77,7 +77,7 @@ attachment_handler_two = AttachmentHandler(
     starting_dynamic='ffff',
     ending_dynamic='mf',
     hairpin='>',
-    articulation_list=['accent', 'staccatissimo', 'open', ],
+    articulation_list=['accent', 'staccatissimo', 'open', 'halfopen', 'halfopen', 'halfopen', ],
     text_list=['ovr.pr.', 'ord.', 'scr.', ],
     line_style='solid-line-with-arrow',
 )
@@ -448,20 +448,28 @@ for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
         previous_leaf = abjad.inspect(rest).leaf(-1)
         if isinstance(previous_leaf, abjad.Note):
             abjad.attach(abjad.StopHairpin(), rest)
-            abjad.attach(abjad.StopTextSpan(), rest)
+            abjad.attach(abjad.StopTextSpan(
+            #command='stopTextSpanOne',
+            ), rest)
         elif isinstance(previous_leaf, abjad.Chord):
             abjad.attach(abjad.StopHairpin(), rest)
-            abjad.attach(abjad.StopTextSpan(), rest)
+            abjad.attach(abjad.StopTextSpan(
+            #command='stopTextSpanOne',
+            ), rest)
         elif isinstance(previous_leaf, abjad.Rest):
             pass
     for rest in abjad.iterate(staff).components(abjad.MultimeasureRest):
         previous_leaf = abjad.inspect(rest).leaf(-1)
         if isinstance(previous_leaf, abjad.Note):
             abjad.attach(abjad.StopHairpin(), rest)
-            abjad.attach(abjad.StopTextSpan(), rest)
+            abjad.attach(abjad.StopTextSpan(
+            #command='stopTextSpanOne',
+            ), rest)
         elif isinstance(previous_leaf, abjad.Chord):
             abjad.attach(abjad.StopHairpin(), rest)
-            abjad.attach(abjad.StopTextSpan(), rest)
+            abjad.attach(abjad.StopTextSpan(
+            #command='stopTextSpanOne',
+            ), rest)
         elif isinstance(previous_leaf, abjad.Rest):
             pass
 
@@ -492,8 +500,7 @@ instruments = cyc([
 clefs = cyc([
     abjad.Clef('treble'),
     abjad.Clef('treble'),
-    #abjad.Clef('varC'),
-    abjad.Clef('alto'),
+    abjad.Clef('varC'),
     abjad.Clef('bass'),
 ])
 

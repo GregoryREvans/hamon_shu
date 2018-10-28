@@ -114,7 +114,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -164,7 +163,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -296,7 +294,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -324,7 +321,7 @@
                         r8.
                         e'16
                         \mf
-                        - \accent
+                        - \halfopen
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -348,7 +345,7 @@
                         r16
                         fs'16
                         \ffff
-                        - \staccatissimo
+                        - \halfopen
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -373,7 +370,7 @@
                         \set stemRightBeamCount = 0
                         <g' a'>16
                         \mf
-                        - \open
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -489,7 +486,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -526,7 +522,7 @@
                         \set stemRightBeamCount = 1
                         <g' a'>8.
                         \mf
-                        - \accent
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -576,7 +572,7 @@
                         \set stemRightBeamCount = 1
                         af'8.
                         \ffff
-                        - \staccatissimo
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -595,7 +591,7 @@
                         \stopTextSpan
                         e'16
                         \mf
-                        - \open
+                        - \halfopen
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -658,7 +654,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -699,7 +694,6 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                         r16
                         \!
@@ -814,7 +808,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -879,7 +872,6 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                         r16
                         \!
@@ -888,7 +880,7 @@
                         \set stemRightBeamCount = 0
                         <g' a'>16
                         \mf
-                        - \accent
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -947,7 +939,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -965,7 +956,7 @@
                             \set stemRightBeamCount = 1
                             af'8.
                             \ffff
-                            - \staccatissimo
+                            - \halfopen
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-solid-line-with-hook
@@ -990,7 +981,7 @@
                         \set stemRightBeamCount = 1
                         e'8
                         \mf
-                        - \open
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1027,7 +1018,7 @@
                         \markup { vla. }
                         \set Staff.instrumentName =
                         \markup { Viola }
-                        \clef "alto"
+                        \clef "varC"
                         r2
                     }
                     {
@@ -1073,7 +1064,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -1169,7 +1159,7 @@
                         \set stemRightBeamCount = 1
                         e'8.
                         \mf
-                        - \accent
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1188,7 +1178,7 @@
                         \stopTextSpan
                         fs'16
                         \ffff
-                        - \staccatissimo
+                        - \halfopen
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1256,7 +1246,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -1269,7 +1258,7 @@
                             \stopTextSpan
                             <g' a'>8
                             \mf
-                            - \open
+                            - \halfopen
                             - \abjad-solid-line-with-hook
                             - \tweak bound-details.left.text \markup {
                                 \concat
@@ -1375,7 +1364,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -1421,7 +1409,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -1459,7 +1446,7 @@
                         \stopTextSpan
                         <g' a'>8
                         \mf
-                        - \accent
+                        - \halfopen
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1484,7 +1471,7 @@
                         \set stemRightBeamCount = 0
                         af'8
                         \ffff
-                        - \staccatissimo
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1528,7 +1515,7 @@
                             \set stemRightBeamCount = 1
                             e'8.
                             \mf
-                            - \open
+                            - \halfopen
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-solid-line-with-hook
@@ -1653,7 +1640,6 @@
                             \mf
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                             r16
                             \!
@@ -1704,7 +1690,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -1722,7 +1707,7 @@
                         \set stemRightBeamCount = 1
                         fs'8.
                         \mf
-                        - \accent
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1748,7 +1733,7 @@
                             \set stemRightBeamCount = 1
                             <g' a'>8
                             \ffff
-                            - \staccatissimo
+                            - \halfopen
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-solid-line-with-hook
@@ -1819,7 +1804,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                     {
@@ -1869,7 +1853,6 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
-                            \stopTextSpan
                             ]
                         }
                     }
@@ -1885,7 +1868,7 @@
                         \set stemRightBeamCount = 1
                         af'8.
                         \mf
-                        - \open
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -2000,7 +1983,6 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpan
                         ]
                     }
                 }
