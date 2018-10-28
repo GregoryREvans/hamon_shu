@@ -3,18 +3,17 @@
 \version "2.19.82"
 \language "english"
 #(set-default-paper-size "11x17landscape")
-#(set-global-staff-size 11)
+#(set-global-staff-size 12)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "Didot") \fontsize #12 \center-column {"H   a   m   o   n   s   h   ū"}
-	title =  \markup { \epsfile #Y #34 #"/Users/evansdsg2/Scores/hamon_shu/Segments/Test/title2.eps" }
-	subtitle = \markup \override #'(font-name . "Didot") \center-column {" "}
-	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #7 \center-column {"string quartet no.1" \vspace #2.5 }
-	arranger = \markup \override #'(font-name . "Didot") \fontsize #2.5 {"Gregory Rowland Evans"}
+	title =  \markup \override #'(font-name . "Didot") \fontsize #15 \bold\center-column {"Hamon shū" }
+	subtitle = \markup \override #'(font-name . "Didot") {" "}
+	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #6 \center-column {"string quartet no.1"}
+	arranger = \markup \override #'(font-name . "Didot") \fontsize #2.3 {"Gregory Rowland Evans"}
 }
 
 \layout {
@@ -25,7 +24,7 @@
 	%\accidentalStyle dodecaphonic
     indent = #5
 	%ragged-last = ##t
-    ragged-right = ##t
+    %ragged-right = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
@@ -47,8 +46,8 @@
 		\override MetronomeMark.Y-extent = #'(0 . 0)
 		\override MetronomeMark.break-align-symbols = #'(left-edge)
 		\override MetronomeMark.extra-offset = #'(0 . 4)
-		%\override MetronomeMark.font-size = 30
-		\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+		\override MetronomeMark.font-size = 3
+		%\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
 		\override RehearsalMark.X-extent = #'(0 . 0)
 		\override RehearsalMark.X-offset = 6
 		\override RehearsalMark.Y-offset = -2.25
@@ -61,10 +60,10 @@
         \override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.X-offset = #ly:self-alignment-interface::x-aligned-on-self
         \override TimeSignature.Y-extent = #'(0 . 0)
-		\override TimeSignature.Y-offset = 0
         \override TimeSignature.break-align-symbol = ##f
         \override TimeSignature.break-visibility = #end-of-line-invisible
-        \override TimeSignature.font-size = #6
+        \override TimeSignature.font-size = #5
+		%\override TimeSignature.font-size = #1
         \override TimeSignature.self-alignment-X = #center
         \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 0) (minimum-distance . 10) (padding . 6) (stretchability . 0))
     }
@@ -76,23 +75,16 @@
 		\override BarLine.bar-extent = #'(-2 . 2)
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
-        \override Beam.beam-thickness = #0.7
-        \override Beam.length-fraction = #1.2
-        \override DynamicText.font-size = #-3
 		\override Glissando.breakable = ##t
-		\override MetronomeMark.font-size = 3
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 10) (minimum-distance . 10) (padding . 2))
-		\override Stem.thickness = #0.55
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 18) (minimum-distance . 18) (padding . 0))
         \override TupletBracket.bracket-visibility = ##t
         \override TupletBracket.minimum-length = #3
         \override TupletBracket.padding = #2
         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
-		\override TextSpanner.Y-offset = 6
-		\override TextSpanner.padding = #3
 		proportionalNotationDuration = #(ly:make-moment 1 40)
         autoBeaming = ##f
         tupletFullLength = ##t
@@ -125,16 +117,16 @@
 	oddFooterMarkup = \markup \fill-line {
     ""
     \concat {
-      "Hamon shū ~"
+      "~"
 	  \fontsize #2
-	  \fromproperty #'page:page-number-string "~ Evans"
+	  \fromproperty #'page:page-number-string "~"
      }
     ""
   }
   evenFooterMarkup = \markup \fill-line {
     ""
-	\concat { "Hamon shū ~" \fontsize #2
-	\fromproperty #'page:page-number-string "~ Evans"
+	\concat { "~" \fontsize #2
+	\fromproperty #'page:page-number-string "~"
     } ""
   }
 }

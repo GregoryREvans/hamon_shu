@@ -82,6 +82,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpan
                         [
                         d'32
                         cs'32
@@ -99,6 +114,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -113,6 +129,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpan
                             [
                             af'32
                             <g' a'>16.
@@ -132,6 +163,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -161,7 +193,7 @@
                             \!
                             <g' a'>16
                             \mf
-                            - \accent
+                            - \staccatissimo
                             ~
                             [
                             <g' a'>16
@@ -175,7 +207,7 @@
                             \set stemRightBeamCount = 0
                             af'16
                             \ffff
-                            - \accent
+                            - \open
                             - \tweak stencil #constante-hairpin
                             \<
                         }
@@ -190,6 +222,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpan
                         [
                         d'32
                         cs'8.
@@ -211,6 +258,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -249,7 +297,7 @@
                         r16
                         fs'16
                         \ffff
-                        - \accent
+                        - \staccatissimo
                         ~
                         [
                         fs'8
@@ -262,7 +310,7 @@
                         \set stemRightBeamCount = 0
                         <g' a'>16
                         \mf
-                        - \accent
+                        - \open
                         - \tweak stencil #constante-hairpin
                         \<
                     }
@@ -288,7 +336,7 @@
                             \set stemRightBeamCount = 1
                             e'8
                             \mf
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                             r8
@@ -312,6 +360,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpan
                             [
                             af'32
                             ~
@@ -327,6 +390,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -341,7 +405,7 @@
                         \set stemRightBeamCount = 1
                         fs'8
                         \ffff
-                        - \accent
+                        - \open
                         - \tweak stencil #constante-hairpin
                         \<
                         r8
@@ -388,14 +452,14 @@
                         \set stemRightBeamCount = 1
                         af'8.
                         \ffff
-                        - \accent
+                        - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
                         r16
                         \!
                         e'16
                         \mf
-                        - \accent
+                        - \open
                         ~
                         [
                         e'16
@@ -414,6 +478,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpan
                         [
                         fs'8
                         ~
@@ -431,6 +510,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -471,7 +551,7 @@
                         \set stemRightBeamCount = 0
                         af'8
                         \mf
-                        - \accent
+                        - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
                     }
@@ -487,6 +567,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpan
                             [
                             d'8
                             ~
@@ -529,6 +624,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -542,7 +638,7 @@
                             r8
                             e'16
                             \ffff
-                            - \accent
+                            - \open
                             ~
                             [
                             e'16
@@ -588,6 +684,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpan
                             [
                             <g' a'>32
                             fs'32
@@ -604,6 +715,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -620,7 +732,7 @@
                             \set stemRightBeamCount = 1
                             af'8.
                             \ffff
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                             r16
@@ -633,7 +745,7 @@
                         \set stemRightBeamCount = 1
                         e'8
                         \mf
-                        - \accent
+                        - \open
                         - \tweak stencil #constante-hairpin
                         \<
                         r8
@@ -666,6 +778,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpan
                         [
                         d'32
                         cs'16
@@ -689,6 +816,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -719,7 +847,7 @@
                             \set stemRightBeamCount = 0
                             <g' a'>8.
                             \mf
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                         }
@@ -733,7 +861,7 @@
                         r16
                         af'16
                         \ffff
-                        - \accent
+                        - \open
                         ~
                         [
                         af'16
@@ -754,7 +882,7 @@
                         \!
                         fs'16
                         \ffff
-                        - \accent
+                        - \staccatissimo
                         ~
                         [
                         fs'16
@@ -778,6 +906,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpan
                             [
                             af'32
                             <g' a'>8..
@@ -795,6 +938,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -806,7 +950,7 @@
                             \!
                             <g' a'>8
                             \mf
-                            - \accent
+                            - \open
                             ~
                             [
                             <g' a'>16
@@ -828,7 +972,7 @@
                             \set stemRightBeamCount = 0
                             e'8
                             \mf
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                         }
@@ -846,6 +990,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpan
                         [
                         d'16
                         ~
@@ -861,6 +1020,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -875,6 +1035,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpan
                             [
                             <ef' f' bf'>8
                             ~
@@ -890,6 +1065,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -907,7 +1083,7 @@
                         \set stemRightBeamCount = 1
                         fs'8
                         \ffff
-                        - \accent
+                        - \open
                         - \tweak stencil #constante-hairpin
                         \<
                         r8
@@ -927,7 +1103,7 @@
                         \set stemRightBeamCount = 0
                         af'8
                         \ffff
-                        - \accent
+                        - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
                     }
@@ -959,7 +1135,7 @@
                             \set stemRightBeamCount = 1
                             e'8.
                             \mf
-                            - \accent
+                            - \open
                             - \tweak stencil #constante-hairpin
                             \<
                             r16
@@ -980,7 +1156,7 @@
                             \set stemRightBeamCount = 0
                             <g' a'>16
                             \mf
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                         }
@@ -997,7 +1173,7 @@
                         r8.
                         af'16
                         \ffff
-                        - \accent
+                        - \open
                         ~
                         [
                         af'16
@@ -1035,6 +1211,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpan
                         [
                         af'16.
                         ~
@@ -1055,6 +1246,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -1085,7 +1277,7 @@
                             \set stemRightBeamCount = 1
                             <g' a'>8
                             \ffff
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                             r16
@@ -1105,6 +1297,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpan
                             [
                             c'32
                             d'32
@@ -1129,6 +1336,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -1146,6 +1354,21 @@
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpan
                             [
                             <ef' f' bf'>32
                             e'32
@@ -1162,6 +1385,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -1176,7 +1400,7 @@
                         \set stemRightBeamCount = 1
                         af'8.
                         \mf
-                        - \accent
+                        - \open
                         - \tweak stencil #constante-hairpin
                         \<
                     }
@@ -1199,7 +1423,7 @@
                             \set stemRightBeamCount = 0
                             fs'8
                             \mf
-                            - \accent
+                            - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
                         }
@@ -1217,6 +1441,21 @@
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpan
                         [
                         <g' a'>32
                         fs'16
@@ -1240,6 +1479,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                 }

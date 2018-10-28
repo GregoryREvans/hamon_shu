@@ -69,16 +69,17 @@ rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
 attachment_handler_one = AttachmentHandler(
     ending_dynamic='ff',
     hairpin_indicator='o<|',
-    # text_list=['sp.', 'ord.', 'st.', ],
-    # line_style='dashed-line-with-arrow',
+    text_list=['sp.', 'ord.', 'st.', ],
+    line_style='dashed-line-with-arrow',
 )
 
 attachment_handler_two = AttachmentHandler(
     starting_dynamic='ffff',
     ending_dynamic='mf',
     hairpin_indicator='>',
-    articulation='accent',
+    articulation_list=['accent', 'staccatissimo', 'open', ],
     # text_list=['ovr.pr.', 'ord.', 'scr.', ],
+    # line_style='solid-line-with-arrow',
 )
 
 # Initialize two MusicMakers with the rhythm-makers.
