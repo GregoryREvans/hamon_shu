@@ -40,22 +40,22 @@ rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
         trivialize=True,
         extract_trivial=True,
         rewrite_rest_filled=True,
+        rewrite_sustained=True,
         ),
+    duration_specifier=abjadext.rmakers.DurationSpecifier(
+        rewrite_meter=True,
+    ),
     )
 
-rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
-    talea=abjadext.rmakers.Talea(
-        counts=[4, 3, -1, 2],
-        denominator=16,
-        ),
-    beam_specifier=abjadext.rmakers.BeamSpecifier(
-        beam_divisions_together=True,
-        beam_rests=False,
-        ),
-    extra_counts_per_division=[-1, 0,],
+rmaker_002 = abjadext.rmakers.EvenDivisionRhythmMaker(
+    denominators=[16, 16, 8, 16, 4, 16, 8],
+    extra_counts_per_division=[0, 1, 0, 0, -1, 0, 1],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest, abjad.Note],
-        left_counts=[1, 0, 1],
+        left_classes=[abjad.Rest],
+        left_counts=[1],
+        right_classes=[abjad.Rest],
+        right_counts=[1],
+        outer_divisions_only=True,
         ),
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
         trivialize=True,
@@ -381,59 +381,101 @@ for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
         time_signature = time_signatures[i]
         abjad.mutate(shard).rewrite_meter(time_signature)
 
+# for voice in abjad.select(score).components(abjad.Voice):
+#     for run in abjad.select(voice).runs():
+#         abjad.beam(run)
+#         for leaf in run:
+#             # continue if leaf can't be beamed
+#             if abjad.Duration(1, 4) <= leaf.written_duration:
+#                 continue
+#             previous_leaf = abjad.inspect(leaf).leaf(-1)
+#             next_leaf = abjad.inspect(leaf).leaf(1)
+#             # if next leaf is quarter note (or greater) ...
+#             if (isinstance(next_leaf, (abjad.Chord, abjad.Note)) and
+#                 abjad.Duration(1, 4) <= next_leaf.written_duration):
+#                 left = previous_leaf.written_duration.flag_count
+#                 right = leaf.written_duration.flag_count # right-pointing nib
+#                 beam_count = abjad.BeamCount(
+#                     left=left,
+#                     right=right,
+#                     )
+#                 abjad.attach(beam_count, leaf)
+#                 continue
+#             # if previous leaf is quarter note (or greater) ...
+#             if (isinstance(previous_leaf, (abjad.Chord, abjad.Note)) and
+#                 abjad.Duration(1, 4) <= previous_leaf.written_duration):
+#                 left = leaf.written_duration.flag_count # left-pointing nib
+#                 right = next_leaf.written_duration.flag_count
+#                 beam_count = abjad.BeamCount(
+#                     left=left,
+#                     right=right,
+#                     )
+#                 abjad.attach(beam_count, leaf)
+
+# other option
 for voice in abjad.select(score).components(abjad.Voice):
     for run in abjad.select(voice).runs():
-        abjad.beam(run)
-        for leaf in run:
-            # continue if leaf can't be beamed
-            if abjad.Duration(1, 4) <= leaf.written_duration:
-                continue
-            previous_leaf = abjad.inspect(leaf).leaf(-1)
-            next_leaf = abjad.inspect(leaf).leaf(1)
-            # if next leaf is quarter note (or greater) ...
-            if (isinstance(next_leaf, (abjad.Chord, abjad.Note)) and
-                abjad.Duration(1, 4) <= next_leaf.written_duration):
-                left = previous_leaf.written_duration.flag_count
-                right = leaf.written_duration.flag_count # right-pointing nib
-                beam_count = abjad.BeamCount(
-                    left=left,
-                    right=right,
-                    )
-                abjad.attach(beam_count, leaf)
-                continue
-            # if previous leaf is quarter note (or greater) ...
-            if (isinstance(previous_leaf, (abjad.Chord, abjad.Note)) and
-                abjad.Duration(1, 4) <= previous_leaf.written_duration):
-                left = leaf.written_duration.flag_count # left-pointing nib
-                right = next_leaf.written_duration.flag_count
-                beam_count = abjad.BeamCount(
-                    left=left,
-                    right=right,
-                    )
-                abjad.attach(beam_count, leaf)
+        if 1 < len(run):
+            # use a beam_specifier to remove beam indicators from run
+            specifier = abjadext.rmakers.BeamSpecifier(
+                beam_each_division=False,
+                )
+            specifier(run)
+            # then attach new indicators at the 0 and -1 of run
+            abjad.attach(abjad.StartBeam(), run[0])
+            abjad.attach(abjad.StopBeam(), run[-1])
+            for leaf in run:
+                # continue if leaf can't be beamed
+                if abjad.Duration(1, 4) <= leaf.written_duration:
+                    continue
+                previous_leaf = abjad.inspect(leaf).leaf(-1)
+                next_leaf = abjad.inspect(leaf).leaf(1)
+                # if next leaf is quarter note (or greater) ...
+                if (isinstance(next_leaf, (abjad.Chord, abjad.Note)) and
+                    abjad.Duration(1, 4) <= next_leaf.written_duration):
+                    left = previous_leaf.written_duration.flag_count
+                    right = leaf.written_duration.flag_count # right-pointing nib
+                    beam_count = abjad.BeamCount(
+                        left=left,
+                        right=right,
+                        )
+                    abjad.attach(beam_count, leaf)
+                    continue
+                # if previous leaf is quarter note (or greater) ...
+                if (isinstance(previous_leaf, (abjad.Chord, abjad.Note)) and
+                    abjad.Duration(1, 4) <= previous_leaf.written_duration):
+                    left = leaf.written_duration.flag_count # left-pointing nib
+                    right = next_leaf.written_duration.flag_count
+                    beam_count = abjad.BeamCount(
+                        left=left,
+                        right=right,
+                        )
+                    abjad.attach(beam_count, leaf)
 
-# print('Beautifying score ...')
-# # cutaway score
-# for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
-#     for selection in abjad.select(staff).components(abjad.Rest).group_by_contiguity():
-#         start_command = abjad.LilyPondLiteral(
-#             r'\stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff',
-#             format_slot='before',
-#             )
-#         stop_command = abjad.LilyPondLiteral(
-#             r'\stopStaff \startStaff',
-#             format_slot='after',
-#             )
-#         abjad.attach(start_command, selection[0])
-#         abjad.attach(stop_command, selection[-1])
+
+print('Beautifying score ...')
+# cutaway score
+for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
+    for selection in abjad.select(staff).components(abjad.Rest).group_by_contiguity():
+        start_command = abjad.LilyPondLiteral(
+            r'\stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff',
+            format_slot='before',
+            )
+        stop_command = abjad.LilyPondLiteral(
+            r'\stopStaff \startStaff',
+            format_slot='after',
+            )
+        abjad.attach(start_command, selection[0])
+        abjad.attach(stop_command, selection[-1])
 
 for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
     for rest in abjad.iterate(staff).components(abjad.Rest):
         previous_leaf = abjad.inspect(rest).leaf(-1)
-        if isinstance(previous_leaf, abjad.Note):
-            abjad.attach(abjad.StopHairpin(), rest)
-        elif isinstance(previous_leaf, abjad.Note):
-            pass
+        if isinstance(previous_leaf, (abjad.Note, abjad.Chord)):
+            indicators = abjad.inspect(previous_leaf).indicators()
+            if abjad.HairpinIndicator('--') in indicators:
+                abjad.attach(abjad.StopHairpin(), rest)
+
 
 # Make pitches
 print('Adding pitch material ...')
@@ -511,8 +553,8 @@ score_file = abjad.LilyPondFile.new(
 abjad.SegmentMaker.comment_measure_numbers(score)
 ###################
 
-#print(format(score_file))
-directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Segment_A'
+# print(format(score_file))
+directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Segment_A/subtest'
 pdf_path = f'{directory}/Test.pdf'
 path = pathlib.Path('Test.pdf')
 if path.exists():
@@ -534,6 +576,6 @@ if path.exists():
     print(f'Opening {pdf_path} ...')
     os.system(f'open {pdf_path}')
 
-# for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
-#     abjad.show(staff)
-# abjad.show(score)
+for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
+    abjad.show(staff)
+# abjad.show(score_file)

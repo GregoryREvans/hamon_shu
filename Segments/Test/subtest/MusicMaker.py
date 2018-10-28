@@ -4,8 +4,8 @@ from AttachmentHandler import AttachmentHandler
 class MusicMaker:
     def __init__(
         self,
-        attachment_handler,
         rmaker,
+        attachment_handler=None,
         pitches=None,
         continuous=False,
     ):
@@ -30,15 +30,8 @@ class MusicMaker:
             selections = self.attachment_handler.add_attachments(selections)
             return selections
         selections = self._apply_pitches(selections, self.pitches)
+        self._count += 1
         selections = self.attachment_handler(selections)
-        return selections
-        AttachmentHandler(
-            selections=selections,
-            starting_dynamic=self.starting_dynamic,
-            ending_dynamic=self.ending_dynamic,
-            hairpin_indicator=self.hairpin_indicator,
-            articulation=self.articulation,
-        )
         return selections
 
     def _collect_pitches_durations_leaves(self, logical_ties, pitches):
@@ -49,9 +42,7 @@ class MusicMaker:
                 yield lst[self._count % len(lst)]
                 self._count += 1
         cyc_pitches = cyc(pitches)
-        pitches = []
-        durations = []
-        leaves = []
+        pitches, durations, leaves = [[], [], []]
         for tie in logical_ties:
             pitch = next(cyc_pitches)
             for leaf in tie:
@@ -69,6 +60,9 @@ class MusicMaker:
             old_ties, pitches)
         new_leaves = [leaf for leaf in leaf_maker(pitches, durations)]
         for old_leaf, new_leaf in zip(old_leaves, new_leaves):
+            indicators = abjad.inspect(old_leaf).indicators()
+            for indicator in indicators:
+                abjad.attach(indicator, new_leaf)
             parent = abjad.inspect(old_leaf).parentage().parent
             parent[parent.index(old_leaf)] = new_leaf
         return [container[:]]
