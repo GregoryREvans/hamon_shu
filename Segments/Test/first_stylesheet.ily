@@ -12,9 +12,9 @@
 	breakbefore = ##t
 	dedication = \markup \override #'(font-name . "Didot") \fontsize #12 \center-column {"H   a   m   o   n   s   h   ū"}
 	title =  \markup { \epsfile #Y #34 #"/Users/evansdsg2/Scores/hamon_shu/Segments/Test/title2.eps" }
-	subtitle = \markup \override #'(font-name . "Didot") \center-column {" "}
-	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #7 \center-column {"string quartet no.1" \vspace #2.5 }
-	arranger = \markup \override #'(font-name . "Didot") \fontsize #2.5 {"Gregory Rowland Evans"}
+	subtitle = \markup \override #'(font-name . "Didot") \fontsize #7 \center-column {"s  t  r  i  n  g    q  u  a  r  t  e  t    n  o.   1"}
+	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #2 \center-column {";       o  r       t  h  e       m  a  n  y       w  a  y  s       o  f       d  r  a  w  i  n  g       w  a  t  e  r"}
+	arranger = \markup \override #'(font-name . "Didot") \fontsize #5 {"Gregory Rowland Evans"}
 }
 
 \layout {
@@ -61,7 +61,7 @@
         \override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.X-offset = #ly:self-alignment-interface::x-aligned-on-self
         \override TimeSignature.Y-extent = #'(0 . 0)
-		\override TimeSignature.Y-offset = 0
+		\override TimeSignature.Y-offset = 2
         \override TimeSignature.break-align-symbol = ##f
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = #6
@@ -84,14 +84,14 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 10) (minimum-distance . 10) (padding . 2))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 15) (minimum-distance . 15) (padding . 3))
 		\override Stem.thickness = #0.55
         \override TupletBracket.bracket-visibility = ##t
         \override TupletBracket.minimum-length = #3
         \override TupletBracket.padding = #2
         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
-		\override TextSpanner.Y-offset = 6
+		\override TextSpanner.Y-offset = 9
 		\override TextSpanner.padding = #3
 		proportionalNotationDuration = #(ly:make-moment 1 40)
         autoBeaming = ##f
@@ -115,7 +115,7 @@
 }
 
 \paper {
-
+	score-system-spacing = #'((basic-distance . 15) (minimum-distance . 15) (padding . 1))
 	top-margin = 1.5\cm
 	bottom-margin = 1.5\cm
 

@@ -120,6 +120,7 @@
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -170,6 +171,7 @@
                     {
                         r4
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 1 measure 3] %! COMMENT_MEASURE_NUMBERS
@@ -189,11 +191,34 @@
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r16
                             \!
+                            \stopTextSpan
                             <g' a'>16
                             \mf
                             - \staccatissimo
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             ~
                             [
                             <g' a'>16
@@ -202,6 +227,7 @@
                             ]
                             r16
                             \!
+                            \stopTextSpan
                             r16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
@@ -210,11 +236,23 @@
                             - \open
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                         }
                     }
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 1 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -264,6 +302,7 @@
                     {
                         r4
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 1 measure 6] %! COMMENT_MEASURE_NUMBERS
@@ -286,6 +325,17 @@
                         e'16
                         \mf
                         - \accent
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         e'16
@@ -294,10 +344,22 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         r16
                         fs'16
                         \ffff
                         - \staccatissimo
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         fs'8
@@ -306,6 +368,7 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
                         <g' a'>16
@@ -313,11 +376,23 @@
                         - \open
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                     }
                     {
                         % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -330,8 +405,20 @@
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r16
                             \!
+                            \stopTextSpan
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             e'8
@@ -339,8 +426,20 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r8
                             \!
+                            \stopTextSpan
                         }
                     }
                     {
@@ -398,6 +497,7 @@
                         % [Voice 1 measure 12] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         r4
@@ -408,8 +508,20 @@
                         - \open
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r8
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
                         <g' a'>8.
@@ -417,8 +529,20 @@
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r16
                         \!
+                        \stopTextSpan
                         \bar "||"
                     }
                 }
@@ -455,11 +579,34 @@
                         - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r16
                         \!
+                        \stopTextSpan
                         e'16
                         \mf
                         - \open
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         e'16
@@ -468,6 +615,7 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                     }
                     {
                         r2
@@ -517,6 +665,7 @@
                         % [Voice 2 measure 4] %! COMMENT_MEASURE_NUMBERS
                         r1
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -526,6 +675,21 @@
                             \ffff
                             \>
                             ~
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpan
                             [
                         }
                     }
@@ -535,9 +699,11 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
                         <g' a'>8
@@ -545,8 +711,20 @@
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r8
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
                         af'8
@@ -554,10 +732,22 @@
                         - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                     }
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -631,6 +821,7 @@
                         % [Voice 2 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -639,6 +830,17 @@
                             e'16
                             \ffff
                             - \open
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             ~
                             [
                             e'16
@@ -647,11 +849,27 @@
                             ]
                             r16
                             \!
+                            \stopTextSpan
                             r16
                             fs'16
                             \ffff
                             \>
                             ~
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ovr.pr.
+                                }
+                            \startTextSpan
                             [
                         }
                     }
@@ -661,9 +879,11 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
                         <g' a'>16
@@ -671,10 +891,22 @@
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                     }
                     {
                         r1
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -723,6 +955,7 @@
                         % [Voice 2 measure 11] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -735,8 +968,20 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r16
                             \!
+                            \stopTextSpan
                         }
                     }
                     {
@@ -748,8 +993,20 @@
                         - \open
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r8
                         \!
+                        \stopTextSpan
                     }
                     {
                         r1
@@ -824,6 +1081,7 @@
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r1
                         \!
+                        \stopTextSpan
                         \stopStaff \startStaff
                     }
                     {
@@ -834,6 +1092,17 @@
                             fs'16
                             \ffff
                             - \accent
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             ~
                             [
                             fs'16
@@ -842,6 +1111,7 @@
                             ]
                             r16
                             \!
+                            \stopTextSpan
                             r16
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
@@ -850,18 +1120,41 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                         }
                     }
                     {
                         % [Voice 3 measure 4] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         r16
                         af'16
                         \ffff
                         - \open
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         af'16
@@ -870,6 +1163,7 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         r16
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 1
@@ -878,11 +1172,34 @@
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r16
                         \!
+                        \stopTextSpan
                         fs'16
                         \ffff
                         - \staccatissimo
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         fs'16
@@ -891,6 +1208,7 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 3 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -948,9 +1266,21 @@
                             % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
                             r16
                             \!
+                            \stopTextSpan
                             <g' a'>8
                             \mf
                             - \open
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             ~
                             [
                             <g' a'>16
@@ -959,6 +1289,7 @@
                             ]
                             r16
                             \!
+                            \stopTextSpan
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             af'8
@@ -966,8 +1297,20 @@
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r8
                             \!
+                            \stopTextSpan
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
                             e'8
@@ -975,6 +1318,17 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                         }
                     }
                     {
@@ -982,6 +1336,7 @@
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r1
                         \!
+                        \stopTextSpan
                         \stopStaff \startStaff
                     }
                     {
@@ -1026,6 +1381,7 @@
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1074,6 +1430,7 @@
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r1
                         \!
+                        \stopTextSpan
                         \stopStaff \startStaff
                     }
                     {
@@ -1086,11 +1443,34 @@
                         - \open
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r8
                         \!
+                        \stopTextSpan
                         <g' a'>8
                         \mf
                         - \accent
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         <g' a'>16
@@ -1099,6 +1479,7 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         \set stemLeftBeamCount = 1
                         \set stemRightBeamCount = 0
                         af'8
@@ -1106,10 +1487,22 @@
                         - \staccatissimo
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                     }
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                 }
             }
@@ -1138,11 +1531,34 @@
                             - \open
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r16
                             \!
+                            \stopTextSpan
                             fs'16
                             \ffff
                             - \accent
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             ~
                             [
                             fs'16
@@ -1151,6 +1567,7 @@
                             ]
                             r16
                             \!
+                            \stopTextSpan
                             r16
                             \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
@@ -1159,11 +1576,23 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                         }
                     }
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 2] %! COMMENT_MEASURE_NUMBERS
@@ -1174,6 +1603,17 @@
                         af'16
                         \ffff
                         - \open
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         ~
                         [
                         af'16
@@ -1182,11 +1622,27 @@
                         ]
                         r16
                         \!
+                        \stopTextSpan
                         r16
                         e'16
                         \ffff
                         \>
                         ~
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                scr.
+                            }
+                        \startTextSpan
                         [
                     }
                     {
@@ -1197,9 +1653,11 @@
                             \mf
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                             r16
                             \!
+                            \stopTextSpan
                         }
                     }
                     {
@@ -1252,6 +1710,7 @@
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -1266,8 +1725,20 @@
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                         r16
                         \!
+                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1280,8 +1751,20 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r16
                             \!
+                            \stopTextSpan
                         }
                     }
                     {
@@ -1342,6 +1825,7 @@
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
@@ -1393,6 +1877,7 @@
                         % [Voice 4 measure 10] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         r16
@@ -1403,6 +1888,17 @@
                         - \open
                         - \tweak stencil #constante-hairpin
                         \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \startTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1410,6 +1906,7 @@
                             % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
                             r16
                             \!
+                            \stopTextSpan
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             e'8
@@ -1417,8 +1914,20 @@
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                             r8
                             \!
+                            \stopTextSpan
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 0
                             fs'8
@@ -1426,11 +1935,23 @@
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
                             \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            \startTextSpan
                         }
                     }
                     {
                         r2
                         \!
+                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 12] %! COMMENT_MEASURE_NUMBERS

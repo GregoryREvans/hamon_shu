@@ -6,7 +6,7 @@ class AttachmentHandler:
         self,
         starting_dynamic=None,
         ending_dynamic=None,
-        hairpin_indicator=None,
+        hairpin=None,
         articulation_list=None,
         text_list=None,
         line_style=None,
@@ -18,7 +18,7 @@ class AttachmentHandler:
                 count += 1
         self.starting_dynamic = starting_dynamic
         self.ending_dynamic = ending_dynamic
-        self.hairpin_indicator = hairpin_indicator
+        self.hairpin = hairpin
         self.articulation_list = articulation_list
         self.text_list = text_list
         self.line_style = line_style
@@ -30,17 +30,16 @@ class AttachmentHandler:
         return self.add_attachments(selections)
 
     def _apply_text_and_span_lr(self, selections):
-        if len(self.text_list) > 1:
-            text = self._cyc_text
-            for run in abjad.select(selections).runs():
-                leaves = abjad.select(run).leaves()
-                span = abjad.StartTextSpan(
-                    left_text=abjad.Markup(next(text)).upright(),
-                    right_text=abjad.Markup(next(text)).upright(),
-                    style=self.line_style,
-                    )
-                abjad.attach(span, leaves[0])
-                abjad.attach(abjad.StopTextSpan(), leaves[-1])
+        text = self._cyc_text
+        for run in abjad.select(selections).runs():
+            leaves = abjad.select(run).leaves()
+            span = abjad.StartTextSpan(
+                left_text=abjad.Markup(next(text)).upright(),
+                right_text=abjad.Markup(next(text)).upright(),
+                style=self.line_style,
+                )
+            abjad.attach(span, leaves[0])
+            abjad.attach(abjad.StopTextSpan(), leaves[-1])
 
     def _apply_text_and_span_l_only(self, selections):
         text = self._cyc_text
@@ -50,8 +49,9 @@ class AttachmentHandler:
                 left_text=abjad.Markup(next(text)).upright(),
                 style='solid-line-with-hook',
                 )
+            last_leaf = leaves[-1]
+            next_leaf = abjad.inspect(last_leaf).leaf(1)
             abjad.attach(span, leaves[0])
-            abjad.attach(abjad.StopTextSpan(), leaves[-1])
 
     def add_attachments(self, selections):
         runs = abjad.select(selections).runs()
@@ -61,16 +61,16 @@ class AttachmentHandler:
                 leaves = abjad.select(run).leaves()
                 if self.starting_dynamic != None:
                     abjad.attach(abjad.Dynamic(self.starting_dynamic), leaves[0])
-                if self.hairpin_indicator != None:
-                    abjad.attach(abjad.HairpinIndicator(self.hairpin_indicator), leaves[0])
+                if self.hairpin != None:
+                    abjad.attach(abjad.StartHairpin(self.hairpin), leaves[0])
                 if self.ending_dynamic != None:
                     abjad.attach(abjad.Dynamic(self.ending_dynamic), leaves[-1])
-                abjad.attach(abjad.HairpinIndicator('--'), leaves[-1])
+                abjad.attach(abjad.StartHairpin('--'), leaves[-1])
                 if self.text_list != None:
                     if len(self.text_list) > 1:
-                        self._apply_text_and_span_lr(selections)
+                        self._apply_text_and_span_lr(run)
                     else:
-                        self._apply_text_and_span_l_only(selections)
+                        self._apply_text_and_span_l_only(run)
             else:
                 leaves = abjad.select(run).leaves()
                 dynamic = next(self._cyc_dynamics)
@@ -82,9 +82,9 @@ class AttachmentHandler:
                 if self.starting_dynamic == None:
                     if self.ending_dynamic != None:
                         abjad.attach(abjad.Dynamic(self.ending_dynamic), leaves[0])
-                abjad.attach(abjad.HairpinIndicator('--'), leaves[0])
+                abjad.attach(abjad.StartHairpin('--'), leaves[0])
                 if self.text_list != None:
-                    self._apply_text_and_span_l_only(selections)
+                    self._apply_text_and_span_l_only(run)
         for tie in ties:
             if len(tie) == 1:
                 if self.articulation_list != None:
