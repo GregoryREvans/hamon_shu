@@ -25,7 +25,7 @@ bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
         counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
-        denominator=16,
+        denominator=32,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
@@ -45,7 +45,7 @@ rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
 
 rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[4, 3, -1, 2],
+        counts=[-2, 3, -1, 2],
         denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
@@ -69,8 +69,8 @@ rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
 attachment_handler_one = AttachmentHandler(
     ending_dynamic='ff',
     hairpin_indicator='o<|',
-    text_list=['sp.', 'ord.', 'st.', ],
-    line_style='dashed-line-with-arrow',
+    # text_list=['sp.', 'ord.', 'st.', ],
+    # line_style='dashed-line-with-arrow',
 )
 
 attachment_handler_two = AttachmentHandler(
@@ -78,7 +78,7 @@ attachment_handler_two = AttachmentHandler(
     ending_dynamic='mf',
     hairpin_indicator='>',
     articulation='accent',
-    text_list=['ovr.pr.', 'ord.', 'scr.', ],
+    # text_list=['ovr.pr.', 'ord.', 'scr.', ],
 )
 
 # Initialize two MusicMakers with the rhythm-makers.
@@ -382,17 +382,6 @@ for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
         time_signature = time_signatures[i]
         abjad.mutate(shard).rewrite_meter(time_signature)
 
-# change full measure rests to multimeasure rests
-for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
-    leaves = abjad.select(voice).leaves()
-    for shard in abjad.mutate(leaves).split(time_signatures):
-        if not all(isinstance(leaf, abjad.Rest) for leaf in shard):
-            continue
-        multiplier = abjad.Multiplier(abjad.inspect(shard).duration())
-        multimeasure_rest = abjad.MultimeasureRest(1)
-        multimeasure_rest.multiplier
-        abjad.mutate(shard).replace(multimeasure_rest)
-
 print('Beaming runs ...')
 for voice in abjad.select(score).components(abjad.Voice):
     for run in abjad.select(voice).runs():
@@ -435,8 +424,12 @@ for voice in abjad.select(score).components(abjad.Voice):
 
 print('Beautifying score ...')
 # cutaway score
-for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
-    for selection in abjad.select(staff).components(abjad.MultimeasureRest).group_by_contiguity():
+for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
+    leaves = abjad.select(voice).leaves()
+    for shard in abjad.mutate(leaves).split(time_signatures):
+        if not all(isinstance(leaf, abjad.Rest) for leaf in shard):
+            continue
+        selection = abjad.select(shard).leaves()
         start_command = abjad.LilyPondLiteral(
             r'\stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff',
             format_slot='before',
@@ -544,7 +537,7 @@ abjad.SegmentMaker.comment_measure_numbers(score)
 ###################
 
 #print(format(score_file))
-directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Segment_A'
+directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Test'
 pdf_path = f'{directory}/Test.pdf'
 path = pathlib.Path('Test.pdf')
 if path.exists():
