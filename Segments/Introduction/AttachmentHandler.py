@@ -34,34 +34,36 @@ class AttachmentHandler:
         for run in abjad.select(selections).runs():
             leaves = abjad.select(run).leaves()
             span = abjad.StartTextSpan(
-                #command='startTextSpanOne',
+                command=r'\startTextSpanOne',
                 left_text=abjad.Markup(next(text)).upright(),
                 right_text=abjad.Markup(next(text)).upright(),
                 style=self.line_style,
                 )
             abjad.attach(span, leaves[0])
-            abjad.attach(abjad.StopTextSpan(), leaves[-1])
+            abjad.attach(abjad.StopTextSpan(command=r'\stopTextSpanOne',), leaves[-1])
 
     def _apply_text_and_span_l_long(self, selections):
         text = self._cyc_text
         for run in abjad.select(selections).runs():
             leaves = abjad.select(run).leaves()
             span = abjad.StartTextSpan(
-                #command='startTextSpanOne',
+                command=r'\startTextSpanOne',
+                right_padding=2.5,
                 left_text=abjad.Markup(next(text)).upright(),
                 style='solid-line-with-hook',
                 )
             last_leaf = leaves[-1]
             next_leaf = abjad.inspect(last_leaf).leaf(1)
             abjad.attach(span, leaves[0])
-            abjad.attach(abjad.StopTextSpan(), leaves[-1])
+            abjad.attach(abjad.StopTextSpan(command=r'\stopTextSpanOne',), leaves[-1])
 
     def _apply_text_and_span_l_short(self, selections):
         text = self._cyc_text
         for run in abjad.select(selections).runs():
             leaves = abjad.select(run).leaves()
             span = abjad.StartTextSpan(
-                #command='startTextSpanOne',
+                command=r'\startTextSpanOne',
+                right_padding=2.5,
                 left_text=abjad.Markup(next(text)).upright(),
                 style='solid-line-with-hook',
                 )

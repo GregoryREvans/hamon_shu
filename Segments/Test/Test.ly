@@ -114,12 +114,12 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -163,13 +163,13 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
                     {
                         r4
                         \!
-                        \stopTextSpan
                     }
                     {
                         % [Voice 1 measure 3] %! COMMENT_MEASURE_NUMBERS
@@ -294,12 +294,12 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         r4
                         \!
-                        \stopTextSpan
                     }
                     {
                         % [Voice 1 measure 6] %! COMMENT_MEASURE_NUMBERS
@@ -486,6 +486,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -493,7 +494,6 @@
                         % [Voice 1 measure 12] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         r4
@@ -654,13 +654,13 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         % [Voice 2 measure 4] %! COMMENT_MEASURE_NUMBERS
                         r1
                         \!
-                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -694,6 +694,7 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                         r16
                         \!
@@ -808,13 +809,13 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         % [Voice 2 measure 8] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -872,6 +873,7 @@
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                         r16
                         \!
@@ -939,6 +941,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -946,7 +949,6 @@
                         % [Voice 2 measure 11] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1064,6 +1066,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
@@ -1071,7 +1074,6 @@
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r1
                         \!
-                        \stopTextSpan
                         \stopStaff \startStaff
                     }
                     {
@@ -1246,6 +1248,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -1255,7 +1258,6 @@
                             % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
                             r16
                             \!
-                            \stopTextSpan
                             <g' a'>8
                             \mf
                             - \halfopen
@@ -1364,12 +1366,12 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1409,6 +1411,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -1417,7 +1420,6 @@
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r1
                         \!
-                        \stopTextSpan
                         \stopStaff \startStaff
                     }
                     {
@@ -1640,6 +1642,7 @@
                             \mf
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                             r16
                             \!
@@ -1690,12 +1693,12 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 5] %! COMMENT_MEASURE_NUMBERS
@@ -1804,12 +1807,12 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                     {
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
@@ -1853,6 +1856,7 @@
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
+                            \stopTextSpan
                             ]
                         }
                     }
@@ -1860,7 +1864,6 @@
                         % [Voice 4 measure 10] %! COMMENT_MEASURE_NUMBERS
                         r2
                         \!
-                        \stopTextSpan
                     }
                     {
                         r16
@@ -1983,6 +1986,7 @@
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpan
                         ]
                     }
                 }

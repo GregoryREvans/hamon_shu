@@ -13,8 +13,12 @@ print('Interpreting file ...')
 
 time_signatures = [
     abjad.TimeSignature(pair) for pair in [
-        (5, 4), (4, 4), (3, 4), (5, 4), (4, 4), (3, 4),
-        (3, 4), (4, 4), (5, 4), (3, 4), (4, 4), (5, 4),
+        (4, 4), (4, 4), (3, 4), (7, 8),
+        (9, 8), (5, 4), (4, 4), (2, 4),
+        (7, 8), (4, 4), (5, 8), (5, 4),
+        (3, 8), (4, 4), (7, 8), (4, 4), (4, 8),
+        (6, 8), (12, 8), (12, 8),
+        (1, 8), #temporary fix for ending spanners
     ]
 ]
 
@@ -22,7 +26,7 @@ bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 
 # Define rhythm-makers: two to be sued by the MusicMaker, one for silence.
 
-rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
+rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
         counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
         denominator=32,
@@ -43,7 +47,49 @@ rmaker_001 = abjadext.rmakers.TaleaRhythmMaker(
         ),
     )
 
-rmaker_002 = abjadext.rmakers.TaleaRhythmMaker(
+rmaker_two = abjadext.rmakers.TaleaRhythmMaker(
+    talea=abjadext.rmakers.Talea(
+        counts=[-2, 3, -1, 2],
+        denominator=16,
+        ),
+    beam_specifier=abjadext.rmakers.BeamSpecifier(
+        beam_divisions_together=True,
+        beam_rests=False,
+        ),
+    extra_counts_per_division=[-1, 0,],
+    burnish_specifier=abjadext.rmakers.BurnishSpecifier(
+        left_classes=[abjad.Rest, abjad.Note],
+        left_counts=[1, 0, 1],
+        ),
+    tuplet_specifier=abjadext.rmakers.TupletSpecifier(
+        trivialize=True,
+        extract_trivial=True,
+        rewrite_rest_filled=True,
+        ),
+    )
+
+rmaker_three = abjadext.rmakers.TaleaRhythmMaker(
+    talea=abjadext.rmakers.Talea(
+        counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
+        denominator=32,
+        ),
+    beam_specifier=abjadext.rmakers.BeamSpecifier(
+        beam_divisions_together=True,
+        beam_rests=False,
+        ),
+    extra_counts_per_division=[0, 1, 0, -1],
+    burnish_specifier=abjadext.rmakers.BurnishSpecifier(
+        left_classes=[abjad.Note, abjad.Rest],
+        left_counts=[1, 0, 1],
+        ),
+    tuplet_specifier=abjadext.rmakers.TupletSpecifier(
+        trivialize=True,
+        extract_trivial=True,
+        rewrite_rest_filled=True,
+        ),
+    )
+
+rmaker_four = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
         counts=[-2, 3, -1, 2],
         denominator=16,
@@ -82,19 +128,50 @@ attachment_handler_two = AttachmentHandler(
     line_style='solid-line-with-arrow',
 )
 
+attachment_handler_three = AttachmentHandler(
+    ending_dynamic='ff',
+    hairpin='o<|',
+    text_list=['sp.', 'ord.', 'st.', ],
+    line_style='dashed-line-with-arrow',
+)
+
+attachment_handler_four = AttachmentHandler(
+    starting_dynamic='ffff',
+    ending_dynamic='mf',
+    hairpin='>',
+    articulation_list=['accent', 'staccatissimo', 'open', 'halfopen', 'halfopen', 'halfopen', ],
+    text_list=['ovr.pr.', 'ord.', 'scr.', ],
+    line_style='solid-line-with-arrow',
+)
+
 # Initialize two MusicMakers with the rhythm-makers.
 
-rmaker_one = MusicMaker(
-    rmaker=rmaker_001,
+musicmaker_one = MusicMaker(
+    rmaker=rmaker_one,
     pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
     continuous=True,
     attachment_handler=attachment_handler_one,
 )
-rmaker_two = MusicMaker(
-    rmaker=rmaker_002,
+
+musicmaker_two = MusicMaker(
+    rmaker=rmaker_two,
     pitches=[6, [9, 7], 8, 4],
     continuous=True,
     attachment_handler=attachment_handler_two,
+)
+
+musicmaker_three = MusicMaker(
+    rmaker=rmaker_three,
+    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
+    continuous=True,
+    attachment_handler=attachment_handler_three,
+)
+
+musicmaker_four = MusicMaker(
+    rmaker=rmaker_four,
+    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
+    continuous=True,
+    attachment_handler=attachment_handler_four,
 )
 
 silence_maker = abjadext.rmakers.NoteRhythmMaker(
@@ -133,14 +210,40 @@ voice_1_timespan_list = abjad.TimespanList([
         ),
     )
     for start_offset, stop_offset, rhythm_maker in [
-        [(0, 4), (3, 4), rmaker_one],
-        [(5, 4), (8, 4), rmaker_one],
-        [(12, 4), (15, 4), rmaker_two],
-        [(17, 4), (20, 4), rmaker_one],
-        [(28, 4), (31, 4), rmaker_two],
-        [(33, 4), (36, 4), rmaker_two],
-        [(40, 4), (43, 4), rmaker_one],
-        [(45, 4), (48, 4), rmaker_two],
+        [(0, 8), (4, 8), musicmaker_one],
+        [(5, 8), (8, 8), musicmaker_one],
+        [(8, 8), (9, 8), musicmaker_one],
+        [(12, 8), (15, 8), musicmaker_one],
+        [(15, 8), (16, 8), musicmaker_one],
+        [(17, 8), (21, 8), musicmaker_one],
+        [(26, 8), (29, 8), musicmaker_two],
+        [(29, 8), (35, 8), musicmaker_one],
+        [(36, 8), (38, 8), musicmaker_one],
+        [(42, 8), (47, 8), musicmaker_one],
+        [(50, 8), (56, 8), musicmaker_two],
+        [(56, 8), (60, 8), musicmaker_one],
+        [(60, 8), (66, 8), musicmaker_one],
+        [(67, 8), (72, 8), musicmaker_one],
+        [(72, 8), (75, 8), musicmaker_one],
+        [(78, 8), (80, 8), musicmaker_two],
+        [(80, 8), (83, 8), musicmaker_two],
+        [(83, 8), (85, 8), musicmaker_two],
+        [(85, 8), (88, 8), musicmaker_two],
+        [(90, 8), (93, 8), musicmaker_two],
+        [(93, 8), (96, 8), musicmaker_two],
+        [(97, 8), (101, 8), musicmaker_three],
+        [(101, 8), (103, 8), musicmaker_three],
+        [(103, 8), (106, 8), musicmaker_three],
+        [(106, 8), (108, 8), musicmaker_three],
+        [(109, 8), (113, 8), musicmaker_four],
+        [(114, 8), (116, 8), musicmaker_two],
+        [(116, 8), (117, 8), musicmaker_two],
+        [(118, 8), (120, 8), musicmaker_four],
+        [(120, 8), (125, 8), musicmaker_three],
+        [(131, 8), (135, 8), musicmaker_one],
+        [(135, 8), (138, 8), musicmaker_one],
+        [(139, 8), (140, 8), musicmaker_four],
+        [(146, 8), (147, 8), musicmaker_four],
     ]
 ])
 
@@ -154,22 +257,40 @@ voice_2_timespan_list = abjad.TimespanList([
         ),
     )
     for start_offset, stop_offset, rhythm_maker in [
-        # [(4, 4), (7, 4), rmaker_two],#
-        [(4, 4), (5, 4), rmaker_two],#
-        [(5, 4), (7, 4), rmaker_two],#
-        [(9, 4), (12, 4), rmaker_one],
-        # [(16, 4), (19, 4), rmaker_two],#
-        [(16, 4), (17, 4), rmaker_two],#
-        [(17, 4), (19, 4), rmaker_two],#
-        [(21, 4), (24, 4), rmaker_one],
-        [(24, 4), (27, 4), rmaker_one],
-        # [(29, 4), (32, 4), rmaker_two],#
-        [(29, 4), (31, 4), rmaker_two],#
-        [(31, 4), (32, 4), rmaker_two],#
-        [(36, 4), (39, 4), rmaker_one],
-        # [(41, 4), (44, 4), rmaker_two],#
-        [(41, 4), (43, 4), rmaker_two],#
-        [(43, 4), (44, 4), rmaker_two],#
+        [(0, 8), (4, 8), musicmaker_one],
+        [(5, 8), (8, 8), musicmaker_one],
+        [(8, 8), (10, 8), musicmaker_one],
+        [(12, 8), (14, 8), musicmaker_one],
+        [(14, 8), (16, 8), musicmaker_one],
+        [(18, 8), (21, 8), musicmaker_one],
+        [(25, 8), (28, 8), musicmaker_two],
+        [(30, 8), (35, 8), musicmaker_one],
+        [(36, 8), (38, 8), musicmaker_one],
+        [(41, 8), (46, 8), musicmaker_one],
+        [(48, 8), (54, 8), musicmaker_two],
+        [(56, 8), (60, 8), musicmaker_one],
+        [(61, 8), (64, 8), musicmaker_one],
+        [(67, 8), (70, 8), musicmaker_one],
+        [(70, 8), (75, 8), musicmaker_one],
+        [(79, 8), (80, 8), musicmaker_two],
+        [(80, 8), (84, 8), musicmaker_two],
+        [(84, 8), (88, 8), musicmaker_two],
+        [(88, 8), (90, 8), musicmaker_two],
+        [(90, 8), (93, 8), musicmaker_two],
+        [(97, 8), (101, 8), musicmaker_three],
+        [(101, 8), (104, 8), musicmaker_three],
+        [(104, 8), (106, 8), musicmaker_three],
+        [(106, 8), (108, 8), musicmaker_three],
+        [(109, 8), (113, 8), musicmaker_four],
+        [(115, 8), (116, 8), musicmaker_two],
+        [(116, 8), (118, 8), musicmaker_two],
+        [(119, 8), (120, 8), musicmaker_four],
+        [(120, 8), (126, 8), musicmaker_three],
+        [(129, 8), (132, 8), musicmaker_one],
+        [(132, 8), (135, 8), musicmaker_one],
+        [(135, 8), (138, 8), musicmaker_one],
+        [(141, 8), (142, 8), musicmaker_four],
+        [(148, 8), (149, 8), musicmaker_four],
     ]
 ])
 
@@ -183,14 +304,42 @@ voice_3_timespan_list = abjad.TimespanList([
         ),
     )
     for start_offset, stop_offset, rhythm_maker in [
-        [(2, 4), (5, 4), rmaker_one],
-        [(9, 4), (12, 4), rmaker_two],
-        [(14, 4), (17, 4), rmaker_two],
-        [(21, 4), (24, 4), rmaker_one],
-        [(24, 4), (27, 4), rmaker_two],
-        [(31, 4), (34, 4), rmaker_one],
-        [(36, 4), (39, 4), rmaker_one],
-        [(43, 4), (46, 4), rmaker_two],
+        [(0, 8), (4, 8), musicmaker_one],
+        [(5, 8), (8, 8), musicmaker_one],
+        [(8, 8), (11, 8), musicmaker_one],
+        [(12, 8), (16, 8), musicmaker_one],
+        [(16, 8), (22, 8), musicmaker_one],
+        [(24, 8), (27, 8), musicmaker_two],
+        [(30, 8), (35, 8), musicmaker_one],
+        [(36, 8), (38, 8), musicmaker_one],
+        [(38, 8), (41, 8), musicmaker_one],
+        [(41, 8), (45, 8), musicmaker_one],
+        [(45, 8), (48, 8), musicmaker_one],
+        [(48, 8), (51, 8), musicmaker_two],
+        [(56, 8), (60, 8), musicmaker_one],
+        [(60, 8), (63, 8), musicmaker_one],
+        [(67, 8), (70, 8), musicmaker_one],
+        [(70, 8), (75, 8), musicmaker_one],
+        [(77, 8), (80, 8), musicmaker_two],
+        [(80, 8), (82, 8), musicmaker_two],
+        [(82, 8), (85, 8), musicmaker_two],
+        [(85, 8), (88, 8), musicmaker_two],
+        [(90, 8), (93, 8), musicmaker_two],
+        [(93, 8), (96, 8), musicmaker_two],
+        [(97, 8), (101, 8), musicmaker_three],
+        [(101, 8), (103, 8), musicmaker_three],
+        [(103, 8), (107, 8), musicmaker_three],
+        [(107, 8), (108, 8), musicmaker_three],
+        [(109, 8), (113, 8), musicmaker_four],
+        [(115, 8), (116, 8), musicmaker_two],
+        [(116, 8), (118, 8), musicmaker_two],
+        [(119, 8), (120, 8), musicmaker_four],
+        [(120, 8), (126, 8), musicmaker_three],
+        [(126, 8), (130, 8), musicmaker_one],
+        [(130, 8), (134, 8), musicmaker_one],
+        [(134, 8), (137, 8), musicmaker_one],
+        [(143, 8), (144, 8), musicmaker_four],
+        [(147, 8), (148, 8), musicmaker_four],
     ]
 ])
 
@@ -204,22 +353,39 @@ voice_4_timespan_list = abjad.TimespanList([
         ),
     )
     for start_offset, stop_offset, rhythm_maker in [
-        [(0, 4), (3, 4), rmaker_two],
-        # [(7, 4), (10, 4), rmaker_two],#
-        [(7, 4), (9, 4), rmaker_two],#
-        [(9, 4), (10, 4), rmaker_two],#
-        [(12, 4), (15, 4), rmaker_one],
-        # [(19, 4), (22, 4), rmaker_two],#
-        [(19, 4), (21, 4), rmaker_two],#
-        [(21, 4), (22, 4), rmaker_two],#
-        # [(26, 4), (29, 4), rmaker_one],#
-        [(26, 4), (27, 4), rmaker_one],#
-        [(27, 4), (29, 4), rmaker_one],#
-        [(33, 4), (36, 4), rmaker_one],
-        # [(38, 4), (41, 4), rmaker_two],#
-        [(38, 4), (39, 4), rmaker_two],#
-        [(39, 4), (41, 4), rmaker_two],#
-        [(45, 4), (48, 4), rmaker_one],
+        [(0, 8), (4, 8), musicmaker_one],
+        [(5, 8), (8, 8), musicmaker_one],
+        [(8, 8), (12, 8), musicmaker_one],
+        [(12, 8), (16, 8), musicmaker_one],
+        [(17, 8), (20, 8), musicmaker_one],
+        [(23, 8), (26, 8), musicmaker_two],
+        [(30, 8), (35, 8), musicmaker_one],
+        [(36, 8), (38, 8), musicmaker_one],
+        [(42, 8), (47, 8), musicmaker_one],
+        [(48, 8), (54, 8), musicmaker_two],
+        [(56, 8), (60, 8), musicmaker_one],
+        [(63, 8), (66, 8), musicmaker_one],
+        [(67, 8), (72, 8), musicmaker_one],
+        [(73, 8), (75, 8), musicmaker_one],
+        [(76, 8), (80, 8), musicmaker_two],
+        [(80, 8), (85, 8), musicmaker_two],
+        [(85, 8), (88, 8), musicmaker_two],
+        [(90, 8), (93, 8), musicmaker_two],
+        [(93, 8), (96, 8), musicmaker_two],
+        [(97, 8), (101, 8), musicmaker_three],
+        [(101, 8), (102, 8), musicmaker_three],
+        [(102, 8), (106, 8), musicmaker_three],
+        [(106, 8), (108, 8), musicmaker_three],
+        [(109, 8), (113, 8), musicmaker_four],
+        [(114, 8), (116, 8), musicmaker_two],
+        [(116, 8), (117, 8), musicmaker_two],
+        [(118, 8), (120, 8), musicmaker_four],
+        [(120, 8), (125, 8), musicmaker_three],
+        [(130, 8), (134, 8), musicmaker_one],
+        [(134, 8), (138, 8), musicmaker_one],
+        [(145, 8), (146, 8), musicmaker_four],
+        [(149, 8), (150, 8), musicmaker_four],
+        [(150, 8), (151, 8), silence_maker],
     ]
 ])
 
@@ -468,7 +634,7 @@ for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
         else:
             last_leaf = run[-1]
             next_leaf = abjad.inspect(last_leaf).leaf(1)
-            abjad.attach(abjad.StopTextSpan(), next_leaf)
+            abjad.attach(abjad.StopTextSpan(command=r'\stopTextSpanOne',), next_leaf)
 
 # Make pitches
 print('Adding pitch material ...')
@@ -483,7 +649,7 @@ def cyc(lst):
 
 print('Adding attachments ...')
 bar_line = abjad.BarLine('||')
-metro = abjad.MetronomeMark((1, 4), 120)
+metro = abjad.MetronomeMark((1, 4), 108)
 markup = abjad.Markup(r'\bold { A }')
 mark = abjad.RehearsalMark(markup=markup)
 
@@ -546,9 +712,9 @@ abjad.SegmentMaker.comment_measure_numbers(score)
 ###################
 
 #print(format(score_file))
-directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Test'
-pdf_path = f'{directory}/Test.pdf'
-path = pathlib.Path('Test.pdf')
+directory = '/Users/evansdsg2/Scores/hamon_shu/Segments/Introduction'
+pdf_path = f'{directory}/Introduction.pdf'
+path = pathlib.Path('Introduction.pdf')
 if path.exists():
     print(f'Removing {pdf_path} ...')
     path.unlink()
