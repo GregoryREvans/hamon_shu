@@ -28,14 +28,14 @@ bounds = abjad.mathtools.cumulative_sums([_.duration for _ in time_signatures])
 
 rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
-        denominator=32,
+        counts=[2, 1, 1, 1, 3, 1, 3, 3, 1, 2, ],
+        denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_rests=False,
         ),
-    extra_counts_per_division=[0, 1, 0, -1],
+    extra_counts_per_division=[0, 0, 1, 0, -1],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
         left_classes=[abjad.Note, abjad.Rest],
         left_counts=[1, 0, 1],
@@ -49,14 +49,14 @@ rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
 
 rmaker_two = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[-2, 3, -1, 2],
+        counts=[-2, 3, -1, 2, -3, 1],
         denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_rests=False,
         ),
-    extra_counts_per_division=[-1, 0,],
+    extra_counts_per_division=[-1, 0, 1],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
         left_classes=[abjad.Rest, abjad.Note],
         left_counts=[1, 0, 1],
@@ -70,14 +70,14 @@ rmaker_two = abjadext.rmakers.TaleaRhythmMaker(
 
 rmaker_three = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[1, 1, 1, 1, 1, 3, 1, 7, 5],
-        denominator=32,
+        counts=[1, 2, 3, 2, 3, 1, 3, 2, 1],
+        denominator=16,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_rests=False,
         ),
-    extra_counts_per_division=[0, 1, 0, -1],
+    extra_counts_per_division=[0, 1, 0, -1, 1, 0],
     burnish_specifier=abjadext.rmakers.BurnishSpecifier(
         left_classes=[abjad.Note, abjad.Rest],
         left_counts=[1, 0, 1],
@@ -91,18 +91,14 @@ rmaker_three = abjadext.rmakers.TaleaRhythmMaker(
 
 rmaker_four = abjadext.rmakers.TaleaRhythmMaker(
     talea=abjadext.rmakers.Talea(
-        counts=[-2, 3, -1, 2],
-        denominator=16,
+        counts=[2, 1, 1, 1, 3, 1, 1, 1, ],
+        denominator=8,
         ),
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_rests=False,
         ),
-    extra_counts_per_division=[-1, 0,],
-    burnish_specifier=abjadext.rmakers.BurnishSpecifier(
-        left_classes=[abjad.Rest, abjad.Note],
-        left_counts=[1, 0, 1],
-        ),
+    extra_counts_per_division=[0, 1,],
     tuplet_specifier=abjadext.rmakers.TupletSpecifier(
         trivialize=True,
         extract_trivial=True,
@@ -129,18 +125,20 @@ attachment_handler_two = AttachmentHandler(
 )
 
 attachment_handler_three = AttachmentHandler(
-    ending_dynamic='ff',
-    hairpin='o<|',
-    text_list=['sp.', 'ord.', 'st.', ],
-    line_style='dashed-line-with-arrow',
+    starting_dynamic='mp',
+    ending_dynamic='ppp',
+    hairpin='<',
+    articulation_list=['open', 'halfopen', 'halfopen', 'halfopen', 'halfopen', 'halfopen', 'open', 'open', 'open', 'halfopen', 'open',],
+    text_list=['ord.', '1/2cl.tr.', 'cl.tr.', '1/2cl.tr.', ],
+    line_style='solid-line-with-arrow',
 )
 
 attachment_handler_four = AttachmentHandler(
-    starting_dynamic='ffff',
+    starting_dynamic='f',
     ending_dynamic='mf',
-    hairpin='>',
-    articulation_list=['accent', 'staccatissimo', 'open', 'halfopen', 'halfopen', 'halfopen', ],
-    text_list=['ovr.pr.', 'ord.', 'scr.', ],
+    hairpin='|>',
+    articulation_list=['portato', 'tenuto', 'tenuto', ],
+    text_list=['ovr.pr.', 'ord.', 'udr.pr.', ],
     line_style='solid-line-with-arrow',
 )
 
@@ -148,7 +146,7 @@ attachment_handler_four = AttachmentHandler(
 
 musicmaker_one = MusicMaker(
     rmaker=rmaker_one,
-    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
+    pitches=[0, 2, 1, [3, 10], 4, 8, [7, 9], 6],
     continuous=True,
     attachment_handler=attachment_handler_one,
 )
@@ -162,14 +160,14 @@ musicmaker_two = MusicMaker(
 
 musicmaker_three = MusicMaker(
     rmaker=rmaker_three,
-    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
+    pitches=[0, 2, 1, [5, 10], 4, 8, [7, 9], 6],
     continuous=True,
     attachment_handler=attachment_handler_three,
 )
 
 musicmaker_four = MusicMaker(
     rmaker=rmaker_four,
-    pitches=[0, 2, 1, [3, 5, 10], 4, 8, [7, 9], 6],
+    pitches=[0, 2, 1, [3, 10], 4, 8, [7, 9], 6],
     continuous=True,
     attachment_handler=attachment_handler_four,
 )
@@ -216,7 +214,7 @@ voice_1_timespan_list = abjad.TimespanList([
         [(12, 8), (15, 8), musicmaker_one],
         [(15, 8), (16, 8), musicmaker_one],
         [(17, 8), (21, 8), musicmaker_one],
-        [(26, 8), (29, 8), musicmaker_two],
+        [(26, 8), (29, 8), musicmaker_one],
         [(29, 8), (35, 8), musicmaker_one],
         [(36, 8), (38, 8), musicmaker_one],
         [(42, 8), (47, 8), musicmaker_one],

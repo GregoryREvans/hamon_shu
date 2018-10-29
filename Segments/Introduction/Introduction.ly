@@ -105,7 +105,7 @@
                         \markup { "Violin I" }
                         \tempo 4=108
                         \clef "treble"
-                        c'32
+                        c'8
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -125,13 +125,10 @@
                             }
                         \startTextSpanOne
                         [
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'16.
-                        <g' a'>32
-                        fs'8..
+                        d'16
+                        cs'16
+                        <ef' bf'>16
+                        e'8.
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -143,85 +140,75 @@
                         \!
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            c'16.
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
+                        af'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
                                 }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            ~
-                            [
-                            c'16
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>16.
-                        }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        <g' a'>8.
+                        fs'8
+                        ~
                     }
                     {
-                        % [Voice 1 measure 2] %! COMMENT_MEASURE_NUMBERS
-                        fs'32
-                        c'16.
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
+                        \times 2/3 {
+                            % [Voice 1 measure 2] %! COMMENT_MEASURE_NUMBERS
+                            fs'16
+                            c'16
+                            d'16
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
                     }
                     {
                         r4.
                         \!
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/11 {
-                            d'8
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
+                        cs'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
                                 }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    st.
-                                }
-                            \startTextSpanOne
-                            [
-                            cs'32
-                            ~
-                            cs'8
-                            <ef' f' bf'>32
-                            e'32
-                        }
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'32
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpanOne
+                        [
+                        <ef' bf'>16
+                        ~
+                        <ef' bf'>16
+                        e'16
+                        af'16
+                        <g' a'>16
+                        fs'8
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -234,8 +221,128 @@
                         \!
                     }
                     {
-                        \times 16/17 {
+                        c'8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        [
+                        d'16
+                        cs'8.
+                        <ef' bf'>8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        % [Voice 1 measure 4] %! COMMENT_MEASURE_NUMBERS
+                        r2
+                    }
+                    {
+                        e'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        af'16
+                        <g' a'>8
+                        fs'8
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            % [Voice 1 measure 5] %! COMMENT_MEASURE_NUMBERS
+                            c'16
                             d'16
+                            cs'16
+                            <ef' bf'>8.
+                            e'16
+                            af'8.
+                            <g' a'>8.
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        fs'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpanOne
+                        [
+                        c'8
+                        d'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 1 measure 6] %! COMMENT_MEASURE_NUMBERS
+                        r2
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 10/9 {
+                            cs'16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -255,176 +362,20 @@
                                 }
                             \startTextSpanOne
                             [
-                            cs'32
-                            <ef' f' bf'>8..
-                            e'32
+                            <ef' bf'>16
+                            e'16
+                            af'16
+                            <g' a'>8
                             ~
-                            e'8
-                            af'32
-                            <g' a'>32
+                            <g' a'>16
+                            fs'16
+                            c'16
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
                             \stopTextSpanOne
                             ]
                         }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        % [Voice 1 measure 4] %! COMMENT_MEASURE_NUMBERS
-                        r2
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            fs'8.
-                            \ffff
-                            - \accent
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ovr.pr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            [
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        fs'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        c'32
-                        d'32
-                        cs'32
-                        ~
-                        cs'16
-                        <ef' f' bf'>32
-                        e'32
-                        ~
-                        e'8.
-                        af'16
-                        ~
-                        af'16.
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            <ef' f' bf'>16.
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    st.
-                                }
-                            \startTextSpanOne
-                            [
-                            e'32
-                            af'16.
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 6] %! COMMENT_MEASURE_NUMBERS
-                        r2
-                        \!
-                    }
-                    {
-                        <g' a'>8
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        sp.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ord.
-                            }
-                        \startTextSpanOne
-                        [
-                        fs'8
-                        ~
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'16
-                        ~
-                        af'32
-                        <g' a'>32
-                        fs'16
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
                     }
                     {
                         r8
@@ -435,481 +386,12 @@
                         r4
                     }
                     {
-                        r16
-                        <g' a'>16
-                        \mf
-                        - \staccatissimo
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        ~
-                        [
-                        <g' a'>16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        r16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        af'8.
-                        \ffff
-                        - \open
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        scr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        e'16
-                        \mf
-                        - \halfopen
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        ~
-                        [
-                        e'16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        \times 16/17 {
-                            % [Voice 1 measure 8] %! COMMENT_MEASURE_NUMBERS
-                            c'16.
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            ~
-                            [
-                            c'16
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            d'8
-                            ~
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'16
-                            ~
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        fs'32
-                        c'32
-                        d'8.
-                        ~
-                        d'32
-                        cs'16.
-                        ~
-                        cs'16
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        ~
-                        c'16
-                        d'32
-                        cs'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/19 {
-                            % [Voice 1 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            <ef' f' bf'>8.
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    st.
-                                }
-                            \startTextSpanOne
-                            [
-                            e'32
-                            ~
-                            e'8
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'32
-                            cs'16.
-                        }
-                        <ef' f' bf'>32
-                        e'16.
-                        ~
-                        e'8
-                        af'8
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        % [Voice 1 measure 11] %! COMMENT_MEASURE_NUMBERS
-                        r4.
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r16
-                            fs'8
-                            \ffff
-                            \>
-                            ~
-                            - \abjad-solid-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    scr.
-                                }
-                            \startTextSpanOne
-                            [
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 12] %! COMMENT_MEASURE_NUMBERS
-                        fs'16
-                        \mf
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        <g' a'>8
-                        \ffff
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r8
-                        \!
-                        \stopTextSpanOne
-                        af'8
-                        \mf
-                        - \halfopen
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        ~
-                        [
-                        af'8
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        e'16
-                        \ffff
-                        - \accent
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        scr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        ~
-                        [
-                        e'16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        fs'16
-                        \mf
-                        - \staccatissimo
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                    }
-                    {
-                        r4
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            % [Voice 1 measure 13] %! COMMENT_MEASURE_NUMBERS
-                            r8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            <g' a'>8
-                            \ffff
-                            - \open
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 14] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                        \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        af'8.
-                        \mf
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        scr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r16
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        r8
-                    }
-                    {
-                        c'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        sp.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ord.
-                            }
-                        \startTextSpanOne
-                        [
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'16.
-                        <g' a'>32
-                        fs'8..
-                    }
-                    {
-                        \times 8/9 {
-                            % [Voice 1 measure 15] %! COMMENT_MEASURE_NUMBERS
-                            c'16.
-                            ~
-                            c'16
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                        r32
-                        \!
-                        af'16.
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        [
-                        <g' a'>32
-                        fs'8..
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            c'16.
-                            ~
-                            c'16
-                            d'32
-                            cs'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        % [Voice 1 measure 16] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
+                        \times 12/11 {
                             r8
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
-                            c'8.
+                            fs'8.
                             \ffff
                             - \accent
                             - \tweak stencil #constante-hairpin
@@ -929,11 +411,169 @@
                             r16
                             \!
                             \stopTextSpanOne
-                            \set stemLeftBeamCount = 2
-                            \set stemRightBeamCount = 0
-                            d'16
+                            <g' a'>16
                             \mf
                             - \staccatissimo
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            ~
+                            [
+                            <g' a'>16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r8.
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        % [Voice 1 measure 8] %! COMMENT_MEASURE_NUMBERS
+                        d'8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        cs'8.
+                        <ef' bf'>16
+                        e'8
+                    }
+                    {
+                        % [Voice 1 measure 9] %! COMMENT_MEASURE_NUMBERS
+                        af'8
+                        <g' a'>16
+                        fs'16
+                        c'16
+                        d'8.
+                        cs'16
+                        <ef' bf'>8.
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 10/11 {
+                            % [Voice 1 measure 10] %! COMMENT_MEASURE_NUMBERS
+                            e'8.
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpanOne
+                            [
+                            af'16
+                            <g' a'>16
+                            ~
+                            <g' a'>16
+                            fs'16
+                            ~
+                            fs'16
+                            c'16
+                            d'16
+                            cs'16
+                        }
+                        <ef' bf'>8
+                        ~
+                        <ef' bf'>16
+                        e'16
+                        af'8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 1 measure 11] %! COMMENT_MEASURE_NUMBERS
+                        r4.
+                        \!
+                    }
+                    {
+                        r8.
+                        af'16
+                        \ffff
+                        \>
+                        ~
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ovr.pr.
+                            }
+                        \startTextSpanOne
+                        [
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            % [Voice 1 measure 12] %! COMMENT_MEASURE_NUMBERS
+                            af'8
+                            \mf
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                            r16
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            e'8
+                            \ffff
+                            - \open
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-solid-line-with-hook
@@ -948,49 +588,73 @@
                                 }
                             - \tweak bound-details.right.padding 2.5
                             \startTextSpanOne
+                            r8
+                            \!
+                            \stopTextSpanOne
                         }
-                    }
-                    {
-                        r8
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        r4
-                    }
-                    {
-                        % [Voice 1 measure 17] %! COMMENT_MEASURE_NUMBERS
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            fs'16
+                            \ffff
+                            - \halfopen
+                            \>
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ovr.pr.
+                                }
+                            \startTextSpanOne
+                            [
+                            <g' a'>16
+                            \mf
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                            r16
+                            \!
+                            \stopTextSpanOne
+                        }
                         r16
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        e'16
-                        \ffff
+                        af'16
+                        \mf
                         - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
                                     \upright
-                                        ovr.pr.
+                                        ord.
                                     \hspace
                                         #0.5
                                 }
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                    }
-                    {
-                        r8
+                        ~
+                        [
+                        af'8
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        r16
                         \!
                         \stopTextSpanOne
-                    }
-                    {
-                        r8.
-                        cs'16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
+                        e'16
                         \ffff
-                        - \open
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1005,15 +669,99 @@
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        [
                     }
                     {
-                        % [Voice 1 measure 18] %! COMMENT_MEASURE_NUMBERS
-                        <ef' f' bf'>32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
+                        r4
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            % [Voice 1 measure 13] %! COMMENT_MEASURE_NUMBERS
+                            r4
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            fs'16
+                            \mf
+                            - \staccatissimo
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            % [Voice 1 measure 14] %! COMMENT_MEASURE_NUMBERS
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            <g' a'>8.
+                            \ffff
+                            - \open
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r16
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 0
+                            af'16
+                            \mf
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        c'16
+                        \mp
+                        - \open
                         \<
-                        - \abjad-dashed-line-with-arrow
+                        - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
@@ -1025,29 +773,217 @@
                             }
                         - \tweak bound-details.right.text \markup {
                             \upright
-                                st.
+                                1/2cl.tr.
                             }
                         \startTextSpanOne
-                        e'32
-                        af'32
-                        <g' a'>32
-                        ~
-                        <g' a'>16
-                        fs'32
-                        c'32
-                        ~
-                        c'8
-                        ~
-                        c'16
+                        [
                         d'16
+                        - \halfopen
                         ~
-                        d'16.
-                        cs'32
-                        \ff
+                        d'16
+                        cs'8.
+                        - \halfopen
+                        <f' bf'>8
+                        - \halfopen
+                    }
+                    {
+                        \times 4/5 {
+                            % [Voice 1 measure 15] %! COMMENT_MEASURE_NUMBERS
+                            e'8.
+                            - \halfopen
+                            af'16
+                            - \halfopen
+                            <g' a'>16
+                            \ppp
+                            - \open
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                        r8
+                        \!
+                        fs'8
+                        \mp
+                        - \open
+                        \<
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        cl.tr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                1/2cl.tr.
+                            }
+                        \startTextSpanOne
+                        [
+                        c'16
+                        - \open
+                        d'16
+                        - \halfopen
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            cs'8
+                            - \open
+                            <f' bf'>16
+                            \ppp
+                            - \open
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        % [Voice 1 measure 16] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \!
+                    }
+                    {
+                        c'4
+                        \f
+                        - \portato
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        [
+                        d'8
+                        - \tenuto
+                        cs'8
+                        \mf
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         \stopTextSpanOne
                         ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        r4
+                    }
+                    {
+                        \times 2/3 {
+                            % [Voice 1 measure 17] %! COMMENT_MEASURE_NUMBERS
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 2
+                            e'16
+                            \ffff
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        r8
+                    }
+                    {
+                        \times 2/3 {
+                            <ef' bf'>8
+                            \f
+                            - \portato
+                            - \tweak stencil #abjad-flared-hairpin
+                            \>
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            udr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ovr.pr.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'4
+                            \mf
+                            - \tenuto
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 10/11 {
+                            % [Voice 1 measure 18] %! COMMENT_MEASURE_NUMBERS
+                            e'8
+                            \mp
+                            - \halfopen
+                            \<
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    1/2cl.tr.
+                                }
+                            \startTextSpanOne
+                            af'16
+                            - \halfopen
+                            ~
+                            af'16
+                            <g' a'>8.
+                            - \halfopen
+                            fs'16
+                            - \halfopen
+                            c'8.
+                            \ppp
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
                     }
                     {
                         r8
@@ -1059,8 +995,9 @@
                         r4
                     }
                     {
-                        \times 16/17 {
-                            <g' a'>32
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            <g' a'>16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -1080,24 +1017,17 @@
                                 }
                             \startTextSpanOne
                             [
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'16.
-                            af'32
-                            <g' a'>8..
+                            fs'8
+                            ~
+                            fs'16
+                            c'16
+                            d'8
                         }
-                        fs'8
-                        ~
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
+                        cs'8
+                        <ef' bf'>16
+                        e'16
                         af'16
+                        <g' a'>16
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1106,22 +1036,56 @@
                     }
                     {
                         % [Voice 1 measure 20] %! COMMENT_MEASURE_NUMBERS
-                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r8
                         \!
                     }
                     {
-                        r8
+                        af'8
+                        \f
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         r2.
+                        \!
+                        \stopTextSpanOne
                     }
                     {
-                        r8
+                        <g' a'>8
+                        \mf
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        udr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         r4.
-                        \stopStaff \startStaff
+                        \!
+                        \stopTextSpanOne
                     }
                     {
                         % [Voice 1 measure 21] %! COMMENT_MEASURE_NUMBERS
@@ -1141,145 +1105,16 @@
                 \context Voice = "Voice 2"
                 {
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 16/15 {
-                            % [Voice 2 measure 1] %! COMMENT_MEASURE_NUMBERS
-                            \set Staff.shortInstrumentName =
-                            \markup { "vln. II" }
-                            \set Staff.instrumentName =
-                            \markup { "Violin II" }
-                            \clef "treble"
-                            <g' a'>32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            [
-                            fs'32
-                            c'16.
-                            ~
-                            c'8
-                            d'32
-                            ~
-                            d'8
-                            cs'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        <ef' f' bf'>32
+                        % [Voice 2 measure 1] %! COMMENT_MEASURE_NUMBERS
+                        \set Staff.shortInstrumentName =
+                        \markup { "vln. II" }
+                        \set Staff.instrumentName =
+                        \markup { "Violin II" }
+                        \clef "treble"
+                        fs'8
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        [
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'16.
-                        c'32
-                        d'8
-                        ~
-                    }
-                    {
-                        \times 8/9 {
-                            % [Voice 2 measure 2] %! COMMENT_MEASURE_NUMBERS
-                            d'16.
-                            cs'16.
-                            ~
-                            cs'16
-                            <ef' f' bf'>32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r4
-                        \!
-                    }
-                    {
-                        e'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        sp.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ord.
-                            }
-                        \startTextSpanOne
-                        [
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'16.
-                        d'32
-                        cs'4
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        % [Voice 2 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        r4
-                        \!
-                    }
-                    {
-                        <ef' f' bf'>8
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        ~
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1296,13 +1131,131 @@
                             }
                         \startTextSpanOne
                         [
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'32
+                        c'16
+                        d'8.
+                        cs'8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            <ef' bf'>16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'16
+                            af'16
+                            ~
+                            af'16
+                            <g' a'>16
+                            ~
+                            <g' a'>16
+                            fs'16
+                        }
+                    }
+                    {
+                        % [Voice 2 measure 2] %! COMMENT_MEASURE_NUMBERS
+                        c'16
                         d'16
+                        cs'8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r4
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            <ef' bf'>16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'16
+                            af'16
+                            ~
+                        }
+                        af'8
+                        <g' a'>8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 2 measure 3] %! COMMENT_MEASURE_NUMBERS
+                        r4
+                        \!
+                    }
+                    {
+                        fs'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        c'16
+                        d'8
+                        cs'8
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1320,10 +1273,10 @@
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            r8.
-                            \set stemLeftBeamCount = 1
+                            r4
+                            \set stemLeftBeamCount = 2
                             \set stemRightBeamCount = 0
-                            fs'8
+                            fs'16
                             \mf
                             - \halfopen
                             - \tweak stencil #constante-hairpin
@@ -1353,8 +1306,8 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/21 {
-                            cs'32
+                        \times 10/11 {
+                            <ef' bf'>16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -1374,21 +1327,12 @@
                                 }
                             \startTextSpanOne
                             [
-                            <ef' f' bf'>32
-                            e'32
-                            ~
-                            e'8
-                            ~
                             e'16
-                            af'32
-                            ~
-                            af'8
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>16
+                            af'16
+                            <g' a'>8.
+                            fs'16
+                            c'8.
+                            d'16
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
@@ -1401,7 +1345,7 @@
                         \!
                     }
                     {
-                        e'32
+                        cs'8
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -1421,8 +1365,8 @@
                             }
                         \startTextSpanOne
                         [
-                        af'32
-                        <g' a'>8.
+                        <ef' bf'>16
+                        e'16
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1436,8 +1380,8 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/19 {
-                            fs'32
+                        \times 10/9 {
+                            af'16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -1457,17 +1401,11 @@
                                 }
                             \startTextSpanOne
                             [
+                            <g' a'>8
+                            fs'16
                             c'16
-                            ~
-                            c'16.
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>16.
-                            fs'32
-                            c'8
+                            d'16
+                            cs'8.
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
@@ -1481,10 +1419,14 @@
                     }
                     {
                         % [Voice 2 measure 7] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        <g' a'>8
+                        r4
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        <g' a'>16
                         \ffff
                         - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1497,22 +1439,13 @@
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        ~
-                        [
-                        <g' a'>16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
                         r16
                         \!
                         \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        af'8
+                        r16
+                        af'16
                         \mf
                         - \staccatissimo
-                        - \tweak stencil #constante-hairpin
-                        \<
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1525,12 +1458,18 @@
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        r8
+                        ~
+                        [
+                        af'8
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        r16
                         \!
                         \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
+                        \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
-                        e'8
+                        e'16
                         \ffff
                         - \open
                         - \tweak stencil #constante-hairpin
@@ -1555,7 +1494,7 @@
                     }
                     {
                         % [Voice 2 measure 8] %! COMMENT_MEASURE_NUMBERS
-                        d'16.
+                        <ef' bf'>16
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -1575,15 +1514,9 @@
                             }
                         \startTextSpanOne
                         [
-                        cs'32
-                        ~
-                        cs'8
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'16.
+                        e'8.
+                        af'8.
+                        <g' a'>16
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1596,46 +1529,7 @@
                         \!
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            d'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            [
-                            cs'16
-                            ~
-                            cs'8
-                            ~
-                            cs'32
-                            <ef' f' bf'>32
-                            ~
-                            <ef' f' bf'>8
-                            ]
-                        }
-                    }
-                    {
-                        r4.
-                        \!
-                    }
-                    {
-                        % [Voice 2 measure 10] %! COMMENT_MEASURE_NUMBERS
-                        e'32
+                        fs'8
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -1644,45 +1538,78 @@
                             \concat
                                 {
                                     \upright
-                                        st.
+                                        sp.
                                     \hspace
                                         #0.5
                                 }
                             }
                         - \tweak bound-details.right.text \markup {
                             \upright
-                                sp.
+                                ord.
                             }
                         \startTextSpanOne
                         [
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'16.
-                        cs'32
-                        <ef' f' bf'>16.
-                        ~
+                        c'8
+                        d'16
+                        cs'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r4.
+                        \!
+                    }
+                    {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/19 {
-                            <ef' f' bf'>8
-                            e'32
-                            ~
-                            e'8
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'32
-                            cs'16.
-                            <ef' f' bf'>32
-                            e'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
+                        \times 6/7 {
+                            % [Voice 2 measure 10] %! COMMENT_MEASURE_NUMBERS
+                            <ef' bf'>16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
                             \<
-                            \stopTextSpanOne
-                            ]
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'8
+                            ~
+                            e'16
+                            af'16
+                            <g' a'>8
+                            ~
                         }
+                        <g' a'>16
+                        fs'16
+                        ~
+                        fs'8
+                        c'16
+                        d'16
+                        ~
+                        d'16
+                        cs'16
+                        ~
+                        cs'16
+                        <ef' bf'>16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
                     }
                     {
                         % [Voice 2 measure 11] %! COMMENT_MEASURE_NUMBERS
@@ -1695,11 +1622,75 @@
                         \stopStaff \startStaff
                     }
                     {
-                        % [Voice 2 measure 12] %! COMMENT_MEASURE_NUMBERS
-                        r16
-                        fs'16
-                        \mf
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            % [Voice 2 measure 12] %! COMMENT_MEASURE_NUMBERS
+                            r16
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            fs'16
+                            \mf
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r16
+                            \!
+                            \stopTextSpanOne
+                            r16
+                            <g' a'>8.
+                            \ffff
+                            - \halfopen
+                            \>
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpanOne
+                            [
+                        }
+                        af'16
                         - \halfopen
+                        e'16
+                        \mf
+                        - \accent
+                        \stopTextSpanOne
+                        ~
+                        e'16
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        r16
+                        \!
+                        r8
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fs'16
+                        \ffff
+                        - \staccatissimo
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-solid-line-with-hook
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -1712,19 +1703,164 @@
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        ~
-                        [
-                        fs'16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
                         r16
                         \!
                         \stopTextSpanOne
-                        r16
-                        <g' a'>8.
-                        \ffff
+                        \times 4/5 {
+                            r16
+                            <g' a'>8
+                            \mf
+                            - \open
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            ~
+                            [
+                            <g' a'>16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r16
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            % [Voice 2 measure 13] %! COMMENT_MEASURE_NUMBERS
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            af'8
+                            \ffff
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8.
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        % [Voice 2 measure 14] %! COMMENT_MEASURE_NUMBERS
+                        r2
+                    }
+                    {
+                        d'8
+                        \mp
+                        - \open
+                        \<
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        cl.tr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                1/2cl.tr.
+                            }
+                        \startTextSpanOne
+                        [
+                        cs'16
+                        - \open
+                        <f' bf'>16
+                        - \open
+                        e'8
                         - \halfopen
+                        af'8
+                        ~
+                    }
+                    {
+                        % [Voice 2 measure 15] %! COMMENT_MEASURE_NUMBERS
+                        af'16
+                        <g' a'>16
+                        - \open
+                        ~
+                        <g' a'>16
+                        fs'8.
+                        \ppp
+                        - \open
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                        \times 4/5 {
+                            r16
+                            \!
+                            c'8
+                            \mp
+                            - \halfopen
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    1/2cl.tr.
+                                }
+                            \startTextSpanOne
+                            ~
+                            [
+                            c'16
+                            \<
+                            d'16
+                            ~
+                        }
+                        d'16
+                        cs'16
+                        - \halfopen
+                        <f' bf'>16
+                        - \halfopen
+                        e'16
+                        \ppp
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 2 measure 16] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \!
+                    }
+                    {
+                        fs'8
+                        \f
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \>
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -1742,26 +1878,30 @@
                             }
                         \startTextSpanOne
                         [
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            af'16
-                            - \halfopen
+                        c'8
+                        - \tenuto
+                        d'4
+                        \mf
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r4
+                        \!
+                    }
+                    {
+                        r8
+                    }
+                    {
+                        \times 4/5 {
+                            % [Voice 2 measure 17] %! COMMENT_MEASURE_NUMBERS
+                            r16
                             e'8
                             \mf
-                            - \accent
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                            r8
-                            \!
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fs'8
-                            \ffff
-                            - \staccatissimo
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            - \halfopen
                             - \abjad-solid-line-with-hook
                             - \tweak bound-details.left.text \markup {
                                 \concat
@@ -1774,15 +1914,24 @@
                                 }
                             - \tweak bound-details.right.padding 2.5
                             \startTextSpanOne
+                            ~
+                            [
+                            e'16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r16
+                            \!
+                            \stopTextSpanOne
                         }
+                    }
+                    {
                         r8
-                        \!
-                        \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        <g' a'>8
-                        \mf
-                        - \open
+                    }
+                    {
+                        cs'8
+                        \f
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -1790,230 +1939,68 @@
                             \concat
                                 {
                                     \upright
-                                        ovr.pr.
+                                        udr.pr.
                                     \hspace
                                         #0.5
                                 }
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
+                        [
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            % [Voice 2 measure 13] %! COMMENT_MEASURE_NUMBERS
-                            r8
-                            \!
-                            \stopTextSpanOne
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            af'8.
-                            \ffff
+                        \times 12/11 {
+                            % [Voice 2 measure 18] %! COMMENT_MEASURE_NUMBERS
+                            af'16
+                            \mp
                             - \halfopen
-                            - \tweak stencil #constante-hairpin
                             \<
-                            - \abjad-solid-line-with-hook
+                            - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup {
                                 \concat
                                     {
                                         \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
-                    }
-                    {
-                        % [Voice 2 measure 14] %! COMMENT_MEASURE_NUMBERS
-                        r2
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        \times 16/17 {
-                            <ef' f' bf'>32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
+                                            cl.tr.
                                         \hspace
                                             #0.5
                                     }
                                 }
                             - \tweak bound-details.right.text \markup {
                                 \upright
-                                    ord.
+                                    1/2cl.tr.
                                 }
                             \startTextSpanOne
-                            [
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'16.
-                            c'32
-                            d'8..
-                            cs'16
+                            <g' a'>8
+                            - \open
                             ~
-                        }
-                    }
-                    {
-                        % [Voice 2 measure 15] %! COMMENT_MEASURE_NUMBERS
-                        cs'16.
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'16.
-                        d'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                        r4
-                        \!
-                        cs'8
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        ~
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        [
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        % [Voice 2 measure 16] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            af'8.
-                            \mf
+                            <g' a'>16
+                            fs'16
+                            - \open
+                            ~
+                            fs'16
+                            c'8.
+                            - \open
+                            d'16
                             - \halfopen
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ovr.pr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
-                    }
-                    {
-                        r4
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        r16
-                        e'16
-                        \ffff
-                        \>
-                        ~
-                        - \abjad-solid-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        scr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ovr.pr.
-                            }
-                        \startTextSpanOne
-                        [
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            % [Voice 2 measure 17] %! COMMENT_MEASURE_NUMBERS
-                            e'16
-                            \mf
+                            cs'16
+                            \ppp
+                            - \open
                             - \tweak stencil #constante-hairpin
                             \<
                             \stopTextSpanOne
                             ]
-                            r8
-                            \!
-                            \stopTextSpanOne
                         }
                     }
                     {
-                        r8
-                    }
-                    {
-                        r16
-                        <g' a'>16
-                        \ffff
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        [
+                        % [Voice 2 measure 19] %! COMMENT_MEASURE_NUMBERS
+                        r4.
+                        \!
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 24/25 {
-                            % [Voice 2 measure 18] %! COMMENT_MEASURE_NUMBERS
-                            <g' a'>32
+                        \times 6/5 {
+                            e'16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -2032,74 +2019,24 @@
                                     st.
                                 }
                             \startTextSpanOne
-                            fs'32
-                            c'16.
-                            d'32
-                            cs'8
-                            ~
-                            cs'16.
-                            <ef' f' bf'>16
-                            ~
-                            <ef' f' bf'>16.
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'16
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
+                            [
+                            af'16
+                            <g' a'>8.
                         }
-                    }
-                    {
-                        % [Voice 2 measure 19] %! COMMENT_MEASURE_NUMBERS
-                        r4.
+                        fs'16
+                        c'8.
+                        d'8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                        r16
                         \!
-                    }
-                    {
-                        af'8.
+                        cs'16
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        [
-                        <g' a'>16
-                        ~
-                        <g' a'>16.
-                        fs'32
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'16.
-                            af'32
-                            <g' a'>32
-                            ~
-                            <g' a'>8
-                            ]
-                        }
-                        r16
-                        \!
-                        fs'16
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -2115,17 +2052,9 @@
                                 ord.
                             }
                         \startTextSpanOne
-                        ~
                         [
-                        fs'16.
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
+                        <ef' bf'>8
+                        e'8
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2134,22 +2063,56 @@
                     }
                     {
                         % [Voice 2 measure 20] %! COMMENT_MEASURE_NUMBERS
-                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r4.
                         \!
                     }
                     {
-                        r8
+                        <ef' bf'>8
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         r2.
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        e'8
+                        \f
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         r8
-                    }
-                    {
-                        r8
-                        \stopStaff \startStaff
+                        \!
+                        \stopTextSpanOne
                     }
                     {
                         % [Voice 2 measure 21] %! COMMENT_MEASURE_NUMBERS
@@ -2168,15 +2131,14 @@
                 \context Voice = "Voice 3"
                 {
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 16/15 {
+                        \times 8/9 {
                             % [Voice 3 measure 1] %! COMMENT_MEASURE_NUMBERS
                             \set Staff.shortInstrumentName =
                             \markup { vla. }
                             \set Staff.instrumentName =
                             \markup { Viola }
                             \clef "varC"
-                            af'16.
+                            af'16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -2196,11 +2158,11 @@
                                 }
                             \startTextSpanOne
                             [
-                            <g' a'>32
-                            fs'32
-                            ~
-                            fs'8.
-                            c'8
+                            <g' a'>16
+                            fs'16
+                            c'8.
+                            d'16
+                            cs'8
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
@@ -2213,7 +2175,7 @@
                         \!
                     }
                     {
-                        d'32
+                        <ef' bf'>16
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -2233,31 +2195,19 @@
                             }
                         \startTextSpanOne
                         [
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'16
-                        ~
-                        fs'32
-                        c'32
-                        d'16
+                        e'8.
+                        af'16
+                        <g' a'>16
                         ~
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
+                        \times 6/5 {
                             % [Voice 3 measure 2] %! COMMENT_MEASURE_NUMBERS
-                            d'16.
-                            ~
+                            <g' a'>16
+                            fs'8
+                            c'16
                             d'16
-                            cs'8
-                            ~
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
@@ -2270,7 +2220,7 @@
                         \!
                     }
                     {
-                        <g' a'>32
+                        cs'16
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -2290,244 +2240,47 @@
                             }
                         \startTextSpanOne
                         [
-                        fs'32
-                        c'16
-                        ~
-                        c'32
-                        d'32
-                        cs'16
-                        ~
-                        cs'8
-                        ~
-                        cs'32
-                        <ef' f' bf'>16.
-                        ~
+                        <ef' bf'>8.
+                        e'16
+                        af'8.
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 24/23 {
-                            % [Voice 3 measure 3] %! COMMENT_MEASURE_NUMBERS
-                            <ef' f' bf'>16
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'16.
-                            cs'32
-                            <ef' f' bf'>8..
-                            e'32
-                            ~
-                            e'8
-                            ]
-                        }
+                        % [Voice 3 measure 3] %! COMMENT_MEASURE_NUMBERS
+                        <g' a'>8.
+                        fs'16
+                        c'8
+                        d'8
+                        cs'16
+                        <ef' bf'>16
+                        e'16
+                        af'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
                     }
                     {
                         % [Voice 3 measure 4] %! COMMENT_MEASURE_NUMBERS
+                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r4
                         \!
                     }
                     {
-                        r4
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 0
-                        fs'8
-                        \mf
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
+                        r4.
                     }
                     {
                         r4
-                        \!
-                        \stopTextSpanOne
+                        \stopStaff \startStaff
                     }
                     {
                         % [Voice 3 measure 5] %! COMMENT_MEASURE_NUMBERS
                         r8
                     }
                     {
-                        af'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        [
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        cs'16.
-                        <ef' f' bf'>32
-                        e'16.
-                        ~
-                        e'8
-                        af'8
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        \times 8/9 {
-                            <g' a'>32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    st.
-                                }
-                            \startTextSpanOne
-                            [
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'16.
-                        }
-                    }
-                    {
-                        % [Voice 3 measure 6] %! COMMENT_MEASURE_NUMBERS
-                        af'32
-                        <g' a'>8..
-                        fs'8
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 16/15 {
-                            r32
-                            \!
-                            c'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            [
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'16
-                            ~
-                            af'32
-                            <g' a'>32
-                            fs'16.
-                            ~
-                            fs'16
-                            ~
-                        }
-                        fs'16
-                        c'16
-                        ~
-                        c'16.
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
-                            r8
-                            \!
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            <g' a'>8.
-                            \ffff
-                            - \halfopen
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            scr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
-                    }
-                    {
-                        r4.
-                        \!
-                        \stopTextSpanOne
-                        r4
-                    }
-                    {
-                        \times 16/17 {
-                            % [Voice 3 measure 8] %! COMMENT_MEASURE_NUMBERS
-                            <g' a'>16.
+                        \times 10/11 {
+                            <g' a'>8
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -2547,23 +2300,169 @@
                                 }
                             \startTextSpanOne
                             [
-                            fs'32
-                            c'8..
-                            d'8
+                            fs'16
+                            c'8.
+                            d'8.
+                            cs'16
+                            <ef' bf'>16
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        e'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpanOne
+                        [
+                        af'8
+                        <g' a'>16
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            % [Voice 3 measure 6] %! COMMENT_MEASURE_NUMBERS
+                            fs'16
+                            c'16
+                            d'8.
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                        r16
+                        \!
+                        cs'16
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        ~
+                        [
+                        cs'8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        <ef' bf'>8
+                        ~
+                        <ef' bf'>16
+                        e'16
+                        af'8
+                        <g' a'>8
+                        fs'16
+                        c'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 3 measure 7] %! COMMENT_MEASURE_NUMBERS
+                        r8.
+                        \!
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 0
+                        <g' a'>8.
+                        \ffff
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                    }
+                    {
+                        r4.
+                        \!
+                        \stopTextSpanOne
+                        r4
+                    }
+                    {
+                        \times 8/9 {
+                            % [Voice 3 measure 8] %! COMMENT_MEASURE_NUMBERS
+                            d'16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpanOne
+                            [
+                            cs'8
                             ~
-                            d'32
-                            cs'32
+                            cs'16
+                            <ef' bf'>16
+                            e'16
+                            ~
+                            e'8
+                            af'16
+                            ~
                         }
                     }
                     {
                         % [Voice 3 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'16.
-                        c'32
-                        d'8
+                        af'8
+                        <g' a'>16
+                        fs'16
+                        ~
+                        fs'16
+                        c'16
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2576,9 +2475,9 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/11 {
+                        \times 6/5 {
                             % [Voice 3 measure 10] %! COMMENT_MEASURE_NUMBERS
-                            cs'16.
+                            d'16
                             - \tweak circled-tip ##t
                             - \tweak stencil #abjad-flared-hairpin
                             \<
@@ -2598,27 +2497,17 @@
                                 }
                             \startTextSpanOne
                             [
-                            <ef' f' bf'>8
+                            cs'16
+                            <ef' bf'>16
+                            e'16
+                            af'16
                             ~
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>32
                         }
-                        fs'32
-                        c'32
+                        af'8
+                        <g' a'>16
+                        fs'8.
+                        c'8.
                         d'16
-                        ~
-                        d'32
-                        cs'32
-                        <ef' f' bf'>8.
-                        ~
-                        <ef' f' bf'>32
-                        e'16.
-                        ~
-                        e'16
-                        af'32
-                        <g' a'>32
                         \ff
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2631,362 +2520,9 @@
                         \!
                     }
                     {
-                        r16
-                        af'16
-                        \mf
-                        - \accent
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        ~
-                        [
-                        af'16
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        r16
-                        e'16
-                        \ffff
-                        \>
-                        ~
-                        - \abjad-solid-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                scr.
-                            }
-                        \startTextSpanOne
-                        [
-                    }
-                    {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            % [Voice 3 measure 12] %! COMMENT_MEASURE_NUMBERS
-                            e'8
-                            \mf
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
+                        \times 6/7 {
                             r16
-                            \!
-                            \stopTextSpanOne
-                        }
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        fs'8
-                        \ffff
-                        - \staccatissimo
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r8
-                        \!
-                        \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        <g' a'>8
-                        \mf
-                        - \open
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            r8
-                            \!
-                            \stopTextSpanOne
-                            af'16
-                            \ffff
-                            - \halfopen
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            scr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            ~
-                            [
-                            af'16
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            ]
-                            r16
-                            \!
-                            \stopTextSpanOne
-                        }
-                    }
-                    {
-                        r4
-                    }
-                    {
-                        % [Voice 3 measure 13] %! COMMENT_MEASURE_NUMBERS
-                        r16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        e'8.
-                        \mf
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        fs'16
-                        \ffff
-                        \>
-                        ~
-                        - \abjad-solid-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                scr.
-                            }
-                        \startTextSpanOne
-                        [
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
-                            % [Voice 3 measure 14] %! COMMENT_MEASURE_NUMBERS
-                            fs'16
-                            \mf
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                            r8
-                            \!
-                            \stopTextSpanOne
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            <g' a'>8
-                            \ffff
-                            - \halfopen
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ovr.pr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        cs'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        sp.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ord.
-                            }
-                        \startTextSpanOne
-                        [
-                        <ef' f' bf'>32
-                        e'16
-                        ~
-                        e'8
-                        ~
-                        e'32
-                        af'16.
-                        ~
-                        af'16
-                        <g' a'>32
-                        fs'32
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            % [Voice 3 measure 15] %! COMMENT_MEASURE_NUMBERS
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>16.
-                            e'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                        r8
-                        \!
-                        r16.
-                        af'32
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        ~
-                        [
-                        af'8
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        \times 4/5 {
-                            cs'32
-                            <ef' f' bf'>16
-                            ~
-                            <ef' f' bf'>32
-                            e'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        % [Voice 3 measure 16] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            d'16
-                            \mf
-                            - \halfopen
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            scr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            ~
-                            [
-                            d'16
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            ]
-                            r16
-                            \!
-                            \stopTextSpanOne
-                        }
-                    }
-                    {
-                        r4
-                    }
-                    {
-                        r8
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            % [Voice 3 measure 17] %! COMMENT_MEASURE_NUMBERS
                             \set stemLeftBeamCount = 1
                             \set stemRightBeamCount = 1
                             af'8
@@ -3006,814 +2542,12 @@
                                 }
                             - \tweak bound-details.right.padding 2.5
                             \startTextSpanOne
-                            r16
-                            \!
-                            \stopTextSpanOne
-                        }
-                    }
-                    {
-                        r8
-                    }
-                    {
-                        r16
-                        cs'16
-                        \ffff
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        [
-                    }
-                    {
-                        % [Voice 3 measure 18] %! COMMENT_MEASURE_NUMBERS
-                        af'8..
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        <g' a'>32
-                        ~
-                        <g' a'>8
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'16.
-                        af'32
-                        <g' a'>16.
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                    }
-                    {
-                        \times 16/17 {
-                            % [Voice 3 measure 19] %! COMMENT_MEASURE_NUMBERS
-                            fs'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            c'32
-                            d'32
-                            cs'16.
-                            <ef' f' bf'>32
-                            e'8..
-                            af'16.
-                            ~
-                        }
-                        af'16
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        ~
-                        <ef' f' bf'>16
-                        e'32
-                        af'32
-                        ~
-                        af'8
-                        ]
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/11 {
-                            r16
-                            \!
-                            <g' a'>32
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            ~
-                            [
-                            <g' a'>8
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        % [Voice 3 measure 20] %! COMMENT_MEASURE_NUMBERS
-                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
-                        r4.
-                        r4
-                    }
-                    {
-                        r8
-                    }
-                    {
-                        r4.
-                    }
-                    {
-                        r8
-                    }
-                    {
-                        r4
-                        \stopStaff \startStaff
-                    }
-                    {
-                        % [Voice 3 measure 21] %! COMMENT_MEASURE_NUMBERS
-                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
-                        r8
-                        \stopStaff \startStaff
-                    }
-                }
-            }
-            \context Staff = "Staff 4"
-            \with
-            {
-                \consists Horizontal_bracket_engraver
-            }
-            {
-                \context Voice = "Voice 4"
-                {
-                    {
-                        % [Voice 4 measure 1] %! COMMENT_MEASURE_NUMBERS
-                        \set Staff.shortInstrumentName =
-                        \markup { vc. }
-                        \set Staff.instrumentName =
-                        \markup { Violoncello }
-                        \clef "bass"
-                        <ef' f' bf'>32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        [
-                        e'16.
-                        af'32
-                        <g' a'>8..
-                        fs'8
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            c'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            [
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>16.
-                            fs'32
-                            c'16.
-                            ~
-                        }
-                    }
-                    {
-                        % [Voice 4 measure 2] %! COMMENT_MEASURE_NUMBERS
-                        c'8
-                        d'8
-                        ~
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        fs'16
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 16/15 {
-                            r32
-                            \!
-                            c'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            [
-                            d'16.
-                            ~
-                            d'8
-                            cs'32
-                            ~
-                            cs'8
-                            <ef' f' bf'>32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        % [Voice 4 measure 3] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                    }
-                    {
-                        e'32
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        [
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'16.
-                        d'32
-                        cs'8
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r4
-                        \!
-                    }
-                    {
-                        % [Voice 4 measure 4] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                    }
-                    {
-                        r16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        e'8.
-                        \ffff
-                        - \staccatissimo
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        scr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r16
-                        \!
-                        \stopTextSpanOne
-                        \set stemLeftBeamCount = 2
-                        \set stemRightBeamCount = 0
-                        fs'16
-                        \mf
-                        - \open
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                    }
-                    {
-                        r4.
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        % [Voice 4 measure 5] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/21 {
-                            <ef' f' bf'>16.
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            [
-                            e'8
-                            ~
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
-                            ~
-                            cs'16
-                            <ef' f' bf'>32
-                            e'8
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        af'16.
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        st.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                sp.
-                            }
-                        \startTextSpanOne
-                        [
-                        <g' a'>32
-                        ~
-                        <g' a'>8
-                        ]
-                    }
-                    {
-                        % [Voice 4 measure 6] %! COMMENT_MEASURE_NUMBERS
-                        r2
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/19 {
-                            fs'32
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    st.
-                                }
-                            \startTextSpanOne
-                            [
-                            c'32
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'16.
-                            af'32
-                            <g' a'>8..
-                            fs'16.
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/11 {
-                            % [Voice 4 measure 7] %! COMMENT_MEASURE_NUMBERS
                             r8.
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            <g' a'>8.
-                            \ffff
-                            - \halfopen
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            r16
                             \!
                             \stopTextSpanOne
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            af'8
-                            \mf
-                            - \halfopen
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            scr.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            r8
-                            \!
-                            \stopTextSpanOne
-                        }
-                    }
-                    {
-                        r4
-                    }
-                    {
-                        % [Voice 4 measure 8] %! COMMENT_MEASURE_NUMBERS
-                        c'16
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        sp.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                ord.
-                            }
-                        \startTextSpanOne
-                        [
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
-                        e'32
-                        af'32
-                        <g' a'>32
-                        ~
-                        <g' a'>16
-                        fs'32
-                        c'32
-                        ~
-                        c'8
-                        ]
-                    }
-                    {
-                        % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
-                        r4.
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            d'16
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            [
-                            cs'32
-                            ~
-                            cs'8
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        % [Voice 4 measure 10] %! COMMENT_MEASURE_NUMBERS
-                        d'16
-                        - \tweak circled-tip ##t
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ord.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.text \markup {
-                            \upright
-                                st.
-                            }
-                        \startTextSpanOne
-                        [
-                        cs'32
-                        <ef' f' bf'>32
-                        ~
-                        <ef' f' bf'>8.
-                        e'16
-                        ~
-                        e'16.
-                        af'32
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        \ff
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                    }
-                    {
-                        r8
-                        \!
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            cs'16.
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            sp.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
-                            \startTextSpanOne
-                            [
-                            <ef' f' bf'>32
-                            e'16.
-                            \ff
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            \stopTextSpanOne
-                            ]
-                        }
-                    }
-                    {
-                        % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
-                        r8
-                        \!
-                    }
-                    {
-                        r4
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        e'8
-                        \ffff
-                        - \halfopen
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \upright
-                                        ovr.pr.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 2.5
-                        \startTextSpanOne
-                        r8
-                        \!
-                        \stopTextSpanOne
-                    }
-                    {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 10/9 {
-                            % [Voice 4 measure 12] %! COMMENT_MEASURE_NUMBERS
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            fs'8.
-                            \mf
-                            - \accent
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                            r16
-                            \!
-                            \stopTextSpanOne
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 1
-                            <g' a'>8
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            e'16
                             \ffff
                             - \staccatissimo
                             - \tweak stencil #constante-hairpin
@@ -3830,10 +2564,16 @@
                                 }
                             - \tweak bound-details.right.padding 2.5
                             \startTextSpanOne
+                        }
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            % [Voice 3 measure 12] %! COMMENT_MEASURE_NUMBERS
                             r8
                             \!
                             \stopTextSpanOne
-                            af'16
+                            fs'16
                             \ffff
                             \>
                             ~
@@ -3854,7 +2594,7 @@
                             \startTextSpanOne
                             [
                         }
-                        af'8
+                        fs'8
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -3863,7 +2603,7 @@
                         r16
                         \!
                         \stopTextSpanOne
-                        e'16
+                        <g' a'>16
                         \mf
                         - \open
                         - \abjad-solid-line-with-hook
@@ -3880,23 +2620,1235 @@
                         \startTextSpanOne
                         ~
                         [
-                        e'16
+                        <g' a'>16
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
                         r16
                         \!
                         \stopTextSpanOne
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            af'16
+                            \ffff
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 0
+                            e'8
+                            \mf
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                        }
                     }
                     {
                         r4
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            % [Voice 3 measure 13] %! COMMENT_MEASURE_NUMBERS
+                            r8
+                            fs'16
+                            \ffff
+                            - \halfopen
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            ~
+                            [
+                            fs'16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r16
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        % [Voice 3 measure 14] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        <g' a'>16
+                        \mf
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        r16
+                        \!
+                        \stopTextSpanOne
+                        r16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
+                        af'16
+                        \ffff
+                        - \staccatissimo
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                    }
+                    {
+                        r8
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        \times 8/9 {
+                            <f' bf'>8
+                            \mp
+                            - \open
+                            \<
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    1/2cl.tr.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'16
+                            - \halfopen
+                            ~
+                            e'16
+                            af'16
+                            - \halfopen
+                            <g' a'>16
+                            - \halfopen
+                            fs'8
+                            - \halfopen
+                            c'16
+                            ~
+                        }
+                    }
+                    {
+                        % [Voice 3 measure 15] %! COMMENT_MEASURE_NUMBERS
+                        c'8
+                        d'8
+                        \ppp
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                        r8
+                        \!
+                        r16
+                        cs'16
+                        \mp
+                        - \open
+                        \<
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        cl.tr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                1/2cl.tr.
+                            }
+                        \startTextSpanOne
+                        [
+                        <f' bf'>8
+                        - \open
+                        ~
+                        <f' bf'>16
+                        e'16
+                        ~
+                        \times 2/3 {
+                            e'16
+                            af'16
+                            - \open
+                            <g' a'>16
+                            \ppp
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        % [Voice 3 measure 16] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \!
+                    }
+                    {
+                        af'4.
+                        \f
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        udr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ovr.pr.
+                            }
+                        \startTextSpanOne
+                        [
+                        <g' a'>8
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r4
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        r8
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 4/3 {
+                            % [Voice 3 measure 17] %! COMMENT_MEASURE_NUMBERS
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            e'8
+                            \mf
+                            - \open
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r16
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        r8
+                    }
+                    {
+                        fs'8
+                        \mf
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        [
+                    }
+                    {
+                        % [Voice 3 measure 18] %! COMMENT_MEASURE_NUMBERS
+                        fs'8
+                        \mp
+                        - \open
+                        \<
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                1/2cl.tr.
+                            }
+                        \startTextSpanOne
+                        c'8
+                        - \open
+                        ~
+                        c'16
+                        d'16
+                        - \halfopen
+                        ~
+                        d'16
+                        cs'16
+                        - \halfopen
+                        ~
+                        cs'8
+                        <f' bf'>16
+                        - \halfopen
+                        e'16
+                        \ppp
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                    }
+                    {
+                        % [Voice 3 measure 19] %! COMMENT_MEASURE_NUMBERS
+                        cs'8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        <ef' bf'>8
+                        e'16
+                        af'16
+                        <g' a'>16
+                        fs'16
+                        ~
+                        \times 8/9 {
+                            fs'8
+                            c'16
+                            d'8.
+                            cs'8.
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                        r16
+                        \!
+                        <ef' bf'>16
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        ~
+                        [
+                        <ef' bf'>16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        e'16
+                        ~
+                        e'16
+                        af'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        % [Voice 3 measure 20] %! COMMENT_MEASURE_NUMBERS
+                        r4.
+                        r4
+                    }
+                    {
+                        c'8
+                        \f
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        udr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                    }
+                    {
+                        r4.
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        d'8
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                    }
+                    {
+                        r4
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        % [Voice 3 measure 21] %! COMMENT_MEASURE_NUMBERS
+                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
+                        r8
+                        \stopStaff \startStaff
+                    }
+                }
+            }
+            \context Staff = "Staff 4"
+            \with
+            {
+                \consists Horizontal_bracket_engraver
+            }
+            {
+                \context Voice = "Voice 4"
+                {
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            % [Voice 4 measure 1] %! COMMENT_MEASURE_NUMBERS
+                            \set Staff.shortInstrumentName =
+                            \markup { vc. }
+                            \set Staff.instrumentName =
+                            \markup { Violoncello }
+                            \clef "bass"
+                            <g' a'>16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpanOne
+                            [
+                            fs'16
+                            c'8.
+                            d'16
+                            cs'16
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        <ef' bf'>8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        [
+                        e'8.
+                        af'16
+                    }
+                    {
+                        % [Voice 4 measure 2] %! COMMENT_MEASURE_NUMBERS
+                        <g' a'>8
+                        fs'8
+                        c'16
+                        d'16
+                        cs'16
+                        <ef' bf'>16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                        \times 8/9 {
+                            r8
+                            \!
+                            e'16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            st.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    sp.
+                                }
+                            \startTextSpanOne
+                            [
+                            af'8.
+                            <g' a'>8.
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        % [Voice 4 measure 3] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \!
+                    }
+                    {
+                        fs'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpanOne
+                        [
+                        c'16
+                        ~
+                        c'16
+                        d'16
+                        ~
+                        d'16
+                        cs'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r4
+                        \!
+                    }
+                    {
+                        % [Voice 4 measure 4] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                    }
+                    {
+                        r8
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        fs'16
+                        \ffff
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        r16
+                        \!
+                        \stopTextSpanOne
+                        r16
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
+                        <g' a'>16
+                        \mf
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                    }
+                    {
+                        r4.
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        % [Voice 4 measure 5] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 10/9 {
+                            <ef' bf'>16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpanOne
+                            [
+                            e'16
+                            af'16
+                            ~
+                            af'8
+                            <g' a'>16
+                            fs'8.
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        c'8.
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        d'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 4 measure 6] %! COMMENT_MEASURE_NUMBERS
+                        r2
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        cs'8
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                st.
+                            }
+                        \startTextSpanOne
+                        [
+                        <ef' bf'>8
+                        e'16
+                        af'16
+                        <g' a'>16
+                        fs'8.
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            % [Voice 4 measure 7] %! COMMENT_MEASURE_NUMBERS
+                            r8.
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            af'8
+                            \ffff
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8.
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 2
+                            \set stemRightBeamCount = 2
+                            e'16
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            r8
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 0
+                            fs'8
+                            \ffff
+                            - \staccatissimo
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                        }
+                    }
+                    {
+                        r4
+                        \!
+                        \stopTextSpanOne
+                    }
+                    {
+                        \times 8/9 {
+                            % [Voice 4 measure 8] %! COMMENT_MEASURE_NUMBERS
+                            c'16
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            sp.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpanOne
+                            [
+                            d'8
+                            ~
+                            d'16
+                            cs'8
+                            ~
+                            cs'16
+                            <ef' bf'>16
+                            e'16
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        % [Voice 4 measure 9] %! COMMENT_MEASURE_NUMBERS
+                        r4.
+                        \!
+                    }
+                    {
+                        af'16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        st.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                sp.
+                            }
+                        \startTextSpanOne
+                        [
+                        <g' a'>16
+                        ~
+                        <g' a'>16
+                        fs'16
+                        c'16
+                        d'16
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 10/9 {
+                            % [Voice 4 measure 10] %! COMMENT_MEASURE_NUMBERS
+                            cs'8.
+                            - \tweak circled-tip ##t
+                            - \tweak stencil #abjad-flared-hairpin
+                            \<
+                            - \abjad-dashed-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ord.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    st.
+                                }
+                            \startTextSpanOne
+                            [
+                            <ef' bf'>16
+                            e'8
+                            ~
+                            e'16
+                            af'8
+                            \ff
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                    }
+                    {
+                        r8
+                        \!
+                    }
+                    {
+                        <g' a'>16
+                        - \tweak circled-tip ##t
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        - \abjad-dashed-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        sp.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                ord.
+                            }
+                        \startTextSpanOne
+                        [
+                        fs'16
+                        c'8
+                        \ff
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
+                    }
+                    {
+                        % [Voice 4 measure 11] %! COMMENT_MEASURE_NUMBERS
+                        r8
+                        \!
+                    }
+                    {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            <g' a'>16
+                            \mf
+                            - \open
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                            ~
+                            [
+                            <g' a'>16
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            ]
+                            r8.
+                            \!
+                            \stopTextSpanOne
+                        }
+                    }
+                    {
+                        % [Voice 4 measure 12] %! COMMENT_MEASURE_NUMBERS
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 2
+                        af'16
+                        \ffff
+                        - \halfopen
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ovr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        r16
+                        \!
+                        \stopTextSpanOne
+                        r16
+                        e'16
+                        \mf
+                        - \halfopen
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        ~
+                        [
+                        e'8
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        r16
+                        \!
+                        \stopTextSpanOne
+                        fs'16
+                        \ffff
+                        - \halfopen
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        scr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
+                        ~
+                        [
+                        fs'16
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+                        r16
+                        \!
+                        \stopTextSpanOne
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            <g' a'>8
+                            \ffff
+                            - \accent
+                            \>
+                            - \abjad-solid-line-with-arrow
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            ovr.pr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.text \markup {
+                                \upright
+                                    ord.
+                                }
+                            \startTextSpanOne
+                            [
+                            af'16
+                            \mf
+                            - \staccatissimo
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                            r8
+                            \!
+                            \stopTextSpanOne
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 0
+                            e'8
+                            \mf
+                            - \open
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
+                            - \tweak bound-details.left.text \markup {
+                                \concat
+                                    {
+                                        \upright
+                                            scr.
+                                        \hspace
+                                            #0.5
+                                    }
+                                }
+                            - \tweak bound-details.right.padding 2.5
+                            \startTextSpanOne
+                        }
+                    }
+                    {
+                        r4
+                        \!
+                        \stopTextSpanOne
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             % [Voice 4 measure 13] %! COMMENT_MEASURE_NUMBERS
-                            r16
-                            fs'8
+                            r8
+                            fs'16
                             \ffff
                             - \halfopen
                             - \abjad-solid-line-with-hook
@@ -3924,9 +3876,10 @@
                     }
                     {
                         % [Voice 4 measure 14] %! COMMENT_MEASURE_NUMBERS
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        <g' a'>8
+                        r8
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 2
+                        <g' a'>16
                         \mf
                         - \halfopen
                         - \tweak stencil #constante-hairpin
@@ -3943,12 +3896,13 @@
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        r8
+                        r16
                         \!
                         \stopTextSpanOne
-                        \set stemLeftBeamCount = 1
+                        r16
+                        \set stemLeftBeamCount = 2
                         \set stemRightBeamCount = 0
-                        af'8
+                        af'16
                         \ffff
                         - \halfopen
                         - \tweak stencil #constante-hairpin
@@ -3973,87 +3927,90 @@
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 16/15 {
-                            fs'8
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
+                        \times 8/7 {
+                            af'8
+                            \mp
+                            - \halfopen
                             \<
-                            - \abjad-dashed-line-with-arrow
+                            - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup {
                                 \concat
                                     {
                                         \upright
-                                            sp.
+                                            cl.tr.
                                         \hspace
                                             #0.5
                                     }
                                 }
                             - \tweak bound-details.right.text \markup {
                                 \upright
-                                    ord.
+                                    1/2cl.tr.
                                 }
                             \startTextSpanOne
                             [
-                            c'32
+                            <g' a'>16
+                            - \open
                             ~
-                            c'8
-                            d'32
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>32
+                            <g' a'>16
+                            fs'16
+                            - \open
+                            c'16
+                            - \open
+                            d'16
                             ~
                         }
                     }
                     {
-                        % [Voice 4 measure 15] %! COMMENT_MEASURE_NUMBERS
+                        \times 2/3 {
+                            % [Voice 4 measure 15] %! COMMENT_MEASURE_NUMBERS
+                            d'16
+                            cs'8
+                            \ppp
+                            - \halfopen
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            \stopTextSpanOne
+                            ]
+                        }
+                        r16
+                        \!
+                        <f' bf'>16
+                        \mp
+                        - \open
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                1/2cl.tr.
+                            }
+                        \startTextSpanOne
+                        ~
+                        [
+                        <f' bf'>16
+                        \<
+                        e'16
+                        - \open
+                        ~
+                        e'8
+                        af'16
+                        - \halfopen
                         <g' a'>16
-                        fs'32
-                        c'32
-                        \ff
+                        ~
+                        <g' a'>8
+                        fs'8
+                        \ppp
+                        - \halfopen
                         - \tweak stencil #constante-hairpin
                         \<
                         \stopTextSpanOne
-                        ]
-                        \times 16/17 {
-                            r8.
-                            \!
-                            d'32
-                            - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            st.
-                                        \hspace
-                                            #0.5
-                                    }
-                                }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    sp.
-                                }
-                            \startTextSpanOne
-                            ~
-                            [
-                            d'8
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
-                            \<
-                            cs'32
-                            <ef' f' bf'>32
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            ~
-                        }
-                        fs'16
-                        c'32
-                        d'32
-                        ~
-                        d'8
                         ]
                     }
                     {
@@ -4062,44 +4019,54 @@
                         \!
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 8/7 {
-                            r4
-                            \set stemLeftBeamCount = 1
-                            \set stemRightBeamCount = 0
-                            af'8.
-                            \mf
-                            - \staccatissimo
-                            - \tweak stencil #constante-hairpin
-                            \<
-                            - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup {
-                                \concat
-                                    {
-                                        \upright
-                                            ord.
-                                        \hspace
-                                            #0.5
-                                    }
+                        cs'8
+                        \f
+                        - \portato
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
+                        - \abjad-solid-line-with-arrow
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
                                 }
-                            - \tweak bound-details.right.padding 2.5
-                            \startTextSpanOne
-                        }
+                            }
+                        - \tweak bound-details.right.text \markup {
+                            \upright
+                                udr.pr.
+                            }
+                        \startTextSpanOne
+                        [
+                        <ef' bf'>8
+                        - \tenuto
+                        e'8
+                        - \tenuto
+                        af'8
+                        \mf
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        \stopTextSpanOne
+                        ]
                     }
                     {
                         r8
                         \!
-                        \stopTextSpanOne
                     }
                     {
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \times 4/3 {
-                            r8
-                            e'16
-                            \ffff
-                            \>
-                            ~
-                            - \abjad-solid-line-with-arrow
+                        \times 4/5 {
+                            r8.
+                            \set stemLeftBeamCount = 1
+                            \set stemRightBeamCount = 1
+                            e'8
+                            \mf
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            - \abjad-solid-line-with-hook
                             - \tweak bound-details.left.text \markup {
                                 \concat
                                     {
@@ -4109,23 +4076,13 @@
                                             #0.5
                                     }
                                 }
-                            - \tweak bound-details.right.text \markup {
-                                \upright
-                                    ord.
-                                }
+                            - \tweak bound-details.right.padding 2.5
                             \startTextSpanOne
-                            [
                         }
                     }
                     {
                         % [Voice 4 measure 17] %! COMMENT_MEASURE_NUMBERS
-                        e'16
-                        \mf
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        \stopTextSpanOne
-                        ]
-                        r16
+                        r8
                         \!
                         \stopTextSpanOne
                     }
@@ -4133,12 +4090,9 @@
                         r8
                     }
                     {
-                        r16
-                        \set stemLeftBeamCount = 1
-                        \set stemRightBeamCount = 1
-                        <g' a'>8
-                        \ffff
-                        - \open
+                        <g' a'>4
+                        \f
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-hook
@@ -4146,53 +4100,51 @@
                             \concat
                                 {
                                     \upright
-                                        scr.
+                                        ovr.pr.
                                     \hspace
                                         #0.5
                                 }
                             }
                         - \tweak bound-details.right.padding 2.5
                         \startTextSpanOne
-                        r16
-                        \!
-                        \stopTextSpanOne
+                        [
                     }
                     {
                         \tweak text #tuplet-number::calc-fraction-text
-                        \times 20/19 {
+                        \times 10/11 {
                             % [Voice 4 measure 18] %! COMMENT_MEASURE_NUMBERS
-                            cs'16
-                            - \tweak circled-tip ##t
-                            - \tweak stencil #abjad-flared-hairpin
+                            c'16
+                            \mp
+                            - \halfopen
                             \<
-                            - \abjad-dashed-line-with-arrow
+                            - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup {
                                 \concat
                                     {
                                         \upright
-                                            ord.
+                                            cl.tr.
                                         \hspace
                                             #0.5
                                     }
                                 }
                             - \tweak bound-details.right.text \markup {
                                 \upright
-                                    st.
+                                    1/2cl.tr.
                                 }
                             \startTextSpanOne
-                            [
-                            <ef' f' bf'>32
+                            d'16
+                            - \halfopen
+                            cs'16
+                            - \halfopen
                             ~
-                            <ef' f' bf'>8
-                            e'32
-                            af'32
-                            <g' a'>32
-                            fs'32
-                            c'32
-                            d'16.
-                            cs'32
-                            <ef' f' bf'>16.
-                            \ff
+                            cs'16
+                            <f' bf'>8.
+                            - \open
+                            e'8
+                            - \open
+                            af'8
+                            \ppp
+                            - \open
                             - \tweak stencil #constante-hairpin
                             \<
                             \stopTextSpanOne
@@ -4208,7 +4160,7 @@
                         r2
                     }
                     {
-                        af'8
+                        d'8
                         - \tweak circled-tip ##t
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -4228,26 +4180,20 @@
                             }
                         \startTextSpanOne
                         [
-                        <g' a'>8
-                        ~
-                        <g' a'>32
-                        fs'32
-                        c'32
-                        d'32
-                        cs'32
-                        <ef' f' bf'>32
+                        cs'16
+                        <ef' bf'>16
                         e'16
-                        ~
-                        \times 16/17 {
-                            e'32
-                            af'32
-                            <g' a'>8..
+                        af'8.
+                        \times 8/9 {
+                            <g' a'>16
                             fs'8
                             ~
-                            fs'32
-                            c'32
-                            d'32
-                            cs'32
+                            fs'16
+                            c'8
+                            ~
+                            c'16
+                            d'16
+                            cs'16
                             \ff
                             - \tweak stencil #constante-hairpin
                             \<
@@ -4257,24 +4203,58 @@
                     }
                     {
                         % [Voice 4 measure 20] %! COMMENT_MEASURE_NUMBERS
-                        \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r2..
                         \!
                     }
                     {
-                        r8
+                        fs'8
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        ord.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         r4.
+                        \!
+                        \stopTextSpanOne
                     }
                     {
-                        r8
-                        \stopStaff \startStaff
+                        c'8
+                        \f
+                        - \portato
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        - \abjad-solid-line-with-hook
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \upright
+                                        udr.pr.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 2.5
+                        \startTextSpanOne
                     }
                     {
                         % [Voice 4 measure 21] %! COMMENT_MEASURE_NUMBERS
                         \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff
                         r8
+                        \!
+                        \stopTextSpanOne
                         \stopStaff \startStaff
                     }
                 }
