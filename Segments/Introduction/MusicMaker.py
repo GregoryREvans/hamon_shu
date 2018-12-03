@@ -39,6 +39,7 @@ class MusicMaker:
                 )
             abjad.attach(start_command, selections[0][0])
             abjad.attach(stop_command, selections[0][-1])
+            abjad.attach(abjad.Clef('percussion'), selections[0][0])
         if self.pitches != None:
             selections = self._apply_pitches(selections, self.pitches)
         if self.attachment_handler != None:

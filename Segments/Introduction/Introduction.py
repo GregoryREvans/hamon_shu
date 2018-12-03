@@ -17,8 +17,7 @@ time_signatures = [
         (9, 8), (5, 4), (4, 4), (2, 4),
         (7, 8), (4, 4), (5, 8), (5, 4),
         (3, 8), (4, 4), (7, 8), (4, 4), (4, 8),
-        (6, 8), (12, 8), (12, 8),
-        (1, 8), #temporary fix for ending spanners
+        (6, 8), (12, 8), (13, 8),
     ]
 ]
 
@@ -607,32 +606,13 @@ for voice in abjad.iterate(score['Staff Group']).components(abjad.Voice):
         abjad.attach(stop_command, selection[-1])
 
 print('Stopping Hairpins and Text Spans...')
-for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
-    for rest in abjad.iterate(staff).components(abjad.Rest):
-        previous_leaf = abjad.inspect(rest).leaf(-1)
-        if isinstance(previous_leaf, abjad.Note):
-            abjad.attach(abjad.StopHairpin(), rest)
-        elif isinstance(previous_leaf, abjad.Chord):
-            abjad.attach(abjad.StopHairpin(), rest)
-        elif isinstance(previous_leaf, abjad.Rest):
-            pass
-    for rest in abjad.iterate(staff).components(abjad.MultimeasureRest):
-        previous_leaf = abjad.inspect(rest).leaf(-1)
-        if isinstance(previous_leaf, abjad.Note):
-            abjad.attach(abjad.StopHairpin(), rest)
-        elif isinstance(previous_leaf, abjad.Chord):
-            abjad.attach(abjad.StopHairpin(), rest)
-        elif isinstance(previous_leaf, abjad.Rest):
-            pass
 
 for staff in abjad.iterate(score['Staff Group']).components(abjad.Staff):
     for run in abjad.select(staff).runs():
-        if len(run) > 2: #2 is a quick fix for 2 leaf logical ties, but this should become 1 eventually...
-            pass
-        else:
-            last_leaf = run[-1]
-            next_leaf = abjad.inspect(last_leaf).leaf(1)
-            abjad.attach(abjad.StopTextSpan(command=r'\stopTextSpanOne',), next_leaf)
+        last_leaf = run[-1]
+        next_leaf = abjad.inspect(last_leaf).leaf(1)
+        abjad.attach(abjad.StopTextSpan(command=r'\stopTextSpanOne',), next_leaf)
+        abjad.attach(abjad.StopHairpin(), next_leaf)
 
 # Make pitches
 print('Adding pitch material ...')

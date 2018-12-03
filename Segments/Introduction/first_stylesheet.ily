@@ -66,6 +66,7 @@
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = #6
         \override TimeSignature.self-alignment-X = #center
+		\override TimeSignature.whiteout = ##t
         \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 0) (minimum-distance . 10) (padding . 6) (stretchability . 0))
     }
     \context {
@@ -77,7 +78,7 @@
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
         \override Beam.beam-thickness = #0.7
-        \override Beam.length-fraction = #1.2
+        \override Beam.length-fraction = #1.4
         \override DynamicText.font-size = #-3
 		\override Glissando.breakable = ##t
 		\override MetronomeMark.font-size = 3
