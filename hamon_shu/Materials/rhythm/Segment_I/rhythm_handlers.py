@@ -10,7 +10,7 @@ silence_maker = abjadext.rmakers.NoteRhythmMaker(
 
 rhythm_handler_one = evans.RhythmHandler(rmaker=rmaker_one, continuous=True)
 
-rhythm_handler_two = evans.RhythmHandler(rmaker=rmaker_two, continuous=True)
+rhythm_handler_two = evans.RhythmHandler(rmaker=rmaker_one, continuous=True)
 
 rhythm_handler_three = evans.RhythmHandler(rmaker=rmaker_three, continuous=True)
 

@@ -2,15 +2,13 @@ import evans
 
 
 dynamic_handler_one = evans.DynamicHandler(
-    dynamic_list=["f", "p", "niente", "mf"],  # niente + leak is weird
+    dynamic_list=["f", "p", "mp", "mf"],  # niente + leak is weird
     flare_boolean_vector=[1, 0, 0, 1],
     flare_continuous=True,
     hold_first_boolean_vector=[1, 0, 0],
     hold_first_continuous=True,
     hold_last_boolean_vector=[0, 1],
     hold_last_continuous=True,
-    effort_boolean_vector=[1, 0],
-    effort_continuous=True,
     continuous=True,
 )
 
@@ -22,7 +20,5 @@ dynamic_handler_two = evans.DynamicHandler(
     hold_first_continuous=False,
     hold_last_boolean_vector=[1, 0],
     hold_last_continuous=True,
-    effort_boolean_vector=[0, 0, 0, 1],
-    effort_continuous=False,
     continuous=True,
 )
