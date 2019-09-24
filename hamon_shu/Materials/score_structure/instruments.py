@@ -20,12 +20,7 @@ instrument_four_range = instrument_four.pitch_range
 instrument_four_range_lowest = abjad.NumberedPitch(instrument_four_range.start_pitch)
 instrument_four_range_highest = abjad.NumberedPitch(instrument_four_range.stop_pitch)
 
-instruments = [
-    instrument_one,
-    instrument_two,
-    instrument_three,
-    instrument_four,
-]
+instruments = [instrument_one, instrument_two, instrument_three, instrument_four]
 voices = len(instruments)
 
 voice_to_name_dict = {

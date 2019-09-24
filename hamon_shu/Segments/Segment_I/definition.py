@@ -14,23 +14,23 @@ from hamon_shu.Materials.pitch.Segment_I.clef_handlers import clef_handlers
 
 
 maker = evans.SegmentMaker(
-        instruments=insts,
-        rhythm_timespans=segment_I_rhythm_timespans,
-        handler_timespans=segment_I_timespans,
-        score_template=score,
-        time_signatures=time_signatures,
-        clef_handlers=clef_handlers,
-        score_includes=[
-            "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-            "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",
-        ],
-        parts_includes=[
-            "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-            "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily",
-        ],
-        segment_name="Segment_I",
-        current_directory=pathlib.Path(__file__).parent,
-        build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve()
+    instruments=insts,
+    rhythm_timespans=segment_I_rhythm_timespans,
+    handler_timespans=segment_I_timespans,
+    score_template=score,
+    time_signatures=time_signatures,
+    clef_handlers=clef_handlers,
+    score_includes=[
+        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
+        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",
+    ],
+    parts_includes=[
+        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
+        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily",
+    ],
+    segment_name="Segment_I",
+    current_directory=pathlib.Path(__file__).parent,
+    build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
 )
 
 maker.build_segment()
