@@ -71,9 +71,9 @@
                     % [Voice 1 measure 1]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. I-1" }                                     %! applying staff names and clefs
+                    \markup { "vln. I" }                                       %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
-                    \markup { "Violin I-1" }                                   %! applying staff names and clefs
+                    \markup { "Violin I" }                                     %! applying staff names and clefs
                     \clef "treble"
                     cqs'8
                     _ #(make-dynamic-script
@@ -520,9 +520,9 @@
                     % [Voice 2 measure 1]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. I-2" }                                     %! applying staff names and clefs
+                    \markup { "vln. II" }                                      %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
-                    \markup { "Violin I-2" }                                   %! applying staff names and clefs
+                    \markup { "Violin II" }                                    %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
                     \clef "treble"
@@ -1016,12 +1016,12 @@
                     % [Voice 3 measure 1]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. II-1" }                                    %! applying staff names and clefs
+                    \markup { vla. }                                           %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
-                    \markup { "Violin II-1" }                                  %! applying staff names and clefs
+                    \markup { Viola }                                          %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
-                    \clef "treble"
+                    \clef "varC"
                     r1 * 3/16
 
                     R1 * 3/16
@@ -1308,12 +1308,12 @@
                     % [Voice 4 measure 1]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. II-2" }                                    %! applying staff names and clefs
+                    \markup { vc. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
-                    \markup { "Violin II-2" }                                  %! applying staff names and clefs
+                    \markup { Violoncello }                                    %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
-                    \clef "treble"
+                    \clef "bass"
                     r1 * 3/16
 
                     R1 * 3/16
@@ -1435,12 +1435,14 @@
 
                         }
 
+                        \clef "tenorvarC"
                         a'8
                         - \tenuto
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/9 {
 
+                            \clef "treble"
                             <b' e''>16.
                             - \accent
 

@@ -79,9 +79,9 @@
             % [Voice 1 measure 1]                                              %! COMMENT_MEASURE_NUMBERS
 
             \set Staff.shortInstrumentName =                                   %! applying staff names and clefs
-            \markup { "vln. I-1" }                                             %! applying staff names and clefs
+            \markup { "vln. I" }                                               %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
-            \markup { "Violin I-1" }                                           %! applying staff names and clefs
+            \markup { "Violin I" }                                             %! applying staff names and clefs
             \clef "treble"
             cqs'8
             _ #(make-dynamic-script

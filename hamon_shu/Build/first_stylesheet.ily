@@ -2,7 +2,7 @@
 
 \version "2.19.83"
 \language "english"
-#(set-default-paper-size "11x17portrait")
+#(set-default-paper-size "letterportrait")
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
@@ -10,12 +10,11 @@
 \header {
 	tagline = ##f
 	breakbefore = ##t
-	dedication = \markup \override #'(font-name . "Didot") \fontsize #3.5 \center-column {"to the University of Iowa Symphony Orchestra"}
-	title =  \markup \override #'(font-name . "Didot") \fontsize #16 \bold\center-column {"Passagenwerk" }
-	subtitle = \markup \override #'(font-name . "Didot") \center-column { \line{ \fontsize #23 ".                                   ."} \line{ \fontsize #7 "for string ensemble"} \line{ \fontsize #23 ".                                   ."} }
-	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"after Walter Benjamin"}
-	composer = \markup \override #'(font-name . "Didot") \fontsize #2.3 {"Gregory Rowland Evans"}
-	%{ arranger = \markup \override #'(font-name . "Didot") \fontsize #2.3 {"Gregory Rowland Evans"} %}
+	dedication = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"H   A   M   O   N   S   H   Ū"}
+	title =  \markup { \epsfile #Y #15 #"/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Covers/title2.eps" }
+	subtitle = \markup \override #'(font-name . "Didot") \fontsize #2.5 \center-column {"f o r     s t r i n g     q u a r t e t"}
+	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or the many ways of drawing water"}
+	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans"}
 }
 
 \layout {

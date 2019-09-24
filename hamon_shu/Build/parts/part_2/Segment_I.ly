@@ -64,9 +64,9 @@
             % [Voice 2 measure 1]                                              %! COMMENT_MEASURE_NUMBERS
 
             \set Staff.shortInstrumentName =                                   %! applying staff names and clefs
-            \markup { "vln. I-2" }                                             %! applying staff names and clefs
+            \markup { "vln. II" }                                              %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
-            \markup { "Violin I-2" }                                           %! applying staff names and clefs
+            \markup { "Violin II" }                                            %! applying staff names and clefs
             \once \override Rest.transparent = ##t                             %! applying invisibility
             \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
             \clef "treble"
