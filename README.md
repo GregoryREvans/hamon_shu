@@ -1,2 +1,2 @@
 # Hamon shu
-for string quartet (2018)
+Hamonshu (2018) for string quartet
