@@ -21,7 +21,7 @@
     \accidentalStyle forget
 	%\accidentalStyle modern
 	%\accidentalStyle modern-cautionary
-    %{ indent = #0 %}
+    indent = #15
 	ragged-last = ##t
     %{ ragged-right = ##t %}
     %left-margin = #15

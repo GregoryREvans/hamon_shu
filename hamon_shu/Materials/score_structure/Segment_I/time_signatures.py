@@ -4,7 +4,7 @@ from hamon_shu.Materials.timespans.Segment_I.make_timespans import rhythm_timesp
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
 
 permitted_meters = abjad.MeterList(
-    [(4, 4), (7, 8), (3, 4), (5, 8), (2, 4), (3, 8), (5, 16)]
+    [(5, 4), (9, 8), (4, 4), (7, 8), (3, 4), (5, 8), (2, 4), (3, 8), (5, 16), (2, 8), (3, 16), (1, 8)]
 )
 
 fitted_meters = abjad.Meter.fit_meters(

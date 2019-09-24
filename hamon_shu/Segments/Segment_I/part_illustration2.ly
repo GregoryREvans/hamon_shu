@@ -20,53 +20,49 @@
         {
             % [Global Context measure 1]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 7/8                                                          %! scaling time signatures
-            s1 * 7/8
+            \time 9/8                                                          %! scaling time signatures
+            s1 * 9/8
             % [Global Context measure 3]                                       %! COMMENT_MEASURE_NUMBERS
-
-            \time 7/8                                                          %! scaling time signatures
-            s1 * 7/8
-            % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-            % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS
+            % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-            % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS
-
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
-            % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS
+
+            \time 9/8                                                          %! scaling time signatures
+            s1 * 9/8
+            % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS
+
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
+            % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
+            % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
             % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS
 
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
             % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS
 
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
             % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS
-
-            \time 5/16                                                         %! scaling time signatures
-            s1 * 5/16
-            % [Global Context measure 13]                                      %! COMMENT_MEASURE_NUMBERS
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
@@ -82,196 +78,192 @@
             \markup { "vln. II" }                                              %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { "Violin II" }                                            %! applying staff names and clefs
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
             \clef "treble"
-            r1 * 3/16
+            r2
 
-            R1 * 3/16
-            \stopStaff \startStaff                                             %! applying cutaway
+            r8
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 10/9 {
+
+                cqs'4
+                \mf
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \<
+
+                bqs8
+                - \accent
+                ~
+                [
+
+                bqs8
+
+                b16
+                - \espressivo
+                ~
+
+            }
             % [Voice 2 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
 
-            r4
+            b8
+            \f
+            ]
 
-            cqs'8
+            cqs'4
             \p
-            - \espressivo
+            - \tenuto
             \<
             ~
-            [
 
-            cqs'8.
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 8/7 {
 
-            bqs16
-            - \tenuto
-            ~
-
-            bqs8.
-
-            b16
-            - \tenuto
-            ~
-
-            \times 2/3 {
-                % [Voice 2 measure 3]                                          %! COMMENT_MEASURE_NUMBERS
-
-                b8
+                cqs'8
                 \mp
                 - \tweak stencil #constante-hairpin
                 \<
+                [
 
-                cqs'16
+                bqs16
                 \!
                 \mf
-                - \accent
+                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
                 ]
 
+                b4
+                - \accent
+
             }
 
-            bqs4
-
-            b16
-            - \tenuto
-            [
-
-            bf16
-            - \accent
-            ~
-
-            bf16
-
-            dqf'16
-            \f
-            - \espressivo
-            \>
-            ]
-
-            bqs4
-            - \tenuto
-            <>
-            \p
-            % [Voice 2 measure 4]                                              %! COMMENT_MEASURE_NUMBERS
+            r4
+            \!
+            % [Voice 2 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
-            r1 * 1/2
+            r1 * 3/8
 
-            R1 * 1/2
-            \stopStaff \startStaff                                             %! applying cutaway
-            % [Voice 2 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
+            R1 * 3/8
+            % [Voice 2 measure 4]                                              %! COMMENT_MEASURE_NUMBERS
 
             a4.
+            \f
+            \>
+            <>
+            \p
+
+            a4
             \mp
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 6/7 {
-                % [Voice 2 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
+            \times 7/8 {
+                % [Voice 2 measure 5]                                          %! COMMENT_MEASURE_NUMBERS
 
-                a4
+                a2
                 \mf
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
 
-                aqs8
+                cqs'8
+                - \espressivo
+
+                bqs4.
+                - \tenuto
                 ~
 
-                aqs4.
-
-                cqs'8
-                - \tenuto
-
             }
-            % [Voice 2 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
-            cqs'4.
-            \f
-            - \accent
-            - \tweak stencil #abjad-flared-hairpin
-            \>
-            ~
-
-            \times 8/9 {
-                % [Voice 2 measure 8]                                          %! COMMENT_MEASURE_NUMBERS
-
-                cqs'4.
-                \p
-
-                cqs'4.
-                \mp
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 9/8 {
+                % [Voice 2 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
 
                 bqs4
-                \sfp
-                - \accent
+
+                cqs'4.
+                \f
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \>
+                <>
+                \p
+
+                bqs8
+                \mf
+                - \espressivo
+                \<
+                ~
+                [
+
+                bqs8
+                \f
                 - \tweak stencil #constante-hairpin
                 \<
 
                 b8
-                \mf
-                - \tenuto
-                - \tweak stencil #constante-hairpin
+                \!
+                \mp
+                - \accent
+                - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
 
             }
-            % [Voice 2 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
+            % [Voice 2 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
-            b4
+            b8
+            \mf
+            - \tweak stencil #constante-hairpin
+            \<
+            ]
 
             r8
             \!
 
             r2
-            % [Voice 2 measure 10]                                             %! COMMENT_MEASURE_NUMBERS
+            % [Voice 2 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
 
-            r8
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 1/16
 
-            \times 4/5 {
+            R1 * 1/16
+            % [Voice 2 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
 
-                cqs'8
-                \f
+            cqs'8
+            \f
+            - \tweak stencil #constante-hairpin
+            \<
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 10/11 {
+                % [Voice 2 measure 10]                                         %! COMMENT_MEASURE_NUMBERS
+
+                cqs'4
+                \p
                 - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \>
-                [
+                \<
 
                 bqs8.
                 - \accent
-                ~
+
+                b4
+                - \espressivo
+                <>
+                \mp
 
             }
             % [Voice 2 measure 11]                                             %! COMMENT_MEASURE_NUMBERS
 
-            bqs16
-            \p
-
-            cqs'8.
-            \mp
-            \<
-            ]
-
-            bqs4
-            \mf
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
-            % [Voice 2 measure 12]                                             %! COMMENT_MEASURE_NUMBERS
-
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            \stopStaff \once \override Staff.StaffSymbol.line-count = #1 \startStaff %! applying cutaway
             r1 * 1/16
-            \!                                                                 %! applying indicators
 
             R1 * 1/16
-            \stopStaff \startStaff                                             %! applying cutaway
+            % [Voice 2 measure 12]                                             %! COMMENT_MEASURE_NUMBERS
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
             \once \override Rest.color = #white                                %! applying ending skips

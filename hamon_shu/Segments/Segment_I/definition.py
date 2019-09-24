@@ -43,6 +43,7 @@ maker = evans.SegmentMaker(
     segment_name="Segment_I",
     current_directory=pathlib.Path(__file__).parent,
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
+    cutaway=False,
 )
 
 maker.build_segment()
