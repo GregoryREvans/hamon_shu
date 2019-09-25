@@ -112,10 +112,18 @@
             \mp
             % [Voice 1 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 9/16
+            \once \override Rest.transparent = ##t
+            r1 * 1/4
 
-            R1 * 9/16
+            r1 * 1/4
+
+            r1 * 1/16
+
+            R1 * 3/16
+
+            R1 * 1/4
+
+            R1 * 1/8
             % [Voice 1 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
 
             r8
@@ -131,11 +139,19 @@
                 \<
                 [
 
-                \set stemLeftBeamCount = 1
-                \set stemRightBeamCount = 1
-                bqs8
-                - \tenuto
-                ]
+                \times 4/5 {
+
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
+                    bqs16
+                    - \tenuto
+                    ~
+                    ]
+
+                    bqs16.
+                    [
+
+                }
 
                 \set stemLeftBeamCount = 2
                 \set stemRightBeamCount = 0
@@ -145,14 +161,22 @@
                 - \tweak stencil #constante-hairpin
                 \<
                 ]
-                [
 
-                bf8
-                \!
-                \mf
-                - \tenuto
-                \<
-                ~
+                \times 4/5 {
+
+                    bf16..
+                    \!
+                    \mf
+                    - \tenuto
+                    ~
+                    ]
+
+                    bf32.
+                    \<
+                    ~
+                    [
+
+                }
 
                 bf8.
                 ~
@@ -183,8 +207,15 @@
 
                 \set stemLeftBeamCount = 1
                 \set stemRightBeamCount = 1
-                cqs'8.
+                cqs'8
+                ~
+
+                cqs'32
+                ~
                 ]
+
+                cqs'32
+                [
 
                 \set stemLeftBeamCount = 1
                 \set stemRightBeamCount = 0
@@ -194,11 +225,15 @@
 
             }
 
-            r4
+            r8
             \!
+
+            r8
             % [Voice 1 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
-            r2
+            r4
+
+            r4
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
@@ -210,9 +245,23 @@
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
                 \<
+                [
 
-                bqs4
-                ~
+                \times 2/3 {
+
+                    bqs8..
+                    ~
+                    ]
+
+                    bqs8
+                    ~
+                    [
+
+                    bqs32
+                    ~
+                    ]
+
+                }
 
             }
             % [Voice 1 measure 6]                                              %! COMMENT_MEASURE_NUMBERS
@@ -246,12 +295,27 @@
                 - \espressivo
                 ]
 
-                bf16
+                bf128
                 - \tenuto
                 ~
                 ]
 
-                bf4
+                bf32..
+                ~
+                [
+
+                bf8.
+                ~
+
+                bf64.
+                ~
+                ]
+
+                bf32
+                ~
+                [
+
+                bf128
                 ~
 
                 bf16
@@ -264,17 +328,34 @@
                 \mp
                 \<
                 ~
+
+                dqf'16.
+                ~
+
+                dqf'128
+                ~
+                ]
+
+                dqf'16
+                ~
                 [
 
-                dqf'8.
+                dqf'64.
 
                 \set stemLeftBeamCount = 0
                 \set stemRightBeamCount = 1
-                bf8.
+                bf8
                 \mf
                 - \tenuto
                 [
+                ~
+
+                bf32..
+                ~
                 ]
+
+                bf128
+                [
 
                 \set stemLeftBeamCount = 1
                 \set stemRightBeamCount = 1
@@ -283,6 +364,7 @@
                 - \tenuto
                 \<
                 ~
+                ]
 
             }
             % [Voice 1 measure 7]                                              %! COMMENT_MEASURE_NUMBERS

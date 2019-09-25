@@ -64,7 +64,9 @@
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { Viola }                                                  %! applying staff names and clefs
             \clef "varC"
-            r4.
+            r4
+
+            r8
 
             f'8
             \sfp
@@ -81,29 +83,48 @@
 
             r8
 
-            r2
-            % [Voice 3 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
-
-            r4.
+            r4
 
             r4
+            % [Voice 3 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
+
+            r4
+
+            r8
+
+            r8
+
+            r8
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
                 \set stemLeftBeamCount = 0
                 \set stemRightBeamCount = 1
-                f'8
+                f'16.
                 \ppppp
                 - \tenuto
+                ~
+                [
+
+                f'32
                 - \tweak stencil #abjad-flared-hairpin
                 \<
 
-                cqs'4
+                cqs'8
                 \mp
                 - \accent
+                ~
+                ]
+
+                cqs'32
+                ~
+                [
+
+                cqs'16.
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
             % [Voice 3 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
@@ -130,9 +151,12 @@
             - \accent
             ]
 
-            bqs4.
+            bqs4
             \f
             - \espressivo
+            ~
+
+            bqs8
 
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
@@ -165,12 +189,37 @@
                 \<
                 ~
 
-                cqs'8
-                ]
+                \times 4/5 {
 
-                bqs4
-                - \accent
-                ~
+                    cqs'32.
+                    ~
+                    ]
+
+                    cqs'16..
+                    ]
+                    [
+
+                }
+
+                \times 4/5 {
+
+                    bqs8
+                    - \accent
+                    ~
+
+                    bqs32.
+                    ~
+                    ]
+
+                    bqs8
+                    ~
+                    [
+
+                    bqs64
+                    ~
+                    ]
+
+                }
 
             }
             % [Voice 3 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
@@ -190,7 +239,13 @@
             <>
             \mf
 
-            r2.
+            r8
+
+            r4
+
+            r4
+
+            r8
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 18/19 {
@@ -214,38 +269,87 @@
                 b16
                 - \espressivo
                 ~
-                ]
 
-                b4
-                ~
+                \times 8/9 {
+
+                    b16
+                    ~
+
+                    b64.
+                    ~
+                    ]
+
+                    b8.
+                    ~
+                    [
+
+                    b128
+                    ~
+
+                }
 
                 b16
                 \p
                 - \tweak stencil #constante-hairpin
                 \<
-                [
 
-                bf16
-                \!
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
-                ~
+                \times 8/9 {
+
+                    bf32
+                    \!
+                    \mp
+                    - \tenuto
+                    ~
+                    ]
+
+                    bf32
+                    ~
+                    [
+
+                    bf128
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ~
+
+                }
 
                 bf8.
-                ]
 
-                \set stemLeftBeamCount = 1
-                \set stemRightBeamCount = 1
-                a8.
-                - \tenuto
+                \times 2/3 {
 
-                aqs4
-                \sfp
-                - \tenuto
-                \<
-                ~
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
+                    a16
+                    - \tenuto
+                    ~
+                    ]
+
+                    a8..
+                    [
+
+                }
+
+                \times 8/9 {
+
+                    aqs8
+                    \sfp
+                    - \tenuto
+                    ~
+
+                    aqs128
+                    ~
+                    ]
+
+                    aqs8
+                    ~
+                    [
+
+                    aqs64.
+                    \<
+                    ~
+                    ]
+
+                }
 
             }
             % [Voice 3 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
@@ -318,8 +422,12 @@
             \<
             ]
 
-            r2
+            r8
             \!
+
+            r4
+
+            r8
             % [Voice 3 measure 11]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
