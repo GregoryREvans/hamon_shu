@@ -69,6 +69,8 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
+                \set stemLeftBeamCount = 0
+                \set stemRightBeamCount = 1
                 cqs'8
                 \mf
                 - \tenuto
@@ -84,6 +86,8 @@
             }
             % [Voice 4 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
 
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 1
             cqs'8.
             \!
             \mf
@@ -95,17 +99,26 @@
             bqs8.
             - \accent
             ~
+            ]
 
             bqs8
+            [
 
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             b8
             \f
             - \espressivo
             - \tweak stencil #abjad-flared-hairpin
             \>
+            ]
 
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 0
             bf16
             - \tenuto
+            ]
+            [
 
             dqf'16
             - \tenuto
@@ -118,17 +131,26 @@
             dqf'16
             [
 
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 2
             f'16
             - \accent
             ~
+            [
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
                 % [Voice 4 measure 3]                                          %! COMMENT_MEASURE_NUMBERS
 
+                \set stemLeftBeamCount = 1
+                \set stemRightBeamCount = 1
                 f'8.
                 \p
+                [
 
+                \set stemLeftBeamCount = 1
+                \set stemRightBeamCount = 0
                 f'8
                 \mp
                 - \tweak stencil #constante-hairpin
@@ -160,6 +182,8 @@
             \times 3/4 {
                 % [Voice 4 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
 
+                \set stemLeftBeamCount = 1
+                \set stemRightBeamCount = 1
                 cqs'8
                 \ff
 
@@ -189,6 +213,8 @@
             \<
             % [Voice 4 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
 
+            \set stemLeftBeamCount = 0
+            \set stemRightBeamCount = 2
             cqs'16
             \f
             - \accent
@@ -196,11 +222,16 @@
             \>
             [
 
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             bqs16
             - \espressivo
             ~
+            ]
             % [Voice 4 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
 
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             bqs8
             ]
             <>

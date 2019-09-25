@@ -2,7 +2,7 @@
 
 \version "2.19.83"
 \language "english"
-#(set-default-paper-size "letterportrait")
+#(set-default-paper-size "a4portrait")
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
@@ -84,8 +84,8 @@
 		%\override BarLine.stencil = ##f
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
-		\override Beam.beam-thickness = #0.8
-        \override Beam.length-fraction = #1.5
+		\override Beam.beam-thickness = #0.6
+        \override Beam.length-fraction = #1.3
 		\override Clef.whiteout-style = #'outline
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
@@ -101,7 +101,7 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 0))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 15) (minimum-distance . 15) (padding . 0))
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}

@@ -85,6 +85,8 @@
                     \markup { "vln. I" }                                       %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 1
                     \clef "treble"
                     cqs'8
                     \f
@@ -93,8 +95,11 @@
                     \<
                     [
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     bqs16
                     - \accent
+                    ]
 
                     b16
                     ~
@@ -112,9 +117,13 @@
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     ~
+                    ]
 
                     bf16
+                    [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     dqf'8.
                     - \accent
                     ]
@@ -136,20 +145,29 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/9 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 2
                         cqs'16
                         \sfp
                         - \espressivo
                         \<
                         [
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         bqs8
                         - \tenuto
+                        ]
 
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
                         b16
                         \ff
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
+                        [
 
                         bf8
                         \!
@@ -160,15 +178,21 @@
 
                         bf8.
                         ~
+                        ]
 
                     }
                     % [Voice 1 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 2
                     bf16
                     \f
                     - \tweak stencil #constante-hairpin
                     \<
+                    [
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 1
                     cqs'16
                     \!
                     \p
@@ -179,8 +203,13 @@
 
                     \times 4/5 {
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         cqs'8.
+                        ]
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 0
                         bqs8
                         - \accent
                         ]
@@ -196,6 +225,8 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/5 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 2
                         cqs'16
                         \ppppp
                         - \accent
@@ -208,23 +239,34 @@
                     }
                     % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 2
                     bqs16
                     \mp
                     [
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     cqs'16
                     \mf
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    ]
 
                     \times 16/17 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 2
                         bqs16
                         - \accent
+                        [
 
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
                         b16
                         - \espressivo
+                        ]
 
                         bf16
                         - \tenuto
@@ -238,20 +280,26 @@
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
-                        [
 
                         dqf'16
                         \!
                         \mp
                         \<
                         ~
+                        [
 
                         dqf'8.
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 1
                         bf8.
                         \mf
                         - \tenuto
+                        [
+                        ]
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         bqf8
                         \sfp
                         - \tenuto
@@ -261,24 +309,36 @@
                     }
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     bqf8.
                     \ff
+                    [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     bf16
                     \ppppp
                     - \accent
                     \<
                     ~
+                    ]
 
                     bf16
+                    [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 2
                     cqs'16
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 0
                     bqs8
                     \mp
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
+                    ]
 
                     b16
                     \!
@@ -286,6 +346,7 @@
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    [
 
                     bf16
                     - \espressivo
@@ -296,6 +357,7 @@
                     bqs16
                     \f
                     - \tenuto
+                    ]
 
                     \times 2/3 {
                         % [Voice 1 measure 8]                                  %! COMMENT_MEASURE_NUMBERS
@@ -305,6 +367,7 @@
                         - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \<
+                        [
 
                         bqs16
 
@@ -313,6 +376,7 @@
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
 
                     }
                     % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
@@ -331,6 +395,7 @@
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
                     \>
+                    [
 
                     bqs16
                     - \espressivo
@@ -340,9 +405,11 @@
 
                     bf16
                     - \tenuto
+                    ]
 
                     dqf'16
                     - \accent
+                    [
 
                     bqs16
 
@@ -351,15 +418,18 @@
 
                     dqs'16
                     - \accent
+                    ]
 
                     d'16
                     - \espressivo
+                    [
 
                     dqs'16
                     \p
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
+                    ]
 
                     \times 2/3 {
                         % [Voice 1 measure 11]                                 %! COMMENT_MEASURE_NUMBERS
@@ -370,6 +440,7 @@
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+                        [
 
                         bqs16
                         - \accent
@@ -428,14 +499,20 @@
                         [
 
                         bqs8
+                        ]
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 2
                         b16
                         - \espressivo
                         ~
+                        [
 
                     }
                     % [Voice 2 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     b8
                     \f
                     ]
@@ -449,12 +526,16 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 8/7 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 1
                         cqs'8
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
                         [
 
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
                         bqs16
                         \!
                         \mf
@@ -500,6 +581,8 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         cqs'8
                         - \espressivo
 
@@ -534,7 +617,10 @@
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 1
                         b8
                         \!
                         \mp
@@ -542,10 +628,13 @@
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         ~
+                        [
 
                     }
                     % [Voice 2 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     b8
                     \mf
                     - \tweak stencil #constante-hairpin
@@ -564,6 +653,8 @@
                     R1 * 1/16
                     % [Voice 2 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     cqs'8
                     \f
                     - \tweak stencil #constante-hairpin
@@ -578,6 +669,8 @@
                         - \tenuto
                         \<
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         bqs8.
                         - \accent
 
@@ -651,6 +744,8 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 1
                         f'8
                         \ppppp
                         - \tenuto
@@ -666,18 +761,24 @@
                     }
                     % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 2
                     cqs'16
                     \!
                     \mf
                     \<
                     [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     bqs16
                     - \tenuto
                     ~
 
                     bqs16
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     cqs'16
                     - \accent
                     ]
@@ -686,6 +787,8 @@
                     \f
                     - \espressivo
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 1
                     b8
                     \mf
                     - \tenuto
@@ -697,11 +800,16 @@
                     \times 10/9 {
                         % [Voice 3 measure 4]                                  %! COMMENT_MEASURE_NUMBERS
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         b8
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
+                        [
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 0
                         cqs'16
                         \!
                         \p
@@ -720,9 +828,13 @@
                     }
                     % [Voice 3 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 2
                     bqs16
                     [
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     cqs'16
                     \mp
                     - \tweak stencil #abjad-flared-hairpin
@@ -737,6 +849,8 @@
                     \times 18/19 {
                         % [Voice 3 measure 6]                                  %! COMMENT_MEASURE_NUMBERS
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 2
                         cqs'16
                         \f
                         - \tenuto
@@ -744,8 +858,11 @@
                         \>
                         [
 
+                        \set stemLeftBeamCount = 2
+                        \set stemRightBeamCount = 0
                         bqs16
                         - \accent
+                        ]
 
                         b16
                         - \espressivo
@@ -770,10 +887,12 @@
                         ~
 
                         bf8.
+                        ]
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         a8.
                         - \tenuto
-                        ]
 
                         aqs4
                         \sfp
@@ -784,45 +903,68 @@
                     }
                     % [Voice 3 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     aqs8
                     \ff
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     a8
                     \!
                     \ppppp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    ]
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     a16
                     - \accent
+                    ]
+                    [
 
                     aqs8.
                     ~
+                    ]
 
                     aqs8.
                     \mp
+                    [
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 2
                     bf16
                     \mf
                     - \accent
                     \<
                     ~
+                    [
+                    ]
                     % [Voice 3 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     bf8
                     \f
+                    ]
                     % [Voice 3 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     a8
                     \p
                     \<
                     ~
+                    [
                     % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     a8
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -873,6 +1015,8 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
+                        \set stemLeftBeamCount = 0
+                        \set stemRightBeamCount = 1
                         cqs'8
                         \mf
                         - \tenuto
@@ -888,6 +1032,8 @@
                     }
                     % [Voice 4 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 1
                     cqs'8.
                     \!
                     \mf
@@ -899,17 +1045,26 @@
                     bqs8.
                     - \accent
                     ~
+                    ]
 
                     bqs8
+                    [
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     b8
                     \f
                     - \espressivo
                     - \tweak stencil #abjad-flared-hairpin
                     \>
+                    ]
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 0
                     bf16
                     - \tenuto
+                    ]
+                    [
 
                     dqf'16
                     - \tenuto
@@ -922,17 +1077,26 @@
                     dqf'16
                     [
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 2
                     f'16
                     - \accent
                     ~
+                    [
+                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/5 {
                         % [Voice 4 measure 3]                                  %! COMMENT_MEASURE_NUMBERS
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         f'8.
                         \p
+                        [
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 0
                         f'8
                         \mp
                         - \tweak stencil #constante-hairpin
@@ -964,6 +1128,8 @@
                     \times 3/4 {
                         % [Voice 4 measure 6]                                  %! COMMENT_MEASURE_NUMBERS
 
+                        \set stemLeftBeamCount = 1
+                        \set stemRightBeamCount = 1
                         cqs'8
                         \ff
 
@@ -993,6 +1159,8 @@
                     \<
                     % [Voice 4 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 0
+                    \set stemRightBeamCount = 2
                     cqs'16
                     \f
                     - \accent
@@ -1000,11 +1168,16 @@
                     \>
                     [
 
+                    \set stemLeftBeamCount = 2
+                    \set stemRightBeamCount = 1
                     bqs16
                     - \espressivo
                     ~
+                    ]
                     % [Voice 4 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    \set stemLeftBeamCount = 1
+                    \set stemRightBeamCount = 1
                     bqs8
                     ]
                     <>
