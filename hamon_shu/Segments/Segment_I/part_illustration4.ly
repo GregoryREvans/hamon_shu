@@ -79,39 +79,25 @@
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { Violoncello }                                            %! applying staff names and clefs
             \clef "bass"
-            r4
+            r2.
 
-            r4
+            \times 2/3 {
 
-            r4
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 4/3 {
-
-                \set stemLeftBeamCount = 0
-                \set stemRightBeamCount = 1
-                cqs'8
+                cqs'4
                 \mf
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \<
-                [
 
-                bqs16
+                bqs2
                 \f
                 - \accent
-                ~
-                ]
-
-                bqs8.
                 - \tweak stencil #constante-hairpin
                 \<
 
             }
             % [Voice 4 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
 
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 1
             cqs'8.
             \!
             \mf
@@ -120,31 +106,20 @@
             \<
             [
 
-            bqs16
+            bqs8.
             - \accent
             ~
 
             bqs8
-            ~
 
-            bqs8
-            [
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
             b8
             \f
             - \espressivo
             - \tweak stencil #abjad-flared-hairpin
             \>
-            ]
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 0
             bf16
             - \tenuto
-            ]
-            [
 
             dqf'16
             - \tenuto
@@ -157,126 +132,69 @@
             dqf'16
             [
 
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
             f'16
             - \accent
             ~
-            [
             ]
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 6/5 {
+            \times 3/5 {
                 % [Voice 4 measure 3]                                          %! COMMENT_MEASURE_NUMBERS
 
-                \set stemLeftBeamCount = 1
-                \set stemRightBeamCount = 1
-                f'8.
+                f'4.
                 \p
-                [
 
-                \times 2/3 {
-
-                    \set stemLeftBeamCount = 1
-                    \set stemRightBeamCount = 0
-                    f'32
-                    \mp
-                    ~
-                    ]
-
-                    f'8
-                    ~
-                    [
-
-                    f'32
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ]
-
-                }
+                f'4
+                \mp
+                - \tweak stencil #constante-hairpin
+                \<
 
             }
 
-            r8
+            r4.
             \!
-
-            r4
             % [Voice 4 measure 4]                                              %! COMMENT_MEASURE_NUMBERS
 
-            \once \override Rest.transparent = ##t
-            r1 * 1/4
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 5/16
 
-            r1 * 1/16
-
-            R1 * 3/16
-
-            R1 * 1/8
+            R1 * 5/16
             % [Voice 4 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
-            f'4
+            f'4.
             \sfp
             - \espressivo
-            ~
-
-            f'8
             \<
 
-            cqs'8
+            cqs'2
             - \tenuto
-            ~
-
-            cqs'4
-            ~
-
-            cqs'8
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 3/4 {
                 % [Voice 4 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
 
-                \set stemLeftBeamCount = 1
-                \set stemRightBeamCount = 1
                 cqs'8
                 \ff
 
-                \times 2/3 {
-
-                    cqs'4
-                    \ppppp
-                    - \tenuto
-                    ~
-
-                    cqs'16
-                    ~
-
-                    cqs'4
-                    - \tweak stencil #constante-hairpin
-                    \<
-
-                }
+                cqs'4.
+                \ppppp
+                - \tenuto
+                - \tweak stencil #constante-hairpin
+                \<
 
             }
 
-            r8
+            r2.
             \!
-
-            r4
-
-            r4
-
-            r8
             % [Voice 4 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
-            cqs'4
+            cqs'2
             \mp
             - \accent
-            ~
+            \<
             <>
             \mf
-
-            cqs'4
-            \<
 
             cqs'4
             \mf
@@ -285,8 +203,6 @@
             \<
             % [Voice 4 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
 
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 2
             cqs'16
             \f
             - \accent
@@ -294,30 +210,21 @@
             \>
             [
 
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
             bqs16
             - \espressivo
             ~
-            ]
             % [Voice 4 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
             bqs8
             ]
             <>
             \p
             % [Voice 4 measure 10]                                             %! COMMENT_MEASURE_NUMBERS
 
-            \once \override Rest.transparent = ##t
-            r1 * 1/4
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 5/16
 
-            r1 * 1/16
-
-            R1 * 3/16
-
-            R1 * 1/8
+            R1 * 5/16
             % [Voice 4 measure 11]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
