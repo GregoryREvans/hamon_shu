@@ -13,7 +13,7 @@
 \paper {}
 
 \score {                                                                       %! abjad.LilyPondFile
-    
+
     \context Score = "hamon_shu Score"
     <<
 

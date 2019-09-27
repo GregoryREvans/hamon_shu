@@ -10,7 +10,7 @@ music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
 )
 
-######## 
+########
 # rhythm#
 ########
 rhythm_target_timespan = abjad.Timespan(0, 8)
