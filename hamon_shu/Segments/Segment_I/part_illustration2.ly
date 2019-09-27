@@ -83,55 +83,59 @@
 
             r8
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 5/9 {
-
-                cqs'2
-                \mf
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \<
-
-                bqs4
-                - \accent
-                ~
-
-                bqs4
-
-                b8
-                - \espressivo
-                ~
-                [
-
-            }
-            % [Voice 2 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
-
-            b8
-            \f
-            ]
-
-            cqs'4
-            \p
+            cqs'8
+            \mf
             - \tenuto
+            - \tweak stencil #abjad-flared-hairpin
             \<
             ~
+            [
 
-            \times 4/7 {
+            cqs'8.
 
-                cqs'4
+            bqs16
+            - \accent
+            ~
+
+            bqs8.
+
+            b16
+            - \espressivo
+            ~
+
+            \times 2/3 {
+                % [Voice 2 measure 2]                                          %! COMMENT_MEASURE_NUMBERS
+
+                b8
+                \f
+
+                cqs'16
+                \p
+                - \tenuto
+                \<
+                ]
+
+            }
+
+            bqs4
+            - \tenuto
+
+            \times 4/5 {
+
+                b4
                 \mp
+                - \accent
                 - \tweak stencil #constante-hairpin
                 \<
 
-                bqs8
+                bf8
                 \!
                 \mf
-                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
-                b2
-                - \accent
+                dqf'4
+                - \tenuto
 
             }
 
@@ -147,13 +151,14 @@
 
             a4.
             \f
+            - \accent
             \>
             <>
             \p
 
             a4
             \mp
-            - \tenuto
+            - \espressivo
             - \tweak stencil #constante-hairpin
             \<
 
@@ -163,15 +168,15 @@
 
                 a2
                 \mf
-                - \accent
+                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
                 cqs'8
-                - \espressivo
+                - \tenuto
 
                 bqs4.
-                - \tenuto
+                - \accent
                 ~
 
             }
@@ -184,27 +189,20 @@
 
                 cqs'2.
                 \f
-                - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 <>
                 \p
 
-                bqs4
+                bqs2
                 \mf
                 - \espressivo
-                \<
-                ~
-
-                bqs4
-                \f
                 - \tweak stencil #constante-hairpin
                 \<
 
                 b4
-                \!
                 \mp
-                - \accent
+                - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
@@ -231,23 +229,24 @@
 
             cqs'8
             \f
+            - \accent
             - \tweak stencil #constante-hairpin
             \<
+            ~
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 10/11 {
+            \times 5/9 {
                 % [Voice 2 measure 10]                                         %! COMMENT_MEASURE_NUMBERS
 
                 cqs'4
+
+                cqs'2
                 \p
-                - \tenuto
+                - \espressivo
                 \<
 
-                bqs8.
-                - \accent
-
-                b4
-                - \espressivo
+                bqs4.
+                - \tenuto
                 <>
                 \mp
 

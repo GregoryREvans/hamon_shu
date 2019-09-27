@@ -82,17 +82,16 @@
             r4.
 
             f'8
-            \sfp
+            \f
             - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \<
+            \>
             ~
             [
 
             f'8
             ]
             <>
-            \ff
+            \sfp
 
             r8
 
@@ -106,13 +105,13 @@
             \times 2/3 {
 
                 f'4
-                \ppppp
+                \ff
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
-                \<
+                \>
 
                 cqs'2
-                \mp
+                \ppppp
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
@@ -120,157 +119,151 @@
             }
             % [Voice 3 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
 
-            cqs'16
+            cqs'4
             \!
-            \mf
+            \mp
+            - \tweak stencil #abjad-flared-hairpin
             \<
+            ~
+
+            cqs'16
             [
 
-            bqs16
+            cqs'16
             - \tenuto
             ~
 
-            bqs16
-
             cqs'16
-            - \accent
-            ]
+            \mf
 
-            bqs4.
-            \f
-            - \espressivo
-
-            b8
+            bqs16
             \mf
             - \tenuto
             \<
+            ]
+
+            b4
+            - \accent
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 5/9 {
+            \times 10/11 {
                 % [Voice 3 measure 4]                                          %! COMMENT_MEASURE_NUMBERS
 
-                b4
+                b8
                 \f
                 - \tweak stencil #constante-hairpin
                 \<
 
-                cqs'8
+                cqs'4
                 \!
                 \p
-                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
-                ~
 
-                cqs'4
+                bqs8.
+                - \tenuto
+                [
 
-                bqs2
+                b8
+                \mp
                 - \accent
+                - \tweak stencil #abjad-flared-hairpin
+                \<
                 ~
 
             }
             % [Voice 3 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
-            bqs16
-            [
-
-            cqs'16
-            \mp
-            - \tweak stencil #abjad-flared-hairpin
-            \<
+            b8
             ]
             <>
             \mf
 
-            r2.
+            r4
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 18/19 {
-                % [Voice 3 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
+            r2
+            % [Voice 3 measure 6]                                              %! COMMENT_MEASURE_NUMBERS
 
-                cqs'16
-                \f
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \>
-                [
+            cqs'8
+            \f
+            - \espressivo
+            - \tweak stencil #abjad-flared-hairpin
+            \>
+            [
 
-                bqs16
-                - \accent
+            bqs8
+            - \tenuto
 
-                b16
-                - \espressivo
-                ~
-                ]
+            b16
+            - \tenuto
 
-                b4
-                ~
+            bf16
+            - \accent
+            ~
+            ]
 
-                b16
-                \p
-                - \tweak stencil #constante-hairpin
-                \<
-                [
+            bf4
+            ~
 
-                bf16
-                \!
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
-                ~
-
-                bf8.
-
-                a8.
-                - \tenuto
-                ]
-
-                aqs4
-                \sfp
-                - \tenuto
-                \<
-                ~
-
-            }
-            % [Voice 3 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
-
-            aqs8
-            \ff
+            bf16
+            \p
             - \tweak stencil #constante-hairpin
             \<
             [
 
-            a8
-            \!
-            \ppppp
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \<
-
             a16
-            - \accent
-
-            aqs8.
-            ~
-
-            aqs8.
+            \!
             \mp
-
-            bf16
-            \mf
-            - \accent
+            - \tweak stencil #constante-hairpin
             \<
             ~
+
+            a8.
+
+            aqs8.
+            \f
+            - \accent
+            - \tweak stencil #constante-hairpin
+            \<
+            % [Voice 3 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
+
+            a8
+            \sfp
+            - \espressivo
+            \<
+            ~
+            ]
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 5/8 {
+
+                a4.
+
+                a4
+                \ff
+                - \tenuto
+
+                aqs8
+                \mf
+                - \tenuto
+                \<
+
+                bf4
+                - \accent
+                ~
+
+            }
             % [Voice 3 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
 
             bf8
             \f
+            [
             % [Voice 3 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
 
             a8
             \p
+            - \espressivo
             \<
             ~
             % [Voice 3 measure 10]                                             %! COMMENT_MEASURE_NUMBERS
@@ -281,8 +274,10 @@
             \<
             ]
 
-            r2
+            r4
             \!
+
+            r4
             % [Voice 3 measure 11]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility

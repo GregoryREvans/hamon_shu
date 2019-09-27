@@ -69,75 +69,80 @@
             \times 2/3 {
 
                 cqs'4
-                \mf
+                \ppppp
                 - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
                 \<
 
                 bqs2
-                \f
+                \mp
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
 
             }
-            % [Voice 4 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
-
-            cqs'8.
-            \!
-            \mf
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
-            [
-
-            bqs8.
-            - \accent
-            ~
-
-            bqs8
-
-            b8
-            \f
-            - \espressivo
-            - \tweak stencil #abjad-flared-hairpin
-            \>
-
-            bf16
-            - \tenuto
-
-            dqf'16
-            - \tenuto
-            ~
-            ]
-
-            dqf'4
-            ~
-
-            dqf'16
-            [
-
-            f'16
-            - \accent
-            ~
-            ]
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 3/5 {
-                % [Voice 4 measure 3]                                          %! COMMENT_MEASURE_NUMBERS
+            \times 6/7 {
+                % [Voice 4 measure 2]                                          %! COMMENT_MEASURE_NUMBERS
 
-                f'4.
-                \p
-
-                f'4
-                \mp
+                cqs'8
+                \!
+                \mf
+                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
-            }
+                bqs4
+                - \tenuto
 
-            r4.
+                b8.
+                - \accent
+
+                bf4
+                ~
+
+                bf16
+                [
+
+                f'8
+                \f
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \>
+
+                fs'16
+                - \accent
+                ]
+
+                \clef "tenorvarC"
+                a'4
+                - \espressivo
+                ~
+
+            }
+            % [Voice 4 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
+
+            a'8
+            \p
+            [
+
+            f'8
+            \mp
+            - \tenuto
+            - \tweak stencil #abjad-flared-hairpin
+            \<
+            ~
+
+            f'8
+            \mf
+            - \tweak stencil #constante-hairpin
+            \<
+            ]
+
+            r8
             \!
+
+            r4
             % [Voice 4 measure 4]                                              %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
@@ -147,8 +152,8 @@
             % [Voice 4 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
             f'4.
-            \sfp
-            - \espressivo
+            \mf
+            - \tweak stencil #abjad-flared-hairpin
             \<
 
             cqs'2
@@ -160,11 +165,11 @@
                 % [Voice 4 measure 6]                                          %! COMMENT_MEASURE_NUMBERS
 
                 cqs'8
-                \ff
+                \f
 
                 cqs'4.
-                \ppppp
-                - \tenuto
+                \sfp
+                - \accent
                 - \tweak stencil #constante-hairpin
                 \<
 
@@ -175,35 +180,32 @@
             % [Voice 4 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
             cqs'2
-            \mp
-            - \accent
-            \<
+            \ff
+            - \espressivo
+            - \tweak stencil #abjad-flared-hairpin
+            \>
             <>
-            \mf
+            \ppppp
 
             cqs'4
-            \mf
+            \f
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
             % [Voice 4 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
 
-            cqs'16
-            \f
+            cqs'8
+            \p
             - \accent
-            - \tweak stencil #abjad-flared-hairpin
-            \>
-            [
-
-            bqs16
-            - \espressivo
+            \<
             ~
+            [
             % [Voice 4 measure 9]                                              %! COMMENT_MEASURE_NUMBERS
 
-            bqs8
+            cqs'8
             ]
             <>
-            \p
+            \mp
             % [Voice 4 measure 10]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility

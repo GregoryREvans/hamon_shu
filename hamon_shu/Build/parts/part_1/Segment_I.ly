@@ -128,15 +128,16 @@
                 - \tweak stencil #constante-hairpin
                 \<
 
-                bf4
+                bf2
                 \!
                 \mf
                 - \tenuto
                 \<
                 ~
 
-                bf4.
+                bf8
                 ~
+                [
 
             }
             % [Voice 1 measure 4]                                              %! COMMENT_MEASURE_NUMBERS
@@ -145,7 +146,6 @@
             \f
             - \tweak stencil #constante-hairpin
             \<
-            [
 
             cqs'16
             \!
@@ -169,7 +169,9 @@
             \!
             % [Voice 1 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
-            r2
+            r4.
+
+            r8
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 3/5 {
@@ -196,67 +198,61 @@
             - \tweak stencil #abjad-flared-hairpin
             \<
 
-            \times 16/17 {
+            \times 8/9 {
 
                 bqs16
                 - \accent
 
                 b16
                 - \espressivo
-
-                bf16
-                - \tenuto
-                ~
                 ]
 
-                bf4
-                ~
-
-                bf16
+                bf4.
                 \f
+                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
-                [
 
-                dqf'16
+                dqf'4
                 \!
                 \mp
                 \<
-                ~
-
-                dqf'8.
 
                 bf8.
                 \mf
                 - \tenuto
+                [
 
-                bqf8
+                bqf8.
                 \sfp
                 - \tenuto
                 \<
                 ~
+                ]
 
             }
-            % [Voice 1 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
-            bqf8.
-            \ff
+            \times 2/3 {
+                % [Voice 1 measure 7]                                          %! COMMENT_MEASURE_NUMBERS
 
-            bf16
-            \ppppp
-            - \accent
-            \<
-            ~
+                bqf4
+                \ff
 
-            bf16
+                bf4
+                \ppppp
+                - \accent
+                \<
 
-            cqs'16
+                cqs'8
+                [
 
-            bqs8
-            \mp
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
+                bqs8
+                \mp
+                - \tenuto
+                - \tweak stencil #constante-hairpin
+                \<
+
+            }
 
             b16
             \!

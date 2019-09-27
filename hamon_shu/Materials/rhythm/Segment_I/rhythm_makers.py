@@ -10,7 +10,7 @@ rmaker_one = abjadext.rmakers.TaleaRhythmMaker(
     beam_specifier=abjadext.rmakers.BeamSpecifier(
         beam_divisions_together=True, beam_rests=False
     ),
-    extra_counts_per_division=[0, -1, 0, 1, -1, 0, 1],
+    extra_counts_per_division=[0, -1, 0, 1, -1, 0, 2, -2, 0, 3, 0, -3],
     # logical_tie_masks=[
     #     abjadext.rmakers.silence([8], 5),
     #     ],
