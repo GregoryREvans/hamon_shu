@@ -13,7 +13,7 @@
 	dedication = \markup \override #'(font-name . "Didot") \fontsize #4 \center-column {"H   A   M   O   N   S   H   Ū"}
 	title =  \markup { \epsfile #Y #15 #"/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Covers/title2.eps" }
 	subtitle = \markup \override #'(font-name . "Didot") \fontsize #2.5 \center-column {"f o r     s t r i n g     q u a r t e t"}
-	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or the many ways of drawing water"}
+	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , the many ways of drawing water"}
 	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans"}
 }
 
