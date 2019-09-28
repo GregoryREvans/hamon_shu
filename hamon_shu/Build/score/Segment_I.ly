@@ -10,45 +10,61 @@
             s1 * 5/4
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
             % [Global Context measure 3]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
             % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS
-
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
-            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
+            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS
+
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
             % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
             % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
             % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
             % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
             % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS
 
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
-            % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS
-
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
+            % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
             % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+            % [Global Context measure 13]                                      %! COMMENT_MEASURE_NUMBERS
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
+            % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+            % [Global Context measure 15]                                      %! COMMENT_MEASURE_NUMBERS
+
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
+            % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
@@ -103,270 +119,261 @@
                     dqf'8.
                     - \accent
                     ]
-
-                    bqs4
-                    - \espressivo
                     <>
                     \mp
+
+                    r4
                     % [Voice 1 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 9/16
+                    r2.
 
-                    R1 * 9/16
-                    % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
+                    \times 4/7 {
 
-                    r8
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "8")
-                    \times 5/9 {
-
-                        cqs'8
+                        cqs'4.
                         \sfp
                         - \espressivo
                         \<
+                        ~
+
+                        cqs'4
 
                         bqs4
-                        - \tenuto
-
-                        b8
                         \ff
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bf2
-                        \!
-                        \mf
-                        - \tenuto
-                        \<
-                        ~
-
-                        bf8
-                        ~
-                        [
-
                     }
-                    % [Voice 1 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    bf16
-                    \f
-                    - \tweak stencil #constante-hairpin
-                    \<
+                    % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
 
                     cqs'16
                     \!
-                    \p
-                    - \tenuto
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ~
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
-                    \times 4/5 {
-
-                        cqs'8.
-
-                        bqs8
-                        - \accent
-                        ]
-
-                    }
-
-                    r4
-                    \!
-                    % [Voice 1 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    r4.
-
-                    r8
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
-                    \times 3/5 {
-
-                        cqs'8
-                        \ppppp
-                        - \accent
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-
-                        bqs2
-                        ~
-
-                    }
-                    % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    bqs16
-                    \mp
-                    [
-
-                    cqs'16
-                    \mf
+                    \ppppp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    [
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
-                    \times 8/9 {
+                    bqs16
+                    - \accent
+                    ~
+                    % [Voice 1 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
 
-                        bqs16
-                        - \accent
+                    bqs8
+                    ]
+                    <>
+                    \mp
 
-                        b16
+                    r4
+
+                    r4
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                    \times 2/3 {
+
+                        cqs'4
+                        \mf
                         - \espressivo
-                        ]
+                        \<
 
-                        bf4.
+                        bqs8
                         \f
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
-
-                        dqf'4
-                        \!
-                        \mp
-                        \<
-
-                        bf8.
-                        \mf
-                        - \tenuto
                         [
 
-                        bqf8.
-                        \sfp
-                        - \tenuto
-                        \<
-                        ~
-                        ]
-
                     }
+                    % [Voice 1 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
-                    \times 2/3 {
-                        % [Voice 1 measure 7]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        bqf4
-                        \ff
-
-                        bf4
-                        \ppppp
-                        - \accent
-                        \<
-
-                        cqs'8
-                        [
-
-                        bqs8
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                    }
-
-                    b16
+                    cqs'8.
                     \!
                     \mf
-                    - \accent
                     - \tweak stencil #abjad-flared-hairpin
                     \<
 
-                    bf16
-                    - \espressivo
-
-                    dqf'16
-                    - \tenuto
-
                     bqs16
-                    \f
                     - \tenuto
+                    ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                    \times 2/3 {
-                        % [Voice 1 measure 8]                                  %! COMMENT_MEASURE_NUMBERS
+                    bqs8
 
-                        cqs'16
-                        \sfp
-                        - \accent
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-
-                        bqs16
-
-                        b16
-                        \ff
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                    }
-                    % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    cqs'8
-                    \!
-                    \ppppp
+                    b8
                     - \accent
-                    \<
-                    <>
-                    \mp
-                    % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
+                    ~
+
+                    b8.
 
                     cqs'16
-                    \f
-                    - \accent
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
+                    - \espressivo
+                    ~
+
+                    cqs'16
 
                     bqs16
-                    - \espressivo
+                    - \tenuto
+
+                    b8
+                    - \tenuto
+                    ~
+                    % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    b8
+                    ~
+                    % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    b8
+                    \f
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'16
+                    \!
+                    \sfp
+                    - \accent
+                    \<
+
+                    bqs16
 
                     b16
                     - \tenuto
 
                     bf16
-                    - \tenuto
+                    \ff
+                    - \accent
 
                     dqf'16
-                    - \accent
-
-                    bqs16
-
-                    d'16
-                    - \tenuto
-
-                    dqs'16
-                    - \accent
-
-                    d'16
-                    - \espressivo
-
-                    dqs'16
                     \p
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                    \times 2/3 {
-                        % [Voice 1 measure 11]                                 %! COMMENT_MEASURE_NUMBERS
+                    bqs16
+                    - \accent
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
+                    \times 10/11 {
+                        % [Voice 1 measure 9]                                  %! COMMENT_MEASURE_NUMBERS
 
                         cqs'16
-                        \!
                         \mp
+                        \<
+
+                        bqs16
+                        - \tenuto
+
+                        b16
+                        - \accent
+
+                        bf16
+                        - \espressivo
+
+                        bqf16
+                        - \tenuto
+
+                        b16
+                        - \tenuto
+
+                        bf16
+                        \mf
+                        - \accent
+
+                        aqs16
+                        \ppppp
+                        - \espressivo
+                        \<
+
+                        bqf16
+                        - \tenuto
+
+                        c'16
+                        - \tenuto
+
+                        cqs'16
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
+
+                    }
+
+                    r8
+                    \!
+
+                    r2
+                    % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/16
+
+                    R1 * 1/16
+                    % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'4
+                    \mf
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    <>
+                    \f
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "16")
+                    \times 4/7 {
+                        % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS
+
+                        cqs'8.
+                        \f
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
+
+                        bqs4
+                        \p
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bqs16
-                        - \accent
-
-                        b16
-                        ]
-
                     }
-                    % [Voice 1 measure 12]                                     %! COMMENT_MEASURE_NUMBERS
+                    % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'16
+                    \!
+                    \mp
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    [
+
+                    bqs16
+                    - \espressivo
+                    ~
+
+                    bqs16
+
+                    b16
+                    - \tenuto
+                    ]
+
+                    r4
+                    \!
+                    % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 1 measure 15]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'4
+                    \mf
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    <>
+                    \f
+                    % [Voice 1 measure 16]                                     %! COMMENT_MEASURE_NUMBERS
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -397,190 +404,230 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin II" }                                    %! applying staff names and clefs
                     \clef "treble"
-                    r2
+                    r4
 
                     r8
 
-                    cqs'8
-                    \mf
+                    a8
+                    \sfp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     ~
-                    [
-
-                    cqs'8.
-
-                    bqs16
-                    - \accent
-                    ~
-
-                    bqs8.
-
-                    b16
-                    - \espressivo
-                    ~
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                    \times 2/3 {
-                        % [Voice 2 measure 2]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        b8
-                        \f
-
-                        cqs'16
-                        \p
-                        - \tenuto
-                        \<
-                        ]
-
-                    }
-
-                    bqs4
-                    - \tenuto
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
-                    \times 4/5 {
-
-                        b4
-                        \mp
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        bf8
-                        \!
-                        \mf
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        dqf'4
-                        - \tenuto
-
-                    }
-
-                    r4
-                    \!
-                    % [Voice 2 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
-                    % [Voice 2 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    a4.
-                    \f
-                    - \accent
-                    \>
-                    <>
-                    \p
 
                     a4
+                    \ff
+                    - \tweak stencil #constante-hairpin
+                    \<
+
+                    cqs'4
+                    \!
+                    \p
+                    - \accent
+                    \<
+
+                    bqs4
+                    ~
+                    % [Voice 2 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    bqs8.
                     \mp
-                    - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
+                    [
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 7) "8")
-                    \times 7/8 {
-                        % [Voice 2 measure 5]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        a2
-                        \mf
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        cqs'8
-                        - \tenuto
-
-                        bqs4.
-                        - \accent
-                        ~
-
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 16 9) "8")
-                    \times 9/16 {
-                        % [Voice 2 measure 6]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        bqs2
-
-                        cqs'2.
-                        \f
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-                        <>
-                        \p
-
-                        bqs2
-                        \mf
-                        - \espressivo
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        b4
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        ~
-
-                    }
-                    % [Voice 2 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    b8
+                    cqs'16
+                    \!
                     \mf
+                    - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
+                    ~
+
+                    cqs'32
+
+                    bqs16.
+                    - \accent
+                    ]
 
                     r8
                     \!
 
-                    r2
-                    % [Voice 2 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
+                    r2.
+                    % [Voice 2 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/16
 
                     R1 * 1/16
-                    % [Voice 2 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    cqs'8
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 12 7) "8")
+                    \times 7/12 {
+                        % [Voice 2 measure 4]                                  %! COMMENT_MEASURE_NUMBERS
+
+                        a1
+                        \f
+                        - \espressivo
+                        \>
+                        <>
+                        \p
+
+                        aqs2
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        ~
+
+                    }
+                    % [Voice 2 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    aqs8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    [
+
+                    a8
+                    \!
                     \f
-                    - \accent
+                    - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "8")
-                    \times 5/9 {
-                        % [Voice 2 measure 10]                                 %! COMMENT_MEASURE_NUMBERS
+                    a8.
 
-                        cqs'4
+                    aqs16
+                    - \accent
+                    ~
 
-                        cqs'2
-                        \p
-                        - \espressivo
-                        \<
+                    aqs8
+                    ]
 
-                        bqs4.
-                        - \tenuto
-                        <>
-                        \mp
+                    r8
+                    \!
 
-                    }
-                    % [Voice 2 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
+                    r4
+                    % [Voice 2 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/16
 
                     R1 * 1/16
+                    % [Voice 2 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \p
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    ~
+                    [
+                    % [Voice 2 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \mp
+                    ]
+
+                    cqs'4
+                    \mf
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 19 10) "8")
+                    \times 10/19 {
+                        % [Voice 2 measure 9]                                  %! COMMENT_MEASURE_NUMBERS
+
+                        cqs'8
+                        \ppppp
+                        - \accent
+                        \<
+
+                        bqs4
+                        - \espressivo
+                        ~
+
+                        bqs8
+                        [
+
+                        b8
+                        - \tenuto
+                        ~
+                        ]
+
+                        b2
+                        \mp
+
+                        bf4
+                        \f
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
+
+                        dqf'8
+                        - \espressivo
+                        [
+
+                        bqs8
+                        - \tenuto
+                        ~
+                        ]
+
+                        bqs2
+                        ~
+
+                        bqs8
+                        [
+
+                        cqs'8
+                        \p
+                        - \tenuto
+                        \<
+                        ]
+                        <>
+                        \mp
+
+                    }
+                    % [Voice 2 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/16
+
+                    R1 * 1/16
+                    % [Voice 2 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
                     % [Voice 2 measure 12]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 2 measure 13]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
+                    % [Voice 2 measure 14]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 2 measure 15]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 2 measure 16]                                     %! COMMENT_MEASURE_NUMBERS
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -611,215 +658,232 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
                     \clef "varC"
-                    r4.
-
-                    f'8
-                    \f
-                    - \tenuto
-                    \>
-                    ~
-                    [
-
-                    f'8
-                    ]
-                    <>
-                    \sfp
-
-                    r8
-
-                    r2
-                    % [Voice 3 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    r4.
-
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
-                    \times 2/3 {
-
-                        f'4
-                        \ff
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-
-                        cqs'2
-                        \ppppp
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                    }
-                    % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    cqs'4
-                    \!
-                    \mp
-                    - \tweak stencil #abjad-flared-hairpin
+                    f'8.
+                    \mf
+                    - \tenuto
                     \<
-                    ~
-
-                    cqs'16
                     [
 
-                    cqs'16
-                    - \tenuto
-                    ~
-
-                    cqs'16
-                    \mf
-
-                    bqs16
-                    \mf
-                    - \tenuto
-                    \<
-                    ]
-
-                    b4
+                    fs'16
                     - \accent
                     ~
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
-                    \times 10/11 {
-                        % [Voice 3 measure 4]                                  %! COMMENT_MEASURE_NUMBERS
+                    fs'8
+                    \f
+                    - \tweak stencil #constante-hairpin
+                    \<
 
-                        b8
+                    a'8
+                    \!
+                    \mf
+                    - \accent
+                    \<
+                    ~
+
+                    a'8.
+
+                    \clef "treble"
+                    <b' e''>16
+                    ~
+
+                    <b' e''>16
+
+                    f''16
+                    - \tenuto
+
+                    bf''8
+                    - \accent
+                    ~
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
+                    \times 8/9 {
+                        % [Voice 3 measure 2]                                  %! COMMENT_MEASURE_NUMBERS
+
+                        bf''8.
+                        ~
+
+                        bf''16
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        cqs'4
+                        f'8
                         \!
-                        \p
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        bqs8.
-                        - \tenuto
-                        [
-
-                        b8
-                        \mp
-                        - \accent
+                        \sfp
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         ~
 
-                    }
-                    % [Voice 3 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
+                        f'8
 
-                    b8
+                        fs'16
+                        - \tenuto
+                        ]
+                        <>
+                        \ff
+
+                    }
+
+                    r2.
+                    % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \ppppp
+                    - \accent
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    ~
+                    [
+                    % [Voice 3 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
-                    <>
-                    \mf
+
+                    r4
+                    \!
 
                     r4
 
-                    r2
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                    \times 2/3 {
+
+                        cqs'8
+                        \p
+                        - \espressivo
+                        - \tweak stencil #constante-hairpin
+                        \<
+
+                        bqs4
+                        - \tenuto
+
+                    }
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 8) "8")
+                    \times 8/15 {
+                        % [Voice 3 measure 5]                                  %! COMMENT_MEASURE_NUMBERS
+
+                        cqs'4
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+
+                        bqs4.
+                        - \accent
+                        ~
+
+                        bqs4
+
+                        b8
+                        ~
+                        [
+
+                        b8
+
+                        cqs'8
+                        - \tenuto
+                        ]
+
+                        bqs4.
+                        - \accent
+                        ~
+
+                        bqs4
+                        ~
+
+                    }
                     % [Voice 3 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    cqs'8
+                    bqs16
+                    \mf
+                    [
+
+                    cqs'16
                     \f
                     - \espressivo
                     - \tweak stencil #abjad-flared-hairpin
                     \>
-                    [
-
-                    bqs8
-                    - \tenuto
-
-                    b16
-                    - \tenuto
-
-                    bf16
-                    - \accent
                     ~
-                    ]
-
-                    bf4
-                    ~
-
-                    bf16
-                    \p
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    [
-
-                    a16
-                    \!
-                    \mp
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ~
-
-                    a8.
-
-                    aqs8.
-                    \f
-                    - \accent
-                    - \tweak stencil #constante-hairpin
-                    \<
                     % [Voice 3 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
 
+                    cqs'8
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ]
+                    % [Voice 3 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/16
+                    \!                                                         %! applying indicators
+
+                    R1 * 3/16
+                    % [Voice 3 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    r2
+
+                    r8
+
                     a8
-                    \sfp
+                    \mf
                     - \espressivo
                     \<
                     ~
-                    ]
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 5) "8")
-                    \times 5/8 {
+                    a4
 
-                        a4.
-
-                        a4
-                        \ff
-                        - \tenuto
-
-                        aqs8
-                        \mf
-                        - \tenuto
-                        \<
-
-                        bf4
-                        - \accent
-                        ~
-
-                    }
-                    % [Voice 3 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    bf8
-                    \f
-                    [
-                    % [Voice 3 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    a8
-                    \p
-                    - \espressivo
-                    \<
+                    a4
+                    - \tenuto
                     ~
                     % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
 
                     a8
-                    \mp
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ]
-
-                    r4
-                    \!
-
-                    r4
+                    ~
                     % [Voice 3 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/16
-
-                    R1 * 1/16
+                    a4
+                    \f
                     % [Voice 3 measure 12]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    a4
+                    \mp
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ~
+                    % [Voice 3 measure 13]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    a4
+
+                    a8
+                    \mf
+                    - \tenuto
+                    \<
+                    [
+
+                    aqs8
+                    - \accent
+                    ]
+                    <>
+                    \f
+                    % [Voice 3 measure 14]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 3 measure 15]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 3 measure 16]                                     %! COMMENT_MEASURE_NUMBERS
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -850,164 +914,238 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Violoncello }                                    %! applying staff names and clefs
                     \clef "bass"
-                    r2.
+                    cqs'8
+                    \p
+                    \<
+                    [
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
-                    \times 2/3 {
+                    bqs8
+                    - \tenuto
+                    ~
 
-                        cqs'4
-                        \ppppp
-                        - \tenuto
-                        \<
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 19 16) "16")
+                    \times 16/19 {
 
-                        bqs2
+                        bqs8.
+
+                        b8
                         \mp
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
-                    }
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "8.")
-                    \times 6/7 {
-                        % [Voice 4 measure 2]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        cqs'8
+                        cqs'16
                         \!
-                        \mf
+                        \sfp
                         - \tenuto
-                        - \tweak stencil #constante-hairpin
                         \<
 
-                        bqs4
-                        - \tenuto
-
-                        b8.
+                        bqs16
                         - \accent
-
-                        bf4
                         ~
-
-                        bf16
-                        [
-
-                        f'8
-                        \f
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-
-                        fs'16
-                        - \accent
                         ]
 
-                        \clef "tenorvarC"
-                        a'4
-                        - \espressivo
+                        bqs4
                         ~
 
-                    }
-                    % [Voice 4 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
+                        bqs16
+                        [
 
-                    a'8
-                    \p
-                    [
+                        b16
+                        ~
 
-                    f'8
-                    \mp
-                    - \tenuto
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
-                    ~
+                        b8
+                        ~
 
-                    f'8
-                    \mf
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ]
+                        b16
 
-                    r8
-                    \!
+                        bf16
+                        - \tenuto
+                        ~
 
-                    r4
-                    % [Voice 4 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
-
-                    R1 * 5/16
-                    % [Voice 4 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    f'4.
-                    \mf
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
-
-                    cqs'2
-                    - \tenuto
-                    ~
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "8")
-                    \times 3/4 {
-                        % [Voice 4 measure 6]                                  %! COMMENT_MEASURE_NUMBERS
-
-                        cqs'8
-                        \f
-
-                        cqs'4.
-                        \sfp
-                        - \accent
+                        bf8
+                        \ff
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
 
                     }
-
-                    r2.
-                    \!
-                    % [Voice 4 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
-
-                    cqs'2
-                    \ff
-                    - \espressivo
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-                    <>
-                    \ppppp
+                    % [Voice 4 measure 2]                                      %! COMMENT_MEASURE_NUMBERS
 
                     cqs'4
-                    \f
-                    - \tenuto
+                    \!
+                    \mf
+                    - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
-                    % [Voice 4 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    cqs'8
-                    \p
-                    - \accent
-                    \<
+                    bqs4
+                    - \tenuto
                     ~
+
+                    bqs8
                     [
-                    % [Voice 4 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
 
-                    cqs'8
+                    b8
+                    \f
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
+                    ~
                     ]
+
+                    b4
+
+                    f'4
+                    - \accent
                     <>
-                    \mp
-                    % [Voice 4 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
-
-                    R1 * 5/16
-                    % [Voice 4 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
+                    \p
+                    % [Voice 4 measure 3]                                      %! COMMENT_MEASURE_NUMBERS
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/16
 
                     R1 * 1/16
+                    % [Voice 4 measure 4]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    r4.
+
+                    f'2
+                    \mp
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    ~
+                    % [Voice 4 measure 5]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    f'8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    [
+
+                    f'8
+                    \!
+                    \ppppp
+                    - \accent
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    ]
+                    <>
+                    \mp
+
+                    r2.
+                    % [Voice 4 measure 6]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \mf
+                    - \espressivo
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    ~
+                    [
+                    % [Voice 4 measure 7]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \f
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ]
+                    % [Voice 4 measure 8]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/16
+                    \!                                                         %! applying indicators
+
+                    R1 * 3/16
+                    % [Voice 4 measure 9]                                      %! COMMENT_MEASURE_NUMBERS
+
+                    r8
+
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 10 9) "8")
+                    \times 9/10 {
+
+                        cqs'4.
+                        \f
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+
+                        bqs4.
+                        \sfp
+                        - \tenuto
+                        \<
+
+                        b4
+                        - \tenuto
+
+                        cqs'4
+                        - \accent
+                        ~
+
+                    }
+                    % [Voice 4 measure 10]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \ff
+                    % [Voice 4 measure 11]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'4
+                    \p
+                    - \accent
+                    \<
+                    <>
+                    \mp
                     % [Voice 4 measure 12]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    cqs'8
+                    \ppppp
+                    \<
+                    [
+
+                    bqs16
+                    - \tenuto
+
+                    b16
+                    - \accent
+                    ~
+                    ]
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "8")
+                    \times 4/7 {
+                        % [Voice 4 measure 13]                                 %! COMMENT_MEASURE_NUMBERS
+
+                        b4.
+                        ~
+
+                        b4
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
+
+                        cqs'4
+                        \!
+                        \mf
+                        - \espressivo
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        <>
+                        \f
+
+                    }
+                    % [Voice 4 measure 14]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 4 measure 15]                                     %! COMMENT_MEASURE_NUMBERS
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 4 measure 16]                                     %! COMMENT_MEASURE_NUMBERS
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
