@@ -1,84 +1,68 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile
-\language "english"                                                            %! abjad.LilyPondFile
+\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile
+\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
-}                                                                              %! abjad.LilyPondFile
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
 
 \layout {}
 
 \paper {}
 
-\score {                                                                       %! abjad.LilyPondFile
+\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
     \new Score
     <<
 
         \context TimeSignatureContext = "Global Context"
         {
-            % [Global Context measure 1]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            % [Global Context measure 3]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
-            % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
-            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
-            % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
-            % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
-            % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
-            % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            % [Global Context measure 13]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            % [Global Context measure 15]                                      %! COMMENT_MEASURE_NUMBERS
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
@@ -88,64 +72,73 @@
 
         \context Voice = "Voice 2"
         {
-            % [Voice 2 measure 1]                                              %! COMMENT_MEASURE_NUMBERS
 
             \set Staff.shortInstrumentName =                                   %! applying staff names and clefs
             \markup { "vln. II" }                                              %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { "Violin II" }                                            %! applying staff names and clefs
             \clef "treble"
-            r4
-
-            r8
-
-            a8
-            \sfp
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \<
-            ~
-
-            a4
-            \ff
-            - \tweak stencil #constante-hairpin
-            \<
+            r2.
 
             cqs'4
-            \!
-            \p
-            - \accent
-            \<
+            \f
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
+            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
+            - \upbow                                                           %! baca.bcps():BCPCommand(5)
+            - \tweak stencil #abjad-flared-hairpin
+            \>
+            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             bqs4
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
-            % [Voice 2 measure 2]                                              %! COMMENT_MEASURE_NUMBERS
 
             bqs8.
-            \mp
+            \p
             - \tweak stencil #constante-hairpin
             \<
             [
 
             cqs'16
             \!
-            \mf
-            - \tenuto
+            \mp
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
+            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
+            - \upbow                                                           %! baca.bcps():BCPCommand(5)
             - \tweak stencil #constante-hairpin
             \<
             ~
+            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             cqs'32
 
             bqs16.
-            - \accent
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(8)
+            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(8)
+            - \downbow                                                         %! baca.bcps():BCPCommand(8)
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
+            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #1 #4                                %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-right-text #1 #2                               %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
             ]
 
             r8
             \!
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
 
             r2.
-            % [Voice 2 measure 3]                                              %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/16
@@ -154,169 +147,139 @@
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 7/12 {
-                % [Voice 2 measure 4]                                          %! COMMENT_MEASURE_NUMBERS
 
-                a1
-                \f
-                - \espressivo
-                \>
-                <>
-                \p
+                r1
 
-                aqs2
-                \mp
+                a2
+                \mf
                 - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
 
             }
-            % [Voice 2 measure 5]                                              %! COMMENT_MEASURE_NUMBERS
 
-            aqs8
-            \mf
-            - \tweak stencil #constante-hairpin
+            a8
+            <>
+            \f
+
+            r8
+
+            r8.
+
+            a16
+            \p
+            - \accent
             \<
+            ~
             [
 
             a8
-            \!
-            \f
-            - \tenuto
+            \mp
             - \tweak stencil #constante-hairpin
             \<
-            ~
-
-            a8.
-
-            aqs16
-            - \accent
-            ~
-
-            aqs8
             ]
 
             r8
             \!
 
             r4
-            % [Voice 2 measure 6]                                              %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/16
 
             R1 * 1/16
-            % [Voice 2 measure 7]                                              %! COMMENT_MEASURE_NUMBERS
 
-            cqs'8
-            \p
-            - \tweak stencil #abjad-flared-hairpin
-            \<
-            ~
-            [
-            % [Voice 2 measure 8]                                              %! COMMENT_MEASURE_NUMBERS
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 1/16
 
-            cqs'8
-            \mp
-            ]
+            R1 * 1/16
+
+            r8
 
             cqs'4
             \mf
-            - \tenuto
             - \tweak stencil #constante-hairpin
             \<
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 10/19 {
-                % [Voice 2 measure 9]                                          %! COMMENT_MEASURE_NUMBERS
+
+                r8
+                \!
+
+                cqs'4
+                \sfp
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \<
+                ~
 
                 cqs'8
-                \ppppp
-                - \accent
-                \<
-
-                bqs4
-                - \espressivo
-                ~
-
-                bqs8
-                [
-
-                b8
-                - \tenuto
-                ~
-                ]
-
-                b2
-                \mp
-
-                bf4
-                \f
-                - \accent
-                - \tweak stencil #constante-hairpin
-                \<
-
-                dqf'8
-                - \espressivo
                 [
 
                 bqs8
-                - \tenuto
+                - \accent
                 ~
                 ]
 
                 bqs2
-                ~
+                <>
+                \ff
 
-                bqs8
+                r4
+
+                b8
+                \f
+                - \espressivo
+                - \tweak stencil #abjad-flared-hairpin
+                \>
                 [
 
-                cqs'8
-                \p
+                bf8
                 - \tenuto
-                \<
+                ~
                 ]
+
+                bf2
+                ~
+
+                bf8
                 <>
-                \mp
+                \p
+
+                r8
 
             }
-            % [Voice 2 measure 10]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/16
 
             R1 * 1/16
-            % [Voice 2 measure 11]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
 
             R1 * 1/8
-            % [Voice 2 measure 12]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
 
             R1 * 1/8
-            % [Voice 2 measure 13]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/4
 
             R1 * 1/4
-            % [Voice 2 measure 14]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
 
             R1 * 1/8
-            % [Voice 2 measure 15]                                             %! COMMENT_MEASURE_NUMBERS
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
 
             R1 * 1/8
-            % [Voice 2 measure 16]                                             %! COMMENT_MEASURE_NUMBERS
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
             \once \override Rest.color = #white                                %! applying ending skips
@@ -333,4 +296,4 @@
 
         }
     >>
-}                                                                              %! abjad.LilyPondFile
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()

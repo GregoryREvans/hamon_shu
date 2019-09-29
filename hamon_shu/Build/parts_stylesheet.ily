@@ -6,6 +6,7 @@
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
+\include "/Users/evansdsg2/baca/lilypond/baca-spanners.ily",
 
 \header {
 	tagline = ##f
@@ -114,7 +115,7 @@
 		%{ \override TupletBracket.staff-padding = #1.5 %}
 		\override TupletBracket.staff-padding = #4
         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-		\override TupletBracket.direction = #up
+		\override TupletBracket.direction = #down
 		\override TupletNumber.font-size = 0.5
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
@@ -162,7 +163,7 @@
 	oddFooterMarkup = \markup
         \fill-line {
             \override #'(font-name . "Didot")
-                \bold \fontsize #3 "Passagenwerk"
+                \bold \fontsize #3 "Hamonshū"
             \concat {
                 \override #'(font-name . "Didot")
                     \bold \fontsize #3
@@ -179,6 +180,6 @@
                         \fromproperty #'page:page-number-string
                 }
             \override #'(font-name . "Didot")
-                \bold \fontsize #3 "Passagenwerk"
+                \bold \fontsize #3 "Hamonshū"
             }
 }

@@ -31,7 +31,7 @@ before_install:
 
     # clone & install abjad dev branch:
     - ABJAD=/tmp/abjad
-    - git clone -b greg/dev https://github.com/Abjad/abjad.git $ABJAD
+    - git clone -b trevor/dev https://github.com/Abjad/abjad.git $ABJAD
     - pip install -e $ABJAD
     - export MYPYPATH=$ABJAD
     - export PATH=$PATH:$ABJAD/abjad/scr
@@ -49,6 +49,11 @@ before_install:
     - EVANS=/tmp/evans
     - git clone https://github.com/GregoryREvans/evans.git $EVANS
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
+
+    # clone & install baca:
+    - BACA=/tmp/baca
+    - git clone https://github.com/trevorbaca/baca.git $BACA
+    - export PYTHONPATH=$BACA/:$PYTHONPATH
 
     # clone & install moscotta:
     - MOSCOTTA=/tmp/moscotta

@@ -1,4 +1,6 @@
 import evans
+import baca
+import abjad
 
 articulation_handler_one = evans.ArticulationHandler(
     articulation_list=[
@@ -52,4 +54,23 @@ articulation_handler_five = evans.ArticulationHandler(
 articulation_handler_six = evans.ArticulationHandler(
     articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
     continuous=True,
+)
+
+bcp_handler_one = baca.BCPCommand(
+    bcps=[
+        (1, 2),
+        (1, 4),
+        ],
+    selector=baca.leaves(),
+    tags=[
+        abjad.Tag('baca.bcps()'),
+    ],
+    tweaks=(
+        abjad.tweak(2.5).staff_padding,
+        abjad.tweak(1).padding,
+    ),
+    bow_change_tweaks=(
+        abjad.tweak(5).staff_padding,
+        abjad.tweak(1).padding,
+    ),
 )
