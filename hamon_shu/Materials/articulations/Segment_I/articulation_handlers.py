@@ -57,20 +57,9 @@ articulation_handler_six = evans.ArticulationHandler(
 )
 
 bcp_handler_one = baca.BCPCommand(
-    bcps=[
-        (1, 2),
-        (1, 4),
-        ],
+    bcps=[(1, 2), (1, 4)],
     selector=baca.leaves(),
-    tags=[
-        abjad.Tag('baca.bcps()'),
-    ],
-    tweaks=(
-        abjad.tweak(2.5).staff_padding,
-        abjad.tweak(1).padding,
-    ),
-    bow_change_tweaks=(
-        abjad.tweak(5).staff_padding,
-        abjad.tweak(1).padding,
-    ),
+    tags=[abjad.Tag("baca.bcps()")],
+    tweaks=(abjad.tweak(2.5).staff_padding, abjad.tweak(1).padding),
+    bow_change_tweaks=(abjad.tweak(5).staff_padding, abjad.tweak(1).padding),
 )
