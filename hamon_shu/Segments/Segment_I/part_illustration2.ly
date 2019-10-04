@@ -65,8 +65,8 @@
             s1 * 1/4
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
 
         }
 
@@ -82,20 +82,11 @@
 
             cqs'4
             \f
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
+            - \accent
             - \tweak stencil #abjad-flared-hairpin
             \>
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             bqs4
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             bqs8.
@@ -107,36 +98,19 @@
             cqs'16
             \!
             \mp
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
+            - \tenuto
             - \tweak stencil #constante-hairpin
             \<
             ~
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             cqs'32
 
             bqs16.
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(8)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(8)
-            - \downbow                                                         %! baca.bcps():BCPCommand(8)
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #4                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #2                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            - \accent
             ]
 
             r8
             \!
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
 
             r2.
 
@@ -146,13 +120,13 @@
             R1 * 1/16
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 7/12 {
+            \times 7/6 {
 
-                r1
+                r2
 
-                a2
+                a4
                 \mf
-                - \tenuto
+                - \espressivo
                 \<
                 ~
 
@@ -168,7 +142,7 @@
 
             a16
             \p
-            - \accent
+            - \tenuto
             \<
             ~
             [
@@ -198,56 +172,56 @@
 
             cqs'4
             \mf
+            - \tenuto
             - \tweak stencil #constante-hairpin
             \<
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 10/19 {
+            \times 20/19 {
 
-                r8
+                r16
                 \!
 
-                cqs'4
+                cqs'8
                 \sfp
-                - \tenuto
+                - \accent
                 - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
-
-                cqs'8
                 [
 
-                bqs8
-                - \accent
+                cqs'16
+
+                bqs16
                 ~
                 ]
 
-                bqs2
+                bqs4
                 <>
                 \ff
 
-                r4
+                r8
 
-                b8
+                b16
                 \f
-                - \espressivo
+                - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
 
-                bf8
-                - \tenuto
+                bf16
+                - \accent
                 ~
                 ]
 
-                bf2
+                bf4
                 ~
 
-                bf8
+                bf16
                 <>
                 \p
 
-                r8
+                r16
 
             }
 
@@ -283,11 +257,11 @@
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
             \once \override Rest.color = #white                                %! applying ending skips
-            r1 * 1/8
+            r1 * 1/16
             \!                                                                 %! applying ending skips
 
             \once \override MultiMeasureRest.color = #white                    %! applying ending skips
-            R1 * 1/8
+            R1 * 1/16
             ^ \markup {                                                        %! applying ending skips
                 \musicglyph                                                    %! applying ending skips
                     #"scripts.ushortfermata"                                   %! applying ending skips

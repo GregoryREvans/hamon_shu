@@ -6,7 +6,7 @@
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
-\include "/Users/evansdsg2/baca/lilypond/baca-spanners.ily",
+\include "/Users/evansdsg2/baca/lilypond/baca-spanners.ily"
 
 \header {
 	tagline = ##f
@@ -90,9 +90,9 @@
 		\override Clef.whiteout-style = #'outline
   		\override Clef.whiteout = 1
 		\override DynamicText.font-size = #-2
-		\override DynamicLineSpanner.staff-padding = 5 %was 4.5
+		\override DynamicLineSpanner.staff-padding = 4.5
         %{ \override DynamicLineSpanner.Y-extent = #'(-1.5 . 1.5) %}
-		\override Hairpin.bound-padding = #2 %is this necessary?
+		\override Hairpin.bound-padding = #1.5 %is this necessary?
 		\override Glissando.breakable = ##t
 		%{ \override Glissando.thickness = #2 %}
 		\override Glissando.thickness = #1.8
