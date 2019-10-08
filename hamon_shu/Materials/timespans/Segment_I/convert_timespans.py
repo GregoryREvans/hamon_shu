@@ -1,4 +1,5 @@
 import evans
+import pathlib
 
 # from evans.abjad_functions.ConvertTimespans import ConvertTimespans
 from hamon_shu.Materials.score_structure.Segment_I.rhythm_material_pattern import (
@@ -28,7 +29,11 @@ from hamon_shu.Materials.score_structure.Segment_I.time_signatures import bounds
 rhythm_mat = rhythm_material_list
 
 segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=rhythm_mat, ts_list=rhythm_timespan_list, bounds=bounds
+    materials=rhythm_mat,
+    ts_list=rhythm_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_rhythm_timespans",
+    current_directory=pathlib.Path(__file__).parent,
 )
 
 #######
@@ -37,7 +42,11 @@ segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
 pitch_mat = pitch_material_list
 
 segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=pitch_mat, ts_list=pitch_timespan_list, bounds=bounds
+    materials=pitch_mat,
+    ts_list=pitch_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_pitch_timespans",
+    current_directory=pathlib.Path(__file__).parent,
 )
 
 #########
@@ -46,7 +55,11 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
 dynamic_mat = dynamic_material_list
 
 segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=dynamic_mat, ts_list=dynamic_timespan_list, bounds=bounds
+    materials=dynamic_mat,
+    ts_list=dynamic_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_dynamic_timespans",
+    current_directory=pathlib.Path(__file__).parent,
 )
 
 ##############
@@ -55,7 +68,11 @@ segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
 articulation_mat = articulation_material_list
 
 segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=articulation_mat, ts_list=articulation_timespan_list, bounds=bounds
+    materials=articulation_mat,
+    ts_list=articulation_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_I_articulation_timespans",
+    current_directory=pathlib.Path(__file__).parent,
 )
 
 ###############

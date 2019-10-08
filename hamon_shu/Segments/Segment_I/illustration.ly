@@ -1,18 +1,18 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
-\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.83"                                                             %! abjad.LilyPondFile
+\language "english"                                                            %! abjad.LilyPondFile
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
+\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily" %! abjad.LilyPondFile
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
+\header {                                                                      %! abjad.LilyPondFile
     tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
+\score {                                                                       %! abjad.LilyPondFile
     
     \context Score = "hamon_shu Score"
     <<
@@ -87,29 +87,29 @@
                     \clef "treble"
                     r8
 
-                    cqs'16
+                    dqf'16
                     \f
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
-                    bqs16
+                    cqs'16
                     - \accent
                     ~
                     ]
 
-                    bqs4
+                    cqs'4
                     ~
 
-                    bqs16
+                    cqs'16
 
                     r8.
                     \!
 
                     r16
 
-                    b8.
+                    bqs8.
                     \p
                     - \tweak stencil #abjad-flared-hairpin
                     \<
@@ -128,7 +128,7 @@
 
                         r8
 
-                        cqs'8
+                        dqf'8
                         \sfp
                         - \espressivo
                         - \tweak stencil #constante-hairpin
@@ -137,7 +137,7 @@
 
                     }
 
-                    cqs'16
+                    dqf'16
                     \ff
                     - \tenuto
                     \>
@@ -157,7 +157,7 @@
 
                         r8
 
-                        cqs'16
+                        dqf'16
                         \mf
                         - \tenuto
                         - \tweak stencil #constante-hairpin
@@ -168,7 +168,7 @@
                     r8.
                     \!
 
-                    cqs'16
+                    dqf'16
                     \mp
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
@@ -176,13 +176,13 @@
                     ~
                     [
 
-                    cqs'8
+                    dqf'8
 
-                    bqs8
+                    cqs'8
                     - \espressivo
                     ~
 
-                    bqs8.
+                    cqs'8.
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -193,42 +193,42 @@
 
                     r16
 
-                    cqs'16
+                    dqf'16
                     \f
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \>
                     [
 
-                    bqs8
+                    cqs'8
                     - \tenuto
                     ~
 
-                    bqs8
+                    cqs'8
                     ~
 
-                    bqs8
+                    cqs'8
                     ]
                     <>
                     \sfp
 
                     r16
 
-                    cqs'16
+                    dqf'16
                     \ff
                     - \accent
                     \>
                     [
 
-                    bqs16
+                    cqs'16
 
-                    b16
+                    bqs16
                     \ppppp
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    bf16
+                    b16
                     \!
                     \f
                     - \accent
@@ -243,16 +243,16 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
                     \times 10/11 {
 
-                        cqs'16
+                        dqf'16
                         \p
                         - \espressivo
                         \<
                         [
 
-                        bqs16
+                        cqs'16
                         - \tenuto
 
-                        b16
+                        bqs16
                         - \tenuto
 
                         bf16
@@ -313,13 +313,13 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "16")
                     \times 4/7 {
 
-                        cqs'8.
+                        dqf'8.
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bqs4
+                        cqs'4
                         - \espressivo
 
                     }
@@ -327,7 +327,7 @@
                     r16
                     \!
 
-                    cqs'16
+                    dqf'16
                     \mp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
@@ -335,9 +335,9 @@
                     ~
                     [
 
-                    cqs'16
+                    dqf'16
 
-                    bqs16
+                    cqs'16
                     - \tenuto
                     ]
                     <>
@@ -385,22 +385,22 @@
                     \clef "treble"
                     r2.
 
-                    cqs'4
+                    dqf'4
                     \f
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
                     \>
 
-                    bqs4
+                    cqs'4
                     ~
 
-                    bqs8.
+                    cqs'8.
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
-                    cqs'16
+                    dqf'16
                     \!
                     \mp
                     - \tenuto
@@ -408,9 +408,9 @@
                     \<
                     ~
 
-                    cqs'32
+                    dqf'32
 
-                    bqs16.
+                    cqs'16.
                     - \accent
                     ]
 
@@ -476,7 +476,7 @@
 
                     r8
 
-                    cqs'4
+                    dqf'4
                     \mf
                     - \tenuto
                     - \tweak stencil #constante-hairpin
@@ -489,7 +489,7 @@
                         r16
                         \!
 
-                        cqs'8
+                        dqf'8
                         \sfp
                         - \accent
                         - \tweak stencil #abjad-flared-hairpin
@@ -497,34 +497,34 @@
                         ~
                         [
 
-                        cqs'16
+                        dqf'16
 
-                        bqs16
+                        cqs'16
                         ~
                         ]
 
-                        bqs4
+                        cqs'4
                         <>
                         \ff
 
                         r8
 
-                        b16
+                        bqs16
                         \f
                         - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
                         \>
                         [
 
-                        bf16
+                        b16
                         - \accent
                         ~
                         ]
 
-                        bf4
+                        b4
                         ~
 
-                        bf16
+                        b16
                         <>
                         \p
 
@@ -677,7 +677,7 @@
 
                         r8
 
-                        cqs'4
+                        dqf'4
                         \p
                         - \accent
                         \<
@@ -692,19 +692,19 @@
 
                         r8
 
-                        cqs'8.
+                        dqf'8.
                         \mf
                         \<
                         ~
                         [
 
-                        cqs'8
+                        dqf'8
 
-                        bqs16
+                        cqs'16
                         - \tenuto
                         ~
 
-                        bqs16
+                        cqs'16
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
@@ -713,7 +713,7 @@
                         r16
                         \!
 
-                        cqs'8.
+                        dqf'8.
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -721,21 +721,21 @@
                         ~
                         [
 
-                        cqs'8
+                        dqf'8
                         ~
 
                     }
 
-                    cqs'16
+                    dqf'16
 
-                    cqs'16
+                    dqf'16
                     \mp
                     - \espressivo
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     ~
 
-                    cqs'8
+                    dqf'8
                     ]
                     <>
                     \mf
@@ -826,7 +826,7 @@
                     \clef "bass"
                     r8
 
-                    cqs'8
+                    dqf'8
                     \p
                     - \tenuto
                     - \tweak stencil #constante-hairpin
@@ -837,35 +837,35 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 19 16) "16")
                     \times 16/19 {
 
-                        cqs'8.
+                        dqf'8.
 
-                        bqs8
+                        cqs'8
                         - \accent
                         ]
 
                         r16
                         \!
 
-                        cqs'16
+                        dqf'16
                         \ppppp
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         ~
 
-                        cqs'4
+                        dqf'4
                         ~
 
-                        cqs'16
+                        dqf'16
                         [
 
-                        bqs16
+                        cqs'16
                         - \tenuto
                         ~
 
-                        bqs8
+                        cqs'8
                         ~
 
-                        bqs16
+                        cqs'16
                         ]
                         <>
                         \mp
@@ -876,7 +876,7 @@
 
                     }
 
-                    cqs'4
+                    dqf'4
                     \mp
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
@@ -888,13 +888,13 @@
 
                     r8
 
-                    bqs8
+                    cqs'8
                     \f
                     - \tenuto
                     \>
                     ~
 
-                    bqs4
+                    cqs'4
 
                     f'4
                     \p
@@ -947,21 +947,21 @@
 
                         r4.
 
-                        cqs'4.
+                        dqf'4.
                         \f
                         - \tweak stencil #abjad-flared-hairpin
                         \>
 
-                        bqs4
+                        cqs'4
                         - \tenuto
 
-                        cqs'4
+                        dqf'4
                         - \accent
                         ~
 
                     }
 
-                    cqs'8
+                    dqf'8
                     <>
                     \sfp
 
@@ -970,13 +970,13 @@
 
                     R1 * 1/8
 
-                    cqs'8
+                    dqf'8
                     \ff
                     - \tenuto
                     \>
                     [
 
-                    bqs16
+                    cqs'16
                     \ppppp
                     - \tenuto
                     - \tweak stencil #constante-hairpin
@@ -994,7 +994,7 @@
 
                         r8
 
-                        cqs'8
+                        dqf'8
                         \mp
                         - \accent
                         \<
@@ -1033,4 +1033,4 @@
         >>
 
     >>
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile

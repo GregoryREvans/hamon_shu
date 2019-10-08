@@ -1,18 +1,18 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
-\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.83"                                                             %! abjad.LilyPondFile
+\language "english"                                                            %! abjad.LilyPondFile
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
+\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
+\header {                                                                      %! abjad.LilyPondFile
     tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
+\score {                                                                       %! abjad.LilyPondFile
     \new Score
     <<
 
@@ -80,7 +80,7 @@
             \clef "bass"
             r8
 
-            cqs'8
+            dqf'8
             \p
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -90,35 +90,35 @@
 
             \times 16/19 {
 
-                cqs'8.
+                dqf'8.
 
-                bqs8
+                cqs'8
                 - \accent
                 ]
 
                 r16
                 \!
 
-                cqs'16
+                dqf'16
                 \ppppp
                 - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
 
-                cqs'4
+                dqf'4
                 ~
 
-                cqs'16
+                dqf'16
                 [
 
-                bqs16
+                cqs'16
                 - \tenuto
                 ~
 
-                bqs8
+                cqs'8
                 ~
 
-                bqs16
+                cqs'16
                 ]
                 <>
                 \mp
@@ -129,7 +129,7 @@
 
             }
 
-            cqs'4
+            dqf'4
             \mp
             - \accent
             - \tweak stencil #abjad-flared-hairpin
@@ -141,13 +141,13 @@
 
             r8
 
-            bqs8
+            cqs'8
             \f
             - \tenuto
             \>
             ~
 
-            bqs4
+            cqs'4
 
             f'4
             \p
@@ -199,21 +199,21 @@
 
                 r4.
 
-                cqs'4.
+                dqf'4.
                 \f
                 - \tweak stencil #abjad-flared-hairpin
                 \>
 
-                bqs4
+                cqs'4
                 - \tenuto
 
-                cqs'4
+                dqf'4
                 - \accent
                 ~
 
             }
 
-            cqs'8
+            dqf'8
             <>
             \sfp
 
@@ -222,13 +222,13 @@
 
             R1 * 1/8
 
-            cqs'8
+            dqf'8
             \ff
             - \tenuto
             \>
             [
 
-            bqs16
+            cqs'16
             \ppppp
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -245,7 +245,7 @@
 
                 r8
 
-                cqs'8
+                dqf'8
                 \mp
                 - \accent
                 \<
@@ -279,4 +279,4 @@
 
         }
     >>
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile

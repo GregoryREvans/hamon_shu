@@ -65,22 +65,22 @@
             \clef "treble"
             r2.
 
-            cqs'4
+            dqf'4
             \f
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \>
 
-            bqs4
+            cqs'4
             ~
 
-            bqs8.
+            cqs'8.
             \p
             - \tweak stencil #constante-hairpin
             \<
             [
 
-            cqs'16
+            dqf'16
             \!
             \mp
             - \tenuto
@@ -88,9 +88,9 @@
             \<
             ~
 
-            cqs'32
+            dqf'32
 
-            bqs16.
+            cqs'16.
             - \accent
             ]
 
@@ -155,7 +155,7 @@
 
             r8
 
-            cqs'4
+            dqf'4
             \mf
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -167,7 +167,7 @@
                 r16
                 \!
 
-                cqs'8
+                dqf'8
                 \sfp
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
@@ -175,34 +175,34 @@
                 ~
                 [
 
-                cqs'16
+                dqf'16
 
-                bqs16
+                cqs'16
                 ~
                 ]
 
-                bqs4
+                cqs'4
                 <>
                 \ff
 
                 r8
 
-                b16
+                bqs16
                 \f
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
 
-                bf16
+                b16
                 - \accent
                 ~
                 ]
 
-                bf4
+                b4
                 ~
 
-                bf16
+                b16
                 <>
                 \p
 

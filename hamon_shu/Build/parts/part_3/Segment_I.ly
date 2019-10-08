@@ -148,7 +148,7 @@
 
                 r8
 
-                cqs'4
+                dqf'4
                 \p
                 - \accent
                 \<
@@ -162,19 +162,19 @@
 
                 r8
 
-                cqs'8.
+                dqf'8.
                 \mf
                 \<
                 ~
                 [
 
-                cqs'8
+                dqf'8
 
-                bqs16
+                cqs'16
                 - \tenuto
                 ~
 
-                bqs16
+                cqs'16
                 \f
                 - \tweak stencil #constante-hairpin
                 \<
@@ -183,7 +183,7 @@
                 r16
                 \!
 
-                cqs'8.
+                dqf'8.
                 \p
                 - \accent
                 - \tweak stencil #constante-hairpin
@@ -191,21 +191,21 @@
                 ~
                 [
 
-                cqs'8
+                dqf'8
                 ~
 
             }
 
-            cqs'16
+            dqf'16
 
-            cqs'16
+            dqf'16
             \mp
             - \espressivo
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            cqs'8
+            dqf'8
             ]
             <>
             \mf

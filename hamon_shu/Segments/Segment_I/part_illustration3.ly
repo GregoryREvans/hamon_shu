@@ -1,18 +1,18 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
-\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.83"                                                             %! abjad.LilyPondFile
+\language "english"                                                            %! abjad.LilyPondFile
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
+\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
+\header {                                                                      %! abjad.LilyPondFile
     tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
+\score {                                                                       %! abjad.LilyPondFile
     \new Score
     <<
 
@@ -163,7 +163,7 @@
 
                 r8
 
-                cqs'4
+                dqf'4
                 \p
                 - \accent
                 \<
@@ -177,19 +177,19 @@
 
                 r8
 
-                cqs'8.
+                dqf'8.
                 \mf
                 \<
                 ~
                 [
 
-                cqs'8
+                dqf'8
 
-                bqs16
+                cqs'16
                 - \tenuto
                 ~
 
-                bqs16
+                cqs'16
                 \f
                 - \tweak stencil #constante-hairpin
                 \<
@@ -198,7 +198,7 @@
                 r16
                 \!
 
-                cqs'8.
+                dqf'8.
                 \p
                 - \accent
                 - \tweak stencil #constante-hairpin
@@ -206,21 +206,21 @@
                 ~
                 [
 
-                cqs'8
+                dqf'8
                 ~
 
             }
 
-            cqs'16
+            dqf'16
 
-            cqs'16
+            dqf'16
             \mp
             - \espressivo
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            cqs'8
+            dqf'8
             ]
             <>
             \mf
@@ -296,4 +296,4 @@
 
         }
     >>
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile
