@@ -1,18 +1,18 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile
-\language "english"                                                            %! abjad.LilyPondFile
+\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile
+\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
-}                                                                              %! abjad.LilyPondFile
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
 
 \layout {}
 
 \paper {}
 
-\score {                                                                       %! abjad.LilyPondFile
+\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
     \new Score
     <<
 
@@ -80,22 +80,22 @@
             \clef "treble"
             r2.
 
-            dqf'4
+            cqs'4
             \f
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \>
 
-            cqs'4
+            bqs4
             ~
 
-            cqs'8.
+            bqs8.
             \p
             - \tweak stencil #constante-hairpin
             \<
             [
 
-            dqf'16
+            cqs'16
             \!
             \mp
             - \tenuto
@@ -103,9 +103,9 @@
             \<
             ~
 
-            dqf'32
+            cqs'32
 
-            cqs'16.
+            bqs16.
             - \accent
             ]
 
@@ -170,7 +170,7 @@
 
             r8
 
-            dqf'4
+            cqs'4
             \mf
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -182,7 +182,7 @@
                 r16
                 \!
 
-                dqf'8
+                cqs'8
                 \sfp
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
@@ -190,34 +190,34 @@
                 ~
                 [
 
-                dqf'16
-
                 cqs'16
+
+                bqs16
                 ~
                 ]
 
-                cqs'4
+                bqs4
                 <>
                 \ff
 
                 r8
 
-                bqs16
+                b16
                 \f
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
 
-                b16
+                bf16
                 - \accent
                 ~
                 ]
 
-                b4
+                bf4
                 ~
 
-                b16
+                bf16
                 <>
                 \p
 
@@ -270,4 +270,4 @@
 
         }
     >>
-}                                                                              %! abjad.LilyPondFile
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()

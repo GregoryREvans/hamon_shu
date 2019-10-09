@@ -65,7 +65,7 @@
             \clef "bass"
             r8
 
-            dqf'8
+            cqs'8
             \p
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -75,35 +75,35 @@
 
             \times 16/19 {
 
-                dqf'8.
+                cqs'8.
 
-                cqs'8
+                bqs8
                 - \accent
                 ]
 
                 r16
                 \!
 
-                dqf'16
+                cqs'16
                 \ppppp
                 - \tweak stencil #abjad-flared-hairpin
                 \<
                 ~
 
-                dqf'4
+                cqs'4
                 ~
 
-                dqf'16
+                cqs'16
                 [
 
-                cqs'16
+                bqs16
                 - \tenuto
                 ~
 
-                cqs'8
+                bqs8
                 ~
 
-                cqs'16
+                bqs16
                 ]
                 <>
                 \mp
@@ -114,7 +114,7 @@
 
             }
 
-            dqf'4
+            cqs'4
             \mp
             - \accent
             - \tweak stencil #abjad-flared-hairpin
@@ -126,13 +126,13 @@
 
             r8
 
-            cqs'8
+            bqs8
             \f
             - \tenuto
             \>
             ~
 
-            cqs'4
+            bqs4
 
             f'4
             \p
@@ -184,21 +184,21 @@
 
                 r4.
 
-                dqf'4.
+                cqs'4.
                 \f
                 - \tweak stencil #abjad-flared-hairpin
                 \>
 
-                cqs'4
+                bqs4
                 - \tenuto
 
-                dqf'4
+                cqs'4
                 - \accent
                 ~
 
             }
 
-            dqf'8
+            cqs'8
             <>
             \sfp
 
@@ -207,13 +207,13 @@
 
             R1 * 1/8
 
-            dqf'8
+            cqs'8
             \ff
             - \tenuto
             \>
             [
 
-            cqs'16
+            bqs16
             \ppppp
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -230,7 +230,7 @@
 
                 r8
 
-                dqf'8
+                cqs'8
                 \mp
                 - \accent
                 \<
