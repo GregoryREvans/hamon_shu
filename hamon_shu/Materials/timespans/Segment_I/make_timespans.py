@@ -1,10 +1,14 @@
 import abjad
+import evans
 import abjadext.rmakers as rmakers
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 from hamon_shu.Materials.rhythm.Segment_I.rhythm_handlers import *
 from hamon_shu.Materials.score_structure.instruments import instruments
 from collections import OrderedDict
 
+padovan_1 = evans.n_dovan_cycle(n=3, iters=30, first=3, second=5, modulus=5)
+padovan_2 = evans.n_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=4)
+padovan_3 = evans.n_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=3)
 
 music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
@@ -14,16 +18,16 @@ music_specifiers = OrderedDict(
 # rhythm#
 ########
 rhythm_target_timespan = abjad.Timespan(0, 8)
-
+# 1, 3, 2
 rhythm_timespan_maker = TaleaTimespanMaker(
     initial_silence_talea=rmakers.Talea(counts=([0, 3, 2, 0]), denominator=8),
     # synchronize_step=True, #goes down voices instead of across? maybe not consistent...
     # synchronize_groupings=True, #goes down voices instead of across? maybe not consistent...
-    playing_talea=rmakers.Talea(counts=([4, 2, 1, 1, 5]), denominator=4),
+    playing_talea=rmakers.Talea(counts=(padovan_1), denominator=4),
     playing_groupings=(
-        [1, 2, 3, 2]
+        padovan_3
     ),  # smashes timespans together without intermittent silence
-    silence_talea=rmakers.Talea(counts=([4, 2, 3, 2]), denominator=4),
+    silence_talea=rmakers.Talea(counts=(padovan_2), denominator=4),
     # fuse_groups=False, #turns groups from multiple timespans into one large timespan
 )
 

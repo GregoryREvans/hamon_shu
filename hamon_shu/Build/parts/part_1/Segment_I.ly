@@ -7,47 +7,38 @@
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 5/4                                                          %! scaling time signatures
-            s1 * 5/4
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
-
-            \time 7/8                                                          %! scaling time signatures
-            s1 * 7/8
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
-
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
@@ -63,9 +54,7 @@
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { "Violin I" }                                             %! applying staff names and clefs
             \clef "treble"
-            r8
-
-            cqs'16
+            cqs'8.
             \f
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -78,256 +67,279 @@
             ]
 
             bqs4
-            ~
-
-            bqs16
-
-            r8.
-            \!
-
-            r16
 
             b8.
             \p
             - \tweak stencil #abjad-flared-hairpin
             \<
+            [
+
+            bf16
+            - \tenuto
+            ]
             <>
             \mp
 
-            r4
-
-            r2.
+            r2
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 8/7 {
-
-                r8.
-
-                r8
-
-                cqs'8
-                \sfp
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
-                [
-
-            }
-
-            cqs'16
-            \ff
-            - \tenuto
-            \>
-            ]
-            <>
-            \ppppp
-
-            r16
-
-            r4.
-
-            r4
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 4/3 {
-
-                r8
+            \times 12/11 {
 
                 cqs'16
                 \mf
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
-
-            }
-
-            r8.
-            \!
-
-            cqs'16
-            \mp
-            - \accent
-            - \tweak stencil #abjad-flared-hairpin
-            \<
-            ~
-            [
-
-            cqs'8
-
-            bqs8
-            - \espressivo
-            ~
-
-            bqs8.
-            \mf
-            - \tweak stencil #constante-hairpin
-            \<
-            ]
-
-            r16
-            \!
-
-            r16
-
-            cqs'16
-            \f
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \>
-            [
-
-            bqs8
-            - \tenuto
-            ~
-
-            bqs8
-            ~
-
-            bqs8
-            ]
-            <>
-            \sfp
-
-            r16
-
-            cqs'16
-            \ff
-            - \accent
-            \>
-            [
-
-            bqs16
-
-            b16
-            \ppppp
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
-
-            bf16
-            \!
-            \f
-            - \accent
-            - \tweak stencil #constante-hairpin
-            \<
-            ]
-
-            r16
-            \!
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 10/11 {
-
-                cqs'16
-                \p
-                - \espressivo
+                - \accent
                 \<
                 [
 
+                bqs8
+                - \espressivo
+                ~
+
+                bqs8
+                ~
+
                 bqs16
-                - \tenuto
 
                 b16
                 - \tenuto
+                ~
 
-                bf16
-                - \accent
-                ]
-                <>
-                \mp
-
-                r16
-
-                bqf16
-                \mf
-                \<
-                [
+                b8
+                ~
 
                 b16
                 \f
-                - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
                 bf16
                 \!
-                \mp
-                - \tenuto
-                \<
-
-                aqs16
-                - \accent
-                ]
-                <>
-                \mf
-
-                r16
-
-                bqf16
-                \f
-                - \tweak stencil #constante-hairpin
-                \<
-
-            }
-
-            r8
-            \!
-
-            r2
-
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/16
-
-            R1 * 1/16
-
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
-
-            R1 * 1/8
-
-            \times 4/7 {
-
-                cqs'8.
-                \p
-                - \accent
-                - \tweak stencil #constante-hairpin
-                \<
-
-                bqs4
+                \sfp
                 - \espressivo
+                \<
+                ~
 
             }
 
-            r16
-            \!
+            bf8.
+            \ff
+            - \tweak stencil #constante-hairpin
+            \<
 
             cqs'16
-            \mp
+            \!
+            \ppppp
             - \tenuto
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
-            [
+
+            \times 4/5 {
+
+                cqs'8.
+                ~
+
+                cqs'16
+                \mp
+
+                cqs'16
+                \mf
+                - \tenuto
+                - \tweak stencil #constante-hairpin
+                \<
+                ]
+
+            }
+
+            r2.
+            \!
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 12/11 {
+
+                cqs'16
+                \p
+                - \tenuto
+                - \tweak stencil #constante-hairpin
+                \<
+                [
+
+                bqs8
+                - \accent
+                ~
+
+                bqs8
+
+                b16
+                \f
+                - \tweak stencil #abjad-flared-hairpin
+                \>
+
+                bf16
+                - \tenuto
+                ~
+                ]
+
+                bf4
+                <>
+                \sfp
+
+            }
+
+            r4.
+
+            r8
 
             cqs'16
+            \ff
+            - \accent
+            \>
+            [
 
             bqs16
+            - \espressivo
+            ~
+            ]
+
+            bqs4
+            ~
+
+            bqs32.
+            \ppppp
+            - \tweak stencil #constante-hairpin
+            \<
+            [
+
+            cqs'64
+            \!
+            \mp
             - \tenuto
+            \<
+            ~
+
+            cqs'16
+            ~
+
+            cqs'8
+            ~
+
+            cqs'32
+            \mf
+
+            bqs32.
+            \mp
+            - \tenuto
+            \<
+
+            b32.
+            - \accent
+
+            bf8
+            ~
+
+            bf8
             ]
             <>
             \mf
 
-            r4
+            r8
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            r8
 
-            R1 * 1/8
+            bqf16
+            \f
+            - \accent
+            - \tweak stencil #abjad-flared-hairpin
+            \>
+            [
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            b16
 
-            R1 * 1/8
+            bf16
+            - \tenuto
+
+            aqs16
+            - \accent
+
+            cqs'8
+            \sfp
+            - \espressivo
+            - \tweak stencil #constante-hairpin
+            \<
+
+            \times 4/7 {
+
+                cqs'8.
+                \!
+                \ff
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \>
+                ~
+
+                cqs'8
+                ~
+
+                cqs'16
+                \ppppp
+
+                bqs16
+                \mp
+                - \tenuto
+                \<
+                ~
+
+            }
+
+            bqs8
+            \mf
+            - \tweak stencil #constante-hairpin
+            \<
+            ]
+
+            r8
+            \!
+
+            r8
+
+            cqs'4
+            \f
+            - \accent
+            - \tweak stencil #abjad-flared-hairpin
+            \>
+            ~
+
+            cqs'16
+            \p
+            - \tweak stencil #constante-hairpin
+            \<
+            [
+
+            cqs'8.
+            \!
+            \mp
+            - \espressivo
+            - \tweak stencil #constante-hairpin
+            \<
+            ~
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 12/11 {
+
+                cqs'8.
+                ]
+
+                cqs'4
+                \mf
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
+                \<
+
+                bqs4
+                \f
+                - \tenuto
+
+            }
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
             \once \override Rest.color = #white                                %! applying ending skips
