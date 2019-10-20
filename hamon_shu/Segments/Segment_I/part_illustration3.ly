@@ -25,17 +25,17 @@
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
+            \time 9/8                                                          %! scaling time signatures
+            s1 * 9/8
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 7/8                                                          %! scaling time signatures
-            s1 * 7/8
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
@@ -58,11 +58,8 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -88,17 +85,14 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
 
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
 
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -109,11 +103,8 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -154,15 +145,12 @@
 
             }
 
-            c'4
+            c'4.
             - \tenuto
-            ~
-
-            c'16
-            [
 
             c'16
             - \accent
+            [
 
             c'16
             - \espressivo
@@ -170,37 +158,48 @@
             c'16
             - \tenuto
 
-            c'8
-            - \tenuto
-
-            c'8
-            - \tenuto
-
-            c'8.
+            c'16
             - \accent
+            ~
 
             c'16
+
+            c'16
+            - \espressivo
+            ~
+
+            c'16
+
+            c'8.
+            - \tenuto
             ]
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
-
-            R1 * 1/8
+            r8
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            r1 * 3/16
 
-            R1 * 1/8
+            R1 * 3/16
 
-            c'4
-            - \tenuto
+            \times 4/5 {
+
+                c'8.
+                - \tenuto
+                ~
+                [
+
+                c'16
+
+                c'16
+                - \tenuto
+
+            }
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 5/6 {
 
                 c'8
                 - \accent
-                [
 
                 c'8
                 ]
@@ -299,18 +298,6 @@
                 - \accent
 
                 c'32
-                - \espressivo
-
-                c'32
-                - \tenuto
-
-                c'32
-                - \tenuto
-
-                c'32
-                - \accent
-
-                c'32
 
                 c'32
                 - \tenuto
@@ -331,6 +318,18 @@
                 - \accent
 
                 c'32
+
+                c'32
+                - \tenuto
+
+                c'32
+                - \accent
+
+                c'32
+                - \espressivo
+
+                c'32
+                - \tenuto
 
                 c'32
                 - \tenuto
@@ -341,13 +340,12 @@
             }
 
             c'16
-            - \espressivo
 
             c'16
             - \tenuto
 
             c'8
-            - \tenuto
+            - \accent
             ]
 
             r16
@@ -444,7 +442,7 @@
                 r4
 
                 c'4
-                - \accent
+                - \espressivo
 
             }
 
@@ -456,6 +454,7 @@
             \times 2/3 {
 
                 c'16
+                - \tenuto
                 [
 
                 c'16
@@ -468,14 +467,12 @@
                 r16
 
                 c'16
-                - \espressivo
 
             }
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 5/16
+            r8
 
-            R1 * 5/16
+            r2
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
@@ -485,6 +482,8 @@
             r8
 
             c'4
+
+            c'4.
             ~
 
             c'16
@@ -495,16 +494,6 @@
             ]
 
             c'4
-            ~
-
-            c'8
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 1/1 {
-
-                c'4
-
-            }
 
             \times 2/3 {
 
@@ -609,10 +598,7 @@
 
             R1 * 1/8
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
-
-            R1 * 1/8
+            r4
 
             c'32
             [
@@ -631,63 +617,47 @@
 
             c'32
 
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            c'32
-
-            \times 2/3 {
+            \times 8/9 {
 
                 c'16
 
                 c'16
 
                 c'16
-                ]
+
+                c'16
+
+                c'16
+
+                c'16
+
+                c'16
+
+                c'16
+
+                c'16
 
             }
 
-            \times 2/3 {
+            c'8
 
-                c'4
+            c'8
+            ]
 
-                c'4
+            c'4
 
-                c'2
+            r8
 
-                r4
-
-                c'4
-
-            }
+            c'8
 
             \times 4/5 {
 
-                c'8.
+                c'4.
+
+                c'8
                 [
 
-                c'16
-
-                c'16
+                c'8
 
             }
 
@@ -761,10 +731,7 @@
 
             }
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 3/8
-
-            R1 * 3/8
+            r2.
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8

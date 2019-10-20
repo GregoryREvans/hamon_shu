@@ -10,6 +10,7 @@ dynamic_handler_one = evans.DynamicHandler(
     hold_last_boolean_vector=[0, 1],
     hold_last_continuous=True,
     continuous=True,
+    name="dynamic_handler_one",
 )
 
 dynamic_handler_two = evans.DynamicHandler(
@@ -21,4 +22,5 @@ dynamic_handler_two = evans.DynamicHandler(
     hold_last_boolean_vector=[1, 0],
     hold_last_continuous=True,
     continuous=True,
+    name="dynamic_handler_two",
 )

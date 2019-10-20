@@ -25,17 +25,17 @@
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 4/4                                                          %! scaling time signatures
-            s1 * 1
+            \time 9/8                                                          %! scaling time signatures
+            s1 * 9/8
+
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 7/8                                                          %! scaling time signatures
-            s1 * 7/8
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
@@ -58,11 +58,8 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -88,17 +85,14 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
 
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
 
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -109,11 +103,8 @@
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 3/4                                                          %! scaling time signatures
-            s1 * 3/4
+            \time 4/4                                                          %! scaling time signatures
+            s1 * 1
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -134,65 +125,102 @@
             \clef "bass"
             c'4
             - \tenuto
+            ~
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 16/15 {
+            \times 16/17 {
 
-                c'8.
-                - \accent
+                c'16
                 [
 
                 c'8
+                - \accent
+                ~
+
+                c'16
+
+                c'16
                 - \espressivo
                 ~
+                ]
 
-                c'8.
-                ~
+                c'4.
 
                 c'8
-
-                c'8.
                 - \tenuto
+                ~
+                [
+
+                c'16
 
                 c'16
                 - \tenuto
 
                 c'16
                 - \accent
-                ]
+
+                c'16
+                ~
 
             }
-
-            c'4
-
-            c'8
-            - \tenuto
-            [
-
-            c'8
-            - \accent
-            ~
 
             c'8.
 
             c'16
             - \tenuto
             ~
+
+            c'16
+
+            c'16
+            - \accent
+            ~
             ]
 
             c'4
+
+            c'8
+            - \tenuto
             ~
 
-            \times 4/5 {
+            c'4
+
+            c'8
+            - \accent
+            ~
+            [
+
+            c'8
+
+            \times 2/3 {
 
                 c'16
-                [
+                - \espressivo
+
+                c'16
+                - \tenuto
 
                 c'8
                 - \tenuto
-                ~
+                ]
 
-                c'8
+                r16
+
+                c'16
+                - \accent
+                [
+
+            }
+
+            \times 4/5 {
+
+                c'8.
+                - \espressivo
+
+                c'16
+                - \tenuto
+
+                c'16
+                - \tenuto
 
             }
 
@@ -211,27 +239,15 @@
 
                 c'16
                 - \accent
-
-            }
-
-            \times 4/5 {
-
-                c'4.
-                - \espressivo
-
-                c'8
-                - \tenuto
                 [
 
-                c'8
-                - \tenuto
-
             }
 
             c'8
-            - \accent
+            - \espressivo
 
             c'8
+            - \tenuto
 
             c'8
             - \tenuto
@@ -243,18 +259,6 @@
                 - \accent
 
                 c'16
-                - \espressivo
-
-                c'16
-                - \tenuto
-
-                c'16
-                - \tenuto
-
-                c'16
-                - \accent
-
-                c'16
 
                 c'16
                 - \tenuto
@@ -275,6 +279,18 @@
                 - \accent
 
                 c'16
+
+                c'16
+                - \tenuto
+
+                c'16
+                - \accent
+
+                c'16
+                - \espressivo
+
+                c'16
+                - \tenuto
 
                 c'16
                 - \tenuto
@@ -294,33 +310,18 @@
             \times 24/23 {
 
                 c'32
-                - \espressivo
                 [
 
                 c'32
                 - \tenuto
 
                 c'32
-                - \tenuto
-
-                c'32
-                - \accent
-
-                c'32
-
-                c'32
-                - \tenuto
-
-                c'32
                 - \accent
 
                 c'32
                 - \espressivo
 
                 c'32
-                - \espressivo
-
-                c'32
                 - \tenuto
 
                 c'32
@@ -328,6 +329,8 @@
 
                 c'32
                 - \accent
+
+                c'32
 
                 c'32
 
@@ -359,6 +362,17 @@
 
                 c'32
                 - \espressivo
+
+                c'32
+                - \tenuto
+
+                c'32
+                - \tenuto
+
+                c'32
+                - \accent
+
+                c'32
                 ]
 
             }
@@ -374,15 +388,16 @@
                 [
 
                 c'8
-                - \tenuto
+                - \accent
                 ]
 
                 c'4
-                - \accent
+                - \espressivo
 
                 r8
 
                 c'8
+                - \tenuto
                 [
 
             }
@@ -396,12 +411,8 @@
                 - \accent
 
                 c'16
-                - \espressivo
 
             }
-
-            c'16
-            - \tenuto
 
             c'16
             - \tenuto
@@ -410,6 +421,10 @@
             - \accent
 
             c'16
+            - \espressivo
+
+            c'16
+            - \tenuto
 
             \times 2/3 {
 
@@ -420,7 +435,6 @@
                 - \accent
 
                 c'8
-                - \espressivo
                 ]
 
                 r16
@@ -434,12 +448,13 @@
             \times 4/5 {
 
                 c'8.
-                - \tenuto
-
-                c'16
                 - \accent
 
                 c'16
+                - \espressivo
+
+                c'16
+                - \tenuto
 
             }
 
@@ -452,7 +467,6 @@
                 - \accent
 
                 c'8
-                - \espressivo
                 ]
 
                 r16
@@ -469,46 +483,26 @@
 
             R1 * 1/8
 
-            c'8.
+            c'4
             - \tenuto
-            [
 
-            c'16
-            - \tenuto
-            ~
+            c'8
+            - \accent
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 10/9 {
-
-                c'16
-
-                c'8
-                - \accent
-                ~
-
-                c'8
-
-                c'16
-                ~
-
-                c'8.
-                ~
-                ]
-
-            }
+            c'4
+            - \espressivo
 
             c'4
             ~
 
-            \times 2/3 {
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 1/1 {
 
-                c'16
-                [
-
-                c'8
-                ]
+                c'4
 
             }
+
+            c'8
 
             r4
 
@@ -517,8 +511,6 @@
             r4
 
             c'4
-
-            c'4
             ~
 
             c'16
@@ -527,10 +519,24 @@
             c'8.
             ~
 
-            c'8.
+            \times 8/9 {
 
-            c'16
-            ]
+                c'16
+
+                c'8
+                ~
+
+                c'8.
+                ~
+
+                c'16
+
+                c'16
+
+                c'16
+                ]
+
+            }
 
             r4
 
@@ -586,24 +592,19 @@
 
             }
 
-            c'8
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 4/3 {
 
-            c'8
+                c'8
 
-            c'16
+                c'8
 
-            c'16
+                c'8
+                ]
 
-            c'16
+            }
 
-            c'16
-            ]
-
-            r8
-
-            r4
-
-            r8
+            r2
 
             c'8
             [
@@ -618,28 +619,14 @@
             c'8
             [
 
-            \times 8/9 {
+            c'16
 
-                c'32
+            c'16
 
-                c'32
+            c'16
 
-                c'32
-
-                c'32
-
-                c'32
-
-                c'32
-
-                c'32
-
-                c'32
-
-                c'32
-                ]
-
-            }
+            c'16
+            ]
 
             r2
 
@@ -667,64 +654,52 @@
                 c'16
 
                 c'16
-
-            }
-
-            \times 16/17 {
-
-                c'16
-
-                c'8
-                ~
                 ]
 
-                c'4
-                ~
-
-                c'16
-                [
-
-                c'16
-
-                c'16
-
-                c'16
-
-                c'8
-
-                c'8
-
-                c'8
-                ~
-
             }
+
+            c'4
+            ~
+
+            c'8.
+            [
 
             c'16
 
-            c'8.
-            ]
+            c'16
 
-            r2
+            c'16
+
+            c'8
+
+            c'8
+
+            c'8
+            ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
                 c'16
-                [
 
                 c'8
-                ~
+                ]
 
             }
 
-            c'8.
+            r2
 
-            c'16
+            c'8
+            [
+
+            c'8
             ~
-            ]
 
             \tweak text #tuplet-number::calc-fraction-text
-            \times 1/1 {
+            \times 4/3 {
+
+                c'8
+                ]
 
                 c'4
 

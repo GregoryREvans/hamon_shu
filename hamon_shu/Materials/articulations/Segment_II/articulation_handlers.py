@@ -14,6 +14,7 @@ articulation_handler_one = evans.ArticulationHandler(
         "tenuto",
     ],
     continuous=True,
+    name="articulation_handler_one",
 )
 
 articulation_handler_two = evans.ArticulationHandler(
@@ -27,6 +28,7 @@ articulation_handler_two = evans.ArticulationHandler(
         "accent",
     ],
     continuous=True,
+    name="articulation_handler_two",
 )
 
 articulation_handler_three = evans.ArticulationHandler(
@@ -40,21 +42,25 @@ articulation_handler_three = evans.ArticulationHandler(
         "tenuto",
     ],
     continuous=True,
+    name="articulation_handler_three",
 )
 
 articulation_handler_four = evans.ArticulationHandler(
     articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
     continuous=True,
+    name="articulation_handler_four",
 )
 
 articulation_handler_five = evans.ArticulationHandler(
     articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
     continuous=True,
+    name="articulation_handler_five",
 )
 
 articulation_handler_six = evans.ArticulationHandler(
     articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
     continuous=True,
+    name="articulation_handler_six",
 )
 
 # bcp_handler_one = baca.BCPCommand(

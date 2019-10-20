@@ -5,9 +5,7 @@ from hamon_shu.Materials.timespans.Segment_I.make_timespans import rhythm_timesp
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)
 
 counter_path = f"""{pathlib.Path(__file__).parent}/segment_I_offset_counter.pdf"""
-persisted_counter = abjad.persist(offset_counter).as_pdf(
-    counter_path, scale=0.70,
-)
+persisted_counter = abjad.persist(offset_counter).as_pdf(counter_path, scale=0.70)
 
 permitted_meters = abjad.MeterList(
     [
@@ -27,7 +25,7 @@ permitted_meters = abjad.MeterList(
 )
 
 fitted_meters = abjad.Meter.fit_meters(
-    argument=offset_counter, meters=permitted_meters, maximum_run_length=2
+    argument=offset_counter, meters=permitted_meters, maximum_run_length=1  # was 2
 )
 
 time_signatures = [abjad.TimeSignature(_) for _ in fitted_meters]

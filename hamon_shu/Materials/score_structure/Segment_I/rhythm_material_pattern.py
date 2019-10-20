@@ -25,9 +25,7 @@ dict = {
 
 material_list_1 = [dict[x] for x in key_list_1]
 
-materials = [
-    material_list_1,
-]
+materials = [material_list_1]
 rhythm_material_list = []
 for x in materials:
     rhythm_material_list.extend(x)
