@@ -1,224 +1,160 @@
-2019-10-20 12:35:21.291021
+2019-10-20 14:02:09.135166
 voice_0
-[]
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin()]
 
-2019-10-20 12:35:21.294198
-voice_1
-[]
-
-2019-10-20 12:35:21.297114
-voice_2
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:35:21.300334
-voice_3
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:41:36.981675
-voice_0
-[]
-
-2019-10-20 12:41:36.982021
-voice_1
-[Articulation('accent'), StopBeam()]
-
-2019-10-20 12:41:36.983130
-voice_2
-[Articulation('espressivo')]
-
-2019-10-20 12:41:36.983722
-voice_3
-[Articulation('tenuto'), StopBeam()]
-
-2019-10-20 12:41:36.984338
-voice_4
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:41:36.986973
-voice_5
-[]
-
-2019-10-20 12:41:36.987425
-voice_6
-[StopBeam()]
-
-2019-10-20 12:41:36.988142
-voice_7
-[Articulation('tenuto')]
-
-2019-10-20 12:41:36.988781
-voice_8
-[]
-
-2019-10-20 12:41:36.989057
-voice_9
-[]
-
-2019-10-20 12:41:36.989346
-voice_10
-[Articulation('accent'), StopBeam()]
-
-2019-10-20 12:41:36.989945
-voice_11
-[]
-
-2019-10-20 12:41:36.990140
-voice_12
-[]
-
-2019-10-20 12:41:36.990411
-voice_13
-[]
-
-2019-10-20 12:41:36.990610
-voice_14
-[]
-
-2019-10-20 12:41:36.990972
-voice_15
-[]
-
-2019-10-20 12:41:36.991145
-voice_16
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:41:36.991584
-voice_17
-[StartBeam()]
-
-2019-10-20 12:41:36.992108
-voice_18
-[]
-
-2019-10-20 12:41:36.992516
-voice_19
-[]
-
-2019-10-20 12:41:36.992856
-voice_20
-[]
-
-2019-10-20 12:41:36.993092
-voice_21
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:41:36.993653
-voice_22
-[]
-
-2019-10-20 12:41:36.993946
-voice_23
-[]
-
-2019-10-20 12:41:36.994164
-voice_24
-[]
-
-2019-10-20 12:41:36.994515
-voice_25
-[StopBeam()]
-
-2019-10-20 12:41:36.994944
-voice_26
-[]
-
-2019-10-20 12:41:36.995152
-voice_27
-[]
-
-2019-10-20 12:41:36.995354
-voice_28
-[]
-
-2019-10-20 12:41:36.995529
-voice_29
-[]
-
-2019-10-20 12:41:36.995686
-voice_30
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before'), MarginMarkup(context='Staff', format_slot='before', markup=Markup(contents=['vln. II'])), StartMarkup(markup=Markup(contents=['Violin II']), context='Staff', format_slot='before'), Violin(), Clef('treble')]
-
-2019-10-20 12:41:36.997455
-voice_31
-[Articulation('tenuto')]
-
-2019-10-20 12:41:36.998044
-voice_32
-[]
-
-2019-10-20 12:41:36.998256
-voice_33
-[]
-
-2019-10-20 12:41:36.998436
-voice_34
-[]
-
-2019-10-20 12:41:36.998627
-voice_35
-[Tie(), StopBeam()]
-
-2019-10-20 12:41:36.999037
-voice_36
-[LilyPondLiteral('\\once \\override Rest.transparent = ##t', format_slot='before')]
-
-2019-10-20 12:41:36.999527
-voice_37
-[Tie(), Articulation('tenuto')]
-
-2019-10-20 12:41:37.000029
-voice_38
-[]
-
-2019-10-20 12:41:37.000410
-voice_39
-[Articulation('tenuto')]
-
-2019-10-20 12:41:37.001036
-voice_40
-[]
-
-2019-10-20 12:41:37.001715
-voice_41
-[]
-
-2019-10-20 12:41:37.002476
-voice_42
-[Articulation('tenuto')]
-
-2019-10-20 12:41:37.003853
-voice_43
-[StartBeam()]
-
-2019-10-20 12:44:15.966492
-voice_0
-[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
-
-2019-10-20 12:44:15.970028
+2019-10-20 14:02:09.138474
 voice_1
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 
-2019-10-20 12:44:15.973802
+2019-10-20 14:02:09.141915
 voice_2
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 
-2019-10-20 12:44:15.977804
+2019-10-20 14:02:09.145387
 voice_3
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 
-2019-10-20 12:50:36.283081
+2019-10-20 14:47:37.030861
 voice_0
-[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin()]
 
-2019-10-20 12:50:36.286451
+2019-10-20 14:47:37.034171
 voice_1
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 
-2019-10-20 12:50:36.290491
+2019-10-20 14:47:37.037706
 voice_2
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 
-2019-10-20 12:50:36.293553
+2019-10-20 14:47:37.042862
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 14:53:45.104832
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin()]
+
+2019-10-20 14:53:45.108122
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 14:53:45.112400
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 14:53:45.115904
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 15:02:14.540280
+voice_0
+[]
+
+2019-10-20 15:02:14.543054
+voice_1
+[]
+
+2019-10-20 15:02:14.546183
+voice_2
+[]
+
+2019-10-20 15:02:14.549866
+voice_3
+[]
+
+2019-10-20 15:09:10.022628
+voice_0
+[]
+
+2019-10-20 15:09:10.025381
+voice_1
+[]
+
+2019-10-20 15:09:10.029183
+voice_2
+[]
+
+2019-10-20 15:09:10.032396
+voice_3
+[]
+
+2019-10-20 15:20:51.035036
+voice_0
+[]
+
+2019-10-20 15:20:51.037793
+voice_1
+[]
+
+2019-10-20 15:20:51.040707
+voice_2
+[]
+
+2019-10-20 15:20:51.043521
+voice_3
+[]
+
+2019-10-20 15:30:25.034963
+voice_0
+[]
+
+2019-10-20 15:30:25.037770
+voice_1
+[]
+
+2019-10-20 15:30:25.040872
+voice_2
+[]
+
+2019-10-20 15:30:25.044037
+voice_3
+[]
+
+2019-10-20 16:13:19.839264
+voice_0
+[]
+
+2019-10-20 16:13:19.843266
+voice_1
+[]
+
+2019-10-20 16:13:19.847093
+voice_2
+[]
+
+2019-10-20 16:13:19.851037
+voice_3
+[]
+
+2019-10-20 16:21:22.973262
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin()]
+
+2019-10-20 16:21:22.978575
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 16:21:22.982562
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 16:21:22.985768
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 16:25:54.350165
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin()]
+
+2019-10-20 16:25:54.353562
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 16:25:54.357277
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-10-20 16:25:54.360517
 voice_3
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
 

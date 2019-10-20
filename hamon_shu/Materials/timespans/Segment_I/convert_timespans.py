@@ -34,6 +34,7 @@ segment_I_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     bounds=bounds,
     segment_name="Segment_I_rhythm_timespans",
     current_directory=pathlib.Path(__file__).parent,
+    add_silence=True,
 )
 
 #######
@@ -47,6 +48,7 @@ segment_I_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     bounds=bounds,
     segment_name="Segment_I_pitch_timespans",
     current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
 )
 
 #########
@@ -60,6 +62,7 @@ segment_I_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     bounds=bounds,
     segment_name="Segment_I_dynamic_timespans",
     current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
 )
 
 ##############
@@ -73,13 +76,14 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     bounds=bounds,
     segment_name="Segment_I_articulation_timespans",
     current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
 )
 
 ###############
 # all timespans#
 ###############
 segment_I_timespans = [
-    # segment_I_pitch_timespans,
-    # segment_I_dynamic_timespans,
-    segment_I_articulation_timespans
+    segment_I_pitch_timespans,
+    segment_I_dynamic_timespans,
+    segment_I_articulation_timespans,
 ]
