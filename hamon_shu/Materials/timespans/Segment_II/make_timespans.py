@@ -38,7 +38,7 @@ rhythm_timespan_list = rhythm_timespan_maker(
 #######
 # pitch#
 #######
-pitch_target_timespan = abjad.Timespan(0, 10)
+pitch_target_timespan = abjad.Timespan(0, 8)
 
 pitch_timespan_maker = TaleaTimespanMaker(
     # initial_silence_talea=rmakers.Talea(counts=([0, 5, 3, 6, 2]), denominator=8),

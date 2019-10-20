@@ -73,16 +73,16 @@
 
             r8
 
-            a16
+            dqs'16
             \f
             - \accent
             \>
             [
 
-            aqs16
+            d'16
             ~
 
-            aqs8
+            d'8
             \sfp
 
             dqs'8
@@ -93,17 +93,17 @@
 
             dqs'16
 
-            d'8.
+            fs'8.
             - \accent
             ~
 
-            d'8.
+            fs'8.
 
-            dqs'16
+            eqs'16
             - \espressivo
             ~
 
-            dqs'8
+            eqs'8
             \mp
             - \tweak stencil #constante-hairpin
             \<
@@ -112,21 +112,21 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 5/6 {
 
-                fs'4
+                a4
                 \!
                 \mf
                 - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
-                eqs'4
+                aqs4
                 - \tenuto
                 ~
 
-                eqs'8
+                aqs8
                 [
 
-                d'8
+                bf8
                 \f
                 - \tenuto
                 \>
@@ -134,17 +134,17 @@
 
             }
 
-            d'8
+            bf8
             \p
 
-            bf8
+            a8
             \mp
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            bf8
+            a8
             \mf
             - \tweak stencil #constante-hairpin
             \<
@@ -157,19 +157,19 @@
 
             r8
 
-            a8
+            d'8
             \f
             - \accent
             - \tweak stencil #constante-hairpin
             \<
 
-            af4
+            dqs'4
             \p
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            af8
+            dqs'8
             <>
             \mp
 
@@ -182,18 +182,18 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
 
-                aqf4.
+                af4.
                 \mf
                 - \tenuto
                 \<
 
-                aqs4
+                aqf4
                 - \accent
                 ~
 
             }
 
-            aqs4
+            aqf4
             \f
             - \tweak stencil #constante-hairpin
             \<
@@ -203,19 +203,19 @@
 
             \times 2/3 {
 
-                bf8
+                aqf8
                 \p
                 - \tweak stencil #constante-hairpin
                 \<
                 [
 
-                dqf'8
+                aqs8
                 - \tenuto
                 ~
 
-                dqf'16
+                aqs16
 
-                bqs16
+                bf16
                 \mp
                 - \espressivo
                 \<
@@ -230,7 +230,7 @@
 
             R1 * 1/8
 
-            d'4
+            dqf'4
             \f
             - \tenuto
             - \tweak stencil #constante-hairpin
@@ -252,7 +252,6 @@
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
             \once \override Rest.color = #white                                %! applying ending skips
             r1 * 1/16
-            \!                                                                 %! applying ending skips
 
             \once \override MultiMeasureRest.color = #white                    %! applying ending skips
             R1 * 1/16
