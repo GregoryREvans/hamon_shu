@@ -1,32 +1,107 @@
 import evans
 from hamon_shu.Materials.pitch.Segment_I.pitches import (
-    sieve_list,
-    random_walk_list,
-    perm_list,
-    chords,
-    runs,
+    violin_1_random_walk_chord_1,
+    violin_1_random_walk_chord_2,
+    violin_1_random_walk_chord_3,
+    violin_1_random_walk_chord_4,
+    violin_2_random_walk_chord_1,
+    violin_2_random_walk_chord_2,
+    violin_2_random_walk_chord_3,
+    violin_2_random_walk_chord_4,
+    viola_random_walk_chord_1,
+    viola_random_walk_chord_2,
+    viola_random_walk_chord_3,
+    viola_random_walk_chord_4,
+    cello_random_walk_chord_1,
+    cello_random_walk_chord_2,
+    cello_random_walk_chord_3,
+    cello_random_walk_chord_4,
 )
 
-pitch_handler_one = evans.PitchHandler(
-    pitch_list=sieve_list, continuous=True, name="pitch_handler_one"
+# violin 1
+violin_1_pitch_handler_one = evans.PitchHandler(
+    pitch_list=violin_1_random_walk_chord_1,
+    continuous=True,
+    name="violin_1_pitch_handler_one",
+)
+violin_1_pitch_handler_two = evans.PitchHandler(
+    pitch_list=violin_1_random_walk_chord_2,
+    continuous=True,
+    name="violin_1_pitch_handler_two",
+)
+violin_1_pitch_handler_three = evans.PitchHandler(
+    pitch_list=violin_1_random_walk_chord_3,
+    continuous=True,
+    name="violin_1_pitch_handler_three",
+)
+violin_1_pitch_handler_four = evans.PitchHandler(
+    pitch_list=violin_1_random_walk_chord_4,
+    continuous=True,
+    name="violin_1_pitch_handler_four",
 )
 
-pitch_handler_two = evans.PitchHandler(
-    pitch_list=sieve_list, continuous=True, name="pitch_handler_two"
+# violin 2
+violin_2_pitch_handler_one = evans.PitchHandler(
+    pitch_list=violin_2_random_walk_chord_1,
+    continuous=True,
+    name="violin_2_pitch_handler_one",
+)
+violin_2_pitch_handler_two = evans.PitchHandler(
+    pitch_list=violin_2_random_walk_chord_2,
+    continuous=True,
+    name="violin_2_pitch_handler_two",
+)
+violin_2_pitch_handler_three = evans.PitchHandler(
+    pitch_list=violin_2_random_walk_chord_3,
+    continuous=True,
+    name="violin_2_pitch_handler_three",
+)
+violin_2_pitch_handler_four = evans.PitchHandler(
+    pitch_list=violin_2_random_walk_chord_4,
+    continuous=True,
+    name="violin_2_pitch_handler_four",
 )
 
-pitch_handler_three = evans.PitchHandler(
-    pitch_list=random_walk_list, continuous=True, name="pitch_handler_three"
+# viola
+viola_pitch_handler_one = evans.PitchHandler(
+    pitch_list=viola_random_walk_chord_1,
+    continuous=True,
+    name="viola_pitch_handler_one",
+)
+viola_pitch_handler_two = evans.PitchHandler(
+    pitch_list=viola_random_walk_chord_2,
+    continuous=True,
+    name="viola_pitch_handler_two",
+)
+viola_pitch_handler_three = evans.PitchHandler(
+    pitch_list=viola_random_walk_chord_3,
+    continuous=True,
+    name="viola_pitch_handler_three",
+)
+viola_pitch_handler_four = evans.PitchHandler(
+    pitch_list=viola_random_walk_chord_4,
+    continuous=True,
+    name="viola_pitch_handler_four",
 )
 
-pitch_handler_four = evans.PitchHandler(
-    pitch_list=perm_list, continuous=True, name="pitch_handler_four"
+# cello
+cello_pitch_handler_one = evans.PitchHandler(
+    pitch_list=cello_random_walk_chord_1,
+    continuous=True,
+    name="cello_pitch_handler_one",
 )
-
-pitch_handler_five = evans.PitchHandler(
-    pitch_list=chords, continuous=True, name="pitch_handler_five"
+cello_pitch_handler_two = evans.PitchHandler(
+    pitch_list=cello_random_walk_chord_2,
+    continuous=True,
+    name="cello_pitch_handler_two",
 )
-
-pitch_handler_six = evans.PitchHandler(
-    pitch_list=runs, continuous=True, name="pitch_handler_six"
+cello_pitch_handler_three = evans.PitchHandler(
+    pitch_list=cello_random_walk_chord_3,
+    continuous=True,
+    name="cello_pitch_handler_three",
+)
+cello_pitch_handler_four = evans.PitchHandler(
+    pitch_list=cello_random_walk_chord_4,
+    continuous=True,
+    name="cello_pitch_handler_four",
 )
