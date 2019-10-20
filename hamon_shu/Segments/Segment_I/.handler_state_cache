@@ -1,332 +1,581 @@
-2019-10-19 22:43:29.596702
+2019-10-20 07:57:18.667614
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+3
+vector count
+3
 
-2019-10-19 22:43:29.604275
+2019-10-20 07:57:18.675870
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+6
+vector count
+6
 
-2019-10-19 22:43:29.615466
+2019-10-20 07:57:18.687175
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+8
+vector count
+8
 
-2019-10-19 22:43:29.631301
+2019-10-20 07:57:18.702676
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+16
+vector count
+16
 
-2019-10-19 22:43:29.647681
+2019-10-20 07:57:18.720797
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+8
+vector count
+8
 
-2019-10-19 22:43:29.659733
+2019-10-20 07:57:18.733926
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+12
+vector count
+12
 
-2019-10-19 22:43:29.664497
+2019-10-20 07:57:18.739094
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+16
+vector count
+16
 
-2019-10-19 22:43:29.675284
+2019-10-20 07:57:18.748949
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+19
+vector count
+19
 
-2019-10-19 22:43:29.682617
+2019-10-20 07:57:18.756049
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+20
+vector count
+20
 
-2019-10-19 22:43:29.691351
+2019-10-20 07:57:18.765303
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+23
+vector count
+23
 
-2019-10-19 22:43:29.708235
+2019-10-20 07:57:18.784456
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+32
+vector count
+32
 
-2019-10-19 22:43:29.719126
+2019-10-20 07:57:18.798383
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+36
+vector count
+36
 
-2019-10-19 22:43:29.732964
+2019-10-20 07:57:18.809772
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+40
+vector count
+40
 
-2019-10-19 22:43:29.741438
+2019-10-20 07:57:18.817601
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+12
+vector count
+12
 
-2019-10-19 22:43:29.752371
+2019-10-20 07:57:18.829118
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+40
+vector count
+40
 
-2019-10-19 22:43:29.762304
+2019-10-20 07:57:18.839219
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+44
+vector count
+44
 
-2019-10-19 22:43:29.776781
+2019-10-20 07:57:18.853916
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+50
+vector count
+50
 
-2019-10-19 22:43:29.787966
+2019-10-20 07:57:18.865201
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+50
+vector count
+50
 
-2019-10-19 22:43:29.799298
+2019-10-20 07:57:18.876539
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+15
+vector count
+15
 
-2019-10-19 22:43:29.807835
+2019-10-20 07:57:18.883083
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+16
+vector count
+16
 
-2019-10-19 22:43:29.814893
+2019-10-20 07:57:18.889706
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+17
+vector count
+17
 
-2019-10-19 22:43:38.014106
+2019-10-20 07:57:26.951539
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+50
+vector count
+50
 
-2019-10-19 22:43:38.019668
+2019-10-20 07:57:26.957022
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+51
+vector count
+51
 
-2019-10-19 22:43:38.031116
+2019-10-20 07:57:26.969426
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+56
+vector count
+56
 
-2019-10-19 22:43:38.045939
+2019-10-20 07:57:26.985831
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+63
+vector count
+63
 
-2019-10-19 22:43:38.052239
+2019-10-20 07:57:26.992912
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+19
+vector count
+19
 
-2019-10-19 22:43:38.062981
+2019-10-20 07:57:27.003626
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+22
+vector count
+22
 
-2019-10-19 22:43:38.070692
+2019-10-20 07:57:27.011112
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+64
+vector count
+64
 
-2019-10-19 22:43:38.077548
+2019-10-20 07:57:27.017610
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+65
+vector count
+65
 
-2019-10-19 22:43:38.087638
+2019-10-20 07:57:27.027813
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+65
+vector count
+65
 
-2019-10-19 22:43:38.098647
+2019-10-20 07:57:27.041472
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+68
+vector count
+68
 
-2019-10-19 22:43:38.105840
+2019-10-20 07:57:27.049250
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+69
+vector count
+69
 
-2019-10-19 22:43:38.112664
+2019-10-20 07:57:27.057375
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+70
+vector count
+70
 
-2019-10-19 22:43:38.127242
+2019-10-20 07:57:27.069485
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+25
+vector count
+25
 
-2019-10-19 22:43:38.153143
+2019-10-20 07:57:27.091711
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+81
+vector count
+81
 
-2019-10-19 22:43:38.163924
+2019-10-20 07:57:27.101788
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+84
+vector count
+84
 
-2019-10-19 22:43:38.175138
+2019-10-20 07:57:27.111821
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+86
+vector count
+86
 
-2019-10-19 22:43:38.190993
+2019-10-20 07:57:27.127256
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+89
+vector count
+89
 
-2019-10-19 22:43:38.201293
+2019-10-20 07:57:27.140514
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+27
+vector count
+27
 
-2019-10-19 22:43:38.213766
+2019-10-20 07:57:27.154439
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+30
+vector count
+30
 
-2019-10-19 22:43:38.230709
+2019-10-20 07:57:27.171641
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+39
+vector count
+39
 
-2019-10-19 22:43:48.535807
+2019-10-20 07:57:37.467443
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+89
+vector count
+89
 
-2019-10-19 22:43:48.541951
+2019-10-20 07:57:37.473864
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+91
+vector count
+91
 
-2019-10-19 22:43:48.552674
+2019-10-20 07:57:37.482221
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+93
+vector count
+93
 
-2019-10-19 22:43:48.561793
+2019-10-20 07:57:37.490833
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+96
+vector count
+96
 
-2019-10-19 22:43:48.572520
+2019-10-20 07:57:37.501840
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+43
+vector count
+43
 
-2019-10-19 22:43:48.578565
+2019-10-20 07:57:37.509550
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+43
+vector count
+43
 
-2019-10-19 22:43:48.585112
+2019-10-20 07:57:37.516403
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+98
+vector count
+98
 
-2019-10-19 22:43:48.595240
+2019-10-20 07:57:37.527792
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+101
+vector count
+101
 
-2019-10-19 22:43:48.601834
+2019-10-20 07:57:37.535184
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+102
+vector count
+102
 
-2019-10-19 22:43:48.620781
+2019-10-20 07:57:37.554636
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+110
+vector count
+110
 
-2019-10-19 22:43:48.634092
+2019-10-20 07:57:37.568195
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+114
+vector count
+114
 
-2019-10-19 22:43:48.656125
+2019-10-20 07:57:37.592203
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+123
+vector count
+123
 
-2019-10-19 22:43:48.691696
+2019-10-20 07:57:37.623090
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+62
+vector count
+62
 
-2019-10-19 22:43:48.697471
+2019-10-20 07:57:37.629084
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+124
+vector count
+124
 
-2019-10-19 22:43:48.707193
+2019-10-20 07:57:37.637547
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+127
+vector count
+127
 
-2019-10-19 22:43:48.715949
+2019-10-20 07:57:37.645606
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+130
+vector count
+130
 
-2019-10-19 22:43:48.735233
+2019-10-20 07:57:37.666020
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+142
+vector count
+142
 
-2019-10-19 22:43:48.744692
+2019-10-20 07:57:37.675876
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+146
+vector count
+146
 
-2019-10-19 22:43:48.753653
+2019-10-20 07:57:37.685498
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+149
+vector count
+149
 
-2019-10-19 22:43:48.762803
+2019-10-20 07:57:37.695474
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+63
+vector count
+63
 
-2019-10-19 22:43:48.769489
+2019-10-20 07:57:37.702566
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+63
+vector count
+63
 
-2019-10-19 22:43:48.785919
+2019-10-20 07:57:37.718174
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+67
+vector count
+67
 
-2019-10-19 22:43:56.523947
+2019-10-20 07:57:45.484317
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+150
+vector count
+150
 
-2019-10-19 22:43:56.530145
+2019-10-20 07:57:45.492263
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+152
+vector count
+152
 
-2019-10-19 22:43:56.540187
+2019-10-20 07:57:45.502704
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+156
+vector count
+156
 
-2019-10-19 22:43:56.548495
+2019-10-20 07:57:45.510839
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+158
+vector count
+158
 
-2019-10-19 22:43:56.557532
+2019-10-20 07:57:45.519850
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+69
+vector count
+69
 
-2019-10-19 22:43:56.570443
+2019-10-20 07:57:45.533239
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+73
+vector count
+73
 
-2019-10-19 22:43:56.577643
+2019-10-20 07:57:45.540508
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+161
+vector count
+161
 
-2019-10-19 22:43:56.590856
+2019-10-20 07:57:45.556142
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+167
+vector count
+167
 
-2019-10-19 22:43:56.596985
+2019-10-20 07:57:45.562249
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+168
+vector count
+168
 
-2019-10-19 22:43:56.621530
+2019-10-20 07:57:45.590219
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+183
+vector count
+183
 
-2019-10-19 22:43:56.627198
+2019-10-20 07:57:45.597331
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+183
+vector count
+183
 
-2019-10-19 22:43:56.646800
+2019-10-20 07:57:45.618859
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+191
+vector count
+191
 
-2019-10-19 22:43:56.675285
+2019-10-20 07:57:45.650871
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+88
+vector count
+88
 
-2019-10-19 22:43:56.689696
+2019-10-20 07:57:45.666851
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+194
+vector count
+194
 
-2019-10-19 22:43:56.699417
+2019-10-20 07:57:45.676266
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+195
+vector count
+195
 
-2019-10-19 22:43:56.721506
+2019-10-20 07:57:45.697240
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+206
+vector count
+206
 
-2019-10-19 22:43:56.731533
+2019-10-20 07:57:45.707383
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+209
+vector count
+209
 
-2019-10-19 22:43:56.746533
+2019-10-20 07:57:45.719960
 articulation_handler_one
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x1128595c0>>
+count
+213
+vector count
+213
 
-2019-10-19 22:43:56.760807
+2019-10-20 07:57:45.734056
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+88
+vector count
+88
 
-2019-10-19 22:43:56.768614
+2019-10-20 07:57:45.741723
 articulation_handler_two
-<bound method ArticulationHandler.state of <evans.AttachmentHandlers.ArticulationHandler.ArticulationHandler object at 0x112859748>>
+count
+91
+vector count
+91
 

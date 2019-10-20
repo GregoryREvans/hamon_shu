@@ -1,4 +1,4 @@
-2019-10-19 22:43:01.557351
+2019-10-20 07:56:50.695389
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -7,7 +7,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.564674
+2019-10-20 07:56:50.703290
 silence maker
 abjad.OrderedDict(
     [
@@ -16,7 +16,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.586136
+2019-10-20 07:56:50.724216
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -25,7 +25,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.590612
+2019-10-20 07:56:50.730158
 silence maker
 abjad.OrderedDict(
     [
@@ -34,7 +34,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.605362
+2019-10-20 07:56:50.744909
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -43,7 +43,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.609738
+2019-10-20 07:56:50.749926
 silence maker
 abjad.OrderedDict(
     [
@@ -52,7 +52,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.624169
+2019-10-20 07:56:50.763161
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -61,7 +61,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.634489
+2019-10-20 07:56:50.771729
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -70,7 +70,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.641095
+2019-10-20 07:56:50.777878
 silence maker
 abjad.OrderedDict(
     [
@@ -79,7 +79,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.649639
+2019-10-20 07:56:50.785734
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -88,7 +88,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.665153
+2019-10-20 07:56:50.800761
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -99,7 +99,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.671425
+2019-10-20 07:56:50.807339
 silence maker
 abjad.OrderedDict(
     [
@@ -108,7 +108,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.695827
+2019-10-20 07:56:50.829089
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -119,7 +119,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.713815
+2019-10-20 07:56:50.847214
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -128,7 +128,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.725047
+2019-10-20 07:56:50.861768
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -137,7 +137,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.729641
+2019-10-20 07:56:50.866695
 silence maker
 abjad.OrderedDict(
     [
@@ -146,7 +146,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.735988
+2019-10-20 07:56:50.872846
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -155,7 +155,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.744086
+2019-10-20 07:56:50.882200
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -164,7 +164,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.756873
+2019-10-20 07:56:50.895456
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -173,7 +173,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.764712
+2019-10-20 07:56:50.903589
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -182,7 +182,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.770811
+2019-10-20 07:56:50.910909
 silence maker
 abjad.OrderedDict(
     [
@@ -191,7 +191,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.779042
+2019-10-20 07:56:50.918954
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -200,7 +200,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.784203
+2019-10-20 07:56:50.923476
 silence maker
 abjad.OrderedDict(
     [
@@ -209,7 +209,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.801564
+2019-10-20 07:56:50.940933
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -220,7 +220,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.810219
+2019-10-20 07:56:50.950327
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -229,7 +229,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.816319
+2019-10-20 07:56:50.955582
 silence maker
 abjad.OrderedDict(
     [
@@ -238,7 +238,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.829691
+2019-10-20 07:56:50.969103
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -247,7 +247,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.833951
+2019-10-20 07:56:50.973358
 silence maker
 abjad.OrderedDict(
     [
@@ -256,7 +256,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.852424
+2019-10-20 07:56:50.994981
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -265,7 +265,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.864460
+2019-10-20 07:56:51.011177
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -274,7 +274,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.870805
+2019-10-20 07:56:51.016069
 silence maker
 abjad.OrderedDict(
     [
@@ -283,7 +283,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.883257
+2019-10-20 07:56:51.028773
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -292,7 +292,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.896292
+2019-10-20 07:56:51.041460
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -301,7 +301,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.921769
+2019-10-20 07:56:51.066399
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -312,7 +312,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.926024
+2019-10-20 07:56:51.070885
 silence maker
 abjad.OrderedDict(
     [
@@ -321,7 +321,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.940974
+2019-10-20 07:56:51.085499
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -332,7 +332,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.949244
+2019-10-20 07:56:51.093301
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -341,7 +341,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.968164
+2019-10-20 07:56:51.112072
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -350,7 +350,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.972400
+2019-10-20 07:56:51.116773
 silence maker
 abjad.OrderedDict(
     [
@@ -359,7 +359,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.981288
+2019-10-20 07:56:51.125123
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -368,7 +368,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.985692
+2019-10-20 07:56:51.130559
 silence maker
 abjad.OrderedDict(
     [
@@ -377,7 +377,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:01.999610
+2019-10-20 07:56:51.144640
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -386,7 +386,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.013866
+2019-10-20 07:56:51.156838
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -395,7 +395,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.020787
+2019-10-20 07:56:51.166501
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -406,7 +406,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.025232
+2019-10-20 07:56:51.171488
 silence maker
 abjad.OrderedDict(
     [
@@ -415,7 +415,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.049695
+2019-10-20 07:56:51.196789
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -426,7 +426,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.055462
+2019-10-20 07:56:51.204334
 silence maker
 abjad.OrderedDict(
     [
@@ -435,7 +435,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.067298
+2019-10-20 07:56:51.216273
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -444,7 +444,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.071568
+2019-10-20 07:56:51.221279
 silence maker
 abjad.OrderedDict(
     [
@@ -453,7 +453,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.086412
+2019-10-20 07:56:51.237330
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -462,7 +462,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.090812
+2019-10-20 07:56:51.241607
 silence maker
 abjad.OrderedDict(
     [
@@ -471,7 +471,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.115177
+2019-10-20 07:56:51.263882
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -480,7 +480,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.123021
+2019-10-20 07:56:51.272080
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -489,7 +489,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.127952
+2019-10-20 07:56:51.276428
 silence maker
 abjad.OrderedDict(
     [
@@ -498,7 +498,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.143754
+2019-10-20 07:56:51.289850
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -507,7 +507,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.160751
+2019-10-20 07:56:51.308588
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -516,7 +516,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.165095
+2019-10-20 07:56:51.313419
 silence maker
 abjad.OrderedDict(
     [
@@ -525,7 +525,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.169302
+2019-10-20 07:56:51.318085
 silence maker
 abjad.OrderedDict(
     [
@@ -534,7 +534,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.177449
+2019-10-20 07:56:51.326569
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -543,7 +543,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.191137
+2019-10-20 07:56:51.340572
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -554,7 +554,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.196435
+2019-10-20 07:56:51.345207
 silence maker
 abjad.OrderedDict(
     [
@@ -563,7 +563,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.205150
+2019-10-20 07:56:51.355169
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -574,7 +574,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.216937
+2019-10-20 07:56:51.368126
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -583,7 +583,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.229811
+2019-10-20 07:56:51.382253
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -592,7 +592,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.234141
+2019-10-20 07:56:51.387460
 silence maker
 abjad.OrderedDict(
     [
@@ -601,7 +601,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.253833
+2019-10-20 07:56:51.408767
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -610,7 +610,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.266301
+2019-10-20 07:56:51.421764
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -619,7 +619,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.285608
+2019-10-20 07:56:51.442172
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -628,7 +628,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.293331
+2019-10-20 07:56:51.450054
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -637,7 +637,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.297919
+2019-10-20 07:56:51.455906
 silence maker
 abjad.OrderedDict(
     [
@@ -646,7 +646,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.305742
+2019-10-20 07:56:51.465413
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -655,7 +655,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.310036
+2019-10-20 07:56:51.470255
 silence maker
 abjad.OrderedDict(
     [
@@ -664,7 +664,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.323978
+2019-10-20 07:56:51.485462
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -675,7 +675,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.342284
+2019-10-20 07:56:51.503662
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -684,7 +684,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.346837
+2019-10-20 07:56:51.507938
 silence maker
 abjad.OrderedDict(
     [
@@ -693,7 +693,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.367364
+2019-10-20 07:56:51.525503
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -702,7 +702,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.373129
+2019-10-20 07:56:51.532429
 silence maker
 abjad.OrderedDict(
     [
@@ -711,7 +711,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.393278
+2019-10-20 07:56:51.551439
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -720,7 +720,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.405736
+2019-10-20 07:56:51.565610
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -729,7 +729,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.414625
+2019-10-20 07:56:51.574781
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -738,7 +738,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.422730
+2019-10-20 07:56:51.582751
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -747,7 +747,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.427105
+2019-10-20 07:56:51.587110
 silence maker
 abjad.OrderedDict(
     [
@@ -756,7 +756,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.444404
+2019-10-20 07:56:51.607513
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -765,7 +765,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.448912
+2019-10-20 07:56:51.612035
 silence maker
 abjad.OrderedDict(
     [
@@ -774,7 +774,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.484717
+2019-10-20 07:56:51.643310
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -785,7 +785,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.502766
+2019-10-20 07:56:51.660792
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -794,7 +794,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.520597
+2019-10-20 07:56:51.679356
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -803,7 +803,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.524845
+2019-10-20 07:56:51.683704
 silence maker
 abjad.OrderedDict(
     [
@@ -812,7 +812,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.546275
+2019-10-20 07:56:51.706016
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -821,7 +821,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.550587
+2019-10-20 07:56:51.710393
 silence maker
 abjad.OrderedDict(
     [
@@ -830,7 +830,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.562305
+2019-10-20 07:56:51.724510
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -839,7 +839,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.572301
+2019-10-20 07:56:51.733659
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -848,7 +848,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.590479
+2019-10-20 07:56:51.754922
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -857,7 +857,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.596221
+2019-10-20 07:56:51.761214
 silence maker
 abjad.OrderedDict(
     [
@@ -866,7 +866,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.615626
+2019-10-20 07:56:51.781264
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -877,7 +877,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.621341
+2019-10-20 07:56:51.787066
 silence maker
 abjad.OrderedDict(
     [
@@ -886,7 +886,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.638777
+2019-10-20 07:56:51.808319
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -897,7 +897,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.643086
+2019-10-20 07:56:51.812673
 silence maker
 abjad.OrderedDict(
     [
@@ -906,7 +906,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.655260
+2019-10-20 07:56:51.827254
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -915,7 +915,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.660929
+2019-10-20 07:56:51.833093
 silence maker
 abjad.OrderedDict(
     [
@@ -924,7 +924,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.673537
+2019-10-20 07:56:51.846654
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -933,7 +933,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.677962
+2019-10-20 07:56:51.851100
 silence maker
 abjad.OrderedDict(
     [
@@ -942,7 +942,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.688625
+2019-10-20 07:56:51.859199
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -951,7 +951,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.696773
+2019-10-20 07:56:51.868995
 rhythm_handler_one
 abjad.OrderedDict(
     [
@@ -960,7 +960,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.701071
+2019-10-20 07:56:51.873860
 silence maker
 abjad.OrderedDict(
     [
@@ -969,7 +969,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.713130
+2019-10-20 07:56:51.885876
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -978,7 +978,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.730677
+2019-10-20 07:56:51.904927
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -989,7 +989,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.734975
+2019-10-20 07:56:51.910493
 silence maker
 abjad.OrderedDict(
     [
@@ -998,7 +998,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.751632
+2019-10-20 07:56:51.926513
 rhythm_handler_three
 abjad.OrderedDict(
     [
@@ -1009,7 +1009,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.759367
+2019-10-20 07:56:51.934971
 rhythm_handler_two
 abjad.OrderedDict(
     [
@@ -1018,7 +1018,7 @@ abjad.OrderedDict(
         ]
     )
 
-2019-10-19 22:43:02.764038
+2019-10-20 07:56:51.939511
 silence maker
 abjad.OrderedDict(
     [
