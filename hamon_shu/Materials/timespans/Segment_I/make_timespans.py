@@ -6,9 +6,9 @@ from hamon_shu.Materials.rhythm.Segment_I.rhythm_handlers import *
 from hamon_shu.Materials.score_structure.instruments import instruments
 from collections import OrderedDict
 
-padovan_1 = evans.n_dovan_cycle(n=3, iters=30, first=3, second=5, modulus=5)
-padovan_2 = evans.n_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=4)
-padovan_3 = evans.n_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=3)
+padovan_1 = evans.e_dovan_cycle(n=3, iters=85, first=3, second=5, modulus=5)
+padovan_2 = evans.e_dovan_cycle(n=2, iters=85, first=2, second=3, modulus=5)
+padovan_3 = evans.e_dovan_cycle(n=2, iters=85, first=1, second=1, modulus=4)
 
 music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
@@ -17,7 +17,7 @@ music_specifiers = OrderedDict(
 ########
 # rhythm#
 ########
-rhythm_target_timespan = abjad.Timespan(0, 8)
+rhythm_target_timespan = abjad.Timespan(0, 22)
 # 1, 3, 2
 rhythm_timespan_maker = TaleaTimespanMaker(
     initial_silence_talea=rmakers.Talea(counts=([0, 3, 2, 0]), denominator=8),

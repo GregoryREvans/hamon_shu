@@ -79,7 +79,7 @@ segment_I_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 # all timespans#
 ###############
 segment_I_timespans = [
-    segment_I_pitch_timespans,
-    segment_I_dynamic_timespans,
+    # segment_I_pitch_timespans,
+    # segment_I_dynamic_timespans,
     segment_I_articulation_timespans,
 ]
