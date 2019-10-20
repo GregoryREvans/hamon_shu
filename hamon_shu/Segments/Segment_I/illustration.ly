@@ -13,7 +13,7 @@
 \paper {}
 
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
-    
+
     \context Score = "hamon_shu Score"
     <<
 
@@ -109,10 +109,6 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-
-            \once \override TimeSignature.color = #white                       %! applying ending skips
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
 
         }
 
@@ -757,18 +753,6 @@
 
                     }
 
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
-
                 }
 
             }
@@ -1388,18 +1372,6 @@
                     }
 
                     r8
-
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -2051,18 +2023,6 @@
 
                     R1 * 1/8
 
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
-
                 }
 
             }
@@ -2700,18 +2660,6 @@
                     r1 * 1/8
 
                     R1 * 1/8
-
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
