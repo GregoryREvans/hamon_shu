@@ -85,25 +85,25 @@
             aqs8
             \sfp
 
-            cqs'8
+            dqs'8
             \p
             - \tenuto
             \<
             ~
 
-            cqs'16
+            dqs'16
 
-            bqs8.
+            d'8.
             - \accent
             ~
 
-            bqs8.
+            d'8.
 
-            b16
+            dqs'16
             - \espressivo
             ~
 
-            b8
+            dqs'8
             \mp
             - \tweak stencil #constante-hairpin
             \<
@@ -112,21 +112,21 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 5/6 {
 
-                cqs'4
+                fs'4
                 \!
                 \mf
                 - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
 
-                bqs4
+                eqs'4
                 - \tenuto
                 ~
 
-                bqs8
+                eqs'8
                 [
 
-                b8
+                d'8
                 \f
                 - \tenuto
                 \>
@@ -134,17 +134,17 @@
 
             }
 
-            b8
+            d'8
             \p
 
-            a8
+            bf8
             \mp
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            a8
+            bf8
             \mf
             - \tweak stencil #constante-hairpin
             \<
@@ -163,13 +163,13 @@
             - \tweak stencil #constante-hairpin
             \<
 
-            a4
+            af4
             \p
             - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            a8
+            af8
             <>
             \mp
 
@@ -182,18 +182,18 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
 
-                cqs'4.
+                aqf4.
                 \mf
                 - \tenuto
                 \<
 
-                cqs'4
+                aqs4
                 - \accent
                 ~
 
             }
 
-            cqs'4
+            aqs4
             \f
             - \tweak stencil #constante-hairpin
             \<
@@ -203,19 +203,19 @@
 
             \times 2/3 {
 
-                cqs'8
+                bf8
                 \p
                 - \tweak stencil #constante-hairpin
                 \<
                 [
 
-                bqs8
+                dqf'8
                 - \tenuto
                 ~
 
-                bqs16
+                dqf'16
 
-                b16
+                bqs16
                 \mp
                 - \espressivo
                 \<
@@ -230,7 +230,7 @@
 
             R1 * 1/8
 
-            cqs'4
+            d'4
             \f
             - \tenuto
             - \tweak stencil #constante-hairpin

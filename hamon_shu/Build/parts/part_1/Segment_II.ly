@@ -85,7 +85,7 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/11 {
 
-                cqs'16
+                dqf'16
                 \mf
                 - \accent
                 \<
@@ -100,19 +100,19 @@
 
                 bqs16
 
-                b16
+                d'16
                 - \tenuto
                 ~
 
-                b8
+                d'8
                 ~
 
-                b16
+                d'16
                 \f
                 - \tweak stencil #constante-hairpin
                 \<
 
-                bf16
+                dqs'16
                 \!
                 \sfp
                 - \espressivo
@@ -121,12 +121,12 @@
 
             }
 
-            bf8.
+            dqs'8.
             \ff
             - \tweak stencil #constante-hairpin
             \<
 
-            cqs'16
+            d'16
             \!
             \ppppp
             - \tenuto
@@ -136,13 +136,13 @@
 
             \times 4/5 {
 
-                cqs'8.
+                d'8.
                 ~
 
-                cqs'16
+                d'16
                 \mp
 
-                cqs'16
+                dqs'16
                 \mf
                 - \tenuto
                 - \tweak stencil #constante-hairpin
@@ -190,48 +190,48 @@
 
             r8
 
-            cqs'16
+            fs'16
             \ff
             - \accent
             \>
             [
 
-            bqs16
+            eqs'16
             - \espressivo
             ~
             ]
 
-            bqs4
+            eqs'4
             ~
 
-            bqs32.
+            eqs'32.
             \ppppp
             - \tweak stencil #constante-hairpin
             \<
             [
 
-            cqs'64
+            d'64
             \!
             \mp
             - \tenuto
             \<
             ~
 
-            cqs'16
+            d'16
             ~
 
-            cqs'8
+            d'8
             ~
 
-            cqs'32
+            d'32
             \mf
 
-            bqs32.
+            dqs'32.
             \mp
             - \tenuto
             \<
 
-            b32.
+            d'32.
             - \accent
 
             bf8
@@ -261,7 +261,7 @@
             aqs16
             - \accent
 
-            cqs'8
+            dqf'8
             \sfp
             - \espressivo
             - \tweak stencil #constante-hairpin
@@ -269,7 +269,7 @@
 
             \times 4/7 {
 
-                cqs'8.
+                bqs8.
                 \!
                 \ff
                 - \tenuto
@@ -277,13 +277,13 @@
                 \>
                 ~
 
-                cqs'8
+                bqs8
                 ~
 
-                cqs'16
+                bqs16
                 \ppppp
 
-                bqs16
+                d'16
                 \mp
                 - \tenuto
                 \<
@@ -291,7 +291,7 @@
 
             }
 
-            bqs8
+            d'8
             \mf
             - \tweak stencil #constante-hairpin
             \<
@@ -302,20 +302,20 @@
 
             r8
 
-            cqs'4
+            dqs'4
             \f
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \>
             ~
 
-            cqs'16
+            dqs'16
             \p
             - \tweak stencil #constante-hairpin
             \<
             [
 
-            cqs'8.
+            bqs8.
             \!
             \mp
             - \espressivo
@@ -326,16 +326,16 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/11 {
 
-                cqs'8.
+                bqs8.
                 ]
 
-                cqs'4
+                bf4
                 \mf
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
                 \<
 
-                bqs4
+                af4
                 \f
                 - \tenuto
 

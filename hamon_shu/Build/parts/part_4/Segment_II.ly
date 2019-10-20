@@ -57,7 +57,7 @@
                 \set Staff.instrumentName =                                    %! applying staff names and clefs
                 \markup { Violoncello }                                        %! applying staff names and clefs
                 \clef "bass"
-                cqs'8.
+                dqf'8.
                 \f
                 - \tenuto
                 - \tweak stencil #abjad-flared-hairpin
@@ -65,44 +65,44 @@
                 ~
                 [
 
-                cqs'16
+                dqf'16
 
-                bqs16
+                bf16
                 - \accent
                 ~
                 ]
 
-                bqs4
+                bf4
                 \p
 
-                cqs'16
+                aqf16
                 \f
                 - \espressivo
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
 
-                bqs16
+                gqf16
                 - \tenuto
                 ~
                 ]
 
             }
 
-            bqs4
+            gqf4
 
-            b4
+            g4
             - \tenuto
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/13 {
 
-                b8
+                g8
                 \sfp
                 [
 
-                cqs'16
+                gqf16
                 \mp
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
@@ -110,16 +110,17 @@
                 ~
                 ]
 
-                cqs'4
+                gqf4
 
-                bqs4.
+                g4.
                 \mf
                 - \tweak stencil #constante-hairpin
                 \<
 
             }
 
-            f'8
+            \clef "treble"
+            d''8
             \!
             \f
             - \accent
@@ -127,16 +128,16 @@
             \<
             [
 
-            fs'8
+            fs''8
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
-                fs'8
+                fs''8
                 ]
 
-                f'4
+                <ef'' af''>4
                 \p
                 - \tenuto
                 \<
@@ -149,29 +150,29 @@
 
             r4
 
-            f'4
+            a4
             \ff
             - \tenuto
             \>
 
-            fs'4
+            ef'4
             - \accent
             ~
 
             \times 4/5 {
 
-                fs'4
+                ef'4
                 \ppppp
                 - \tweak stencil #constante-hairpin
                 \<
 
-                cqs'8
+                dqs'8
                 \!
                 \mp
                 - \espressivo
                 \<
 
-                bqs4
+                d'4
                 - \tenuto
                 <>
                 \mf
@@ -186,14 +187,15 @@
 
             r8
 
-            cqs'8
+            \clef "bass"
+            f8
             \mf
             - \tenuto
             \<
             ~
             [
 
-            cqs'8
+            f8
             \f
             - \tweak stencil #constante-hairpin
             \<
@@ -211,17 +213,17 @@
 
             r8
 
-            cqs'8
+            fs8
             \p
             - \accent
             - \tweak stencil #constante-hairpin
             \<
             ~
 
-            cqs'4.
+            fs4.
             ~
 
-            cqs'4
+            fs4
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 3/8
