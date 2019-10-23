@@ -19,107 +19,134 @@
                 1 -1 moveto
                 0 -5 rlineto
                 stroke
-                4.28125 -1 moveto
+                3.625 -1 moveto
                 0 -2 rlineto
                 stroke
-                5.921875 -1 moveto
+                4.9375 -1 moveto
                 0 -2 rlineto
                 stroke
-                10.84375 -1 moveto
-                0 -8 rlineto
+                7.5625 -1 moveto
+                0 -5 rlineto
                 stroke
-                17.40625 -1 moveto
+                8.875 -1 moveto
                 0 -2 rlineto
                 stroke
-                19.046875 -1 moveto
+                12.8125 -1 moveto
+                0 -5 rlineto
+                stroke
+                14.125 -1 moveto
+                0 -5 rlineto
+                stroke
+                16.75 -1 moveto
                 0 -5 rlineto
                 stroke
                 20.6875 -1 moveto
-                0 -5 rlineto
+                0 -2 rlineto
+                stroke
+                24.625 -1 moveto
+                0 -2 rlineto
                 stroke
                 27.25 -1 moveto
-                0 -5 rlineto
-                stroke
-                28.890625 -1 moveto
-                0 -5 rlineto
-                stroke
-                30.53125 -1 moveto
-                0 -5 rlineto
-                stroke
-                32.171875 -1 moveto
-                0 -2 rlineto
-                stroke
-                33.8125 -1 moveto
-                0 -2 rlineto
-                stroke
-                37.09375 -1 moveto
-                0 -5 rlineto
-                stroke
-                42.015625 -1 moveto
-                0 -2 rlineto
-                stroke
-                43.65625 -1 moveto
-                0 -5 rlineto
-                stroke
-                46.9375 -1 moveto
-                0 -2 rlineto
-                stroke
-                48.578125 -1 moveto
-                0 -2 rlineto
-                stroke
-                53.5 -1 moveto
-                0 -2 rlineto
-                stroke
-                55.140625 -1 moveto
-                0 -2 rlineto
-                stroke
-                56.78125 -1 moveto
-                0 -5 rlineto
-                stroke
-                60.0625 -1 moveto
-                0 -5 rlineto
-                stroke
-                64.984375 -1 moveto
-                0 -5 rlineto
-                stroke
-                68.265625 -1 moveto
-                0 -2 rlineto
-                stroke
-                69.90625 -1 moveto
                 0 -8 rlineto
                 stroke
-                73.1875 -1 moveto
-                0 -11 rlineto
-                stroke
-                76.46875 -1 moveto
+                28.5625 -1 moveto
                 0 -2 rlineto
                 stroke
-                79.75 -1 moveto
+                29.875 -1 moveto
+                0 -2 rlineto
+                stroke
+                31.1875 -1 moveto
+                0 -2 rlineto
+                stroke
+                32.5 -1 moveto
+                0 -2 rlineto
+                stroke
+                35.125 -1 moveto
                 0 -5 rlineto
                 stroke
-                81.390625 -1 moveto
+                36.4375 -1 moveto
                 0 -2 rlineto
                 stroke
-                84.671875 -1 moveto
+                37.75 -1 moveto
                 0 -2 rlineto
                 stroke
-                86.3125 -1 moveto
+                39.0625 -1 moveto
+                0 -5 rlineto
+                stroke
+                41.6875 -1 moveto
+                0 -2 rlineto
+                stroke
+                43 -1 moveto
+                0 -5 rlineto
+                stroke
+                45.625 -1 moveto
                 0 -8 rlineto
                 stroke
-                87.953125 -1 moveto
-                0 -2 rlineto
-                stroke
-                89.59375 -1 moveto
+                48.25 -1 moveto
                 0 -5 rlineto
                 stroke
-                91.234375 -1 moveto
+                52.1875 -1 moveto
+                0 -2 rlineto
+                stroke
+                56.125 -1 moveto
+                0 -8 rlineto
+                stroke
+                58.75 -1 moveto
+                0 -14 rlineto
+                stroke
+                61.375 -1 moveto
+                0 -2 rlineto
+                stroke
+                64 -1 moveto
+                0 -8 rlineto
+                stroke
+                65.3125 -1 moveto
+                0 -2 rlineto
+                stroke
+                66.625 -1 moveto
+                0 -5 rlineto
+                stroke
+                67.9375 -1 moveto
+                0 -2 rlineto
+                stroke
+                69.25 -1 moveto
+                0 -5 rlineto
+                stroke
+                71.875 -1 moveto
+                0 -2 rlineto
+                stroke
+                75.8125 -1 moveto
+                0 -5 rlineto
+                stroke
+                77.125 -1 moveto
+                0 -2 rlineto
+                stroke
+                81.0625 -1 moveto
+                0 -5 rlineto
+                stroke
+                82.375 -1 moveto
+                0 -5 rlineto
+                stroke
+                85 -1 moveto
+                0 -8 rlineto
+                stroke
+                87.625 -1 moveto
+                0 -2 rlineto
+                stroke
+                91.5625 -1 moveto
                 0 -2 rlineto
                 stroke
                 92.875 -1 moveto
+                0 -5 rlineto
+                stroke
+                95.5 -1 moveto
+                0 -8 rlineto
+                stroke
+                100.75 -1 moveto
                 0 -2 rlineto
                 stroke
-                96.15625 -1 moveto
-                0 -2 rlineto
+                103.375 -1 moveto
+                0 -8 rlineto
                 stroke
                 106 -1 moveto
                 0 -2 rlineto
@@ -135,7 +162,7 @@
                                 0
                                 1
             \translate
-                #'(4.28125 . 1)
+                #'(3.625 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -144,7 +171,7 @@
                                 1
                                 4
             \translate
-                #'(5.921875 . 1)
+                #'(4.9375 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -153,7 +180,16 @@
                                 3
                                 8
             \translate
-                #'(10.84375 . 1)
+                #'(7.5625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                5
+                                8
+            \translate
+                #'(8.875 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -162,7 +198,16 @@
                                 3
                                 4
             \translate
-                #'(17.40625 . 1)
+                #'(12.8125 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                9
+                                8
+            \translate
+                #'(14.125 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -171,16 +216,7 @@
                                 5
                                 4
             \translate
-                #'(19.046875 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                11
-                                8
-            \translate
-                #'(20.6875 . 1)
+                #'(16.75 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -189,25 +225,16 @@
                                 3
                                 2
             \translate
-                #'(27.25 . 1)
+                #'(20.6875 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                2
-                                1
-            \translate
-                #'(28.890625 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                17
+                                15
                                 8
             \translate
-                #'(30.53125 . 1)
+                #'(24.625 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -216,16 +243,7 @@
                                 9
                                 4
             \translate
-                #'(32.171875 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                19
-                                8
-            \translate
-                #'(33.8125 . 1)
+                #'(27.25 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -234,7 +252,16 @@
                                 5
                                 2
             \translate
-                #'(37.09375 . 1)
+                #'(28.5625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                21
+                                8
+            \translate
+                #'(29.875 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -243,16 +270,25 @@
                                 11
                                 4
             \translate
-                #'(42.015625 . 1)
+                #'(31.1875 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                25
+                                23
                                 8
             \translate
-                #'(43.65625 . 1)
+                #'(32.5 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                3
+                                1
+            \translate
+                #'(35.125 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -261,7 +297,16 @@
                                 13
                                 4
             \translate
-                #'(46.9375 . 1)
+                #'(36.4375 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                27
+                                8
+            \translate
+                #'(37.75 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -270,7 +315,7 @@
                                 7
                                 2
             \translate
-                #'(48.578125 . 1)
+                #'(39.0625 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -279,7 +324,16 @@
                                 29
                                 8
             \translate
-                #'(53.5 . 1)
+                #'(41.6875 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                31
+                                8
+            \translate
+                #'(43.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -288,16 +342,7 @@
                                 4
                                 1
             \translate
-                #'(55.140625 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                33
-                                8
-            \translate
-                #'(56.78125 . 1)
+                #'(45.625 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -306,7 +351,7 @@
                                 17
                                 4
             \translate
-                #'(60.0625 . 1)
+                #'(48.25 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -315,7 +360,7 @@
                                 9
                                 2
             \translate
-                #'(64.984375 . 1)
+                #'(52.1875 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -324,16 +369,7 @@
                                 39
                                 8
             \translate
-                #'(68.265625 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                41
-                                8
-            \translate
-                #'(69.90625 . 1)
+                #'(56.125 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -342,7 +378,7 @@
                                 21
                                 4
             \translate
-                #'(73.1875 . 1)
+                #'(58.75 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -351,7 +387,7 @@
                                 11
                                 2
             \translate
-                #'(76.46875 . 1)
+                #'(61.375 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -360,7 +396,7 @@
                                 23
                                 4
             \translate
-                #'(79.75 . 1)
+                #'(64.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -369,7 +405,7 @@
                                 6
                                 1
             \translate
-                #'(81.390625 . 1)
+                #'(65.3125 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -378,7 +414,16 @@
                                 49
                                 8
             \translate
-                #'(84.671875 . 1)
+                #'(66.625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                25
+                                4
+            \translate
+                #'(67.9375 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -387,7 +432,7 @@
                                 51
                                 8
             \translate
-                #'(86.3125 . 1)
+                #'(69.25 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -396,16 +441,7 @@
                                 13
                                 2
             \translate
-                #'(87.953125 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                53
-                                8
-            \translate
-                #'(89.59375 . 1)
+                #'(71.875 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -414,25 +450,16 @@
                                 27
                                 4
             \translate
-                #'(91.234375 . 1)
+                #'(75.8125 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                55
+                                57
                                 8
             \translate
-                #'(92.875 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                7
-                                1
-            \translate
-                #'(96.15625 . 1)
+                #'(77.125 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -441,13 +468,94 @@
                                 29
                                 4
             \translate
-                #'(106.0 . 1)
+                #'(81.0625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                61
+                                8
+            \translate
+                #'(82.375 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                31
+                                4
+            \translate
+                #'(85.0 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
                                 8
+                                1
+            \translate
+                #'(87.625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                33
+                                4
+            \translate
+                #'(91.5625 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                69
+                                8
+            \translate
+                #'(92.875 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                35
+                                4
+            \translate
+                #'(95.5 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                9
+                                1
+            \translate
+                #'(100.75 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                19
+                                2
+            \translate
+                #'(103.375 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                39
+                                4
+            \translate
+                #'(106.0 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                10
                                 1
         }
     }

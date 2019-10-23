@@ -1,17 +1,23 @@
-\documentclass[10pt]{article}
+\documentclass[11pt]{article}
 \usepackage{fontspec}
-\setmainfont{Didot}
 \usepackage[utf8]{inputenc}
-\usepackage[papersize={12in, 18in}]{geometry}
+\setmainfont{Didot}
+\usepackage[paperwidth=8.27in,paperheight=11.69in,margin=1in,headheight=0.0in,footskip=0.5in,includehead,includefoot,portrait]{geometry}
 \usepackage[absolute]{textpos}
 \TPGrid[0.5in, 0.25in]{23}{24}
 \parindent=0pt
+\parskip=12pt
 \usepackage{nopageno}
-\usepackage{eurosym}
-\usepackage{paracol}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{eurosym}
+\usepackage{paracol}
 \usetikzlibrary{calc}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
 \begin{document}
 
         \begin{tikzpicture}[remember picture, overlay]
@@ -22,7 +28,7 @@
         \end{tikzpicture}
 
 \begin{center}
-\fontsize{.7cm}{1em}\selectfont Other scores from Gregory Rowland Evans include: \hfill
+\fontsize{.6cm}{1em}\selectfont Other scores from Gregory Rowland Evans include: \hfill
 \end{center}
 \vspace*{4\baselineskip}
 {
@@ -32,77 +38,45 @@
 \setlength{\columnsep}{6em}
 
 \begin{paracol}{4}
-\fontsize{.4cm}{1em}\selectfont UNACCOMPANIED
+\fontsize{.3cm}{1em}\selectfont UNACCOMPANIED
 \switchcolumn[1]
-\fontsize{.4cm}{1em}\selectfont CHAMBER
+\fontsize{.3cm}{1em}\selectfont CHAMBER
 \switchcolumn[2]
-\fontsize{.4cm}{1em}\selectfont ELECTROACOUSTIC
+\fontsize{.3cm}{1em}\selectfont ELECTROACOUSTIC
 \switchcolumn[3]
-\fontsize{.4cm}{1em}\selectfont ORCHESTRAL
-\switchcolumn[0]
-\fontsize{.1cm}{0.5em} \pmb{Five Excuses} (cello alone)
-\switchcolumn[0]
-\hfill
-\switchcolumn[0]
-\fontsize{.1cm}{0.5em} \pmb{Epiphora} (solo cello)
-\switchcolumn[0]
-\hfill
- \switchcolumn[0]
-\fontsize{.1cm}{0.5em} \pmb{Five Excuses} (xiao alone)
-\switchcolumn[0]
-\hfill
+\fontsize{.3cm}{1em}\selectfont ORCHESTRAL
 \switchcolumn[0]
 \fontsize{.1cm}{0.5em} \pmb{Onkos} (viola alone)
-\switchcolumn[0]
-\hfill
 \switchcolumn[0]
 \fontsize{.1cm}{0.5em} \pmb{Simbelmyn\"e} (piano alone)
 \switchcolumn[1]
 \fontsize{.1cm}{0.5em} \pmb{Violin Concerto}
 \switchcolumn[1]
-\hfill
+\fontsize{.1cm}{0.5em} \pmb{Adumbration} (str tr)
 \switchcolumn[1]
-\fontsize{.1cm}{0.5em} \pmb{Five Excuses} (string trio)
+\fontsize{.1cm}{0.5em} \pmb{Hamonsh\=u} (str qt)
 \switchcolumn[1]
-\hfill
-\switchcolumn[1]
-\fontsize{.1cm}{0.5em} \pmb{Adumbration} (string trio)
-\switchcolumn[1]
-\hfill
-\switchcolumn[1]
-\fontsize{.1cm}{0.5em} \pmb{Hamon sh\=u} (string quartet)
-\switchcolumn[1]
-\hfill
-\switchcolumn[1]
-\fontsize{.1cm}{0.5em} \pmb{Cthar} (two cellos)
-\switchcolumn[1]
-\hfill
+\fontsize{.1cm}{0.5em} \pmb{Cthar} (2 vc)
 \switchcolumn[1]
 \fontsize{.1cm}{0.5em} \pmb{Four Ages of Sand} (fl, sx, vc)
 \switchcolumn[2]
 \fontsize{.1cm}{0.5em} \pmb{Bewegt die Erde}:
 \switchcolumn[2]
-\fontsize{.05cm}{0.5em}  $B.E.vi: \ Ohrenquallen \ (for \ violin)$
+\fontsize{.05cm}{0.5em}  $B.E.vi: \ Ohrenquallen \ (vln)$
 \switchcolumn[2]
-\fontsize{.05cm}{0.5em}  $B.E.vii: \ Staub \ (for \ laptop \ ensemble)$
+\fontsize{.05cm}{0.5em}  $B.E.vii: \ Staub \ (laptop \ ens)$
 \switchcolumn[2]
-\fontsize{.05cm}{0.5em}  $B.E.i: \ NGC \ 3370 \ (for \ percussion \ trio)$
+\fontsize{.05cm}{0.5em}  $B.E.i: \ NGC \ 3370 \ (perc \ tr)$
 \switchcolumn[2]
-\fontsize{.05cm}{0.5em}  $B.E.ii: \ Carinanebel \ (for \ viola)$
+\fontsize{.05cm}{0.5em}  $B.E.ii: \ Carinanebel \ (vla)$
 \switchcolumn[2]
- \fontsize{.05cm}{0.5em} $B.E.iv: \ Arborealkartographie \ (for \ cello)$
+ \fontsize{.05cm}{0.5em} $B.E.iv: \ Arborealkartographie \ (vc)$
 \switchcolumn[3]
-\fontsize{.1cm}{0.5em} \pmb{Metamorphoses} (after Illouz)
+\fontsize{.1cm}{0.5em} \pmb{Metamorphoses}
 \switchcolumn[3]
-\hfill
-\switchcolumn[3]
-\fontsize{.1cm}{0.5em} \pmb{GUERRERO} (sax. ens.)
-\switchcolumn[3]
-\hfill
+\fontsize{.1cm}{0.5em} \pmb{GUERRERO} (21 sx)
 \switchcolumn[3]
 \fontsize{.1cm}{0.5em} \pmb{Ti\=ansh\=u} (twelve players)
-\switchcolumn[3]
-\hfill
 \switchcolumn[3]
 \fontsize{.1cm}{0.5em} \pmb{Passagenwerk} (string ens.)
 
@@ -112,7 +86,7 @@
 }
 
 \begin{textblock}{23}(0, 23.5)
-\textcopyright 06-2019 \hfill
+\textcopyright 10-2019 \hfill
 Scores available for purchase at www.gregoryrowlandevans.com \hfill
 \euro 26.49 / \$30
 \end{textblock}

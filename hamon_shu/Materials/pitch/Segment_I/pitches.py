@@ -19,10 +19,10 @@ chord_2 = [-24, -16, -9, 2, 4, 7, 13, 17, 22, 23, 33, 42]
 chord_3 = [-24, -21, -19, -8, -1, 7, 13, 22, 32, 33, 38, 42]
 chord_4 = [-24, -15, -5, -4, 1, 5, 11, 14, 16, 27, 34, 42]
 
-chord_1 = evans.reproportion_chord(base=1.25, chord=chord_1, round=True)
-chord_2 = evans.reproportion_chord(base=1.5, chord=chord_2, round=True)
-chord_3 = evans.reproportion_chord(base=2, chord=chord_3, round=True)
-chord_4 = evans.reproportion_chord(base=2.25, chord=chord_4, round=True)
+chord_1 = evans.reproportion_chord(base=1, chord=chord_1, round=True)
+chord_2 = evans.reproportion_chord(base=1, chord=chord_2, round=True)
+chord_3 = evans.reproportion_chord(base=1, chord=chord_3, round=True)
+chord_4 = evans.reproportion_chord(base=1, chord=chord_4, round=True)
 
 # violin 1
 violin_1_chord_1 = [
@@ -53,7 +53,7 @@ violin_1_random_walk_chord_1 = [
     x
     for x in evans.random_walk(
         random_seed=2,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 1],
         mapped_list=violin_1_rotated_chord_1,
     )
@@ -66,7 +66,7 @@ violin_1_random_walk_chord_2 = [
     x
     for x in evans.random_walk(
         random_seed=3,
-        length=1000,
+        length=5000,
         step_list=[2, 2, 1],
         mapped_list=violin_1_rotated_chord_2,
     )
@@ -79,7 +79,7 @@ violin_1_random_walk_chord_3 = [
     x
     for x in evans.random_walk(
         random_seed=4,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 2],
         mapped_list=violin_1_rotated_chord_3,
     )
@@ -92,7 +92,7 @@ violin_1_random_walk_chord_4 = [
     x
     for x in evans.random_walk(
         random_seed=5,
-        length=1000,
+        length=5000,
         step_list=[2, 1, 2],
         mapped_list=violin_1_rotated_chord_4,
     )
@@ -127,7 +127,7 @@ violin_2_random_walk_chord_1 = [
     x
     for x in evans.random_walk(
         random_seed=6,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 1],
         mapped_list=violin_2_rotated_chord_1,
     )
@@ -140,7 +140,7 @@ violin_2_random_walk_chord_2 = [
     x
     for x in evans.random_walk(
         random_seed=7,
-        length=1000,
+        length=5000,
         step_list=[2, 2, 1],
         mapped_list=violin_2_rotated_chord_2,
     )
@@ -153,7 +153,7 @@ violin_2_random_walk_chord_3 = [
     x
     for x in evans.random_walk(
         random_seed=8,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 2],
         mapped_list=violin_2_rotated_chord_3,
     )
@@ -166,7 +166,7 @@ violin_2_random_walk_chord_4 = [
     x
     for x in evans.random_walk(
         random_seed=9,
-        length=1000,
+        length=5000,
         step_list=[2, 1, 2],
         mapped_list=violin_2_rotated_chord_4,
     )
@@ -201,7 +201,7 @@ viola_random_walk_chord_1 = [
     x
     for x in evans.random_walk(
         random_seed=10,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 1],
         mapped_list=viola_rotated_chord_1,
     )
@@ -214,7 +214,7 @@ viola_random_walk_chord_2 = [
     x
     for x in evans.random_walk(
         random_seed=11,
-        length=1000,
+        length=5000,
         step_list=[2, 2, 1],
         mapped_list=viola_rotated_chord_2,
     )
@@ -227,7 +227,7 @@ viola_random_walk_chord_3 = [
     x
     for x in evans.random_walk(
         random_seed=12,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 2],
         mapped_list=viola_rotated_chord_3,
     )
@@ -240,7 +240,7 @@ viola_random_walk_chord_4 = [
     x
     for x in evans.random_walk(
         random_seed=13,
-        length=1000,
+        length=5000,
         step_list=[2, 1, 2],
         mapped_list=viola_rotated_chord_4,
     )
@@ -275,7 +275,7 @@ cello_random_walk_chord_1 = [
     x
     for x in evans.random_walk(
         random_seed=14,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 1],
         mapped_list=cello_rotated_chord_1,
     )
@@ -288,7 +288,7 @@ cello_random_walk_chord_2 = [
     x
     for x in evans.random_walk(
         random_seed=15,
-        length=1000,
+        length=5000,
         step_list=[2, 2, 1],
         mapped_list=cello_rotated_chord_2,
     )
@@ -301,7 +301,7 @@ cello_random_walk_chord_3 = [
     x
     for x in evans.random_walk(
         random_seed=16,
-        length=1000,
+        length=5000,
         step_list=[1, 2, 2],
         mapped_list=cello_rotated_chord_3,
     )
@@ -314,7 +314,7 @@ cello_random_walk_chord_4 = [
     x
     for x in evans.random_walk(
         random_seed=17,
-        length=1000,
+        length=5000,
         step_list=[2, 1, 2],
         mapped_list=cello_rotated_chord_4,
     )

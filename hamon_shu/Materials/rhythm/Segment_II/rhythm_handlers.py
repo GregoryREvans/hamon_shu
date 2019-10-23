@@ -10,16 +10,8 @@ silence_maker = abjadext.rmakers.stack(
 
 silence_maker = evans.RhythmHandler(rmaker=silence_maker, name="silence maker")
 
-rhythm_handler_one = evans.RhythmHandler(
-    rmaker=rmaker_one, continuous=True, name="rhythm_handler_one"
-)
-
-rhythm_handler_two = evans.RhythmHandler(
-    rmaker=rmaker_one, continuous=True, name="rhythm_handler_two"
-)
-
 rhythm_handler_three = evans.RhythmHandler(
-    rmaker=rmaker_three, continuous=True, name="rhythm_handler_three"
+    rmaker=rmaker_three, continuous=True, name="rhythm_handler_three", state=abjad.OrderedDict([('divisions_consumed', 34), ('incomplete_last_note', True), ('logical_ties_produced', 65), ('talea_weight_consumed', 253),])
 )
 
 rhythm_handler_four = evans.RhythmHandler(
@@ -28,8 +20,4 @@ rhythm_handler_four = evans.RhythmHandler(
 
 rhythm_handler_five = evans.RhythmHandler(
     rmaker=rmaker_five, continuous=True, name="rhythm_handler_five"
-)
-
-rhythm_handler_six = evans.RhythmHandler(
-    rmaker=rmaker_six, continuous=True, name="rhythm_handler_six"
 )

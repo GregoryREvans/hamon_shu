@@ -14,23 +14,23 @@ rmaker_one = abjadext.rmakers.stack(
     # abjadext.rmakers.force_rest(
     #     abjad.select()
     #     .logical_ties(pitched=True)
-    #     .partition_by_counts([3], cyclic=True, overhang=True)
-    #     .map(abjad.select()[0])
+    #     .partition_by_counts([6], cyclic=True, overhang=True)
+    #     .map(abjad.select()[2])
     # ),
 )
 
 rmaker_two = abjadext.rmakers.stack(
-    abjadext.rmakers.tuplet([(1, 1, 2, -1, 1), (3, 1, 1)]),
+    abjadext.rmakers.tuplet([(1, 1, 2, 1, 1), (3, 1, 1)]),
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([5], cyclic=True, overhang=True)
-    #     .map(abjad.select()[0])
-    # ),
+    abjadext.rmakers.force_rest(
+        abjad.select()
+        .logical_ties(pitched=True)
+        .partition_by_counts([3], cyclic=True, overhang=True)
+        .map(abjad.select()[-1])
+    ),
 )
 
 ######

@@ -20,6 +20,7 @@
         \context TimeSignatureContext = "Global Context"
         {
 
+            \tempo 4=90
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
 
@@ -126,40 +127,40 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
                     \clef "treble"
-                    a16
+                    aqs16
                     \f
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
-                    aqs16
+                    bf16
                     - \accent
 
-                    bf16
+                    bqf16
 
-                    a16
+                    aqs16
                     - \tenuto
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        f'8
+                        e'8
                         \p
                         - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        a8
+                        aqs8
                         - \espressivo
 
-                        bf8
+                        bqf8
                         - \tenuto
 
-                        bf8
+                        bqf8
                         - \tenuto
 
-                        bf8
+                        bqf8
                         - \accent
                         ]
                         <>
@@ -181,16 +182,16 @@
                         cqs'16
                         - \tenuto
 
-                        dqf'16
+                        cs'16
                         - \accent
 
                         bqs16
                         - \espressivo
 
-                        bf16
+                        bqf16
                         - \tenuto
 
-                        bf16
+                        bqf16
                         - \tenuto
 
                         bqs16
@@ -198,30 +199,30 @@
 
                         cqs'16
 
-                        dqf'16
+                        cs'16
                         - \tenuto
 
-                        ef'16
+                        dqs'16
                         - \accent
 
-                        dqs'16
+                        d'16
                         - \espressivo
 
-                        dqf'16
+                        cs'16
                         - \tenuto
 
                         bqs16
                         - \tenuto
 
-                        bf16
+                        bqf16
                         - \accent
 
-                        bf16
+                        bqf16
 
-                        a16
+                        aqs16
                         - \tenuto
 
-                        f'16
+                        e'16
                         \f
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -229,20 +230,20 @@
 
                     }
 
-                    a32
+                    aqs32
                     \!
                     \p
                     - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    bf32
+                    bqf32
                     - \tenuto
 
-                    bf32
+                    bqf32
                     - \tenuto
 
-                    bf32
+                    bqf32
                     - \accent
                     ]
 
@@ -256,46 +257,48 @@
 
                     r4
 
-                    a16
+                    aqs16
                     \mp
                     \<
                     [
 
-                    f'16
+                    e'16
                     - \tenuto
-
-                    f'8
-                    - \accent
                     ]
                     <>
                     \mf
 
-                    r16
+                    r8
 
-                    a16
+                    e'16
                     \sfp
                     - \espressivo
+                    \<
+                    [
+
+                    aqs16
+                    \ff
+                    - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
+                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
-                        aqs4.
-                        \ff
-                        - \tenuto
-                        \>
+                        r4.
+                        \!
 
                         bf8
-                        - \tenuto
-                        [
-
-                        a8
-                        - \accent
-                        ]
-                        <>
                         \ppppp
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        <>
+                        \mp
+
+                        r8
 
                     }
 
@@ -305,46 +308,46 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
-                        aqf16
-                        \mp
+                        aqs16
+                        \mf
+                        - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         [
 
-                        fs'16
+                        e'16
+
+                        bqf16
                         - \tenuto
 
-                        aqs16
+                        e'16
                         - \accent
 
-                        fs'16
+                        aqs16
                         - \espressivo
-
-                        aqf16
-                        - \tenuto
 
                         b16
                         - \tenuto
 
-                        aqf16
-                        - \accent
-
-                        fs'16
-
                         aqs16
                         - \tenuto
 
-                        fs'16
+                        e'16
                         - \accent
 
-                        f'16
-                        - \espressivo
+                        bqf16
 
-                        aqf16
+                        e'16
                         - \tenuto
 
-                        f'16
-                        \mf
+                        ef'16
+                        - \accent
+
+                        aqs16
+                        - \espressivo
+
+                        ef'16
+                        \f
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
@@ -354,33 +357,31 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        fs'16
+                        e'16
                         \!
-                        \f
-                        - \accent
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-
-                        eqf'16
-
-                        fs'8
+                        \sfp
                         - \tenuto
+                        \<
+
+                        d'16
+                        - \accent
                         ]
                         <>
-                        \sfp
-
-                        r16
-
-                        f'16
                         \ff
-                        - \accent
+
+                        r8
+
+                        e'16
+                        \ppppp
                         - \tweak stencil #constante-hairpin
                         \<
+
+                        r16
+                        \!
 
                     }
 
                     r8
-                    \!
 
                     r2.
 
@@ -389,60 +390,60 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        aqf16
+                        ef'16
                         \f
-                        - \espressivo
+                        - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \>
                         [
 
-                        b16
-                        - \tenuto
-
-                        c'8
+                        aqs16
                         \p
-                        - \tenuto
+                        - \espressivo
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
 
+                        r8
+                        \!
+
+                        b16
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+
                         r16
                         \!
 
-                        cs'16
-                        \mp
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        [
-
                     }
 
-                    gqs'16
+                    e'16
                     \mf
+                    - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    [
 
-                    gqf'16
-                    - \tenuto
-
-                    gqf'16
+                    ef'16
                     - \accent
 
-                    dqs'16
+                    ef'16
+
+                    cs'16
+                    - \tenuto
+                    ~
+
+                    cs'16
+
+                    c'16
+                    - \accent
+                    ~
+
+                    c'16
+
+                    b16
                     - \espressivo
-                    ~
-
-                    dqs'16
-
-                    c'16
-                    - \tenuto
-                    ~
-
-                    c'16
-
-                    bqf16
-                    - \tenuto
                     ]
                     <>
                     \f
@@ -454,151 +455,154 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        af8
-                        \ppppp
-                        - \accent
+                        bf8
+                        \mp
+                        - \tenuto
                         \<
                         [
 
-                        bqf16
+                        b16
+                        - \tenuto
                         ~
 
-                        bqf8.
+                        b8.
 
                         c'8.
-                        - \tenuto
+                        - \accent
                         ~
 
                     }
 
                     c'8
-                    \mp
-
-                    dqs'8
                     \mf
-                    - \accent
-                    \<
+
+                    cs'8
+                    \f
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
-                        dqs'8.
+                        cs'8.
                         ~
 
-                        dqs'8
-                        \f
+                        cs'8
+                        \sfp
                         - \tweak stencil #constante-hairpin
                         \<
 
                         c'8
                         \!
                         \p
-                        - \espressivo
+                        - \tenuto
                         \<
 
                     }
 
-                    dqf'16
-                    - \tenuto
-
-                    bqf16
-                    - \tenuto
-
-                    af8
-                    \mp
+                    cs'16
                     - \accent
+
+                    b16
+                    \mp
+                    - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
 
-                    r16
+                    r8
                     \!
 
-                    g16
+                    bf16
                     \mf
+                    - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     [
+
+                    aqs16
+                    - \tenuto
+                    ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        gqs'8.
+                        r8.
+                        \!
+
+                        e'16
                         \f
-                        - \tenuto
-                        \>
-
-                        g16
                         - \accent
+                        \>
+                        [
 
-                        af16
+                        aqs16
+                        ]
+                        <>
                         \p
-                        - \espressivo
 
                     }
 
-                    bqf16
+                    r16
+
+                    bf16
                     \mp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
+                    [
 
-                    dqf'16
-                    - \tenuto
-
-                    c'8
+                    b8
                     \mf
                     - \accent
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
 
-                    r16
+                    r8
                     \!
-
-                    af16
-                    \f
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    [
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 12) "16")
                     \times 12/11 {
 
-                        af'16
-                        - \tenuto
-
-                        aqs'16
-                        - \accent
-
-                        b16
-                        - \espressivo
-
-                        b16
-                        - \tenuto
-
-                        cs'16
-                        - \tenuto
-
                         ef'16
-                        - \accent
+                        \f
+                        - \espressivo
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        [
 
                         eqf'16
-
-                        dqs'16
                         - \tenuto
 
-                        c'16
+                        aqs16
+                        - \tenuto
+
+                        bqf16
                         - \accent
 
+                        bqs16
+
+                        cqs'16
+                        - \tenuto
+
                         cs'16
+                        - \accent
+
+                        c'16
                         - \espressivo
 
-                        ef'16
+                        bqs16
                         - \tenuto
+
+                        bqs16
+                        - \tenuto
+
+                        cqs'16
+                        - \accent
                         ]
 
                     }
@@ -609,45 +613,43 @@
 
                     R1 * 1/4
 
-                    fs'8
-                    \sfp
-                    - \espressivo
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
-                    [
-
-                    eqf'8
+                    dqf'8
                     \ff
                     - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
+                    [
+
+                    cs'8
+                    \ppppp
+                    - \accent
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        dqs'8
-                        \ppppp
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-
                         c'8
-                        - \accent
-                        ]
-
-                        cs'4
                         \mp
-                        - \tweak stencil #constante-hairpin
+                        - \espressivo
                         \<
 
-                        r8
-                        \!
-
-                        ef'8
+                        bqs8
                         \mf
                         - \tenuto
+                        - \tweak stencil #constante-hairpin
                         \<
-                        [
-                        <>
+                        ]
+
+                        r4
+                        \!
+
+                        bqs8
                         \f
+                        - \tenuto
+                        \>
+                        <>
+                        \sfp
+
+                        r8
 
                     }
 
@@ -655,45 +657,47 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
-                        cs'16
-                        \sfp
-                        - \tenuto
-                        \<
-
-                        c'16
-                        - \accent
-
-                        b16
-
-                        c'16
-                        - \tenuto
-
-                        cs'16
-                        - \accent
-
-                        b16
-                        - \espressivo
-
-                        cs'16
-                        - \tenuto
-
-                        c'16
-                        - \tenuto
-
-                        dqs'16
-                        - \accent
-
-                        c'16
-
-                        b16
-                        - \tenuto
-
-                        cs'16
-                        - \accent
-
-                        b16
+                        cqs'16
                         \ff
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
+                        [
+
+                        bqs16
+                        - \tenuto
+
+                        bqs16
+                        - \accent
+
+                        aqs16
                         - \espressivo
+
+                        bqs16
+                        - \tenuto
+
+                        bqs16
+                        - \tenuto
+
+                        bqf16
+                        - \accent
+
+                        bqs16
+
+                        bqs16
+                        - \tenuto
+
+                        c'16
+                        - \accent
+
+                        bqs16
+                        - \espressivo
+
+                        bqf16
+                        - \tenuto
+
+                        bqs16
+                        \ppppp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -702,74 +706,72 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        b16
+                        bqf16
                         \!
-                        \ppppp
-                        - \tenuto
+                        \mp
+                        - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        c'16
-                        - \tenuto
-
-                        dqs'8
-                        - \accent
+                        aqs16
                         ]
                         <>
-                        \mp
-
-                        r16
-
-                        cs'16
                         \mf
+
+                        r8
+
+                        bqs16
+                        \f
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+
+                        r16
+                        \!
 
                     }
 
                     r2.
-                    \!
 
                     r2
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        c'16
+                        cs'16
                         \p
-                        - \tenuto
+                        - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         [
 
-                        dqf'16
-                        - \accent
-
-                        eqs'8
+                        c'16
                         - \espressivo
                         ]
                         <>
                         \mp
 
-                        r16
+                        r8
 
-                        gqf'16
+                        bf16
                         \mf
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
+                        r16
+                        \!
+
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
-                    \!                                                         %! applying indicators
 
                     R1 * 1/8
 
                     r4
 
-                    gqf'4
+                    c'4
                     \f
                     - \tenuto
                     - \tweak stencil #constante-hairpin
@@ -780,67 +782,66 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 21 20) "16")
                     \times 20/21 {
 
-                        gqf'8.
+                        c'8.
                         [
 
-                        gqs'8.
+                        cs'8.
                         \p
                         - \accent
                         \<
 
-                        g16
+                        d'16
                         ~
                         ]
 
-                        g4.
+                        d'4.
                         \mp
 
-                        af16
+                        ef'16
                         \mf
                         - \accent
                         \<
                         ~
                         [
 
-                        af8
+                        ef'8
 
-                        aqf'16
-                        - \espressivo
+                        ef'16
 
-                        gqf'16
+                        e'16
                         - \tenuto
 
-                        gqf'8.
+                        aqs8.
                         \f
-                        - \tenuto
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
                     }
 
-                    gqs'8
+                    bf8
                     \!
                     \p
-                    - \accent
+                    - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    g8
+                    e'8
+                    - \tenuto
                     ]
 
-                    af4
-                    - \tenuto
-
-                    r8
+                    r4
                     \!
 
-                    dqs'8
+                    c'8
                     \mp
-                    - \accent
+                    - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     <>
                     \mf
+
+                    r8
 
                     r4
 
@@ -850,123 +851,122 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "32")
                     \times 16/15 {
 
-                        d'32
+                        cs'32
                         \f
-                        - \espressivo
+                        - \accent
                         - \tweak stencil #abjad-flared-hairpin
                         \>
                         [
 
-                        ef'32
+                        d'32
+
+                        cs'32
                         - \tenuto
 
-                        f'32
-                        - \tenuto
-
-                        eqf'32
+                        d'32
                         - \accent
 
-                        dqs'32
-
-                        eqf'32
-                        - \tenuto
-
                         ef'32
-                        - \accent
-
-                        f'32
-                        \p
                         - \espressivo
+
+                        d'32
+                        - \tenuto
+
+                        d'32
+                        - \tenuto
+
+                        d'32
+                        \p
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        aqf32
+                        d'32
                         \!
-                        \f
+                        \sfp
                         - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
+                        \<
 
-                        aqs32
+                        ef'32
                         - \accent
 
-                        c'32
+                        aqs32
                         - \espressivo
 
-                        aqs32
+                        bqf32
                         - \tenuto
 
-                        b32
+                        c'32
                         - \tenuto
 
-                        aqf32
+                        bqf32
                         - \accent
 
                         b32
                         ]
                         <>
-                        \sfp
+                        \ff
 
                     }
 
                     r2
 
-                    c'16
+                    aqs16
                     \mp
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
+                    b16
+                    - \accent
+
+                    c'16
+                    - \espressivo
+
+                    bqf16
+                    - \tenuto
+
+                    e'16
+                    - \tenuto
+
+                    ef'16
+                    - \accent
+
                     aqs16
-                    - \accent
-
-                    fs'16
-                    - \espressivo
-
-                    f'16
-                    - \tenuto
-
-                    aqf16
-                    - \tenuto
-
-                    f'16
-                    - \accent
-
-                    fs'16
-
-                    eqf'16
-                    - \tenuto
-
-                    fs'16
-                    - \accent
-
-                    f'16
-                    - \espressivo
 
                     ef'16
                     - \tenuto
 
-                    f'16
+                    e'16
+                    - \accent
+
+                    d'16
+                    - \espressivo
+
+                    e'16
+                    - \tenuto
+
+                    ef'16
                     - \tenuto
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        fs'16
+                        d'16
                         \mf
                         - \accent
                         \<
 
-                        aqs16
+                        ef'16
 
-                        c'16
+                        e'16
                         - \tenuto
 
-                        cqs'16
+                        bqf16
                         - \accent
 
-                        d'16
+                        c'16
                         \f
                         - \espressivo
                         ]
@@ -976,55 +976,46 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
-                        ef'4
+                        cqs'4
                         \p
                         - \tenuto
                         \<
 
-                        eqf'4
+                        cs'4
                         \mp
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        dqs'2
+                        r2
                         \!
+
+                        d'4
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        r4
-                        \!
-
-                        eqf'4
-                        \f
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-                        <>
-                        \p
+                        d'4
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        f'8.
-                        \mp
+                        r8.
+                        \!
+
+                        d'16
+                        \f
                         - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        [
+                        \>
+                        <>
+                        \p
 
-                        aqf16
-                        - \accent
-
-                        b16
-                        \mf
-                        - \espressivo
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
+                        r16
+                        \bar "||"
 
                     }
 
@@ -1054,57 +1045,66 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
                     \times 7/6 {
 
-                        a8
-                        \f
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
+                        aqs8
+                        \mp
+                        - \accent
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
                         [
+
+                        bf8
+                        - \espressivo
+
+                        bqf8
+                        - \tenuto
 
                         aqs8
                         - \tenuto
 
-                        bf8
+                        e'8
                         - \accent
 
-                        a8
-
-                        f'8
-                        - \tenuto
-
-                        f'8
-                        - \accent
+                        e'8
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
-                    a16
-                    \p
-                    - \espressivo
+                    aqs16
+                    \!
+                    \f
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
                     \<
 
-                    f'16
-                    - \tenuto
+                    e'16
+                    - \accent
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        a16
+                        aqs16
+                        - \espressivo
+
+                        e'16
                         - \tenuto
+                        ]
 
-                        f'16
+                        r8
+                        \!
+
+                        e'16
+                        \p
+                        - \tenuto
+                        \<
+                        [
+
+                        e'16
                         - \accent
-
-                        f'8
                         ]
                         <>
                         \mp
-
-                        r16
-
-                        f'16
-                        \mf
-                        - \tenuto
-                        \<
 
                     }
 
@@ -1112,50 +1112,42 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
-                        a2.
-                        \f
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        r2.
 
                         aqs4
-                        \!
-                        \ff
-                        - \espressivo
-                        \>
-
-                        a4
                         \ppppp
-                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+
+                        r4
+                        \!
 
                     }
 
                     bf16
-                    \!
                     \mp
                     - \tenuto
                     \<
                     [
 
-                    bf16
+                    aqs16
                     - \accent
                     ~
 
-                    bf16
+                    aqs16
 
-                    bf8.
+                    bqf8.
+                    - \espressivo
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
-                        bf8
+                        bqf8
                         \mf
 
-                        bqs16
+                        bqf16
                         \f
                         - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
@@ -1165,25 +1157,26 @@
 
                     }
 
-                    bqs4
+                    bqf4
                     ~
 
-                    bqs16
+                    bqf16
                     \sfp
                     - \tweak stencil #constante-hairpin
                     \<
                     [
 
-                    cqs'16
+                    bqf16
                     \!
-                    \p
-                    - \tenuto
-                    - \tweak stencil #constante-hairpin
+                    \mf
                     \<
                     ~
                     ]
 
-                    cqs'4
+                    bqf4
+                    \f
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 7/16
@@ -1197,54 +1190,57 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "16")
                     \times 10/11 {
 
-                        aqf8
-                        \mp
-                        - \accent
-                        - \tweak stencil #abjad-flared-hairpin
+                        aqs8
+                        \p
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        fs'16
-                        - \espressivo
+                        e'16
+                        - \accent
                         ~
 
-                        fs'16
+                        e'16
 
-                        eqf'16
+                        d'16
+                        ~
+
+                        d'8
+                        ~
+
+                        d'16
+
+                        e'16
                         - \tenuto
                         ~
 
-                        eqf'8
-                        ~
-
-                        eqf'16
-
-                        fs'16
-                        - \tenuto
-                        ~
-
-                        fs'8
+                        e'8
                         ~
 
                     }
 
-                    fs'8
-                    \mf
+                    e'8
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
-                        f'4
-                        \f
+                        ef'4
+                        \mp
                         - \accent
                         - \tweak stencil #abjad-flared-hairpin
-                        \>
+                        \<
 
-                        aqf4
+                        aqs4
+                        - \espressivo
+                        <>
+                        \mf
 
-                        f'2
-                        \p
+                        r2
+
+                        ef'4
+                        \f
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1252,49 +1248,43 @@
                         r4
                         \!
 
-                        eqf'4
-                        \mp
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "32")
                     \times 8/9 {
 
-                        fs'32
-                        \mf
-                        - \espressivo
+                        d'32
+                        \p
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        eqf'32
-                        - \tenuto
-
-                        ef'32
-                        - \tenuto
-
-                        d'32
+                        e'32
                         - \accent
 
-                        cqs'32
-                        \f
+                        d'32
 
-                        c'32
-                        \ff
+                        d'32
                         - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
 
                         cs'32
                         - \accent
 
-                        c'32
+                        cqs'32
+                        \ff
                         - \espressivo
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
 
-                        b32
+                        c'32
                         - \tenuto
+
+                        cs'32
+                        - \tenuto
+
+                        c'32
+                        - \accent
 
                     }
 
@@ -1302,31 +1292,31 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
+                        b16
+
                         cqs'16
                         - \tenuto
 
-                        d'16
+                        cs'16
                         - \accent
 
-                        dqs'16
+                        d'16
+                        - \espressivo
 
                         cs'16
-                        - \tenuto
-
-                        dqs'16
                         \ppppp
-                        - \accent
+                        - \tenuto
 
                     }
 
-                    gqs'16
+                    e'16
                     \mp
-                    - \espressivo
+                    - \tenuto
                     \<
 
-                    gqf'16
+                    ef'16
                     \mf
-                    - \tenuto
+                    - \accent
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
@@ -1338,124 +1328,120 @@
 
                     r8
 
-                    gqs'8
-                    \p
-                    - \tenuto
-                    \<
-                    [
-
-                    gqf'8
-                    - \accent
-
-                    gqs'8
-                    ~
-
-                    gqs'8
+                    e'8
                     \mp
-                    - \tweak stencil #constante-hairpin
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
+                    [
+
+                    ef'8
+                    - \accent
                     ]
+                    <>
+                    \mf
 
                     r8
+
+                    r8
+
+                    e'8
+                    \f
+                    - \espressivo
+                    - \tweak stencil #constante-hairpin
+                    \<
+
+                    r4
                     \!
 
-                    gqf'8
-                    \mf
+                    r8
+
+                    ef'8
+                    \p
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
-
-                    r8
-                    \!
-
-                    r8
-
-                    eqs'8
-                    \f
-                    - \accent
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
                     [
-                    <>
-                    \p
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
-                        gqf'16
+                        d'16
                         \mp
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
+                        - \tenuto
                         \<
 
-                        gqf'16
-                        - \tenuto
+                        ef'16
+                        - \accent
 
-                        gqs'16
+                        ef'16
                         \mf
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
 
                     }
 
-                    gqf'32
-                    \!
+                    e'32
                     \f
-                    - \accent
-                    - \tweak stencil #constante-hairpin
-                    \<
-
-                    eqs'32
-
-                    dqf'32
                     - \tenuto
+                    \>
 
-                    bqf32
+                    ef'32
                     - \accent
+
+                    d'32
+                    - \espressivo
+
+                    cs'32
+                    - \tenuto
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
+                        b16
+                        - \tenuto
+
                         c'16
-                        - \espressivo
-
-                        af16
-                        - \tenuto
-
-                        g8
-                        - \tenuto
-                        ]
-
-                        r16
-                        \!
-
-                        aqf'16
                         \p
                         - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
+                        ]
+
+                        r8
+                        \!
+
+                        bf16
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        [
+
+                        aqs16
+                        - \tenuto
+                        ]
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        gqf'4.
+                        r4.
+                        \!
 
-                        eqs'8
-                        - \tenuto
-                        [
-
-                        gqf'8
-                        \mp
+                        e'8
+                        \mf
                         - \accent
-                        ]
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        <>
+                        \f
+
+                        r8
 
                     }
 
-                    dqs'4
-                    \mf
+                    ef'4
+                    \p
                     - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1463,58 +1449,59 @@
                     r2.
                     \!
 
-                    af'16
+                    ef'16
                     \f
-                    - \tenuto
                     \>
                     [
 
-                    fs'16
-                    - \accent
+                    dqf'16
+                    - \tenuto
                     ~
                     ]
 
-                    fs'4
+                    dqf'4
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        fs'16
+                        dqf'16
                         \sfp
                         [
 
-                        ef'8
-                        \f
+                        cs'8
+                        \mp
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
                         ~
 
-                        ef'8
+                        cs'8
 
-                        dqs'16
-                        - \tenuto
+                        cqs'16
+                        - \espressivo
                         ~
 
-                        dqs'8.
+                        cqs'8.
                         ~
 
                     }
 
-                    dqs'8
+                    cqs'8
 
-                    eqf'16
-                    \p
-                    - \accent
-                    \<
-
-                    dqs'16
-                    \mp
-                    - \espressivo
-
-                    ef'8
+                    dqf'16
                     \mf
                     - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+
+                    cqs'16
+                    \f
+                    - \tenuto
+
+                    cs'8
+                    \p
+                    - \accent
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
@@ -1532,52 +1519,52 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
                     \times 7/6 {
 
-                        fs'8
+                        dqf'8
                         \ff
-                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        ef'8
+                        cs'8
                         \ppppp
                         - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         ]
-
-                        eqf'4
-                        - \tenuto
                         <>
                         \mp
 
-                        r8
+                        r4
 
-                        af'8
+                        dqf'8
                         \mf
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        [
+
+                        ef'8
+                        \f
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
-                        [
+                        ]
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                     \times 4/5 {
 
-                        eqf'16.
-                        \f
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
+                        r16.
+                        \!
 
-                        ef'32
-                        - \tenuto
-
-                        fs'32
-                        - \accent
-                        ]
-                        <>
+                        dqf'32
                         \sfp
+                        \<
+                        <>
+                        \ff
+
+                        r32
 
                     }
 
@@ -1596,29 +1583,29 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
 
-                        c'16
-                        \ff
-                        - \espressivo
-                        \>
+                        d'16
+                        \ppppp
+                        - \tenuto
+                        \<
                         [
 
-                        bqf16
-                        - \tenuto
-
-                        dqf'16
-                        - \tenuto
-
-                        bqf16
+                        ef'16
                         - \accent
 
-                        c'16
+                        cs'16
+                        - \espressivo
 
-                        af16
+                        c'16
                         - \tenuto
 
-                        c'16
-                        \ppppp
+                        b16
+                        - \tenuto
+
+                        cs'16
                         - \accent
+
+                        b16
+                        \mp
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -1628,25 +1615,26 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
-                        bqf16
+                        c'16
                         \!
-                        \mp
-                        - \espressivo
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        dqf'16
-                        - \tenuto
-
-                        bqf16
-                        - \tenuto
+                        bf16
+                        - \accent
 
                         c'16
-                        \mf
-                        - \accent
+                        - \espressivo
 
-                        dqs'16
+                        b16
                         \f
-                        - \accent
+                        - \tenuto
+
+                        cs'16
+                        \mp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
@@ -1662,51 +1650,32 @@
 
                     r8
 
-                    gqf'8
-                    \p
-                    - \tweak stencil #abjad-flared-hairpin
+                    b8
+                    \mf
+                    - \accent
                     \<
                     [
                     <>
-                    \mp
+                    \f
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
 
-                        eqs'16
-                        \mf
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
+                        c'16
+                        \p
+                        - \espressivo
                         \<
 
-                        dqf'16
-                        - \accent
-
-                        eqs'16
-                        - \espressivo
-
-                        dqs'16
+                        cs'16
                         - \tenuto
-
-                        c'16
-                        - \tenuto
-
-                        dqs'16
-                        - \accent
-
-                        eqs'16
-
-                        gqf'16
-                        - \tenuto
-
-                        aqf'16
-                        - \accent
-
-                        d'16
-                        - \espressivo
 
                         ef'16
                         - \tenuto
+
+                        d'16
+                        - \accent
+
+                        cs'16
 
                         d'16
                         - \tenuto
@@ -1715,16 +1684,34 @@
                         - \accent
 
                         c'16
+                        - \espressivo
 
-                        aqs16
+                        cs'16
+                        - \tenuto
+
+                        d'16
+                        - \tenuto
+
+                        cs'16
+                        - \accent
+
+                        d'16
+
+                        cs'16
+                        - \tenuto
+
+                        cs'16
+                        - \accent
+
+                        c'16
+                        - \espressivo
+
+                        bqf16
                         - \tenuto
 
                         b16
-                        - \accent
-
-                        aqf16
-                        \f
-                        - \espressivo
+                        \mp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -1734,42 +1721,42 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "32")
                     \times 4/3 {
 
-                        b32
+                        aqs32
                         \!
-                        \p
-                        - \tenuto
+                        \mf
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
+                        b32
+
                         c'32
                         - \tenuto
-
-                        aqs32
-                        - \accent
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        c'8
-
-                        b8
-                        - \tenuto
-                        ]
-
-                        aqf4
+                        bqf8
                         - \accent
 
-                        r8
+                        c'8
+                        - \espressivo
+                        ]
+
+                        r4
                         \!
 
-                        f'8
-                        \mp
-                        - \espressivo
-                        \<
+                        b8
+                        \f
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \>
                         <>
-                        \mf
+                        \p
+
+                        r8
 
                     }
 
@@ -1781,26 +1768,27 @@
 
                     r8
 
-                    fs'16
-                    \f
+                    aqs16
+                    \mp
                     - \tenuto
-                    \>
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
                     [
 
-                    eqf'16
-                    - \tenuto
-
-                    dqs'16
+                    ef'16
                     - \accent
 
-                    ef'16
+                    e'16
 
                     d'16
                     - \tenuto
 
-                    cqs'16
-                    \p
+                    d'16
                     - \accent
+
+                    d'16
+                    \mf
+                    - \espressivo
                     - \tweak stencil #constante-hairpin
                     \<
 
@@ -1809,16 +1797,16 @@
 
                         cs'16
                         \!
-                        \mp
-                        - \espressivo
+                        \f
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        dqs'16
+                        cqs'16
                         - \tenuto
 
                         cs'16
-                        - \tenuto
+                        - \accent
 
                     }
 
@@ -1826,41 +1814,40 @@
                     \times 2/3 {
 
                         d'32
-                        - \accent
 
-                        ef'32
-
-                        f'16
+                        cs'32
                         - \tenuto
                         ]
 
-                        r32
+                        r16
                         \!
 
-                        fs'32
-                        \mf
+                        cs'32
+                        \p
                         - \accent
-                        - \tweak stencil #abjad-flared-hairpin
                         \<
+                        [
+
+                        d'32
+                        - \espressivo
+                        ]
                         <>
-                        \f
+                        \mp
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
-                        eqf'2.
-                        \p
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
+                        r2.
+
+                        ef'4
+                        \mf
+                        - \tenuto
                         \<
 
-                        fs'4
-                        - \tenuto
-
-                        f'4
-                        \mp
+                        e'4
+                        \f
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1870,33 +1857,26 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
-                        ef'32
+                        r32
                         \!
-                        \mf
+
+                        d'32
+                        \p
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        f'32
-
-                        eqf'16
-                        - \tenuto
+                        e'16
                         ]
 
-                        r32
+                        r16
                         \!
-
-                        dqs'32
-                        \f
-                        - \accent
-                        \>
-                        <>
-                        \p
 
                     }
 
                     r8
+                    \bar "||"
 
                 }
 
@@ -1921,67 +1901,67 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
-                        a4
+                        aqs4
                         \mp
-                        - \espressivo
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        aqs4
-                        - \tenuto
-
-                        a2
+                        bf4
+                        - \accent
+                        <>
                         \mf
-                        - \tenuto
+
+                        r2
+
+                        aqs4
+                        \f
+                        - \espressivo
                         - \tweak stencil #constante-hairpin
                         \<
 
                         r4
                         \!
 
-                        bf4
-                        \f
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
                     }
 
-                    aqs4.
+                    bqf4.
                     \p
-                    - \tweak stencil #abjad-flared-hairpin
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
                     \<
 
                     bf16
                     - \tenuto
                     [
 
-                    bqs16
+                    bqf16
                     - \accent
 
+                    bqs16
+
                     cqs'16
-                    - \espressivo
+                    - \tenuto
+                    ~
+
+                    cqs'16
 
                     bqs16
-                    - \tenuto
+                    - \accent
                     ~
 
                     bqs16
 
-                    dqf'16
-                    - \tenuto
-                    ~
-
-                    dqf'16
+                    cs'8.
                     \mp
-
-                    cqs'8.
-                    \mf
-                    - \tweak stencil #constante-hairpin
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
                     ]
+                    <>
+                    \mf
 
                     r8
-                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/16
@@ -1991,18 +1971,19 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        bqs8.
+                        cqs'8.
                         \f
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        - \accent
+                        \>
                         ~
                         [
 
-                        bqs16
+                        cqs'16
 
-                        dqf'16
-                        - \accent
+                        bqs16
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
@@ -2010,45 +1991,47 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "8")
                     \times 5/6 {
 
-                        dqs'8
-                        \p
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-
-                        dqf'8
-                        - \tenuto
-                        ]
-
-                        ef'4
-                        - \tenuto
-                        <>
+                        cs'8
+                        \!
                         \mp
-
-                        r8
-
-                        eqs'8
-                        \mf
-                        - \accent
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+
+                        d'8
+                        - \accent
+                        ]
+
+                        r4
+                        \!
+
+                        cs'8
+                        \mf
+                        - \espressivo
+                        \<
                         [
+
+                        dqs'8
+                        - \tenuto
+                        ]
+                        <>
+                        \f
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                     \times 4/5 {
 
-                        ef'16.
-                        \f
+                        r16.
+
+                        e'32
+                        \p
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        dqf'32
-                        - \tenuto
-
-                        dqs'32
-                        - \accent
+                        r32
+                        \!
 
                     }
 
@@ -2056,40 +2039,44 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
-                        dqf'8
-                        - \espressivo
-
-                        ef'8
-                        - \tenuto
-
-                        aqf8
-                        \p
+                        dqs'8
+                        \mp
                         - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
+                        [
 
-                        fs'8
+                        cs'8
 
                         aqs8
-                        \mp
+                        \mf
+                        - \espressivo
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+
+                        e'8
+                        - \tenuto
+
+                        bqf8
+                        \f
                         - \tenuto
 
                     }
 
                     c'16
-                    \f
+                    \sfp
                     - \accent
                     - \tweak stencil #abjad-flared-hairpin
-                    \>
+                    \<
 
                     b16
-                    - \espressivo
 
                     cqs'16
                     - \tenuto
 
-                    d'16
-                    \sfp
-                    - \tenuto
+                    cs'16
+                    \ff
+                    - \accent
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
@@ -2102,122 +2089,124 @@
                     \times 24/25 {
 
                         cs'32
-                        \ff
-                        - \accent
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
+                        \ppppp
+                        - \espressivo
+                        \<
                         [
 
-                        dqs'32
-
-                        eqf'32
+                        d'32
                         - \tenuto
 
-                        f'32
-                        - \accent
+                        d'32
+                        - \tenuto
 
                         ef'32
+                        - \accent
+
+                        d'32
+
+                        cs'32
+                        - \tenuto
+
+                        cs'32
+                        - \accent
+
+                        d'32
                         - \espressivo
 
                         d'32
+                        - \tenuto
+
+                        d'32
+                        - \tenuto
+
+                        ef'32
+                        - \accent
+
+                        aqs32
+
+                        bqf32
+                        - \tenuto
+
+                        c'32
+                        - \accent
+
+                        bqf32
+                        - \espressivo
+
+                        aqs32
+                        - \tenuto
+
+                        b32
+                        - \tenuto
+
+                        aqs32
+                        - \accent
+
+                        e'32
+
+                        d'32
+                        - \tenuto
+
+                        d'32
+                        - \accent
+
+                        cs'32
+                        - \espressivo
+
+                        cqs'32
                         - \tenuto
 
                         cs'32
                         - \tenuto
 
-                        dqs'32
-                        - \accent
-
-                        eqf'32
-
-                        ef'32
-                        - \tenuto
-
-                        f'32
-                        - \accent
-
-                        aqf32
-                        - \espressivo
-
-                        aqs32
-                        - \tenuto
-
-                        c'32
-                        - \tenuto
-
-                        aqs32
-                        - \accent
-
-                        aqf32
-
-                        b32
-                        - \tenuto
-
-                        aqf32
-                        - \accent
-
-                        fs'32
-                        - \espressivo
-
-                        eqf'32
-                        - \tenuto
-
-                        dqs'32
-                        - \tenuto
-
                         d'32
-                        - \accent
-
-                        cqs'32
-
-                        d'32
-                        - \tenuto
-
-                        dqs'32
-                        \ppppp
+                        \mp
                         - \accent
 
                     }
 
-                    eqf'16
-                    \mf
-                    - \espressivo
+                    d'16
+                    \p
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
 
-                    dqs'16
-                    - \tenuto
-
-                    ef'8
-                    \f
+                    d'16
+                    \mp
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
 
-                    r16
+                    r8
                     \!
 
                     d'16
-                    \p
+                    \mf
                     - \accent
                     - \tweak stencil #constante-hairpin
                     \<
+                    [
+
+                    cs'16
+                    - \espressivo
+                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
-                        cqs'4.
-                        \mp
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
+                        r4.
+                        \!
 
-                        cs'8
+                        cqs'8
+                        \f
                         - \tenuto
-                        [
+                        \>
+                        <>
+                        \p
 
-                        dqs'8
-                        - \accent
+                        r8
 
                     }
 
@@ -2225,96 +2214,98 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
-                        eqf'16
-                        - \espressivo
-
-                        f'16
+                        cs'16
+                        \mp
                         - \tenuto
+                        \<
+                        [
 
-                        ef'16
+                        d'16
+                        - \accent
+
+                        d'16
                         \mf
-                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
-                    gqs'16
+                    e'16
+                    \!
                     \f
-                    - \accent
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-
-                    gqf'16
-
-                    gqs'16
                     - \tenuto
-
-                    g16
-                    - \accent
-
-                    gqs'16
-                    - \espressivo
-
-                    gqf'16
-                    - \tenuto
-
-                    eqs'16
-                    - \tenuto
-
-                    dqf'16
-                    - \accent
-
-                    dqs'16
-
-                    gqf'16
-                    - \tenuto
-
-                    gqs'16
-                    - \accent
-
-                    aqf'16
-                    - \espressivo
-
-                    af16
-                    - \tenuto
-
-                    aqf'16
-                    - \tenuto
-
-                    gqs'16
-                    - \accent
-
-                    gqf'16
-                    \p
                     - \tweak stencil #constante-hairpin
                     \<
+
+                    ef'16
+                    - \accent
+
+                    e'16
+                    - \espressivo
+
+                    aqs16
+                    - \tenuto
+
+                    e'16
+                    - \tenuto
+
+                    ef'16
+                    - \accent
+
+                    d'16
+
+                    cs'16
+                    - \tenuto
+
+                    cs'16
+                    - \accent
+
+                    ef'16
+                    - \espressivo
+
+                    e'16
+                    - \tenuto
+
+                    e'16
+                    - \tenuto
+
+                    bf16
+                    - \accent
+
+                    e'16
+
+                    e'16
+                    - \tenuto
+
+                    ef'16
+                    - \accent
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
-                        gqs'4
-                        \!
+                        e'4
+                        \p
+                        - \espressivo
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+
+                        ef'4
+                        - \tenuto
+                        <>
                         \mp
+
+                        r2
+
+                        e'4
+                        \mf
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        gqf'4
-                        - \accent
-
-                        aqf'2
-                        - \espressivo
-
                         r4
                         \!
-
-                        gqf'4
-                        \mf
-                        - \tenuto
-                        \<
-                        <>
-                        \f
 
                     }
 
@@ -2326,34 +2317,33 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        gqs'16
-                        \p
+                        ef'16
+                        \f
                         - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        gqf'16
-
-                        dqs'8
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        e'16
+                        - \espressivo
                         ]
 
-                        r16
+                        r8
                         \!
 
-                        eqs'16
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
+                        ef'16
+                        \p
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
+                        <>
+                        \mp
+
+                        r16
 
                     }
 
                     r8
-                    \!
 
                     r2
 
@@ -2364,102 +2354,101 @@
 
                     r8
 
-                    dqf'4
-                    \f
+                    cs'4
+                    \mf
                     - \tenuto
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
+                    \<
 
-                    fs'4.
-                    - \tenuto
+                    ef'4.
+                    - \accent
                     ~
 
-                    fs'16
+                    ef'16
                     [
 
-                    eqf'16
-                    - \accent
+                    dqf'16
                     ~
                     ]
 
-                    eqf'4
-                    \p
+                    dqf'4
+                    \f
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        af'8
-                        \mp
-                        - \tweak stencil #abjad-flared-hairpin
+                        eqf'8
+                        \!
+                        \p
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
 
-                        aqs'8
-                        - \tenuto
+                        e'8
+                        - \accent
                         ]
 
-                        aqf4
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        r8
+                        r4
                         \!
 
-                        aqs'8
-                        \mp
+                        bqf8
+                        \mf
                         - \espressivo
-                        - \tweak stencil #constante-hairpin
                         \<
                         [
+
+                        e'8
+                        \f
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        af'8.
-                        \mf
-                        - \tenuto
-                        \<
+                        r8.
+                        \!
 
                         eqf'16
+                        \sfp
                         - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        [
 
-                        dqs'16
-                        \f
+                        dqf'16
                         - \accent
+                        ]
+                        <>
+                        \ff
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        ef'16
-                        \sfp
-                        \<
+                        r16
 
                         cs'16
-                        - \tenuto
+                        \ppppp
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        [
 
-                        ef'8
-                        \ff
-                        - \accent
+                        dqf'8
+                        \mp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
 
-                        r16
+                        r8
                         \!
-
-                        dqs'16
-                        \ppppp
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
-                        <>
-                        \mp
 
                     }
 
@@ -2470,21 +2459,18 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        c'8
+                        cqs'8
                         \mf
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
+                        - \accent
                         \<
                         [
 
-                        b8
-                        - \tenuto
+                        dqf'8
+                        - \espressivo
 
-                        b8
+                        cs'8
                         \f
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        - \tenuto
 
                     }
 
@@ -2492,61 +2478,64 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
-                        cs'16
-                        \!
+                        c'16
                         \sfp
+                        - \tenuto
                         \<
 
-                        b16
-                        - \tenuto
-
-                        b16
+                        bqs16
                         - \accent
 
-                        gqf16
-                        \ff
-                        - \espressivo
+                        bqs16
 
-                        b16
-                        \f
+                        cqs'16
+                        \ff
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        b16
-                        - \tenuto
-
-                        cs'16
+                        bqs16
+                        \!
+                        \mp
                         - \accent
+                        \<
 
-                        ef'16
-
-                        eqf'16
-                        - \tenuto
-
-                        af'16
-                        - \accent
-
-                        gqf16
+                        bqs16
                         - \espressivo
 
-                        aqs'16
+                        aqs16
                         - \tenuto
 
-                        aqf16
+                        bqs16
                         - \tenuto
 
-                        aqs'16
+                        bqs16
                         - \accent
 
-                        gqf16
+                        cqs'16
+
+                        dqf'16
+                        - \tenuto
+
+                        dqf'16
+                        - \accent
+
+                        eqf'16
+                        - \espressivo
+
+                        aqs16
+                        - \tenuto
+
+                        e'16
+                        - \tenuto
                         ]
+                        <>
+                        \mf
 
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
-                    \!                                                         %! applying indicators
 
                     R1 * 3/8
 
@@ -2557,110 +2546,112 @@
 
                     r4
 
-                    bqf32
-                    \p
-                    - \tenuto
-                    \<
+                    d'32
+                    \f
+                    - \accent
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
                     [
+
+                    cs'32
+
+                    b32
+                    - \tenuto
 
                     c'32
                     - \accent
 
-                    dqs'32
+                    cs'32
                     - \espressivo
 
                     c'32
                     - \tenuto
 
-                    dqf'32
+                    cs'32
                     - \tenuto
 
-                    eqs'32
-                    - \accent
-
-                    dqf'32
-
-                    c'32
-                    \mp
-                    - \tenuto
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
-                    \times 8/9 {
-
-                        af16
-                        \mf
-                        - \accent
-                        \<
-
-                        g16
-                        - \espressivo
-
-                        af16
-                        - \tenuto
-
-                        aqf'16
-                        - \tenuto
-
-                        af16
-                        \f
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        g16
-                        \!
-                        \ppppp
-                        \<
-
-                        gqs'16
-                        - \tenuto
-
-                        g16
-                        - \accent
-
-                        aqf'16
-                        - \espressivo
-
-                    }
-
-                    gqf'8
-                    - \tenuto
-
-                    aqf'8
-                    - \tenuto
-                    ]
-
-                    gqs'4
-                    \mp
+                    d'32
+                    \p
                     - \accent
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r8
-                    \!
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
+                    \times 8/9 {
 
-                    gqf'8
-                    \mf
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
-                    <>
-                    \f
+                        cs'16
+                        \!
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
-                    \times 4/5 {
+                        c'16
+                        - \tenuto
 
-                        dqs'4.
-                        \sfp
+                        bf16
+                        - \accent
+
+                        aqs16
+                        - \espressivo
+
+                        bf16
+                        - \tenuto
+
+                        e'16
+                        \ppppp
                         - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        eqs'8
+                        bf16
                         - \accent
-                        [
 
-                        gqf'8
-                        - \espressivo
+                        aqs16
+
+                        e'16
+                        - \tenuto
+
+                    }
+
+                    aqs8
+                    - \accent
+
+                    e'8
+                    - \espressivo
+                    ]
+                    <>
+                    \mp
+
+                    r4
+
+                    ef'8
+                    \mf
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    [
+
+                    e'8
+                    \f
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ]
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
+                    \times 4/5 {
+
+                        r4.
+                        \!
+
+                        e'8
+                        \sfp
+                        - \accent
+                        \<
+                        <>
+                        \ff
+
+                        r8
 
                     }
 
@@ -2668,26 +2659,29 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
+                        ef'16
+                        \ppppp
+                        \<
+                        [
+
                         d'16
                         - \tenuto
 
                         cs'16
-                        - \tenuto
+                        - \accent
+
+                        cs'16
+                        - \espressivo
 
                         c'16
-                        - \accent
-
-                        cs'16
-
-                        cqs'16
                         - \tenuto
 
-                        d'16
-                        - \accent
+                        cs'16
+                        - \tenuto
 
                         cqs'16
-                        \ff
-                        - \espressivo
+                        \mp
+                        - \accent
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -2695,103 +2689,95 @@
 
                     cs'8
                     \!
-                    \ppppp
-                    - \tenuto
+                    \mf
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
 
-                    dqs'8
+                    cqs'8
                     - \tenuto
                     ]
-
-                    cs'4
-                    - \accent
                     <>
-                    \mp
+                    \f
 
-                    r8
+                    r4
 
-                    cqs'8
-                    \mf
+                    cs'8
+                    \sfp
+                    - \accent
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r2
+                    r8
                     \!
 
+                    r2
+
                     d'8
-                    \f
-                    - \tenuto
+                    \ff
+                    - \espressivo
+                    - \tweak stencil #abjad-flared-hairpin
                     \>
                     [
 
-                    cqs'8
-                    \sfp
-                    - \accent
+                    cs'8
+                    - \tenuto
                     ]
+                    <>
+                    \ppppp
 
-                    cs'4
-                    \p
-                    - \espressivo
-                    - \tweak stencil #constante-hairpin
-                    \<
+                    r4
 
-                    r8
-                    \!
-
-                    c'8
-                    \mp
+                    cqs'8
+                    \mf
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     [
+
+                    cs'8
+                    - \accent
+                    ]
                     <>
-                    \mf
+                    \f
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        aqs8.
-                        \f
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-
-                        b16
-                        - \accent
+                        r8.
 
                         cqs'16
                         \p
+                        \<
+                        [
+
+                        cs'16
+                        \mp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        b16
-                        \!
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-
-                        aqs16
-                        - \accent
-
-                        fs'8
-                        - \espressivo
-                        ]
-
                         r16
                         \!
 
-                        aqs16
+                        c'16
                         \mf
-                        - \tenuto
+                        - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
-                        <>
-                        \f
+                        [
+
+                        bqf8
+                        - \espressivo
+                        ]
+
+                        r8
+                        \!
 
                     }
 
@@ -2801,6 +2787,7 @@
                     r1 * 1/8
 
                     R1 * 1/8
+                    \bar "||"
 
                 }
 
@@ -2817,229 +2804,231 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Violoncello }                                    %! applying staff names and clefs
                     \clef "bass"
-                    a4
-                    \p
+                    aqs4
+                    \f
                     - \tenuto
-                    \<
+                    \>
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
 
-                        a16
-                        \mp
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        aqs16
+                        \p
                         [
 
-                        f'8
-                        \!
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
+                        e'8
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
                         ~
 
-                        f'16
+                        e'16
 
-                        a16
+                        aqs16
+                        - \accent
                         ~
                         ]
 
-                        a4.
+                        aqs4.
 
-                        bf8
-                        - \tenuto
+                        bqf8
                         ~
                         [
 
-                        bf16
+                        bqf16
 
-                        bf16
+                        bqf16
+                        - \tenuto
+
+                        bqf16
                         - \accent
 
-                        bf16
+                        aqs16
                         - \espressivo
-
-                        a16
-                        - \tenuto
                         ~
 
                     }
 
-                    a8.
-
-                    aqs16
-                    \f
-                    - \tenuto
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-                    ~
-
-                    aqs16
+                    aqs8.
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     bf16
-                    - \accent
+                    \!
+                    \f
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ~
+
+                    bf16
+
+                    bqf16
+                    - \tenuto
                     ~
                     ]
 
-                    bf4
-
-                    a8
-                    ~
-
-                    a4
+                    bqf4
 
                     aqs8
-                    - \tenuto
+                    - \accent
+                    ~
+
+                    aqs4
+
+                    bf8
                     ~
                     [
 
-                    aqs8
-                    \p
+                    bf8
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        a16
-                        \mp
-                        - \espressivo
+                        aqs16
+                        \p
+                        - \tenuto
                         - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        bf16
-                        - \tenuto
+                        bqf16
+                        - \accent
+                        ]
+                        <>
+                        \mp
 
-                        aqs8
+                        r8
+
+                        bf16
                         \mf
+                        \<
+                        [
+
+                        aqs16
+                        \f
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
-
-                        r16
-                        \!
-
-                        a16
-                        \f
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        [
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        bf8.
-                        \p
-                        \<
-
-                        aqs16
-                        - \tenuto
-
-                        a16
-                        \mp
-                        - \accent
-
-                    }
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                    \times 2/3 {
-
-                        bf16
-                        \mf
-                        - \espressivo
-                        \<
-
-                        bf16
-                        - \tenuto
-
-                        bf8
-                        \f
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        ]
-
-                        r16
+                        r8.
                         \!
 
-                        bqs16
+                        bqf16
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
                         [
 
+                        bf16
+                        - \espressivo
+                        ]
+
                     }
 
-                    cqs'8
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                    \times 2/3 {
+
+                        r16
+                        \!
+
+                        aqs16
+                        \mp
+                        - \tenuto
+                        \<
+                        [
+
+                        bqf8
+                        - \tenuto
+                        ]
+                        <>
+                        \mf
+
+                        r8
+
+                    }
+
+                    bqf8
+                    \f
+                    - \accent
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
+                    [
+
+                    bqf8
 
                     bqs8
+                    \p
                     - \tenuto
-
-                    dqf'8
-                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 14) "16")
                     \times 14/15 {
 
                         cqs'16
+                        \!
                         \mp
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
+                        - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
 
                         bqs16
-                        - \tenuto
-
-                        bf16
-                        - \tenuto
-
-                        aqs16
-                        - \accent
-
-                        bf16
-
-                        a16
-                        - \tenuto
-
-                        aqs16
-                        - \accent
-
-                        aqf16
                         - \espressivo
 
-                        aqs16
+                        cs'16
                         - \tenuto
 
-                        fs'16
+                        cqs'16
+                        - \tenuto
+
+                        bqs16
+                        - \accent
+
+                        bqf16
+
+                        bf16
                         - \tenuto
 
                         aqs16
                         - \accent
 
-                        aqf16
+                        bqf16
+                        - \espressivo
+
+                        e'16
+                        - \tenuto
+
+                        bqf16
+                        - \tenuto
+
+                        aqs16
+                        - \accent
 
                         b16
-                        - \tenuto
-
-                        aqf16
-                        - \accent
 
                         aqs16
-                        - \espressivo
+                        - \tenuto
+
+                        bqf16
+                        - \accent
                         ]
-                        <>
-                        \mf
 
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \!                                                         %! applying indicators
 
                     R1 * 3/8
 
@@ -3048,83 +3037,81 @@
                     \times 24/23 {
 
                         c'32
-                        \f
-                        - \tenuto
+                        \mf
+                        - \espressivo
                         - \tweak stencil #abjad-flared-hairpin
-                        \>
+                        \<
                         [
 
                         cs'32
                         - \tenuto
 
+                        cs'32
+                        - \tenuto
+
+                        cqs'32
+                        - \accent
+
+                        b32
+
+                        c'32
+                        - \tenuto
+
+                        bqf32
+                        - \accent
+
+                        e'32
+                        - \espressivo
+
+                        ef'32
+                        - \tenuto
+
+                        aqs32
+                        - \tenuto
+
+                        b32
+                        - \accent
+
+                        c'32
+
+                        bqf32
+                        - \tenuto
+
+                        c'32
+                        - \accent
+
+                        cqs'32
+                        - \espressivo
+
+                        b32
+                        - \tenuto
+
+                        aqs32
+                        - \tenuto
+
+                        e'32
+                        - \accent
+
                         d'32
-                        - \accent
 
-                        cqs'32
-
-                        b32
+                        e'32
                         - \tenuto
 
-                        c'32
+                        ef'32
                         - \accent
 
                         aqs32
                         - \espressivo
 
-                        fs'32
-                        - \tenuto
-
-                        f'32
-                        - \tenuto
-
-                        aqf32
-                        - \accent
-
-                        b32
-
-                        c'32
-                        - \tenuto
-
-                        aqs32
-                        - \accent
-
-                        c'32
-                        - \espressivo
-
-                        cqs'32
-                        - \tenuto
-
                         b32
                         - \tenuto
-
-                        aqf32
-                        - \accent
-
-                        fs'32
-
-                        eqf'32
-                        - \tenuto
-
-                        fs'32
-                        - \accent
-
-                        f'32
-                        - \espressivo
-
-                        aqf32
-                        - \tenuto
-
-                        b32
-                        \p
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
                         ]
+                        <>
+                        \f
 
                     }
 
                     r4.
-                    \!
 
                     r8
 
@@ -3132,163 +3119,171 @@
                     \times 2/3 {
 
                         c'8
+                        \p
+                        - \tenuto
+                        \<
+                        [
+
+                        bqf8
                         \mp
                         - \accent
                         - \tweak stencil #constante-hairpin
                         \<
-                        [
-
-                        aqs8
                         ]
 
-                        c'4
+                        r4
+                        \!
+
+                        c'8
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        [
+
+                        cqs'8
                         - \tenuto
+                        ]
+
+                    }
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
+                    \times 4/5 {
+
+                        r8.
+                        \!
+
+                        e'16
+                        \f
+                        - \accent
+                        \>
+                        <>
+                        \p
+
+                        r16
+
+                    }
+
+                    ef'16
+                    \mp
+                    - \espressivo
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
+                    [
+
+                    ef'16
+                    - \tenuto
+
+                    cs'16
+                    - \tenuto
+
+                    c'16
+                    - \accent
+
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
+                    \times 2/3 {
+
+                        b16
+
+                        cs'16
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
+                        ]
 
                         r8
                         \!
 
-                        cqs'8
-                        \mf
+                        b16
+                        \f
                         - \accent
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
-                        <>
-                        \f
-
-                    }
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
-                    \times 4/5 {
-
-                        \clef "tenorvarC"
-                        gqs'8.
-                        \p
-                        - \espressivo
-                        \<
-
-                        gqf'16
-                        - \tenuto
-
-                        gqf'16
-                        - \tenuto
-
-                    }
-
-                    dqs'16
-                    - \accent
-
-                    c'16
-
-                    bqf16
-                    - \tenuto
-
-                    dqf'16
-                    - \accent
-
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                    \times 2/3 {
-
-                        bqf16
-                        - \espressivo
 
                         c'16
-                        - \tenuto
-
-                        af8
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        - \espressivo
                         ]
-
-                        r16
-                        \!
-
-                        g16
-                        \mf
-                        - \accent
-                        - \tweak stencil #constante-hairpin
-                        \<
-                        [
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        aqf'8.
+                        r8.
+                        \!
 
-                        gqf'16
+                        bf16
+                        \p
                         - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
+                        \<
+                        [
 
-                        aqf'16
-                        - \accent
+                        aqs16
+                        - \tenuto
+                        ]
+                        <>
+                        \mp
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        gqs'16
-                        \f
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
-                        \>
-
-                        g16
-                        - \tenuto
-
-                        af8
-                        - \tenuto
-                        ]
-                        <>
-                        \p
-
                         r16
 
-                        af16
-                        \mp
+                        e'16
+                        \mf
                         - \accent
+                        \<
+                        [
+
+                        ef'8
+                        \f
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
+
+                        r8
+                        \!
 
                     }
 
                     r1
-                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
 
                     R1 * 1/8
 
-                    bqf4
-                    \ff
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-
-                    dqf'8
+                    e'4
+                    \mp
                     - \tenuto
+                    \<
 
-                    dqs'4
+                    e'8
                     - \accent
 
-                    c'4
+                    aqs4
                     - \espressivo
+
+                    bf4
+                    - \tenuto
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
-                        c'4
-                        \ppppp
+                        bf4
+                        \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
                     }
 
-                    af8
+                    bf8
                     \!
-                    \mf
+                    \p
                     - \tenuto
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3300,48 +3295,48 @@
 
                     r4
 
-                    fs'4
-                    \f
-                    - \tenuto
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-                    ~
-
-                    fs'16
-                    \p
-                    [
-
-                    af'8.
+                    ef'4
                     \mp
                     - \accent
                     \<
                     ~
 
+                    ef'16
+                    \mf
+                    [
+
+                    eqf'8.
+                    \f
+                    - \tweak stencil #abjad-flared-hairpin
+                    \>
+                    ~
+
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
-                        af'16
-                        \mf
+                        eqf'16
+                        \p
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        gqf8
+                        aqs8
                         \!
-                        \f
+                        \mp
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
                         ~
 
-                        gqf8.
+                        aqs8.
                         ~
 
-                        gqf16
+                        aqs16
 
-                        aqf16
-                        - \tenuto
-
-                        aqs'16
+                        bqf16
                         - \accent
+
+                        e'16
+                        - \espressivo
                         ]
 
                     }
@@ -3354,51 +3349,54 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        aqf16
-                        \p
-                        - \accent
+                        bqf16
+                        \mf
+                        - \tenuto
+                        - \tweak stencil #abjad-flared-hairpin
                         \<
                         [
 
-                        b16
-                        - \espressivo
-
-                        c'8
-                        - \tenuto
+                        bqs16
+                        - \accent
                         ]
                         <>
+                        \f
+
+                        r8
+
+                        c'16
+                        \p
+                        - \espressivo
+                        \<
+                        [
+
+                        bqs16
                         \mp
-
-                        r16
-
-                        b16
-                        \mf
                         - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
+                        ]
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        aqf4.
-                        \f
-                        - \accent
+                        r4.
+                        \!
+
+                        bqf8
+                        \mf
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        aqs'8
-                        [
-
-                        aqf8
-                        - \tenuto
-                        ]
+                        r8
+                        \!
 
                     }
 
                     r2
-                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
@@ -3408,24 +3406,23 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        bqf16
-                        \mp
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
+                        b16
+                        \f
+                        - \tenuto
+                        \>
                         [
 
-                        af16
+                        cs'16
                         - \tenuto
 
-                        aqf'16
-                        - \tenuto
-
-                        gqs'16
+                        cs'16
                         - \accent
 
-                        gqf'16
-                        \mf
+                        c'16
+
+                        bf16
+                        \sfp
+                        - \tenuto
 
                     }
 
@@ -3433,73 +3430,74 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
-                        gqs'8
-                        \f
-                        - \tenuto
+                        b8
+                        \ff
+                        - \accent
+                        - \tweak stencil #abjad-flared-hairpin
                         \>
 
-                        gqf'8
-                        \sfp
-                        - \accent
+                        bf8
+                        \ppppp
+                        - \espressivo
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        eqs'8
+                        e'8
                         \!
-                        \p
-                        - \espressivo
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
+                        \f
+                        - \tenuto
+                        \>
                         ]
                         <>
-                        \mp
+                        \p
 
                     }
 
                     r2
 
-                    gqf'8
-                    \mf
+                    e'8
+                    \mp
                     - \tenuto
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     [
 
-                    gqs'8
-                    - \tenuto
+                    ef'8
+                    \mf
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
-                    gqf'4
+                    r4
+                    \!
+
+                    e'8
                     \f
-                    - \accent
                     - \tweak stencil #constante-hairpin
                     \<
 
                     r8
                     \!
 
-                    dqs'8
-                    \p
-                    - \tweak stencil #constante-hairpin
+                    ef'16
+                    \mp
+                    - \tenuto
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
                     [
 
-                    eqs'16
-                    \ff
-                    - \tenuto
-                    \>
-
-                    gqf'16
+                    d'16
                     - \accent
 
-                    aqf'16
+                    ef'16
                     - \espressivo
 
-                    g16
+                    e'16
                     - \tenuto
                     ]
                     <>
-                    \ppppp
+                    \mf
 
                     r2
 
@@ -3507,156 +3505,155 @@
                     \times 2/3 {
 
                         b16
-                        \mp
+                        \f
                         - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
-                        \<
+                        \>
                         [
 
                         cqs'16
+                        \sfp
                         - \accent
-
-                        c'8
-                        \mf
                         - \tweak stencil #constante-hairpin
                         \<
                         ]
 
-                        r16
+                        r8
                         \!
 
-                        aqs16
-                        \f
-                        - \tenuto
-                        - \tweak stencil #abjad-flared-hairpin
+                        c'16
+                        \ff
                         \>
                         [
+
+                        bqf16
+                        - \tenuto
+                        ]
                         <>
-                        \sfp
+                        \ppppp
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        fs'8.
-                        \ff
+                        r8.
+
+                        e'16
+                        \mp
                         - \accent
-                        \>
+                        - \tweak stencil #constante-hairpin
+                        \<
 
-                        aqf16
-                        - \espressivo
-
-                        b16
-                        - \tenuto
-                        ]
+                        r16
+                        \!
 
                     }
 
-                    cqs'4
-                    - \tenuto
+                    aqs4
+                    \mf
+                    - \espressivo
+                    - \tweak stencil #abjad-flared-hairpin
+                    \<
                     ~
 
-                    cqs'8.
+                    aqs8.
                     [
+
+                    b16
+                    - \tenuto
+
+                    cqs'16
+                    - \tenuto
 
                     c'16
                     - \accent
 
-                    aqs16
+                    bqf8
 
-                    c'16
+                    c'8
                     - \tenuto
 
                     b8
                     - \accent
-
-                    aqf8
-                    - \espressivo
-
-                    f'8
-                    - \tenuto
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
-                        f'16
-                        \ppppp
+                        b16
+                        \f
+
+                        aqs8
+                        \sfp
+                        - \espressivo
                         - \tweak stencil #constante-hairpin
                         \<
-
-                        eqf'8
-                        \!
-                        \mp
-                        - \tenuto
-                        \<
                         ]
-                        <>
-                        \mf
 
                     }
 
                     r2
+                    \!
 
-                    fs'8
-                    \mp
+                    ef'8
+                    \p
                     - \accent
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
                     [
 
-                    aqs8
-                    - \espressivo
+                    d'8
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
-                        aqs8
-                        \mf
+                        d'8
+                        \mp
                         ]
 
-                        aqf4
-                        \f
+                        e'4
+                        \mf
                         - \tenuto
-                        \>
+                        \<
 
                     }
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        b8
-                        - \tenuto
+                        bqf8
+                        - \accent
                         [
 
-                        aqf8
-                        - \accent
+                        aqs8
+                        \f
+                        - \espressivo
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
-                        aqs4
+                        r4
+                        \!
+
+                        b8
                         \p
+                        - \tenuto
                         - \tweak stencil #constante-hairpin
                         \<
 
                         r8
                         \!
 
-                        fs'8
-                        \mp
-                        - \tenuto
-                        - \tweak stencil #constante-hairpin
-                        \<
-
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
-                    \!                                                         %! applying indicators
 
                     R1 * 1/8
+                    \bar "||"
 
                 }
 

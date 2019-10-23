@@ -38,6 +38,8 @@ maker = evans.SegmentMaker(
     cutaway=False,
     # beam_pattern="quarters",
     beam_pattern="runs",
+    barline="||",
+    tempo=((1, 4), 90),
 )
 
 maker.build_segment()
