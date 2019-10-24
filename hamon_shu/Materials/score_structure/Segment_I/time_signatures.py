@@ -25,7 +25,7 @@ permitted_meters = abjad.MeterList(
 )
 
 fitted_meters = abjad.Meter.fit_meters(
-    argument=offset_counter, meters=permitted_meters, maximum_run_length=1  # was 2
+    argument=offset_counter, meters=permitted_meters, maximum_run_length=1
 )
 
 time_signatures = [abjad.TimeSignature(_) for _ in fitted_meters]

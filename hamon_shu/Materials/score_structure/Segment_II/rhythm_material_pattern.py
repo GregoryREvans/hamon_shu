@@ -4,38 +4,53 @@ from hamon_shu.Materials.rhythm.Segment_II.rhythm_handlers import *
 
 key_list_1 = [
     "rhythm_handler_three",
+    "rhythm_handler_four",
+    "rhythm_handler_five",
     "rhythm_handler_three",
-    "rhythm_handler_four",
-    "rhythm_handler_four",
+    "rhythm_handler_three",
     "rhythm_handler_five",
     "rhythm_handler_five",
+    "rhythm_handler_five",
+    "rhythm_handler_five",
+    "rhythm_handler_three",
 ]
 
 key_list_2 = [
-    "rhythm_handler_three",
-    "rhythm_handler_three",
-    "rhythm_handler_four",
-    "rhythm_handler_four",
     "rhythm_handler_five",
+    "rhythm_handler_five",
+    "rhythm_handler_five",
+    "rhythm_handler_three",
+    "rhythm_handler_three",
+    "rhythm_handler_three",
+    "rhythm_handler_four",
+    "rhythm_handler_four",
+    "rhythm_handler_three",
     "rhythm_handler_five",
 ]
 
 key_list_3 = [
+    "rhythm_handler_four",
+    "rhythm_handler_four",
     "rhythm_handler_three",
     "rhythm_handler_three",
     "rhythm_handler_four",
-    "rhythm_handler_four",
     "rhythm_handler_five",
     "rhythm_handler_five",
+    "rhythm_handler_five",
+    "rhythm_handler_three",
 ]
 
 key_list_4 = [
     "rhythm_handler_three",
     "rhythm_handler_three",
-    "rhythm_handler_four",
-    "rhythm_handler_four",
     "rhythm_handler_five",
     "rhythm_handler_five",
+    "rhythm_handler_three",
+    "rhythm_handler_three",
+    "rhythm_handler_five",
+    "rhythm_handler_three",
+    "rhythm_handler_five",
+    "rhythm_handler_three",
 ]
 
 dict = {

@@ -16,16 +16,16 @@ permitted_meters = abjad.MeterList(
         (3, 4),
         (5, 8),
         (2, 4),
-        (3, 8),
-        (5, 16),
-        (1, 4),
+        # (3, 8),
+        # (5, 16),
+        # (1, 4),
         # (3, 16),
         # (1, 8),
     ]
 )
 
 fitted_meters = abjad.Meter.fit_meters(
-    argument=offset_counter, meters=permitted_meters, maximum_run_length=2
+    argument=offset_counter, meters=permitted_meters, maximum_run_length=1
 )
 
 time_signatures = [abjad.TimeSignature(_) for _ in fitted_meters]

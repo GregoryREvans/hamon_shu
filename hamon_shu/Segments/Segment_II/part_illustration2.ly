@@ -20,68 +20,47 @@
         {
 
             \tempo 8=40
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 2/4                                                          %! scaling time signatures
-            s1 * 1/2
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 9/8                                                          %! scaling time signatures
-            s1 * 9/8
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
-
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
-
-            \time 3/8                                                          %! scaling time signatures
-            s1 * 3/8
+            \time 5/4                                                          %! scaling time signatures
+            s1 * 5/4
 
             \time 7/8                                                          %! scaling time signatures
             s1 * 7/8
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
 
-            \time 1/4                                                          %! scaling time signatures
-            s1 * 1/4
+            \time 7/8                                                          %! scaling time signatures
+            s1 * 7/8
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
+
+            \time 5/8                                                          %! scaling time signatures
+            s1 * 5/8
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
+
+            \time 3/4                                                          %! scaling time signatures
+            s1 * 3/4
+
+            \time 2/4                                                          %! scaling time signatures
+            s1 * 1/2
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
@@ -96,225 +75,247 @@
             \markup { "vln. II" }                                              %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { "Violin II" }                                            %! applying staff names and clefs
-            \once \override Rest.transparent = ##t                             %! applying invisibility
             \clef "treble"
-            r1 * 1/8
-
-            R1 * 1/8
-
-            r8
-
-            \times 8/13 {
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 6/11 {
-
-                    c'16.
-                    \f
-                    - \accent
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-                    [
-
-                    cqs'64
-                    - \espressivo
-                    ~
-
-                    cqs'16
-
-                }
-
-                b16
-                - \tenuto
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/6 {
-
-                    aqf32
-                    - \tenuto
-
-                    aqs32
-                    \sfp
-                    - \accent
-                    - \tweak stencil #constante-hairpin
-                    \<
-
-                    c'32
-                    \!
-                    \mf
-                    - \tweak stencil #constante-hairpin
-                    \<
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/9 {
-
-                    aqs16
-                    - \tenuto
-
-                    b32
-                    - \accent
-                    ~
-
-                    b32.
-
-                }
-
-                aqf16.
-                - \espressivo
-
-            }
-
-            \times 16/29 {
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 6/11 {
-
-                    f'16.
-                    \f
-                    - \tenuto
-                    \>
-                    ~
-
-                    f'16
-                    ~
-
-                    f'32
-
-                    eqf'32
-                    - \tenuto
-                    ~
-
-                    eqf'8
-
-                }
-
-                fs'32
-                - \accent
-                ~
-
-                fs'8
-                ~
-
-                fs'32
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 1/1 {
-
-                    aqs16
-
-                    aqf16
-                    - \tenuto
-
-                    b16
-                    - \accent
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/6 {
-
-                    aqf16
-                    - \espressivo
-                    ~
-
-                    aqf32
-
-                    aqs32
-                    - \tenuto
-                    ~
-
-                    aqs16
-
-                }
-
-                fs'8.
-                \p
-                - \tenuto
-                ]
-
-            }
-
-            aqs4.
-            \mp
-            - \accent
-            - \tweak stencil #constante-hairpin
-            \<
-
-            b4.
-            \mf
-            - \tweak stencil #constante-hairpin
-            \<
-
             r4.
+
+            aqf4
+            \mf
+            - \accent
+            \<
+            ~
+
+            aqf2
+            \f
+            - \tweak stencil #constante-hairpin
+            \<
+
+            aqs2.
             \!
+            \f
+            - \espressivo
+            - \tweak stencil #constante-hairpin
+            \<
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            r1 * 5/16
+            \!                                                                 %! applying indicators
 
-            R1 * 1/8
+            R1 * 5/16
 
             r8
 
             bqs8
-            \f
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \>
+            \p
+            - \accent
+            - \tweak stencil #constante-hairpin
+            \<
             ~
             [
 
             bqs8
             ]
-            <>
-            \p
 
             r8
+            \!
 
-            r4
-
-            r8
+            r4.
 
             cs'8
             \mp
             - \tenuto
             - \tweak stencil #abjad-flared-hairpin
             \<
-            ~
-
-            cs'4.
+            [
+            <>
             \mf
+
+            bqs8
+            \f
+            - \tenuto
+            - \tweak stencil #constante-hairpin
+            \<
+            ]
+
+            d'4
+            \p
+            - \accent
             - \tweak stencil #constante-hairpin
             \<
 
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 3/16
-            \!                                                                 %! applying indicators
+            r1
+            \!
 
-            R1 * 3/16
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 7/13 {
 
-            r2
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 6/11 {
+
+                    f'8.
+                    \mp
+                    \<
+                    ~
+                    [
+
+                    f'8
+                    ~
+
+                    f'16
+
+                    ef'16
+                    - \tenuto
+                    ~
+                    ]
+
+                    ef'4
+                    \mf
+
+                }
+
+                f'4
+                \sfp
+                - \accent
+                - \tweak stencil #abjad-flared-hairpin
+                \<
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 5/6 {
+
+                    eqf'8
+                    - \espressivo
+                    [
+
+                    dqs'8
+                    - \tenuto
+
+                    cs'8
+                    - \tenuto
+
+                }
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 5/9 {
+
+                    d'8.
+                    - \accent
+                    ~
+
+                    d'16
+
+                    ef'8
+                    ~
+
+                    ef'8.
+                    \ff
+
+                }
+
+                f'8
+                \f
+                - \espressivo
+                \>
+                ~
+                ]
+
+                f'4
+                \p
+                - \tweak stencil #constante-hairpin
+                \<
+
+            }
+
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 24/29 {
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 6/11 {
+
+                    fs'32.
+                    \!
+                    \mp
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
+                    ~
+                    [
+
+                    fs'32
+                    ~
+
+                    fs'64
+
+                    eqf'64
+                    - \tenuto
+                    ~
+
+                    eqf'16
+
+                }
+
+                fs'64
+                - \accent
+                ~
+
+                fs'16
+                ~
+
+                fs'64
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 1/1 {
+
+                    aqf32
+
+                    b32
+                    - \tenuto
+
+                    aqf32
+                    - \accent
+
+                }
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 5/6 {
+
+                    aqs32
+                    - \espressivo
+                    ~
+
+                    aqs64
+
+                    ef'64
+                    - \tenuto
+                    ~
+
+                    ef'32
+
+                }
+
+                f'16.
+                - \tenuto
+                ]
+
+            }
+
+            r8
+            \!
 
             r8
 
-            \times 2/3 {
+            \times 4/5 {
 
-                f'16.
-                \f
-                - \accent
-                - \tweak stencil #constante-hairpin
+                fs'16.
+                \mf
+                - \tenuto
+                - \tweak stencil #abjad-flared-hairpin
                 \<
                 [
 
-                ef'16.
-                - \espressivo
+                fs'16.
+                - \accent
 
                 f'8
-                \ff
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \>
+                - \espressivo
                 ~
 
                 f'16
@@ -322,350 +323,90 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
-                    eqf'16
+                    fs'16
                     - \tenuto
 
-                    dqs'16
-                    - \accent
+                    f'16
+                    \f
+                    - \tenuto
 
-                    cs'16
-
-                }
-
-                d'16
-                - \tenuto
-                ~
-
-                d'32
-
-                ef'16.
-                - \accent
-
-                f'8.
-                \ppppp
-                - \espressivo
-
-            }
-
-            \times 8/13 {
-
-                \times 4/5 {
-
-                    fs'32
+                    fs'16
                     \p
                     - \accent
+                    - \tweak stencil #abjad-flared-hairpin
                     \<
-
-                    eqf'64
-                    - \espressivo
-                    ~
-
-                    eqf'32
 
                 }
 
-                fs'8
-                - \tenuto
+                f'16
                 ~
 
-                fs'8
+                f'32
 
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 3/5 {
-
-                    aqf8
-                    - \tenuto
-
-                    b16
-                    - \accent
-
-                    aqf8
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 6/7 {
-
-                    aqs16.
-                    - \tenuto
-                    ~
-
-                    aqs32
-
-                    c'32
-                    - \accent
-                    ~
-
-                    c'16
-
-                }
-
-                aqs8
-                \mp
-                - \espressivo
-
-            }
-
-            \times 16/17 {
-
-                \times 2/3 {
-
-                    ef'128.
-                    \mf
-                    - \tenuto
-                    \<
-                    ~
-
-                    ef'256
-
-                    f'128
-                    - \tenuto
-                    ~
-
-                    f'128.
-
-                }
-
-                fs'32
-                - \accent
-
-                \times 2/3 {
-
-                    fs'128
-
-                    f'256
-                    - \tenuto
-                    ~
-
-                    f'128
-
-                    fs'256
-                    - \accent
-                    ~
-
-                    fs'128.
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/7 {
-
-                    f'64.
-                    - \espressivo
-                    ~
-
-                    f'128
-
-                    fs'128
-                    - \tenuto
-                    ~
-
-                    fs'64
-
-                }
-
-                f'64
-                \f
+                fs'16.
                 - \tenuto
+
+                aqf8.
+                \mp
+                - \accent
                 - \tweak stencil #constante-hairpin
                 \<
                 ]
 
             }
 
-            r8
+            a4
             \!
-
-            r8
-
-            \times 16/21 {
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 10/11 {
-
-                    fs'128.
-                    \p
-                    - \tenuto
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    ~
-                    [
-
-                    fs'128
-                    ~
-
-                    fs'256
-
-                    aqf256
-                    - \tenuto
-                    ~
-
-                    aqf64
-
-                }
-
-                a64
-                - \accent
-                ~
-
-                a64
-
-                \times 4/5 {
-
-                    b128
-
-                    cs'512
-                    - \tenuto
-                    ~
-
-                    cs'128
-
-                    b512
-                    - \accent
-                    ~
-
-                    b256.
-                    ~
-
-                    b256
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/7 {
-
-                    a64.
-                    - \espressivo
-                    ~
-
-                    a128
-
-                    c'128
-                    - \tenuto
-                    ~
-
-                    c'64
-
-                }
-
-                d'32
-                - \tenuto
-
-            }
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 10/13 {
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 6/11 {
-
-                    cs'16.
-                    \mp
-                    - \accent
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
-                    ~
-
-                    cs'16
-                    ~
-
-                    cs'32
-
-                    ef'32
-                    ~
-
-                    ef'8
-
-                }
-
-                f'8
-                - \tenuto
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/6 {
-
-                    fs'16
-                    \mf
-                    - \accent
-
-                    f'16
-                    \f
-                    - \espressivo
-                    - \tweak stencil #abjad-flared-hairpin
-                    \>
-
-                    d'16
-                    - \tenuto
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/9 {
-
-                    cs'16.
-                    - \tenuto
-                    ~
-
-                    cs'32
-
-                    b16
-                    - \accent
-                    ~
-
-                    b16.
-
-                }
-
-                a16
-                ~
-
-                a8
-
-            }
-
-            aqf8
-            - \tenuto
+            \mf
+            - \espressivo
+            - \tweak stencil #constante-hairpin
+            \<
             ~
+
+            a8
+            [
+
+            b8
+            - \tenuto
             ]
 
-            aqf4.
+            cs'4
+            \f
+            - \tenuto
+            \>
+            <>
             \p
-            - \tweak stencil #constante-hairpin
-            \<
 
-            fs'4.
-            \!
-            \mp
+            b8
+            \ppppp
             - \accent
-            - \tweak stencil #constante-hairpin
+            - \tweak stencil #abjad-flared-hairpin
             \<
             ~
 
-            fs'4
+            b4
             ~
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 3/2 {
+            b4
+            ~
 
-                fs'4
+            b8
+            \mp
+            - \tweak stencil #constante-hairpin
+            \<
 
-            }
-
-            \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 7/16
-            \!                                                                 %! applying indicators
-
-            R1 * 7/16
+            r8
+            \!
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            r1 * 3/8
 
-            R1 * 1/8
+            R1 * 3/8
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
-            r1 * 1/8
+            r1 * 1/4
 
-            R1 * 1/8
+            R1 * 1/4
             \bar "||"
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
