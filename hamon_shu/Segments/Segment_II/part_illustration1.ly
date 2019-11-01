@@ -77,14 +77,19 @@
             \markup { "Violin I" }                                             %! applying staff names and clefs
             \clef "treble"
             bf8
-            \f
             \!                                                                 %! attaching persistent indicators
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
+            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
+            - \upbow                                                           %! baca.bcps():BCPCommand(5)
+            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             aqf4
-            - \accent
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             aqf4
@@ -93,7 +98,6 @@
             aqf8
 
             r8
-            \!
 
             r4
 
@@ -105,16 +109,13 @@
                 \times 2/3 {
 
                     a16.
-                    \p
-                    - \tweak stencil #abjad-flared-hairpin
-                    \<
+                    - \tenuto
                     ~
                     [
 
                     a32
 
                     bf16
-                    - \tenuto
                     ~
 
                     bf16.
@@ -123,22 +124,20 @@
                 }
 
                 bqs4
-                - \accent
 
                 \times 2/3 {
 
                     cs'16
-                    - \espressivo
+                    - \tenuto
                     [
 
                     d'32
-                    - \tenuto
+                    - \accent
                     ~
 
                     d'16
 
                     e'32
-                    - \tenuto
                     ~
 
                     e'16.
@@ -149,7 +148,6 @@
                 \times 5/7 {
 
                     ef'8.
-                    - \accent
                     ~
 
                     ef'16
@@ -158,15 +156,11 @@
                     ~
 
                     e'8
-                    \mp
 
                 }
 
                 fs'8
-                \sfp
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
+                ]
 
             }
 
@@ -177,10 +171,9 @@
                 \times 10/11 {
 
                     fqs'32.
-                    \ff
                     - \tenuto
-                    \>
                     ~
+                    [
 
                     fqs'32
                     ~
@@ -188,7 +181,6 @@
                     fqs'64
 
                     fs'64
-                    - \tenuto
                     ~
 
                     fs'16
@@ -196,7 +188,6 @@
                 }
 
                 eqf'16
-                - \accent
                 ~
 
                 eqf'16
@@ -204,15 +195,15 @@
                 \times 4/5 {
 
                     f'32
+                    - \tenuto
 
                     aqf128
-                    - \tenuto
+                    - \accent
                     ~
 
                     aqf32
 
                     b128
-                    - \accent
                     ~
 
                     b64.
@@ -226,13 +217,11 @@
                 \times 5/7 {
 
                     c'16.
-                    - \espressivo
                     ~
 
                     c'32
 
                     aqs32
-                    - \tenuto
                     ~
 
                     aqs16
@@ -240,10 +229,7 @@
                 }
 
                 c'8
-                - \tenuto
                 ]
-                <>
-                \ppppp
 
             }
 
@@ -255,9 +241,7 @@
             r4
 
             cqs'8
-            \mf
-            - \tenuto
-            \<
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             cqs'4
@@ -267,37 +251,32 @@
             \times 3/5 {
 
                 cqs'8
-                \f
-                - \tweak stencil #constante-hairpin
-                \<
 
                 b4
-                \!
-                \mp
-                - \accent
-                - \tweak stencil #abjad-flared-hairpin
-                \<
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(6)
+                - \tweak staff-padding #5                                      %! baca.bcps():BCPCommand(6)
+                - \downbow                                                     %! baca.bcps():BCPCommand(6)
                 ~
+                - \abjad-solid-line-with-arrow                                 %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-left-text #0 #7                            %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-right-text #1 #7                           %! baca.bcps():BCPCommand(2)
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(2)
+                - \tweak staff-padding #2.5                                    %! baca.bcps():BCPCommand(2)
+                \bacaStartTextSpanBCP                                          %! baca.bcps():BCPCommand(2)
 
                 b4
-                \mf
-                - \tweak stencil #constante-hairpin
-                \<
 
             }
 
             r8
-            \!
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
 
             r4
 
             r8
 
             f'8
-            \f
-            - \espressivo
-            - \tweak stencil #abjad-flared-hairpin
-            \>
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             f'4
@@ -307,34 +286,44 @@
             \times 3/4 {
 
                 f'8
-                \sfp
 
                 f'4.
-                \ff
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(5)
+                - \tweak staff-padding #5                                      %! baca.bcps():BCPCommand(5)
+                - \upbow                                                       %! baca.bcps():BCPCommand(5)
+                - \abjad-solid-line-with-arrow                                 %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-left-text #1 #2                            %! baca.bcps():BCPCommand(2)
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(2)
+                - \tweak staff-padding #2.5                                    %! baca.bcps():BCPCommand(2)
+                \bacaStartTextSpanBCP                                          %! baca.bcps():BCPCommand(2)
 
             }
 
             fs'4
-            \p
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(8)
+            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(8)
+            - \downbow                                                         %! baca.bcps():BCPCommand(8)
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
+            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #1 #4                                %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-right-text #3 #4                               %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             r4
-            \!
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
+            - \abjad-invisible-line                                            %! baca.bcps():BCPCommand(2)
+            - \baca-bcp-spanner-left-text #3 #4                                %! baca.bcps():BCPCommand(2)
+            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
+            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
+            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
 
             aqf2
-            \ppppp
-            - \accent
-            \<
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             aqf4
-            <>
-            \mp
 
             r8
 
@@ -344,11 +333,18 @@
             \times 3/5 {
 
                 c'4
-                \mp
-                - \accent
-                \<
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(6)
+                - \tweak staff-padding #5                                      %! baca.bcps():BCPCommand(6)
+                - \downbow                                                     %! baca.bcps():BCPCommand(6)
+                - \abjad-solid-line-with-arrow                                 %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-left-text #0 #7                            %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-right-text #1 #7                           %! baca.bcps():BCPCommand(2)
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(2)
+                - \tweak staff-padding #2.5                                    %! baca.bcps():BCPCommand(2)
+                \bacaStartTextSpanBCP                                          %! baca.bcps():BCPCommand(2)
 
                 bqs8
+                \bacaStopTextSpanBCP                                           %! baca.bcps():BCPCommand(1)
                 ~
 
                 bqs4
@@ -363,20 +359,22 @@
             ~
 
             bqs4
-            \mf
 
             \times 2/3 {
 
                 a2
-                \f
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(6)
+                - \tweak staff-padding #5                                      %! baca.bcps():BCPCommand(6)
+                - \downbow                                                     %! baca.bcps():BCPCommand(6)
+                - \abjad-solid-line-with-arrow                                 %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-left-text #0 #7                            %! baca.bcps():BCPCommand(2)
+                - \baca-bcp-spanner-right-text #1 #7                           %! baca.bcps():BCPCommand(2)
+                - \tweak padding #1                                            %! baca.bcps():BCPCommand(2)
+                - \tweak staff-padding #2.5                                    %! baca.bcps():BCPCommand(2)
+                \bacaStartTextSpanBCP                                          %! baca.bcps():BCPCommand(2)
 
                 fs'4
-                \p
-                - \tweak stencil #constante-hairpin
-                \<
+                \bacaStopTextSpanBCP                                           %! baca.bcps():BCPCommand(1)
                 ~
 
             }
@@ -384,15 +382,10 @@
             fs'4
 
             a2
-            \mp
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \<
+            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
 
             a4
-            <>
-            \mf
 
             r4
             \bar "||"

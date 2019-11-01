@@ -40,6 +40,7 @@ maker = evans.SegmentMaker(
     beam_pattern="runs",
     barline="||",
     tempo=((1, 4), 90),
+    midi=False,
 )
 
 maker.build_segment()

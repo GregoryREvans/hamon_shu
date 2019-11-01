@@ -190,7 +190,6 @@
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
-            [
 
             \times 4/5 {
 
@@ -198,7 +197,6 @@
                 \mp
                 - \accent
                 \<
-                ]
                 <>
                 \mf
 
@@ -233,11 +231,13 @@
             - \tweak stencil #constante-hairpin
             \<
             ~
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
                 bqf8
+                [
 
                 bf16
                 \mf
@@ -255,6 +255,7 @@
 
             bf8
             \f
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 14/15 {
@@ -263,6 +264,7 @@
                 \p
                 - \tenuto
                 \<
+                [
 
                 bqf16
                 - \accent
@@ -460,6 +462,7 @@
                 bf16
                 - \espressivo
                 ~
+                ]
 
             }
 
@@ -467,6 +470,7 @@
             \mf
             - \tweak stencil #constante-hairpin
             \<
+            [
 
             aqs8.
             \!
@@ -693,6 +697,7 @@
                 - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -704,6 +709,7 @@
                 \ff
                 - \tenuto
                 \>
+                [
 
                 e'8
                 \ppppp

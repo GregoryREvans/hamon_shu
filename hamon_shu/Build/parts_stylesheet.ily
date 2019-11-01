@@ -7,6 +7,7 @@
 \include "ekmel.ily"
 \ekmelicStyle evans
 \include "/Users/evansdsg2/baca/lilypond/baca-spanners.ily"
+\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
 
 \header {
 	tagline = ##f

@@ -239,8 +239,10 @@
             cs'8
             - \accent
             ~
+            ]
 
             cs'8
+            [
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
@@ -265,6 +267,7 @@
                 \mf
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -273,6 +276,7 @@
             \f
             - \tenuto
             \>
+            [
 
             b16
             - \accent
@@ -417,6 +421,7 @@
                 d'16
                 \mp
                 - \accent
+                ]
 
             }
 
@@ -425,6 +430,7 @@
             - \espressivo
             - \tweak stencil #abjad-flared-hairpin
             \<
+            [
 
             ef'16
             - \tenuto
@@ -471,6 +477,7 @@
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
+            ]
 
             e'8.
             \!
@@ -478,6 +485,7 @@
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
+            [
 
             ef'16
             - \accent
@@ -650,6 +658,7 @@
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -660,6 +669,7 @@
                 \!
                 \mp
                 \<
+                [
 
                 cqs'16
                 - \tenuto
@@ -750,6 +760,7 @@
             - \tenuto
             - \tweak stencil #constante-hairpin
             \<
+            ]
 
             \times 8/9 {
 
@@ -759,6 +770,7 @@
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
+                [
 
                 aqs16
                 - \espressivo
@@ -813,6 +825,7 @@
                 \sfp
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -821,6 +834,7 @@
             \ff
             - \tweak stencil #abjad-flared-hairpin
             \>
+            [
 
             aqs16
             - \tenuto
@@ -857,6 +871,7 @@
                 cqs'16
                 \ppppp
                 - \espressivo
+                ]
 
             }
 
@@ -868,6 +883,7 @@
                 - \tenuto
                 \<
                 ~
+                [
 
                 cs'8
                 ]

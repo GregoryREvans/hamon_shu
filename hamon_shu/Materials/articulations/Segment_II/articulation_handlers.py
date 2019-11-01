@@ -1,72 +1,79 @@
 import evans
-
-# import baca
 import abjad
 
-articulation_handler_one = evans.ArticulationHandler(
-    articulation_list=[
-        "tenuto",
-        "accent",
-        "default",
-        "tenuto",
-        "accent",
-        "espressivo",
-        "tenuto",
+
+articulation_handler_one = evans.TextSpanHandler(
+    span_one_positions=[
+        "1/2",
+        "1/4",
+        "3/4",
+        "4/4",
+        "0/4",
     ],
+    span_one_style="solid-line",
+    span_one_padding=11.5,
+    attach_span_one_to="leaves",
+    span_two_positions=["msp.", "ord.", "st.", "ord.", "sp."],
+    span_two_style="dashed-line",
+    span_two_padding=14.5,
+    attach_span_two_to="bounds",
     continuous=True,
-    name="articulation_handler_one",
+    name="articulation_handler_one"
 )
 
-articulation_handler_two = evans.ArticulationHandler(
-    articulation_list=[
-        "espressivo",
-        "tenuto",
-        "tenuto",
-        "accent",
-        "default",
-        "tenuto",
-        "accent",
-    ],
-    continuous=True,
-    name="articulation_handler_two",
-)
-
-articulation_handler_three = evans.ArticulationHandler(
-    articulation_list=[
-        "accent",
-        "tenuto",
-        "tenuto",
-        "espressivo",
-        "accent",
-        "tenuto",
-        "tenuto",
-    ],
-    continuous=True,
-    name="articulation_handler_three",
-)
-
-articulation_handler_four = evans.ArticulationHandler(
-    articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
-    continuous=True,
-    name="articulation_handler_four",
-)
-
-articulation_handler_five = evans.ArticulationHandler(
-    articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
-    continuous=True,
-    name="articulation_handler_five",
-)
-
-articulation_handler_six = evans.ArticulationHandler(
-    articulation_list=["tenuto", "tenuto", "accent", "tenuto", "espressivo"],
-    continuous=True,
-    name="articulation_handler_six",
-)
-
-# bcp_handler_one = baca.BCPCommand(
-#     bcps=[(1, 2), (1, 4)],
-#     selector=baca.leaves(),
-#     tags=[abjad.Tag("baca.bcps()")],
-#     tweaks=(abjad.tweak(2.5).staff_padding, abjad.tweak(1).padding),
-#     bow_change_tweaks=(abjad.tweak(5).staff_padding, abjad.tweak(1).padding),
+# articulation_handler_two = evans.ArticulationHandler(
+#     articulation_list=[
+#         "tenuto",
+#         "default",
+#         "default",
+#         "tenuto",
+#         "accent",
+#         "default",
+#         "default",
+#         "default",
+#         "default",
+#     ],
+#     continuous=True,
+#     name="articulation_handler_one",
 # )
+
+articulation_handler_two = evans.TextSpanHandler(
+    span_two_positions=["msp.", "ord.", "st.", "ord.", "sp."],
+    span_two_style="dashed-line",
+    span_two_padding=14.5,
+    attach_span_two_to="bounds",
+    span_three_positions=["clt.", "1/2 clt.", "1/2 clt.", "clt.", "clt."],
+    span_three_style="solid-line",
+    span_three_padding=17.5,
+    attach_span_three_to="left",
+    continuous=True,
+    name="articulation_handler_two"
+)
+
+articulation_handler_three = evans.TextSpanHandler(
+    span_one_positions=[
+        "0/7",
+        "1/7",
+        "3/7",
+        "4/7",
+        "3/7",
+        "2/7",
+        "7/7",
+        "6/7",
+        "5/7",
+        "6/7",
+    ],
+    span_one_style="solid-line",
+    span_one_padding=11.5,
+    attach_span_one_to="leaves",
+    span_two_positions=["msp.", "ord.", "st.", "ord.", "sp."],
+    span_two_style="dashed-line",
+    span_two_padding=14.5,
+    attach_span_two_to="leaves",
+    span_three_positions=["clt.", "1/2 clt.", "3/4 hair", "1/2 clt."],
+    span_three_style="solid-line",
+    span_three_padding=17.5,
+    attach_span_three_to="left",
+    continuous=True,
+    name="articulation_handler_three"
+)

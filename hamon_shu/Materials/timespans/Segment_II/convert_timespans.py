@@ -77,6 +77,7 @@ Segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     segment_name="Segment_II_articulation_timespans",
     current_directory=pathlib.Path(__file__).parent,
     add_silence=False,
+    fill_gaps=False,
 )
 
 ###############
@@ -84,6 +85,6 @@ Segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 ###############
 Segment_II_timespans = [
     Segment_II_pitch_timespans,
-    Segment_II_dynamic_timespans,
+    # Segment_II_dynamic_timespans,
     Segment_II_articulation_timespans,
 ]

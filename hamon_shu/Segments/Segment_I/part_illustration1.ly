@@ -134,6 +134,7 @@
 
             aqs16
             - \tenuto
+            ]
 
             \times 4/5 {
 
@@ -142,6 +143,7 @@
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
                 \<
+                [
 
                 aqs8
                 - \espressivo
@@ -218,6 +220,7 @@
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -227,6 +230,7 @@
             - \espressivo
             - \tweak stencil #constante-hairpin
             \<
+            [
 
             bqf32
             - \tenuto
@@ -271,6 +275,7 @@
             - \espressivo
             \<
             ~
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/7 {
@@ -279,6 +284,7 @@
                 \ff
                 - \tweak stencil #constante-hairpin
                 \<
+                [
 
                 bqf8
                 \!
@@ -349,6 +355,7 @@
                 - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -357,6 +364,7 @@
             \sfp
             - \tenuto
             \<
+            [
 
             d'8.
             - \accent
@@ -385,6 +393,7 @@
                 - \tenuto
                 - \tweak stencil #constante-hairpin
                 \<
+                ]
 
             }
 
@@ -396,6 +405,7 @@
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
+                [
 
                 ef'8
                 ]
@@ -576,6 +586,7 @@
             cs'8
             \mp
             - \tenuto
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 8/7 {
@@ -584,6 +595,7 @@
                 \mf
                 - \accent
                 \<
+                [
 
                 bqs8
                 - \espressivo
@@ -642,6 +654,7 @@
                 bqf16
                 \ff
                 - \tenuto
+                ]
 
             }
 
@@ -650,6 +663,7 @@
             - \accent
             - \tweak stencil #abjad-flared-hairpin
             \<
+            [
 
             bqf8.
             \mp
@@ -862,6 +876,7 @@
 
             d'16
             - \tenuto
+            ]
 
             \times 4/5 {
 
@@ -870,6 +885,7 @@
                 - \accent
                 - \tweak stencil #abjad-flared-hairpin
                 \<
+                [
 
                 ef'16
                 - \espressivo
@@ -883,6 +899,7 @@
                 e'16
                 \f
                 - \accent
+                ]
 
             }
 
@@ -892,6 +909,7 @@
                 bqf8
                 \p
                 \<
+                [
 
                 c'8.
                 - \tenuto
