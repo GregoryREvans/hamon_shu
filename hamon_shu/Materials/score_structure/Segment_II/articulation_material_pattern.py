@@ -2,41 +2,26 @@ from hamon_shu.Materials.articulations.Segment_II.articulation_handlers import *
 
 
 key_list_1 = [
-    "articulation_handler_one",
+    "articulation_handler_three",
     "articulation_handler_two",
     "articulation_handler_three",
-    "articulation_handler_one",
-    "articulation_handler_three",
-    "articulation_handler_one",
-    "articulation_handler_one",
 ]
 
 key_list_2 = [
     "articulation_handler_three",
-    "articulation_handler_one",
     "articulation_handler_two",
-    "articulation_handler_one",
-    "articulation_handler_three",
     "articulation_handler_three",
 ]
 
 key_list_3 = [
     "articulation_handler_two",
-    "articulation_handler_one",
+    "articulation_handler_three",
     "articulation_handler_two",
     "articulation_handler_three",
-    "articulation_handler_one",
-    "articulation_handler_one",
 ]
 
 key_list_4 = [
-    "articulation_handler_one",
     "articulation_handler_three",
-    "articulation_handler_one",
-    "articulation_handler_three",
-    "articulation_handler_one",
-    "articulation_handler_three",
-    "articulation_handler_one",
 ]
 
 dict = {

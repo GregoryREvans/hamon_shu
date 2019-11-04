@@ -116,91 +116,59 @@
             \times 7/6 {
 
                 aqs8
-                \mp
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \<
+                \mf
+                \>
                 [
 
                 bf8
-                - \accent
 
                 bqf8
 
                 aqs8
-                - \tenuto
 
                 e'8
-                - \accent
 
                 e'8
-                \mf
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
 
             }
 
             aqs16
-            \!
-            \f
-            - \tenuto
-            - \tweak stencil #constante-hairpin
-            \<
             [
 
             e'16
-            - \tenuto
             ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 1/1 {
 
                 aqs4
-                - \accent
 
             }
 
             e'4.
 
             e'4
-            \sfp
-            - \tenuto
-            \<
 
             e'8
-            \ff
-            - \accent
-            - \tweak stencil #constante-hairpin
-            \<
 
             aqs16
-            \!
-            \ppppp
-            - \espressivo
-            - \tweak stencil #abjad-flared-hairpin
-            \<
             [
 
             bf16
-            - \tenuto
             ]
             <>
-            \mp
+            \pp
 
             r8
 
             aqs16
-            \mf
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
-            \<
+            \f
+            \>
             [
 
             bqf16
-            \f
-            - \accent
+            \p
             - \tweak stencil #constante-hairpin
             \<
             ]
@@ -211,15 +179,14 @@
                 \!
 
                 bqf16
-                \sfp
-                \<
+                \mf
+                \>
                 [
 
                 bqf16
-                - \tenuto
                 ]
                 <>
-                \ff
+                \mp
 
             }
 
@@ -230,16 +197,15 @@
 
                 bqs8
                 \p
-                - \espressivo
-                - \tweak stencil #abjad-flared-hairpin
                 \<
 
                 cqs'4
-                - \tenuto
-                <>
-                \mp
+                \mf
+                - \tweak stencil #constante-hairpin
+                \<
 
                 r4
+                \!
 
             }
 
@@ -254,45 +220,40 @@
             \times 5/6 {
 
                 aqs8
-                \mf
-                - \accent
-                \<
+                \f
+                - \tweak stencil #abjad-flared-hairpin
+                \>
                 [
 
                 e'8
-                \f
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
+                <>
+                \mp
 
                 r4
-                \!
 
                 d'8
                 \p
-                - \tenuto
-                - \tweak stencil #constante-hairpin
+                - \tweak stencil #abjad-flared-hairpin
                 \<
                 [
 
                 e'8
-                - \tenuto
                 ]
+                <>
+                \mf
 
             }
 
             \times 4/5 {
 
                 r16.
-                \!
 
                 ef'32
-                \mp
-                - \accent
-                \<
+                \ff
+                \>
                 <>
-                \mf
+                \f
 
                 r32
 
@@ -302,33 +263,24 @@
             \times 16/15 {
 
                 aqs4
-                \f
-                - \tweak stencil #abjad-flared-hairpin
+                \mp
                 \>
 
                 ef'16
-                - \tenuto
                 [
 
                 d'16
-                - \accent
                 ]
 
                 e'4
-                - \espressivo
                 ~
 
                 e'8.
                 [
 
                 d'16
-                - \tenuto
 
                 d'16
-                \p
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
 
             }
@@ -336,34 +288,21 @@
             \times 8/9 {
 
                 cs'32
-                \!
-                \mp
-                - \accent
-                - \tweak stencil #constante-hairpin
-                \<
                 [
 
                 cqs'32
 
                 c'32
-                - \tenuto
 
                 cs'32
-                - \accent
 
                 c'32
-                - \espressivo
 
                 b32
-                \ppppp
-                - \tenuto
-                \<
 
                 cqs'32
-                - \tenuto
 
                 cs'32
-                - \accent
 
                 d'32
 
@@ -373,38 +312,25 @@
             \times 6/5 {
 
                 cs'16
-                - \tenuto
 
                 d'16
-                - \accent
 
                 cs'16
-                - \espressivo
 
                 d'16
-                - \tenuto
 
                 cs'16
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
 
             }
 
             e'16
-            \!
-            \mf
-            - \accent
-            - \tweak stencil #abjad-flared-hairpin
-            \<
             [
 
             ef'16
             ]
             <>
-            \f
+            \p
 
             r8
 
@@ -414,13 +340,11 @@
 
             e'16
             \mf
-            - \tenuto
             - \tweak stencil #abjad-flared-hairpin
             \<
             [
 
             ef'16
-            - \accent
             ~
 
             ef'16
@@ -431,104 +355,79 @@
             e'16
 
             ef'16
-            - \tenuto
             ~
 
             ef'8
 
             d'8
-            - \accent
             ~
 
             d'8
             ]
             <>
-            \f
+            \ff
 
             r8
 
             r8
 
             ef'8
-            \p
-            - \espressivo
-            - \tweak stencil #constante-hairpin
+            \pp
             \<
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
                 ef'16
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
                 [
 
                 e'16
-                - \tenuto
 
                 ef'16
-                - \accent
                 ]
 
             }
 
             d'32
-            \mf
-            \<
             [
 
             cs'32
-            - \tenuto
 
             b32
-            - \accent
 
             c'32
-            - \espressivo
             ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 1/1 {
 
                 bf4
-                - \tenuto
 
             }
 
             aqs4
-            - \tenuto
             ~
 
             aqs8.
             [
 
             e'16
-            \f
-            - \accent
             ]
 
             \times 2/3 {
 
                 ef'16
-                \p
-                \<
                 [
 
                 d'16
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
+                <>
+                \f
 
                 r8
-                \!
 
                 ef'16
-                \sfp
-                - \tenuto
+                \p
                 - \tweak stencil #constante-hairpin
                 \<
 
@@ -540,29 +439,26 @@
             r2.
 
             ef'16
-            \ff
-            - \accent
-            - \tweak stencil #abjad-flared-hairpin
+            \mf
             \>
             [
 
             dqf'16
-            - \espressivo
             ]
             <>
-            \ppppp
+            \mp
 
             r8
 
             cs'16
-            \mf
-            - \tenuto
-            - \tweak stencil #constante-hairpin
+            \p
             \<
             [
 
             cqs'16
-            - \tenuto
+            \mf
+            - \tweak stencil #constante-hairpin
+            \<
             ]
 
             \times 4/5 {
@@ -571,16 +467,14 @@
                 \!
 
                 dqf'8
-                \f
-                - \accent
-                - \tweak stencil #abjad-flared-hairpin
-                \>
+                \pp
+                \<
                 [
 
                 cqs'8
                 ]
                 <>
-                \p
+                \f
 
             }
 
@@ -589,15 +483,12 @@
                 r16
 
                 cs'16
-                \mp
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
+                \p
                 \<
                 [
 
                 dqf'8
                 \mf
-                - \accent
                 - \tweak stencil #constante-hairpin
                 \<
                 ]
@@ -606,21 +497,16 @@
                 \!
 
                 cs'16
-                \f
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
+                \mp
+                \>
 
             }
 
             \times 4/5 {
 
                 dqf'16.
-                \p
-                - \tenuto
-                \<
                 <>
-                \mp
+                \p
 
                 r16
 
@@ -638,38 +524,31 @@
             \times 14/13 {
 
                 ef'4..
-                \mp
-                - \tenuto
-                \<
+                \mf
+                \>
                 ~
 
                 ef'16
-                \mf
-                - \tweak stencil #constante-hairpin
-                \<
                 [
 
                 dqf'16
-                \!
-                \f
-                - \accent
-                \>
                 ~
 
                 dqf'8
 
                 cs'8
-                - \espressivo
                 ~
                 ]
 
             }
 
             cs'8
-            <>
-            \sfp
+            \pp
+            - \tweak stencil #constante-hairpin
+            \<
 
             r8
+            \!
 
             r2
 
@@ -684,31 +563,21 @@
             \times 6/7 {
 
                 cs'16
-                \ff
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
+                \f
                 \>
                 [
 
                 c'16
-                - \tenuto
 
                 b16
-                - \accent
 
                 cs'16
 
                 b16
-                - \tenuto
 
                 c'16
-                - \accent
 
                 bf16
-                \ppppp
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
 
             }
@@ -717,33 +586,22 @@
             \times 6/5 {
 
                 c'16
-                \!
-                \mp
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \<
                 [
 
                 b16
-                - \tenuto
 
                 cs'16
-                - \accent
 
                 b16
-                \mf
 
                 c'16
-                \mf
-                - \accent
-                - \tweak stencil #constante-hairpin
-                \<
                 ]
+                <>
+                \p
 
             }
 
             r8
-            \!
 
             r4
 
@@ -752,64 +610,49 @@
             r8
 
             cs'8
-            \f
+            \mf
             - \tweak stencil #constante-hairpin
             \<
 
             \times 16/17 {
 
                 ef'16
-                \p
-                - \tenuto
-                \<
+                \f
+                - \tweak stencil #abjad-flared-hairpin
+                \>
                 [
 
                 d'16
-                - \accent
 
                 cs'16
-                - \espressivo
 
                 d'16
-                - \tenuto
 
                 cs'16
-                - \tenuto
 
                 c'16
-                - \accent
 
                 cs'16
 
                 d'16
-                - \tenuto
 
                 ef'16
-                - \accent
 
                 cs'16
-                - \espressivo
 
                 c'16
-                - \tenuto
 
                 bqf16
-                - \tenuto
 
                 b16
-                - \accent
 
                 aqs16
 
                 b16
-                - \tenuto
 
                 c'16
-                - \accent
 
                 bqf16
-                \mp
-                - \espressivo
                 ]
 
             }
@@ -818,17 +661,11 @@
             \times 4/3 {
 
                 c'32
-                \mf
-                - \tenuto
-                - \tweak stencil #abjad-flared-hairpin
-                \<
                 [
 
                 b32
-                - \tenuto
 
                 aqs32
-                - \accent
 
             }
 
@@ -837,29 +674,19 @@
                 ef'8.
 
                 e'8.
-                - \tenuto
 
                 d'16
-                \f
-                - \accent
-                - \tweak stencil #constante-hairpin
-                \<
 
                 d'16
-                \!
-                \p
-                - \espressivo
-                - \tweak stencil #constante-hairpin
-                \<
 
                 d'16
-                - \tenuto
                 ]
+                <>
+                \mp
 
             }
 
             r8
-            \!
 
             r2
 
@@ -868,41 +695,29 @@
             r8
 
             cs'16
-            \mp
-            - \tenuto
-            - \tweak stencil #abjad-flared-hairpin
+            \p
             \<
             [
 
             cqs'16
-            - \accent
 
             cs'16
 
             d'16
-            - \tenuto
 
             cs'16
-            - \accent
 
             cs'16
-            \mf
-            - \espressivo
             ]
 
             \times 2/3 {
 
                 d'16
-                \f
-                - \tenuto
-                \>
                 [
 
                 ef'16
-                - \tenuto
 
                 e'16
-                - \accent
 
             }
 
@@ -914,41 +729,31 @@
             \times 16/15 {
 
                 d'16
-                \p
-                - \tweak stencil #constante-hairpin
-                \<
                 [
 
                 e'8
-                \!
-                \mp
-                - \tenuto
-                - \tweak stencil #constante-hairpin
-                \<
 
                 ef'8
-                - \accent
                 ~
 
                 ef'8.
 
                 d'8
-                - \espressivo
                 ~
                 ]
 
                 d'4
 
                 ef'16
-                - \tenuto
                 ~
 
             }
 
             ef'8
+            <>
+            \mf
 
             r8
-            \!
             \bar "||"
 
         }

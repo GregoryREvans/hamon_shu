@@ -64,76 +64,280 @@
             r4.
 
             aqf4
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
             ~
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 4 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            st.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
+            - \abjad-solid-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            "1/2 clt."
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #17.5
+            \startTextSpanThree
 
             aqf2
 
             aqs2.
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
+            \stopTextSpanOne
+            \stopTextSpanTwo
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            ord.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 5/16
+            \stopTextSpanOne                                                   %! applying indicators
+            \stopTextSpanTwo                                                   %! applying indicators
+            \stopTextSpanThree                                                 %! applying indicators
+            - \abjad-invisible-line                                            %! applying indicators
+            - \tweak bound-details.left.text \markup {                         %! applying indicators
+                \concat                                                        %! applying indicators
+                    {                                                          %! applying indicators
+                        \center-column { \center-align \vcenter \upright \fraction 3 7 } %! applying indicators
+                        \hspace                                                %! applying indicators
+                            #0.5                                               %! applying indicators
+                    }                                                          %! applying indicators
+                }                                                              %! applying indicators
+            - \tweak bound-details.right.padding 3                             %! applying indicators
+            - \tweak staff-padding #11.5                                       %! applying indicators
+            \startTextSpanOne                                                  %! applying indicators
 
             R1 * 5/16
 
             r8
 
             bqs8
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
             ~
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            sp.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
+            - \abjad-solid-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            "3/4 hair"
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #17.5
+            \startTextSpanThree
             [
 
             bqs8
+            \stopTextSpanTwo
+            - \abjad-dashed-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            msp.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
             ]
 
             r8
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
+            \stopTextSpanOne
+            \stopTextSpanTwo
+            \stopTextSpanThree
+            - \abjad-invisible-line
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \upright \fraction 3 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
 
             r4.
+            \stopTextSpanOne
 
             cs'8
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 2 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            st.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
+            - \abjad-solid-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            "1/2 clt."
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #17.5
+            \startTextSpanThree
             [
 
             bqs8
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
+            \stopTextSpanOne
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 7 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
             ]
 
             d'4
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            \stopTextSpanOne
+            \stopTextSpanTwo
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            ord.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
 
             r1
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(3)
-            - \abjad-invisible-line                                            %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #4                                %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            \stopTextSpanOne
+            \stopTextSpanTwo
+            \stopTextSpanThree
+            - \abjad-invisible-line
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \upright \fraction 5 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 7/13 {
@@ -142,8 +346,34 @@
                 \times 6/11 {
 
                     f'8.
-                    - \tenuto
+                    \stopTextSpanOne
                     ~
+                    - \abjad-dashed-line-with-arrow
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \upright
+                                    st.
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 1.4
+                    - \tweak staff-padding #14.5
+                    \startTextSpanTwo
+                    - \abjad-solid-line-with-hook
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \upright
+                                    "1/2 clt."
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #17.5
+                    \startTextSpanThree
                     [
 
                     f'8
@@ -165,11 +395,9 @@
                 \times 5/6 {
 
                     eqf'8
-                    - \tenuto
                     [
 
                     dqs'8
-                    - \accent
 
                     cs'8
 
@@ -205,7 +433,6 @@
                 \times 6/11 {
 
                     fs'32.
-                    - \tenuto
                     ~
                     [
 
@@ -233,10 +460,8 @@
                 \times 1/1 {
 
                     aqf32
-                    - \tenuto
 
                     b32
-                    - \accent
 
                     aqf32
 
@@ -258,18 +483,59 @@
                 }
 
                 f'16.
+                \stopTextSpanTwo
+                - \abjad-dashed-line-with-hook
+                - \tweak bound-details.left.text \markup {
+                    \concat
+                        {
+                            \upright
+                                ord.
+                            \hspace
+                                #0.5
+                        }
+                    }
+                - \tweak bound-details.right.padding 3
+                - \tweak staff-padding #14.5
+                \startTextSpanTwo
                 ]
 
             }
 
             r8
+            \stopTextSpanTwo
+            \stopTextSpanThree
 
             r8
 
             \times 4/5 {
 
                 fs'16.
-                - \tenuto
+                - \abjad-dashed-line-with-arrow
+                - \tweak bound-details.left.text \markup {
+                    \concat
+                        {
+                            \upright
+                                sp.
+                            \hspace
+                                #0.5
+                        }
+                    }
+                - \tweak bound-details.right.padding 1.4
+                - \tweak staff-padding #14.5
+                \startTextSpanTwo
+                - \abjad-solid-line-with-hook
+                - \tweak bound-details.left.text \markup {
+                    \concat
+                        {
+                            \upright
+                                "1/2 clt."
+                            \hspace
+                                #0.5
+                        }
+                    }
+                - \tweak bound-details.right.padding 3
+                - \tweak staff-padding #17.5
+                \startTextSpanThree
                 [
 
                 fs'16.
@@ -283,10 +549,8 @@
                 \times 1/1 {
 
                     fs'16
-                    - \tenuto
 
                     f'16
-                    - \accent
 
                     fs'16
 
@@ -300,43 +564,116 @@
                 fs'16.
 
                 aqf8.
+                \stopTextSpanTwo
+                - \abjad-dashed-line-with-hook
+                - \tweak bound-details.left.text \markup {
+                    \concat
+                        {
+                            \upright
+                                msp.
+                            \hspace
+                                #0.5
+                        }
+                    }
+                - \tweak bound-details.right.padding 3
+                - \tweak staff-padding #14.5
+                \startTextSpanTwo
                 ]
 
             }
 
             a4
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(5)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(5)
-            - \upbow                                                           %! baca.bcps():BCPCommand(5)
+            \stopTextSpanTwo
+            \stopTextSpanThree
             ~
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #1 #2                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #4                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
+            - \abjad-dashed-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            mst.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
+            - \abjad-solid-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            clt.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #17.5
+            \startTextSpanThree
 
             a8
             [
 
             b8
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
+            \stopTextSpanOne
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
             ]
 
             cs'4
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(6)
-            - \tweak staff-padding #5                                          %! baca.bcps():BCPCommand(6)
-            - \downbow                                                         %! baca.bcps():BCPCommand(6)
-            - \abjad-solid-line-with-arrow                                     %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-left-text #0 #7                                %! baca.bcps():BCPCommand(2)
-            - \baca-bcp-spanner-right-text #1 #7                               %! baca.bcps():BCPCommand(2)
-            - \tweak padding #1                                                %! baca.bcps():BCPCommand(2)
-            - \tweak staff-padding #2.5                                        %! baca.bcps():BCPCommand(2)
-            \bacaStartTextSpanBCP                                              %! baca.bcps():BCPCommand(2)
+            \stopTextSpanOne
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
 
             b8
-            \bacaStopTextSpanBCP                                               %! baca.bcps():BCPCommand(1)
+            \stopTextSpanOne
             ~
+            - \abjad-solid-line-with-arrow
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 1.4
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
 
             b4
             ~
@@ -345,11 +682,41 @@
             ~
 
             b8
+            \stopTextSpanTwo
+            - \abjad-dashed-line-with-hook
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \upright
+                            ord.
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #14.5
+            \startTextSpanTwo
 
             r8
+            \stopTextSpanOne
+            \stopTextSpanTwo
+            \stopTextSpanThree
+            - \abjad-invisible-line
+            - \tweak bound-details.left.text \markup {
+                \concat
+                    {
+                        \center-column { \center-align \vcenter \upright \fraction 4 4 }
+                        \hspace
+                            #0.5
+                    }
+                }
+            - \tweak bound-details.right.padding 3
+            - \tweak staff-padding #11.5
+            \startTextSpanOne
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 3/8
+            \stopTextSpanOne                                                   %! applying indicators
 
             R1 * 3/8
 

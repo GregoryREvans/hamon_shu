@@ -83,7 +83,7 @@ dynamic_timespan_list = dynamic_timespan_maker(
 articulation_target_timespan = abjad.Timespan(0, 10)
 
 articulation_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([10, 16, 10, 10, 26, 6, 2, 21, 18, 18, 4, 8, 11, 20, 14, 10, 28, 6, 2, 28, 14, 10, 10, 8, 8, 2]), denominator=8),
+    playing_talea=rmakers.Talea(counts=([10, 16, 54, 39, 18, 23, 20, 14, 10, 36, 80]), denominator=8),
     initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )

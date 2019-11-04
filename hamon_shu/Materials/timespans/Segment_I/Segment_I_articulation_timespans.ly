@@ -35,6 +35,15 @@
                                                 0
                                                 1
                             \translate
+                                #'(2.944444444444444 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                1
+                                                2
+                            \translate
                                 #'(4.888888888888888 . 1)
                                 \sans
                                     \fontsize
@@ -43,6 +52,15 @@
                                             \fraction
                                                 1
                                                 1
+                            \translate
+                                #'(6.833333333333332 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                3
+                                                2
                             \translate
                                 #'(10.722222222222221 . 1)
                                 \sans
@@ -62,23 +80,41 @@
                                                 7
                                                 2
                             \translate
-                                #'(24.33333333333333 . 1)
+                                #'(20.444444444444443 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                6
+                                                5
                                                 1
                             \translate
-                                #'(34.05555555555555 . 1)
+                                #'(28.222222222222218 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                17
+                                                7
+                                                1
+                            \translate
+                                #'(30.166666666666664 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                15
                                                 2
+                            \translate
+                                #'(35.99999999999999 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                9
+                                                1
                             \translate
                                 #'(37.94444444444444 . 1)
                                 \sans
@@ -89,23 +125,23 @@
                                                 19
                                                 2
                             \translate
-                                #'(47.66666666666666 . 1)
+                                #'(45.722222222222214 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                12
-                                                1
+                                                23
+                                                2
                             \translate
-                                #'(51.55555555555555 . 1)
+                                #'(53.49999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                13
-                                                1
+                                                27
+                                                2
                             \translate
                                 #'(55.444444444444436 . 1)
                                 \sans
@@ -116,14 +152,23 @@
                                                 14
                                                 1
                             \translate
-                                #'(59.33333333333333 . 1)
+                                #'(63.222222222222214 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                15
+                                                16
                                                 1
+                            \translate
+                                #'(65.16666666666666 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                33
+                                                2
                             \translate
                                 #'(67.1111111111111 . 1)
                                 \sans
@@ -134,14 +179,23 @@
                                                 17
                                                 1
                             \translate
-                                #'(74.88888888888889 . 1)
+                                #'(69.05555555555554 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                19
-                                                1
+                                                35
+                                                2
+                            \translate
+                                #'(72.94444444444443 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                37
+                                                2
                             \translate
                                 #'(76.83333333333333 . 1)
                                 \sans
@@ -161,6 +215,15 @@
                                                 21
                                                 1
                             \translate
+                                #'(90.44444444444443 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                23
+                                                1
+                            \translate
                                 #'(92.38888888888887 . 1)
                                 \sans
                                     \fontsize
@@ -170,6 +233,15 @@
                                                 47
                                                 2
                             \translate
+                                #'(98.22222222222221 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                25
+                                                1
+                            \translate
                                 #'(100.16666666666666 . 1)
                                 \sans
                                     \fontsize
@@ -178,36 +250,45 @@
                                             \fraction
                                                 51
                                                 2
-                            \translate
-                                #'(105.99999999999999 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                27
-                                                1
                         }
                     \pad-to-box
-                        #'(0 . 103.99999999999999)
+                        #'(0 . 98.16666666666666)
                         #'(0 . 2.5)
                         \postscript
                             #"
                             0.2 setlinewidth
                             1 0.5 moveto
-                            4.888888888888888 0.5 lineto
+                            2.944444444444444 0.5 lineto
                             stroke
                             1 1.25 moveto
                             1 -0.25 lineto
+                            stroke
+                            2.944444444444444 1.25 moveto
+                            2.944444444444444 -0.25 lineto
+                            stroke
+                            2.944444444444444 0.5 moveto
+                            4.888888888888888 0.5 lineto
+                            stroke
+                            2.944444444444444 1.25 moveto
+                            2.944444444444444 -0.25 lineto
                             stroke
                             4.888888888888888 1.25 moveto
                             4.888888888888888 -0.25 lineto
                             stroke
                             4.888888888888888 0.5 moveto
-                            10.722222222222221 0.5 lineto
+                            6.833333333333332 0.5 lineto
                             stroke
                             4.888888888888888 1.25 moveto
                             4.888888888888888 -0.25 lineto
+                            stroke
+                            6.833333333333332 1.25 moveto
+                            6.833333333333332 -0.25 lineto
+                            stroke
+                            6.833333333333332 0.5 moveto
+                            10.722222222222221 0.5 lineto
+                            stroke
+                            6.833333333333332 1.25 moveto
+                            6.833333333333332 -0.25 lineto
                             stroke
                             10.722222222222221 1.25 moveto
                             10.722222222222221 -0.25 lineto
@@ -222,91 +303,127 @@
                             14.611111111111109 -0.25 lineto
                             stroke
                             14.611111111111109 0.5 moveto
-                            24.33333333333333 0.5 lineto
+                            20.444444444444443 0.5 lineto
                             stroke
                             14.611111111111109 1.25 moveto
                             14.611111111111109 -0.25 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            20.444444444444443 1.25 moveto
+                            20.444444444444443 -0.25 lineto
                             stroke
-                            24.33333333333333 0.5 moveto
-                            34.05555555555555 0.5 lineto
+                            20.444444444444443 0.5 moveto
+                            28.222222222222218 0.5 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            20.444444444444443 1.25 moveto
+                            20.444444444444443 -0.25 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
                             stroke
-                            34.05555555555555 0.5 moveto
+                            28.222222222222218 0.5 moveto
+                            30.166666666666664 0.5 lineto
+                            stroke
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
+                            stroke
+                            30.166666666666664 1.25 moveto
+                            30.166666666666664 -0.25 lineto
+                            stroke
+                            30.166666666666664 0.5 moveto
+                            35.99999999999999 0.5 lineto
+                            stroke
+                            30.166666666666664 1.25 moveto
+                            30.166666666666664 -0.25 lineto
+                            stroke
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
+                            stroke
+                            35.99999999999999 0.5 moveto
                             37.94444444444444 0.5 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
                             stroke
                             37.94444444444444 1.25 moveto
                             37.94444444444444 -0.25 lineto
                             stroke
                             37.94444444444444 0.5 moveto
-                            47.66666666666666 0.5 lineto
+                            45.722222222222214 0.5 lineto
                             stroke
                             37.94444444444444 1.25 moveto
                             37.94444444444444 -0.25 lineto
                             stroke
-                            47.66666666666666 1.25 moveto
-                            47.66666666666666 -0.25 lineto
+                            45.722222222222214 1.25 moveto
+                            45.722222222222214 -0.25 lineto
                             stroke
-                            47.66666666666666 0.5 moveto
-                            51.55555555555555 0.5 lineto
+                            45.722222222222214 0.5 moveto
+                            53.49999999999999 0.5 lineto
                             stroke
-                            47.66666666666666 1.25 moveto
-                            47.66666666666666 -0.25 lineto
+                            45.722222222222214 1.25 moveto
+                            45.722222222222214 -0.25 lineto
                             stroke
-                            51.55555555555555 1.25 moveto
-                            51.55555555555555 -0.25 lineto
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
                             stroke
-                            51.55555555555555 0.5 moveto
+                            53.49999999999999 0.5 moveto
                             55.444444444444436 0.5 lineto
                             stroke
-                            51.55555555555555 1.25 moveto
-                            51.55555555555555 -0.25 lineto
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
                             stroke
                             55.444444444444436 1.25 moveto
                             55.444444444444436 -0.25 lineto
                             stroke
                             55.444444444444436 0.5 moveto
-                            59.33333333333333 0.5 lineto
+                            63.222222222222214 0.5 lineto
                             stroke
                             55.444444444444436 1.25 moveto
                             55.444444444444436 -0.25 lineto
                             stroke
-                            59.33333333333333 1.25 moveto
-                            59.33333333333333 -0.25 lineto
+                            63.222222222222214 1.25 moveto
+                            63.222222222222214 -0.25 lineto
                             stroke
-                            59.33333333333333 0.5 moveto
+                            63.222222222222214 0.5 moveto
+                            65.16666666666666 0.5 lineto
+                            stroke
+                            63.222222222222214 1.25 moveto
+                            63.222222222222214 -0.25 lineto
+                            stroke
+                            65.16666666666666 1.25 moveto
+                            65.16666666666666 -0.25 lineto
+                            stroke
+                            65.16666666666666 0.5 moveto
                             67.1111111111111 0.5 lineto
                             stroke
-                            59.33333333333333 1.25 moveto
-                            59.33333333333333 -0.25 lineto
+                            65.16666666666666 1.25 moveto
+                            65.16666666666666 -0.25 lineto
                             stroke
                             67.1111111111111 1.25 moveto
                             67.1111111111111 -0.25 lineto
                             stroke
                             67.1111111111111 0.5 moveto
-                            74.88888888888889 0.5 lineto
+                            69.05555555555554 0.5 lineto
                             stroke
                             67.1111111111111 1.25 moveto
                             67.1111111111111 -0.25 lineto
                             stroke
-                            74.88888888888889 1.25 moveto
-                            74.88888888888889 -0.25 lineto
+                            69.05555555555554 1.25 moveto
+                            69.05555555555554 -0.25 lineto
                             stroke
-                            74.88888888888889 0.5 moveto
+                            69.05555555555554 0.5 moveto
+                            72.94444444444443 0.5 lineto
+                            stroke
+                            69.05555555555554 1.25 moveto
+                            69.05555555555554 -0.25 lineto
+                            stroke
+                            72.94444444444443 1.25 moveto
+                            72.94444444444443 -0.25 lineto
+                            stroke
+                            72.94444444444443 0.5 moveto
                             76.83333333333333 0.5 lineto
                             stroke
-                            74.88888888888889 1.25 moveto
-                            74.88888888888889 -0.25 lineto
+                            72.94444444444443 1.25 moveto
+                            72.94444444444443 -0.25 lineto
                             stroke
                             76.83333333333333 1.25 moveto
                             76.83333333333333 -0.25 lineto
@@ -321,39 +438,54 @@
                             82.66666666666666 -0.25 lineto
                             stroke
                             82.66666666666666 0.5 moveto
-                            92.38888888888887 0.5 lineto
+                            90.44444444444443 0.5 lineto
                             stroke
                             82.66666666666666 1.25 moveto
                             82.66666666666666 -0.25 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
+                            stroke
+                            90.44444444444443 0.5 moveto
+                            92.38888888888887 0.5 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
                             stroke
                             92.38888888888887 1.25 moveto
                             92.38888888888887 -0.25 lineto
                             stroke
                             92.38888888888887 0.5 moveto
-                            100.16666666666666 0.5 lineto
+                            98.22222222222221 0.5 lineto
                             stroke
                             92.38888888888887 1.25 moveto
                             92.38888888888887 -0.25 lineto
                             stroke
+                            98.22222222222221 1.25 moveto
+                            98.22222222222221 -0.25 lineto
+                            stroke
+                            98.22222222222221 0.5 moveto
+                            100.16666666666666 0.5 lineto
+                            stroke
+                            98.22222222222221 1.25 moveto
+                            98.22222222222221 -0.25 lineto
+                            stroke
                             100.16666666666666 1.25 moveto
                             100.16666666666666 -0.25 lineto
-                            stroke
-                            100.16666666666666 0.5 moveto
-                            105.99999999999999 0.5 lineto
-                            stroke
-                            100.16666666666666 1.25 moveto
-                            100.16666666666666 -0.25 lineto
-                            stroke
-                            105.99999999999999 1.25 moveto
-                            105.99999999999999 -0.25 lineto
                             stroke
                             0.1 setlinewidth
                             [ 0.1 0.2 ] 0 setdash
                             1 2.5 moveto
                             1 1 lineto
                             stroke
+                            2.944444444444444 2.5 moveto
+                            2.944444444444444 1 lineto
+                            stroke
                             4.888888888888888 2.5 moveto
                             4.888888888888888 1 lineto
+                            stroke
+                            6.833333333333332 2.5 moveto
+                            6.833333333333332 1 lineto
                             stroke
                             10.722222222222221 2.5 moveto
                             10.722222222222221 1 lineto
@@ -361,32 +493,44 @@
                             14.611111111111109 2.5 moveto
                             14.611111111111109 1 lineto
                             stroke
-                            24.33333333333333 2.5 moveto
-                            24.33333333333333 1 lineto
+                            20.444444444444443 2.5 moveto
+                            20.444444444444443 1 lineto
                             stroke
-                            34.05555555555555 2.5 moveto
-                            34.05555555555555 1 lineto
+                            28.222222222222218 2.5 moveto
+                            28.222222222222218 1 lineto
+                            stroke
+                            30.166666666666664 2.5 moveto
+                            30.166666666666664 1 lineto
+                            stroke
+                            35.99999999999999 2.5 moveto
+                            35.99999999999999 1 lineto
                             stroke
                             37.94444444444444 2.5 moveto
                             37.94444444444444 1 lineto
                             stroke
-                            47.66666666666666 2.5 moveto
-                            47.66666666666666 1 lineto
+                            45.722222222222214 2.5 moveto
+                            45.722222222222214 1 lineto
                             stroke
-                            51.55555555555555 2.5 moveto
-                            51.55555555555555 1 lineto
+                            53.49999999999999 2.5 moveto
+                            53.49999999999999 1 lineto
                             stroke
                             55.444444444444436 2.5 moveto
                             55.444444444444436 1 lineto
                             stroke
-                            59.33333333333333 2.5 moveto
-                            59.33333333333333 1 lineto
+                            63.222222222222214 2.5 moveto
+                            63.222222222222214 1 lineto
+                            stroke
+                            65.16666666666666 2.5 moveto
+                            65.16666666666666 1 lineto
                             stroke
                             67.1111111111111 2.5 moveto
                             67.1111111111111 1 lineto
                             stroke
-                            74.88888888888889 2.5 moveto
-                            74.88888888888889 1 lineto
+                            69.05555555555554 2.5 moveto
+                            69.05555555555554 1 lineto
+                            stroke
+                            72.94444444444443 2.5 moveto
+                            72.94444444444443 1 lineto
                             stroke
                             76.83333333333333 2.5 moveto
                             76.83333333333333 1 lineto
@@ -394,14 +538,17 @@
                             82.66666666666666 2.5 moveto
                             82.66666666666666 1 lineto
                             stroke
+                            90.44444444444443 2.5 moveto
+                            90.44444444444443 1 lineto
+                            stroke
                             92.38888888888887 2.5 moveto
                             92.38888888888887 1 lineto
                             stroke
+                            98.22222222222221 2.5 moveto
+                            98.22222222222221 1 lineto
+                            stroke
                             100.16666666666666 2.5 moveto
                             100.16666666666666 1 lineto
-                            stroke
-                            105.99999999999999 2.5 moveto
-                            105.99999999999999 1 lineto
                             stroke
                             0 0 moveto
                             0.99 setgray
@@ -443,15 +590,6 @@
                                                 2
                                                 1
                             \translate
-                                #'(12.666666666666664 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                3
-                                                1
-                            \translate
                                 #'(16.555555555555554 . 1)
                                 \sans
                                     \fontsize
@@ -479,6 +617,24 @@
                                                 13
                                                 2
                             \translate
+                                #'(28.222222222222218 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                7
+                                                1
+                            \translate
+                                #'(30.166666666666664 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                15
+                                                2
+                            \translate
                                 #'(32.11111111111111 . 1)
                                 \sans
                                     \fontsize
@@ -488,14 +644,23 @@
                                                 8
                                                 1
                             \translate
-                                #'(41.83333333333333 . 1)
+                                #'(35.99999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                21
-                                                2
+                                                9
+                                                1
+                            \translate
+                                #'(39.888888888888886 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                10
+                                                1
                             \translate
                                 #'(45.722222222222214 . 1)
                                 \sans
@@ -506,14 +671,14 @@
                                                 23
                                                 2
                             \translate
-                                #'(51.55555555555555 . 1)
+                                #'(53.49999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                13
-                                                1
+                                                27
+                                                2
                             \translate
                                 #'(55.444444444444436 . 1)
                                 \sans
@@ -524,395 +689,14 @@
                                                 14
                                                 1
                             \translate
-                                #'(65.16666666666666 . 1)
+                                #'(61.27777777777777 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                33
+                                                31
                                                 2
-                            \translate
-                                #'(74.88888888888889 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                19
-                                                1
-                            \translate
-                                #'(78.77777777777777 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                20
-                                                1
-                            \translate
-                                #'(88.49999999999999 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                45
-                                                2
-                            \translate
-                                #'(92.38888888888887 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                47
-                                                2
-                            \translate
-                                #'(96.27777777777777 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                49
-                                                2
-                            \translate
-                                #'(100.16666666666666 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                51
-                                                2
-                        }
-                    \pad-to-box
-                        #'(0 . 98.16666666666666)
-                        #'(0 . 2.5)
-                        \postscript
-                            #"
-                            0.2 setlinewidth
-                            1 0.5 moveto
-                            8.777777777777777 0.5 lineto
-                            stroke
-                            1 1.25 moveto
-                            1 -0.25 lineto
-                            stroke
-                            8.777777777777777 1.25 moveto
-                            8.777777777777777 -0.25 lineto
-                            stroke
-                            8.777777777777777 0.5 moveto
-                            12.666666666666664 0.5 lineto
-                            stroke
-                            8.777777777777777 1.25 moveto
-                            8.777777777777777 -0.25 lineto
-                            stroke
-                            12.666666666666664 1.25 moveto
-                            12.666666666666664 -0.25 lineto
-                            stroke
-                            12.666666666666664 0.5 moveto
-                            16.555555555555554 0.5 lineto
-                            stroke
-                            12.666666666666664 1.25 moveto
-                            12.666666666666664 -0.25 lineto
-                            stroke
-                            16.555555555555554 1.25 moveto
-                            16.555555555555554 -0.25 lineto
-                            stroke
-                            16.555555555555554 0.5 moveto
-                            18.499999999999996 0.5 lineto
-                            stroke
-                            16.555555555555554 1.25 moveto
-                            16.555555555555554 -0.25 lineto
-                            stroke
-                            18.499999999999996 1.25 moveto
-                            18.499999999999996 -0.25 lineto
-                            stroke
-                            18.499999999999996 0.5 moveto
-                            26.277777777777775 0.5 lineto
-                            stroke
-                            18.499999999999996 1.25 moveto
-                            18.499999999999996 -0.25 lineto
-                            stroke
-                            26.277777777777775 1.25 moveto
-                            26.277777777777775 -0.25 lineto
-                            stroke
-                            26.277777777777775 0.5 moveto
-                            32.11111111111111 0.5 lineto
-                            stroke
-                            26.277777777777775 1.25 moveto
-                            26.277777777777775 -0.25 lineto
-                            stroke
-                            32.11111111111111 1.25 moveto
-                            32.11111111111111 -0.25 lineto
-                            stroke
-                            32.11111111111111 0.5 moveto
-                            41.83333333333333 0.5 lineto
-                            stroke
-                            32.11111111111111 1.25 moveto
-                            32.11111111111111 -0.25 lineto
-                            stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
-                            stroke
-                            41.83333333333333 0.5 moveto
-                            45.722222222222214 0.5 lineto
-                            stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
-                            stroke
-                            45.722222222222214 1.25 moveto
-                            45.722222222222214 -0.25 lineto
-                            stroke
-                            45.722222222222214 0.5 moveto
-                            51.55555555555555 0.5 lineto
-                            stroke
-                            45.722222222222214 1.25 moveto
-                            45.722222222222214 -0.25 lineto
-                            stroke
-                            51.55555555555555 1.25 moveto
-                            51.55555555555555 -0.25 lineto
-                            stroke
-                            51.55555555555555 0.5 moveto
-                            55.444444444444436 0.5 lineto
-                            stroke
-                            51.55555555555555 1.25 moveto
-                            51.55555555555555 -0.25 lineto
-                            stroke
-                            55.444444444444436 1.25 moveto
-                            55.444444444444436 -0.25 lineto
-                            stroke
-                            55.444444444444436 0.5 moveto
-                            65.16666666666666 0.5 lineto
-                            stroke
-                            55.444444444444436 1.25 moveto
-                            55.444444444444436 -0.25 lineto
-                            stroke
-                            65.16666666666666 1.25 moveto
-                            65.16666666666666 -0.25 lineto
-                            stroke
-                            65.16666666666666 0.5 moveto
-                            74.88888888888889 0.5 lineto
-                            stroke
-                            65.16666666666666 1.25 moveto
-                            65.16666666666666 -0.25 lineto
-                            stroke
-                            74.88888888888889 1.25 moveto
-                            74.88888888888889 -0.25 lineto
-                            stroke
-                            74.88888888888889 0.5 moveto
-                            78.77777777777777 0.5 lineto
-                            stroke
-                            74.88888888888889 1.25 moveto
-                            74.88888888888889 -0.25 lineto
-                            stroke
-                            78.77777777777777 1.25 moveto
-                            78.77777777777777 -0.25 lineto
-                            stroke
-                            78.77777777777777 0.5 moveto
-                            88.49999999999999 0.5 lineto
-                            stroke
-                            78.77777777777777 1.25 moveto
-                            78.77777777777777 -0.25 lineto
-                            stroke
-                            88.49999999999999 1.25 moveto
-                            88.49999999999999 -0.25 lineto
-                            stroke
-                            88.49999999999999 0.5 moveto
-                            92.38888888888887 0.5 lineto
-                            stroke
-                            88.49999999999999 1.25 moveto
-                            88.49999999999999 -0.25 lineto
-                            stroke
-                            92.38888888888887 1.25 moveto
-                            92.38888888888887 -0.25 lineto
-                            stroke
-                            92.38888888888887 0.5 moveto
-                            96.27777777777777 0.5 lineto
-                            stroke
-                            92.38888888888887 1.25 moveto
-                            92.38888888888887 -0.25 lineto
-                            stroke
-                            96.27777777777777 1.25 moveto
-                            96.27777777777777 -0.25 lineto
-                            stroke
-                            96.27777777777777 0.5 moveto
-                            100.16666666666666 0.5 lineto
-                            stroke
-                            96.27777777777777 1.25 moveto
-                            96.27777777777777 -0.25 lineto
-                            stroke
-                            100.16666666666666 1.25 moveto
-                            100.16666666666666 -0.25 lineto
-                            stroke
-                            0.1 setlinewidth
-                            [ 0.1 0.2 ] 0 setdash
-                            1 2.5 moveto
-                            1 1 lineto
-                            stroke
-                            8.777777777777777 2.5 moveto
-                            8.777777777777777 1 lineto
-                            stroke
-                            12.666666666666664 2.5 moveto
-                            12.666666666666664 1 lineto
-                            stroke
-                            16.555555555555554 2.5 moveto
-                            16.555555555555554 1 lineto
-                            stroke
-                            18.499999999999996 2.5 moveto
-                            18.499999999999996 1 lineto
-                            stroke
-                            26.277777777777775 2.5 moveto
-                            26.277777777777775 1 lineto
-                            stroke
-                            32.11111111111111 2.5 moveto
-                            32.11111111111111 1 lineto
-                            stroke
-                            41.83333333333333 2.5 moveto
-                            41.83333333333333 1 lineto
-                            stroke
-                            45.722222222222214 2.5 moveto
-                            45.722222222222214 1 lineto
-                            stroke
-                            51.55555555555555 2.5 moveto
-                            51.55555555555555 1 lineto
-                            stroke
-                            55.444444444444436 2.5 moveto
-                            55.444444444444436 1 lineto
-                            stroke
-                            65.16666666666666 2.5 moveto
-                            65.16666666666666 1 lineto
-                            stroke
-                            74.88888888888889 2.5 moveto
-                            74.88888888888889 1 lineto
-                            stroke
-                            78.77777777777777 2.5 moveto
-                            78.77777777777777 1 lineto
-                            stroke
-                            88.49999999999999 2.5 moveto
-                            88.49999999999999 1 lineto
-                            stroke
-                            92.38888888888887 2.5 moveto
-                            92.38888888888887 1 lineto
-                            stroke
-                            96.27777777777777 2.5 moveto
-                            96.27777777777777 1 lineto
-                            stroke
-                            100.16666666666666 2.5 moveto
-                            100.16666666666666 1 lineto
-                            stroke
-                            0 0 moveto
-                            0.99 setgray
-                            0 0.01 rlineto
-                            stroke
-                            "
-                }
-            \vspace
-                #0.5
-            \fontsize
-                #-1
-                \sans
-                    \line
-                        {
-                            "Voice 2:"
-                        }
-            \vspace
-                #0.5
-            \column
-                {
-                    \overlay
-                        {
-                            \translate
-                                #'(1.0 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                0
-                                                1
-                            \translate
-                                #'(8.777777777777777 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                2
-                                                1
-                            \translate
-                                #'(16.555555555555554 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                4
-                                                1
-                            \translate
-                                #'(18.499999999999996 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                9
-                                                2
-                            \translate
-                                #'(24.33333333333333 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                6
-                                                1
-                            \translate
-                                #'(34.05555555555555 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                17
-                                                2
-                            \translate
-                                #'(41.83333333333333 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                21
-                                                2
-                            \translate
-                                #'(47.66666666666666 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                12
-                                                1
-                            \translate
-                                #'(55.444444444444436 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                14
-                                                1
-                            \translate
-                                #'(59.33333333333333 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                15
-                                                1
                             \translate
                                 #'(63.222222222222214 . 1)
                                 \sans
@@ -923,23 +707,14 @@
                                                 16
                                                 1
                             \translate
-                                #'(65.16666666666666 . 1)
+                                #'(70.99999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                33
-                                                2
-                            \translate
-                                #'(72.94444444444443 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                37
-                                                2
+                                                18
+                                                1
                             \translate
                                 #'(78.77777777777777 . 1)
                                 \sans
@@ -950,6 +725,15 @@
                                                 20
                                                 1
                             \translate
+                                #'(80.72222222222221 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                41
+                                                2
+                            \translate
                                 #'(88.49999999999999 . 1)
                                 \sans
                                     \fontsize
@@ -959,6 +743,15 @@
                                                 45
                                                 2
                             \translate
+                                #'(90.44444444444443 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                23
+                                                1
+                            \translate
                                 #'(92.38888888888887 . 1)
                                 \sans
                                     \fontsize
@@ -967,6 +760,15 @@
                                             \fraction
                                                 47
                                                 2
+                            \translate
+                                #'(94.33333333333331 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                24
+                                                1
                             \translate
                                 #'(98.22222222222221 . 1)
                                 \sans
@@ -1020,118 +822,172 @@
                             18.499999999999996 -0.25 lineto
                             stroke
                             18.499999999999996 0.5 moveto
-                            24.33333333333333 0.5 lineto
+                            26.277777777777775 0.5 lineto
                             stroke
                             18.499999999999996 1.25 moveto
                             18.499999999999996 -0.25 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            26.277777777777775 1.25 moveto
+                            26.277777777777775 -0.25 lineto
                             stroke
-                            24.33333333333333 0.5 moveto
-                            34.05555555555555 0.5 lineto
+                            26.277777777777775 0.5 moveto
+                            28.222222222222218 0.5 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            26.277777777777775 1.25 moveto
+                            26.277777777777775 -0.25 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
                             stroke
-                            34.05555555555555 0.5 moveto
-                            41.83333333333333 0.5 lineto
+                            28.222222222222218 0.5 moveto
+                            30.166666666666664 0.5 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
                             stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
+                            30.166666666666664 1.25 moveto
+                            30.166666666666664 -0.25 lineto
                             stroke
-                            41.83333333333333 0.5 moveto
-                            47.66666666666666 0.5 lineto
+                            30.166666666666664 0.5 moveto
+                            32.11111111111111 0.5 lineto
                             stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
+                            30.166666666666664 1.25 moveto
+                            30.166666666666664 -0.25 lineto
                             stroke
-                            47.66666666666666 1.25 moveto
-                            47.66666666666666 -0.25 lineto
+                            32.11111111111111 1.25 moveto
+                            32.11111111111111 -0.25 lineto
                             stroke
-                            47.66666666666666 0.5 moveto
+                            32.11111111111111 0.5 moveto
+                            35.99999999999999 0.5 lineto
+                            stroke
+                            32.11111111111111 1.25 moveto
+                            32.11111111111111 -0.25 lineto
+                            stroke
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
+                            stroke
+                            35.99999999999999 0.5 moveto
+                            39.888888888888886 0.5 lineto
+                            stroke
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
+                            stroke
+                            39.888888888888886 1.25 moveto
+                            39.888888888888886 -0.25 lineto
+                            stroke
+                            39.888888888888886 0.5 moveto
+                            45.722222222222214 0.5 lineto
+                            stroke
+                            39.888888888888886 1.25 moveto
+                            39.888888888888886 -0.25 lineto
+                            stroke
+                            45.722222222222214 1.25 moveto
+                            45.722222222222214 -0.25 lineto
+                            stroke
+                            45.722222222222214 0.5 moveto
+                            53.49999999999999 0.5 lineto
+                            stroke
+                            45.722222222222214 1.25 moveto
+                            45.722222222222214 -0.25 lineto
+                            stroke
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
+                            stroke
+                            53.49999999999999 0.5 moveto
                             55.444444444444436 0.5 lineto
                             stroke
-                            47.66666666666666 1.25 moveto
-                            47.66666666666666 -0.25 lineto
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
                             stroke
                             55.444444444444436 1.25 moveto
                             55.444444444444436 -0.25 lineto
                             stroke
                             55.444444444444436 0.5 moveto
-                            59.33333333333333 0.5 lineto
+                            61.27777777777777 0.5 lineto
                             stroke
                             55.444444444444436 1.25 moveto
                             55.444444444444436 -0.25 lineto
                             stroke
-                            59.33333333333333 1.25 moveto
-                            59.33333333333333 -0.25 lineto
+                            61.27777777777777 1.25 moveto
+                            61.27777777777777 -0.25 lineto
                             stroke
-                            59.33333333333333 0.5 moveto
+                            61.27777777777777 0.5 moveto
                             63.222222222222214 0.5 lineto
                             stroke
-                            59.33333333333333 1.25 moveto
-                            59.33333333333333 -0.25 lineto
+                            61.27777777777777 1.25 moveto
+                            61.27777777777777 -0.25 lineto
                             stroke
                             63.222222222222214 1.25 moveto
                             63.222222222222214 -0.25 lineto
                             stroke
                             63.222222222222214 0.5 moveto
-                            65.16666666666666 0.5 lineto
+                            70.99999999999999 0.5 lineto
                             stroke
                             63.222222222222214 1.25 moveto
                             63.222222222222214 -0.25 lineto
                             stroke
-                            65.16666666666666 1.25 moveto
-                            65.16666666666666 -0.25 lineto
+                            70.99999999999999 1.25 moveto
+                            70.99999999999999 -0.25 lineto
                             stroke
-                            65.16666666666666 0.5 moveto
-                            72.94444444444443 0.5 lineto
-                            stroke
-                            65.16666666666666 1.25 moveto
-                            65.16666666666666 -0.25 lineto
-                            stroke
-                            72.94444444444443 1.25 moveto
-                            72.94444444444443 -0.25 lineto
-                            stroke
-                            72.94444444444443 0.5 moveto
+                            70.99999999999999 0.5 moveto
                             78.77777777777777 0.5 lineto
                             stroke
-                            72.94444444444443 1.25 moveto
-                            72.94444444444443 -0.25 lineto
+                            70.99999999999999 1.25 moveto
+                            70.99999999999999 -0.25 lineto
                             stroke
                             78.77777777777777 1.25 moveto
                             78.77777777777777 -0.25 lineto
                             stroke
                             78.77777777777777 0.5 moveto
-                            88.49999999999999 0.5 lineto
+                            80.72222222222221 0.5 lineto
                             stroke
                             78.77777777777777 1.25 moveto
                             78.77777777777777 -0.25 lineto
+                            stroke
+                            80.72222222222221 1.25 moveto
+                            80.72222222222221 -0.25 lineto
+                            stroke
+                            80.72222222222221 0.5 moveto
+                            88.49999999999999 0.5 lineto
+                            stroke
+                            80.72222222222221 1.25 moveto
+                            80.72222222222221 -0.25 lineto
                             stroke
                             88.49999999999999 1.25 moveto
                             88.49999999999999 -0.25 lineto
                             stroke
                             88.49999999999999 0.5 moveto
-                            92.38888888888887 0.5 lineto
+                            90.44444444444443 0.5 lineto
                             stroke
                             88.49999999999999 1.25 moveto
                             88.49999999999999 -0.25 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
+                            stroke
+                            90.44444444444443 0.5 moveto
+                            92.38888888888887 0.5 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
                             stroke
                             92.38888888888887 1.25 moveto
                             92.38888888888887 -0.25 lineto
                             stroke
                             92.38888888888887 0.5 moveto
-                            98.22222222222221 0.5 lineto
+                            94.33333333333331 0.5 lineto
                             stroke
                             92.38888888888887 1.25 moveto
                             92.38888888888887 -0.25 lineto
+                            stroke
+                            94.33333333333331 1.25 moveto
+                            94.33333333333331 -0.25 lineto
+                            stroke
+                            94.33333333333331 0.5 moveto
+                            98.22222222222221 0.5 lineto
+                            stroke
+                            94.33333333333331 1.25 moveto
+                            94.33333333333331 -0.25 lineto
                             stroke
                             98.22222222222221 1.25 moveto
                             98.22222222222221 -0.25 lineto
@@ -1159,17 +1015,536 @@
                             18.499999999999996 2.5 moveto
                             18.499999999999996 1 lineto
                             stroke
+                            26.277777777777775 2.5 moveto
+                            26.277777777777775 1 lineto
+                            stroke
+                            28.222222222222218 2.5 moveto
+                            28.222222222222218 1 lineto
+                            stroke
+                            30.166666666666664 2.5 moveto
+                            30.166666666666664 1 lineto
+                            stroke
+                            32.11111111111111 2.5 moveto
+                            32.11111111111111 1 lineto
+                            stroke
+                            35.99999999999999 2.5 moveto
+                            35.99999999999999 1 lineto
+                            stroke
+                            39.888888888888886 2.5 moveto
+                            39.888888888888886 1 lineto
+                            stroke
+                            45.722222222222214 2.5 moveto
+                            45.722222222222214 1 lineto
+                            stroke
+                            53.49999999999999 2.5 moveto
+                            53.49999999999999 1 lineto
+                            stroke
+                            55.444444444444436 2.5 moveto
+                            55.444444444444436 1 lineto
+                            stroke
+                            61.27777777777777 2.5 moveto
+                            61.27777777777777 1 lineto
+                            stroke
+                            63.222222222222214 2.5 moveto
+                            63.222222222222214 1 lineto
+                            stroke
+                            70.99999999999999 2.5 moveto
+                            70.99999999999999 1 lineto
+                            stroke
+                            78.77777777777777 2.5 moveto
+                            78.77777777777777 1 lineto
+                            stroke
+                            80.72222222222221 2.5 moveto
+                            80.72222222222221 1 lineto
+                            stroke
+                            88.49999999999999 2.5 moveto
+                            88.49999999999999 1 lineto
+                            stroke
+                            90.44444444444443 2.5 moveto
+                            90.44444444444443 1 lineto
+                            stroke
+                            92.38888888888887 2.5 moveto
+                            92.38888888888887 1 lineto
+                            stroke
+                            94.33333333333331 2.5 moveto
+                            94.33333333333331 1 lineto
+                            stroke
+                            98.22222222222221 2.5 moveto
+                            98.22222222222221 1 lineto
+                            stroke
+                            102.1111111111111 2.5 moveto
+                            102.1111111111111 1 lineto
+                            stroke
+                            0 0 moveto
+                            0.99 setgray
+                            0 0.01 rlineto
+                            stroke
+                            "
+                }
+            \vspace
+                #0.5
+            \fontsize
+                #-1
+                \sans
+                    \line
+                        {
+                            "Voice 2:"
+                        }
+            \vspace
+                #0.5
+            \column
+                {
+                    \overlay
+                        {
+                            \translate
+                                #'(1.0 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                0
+                                                1
+                            \translate
+                                #'(6.833333333333332 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                3
+                                                2
+                            \translate
+                                #'(14.611111111111109 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                7
+                                                2
+                            \translate
+                                #'(16.555555555555554 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                4
+                                                1
+                            \translate
+                                #'(22.388888888888886 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                11
+                                                2
+                            \translate
+                                #'(24.33333333333333 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                6
+                                                1
+                            \translate
+                                #'(32.11111111111111 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                8
+                                                1
+                            \translate
+                                #'(39.888888888888886 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                10
+                                                1
+                            \translate
+                                #'(41.83333333333333 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                21
+                                                2
+                            \translate
+                                #'(49.61111111111111 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                25
+                                                2
+                            \translate
+                                #'(51.55555555555555 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                13
+                                                1
+                            \translate
+                                #'(53.49999999999999 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                27
+                                                2
+                            \translate
+                                #'(55.444444444444436 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                14
+                                                1
+                            \translate
+                                #'(59.33333333333333 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                15
+                                                1
+                            \translate
+                                #'(63.222222222222214 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                16
+                                                1
+                            \translate
+                                #'(69.05555555555554 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                35
+                                                2
+                            \translate
+                                #'(76.83333333333333 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                39
+                                                2
+                            \translate
+                                #'(78.77777777777777 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                20
+                                                1
+                            \translate
+                                #'(84.6111111111111 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                43
+                                                2
+                            \translate
+                                #'(86.55555555555554 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                22
+                                                1
+                            \translate
+                                #'(94.33333333333331 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                24
+                                                1
+                            \translate
+                                #'(102.1111111111111 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                26
+                                                1
+                            \translate
+                                #'(104.05555555555554 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                53
+                                                2
+                        }
+                    \pad-to-box
+                        #'(0 . 102.05555555555554)
+                        #'(0 . 2.5)
+                        \postscript
+                            #"
+                            0.2 setlinewidth
+                            1 0.5 moveto
+                            6.833333333333332 0.5 lineto
+                            stroke
+                            1 1.25 moveto
+                            1 -0.25 lineto
+                            stroke
+                            6.833333333333332 1.25 moveto
+                            6.833333333333332 -0.25 lineto
+                            stroke
+                            6.833333333333332 0.5 moveto
+                            14.611111111111109 0.5 lineto
+                            stroke
+                            6.833333333333332 1.25 moveto
+                            6.833333333333332 -0.25 lineto
+                            stroke
+                            14.611111111111109 1.25 moveto
+                            14.611111111111109 -0.25 lineto
+                            stroke
+                            14.611111111111109 0.5 moveto
+                            16.555555555555554 0.5 lineto
+                            stroke
+                            14.611111111111109 1.25 moveto
+                            14.611111111111109 -0.25 lineto
+                            stroke
+                            16.555555555555554 1.25 moveto
+                            16.555555555555554 -0.25 lineto
+                            stroke
+                            16.555555555555554 0.5 moveto
+                            22.388888888888886 0.5 lineto
+                            stroke
+                            16.555555555555554 1.25 moveto
+                            16.555555555555554 -0.25 lineto
+                            stroke
+                            22.388888888888886 1.25 moveto
+                            22.388888888888886 -0.25 lineto
+                            stroke
+                            22.388888888888886 0.5 moveto
+                            24.33333333333333 0.5 lineto
+                            stroke
+                            22.388888888888886 1.25 moveto
+                            22.388888888888886 -0.25 lineto
+                            stroke
+                            24.33333333333333 1.25 moveto
+                            24.33333333333333 -0.25 lineto
+                            stroke
+                            24.33333333333333 0.5 moveto
+                            32.11111111111111 0.5 lineto
+                            stroke
+                            24.33333333333333 1.25 moveto
+                            24.33333333333333 -0.25 lineto
+                            stroke
+                            32.11111111111111 1.25 moveto
+                            32.11111111111111 -0.25 lineto
+                            stroke
+                            32.11111111111111 0.5 moveto
+                            39.888888888888886 0.5 lineto
+                            stroke
+                            32.11111111111111 1.25 moveto
+                            32.11111111111111 -0.25 lineto
+                            stroke
+                            39.888888888888886 1.25 moveto
+                            39.888888888888886 -0.25 lineto
+                            stroke
+                            39.888888888888886 0.5 moveto
+                            41.83333333333333 0.5 lineto
+                            stroke
+                            39.888888888888886 1.25 moveto
+                            39.888888888888886 -0.25 lineto
+                            stroke
+                            41.83333333333333 1.25 moveto
+                            41.83333333333333 -0.25 lineto
+                            stroke
+                            41.83333333333333 0.5 moveto
+                            49.61111111111111 0.5 lineto
+                            stroke
+                            41.83333333333333 1.25 moveto
+                            41.83333333333333 -0.25 lineto
+                            stroke
+                            49.61111111111111 1.25 moveto
+                            49.61111111111111 -0.25 lineto
+                            stroke
+                            49.61111111111111 0.5 moveto
+                            51.55555555555555 0.5 lineto
+                            stroke
+                            49.61111111111111 1.25 moveto
+                            49.61111111111111 -0.25 lineto
+                            stroke
+                            51.55555555555555 1.25 moveto
+                            51.55555555555555 -0.25 lineto
+                            stroke
+                            51.55555555555555 0.5 moveto
+                            53.49999999999999 0.5 lineto
+                            stroke
+                            51.55555555555555 1.25 moveto
+                            51.55555555555555 -0.25 lineto
+                            stroke
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
+                            stroke
+                            53.49999999999999 0.5 moveto
+                            55.444444444444436 0.5 lineto
+                            stroke
+                            53.49999999999999 1.25 moveto
+                            53.49999999999999 -0.25 lineto
+                            stroke
+                            55.444444444444436 1.25 moveto
+                            55.444444444444436 -0.25 lineto
+                            stroke
+                            55.444444444444436 0.5 moveto
+                            59.33333333333333 0.5 lineto
+                            stroke
+                            55.444444444444436 1.25 moveto
+                            55.444444444444436 -0.25 lineto
+                            stroke
+                            59.33333333333333 1.25 moveto
+                            59.33333333333333 -0.25 lineto
+                            stroke
+                            59.33333333333333 0.5 moveto
+                            63.222222222222214 0.5 lineto
+                            stroke
+                            59.33333333333333 1.25 moveto
+                            59.33333333333333 -0.25 lineto
+                            stroke
+                            63.222222222222214 1.25 moveto
+                            63.222222222222214 -0.25 lineto
+                            stroke
+                            63.222222222222214 0.5 moveto
+                            69.05555555555554 0.5 lineto
+                            stroke
+                            63.222222222222214 1.25 moveto
+                            63.222222222222214 -0.25 lineto
+                            stroke
+                            69.05555555555554 1.25 moveto
+                            69.05555555555554 -0.25 lineto
+                            stroke
+                            69.05555555555554 0.5 moveto
+                            76.83333333333333 0.5 lineto
+                            stroke
+                            69.05555555555554 1.25 moveto
+                            69.05555555555554 -0.25 lineto
+                            stroke
+                            76.83333333333333 1.25 moveto
+                            76.83333333333333 -0.25 lineto
+                            stroke
+                            76.83333333333333 0.5 moveto
+                            78.77777777777777 0.5 lineto
+                            stroke
+                            76.83333333333333 1.25 moveto
+                            76.83333333333333 -0.25 lineto
+                            stroke
+                            78.77777777777777 1.25 moveto
+                            78.77777777777777 -0.25 lineto
+                            stroke
+                            78.77777777777777 0.5 moveto
+                            84.6111111111111 0.5 lineto
+                            stroke
+                            78.77777777777777 1.25 moveto
+                            78.77777777777777 -0.25 lineto
+                            stroke
+                            84.6111111111111 1.25 moveto
+                            84.6111111111111 -0.25 lineto
+                            stroke
+                            84.6111111111111 0.5 moveto
+                            86.55555555555554 0.5 lineto
+                            stroke
+                            84.6111111111111 1.25 moveto
+                            84.6111111111111 -0.25 lineto
+                            stroke
+                            86.55555555555554 1.25 moveto
+                            86.55555555555554 -0.25 lineto
+                            stroke
+                            86.55555555555554 0.5 moveto
+                            94.33333333333331 0.5 lineto
+                            stroke
+                            86.55555555555554 1.25 moveto
+                            86.55555555555554 -0.25 lineto
+                            stroke
+                            94.33333333333331 1.25 moveto
+                            94.33333333333331 -0.25 lineto
+                            stroke
+                            94.33333333333331 0.5 moveto
+                            102.1111111111111 0.5 lineto
+                            stroke
+                            94.33333333333331 1.25 moveto
+                            94.33333333333331 -0.25 lineto
+                            stroke
+                            102.1111111111111 1.25 moveto
+                            102.1111111111111 -0.25 lineto
+                            stroke
+                            102.1111111111111 0.5 moveto
+                            104.05555555555554 0.5 lineto
+                            stroke
+                            102.1111111111111 1.25 moveto
+                            102.1111111111111 -0.25 lineto
+                            stroke
+                            104.05555555555554 1.25 moveto
+                            104.05555555555554 -0.25 lineto
+                            stroke
+                            0.1 setlinewidth
+                            [ 0.1 0.2 ] 0 setdash
+                            1 2.5 moveto
+                            1 1 lineto
+                            stroke
+                            6.833333333333332 2.5 moveto
+                            6.833333333333332 1 lineto
+                            stroke
+                            14.611111111111109 2.5 moveto
+                            14.611111111111109 1 lineto
+                            stroke
+                            16.555555555555554 2.5 moveto
+                            16.555555555555554 1 lineto
+                            stroke
+                            22.388888888888886 2.5 moveto
+                            22.388888888888886 1 lineto
+                            stroke
                             24.33333333333333 2.5 moveto
                             24.33333333333333 1 lineto
                             stroke
-                            34.05555555555555 2.5 moveto
-                            34.05555555555555 1 lineto
+                            32.11111111111111 2.5 moveto
+                            32.11111111111111 1 lineto
+                            stroke
+                            39.888888888888886 2.5 moveto
+                            39.888888888888886 1 lineto
                             stroke
                             41.83333333333333 2.5 moveto
                             41.83333333333333 1 lineto
                             stroke
-                            47.66666666666666 2.5 moveto
-                            47.66666666666666 1 lineto
+                            49.61111111111111 2.5 moveto
+                            49.61111111111111 1 lineto
+                            stroke
+                            51.55555555555555 2.5 moveto
+                            51.55555555555555 1 lineto
+                            stroke
+                            53.49999999999999 2.5 moveto
+                            53.49999999999999 1 lineto
                             stroke
                             55.444444444444436 2.5 moveto
                             55.444444444444436 1 lineto
@@ -1180,26 +1555,29 @@
                             63.222222222222214 2.5 moveto
                             63.222222222222214 1 lineto
                             stroke
-                            65.16666666666666 2.5 moveto
-                            65.16666666666666 1 lineto
+                            69.05555555555554 2.5 moveto
+                            69.05555555555554 1 lineto
                             stroke
-                            72.94444444444443 2.5 moveto
-                            72.94444444444443 1 lineto
+                            76.83333333333333 2.5 moveto
+                            76.83333333333333 1 lineto
                             stroke
                             78.77777777777777 2.5 moveto
                             78.77777777777777 1 lineto
                             stroke
-                            88.49999999999999 2.5 moveto
-                            88.49999999999999 1 lineto
+                            84.6111111111111 2.5 moveto
+                            84.6111111111111 1 lineto
                             stroke
-                            92.38888888888887 2.5 moveto
-                            92.38888888888887 1 lineto
+                            86.55555555555554 2.5 moveto
+                            86.55555555555554 1 lineto
                             stroke
-                            98.22222222222221 2.5 moveto
-                            98.22222222222221 1 lineto
+                            94.33333333333331 2.5 moveto
+                            94.33333333333331 1 lineto
                             stroke
                             102.1111111111111 2.5 moveto
                             102.1111111111111 1 lineto
+                            stroke
+                            104.05555555555554 2.5 moveto
+                            104.05555555555554 1 lineto
                             stroke
                             0 0 moveto
                             0.99 setgray
@@ -1232,6 +1610,15 @@
                                                 0
                                                 1
                             \translate
+                                #'(8.777777777777777 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                2
+                                                1
+                            \translate
                                 #'(10.722222222222221 . 1)
                                 \sans
                                     \fontsize
@@ -1241,32 +1628,59 @@
                                                 5
                                                 2
                             \translate
-                                #'(20.444444444444443 . 1)
+                                #'(12.666666666666664 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                5
+                                                3
                                                 1
                             \translate
-                                #'(24.33333333333333 . 1)
+                                #'(14.611111111111109 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                6
-                                                1
-                            \translate
-                                #'(34.05555555555555 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                17
+                                                7
                                                 2
+                            \translate
+                                #'(18.499999999999996 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                9
+                                                2
+                            \translate
+                                #'(22.388888888888886 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                11
+                                                2
+                            \translate
+                                #'(28.222222222222218 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                7
+                                                1
+                            \translate
+                                #'(35.99999999999999 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                9
+                                                1
                             \translate
                                 #'(37.94444444444444 . 1)
                                 \sans
@@ -1277,14 +1691,14 @@
                                                 19
                                                 2
                             \translate
-                                #'(41.83333333333333 . 1)
+                                #'(43.77777777777777 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                21
-                                                2
+                                                11
+                                                1
                             \translate
                                 #'(45.722222222222214 . 1)
                                 \sans
@@ -1322,41 +1736,77 @@
                                                 16
                                                 1
                             \translate
-                                #'(69.05555555555554 . 1)
+                                #'(70.99999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                35
-                                                2
-                            \translate
-                                #'(78.77777777777777 . 1)
-                                \sans
-                                    \fontsize
-                                        #-3
-                                        \center-align
-                                            \fraction
-                                                20
+                                                18
                                                 1
                             \translate
-                                #'(86.55555555555554 . 1)
+                                #'(72.94444444444443 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                22
+                                                37
+                                                2
+                            \translate
+                                #'(74.88888888888889 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                19
                                                 1
                             \translate
-                                #'(92.38888888888887 . 1)
+                                #'(76.83333333333333 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                47
+                                                39
                                                 2
+                            \translate
+                                #'(80.72222222222221 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                41
+                                                2
+                            \translate
+                                #'(84.6111111111111 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                43
+                                                2
+                            \translate
+                                #'(90.44444444444443 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                23
+                                                1
+                            \translate
+                                #'(98.22222222222221 . 1)
+                                \sans
+                                    \fontsize
+                                        #-3
+                                        \center-align
+                                            \fraction
+                                                25
+                                                1
                             \translate
                                 #'(100.16666666666666 . 1)
                                 \sans
@@ -1367,80 +1817,116 @@
                                                 51
                                                 2
                             \translate
-                                #'(104.05555555555554 . 1)
+                                #'(105.99999999999999 . 1)
                                 \sans
                                     \fontsize
                                         #-3
                                         \center-align
                                             \fraction
-                                                53
-                                                2
+                                                27
+                                                1
                         }
                     \pad-to-box
-                        #'(0 . 102.05555555555554)
+                        #'(0 . 103.99999999999999)
                         #'(0 . 2.5)
                         \postscript
                             #"
                             0.2 setlinewidth
                             1 0.5 moveto
-                            10.722222222222221 0.5 lineto
+                            8.777777777777777 0.5 lineto
                             stroke
                             1 1.25 moveto
                             1 -0.25 lineto
+                            stroke
+                            8.777777777777777 1.25 moveto
+                            8.777777777777777 -0.25 lineto
+                            stroke
+                            8.777777777777777 0.5 moveto
+                            10.722222222222221 0.5 lineto
+                            stroke
+                            8.777777777777777 1.25 moveto
+                            8.777777777777777 -0.25 lineto
                             stroke
                             10.722222222222221 1.25 moveto
                             10.722222222222221 -0.25 lineto
                             stroke
                             10.722222222222221 0.5 moveto
-                            20.444444444444443 0.5 lineto
+                            12.666666666666664 0.5 lineto
                             stroke
                             10.722222222222221 1.25 moveto
                             10.722222222222221 -0.25 lineto
                             stroke
-                            20.444444444444443 1.25 moveto
-                            20.444444444444443 -0.25 lineto
+                            12.666666666666664 1.25 moveto
+                            12.666666666666664 -0.25 lineto
                             stroke
-                            20.444444444444443 0.5 moveto
-                            24.33333333333333 0.5 lineto
+                            12.666666666666664 0.5 moveto
+                            14.611111111111109 0.5 lineto
                             stroke
-                            20.444444444444443 1.25 moveto
-                            20.444444444444443 -0.25 lineto
+                            12.666666666666664 1.25 moveto
+                            12.666666666666664 -0.25 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            14.611111111111109 1.25 moveto
+                            14.611111111111109 -0.25 lineto
                             stroke
-                            24.33333333333333 0.5 moveto
-                            34.05555555555555 0.5 lineto
+                            14.611111111111109 0.5 moveto
+                            18.499999999999996 0.5 lineto
                             stroke
-                            24.33333333333333 1.25 moveto
-                            24.33333333333333 -0.25 lineto
+                            14.611111111111109 1.25 moveto
+                            14.611111111111109 -0.25 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            18.499999999999996 1.25 moveto
+                            18.499999999999996 -0.25 lineto
                             stroke
-                            34.05555555555555 0.5 moveto
+                            18.499999999999996 0.5 moveto
+                            22.388888888888886 0.5 lineto
+                            stroke
+                            18.499999999999996 1.25 moveto
+                            18.499999999999996 -0.25 lineto
+                            stroke
+                            22.388888888888886 1.25 moveto
+                            22.388888888888886 -0.25 lineto
+                            stroke
+                            22.388888888888886 0.5 moveto
+                            28.222222222222218 0.5 lineto
+                            stroke
+                            22.388888888888886 1.25 moveto
+                            22.388888888888886 -0.25 lineto
+                            stroke
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
+                            stroke
+                            28.222222222222218 0.5 moveto
+                            35.99999999999999 0.5 lineto
+                            stroke
+                            28.222222222222218 1.25 moveto
+                            28.222222222222218 -0.25 lineto
+                            stroke
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
+                            stroke
+                            35.99999999999999 0.5 moveto
                             37.94444444444444 0.5 lineto
                             stroke
-                            34.05555555555555 1.25 moveto
-                            34.05555555555555 -0.25 lineto
+                            35.99999999999999 1.25 moveto
+                            35.99999999999999 -0.25 lineto
                             stroke
                             37.94444444444444 1.25 moveto
                             37.94444444444444 -0.25 lineto
                             stroke
                             37.94444444444444 0.5 moveto
-                            41.83333333333333 0.5 lineto
+                            43.77777777777777 0.5 lineto
                             stroke
                             37.94444444444444 1.25 moveto
                             37.94444444444444 -0.25 lineto
                             stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
+                            43.77777777777777 1.25 moveto
+                            43.77777777777777 -0.25 lineto
                             stroke
-                            41.83333333333333 0.5 moveto
+                            43.77777777777777 0.5 moveto
                             45.722222222222214 0.5 lineto
                             stroke
-                            41.83333333333333 1.25 moveto
-                            41.83333333333333 -0.25 lineto
+                            43.77777777777777 1.25 moveto
+                            43.77777777777777 -0.25 lineto
                             stroke
                             45.722222222222214 1.25 moveto
                             45.722222222222214 -0.25 lineto
@@ -1473,81 +1959,129 @@
                             63.222222222222214 -0.25 lineto
                             stroke
                             63.222222222222214 0.5 moveto
-                            69.05555555555554 0.5 lineto
+                            70.99999999999999 0.5 lineto
                             stroke
                             63.222222222222214 1.25 moveto
                             63.222222222222214 -0.25 lineto
                             stroke
-                            69.05555555555554 1.25 moveto
-                            69.05555555555554 -0.25 lineto
+                            70.99999999999999 1.25 moveto
+                            70.99999999999999 -0.25 lineto
                             stroke
-                            69.05555555555554 0.5 moveto
-                            78.77777777777777 0.5 lineto
+                            70.99999999999999 0.5 moveto
+                            72.94444444444443 0.5 lineto
                             stroke
-                            69.05555555555554 1.25 moveto
-                            69.05555555555554 -0.25 lineto
+                            70.99999999999999 1.25 moveto
+                            70.99999999999999 -0.25 lineto
                             stroke
-                            78.77777777777777 1.25 moveto
-                            78.77777777777777 -0.25 lineto
+                            72.94444444444443 1.25 moveto
+                            72.94444444444443 -0.25 lineto
                             stroke
-                            78.77777777777777 0.5 moveto
-                            86.55555555555554 0.5 lineto
+                            72.94444444444443 0.5 moveto
+                            74.88888888888889 0.5 lineto
                             stroke
-                            78.77777777777777 1.25 moveto
-                            78.77777777777777 -0.25 lineto
+                            72.94444444444443 1.25 moveto
+                            72.94444444444443 -0.25 lineto
                             stroke
-                            86.55555555555554 1.25 moveto
-                            86.55555555555554 -0.25 lineto
+                            74.88888888888889 1.25 moveto
+                            74.88888888888889 -0.25 lineto
                             stroke
-                            86.55555555555554 0.5 moveto
-                            92.38888888888887 0.5 lineto
+                            74.88888888888889 0.5 moveto
+                            76.83333333333333 0.5 lineto
                             stroke
-                            86.55555555555554 1.25 moveto
-                            86.55555555555554 -0.25 lineto
+                            74.88888888888889 1.25 moveto
+                            74.88888888888889 -0.25 lineto
                             stroke
-                            92.38888888888887 1.25 moveto
-                            92.38888888888887 -0.25 lineto
+                            76.83333333333333 1.25 moveto
+                            76.83333333333333 -0.25 lineto
                             stroke
-                            92.38888888888887 0.5 moveto
+                            76.83333333333333 0.5 moveto
+                            80.72222222222221 0.5 lineto
+                            stroke
+                            76.83333333333333 1.25 moveto
+                            76.83333333333333 -0.25 lineto
+                            stroke
+                            80.72222222222221 1.25 moveto
+                            80.72222222222221 -0.25 lineto
+                            stroke
+                            80.72222222222221 0.5 moveto
+                            84.6111111111111 0.5 lineto
+                            stroke
+                            80.72222222222221 1.25 moveto
+                            80.72222222222221 -0.25 lineto
+                            stroke
+                            84.6111111111111 1.25 moveto
+                            84.6111111111111 -0.25 lineto
+                            stroke
+                            84.6111111111111 0.5 moveto
+                            90.44444444444443 0.5 lineto
+                            stroke
+                            84.6111111111111 1.25 moveto
+                            84.6111111111111 -0.25 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
+                            stroke
+                            90.44444444444443 0.5 moveto
+                            98.22222222222221 0.5 lineto
+                            stroke
+                            90.44444444444443 1.25 moveto
+                            90.44444444444443 -0.25 lineto
+                            stroke
+                            98.22222222222221 1.25 moveto
+                            98.22222222222221 -0.25 lineto
+                            stroke
+                            98.22222222222221 0.5 moveto
                             100.16666666666666 0.5 lineto
                             stroke
-                            92.38888888888887 1.25 moveto
-                            92.38888888888887 -0.25 lineto
+                            98.22222222222221 1.25 moveto
+                            98.22222222222221 -0.25 lineto
                             stroke
                             100.16666666666666 1.25 moveto
                             100.16666666666666 -0.25 lineto
                             stroke
                             100.16666666666666 0.5 moveto
-                            104.05555555555554 0.5 lineto
+                            105.99999999999999 0.5 lineto
                             stroke
                             100.16666666666666 1.25 moveto
                             100.16666666666666 -0.25 lineto
                             stroke
-                            104.05555555555554 1.25 moveto
-                            104.05555555555554 -0.25 lineto
+                            105.99999999999999 1.25 moveto
+                            105.99999999999999 -0.25 lineto
                             stroke
                             0.1 setlinewidth
                             [ 0.1 0.2 ] 0 setdash
                             1 2.5 moveto
                             1 1 lineto
                             stroke
+                            8.777777777777777 2.5 moveto
+                            8.777777777777777 1 lineto
+                            stroke
                             10.722222222222221 2.5 moveto
                             10.722222222222221 1 lineto
                             stroke
-                            20.444444444444443 2.5 moveto
-                            20.444444444444443 1 lineto
+                            12.666666666666664 2.5 moveto
+                            12.666666666666664 1 lineto
                             stroke
-                            24.33333333333333 2.5 moveto
-                            24.33333333333333 1 lineto
+                            14.611111111111109 2.5 moveto
+                            14.611111111111109 1 lineto
                             stroke
-                            34.05555555555555 2.5 moveto
-                            34.05555555555555 1 lineto
+                            18.499999999999996 2.5 moveto
+                            18.499999999999996 1 lineto
+                            stroke
+                            22.388888888888886 2.5 moveto
+                            22.388888888888886 1 lineto
+                            stroke
+                            28.222222222222218 2.5 moveto
+                            28.222222222222218 1 lineto
+                            stroke
+                            35.99999999999999 2.5 moveto
+                            35.99999999999999 1 lineto
                             stroke
                             37.94444444444444 2.5 moveto
                             37.94444444444444 1 lineto
                             stroke
-                            41.83333333333333 2.5 moveto
-                            41.83333333333333 1 lineto
+                            43.77777777777777 2.5 moveto
+                            43.77777777777777 1 lineto
                             stroke
                             45.722222222222214 2.5 moveto
                             45.722222222222214 1 lineto
@@ -1561,23 +2095,35 @@
                             63.222222222222214 2.5 moveto
                             63.222222222222214 1 lineto
                             stroke
-                            69.05555555555554 2.5 moveto
-                            69.05555555555554 1 lineto
+                            70.99999999999999 2.5 moveto
+                            70.99999999999999 1 lineto
                             stroke
-                            78.77777777777777 2.5 moveto
-                            78.77777777777777 1 lineto
+                            72.94444444444443 2.5 moveto
+                            72.94444444444443 1 lineto
                             stroke
-                            86.55555555555554 2.5 moveto
-                            86.55555555555554 1 lineto
+                            74.88888888888889 2.5 moveto
+                            74.88888888888889 1 lineto
                             stroke
-                            92.38888888888887 2.5 moveto
-                            92.38888888888887 1 lineto
+                            76.83333333333333 2.5 moveto
+                            76.83333333333333 1 lineto
+                            stroke
+                            80.72222222222221 2.5 moveto
+                            80.72222222222221 1 lineto
+                            stroke
+                            84.6111111111111 2.5 moveto
+                            84.6111111111111 1 lineto
+                            stroke
+                            90.44444444444443 2.5 moveto
+                            90.44444444444443 1 lineto
+                            stroke
+                            98.22222222222221 2.5 moveto
+                            98.22222222222221 1 lineto
                             stroke
                             100.16666666666666 2.5 moveto
                             100.16666666666666 1 lineto
                             stroke
-                            104.05555555555554 2.5 moveto
-                            104.05555555555554 1 lineto
+                            105.99999999999999 2.5 moveto
+                            105.99999999999999 1 lineto
                             stroke
                             0 0 moveto
                             0.99 setgray
