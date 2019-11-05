@@ -112,32 +112,15 @@
 
             \times 16/17 {
 
-                aqs8.
+                aqs4
                 \ff
                 \>
-                ~
-                [
 
-                aqs16
+                bf8
 
-                bf16
-                ~
+                aqs4
 
-                bf16
-
-                aqs16
-                ~
-
-                aqs8
-                ~
-
-                aqs16
-
-                bqf16
-                ~
-                ]
-
-                bqf4.
+                bqf4..
 
             }
 
@@ -209,12 +192,12 @@
             ]
 
             cs'8
-            [
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/5 {
 
                 d'8
+                [
 
                 cs'8
 
@@ -301,10 +284,12 @@
                 cs'32
 
                 d'32
+                ]
 
             }
 
             d'16
+            [
 
             d'16
             ~
@@ -349,24 +334,30 @@
             e'16
 
             aqs16
+            ]
 
             e'16
+            [
 
             ef'16
 
             d'16
 
             cs'16
+            ]
 
             cs'16
+            [
 
             ef'16
 
             e'16
 
             e'16
+            ]
 
             bf16
+            [
 
             e'16
 
@@ -379,25 +370,33 @@
             [
 
             ef'16
+            ]
 
             e'16
+            [
 
             ef'16
 
             e'8
+            ]
 
             ef'8
+            [
 
             cs'8
             ~
+            ]
 
             cs'16
+            [
 
             d'8.
             ~
+            ]
 
             d'16
             \p
+            [
 
             cs'8.
             \mp
@@ -454,13 +453,11 @@
             ef'8
             \mf
             \>
-            [
 
             dqf'8
             \mp
             - \tweak stencil #constante-hairpin
             \<
-            ]
 
             \times 4/5 {
 
@@ -616,6 +613,7 @@
                 e'16
 
                 ef'16
+                ]
 
             }
 
@@ -624,22 +622,10 @@
 
                 cs'16
 
-                d'8
-                ~
-                ]
+                d'4..
 
-                d'4
-                ~
-
-                d'16
-                [
-
-                ef'16
-                ~
-
-                ef'8
+                ef'8.
                 \mp
-                ]
 
             }
 
@@ -653,15 +639,19 @@
 
             e'8
             ~
+            ]
 
             e'8
+            [
 
             ef'8
+            ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 8/7 {
 
                 ef'16
+                [
 
                 d'16
 
@@ -681,12 +671,10 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/13 {
 
-                cs'8.
+                cs'4
                 ~
-                [
 
-                cs'8
-                ]
+                cs'16
 
                 cqs'4.
 
@@ -714,8 +702,10 @@
 
             cqs'16
             ~
+            ]
 
             cqs'8.
+            [
 
             cs'16
             ~

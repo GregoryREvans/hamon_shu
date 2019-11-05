@@ -62,15 +62,11 @@ pitch_timespan_list = pitch_timespan_maker(
 dynamic_target_timespan = abjad.Timespan(0, 10)
 
 dynamic_timespan_maker = TaleaTimespanMaker(
-    # initial_silence_talea=rmakers.Talea(counts=([0, 5, 3, 6, 2]), denominator=8),
-    # synchronize_step=True, #goes down voices instead of across? maybe not consistent...
-    # synchronize_groupings=True, #goes down voices instead of across? maybe not consistent...
-    playing_talea=rmakers.Talea(counts=([2, 3, 2, 4, 3, 6]), denominator=4),
-    # playing_groupings=(
-    #     [1, 2, 3, 2]
-    # ),  # smashes timespans together without intermittent silence
+    playing_talea=rmakers.Talea(
+        counts=([10, 16, 54, 39, 18, 23, 20, 14, 10, 36, 80]), denominator=8
+    ),
+    initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-    # fuse_groups=False, #turns groups from multiple timespans into one large timespan
 )
 
 dynamic_timespan_list = dynamic_timespan_maker(
@@ -83,7 +79,9 @@ dynamic_timespan_list = dynamic_timespan_maker(
 articulation_target_timespan = abjad.Timespan(0, 10)
 
 articulation_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([10, 16, 54, 39, 18, 23, 20, 14, 10, 36, 80]), denominator=8),
+    playing_talea=rmakers.Talea(
+        counts=([10, 16, 54, 39, 18, 23, 20, 14, 10, 36, 80]), denominator=8
+    ),
     initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
 )

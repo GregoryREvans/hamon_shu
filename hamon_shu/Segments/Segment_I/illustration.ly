@@ -232,8 +232,10 @@
                     [
 
                     e'16
+                    ]
 
                     e'16
+                    [
 
                     aqs16
                     ~
@@ -251,15 +253,9 @@
                         bf16
                         [
 
-                        bqf8
-                        ~
+                        bqf8.
 
-                        bqf16
-
-                        aqs16
-                        ~
-
-                        aqs8
+                        aqs8.
                         ]
                         <>
                         \f
@@ -420,7 +416,9 @@
                         <>
                         \ff
 
-                        r4
+                        r8
+
+                        r8
 
                     }
 
@@ -441,13 +439,13 @@
                     b4
 
                     bf8
-                    [
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 12) "16")
                     \times 12/11 {
 
                         ef'16
+                        [
 
                         eqf'16
 
@@ -493,13 +491,8 @@
                     \times 8/7 {
 
                         c'16
-                        [
 
-                        bqs8
-                        ~
-                        ]
-
-                        bqs4
+                        bqs4.
                         \mf
 
                     }
@@ -564,10 +557,7 @@
 
                         e'16
 
-                        aqs16
-                        ~
-
-                        aqs8
+                        aqs8.
                         ]
                         <>
                         \pp
@@ -699,16 +689,20 @@
                     aqs16
 
                     b16
+                    ]
 
                     c'16
+                    [
 
                     bqf16
 
                     e'16
 
                     ef'16
+                    ]
 
                     aqs16
+                    [
 
                     ef'16
 
@@ -739,20 +733,10 @@
                     \times 16/15 {
 
                         bqf8
-                        [
 
-                        c'8.
-                        ~
-                        ]
+                        c'4..
 
-                        c'4
-
-                        cqs'16
-                        ~
-                        [
-
-                        cqs'16
-                        ]
+                        cqs'8
 
                         cs'4
 
@@ -879,8 +863,10 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        r4
+                        r8
                         \!
+
+                        r8
 
                     }
 
@@ -950,13 +936,10 @@
                         d'16
                         ]
 
-                        e'4
-                        ~
-
-                        e'8.
-                        [
+                        e'4..
 
                         d'16
+                        [
 
                         d'16
                         ]
@@ -984,6 +967,7 @@
                         cs'32
 
                         d'32
+                        ]
 
                     }
 
@@ -992,6 +976,7 @@
                     \times 6/5 {
 
                         cs'16
+                        [
 
                         d'16
 
@@ -1026,8 +1011,10 @@
 
                     ef'16
                     ~
+                    ]
 
                     ef'16
+                    [
 
                     e'16
                     ~
@@ -1036,14 +1023,16 @@
 
                     ef'16
                     ~
+                    ]
 
                     ef'8
+                    [
 
                     d'8
                     ~
+                    ]
 
                     d'8
-                    ]
                     <>
                     \ff
 
@@ -1192,7 +1181,9 @@
                         <>
                         \p
 
-                        r16
+                        r32
+
+                        r32
 
                     }
 
@@ -1208,18 +1199,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 14) "16")
                     \times 14/13 {
 
-                        ef'4..
+                        ef'2
                         \mf
                         \>
-                        ~
 
-                        ef'16
+                        dqf'8.
                         [
-
-                        dqf'16
-                        ~
-
-                        dqf'8
 
                         cs'8
                         ~
@@ -1355,6 +1340,7 @@
                         b32
 
                         aqs32
+                        ]
 
                     }
 
@@ -1362,6 +1348,7 @@
                     \times 8/9 {
 
                         ef'8.
+                        [
 
                         e'8.
 
@@ -1390,8 +1377,10 @@
                     [
 
                     cqs'16
+                    ]
 
                     cs'16
+                    [
 
                     d'16
 
@@ -1409,12 +1398,12 @@
                         ef'16
 
                         e'16
+                        ]
 
                     }
 
                     d'8
                     ~
-                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
@@ -1424,17 +1413,14 @@
                         [
 
                         e'8
-
-                        ef'8
-                        ~
-
-                        ef'8.
-
-                        d'8
-                        ~
                         ]
 
-                        d'4
+                        ef'4
+                        ~
+
+                        ef'16
+
+                        d'4.
 
                         ef'16
                         ~
@@ -1471,32 +1457,15 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
 
-                        aqs8.
+                        aqs4
                         \ff
                         \>
-                        ~
-                        [
 
-                        aqs16
+                        bf8
 
-                        bf16
-                        ~
+                        aqs4
 
-                        bf16
-
-                        aqs16
-                        ~
-
-                        aqs8
-                        ~
-
-                        aqs16
-
-                        bqf16
-                        ~
-                        ]
-
-                        bqf4.
+                        bqf4..
 
                     }
 
@@ -1570,13 +1539,13 @@
                     ]
 
                     cs'8
-                    [
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
                         d'8
+                        [
 
                         cs'8
 
@@ -1664,10 +1633,12 @@
                         cs'32
 
                         d'32
+                        ]
 
                     }
 
                     d'16
+                    [
 
                     d'16
                     ~
@@ -1714,24 +1685,30 @@
                     e'16
 
                     aqs16
+                    ]
 
                     e'16
+                    [
 
                     ef'16
 
                     d'16
 
                     cs'16
+                    ]
 
                     cs'16
+                    [
 
                     ef'16
 
                     e'16
 
                     e'16
+                    ]
 
                     bf16
+                    [
 
                     e'16
 
@@ -1744,25 +1721,33 @@
                     [
 
                     ef'16
+                    ]
 
                     e'16
+                    [
 
                     ef'16
 
                     e'8
+                    ]
 
                     ef'8
+                    [
 
                     cs'8
                     ~
+                    ]
 
                     cs'16
+                    [
 
                     d'8.
                     ~
+                    ]
 
                     d'16
                     \p
+                    [
 
                     cs'8.
                     \mp
@@ -1820,13 +1805,11 @@
                     ef'8
                     \mf
                     \>
-                    [
 
                     dqf'8
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
-                    ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
@@ -1985,6 +1968,7 @@
                         e'16
 
                         ef'16
+                        ]
 
                     }
 
@@ -1994,22 +1978,10 @@
 
                         cs'16
 
-                        d'8
-                        ~
-                        ]
+                        d'4..
 
-                        d'4
-                        ~
-
-                        d'16
-                        [
-
-                        ef'16
-                        ~
-
-                        ef'8
+                        ef'8.
                         \mp
-                        ]
 
                     }
 
@@ -2023,16 +1995,20 @@
 
                     e'8
                     ~
+                    ]
 
                     e'8
+                    [
 
                     ef'8
+                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
                         ef'16
+                        [
 
                         d'16
 
@@ -2053,12 +2029,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
-                        cs'8.
+                        cs'4
                         ~
-                        [
 
-                        cs'8
-                        ]
+                        cs'16
 
                         cqs'4.
 
@@ -2086,8 +2060,10 @@
 
                     cqs'16
                     ~
+                    ]
 
                     cqs'8.
+                    [
 
                     cs'16
                     ~
@@ -2190,7 +2166,9 @@
                         <>
                         \f
 
-                        r16
+                        r32
+
+                        r32
 
                     }
 
@@ -2221,12 +2199,14 @@
                         [
 
                         bf16
+                        ]
 
                     }
 
                     aqs8
 
                     bqf8
+                    [
 
                     bf8
                     ]
@@ -2370,20 +2350,24 @@
                     ef'16
 
                     cs'16
+                    ]
 
                     c'16
+                    [
 
                     b16
 
                     cs'16
 
                     b16
+                    ]
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         c'8
+                        [
 
                         bf16
                         ~
@@ -2468,7 +2452,9 @@
                         <>
                         \ff
 
-                        r16
+                        r32
+
+                        r32
 
                     }
 
@@ -2537,7 +2523,9 @@
                         <>
                         \p
 
-                        r4
+                        r8
+
+                        r8
 
                     }
 
@@ -2548,17 +2536,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
-                        bqs8.
+                        bqs4
                         \p
                         \<
-                        ~
-                        [
-
-                        bqs16
 
                         bqf16
                         ~
-                        ]
 
                     }
 
@@ -2748,8 +2731,10 @@
 
                     d'8
                     ~
+                    ]
 
                     d'16
+                    [
 
                     e'16
 

@@ -66,12 +66,7 @@ material_list_2 = [dict[x] for x in key_list_2]
 material_list_3 = [dict[x] for x in key_list_3]
 material_list_4 = [dict[x] for x in key_list_4]
 
-materials = [
-    material_list_1,
-    material_list_2,
-    material_list_3,
-    material_list_4,
-]
+materials = [material_list_1, material_list_2, material_list_3, material_list_4]
 rhythm_material_list = []
 for x in materials:
     rhythm_material_list.extend(x)

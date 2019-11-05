@@ -23,7 +23,7 @@ violin_1_pitch_handler_one = evans.PitchHandler(
     pitch_list=violin_1_random_walk_chord_1,
     continuous=True,
     name="violin_1_pitch_handler_one",
-    count=34
+    count=34,
 )
 violin_1_pitch_handler_two = evans.PitchHandler(
     pitch_list=violin_1_random_walk_chord_2,

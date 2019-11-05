@@ -11,7 +11,7 @@ padovan_3 = evans.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=7)
 padovan_4 = evans.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
 
 rmaker_three = abjadext.rmakers.stack(
-    abjadext.rmakers.talea(padovan_1, 8, extra_counts=[0, 1, 0, -1]), #B
+    abjadext.rmakers.talea(padovan_1, 8, extra_counts=[0, 1, 0, -1]),  # B
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
@@ -25,11 +25,11 @@ rmaker_three = abjadext.rmakers.stack(
 )
 
 ######
-rmaker_four = evans.RTMMaker(rtm=final_rtm_list) #D
+rmaker_four = evans.RTMMaker(rtm=final_rtm_list)  # D
 
 ######
 rmaker_five = abjadext.rmakers.stack(
-    abjadext.rmakers.talea(padovan_2, 4, extra_counts=[0, 1, 0, -1]), #E
+    abjadext.rmakers.talea(padovan_2, 4, extra_counts=[0, 1, 0, -1]),  # E
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),

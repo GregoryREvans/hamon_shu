@@ -1,26 +1,24 @@
 import evans
 
 
-dynamic_handler_one = evans.DynamicHandler(
-    dynamic_list=["f", "p", "mp", "mf"],  # niente + leak is weird
-    flare_boolean_vector=[1, 0, 0, 1],
-    flare_continuous=True,
+dynamic_handler_two = evans.DynamicHandler(
+    dynamic_list=["p", "ppp", "ppppp", "mp", "mf"],
     hold_first_boolean_vector=[1, 0, 0],
     hold_first_continuous=True,
     hold_last_boolean_vector=[0, 1],
     hold_last_continuous=True,
     continuous=True,
-    name="dynamic_handler_one",
+    name="dynamic_handler_two",
 )
 
-dynamic_handler_two = evans.DynamicHandler(
-    dynamic_list=["sfp", "ff", "ppppp", "mp", "mf", "f"],
-    flare_boolean_vector=[0, 1, 1, 0],
-    flare_continuous=True,
+dynamic_handler_three = evans.DynamicHandler(
+    dynamic_list=["f", "mp", "p", "mf"],
     hold_first_boolean_vector=[0, 1, 0],
-    hold_first_continuous=False,
+    hold_first_continuous=True,
     hold_last_boolean_vector=[1, 0],
     hold_last_continuous=True,
+    effort_boolean_vector=[1],
+    effort_continuous=False,
     continuous=True,
-    name="dynamic_handler_two",
+    name="dynamic_handler_one",
 )

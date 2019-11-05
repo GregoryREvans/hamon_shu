@@ -64,6 +64,19 @@
             r4.
 
             aqf4
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.4
+                        #:dynamic "f"
+                        #:hspace -0.2
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
+            \>
             ~
             - \abjad-solid-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -75,7 +88,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -88,21 +101,8 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
-            - \abjad-solid-line-with-hook
-            - \tweak bound-details.left.text \markup {
-                \concat
-                    {
-                        \upright
-                            "1/2 clt."
-                        \hspace
-                            #0.5
-                    }
-                }
-            - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #17.5
-            \startTextSpanThree
 
             aqf2
 
@@ -119,7 +119,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {
@@ -132,14 +132,26 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
+            <>
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.1
+                        #:dynamic "mp"
+                        #:hspace -0.25
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 5/16
             \stopTextSpanOne                                                   %! applying indicators
             \stopTextSpanTwo                                                   %! applying indicators
-            \stopTextSpanThree                                                 %! applying indicators
             - \abjad-invisible-line                                            %! applying indicators
             - \tweak bound-details.left.text \markup {                         %! applying indicators
                 \concat                                                        %! applying indicators
@@ -150,7 +162,7 @@
                     }                                                          %! applying indicators
                 }                                                              %! applying indicators
             - \tweak bound-details.right.padding 3                             %! applying indicators
-            - \tweak staff-padding #11.5                                       %! applying indicators
+            - \tweak staff-padding #6                                          %! applying indicators
             \startTextSpanOne                                                  %! applying indicators
 
             R1 * 5/16
@@ -158,6 +170,19 @@
             r8
 
             bqs8
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.1
+                        #:dynamic "p"
+                        #:hspace -0.25
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
+            \<
             ~
             - \abjad-solid-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -169,7 +194,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -182,24 +207,24 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
-            - \abjad-solid-line-with-hook
-            - \tweak bound-details.left.text \markup {
-                \concat
-                    {
-                        \upright
-                            "3/4 hair"
-                        \hspace
-                            #0.5
-                    }
-                }
-            - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #17.5
-            \startTextSpanThree
-            [
 
             bqs8
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.1
+                        #:dynamic "mf"
+                        #:hspace -0.2
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
+            - \tweak stencil #constante-hairpin
+            \<
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {
@@ -212,14 +237,13 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
-            ]
 
             r8
+            \!
             \stopTextSpanOne
             \stopTextSpanTwo
-            \stopTextSpanThree
             - \abjad-invisible-line
             - \tweak bound-details.left.text \markup {
                 \concat
@@ -230,13 +254,27 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
 
             r4.
             \stopTextSpanOne
 
             cs'8
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.4
+                        #:dynamic "f"
+                        #:hspace -0.2
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
+            - \tweak stencil #constante-hairpin
+            \<
             - \abjad-solid-line-with-arrow
             - \tweak bound-details.left.text \markup {
                 \concat
@@ -247,7 +285,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -260,21 +298,8 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
-            - \abjad-solid-line-with-hook
-            - \tweak bound-details.left.text \markup {
-                \concat
-                    {
-                        \upright
-                            "1/2 clt."
-                        \hspace
-                            #0.5
-                    }
-                }
-            - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #17.5
-            \startTextSpanThree
             [
 
             bqs8
@@ -289,7 +314,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             ]
 
@@ -306,7 +331,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {
@@ -319,13 +344,13 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
 
             r1
+            \!
             \stopTextSpanOne
             \stopTextSpanTwo
-            \stopTextSpanThree
             - \abjad-invisible-line
             - \tweak bound-details.left.text \markup {
                 \concat
@@ -336,7 +361,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
 
             \tweak text #tuplet-number::calc-fraction-text
@@ -345,9 +370,10 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    f'8.
+                    f'4.
+                    \ppp
+                    \>
                     \stopTextSpanOne
-                    ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -359,7 +385,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 1.4
-                    - \tweak staff-padding #14.5
+                    - \tweak staff-padding #6
                     \startTextSpanTwo
                     - \abjad-solid-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -372,20 +398,13 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #17.5
+                    - \tweak staff-padding #10
                     \startTextSpanThree
-                    [
-
-                    f'8
-                    ~
-
-                    f'16
-
-                    ef'16
-                    ~
-                    ]
 
                     ef'4
+                    ~
+
+                    ef'16
 
                 }
 
@@ -400,29 +419,23 @@
                     dqs'8
 
                     cs'8
+                    ]
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/9 {
 
-                    d'8.
+                    d'4
+
+                    ef'4
                     ~
 
-                    d'16
-
-                    ef'8
-                    ~
-
-                    ef'8.
+                    ef'16
 
                 }
 
-                f'8
-                ~
-                ]
-
-                f'4
+                f'4.
 
             }
 
@@ -432,53 +445,40 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    fs'32.
-                    ~
+                    fs'16.
                     [
 
-                    fs'32
+                    eqf'16
                     ~
-
-                    fs'64
 
                     eqf'64
-                    ~
-
-                    eqf'16
+                    ]
 
                 }
 
-                fs'64
-                ~
-
-                fs'16
-                ~
-
-                fs'64
+                fs'16.
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
                     aqf32
+                    [
 
                     b32
 
                     aqf32
+                    ]
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
-                \times 5/6 {
+                \times 5/4 {
 
                     aqs32
-                    ~
-
-                    aqs64
-
-                    ef'64
-                    ~
+                    [
 
                     ef'32
+                    ]
 
                 }
 
@@ -495,9 +495,11 @@
                         }
                     }
                 - \tweak bound-details.right.padding 3
-                - \tweak staff-padding #14.5
+                - \tweak staff-padding #6
                 \startTextSpanTwo
                 ]
+                <>
+                \ppppp
 
             }
 
@@ -510,6 +512,8 @@
             \times 4/5 {
 
                 fs'16.
+                \mp
+                \<
                 - \abjad-dashed-line-with-arrow
                 - \tweak bound-details.left.text \markup {
                     \concat
@@ -521,7 +525,7 @@
                         }
                     }
                 - \tweak bound-details.right.padding 1.4
-                - \tweak staff-padding #14.5
+                - \tweak staff-padding #6
                 \startTextSpanTwo
                 - \abjad-solid-line-with-hook
                 - \tweak bound-details.left.text \markup {
@@ -534,36 +538,35 @@
                         }
                     }
                 - \tweak bound-details.right.padding 3
-                - \tweak staff-padding #17.5
+                - \tweak staff-padding #10
                 \startTextSpanThree
                 [
 
                 fs'16.
 
-                f'8
-                ~
-
-                f'16
+                f'8.
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
                     fs'16
+                    [
 
                     f'16
 
                     fs'16
+                    ]
 
                 }
 
-                f'16
-                ~
-
-                f'32
+                f'16.
 
                 fs'16.
 
                 aqf8.
+                \mf
+                - \tweak stencil #constante-hairpin
+                \<
                 \stopTextSpanTwo
                 - \abjad-dashed-line-with-hook
                 - \tweak bound-details.left.text \markup {
@@ -576,13 +579,27 @@
                         }
                     }
                 - \tweak bound-details.right.padding 3
-                - \tweak staff-padding #14.5
+                - \tweak staff-padding #6
                 \startTextSpanTwo
                 ]
 
             }
 
             a4
+            \!
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.1
+                        #:dynamic "mp"
+                        #:hspace -0.25
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
+            \>
             \stopTextSpanTwo
             \stopTextSpanThree
             ~
@@ -596,7 +613,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             - \abjad-dashed-line-with-arrow
             - \tweak bound-details.left.text \markup {
@@ -609,21 +626,8 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
-            - \abjad-solid-line-with-hook
-            - \tweak bound-details.left.text \markup {
-                \concat
-                    {
-                        \upright
-                            clt.
-                        \hspace
-                            #0.5
-                    }
-                }
-            - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #17.5
-            \startTextSpanThree
 
             a8
             [
@@ -640,7 +644,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
             ]
 
@@ -656,7 +660,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
 
             b8
@@ -672,7 +676,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 1.4
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
 
             b4
@@ -694,13 +698,25 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #14.5
+            - \tweak staff-padding #10
             \startTextSpanTwo
+            <>
+            _ #(make-dynamic-script
+                (markup
+                    #:whiteout
+                    #:line (
+                        #:general-align Y -2 #:normal-text #:larger "“"
+                        #:hspace -0.1
+                        #:dynamic "p"
+                        #:hspace -0.25
+                        #:general-align Y -2 #:normal-text #:larger "”"
+                        )
+                    )
+                )
 
             r8
             \stopTextSpanOne
             \stopTextSpanTwo
-            \stopTextSpanThree
             - \abjad-invisible-line
             - \tweak bound-details.left.text \markup {
                 \concat
@@ -711,7 +727,7 @@
                     }
                 }
             - \tweak bound-details.right.padding 3
-            - \tweak staff-padding #11.5
+            - \tweak staff-padding #6
             \startTextSpanOne
 
             \once \override Rest.transparent = ##t                             %! applying invisibility

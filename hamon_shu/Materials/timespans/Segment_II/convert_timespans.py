@@ -86,6 +86,6 @@ Segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
 ###############
 Segment_II_timespans = [
     Segment_II_pitch_timespans,
-    # Segment_II_dynamic_timespans,
+    Segment_II_dynamic_timespans,
     Segment_II_articulation_timespans,
 ]

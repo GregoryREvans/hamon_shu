@@ -6,7 +6,6 @@
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
-\include "/Users/evansdsg2/baca/lilypond/baca-spanners.ily"
 \include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
 
 \header {
@@ -20,9 +19,10 @@
 }
 
 \layout {
-    \accidentalStyle forget
-	%\accidentalStyle modern
-	%\accidentalStyle modern-cautionary
+    %{ \accidentalStyle forget %}
+	%{ \accidentalStyle modern %}
+	\accidentalStyle modern-cautionary
+	%{ \accidentalStyle dodecaphonic %}
     indent = #15
 	ragged-last = ##t
     %{ ragged-right = ##t %}
@@ -72,7 +72,7 @@
 		%\override TimeSignature.stencil = ##f
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 13) (minimum-distance . 13) (padding . 4) (stretchability . 0))
+        \override VerticalAxisGroup.default-staff-staff-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 4) (stretchability . 0))
     }
     \context {
         \Score
@@ -103,7 +103,7 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 15) (minimum-distance . 15) (padding . 0))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 25) (minimum-distance . 25) (padding . 0))
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}

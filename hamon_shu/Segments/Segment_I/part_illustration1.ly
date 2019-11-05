@@ -223,8 +223,10 @@
             [
 
             e'16
+            ]
 
             e'16
+            [
 
             aqs16
             ~
@@ -241,15 +243,9 @@
                 bf16
                 [
 
-                bqf8
-                ~
+                bqf8.
 
-                bqf16
-
-                aqs16
-                ~
-
-                aqs8
+                aqs8.
                 ]
                 <>
                 \f
@@ -404,7 +400,9 @@
                 <>
                 \ff
 
-                r4
+                r8
+
+                r8
 
             }
 
@@ -426,12 +424,12 @@
             b4
 
             bf8
-            [
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/11 {
 
                 ef'16
+                [
 
                 eqf'16
 
@@ -476,13 +474,8 @@
             \times 8/7 {
 
                 c'16
-                [
 
-                bqs8
-                ~
-                ]
-
-                bqs4
+                bqs4.
                 \mf
 
             }
@@ -545,10 +538,7 @@
 
                 e'16
 
-                aqs16
-                ~
-
-                aqs8
+                aqs8.
                 ]
                 <>
                 \pp
@@ -678,16 +668,20 @@
             aqs16
 
             b16
+            ]
 
             c'16
+            [
 
             bqf16
 
             e'16
 
             ef'16
+            ]
 
             aqs16
+            [
 
             ef'16
 
@@ -716,20 +710,10 @@
             \times 16/15 {
 
                 bqf8
-                [
 
-                c'8.
-                ~
-                ]
+                c'4..
 
-                c'4
-
-                cqs'16
-                ~
-                [
-
-                cqs'16
-                ]
+                cqs'8
 
                 cs'4
 
