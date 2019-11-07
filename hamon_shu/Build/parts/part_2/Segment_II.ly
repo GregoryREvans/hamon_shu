@@ -63,6 +63,7 @@
             \clef "treble"
             r4.
 
+            \once \override Staff.NoteHead.style = #'default
             aqf4
             _ #(make-dynamic-script
                 (markup
@@ -104,8 +105,17 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'default
             aqf2
 
+                            - \tweak arrow-length #2
+                            - \tweak arrow-width #0.5
+                            - \tweak bound-details.right.arrow ##t
+                            - \tweak thickness #2.5
+                            \glissando
+
+
+            \once \override Staff.NoteHead.style = #'triangle
             aqs2.
             \stopTextSpanOne
             \stopTextSpanTwo
@@ -169,6 +179,7 @@
 
             r8
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             bqs8
             _ #(make-dynamic-script
                 (markup
@@ -210,6 +221,7 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             bqs8
             _ #(make-dynamic-script
                 (markup
@@ -260,6 +272,7 @@
             r4.
             \stopTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'default
             cs'8
             _ #(make-dynamic-script
                 (markup
@@ -302,6 +315,14 @@
             \startTextSpanTwo
             [
 
+                            - \tweak arrow-length #2
+                            - \tweak arrow-width #0.5
+                            - \tweak bound-details.right.arrow ##t
+                            - \tweak thickness #2.5
+                            \glissando
+
+
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             bqs8
             \stopTextSpanOne
             - \abjad-solid-line-with-arrow
@@ -318,6 +339,14 @@
             \startTextSpanOne
             ]
 
+                            - \tweak arrow-length #2
+                            - \tweak arrow-width #0.5
+                            - \tweak bound-details.right.arrow ##t
+                            - \tweak thickness #2.5
+                            \glissando
+
+
+            \once \override Staff.NoteHead.style = #'triangle
             d'4
             \stopTextSpanOne
             \stopTextSpanTwo
@@ -632,6 +661,7 @@
             a8
             [
 
+            \once \override Staff.NoteHead.style = #'triangle
             b8
             \stopTextSpanOne
             - \abjad-solid-line-with-arrow
@@ -663,6 +693,7 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             b8
             \stopTextSpanOne
             ~
@@ -679,12 +710,15 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             b4
             ~
 
+            \once \override Staff.NoteHead.style = #'triangle
             b4
             ~
 
+            \once \override Staff.NoteHead.style = #'triangle
             b8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook

@@ -312,6 +312,7 @@
 
             \times 2/3 {
 
+                \once \override Staff.NoteHead.style = #'default
                 dqs'8
                 _ #(make-dynamic-script
                     (markup
@@ -354,6 +355,14 @@
                 - \tweak staff-padding #10
                 \startTextSpanTwo
 
+                                - \tweak arrow-length #2
+                                - \tweak arrow-width #0.5
+                                - \tweak bound-details.right.arrow ##t
+                                - \tweak thickness #2.5
+                                \glissando
+
+
+                \once \override Staff.NoteHead.style = #'triangle
                 d'4
                 _ #(make-dynamic-script
                     (markup
@@ -419,6 +428,7 @@
             r4
             \stopTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             cqs'8
             _ #(make-dynamic-script
                 (markup
@@ -461,8 +471,17 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             cqs'4
 
+                            - \tweak arrow-length #2
+                            - \tweak arrow-width #0.5
+                            - \tweak bound-details.right.arrow ##t
+                            - \tweak thickness #2.5
+                            \glissando
+
+
+            \once \override Staff.NoteHead.style = #'default
             d'4
             \stopTextSpanOne
             ~
@@ -479,6 +498,7 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'default
             d'8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
@@ -637,6 +657,7 @@
 
             }
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             fqs'4
             _ #(make-dynamic-script
                 (markup
@@ -682,6 +703,7 @@
 
             \times 2/3 {
 
+                \once \override Staff.NoteHead.style = #'harmonic-mixed
                 fqs'2
 
                 b4
@@ -711,6 +733,7 @@
             b8
             [
 
+            \once \override Staff.NoteHead.style = #'triangle
             cqs'8
             \stopTextSpanOne
             ~
@@ -728,6 +751,7 @@
             \startTextSpanOne
             ]
 
+            \once \override Staff.NoteHead.style = #'triangle
             cqs'8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
@@ -841,6 +865,7 @@
             r4
             \stopTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             d'2
             _ #(make-dynamic-script
                 (markup

@@ -6,7 +6,6 @@
 #(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
-\include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
 
 \header {
 	tagline = ##f
@@ -21,11 +20,11 @@
 \layout {
     %{ \accidentalStyle forget %}
 	%{ \accidentalStyle modern %}
-	\accidentalStyle modern-cautionary
-	%{ \accidentalStyle dodecaphonic %}
+	%{ \accidentalStyle modern-cautionary %}
+	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
-    %{ ragged-right = ##t %}
+    ragged-right = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext

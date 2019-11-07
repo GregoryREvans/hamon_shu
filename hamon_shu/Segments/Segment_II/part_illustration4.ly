@@ -75,6 +75,7 @@
             \markup { vc. }                                                    %! applying staff names and clefs
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { Violoncello }                                            %! applying staff names and clefs
+            \once \override Staff.NoteHead.style = #'triangle
             \clef "bass"
             bf4.
             _ #(make-dynamic-script
@@ -117,9 +118,11 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'triangle
             bf8
             [
 
+            \once \override Staff.NoteHead.style = #'triangle
             fs'8
             \stopTextSpanOne
             ~
@@ -140,6 +143,7 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 5/4 {
 
+                \once \override Staff.NoteHead.style = #'triangle
                 fs'8
 
                 aqf4.
@@ -207,6 +211,7 @@
 
             r4.
 
+            \once \override Staff.NoteHead.style = #'triangle
             f'8
             _ #(make-dynamic-script
                 (markup
@@ -320,6 +325,7 @@
             r8
             \stopTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             aqf8
             _ #(make-dynamic-script
                 (markup
@@ -362,6 +368,7 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'triangle
             aqf8
             [
 
@@ -385,6 +392,7 @@
             fs'8
             [
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             b8
             \stopTextSpanOne
             ~
@@ -402,9 +410,11 @@
             \startTextSpanOne
             ]
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             b4
             ~
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             b8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
@@ -443,6 +453,7 @@
 
             r4.
 
+            \once \override Staff.NoteHead.style = #'triangle
             aqs2
             _ #(make-dynamic-script
                 (markup
@@ -544,6 +555,7 @@
             r4
             \stopTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             bf8
             _ #(make-dynamic-script
                 (markup
@@ -585,6 +597,7 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
+            \once \override Staff.NoteHead.style = #'triangle
             bf8
             [
 
@@ -615,6 +628,7 @@
 
             \times 4/5 {
 
+                \once \override Staff.NoteHead.style = #'harmonic-mixed
                 a2
                 \stopTextSpanOne
                 - \abjad-solid-line-with-arrow
@@ -654,6 +668,7 @@
             aqf8
             [
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             aqs8
             \stopTextSpanOne
             - \abjad-solid-line-with-arrow
@@ -670,6 +685,7 @@
             \startTextSpanOne
             ]
 
+            \once \override Staff.NoteHead.style = #'triangle
             fs'4
             \stopTextSpanOne
             ~
@@ -686,6 +702,7 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'triangle
             fs'8
             [
 
@@ -753,6 +770,7 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \once \override Staff.NoteHead.style = #'harmonic-mixed
             ef'4
             _ #(make-dynamic-script
                 (markup

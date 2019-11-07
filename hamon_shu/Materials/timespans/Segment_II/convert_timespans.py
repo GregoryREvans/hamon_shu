@@ -14,11 +14,15 @@ from hamon_shu.Materials.score_structure.Segment_II.dynamic_material_pattern imp
 from hamon_shu.Materials.score_structure.Segment_II.articulation_material_pattern import (
     articulation_material_list,
 )
+from hamon_shu.Materials.score_structure.Segment_II.notehead_material_pattern import (
+    notehead_material_list,
+)
 from hamon_shu.Materials.timespans.Segment_II.make_timespans import (
     rhythm_timespan_list,
     pitch_timespan_list,
     dynamic_timespan_list,
     articulation_timespan_list,
+    notehead_timespan_list,
 )
 from hamon_shu.Materials.score_structure.Segment_II.time_signatures import bounds
 
@@ -81,6 +85,21 @@ Segment_II_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     fill_gaps=False,
 )
 
+##############
+#  note head #
+##############
+notehead_mat = notehead_material_list
+
+Segment_II_notehead_timespans = evans.ConvertTimespans.convert_timespans(
+    materials=notehead_mat,
+    ts_list=notehead_timespan_list,
+    bounds=bounds,
+    segment_name="Segment_II_notehead_timespans",
+    current_directory=pathlib.Path(__file__).parent,
+    add_silence=False,
+    fill_gaps=False,
+)
+
 ###############
 # all timespans#
 ###############
@@ -88,4 +107,5 @@ Segment_II_timespans = [
     Segment_II_pitch_timespans,
     Segment_II_dynamic_timespans,
     Segment_II_articulation_timespans,
+    Segment_II_notehead_timespans,
 ]
