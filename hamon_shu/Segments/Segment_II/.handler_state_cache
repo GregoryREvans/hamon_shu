@@ -38669,3 +38669,529 @@ head vector count
 transition vector count
 38
 
+2019-11-12 11:36:01.168099
+violin_1_pitch_handler_one
+count
+36
+
+2019-11-12 11:36:01.307002
+violin_1_pitch_handler_one
+count
+47
+
+2019-11-12 11:36:01.422133
+violin_1_pitch_handler_two
+count
+63
+
+2019-11-12 11:36:01.533236
+violin_1_pitch_handler_two
+count
+65
+
+2019-11-12 11:36:01.648085
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-12 11:36:01.741357
+violin_1_pitch_handler_three
+count
+34
+
+2019-11-12 11:36:01.869853
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-12 11:36:01.982991
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-12 11:36:02.087492
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-12 11:36:02.969020
+violin_1_pitch_handler_two
+count
+66
+
+2019-11-12 11:36:03.073053
+violin_1_pitch_handler_two
+count
+67
+
+2019-11-12 11:36:03.185021
+violin_2_pitch_handler_one
+count
+18
+
+2019-11-12 11:36:03.298659
+violin_2_pitch_handler_one
+count
+21
+
+2019-11-12 11:36:03.445550
+violin_2_pitch_handler_two
+count
+67
+
+2019-11-12 11:36:03.578481
+violin_2_pitch_handler_three
+count
+52
+
+2019-11-12 11:36:03.686277
+violin_2_pitch_handler_three
+count
+55
+
+2019-11-12 11:36:03.802053
+violin_2_pitch_handler_four
+count
+11
+
+2019-11-12 11:36:05.685745
+violin_2_pitch_handler_three
+count
+71
+
+2019-11-12 11:36:05.822485
+violin_2_pitch_handler_three
+count
+84
+
+2019-11-12 11:36:05.950937
+violin_2_pitch_handler_two
+count
+74
+
+2019-11-12 11:36:06.071409
+violin_2_pitch_handler_two
+count
+78
+
+2019-11-12 11:36:06.201815
+viola_pitch_handler_one
+count
+33
+
+2019-11-12 11:36:06.310374
+viola_pitch_handler_one
+count
+37
+
+2019-11-12 11:36:06.418193
+viola_pitch_handler_two
+count
+58
+
+2019-11-12 11:36:06.528858
+viola_pitch_handler_two
+count
+59
+
+2019-11-12 11:36:06.647904
+viola_pitch_handler_three
+count
+46
+
+2019-11-12 11:36:06.749321
+viola_pitch_handler_three
+count
+47
+
+2019-11-12 11:36:07.193907
+viola_pitch_handler_four
+count
+28
+
+2019-11-12 11:36:07.304185
+viola_pitch_handler_four
+count
+30
+
+2019-11-12 11:36:07.401279
+viola_pitch_handler_three
+count
+49
+
+2019-11-12 11:36:07.510785
+viola_pitch_handler_three
+count
+51
+
+2019-11-12 11:36:07.616126
+viola_pitch_handler_two
+count
+60
+
+2019-11-12 11:36:07.730975
+viola_pitch_handler_two
+count
+62
+
+2019-11-12 11:36:07.858849
+cello_pitch_handler_one
+count
+30
+
+2019-11-12 11:36:07.951326
+cello_pitch_handler_one
+count
+31
+
+2019-11-12 11:36:08.060083
+cello_pitch_handler_two
+count
+54
+
+2019-11-12 11:36:08.171157
+cello_pitch_handler_two
+count
+58
+
+2019-11-12 11:36:08.939811
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-12 11:36:08.982984
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-12 11:36:09.039509
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-12 11:36:09.876380
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-12 11:36:09.939909
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-12 11:36:09.959317
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-12 11:36:11.787690
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-12 11:36:11.808701
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-12 11:36:11.860318
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-12 11:36:11.890194
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-12 11:36:12.289321
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-12 11:36:12.950078
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-12 11:36:12.995616
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-12 11:36:13.124718
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-12 11:36:13.982141
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-12 11:36:14.068567
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-12 11:36:14.108475
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-12 11:36:15.951483
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-12 11:36:16.005492
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-12 11:36:16.057596
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-12 11:36:16.141749
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-12 11:36:16.638461
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-12 11:36:17.316474
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-12 11:36:17.353759
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-12 11:36:17.401197
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-12 11:36:18.229141
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-12 11:36:18.296582
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-12 11:36:18.314862
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-12 11:36:20.148767
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-12 11:36:20.175609
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-12 11:36:20.213208
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-12 11:36:20.236773
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-12 11:36:20.628282
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+

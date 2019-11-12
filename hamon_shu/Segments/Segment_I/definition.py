@@ -36,7 +36,6 @@ maker = evans.SegmentMaker(
     current_directory=pathlib.Path(__file__).parent,
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
     cutaway=False,
-    # beam_pattern="quarters",
     beam_pattern="meter",
     barline="||",
     tempo=((1, 4), 90),
