@@ -50,8 +50,8 @@
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
@@ -69,411 +69,286 @@
             \clef "varC"
             r4
 
-            \times 2/3 {
-
-                f'16
-                \mf
-                - \tweak stencil #constante-hairpin
-                \<
-                [
-
-                e'16
-                - \accent
-                ]
-
-                r8
-                \!
-
-                f'16
-                \p
-                \<
-                [
-
-                f'16
-                ]
-                <>
-                \mp
-
-            }
-
-            \times 4/5 {
-
-                r8.
-
-                ef'16
-                \pp
-                - \tweak stencil #constante-hairpin
-                \<
-
-                r16
-                \!
-
-            }
-
-            \times 16/21 {
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 10/11 {
-
-                    cs'16.
-                    \mf
-                    \>
-                    [
-
-                    dqf'16
-                    - \accent
-                    ~
-
-                    dqf'64
-
-                }
-
-                e'8
-
-                \times 4/5 {
-
-                    f'32
-
-                    gqs'32
-                    ~
-
-                    gqs'128
-
-                    f'32.
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/7 {
-
-                    gqs'8
-                    - \accent
-
-                    aqs'16.
-
-                }
-
-                bf8
-                ]
-
-            }
-
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 12/13 {
+            \times 8/13 {
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    aqs'8.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    g'16.
+                    \pp
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
-                    aqf8
+                    ef'16
                     ~
 
-                    aqf32
+                    ef'64
 
                 }
 
-                cqs'8
-                - \accent
+                f'16
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/6 {
 
-                    aqf16
+                    gqs'32
 
-                    bf16
+                    aqs'32
 
-                    aqs'16
+                    gqf32
+                    - \accent
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/9 {
 
-                    bf8
+                    aqf'16
 
-                    cqs'8
-                    - \accent
+                    g'16
                     ~
 
-                    cqs'32
+                    g'64
 
                 }
 
-                dqf'8.
+                \revert Staff.Stem.stemlet-length
+                gqs'16.
                 ]
-                <>
-                \p
 
             }
-
-            r2
-
-            r2
 
             \times 16/29 {
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    f'16.
-                    \mp
-                    - \tweak stencil #constante-hairpin
-                    \<
+                    \override Staff.Stem.stemlet-length = 0.75
+                    aqs'16.
                     [
 
                     gqs'16
+                    - \accent
                     ~
 
                     gqs'64
 
                 }
 
-                aqs'16.
+                g'16.
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
-                    aqf'32
-                    - \accent
+                    ef'32
 
                     g'32
 
-                    aqf'32
+                    gqs'32
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/4 {
 
-                    gqs'32
-
                     aqs'32
-
-                }
-
-                gqs'16.
-                - \accent
-                ]
-
-            }
-
-            \times 8/15 {
-
-                aqf'16.
-                [
-
-                g16.
-
-                bf8.
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 1/1 {
-
-                    c'16
-
-                    ef'16
                     - \accent
 
-                    c'16
+                    gqs'32
 
                 }
 
-                bf16.
-
-                dqf'16.
-
-                f'8.
+                \revert Staff.Stem.stemlet-length
+                aqf'16.
                 ]
 
             }
 
             \times 2/3 {
 
-                ef'8
+                \override Staff.Stem.stemlet-length = 0.75
+                g'8
+                [
+
+                \revert Staff.Stem.stemlet-length
+                r8
+                \!
+                ]
+
+                aqf'4
+                \mf
+                \>
+
+                \override Staff.Stem.stemlet-length = 0.75
+                e'8
                 - \accent
                 [
 
-                g'8
+                \revert Staff.Stem.stemlet-length
+                dqs'8
                 ]
+                <>
+                \p
 
-                r4
-                \!
+            }
 
-                ef'8
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 3/5 {
+
+                r2.
+
+                fs'4
+                \mp
+                - \tweak stencil #constante-hairpin
+                \<
+
+                af'4
+
+            }
+
+            r2
+            \!
+
+            r2
+
+            \times 2/3 {
+
+                \override Staff.Stem.stemlet-length = 0.75
+                aqf16
                 \pp
                 \<
+                [
                 <>
                 \mf
 
-                r8
+                r16
+
+                aqs'8
+                \p
+                - \accent
+                - \tweak stencil #constante-hairpin
+                \<
+
+                gqf16
+
+                \revert Staff.Stem.stemlet-length
+                b16
+                ]
 
             }
 
-            fs'4
-            \p
+            \times 4/5 {
+
+                \override Staff.Stem.stemlet-length = 0.75
+                r4.
+                \!
+                [
+
+                gqf8
+                \mp
+                \>
+
+                \revert Staff.Stem.stemlet-length
+                aqs'8
+                ]
+
+            }
+
+            \times 8/15 {
+
+                \override Staff.Stem.stemlet-length = 0.75
+                fs'16.
+                - \accent
+                [
+
+                ef'16.
+
+                dqs'8.
+
+                \tweak text #tuplet-number::calc-fraction-text
+                \times 1/1 {
+
+                    gqs'16
+
+                    f'16
+
+                    dqf'16
+                    - \accent
+
+                }
+
+                ef'16.
+
+                c'16.
+
+                \revert Staff.Stem.stemlet-length
+                ef'8.
+                ]
+
+            }
+
+            dqf'4
+
+            f'4
+            - \accent
+            ~
+
+            \override Staff.Stem.stemlet-length = 0.75
+            f'8
+            \pp
+            [
+
+            \revert Staff.Stem.stemlet-length
+            fs'8
+            \ff
+            - \tenuto
             - \tweak stencil #constante-hairpin
             \<
             ~
+            ]
 
-            \tweak text #tuplet-number::calc-fraction-text
-            \times 3/2 {
-
-                fs'2
-
-            }
+            fs'4
 
             r4
             \!
 
-            \times 8/13 {
-
-                \times 4/5 {
-
-                    ef'32
-                    \ff
-                    - \tenuto
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    [
-
-                    eqf'32.
-                    ]
-
-                }
-
-                dqs'4
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 3/5 {
-
-                    c'8
-                    - \tenuto
-                    [
-
-                    b16
-                    - \accent
-
-                    cs'8
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 6/7 {
-
-                    ef'8
-
-                    eqf'16.
-
-                }
-
-                af'8
-                ]
-
-            }
-
             \tweak text #tuplet-number::calc-fraction-text
-            \times 10/17 {
+            \times 1/1 {
 
-                \times 2/3 {
-
-                    aqf'8
-                    - \tenuto
-                    [
-
-                    aqs'8
-                    ~
-
-                    aqs'32
-                    ]
-
-                }
-
-                gqs'4
-
-                \times 2/3 {
-
-                    f'16
-                    - \tenuto
-                    [
-
-                    ef'16.
-                    - \accent
-
-                    c'8
-                    ]
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/7 {
-
-                    af4
-
-                    g8.
-                    [
-
-                }
-
-                aqf'8
-                ]
+                a'2
+                \mp
+                \<
+                ~
 
             }
 
-            \times 16/21 {
+            a'8
 
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 10/11 {
+            eqf'4
+            ~
 
-                    g64.
-                    - \tenuto
-                    [
+            eqf'4
 
-                    af64
-                    ~
+            \override Staff.Stem.stemlet-length = 0.75
+            af'8
+            - \tenuto
+            [
+            <>
+            \f
 
-                    af256
-
-                }
-
-                aqs'32
-
-                \times 4/5 {
-
-                    gqs'128
-                    - \tenuto
-
-                    g'128
-                    - \accent
-                    ~
-
-                    g'512
-
-                    aqf'128.
-
-                }
-
-                \tweak text #tuplet-number::calc-fraction-text
-                \times 5/7 {
-
-                    g32
-
-                    aqs'64.
-
-                }
-
-                af32
-                ]
-
-            }
-
+            \revert Staff.Stem.stemlet-length
             r8
-            \!
+            ]
 
             r4
 
-            r4.
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 3/16
+
+            R1 * 3/16
             \bar "||"
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips

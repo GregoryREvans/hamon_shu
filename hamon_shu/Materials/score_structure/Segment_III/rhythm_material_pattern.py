@@ -10,9 +10,6 @@ key_list_1 = [
     "rhythm_handler_six",
     "rhythm_handler_eight",
     "rhythm_handler_eight",
-    "rhythm_handler_eight",
-    "rhythm_handler_eight",
-    "rhythm_handler_six",
 ]
 
 key_list_2 = [
@@ -23,9 +20,6 @@ key_list_2 = [
     "rhythm_handler_six",
     "rhythm_handler_six",
     "rhythm_handler_seven",
-    "rhythm_handler_seven",
-    "rhythm_handler_six",
-    "rhythm_handler_eight",
 ]
 
 key_list_3 = [
@@ -36,8 +30,6 @@ key_list_3 = [
     "rhythm_handler_seven",
     "rhythm_handler_eight",
     "rhythm_handler_eight",
-    "rhythm_handler_eight",
-    "rhythm_handler_six",
 ]
 
 key_list_4 = [
@@ -48,9 +40,6 @@ key_list_4 = [
     "rhythm_handler_six",
     "rhythm_handler_six",
     "rhythm_handler_eight",
-    "rhythm_handler_six",
-    "rhythm_handler_eight",
-    "rhythm_handler_six",
 ]
 
 dict = {

@@ -39195,3 +39195,3059 @@ head vector count
 transition vector count
 38
 
+2019-11-19 12:19:50.147971
+violin_1_pitch_handler_one
+count
+36
+
+2019-11-19 12:19:50.264267
+violin_1_pitch_handler_one
+count
+47
+
+2019-11-19 12:19:50.374267
+violin_1_pitch_handler_two
+count
+63
+
+2019-11-19 12:19:50.473189
+violin_1_pitch_handler_two
+count
+65
+
+2019-11-19 12:19:50.579017
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-19 12:19:50.673922
+violin_1_pitch_handler_three
+count
+34
+
+2019-11-19 12:19:50.782151
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-19 12:19:50.887446
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-19 12:19:50.984147
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-19 12:19:51.899312
+violin_1_pitch_handler_two
+count
+66
+
+2019-11-19 12:19:51.991288
+violin_1_pitch_handler_two
+count
+67
+
+2019-11-19 12:19:52.097805
+violin_2_pitch_handler_one
+count
+18
+
+2019-11-19 12:19:52.195313
+violin_2_pitch_handler_one
+count
+21
+
+2019-11-19 12:19:52.337407
+violin_2_pitch_handler_two
+count
+67
+
+2019-11-19 12:19:52.455865
+violin_2_pitch_handler_three
+count
+52
+
+2019-11-19 12:19:52.559818
+violin_2_pitch_handler_three
+count
+55
+
+2019-11-19 12:19:52.662233
+violin_2_pitch_handler_four
+count
+11
+
+2019-11-19 12:19:54.591823
+violin_2_pitch_handler_three
+count
+71
+
+2019-11-19 12:19:54.716561
+violin_2_pitch_handler_three
+count
+84
+
+2019-11-19 12:19:54.826043
+violin_2_pitch_handler_two
+count
+74
+
+2019-11-19 12:19:54.931972
+violin_2_pitch_handler_two
+count
+78
+
+2019-11-19 12:19:55.065200
+viola_pitch_handler_one
+count
+33
+
+2019-11-19 12:19:55.173366
+viola_pitch_handler_one
+count
+37
+
+2019-11-19 12:19:55.270514
+viola_pitch_handler_two
+count
+58
+
+2019-11-19 12:19:55.367865
+viola_pitch_handler_two
+count
+59
+
+2019-11-19 12:19:55.466726
+viola_pitch_handler_three
+count
+46
+
+2019-11-19 12:19:55.564626
+viola_pitch_handler_three
+count
+47
+
+2019-11-19 12:19:55.989185
+viola_pitch_handler_four
+count
+28
+
+2019-11-19 12:19:56.094658
+viola_pitch_handler_four
+count
+30
+
+2019-11-19 12:19:56.189084
+viola_pitch_handler_three
+count
+49
+
+2019-11-19 12:19:56.287687
+viola_pitch_handler_three
+count
+51
+
+2019-11-19 12:19:56.387629
+viola_pitch_handler_two
+count
+60
+
+2019-11-19 12:19:56.488108
+viola_pitch_handler_two
+count
+62
+
+2019-11-19 12:19:56.593335
+cello_pitch_handler_one
+count
+30
+
+2019-11-19 12:19:56.692239
+cello_pitch_handler_one
+count
+31
+
+2019-11-19 12:19:56.786468
+cello_pitch_handler_two
+count
+54
+
+2019-11-19 12:19:56.895650
+cello_pitch_handler_two
+count
+58
+
+2019-11-19 12:19:57.674187
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-19 12:19:57.716839
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-19 12:19:57.764439
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-19 12:19:58.610542
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-19 12:19:58.674384
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-19 12:19:58.695956
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-19 12:20:00.608570
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-19 12:20:00.631842
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-19 12:20:00.669023
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-19 12:20:00.701511
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-19 12:20:01.101258
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-19 12:20:01.783725
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-19 12:20:01.834851
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-19 12:20:01.953525
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-19 12:20:02.840717
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-19 12:20:02.915756
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-19 12:20:02.958361
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-19 12:20:04.848674
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-19 12:20:04.892637
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-19 12:20:04.942595
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-19 12:20:05.021767
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-19 12:20:05.530835
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-19 12:20:06.207349
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-19 12:20:06.246501
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-19 12:20:06.283448
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-19 12:20:07.137447
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-19 12:20:07.195217
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-19 12:20:07.211926
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-19 12:20:09.080793
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-19 12:20:09.110574
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-19 12:20:09.149769
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-19 12:20:09.176135
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-19 12:20:09.568182
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+
+2019-11-19 12:20:55.430415
+violin_1_pitch_handler_one
+count
+36
+
+2019-11-19 12:20:55.548072
+violin_1_pitch_handler_one
+count
+47
+
+2019-11-19 12:20:55.656470
+violin_1_pitch_handler_two
+count
+63
+
+2019-11-19 12:20:55.764304
+violin_1_pitch_handler_two
+count
+65
+
+2019-11-19 12:20:55.867720
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-19 12:20:55.964754
+violin_1_pitch_handler_three
+count
+34
+
+2019-11-19 12:20:56.072548
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-19 12:20:56.175982
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-19 12:20:56.271132
+violin_1_pitch_handler_three
+count
+37
+
+2019-11-19 12:20:57.162943
+violin_1_pitch_handler_two
+count
+66
+
+2019-11-19 12:20:57.255946
+violin_1_pitch_handler_two
+count
+67
+
+2019-11-19 12:20:57.361093
+violin_2_pitch_handler_one
+count
+18
+
+2019-11-19 12:20:57.460373
+violin_2_pitch_handler_one
+count
+21
+
+2019-11-19 12:20:57.594042
+violin_2_pitch_handler_two
+count
+67
+
+2019-11-19 12:20:57.714436
+violin_2_pitch_handler_three
+count
+52
+
+2019-11-19 12:20:57.813113
+violin_2_pitch_handler_three
+count
+55
+
+2019-11-19 12:20:57.919467
+violin_2_pitch_handler_four
+count
+11
+
+2019-11-19 12:20:59.834436
+violin_2_pitch_handler_three
+count
+71
+
+2019-11-19 12:20:59.957076
+violin_2_pitch_handler_three
+count
+84
+
+2019-11-19 12:21:00.069076
+violin_2_pitch_handler_two
+count
+74
+
+2019-11-19 12:21:00.172958
+violin_2_pitch_handler_two
+count
+78
+
+2019-11-19 12:21:00.302507
+viola_pitch_handler_one
+count
+33
+
+2019-11-19 12:21:00.403291
+viola_pitch_handler_one
+count
+37
+
+2019-11-19 12:21:00.499678
+viola_pitch_handler_two
+count
+58
+
+2019-11-19 12:21:00.602435
+viola_pitch_handler_two
+count
+59
+
+2019-11-19 12:21:00.706587
+viola_pitch_handler_three
+count
+46
+
+2019-11-19 12:21:00.801470
+viola_pitch_handler_three
+count
+47
+
+2019-11-19 12:21:01.229153
+viola_pitch_handler_four
+count
+28
+
+2019-11-19 12:21:01.323928
+viola_pitch_handler_four
+count
+30
+
+2019-11-19 12:21:01.418789
+viola_pitch_handler_three
+count
+49
+
+2019-11-19 12:21:01.517321
+viola_pitch_handler_three
+count
+51
+
+2019-11-19 12:21:01.607963
+viola_pitch_handler_two
+count
+60
+
+2019-11-19 12:21:01.710868
+viola_pitch_handler_two
+count
+62
+
+2019-11-19 12:21:01.812752
+cello_pitch_handler_one
+count
+30
+
+2019-11-19 12:21:01.907945
+cello_pitch_handler_one
+count
+31
+
+2019-11-19 12:21:02.008094
+cello_pitch_handler_two
+count
+54
+
+2019-11-19 12:21:02.110039
+cello_pitch_handler_two
+count
+58
+
+2019-11-19 12:21:02.872627
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-19 12:21:02.912586
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-19 12:21:02.957499
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-19 12:21:03.806158
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-19 12:21:03.866576
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-19 12:21:03.888587
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-19 12:21:05.758537
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-19 12:21:05.782463
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-19 12:21:05.819742
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-19 12:21:05.851987
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-19 12:21:06.242273
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-19 12:21:06.916036
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-19 12:21:06.960900
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-19 12:21:07.081557
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-19 12:21:07.942082
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-19 12:21:08.015674
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-19 12:21:08.056884
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-19 12:21:09.938779
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-19 12:21:09.983370
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-19 12:21:10.030432
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-19 12:21:10.104026
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-19 12:21:10.591040
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-19 12:21:11.254013
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-19 12:21:11.291940
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-19 12:21:11.332628
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-19 12:21:12.156976
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-19 12:21:12.214611
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-19 12:21:12.233585
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-19 12:21:14.119958
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-19 12:21:14.143515
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-19 12:21:14.180935
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-19 12:21:14.208014
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-19 12:21:14.591575
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+
+2019-11-25 12:16:57.347668
+violin_1_pitch_handler_two
+count
+58
+
+2019-11-25 12:16:57.576261
+violin_1_pitch_handler_one
+count
+52
+
+2019-11-25 12:16:57.763601
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-25 12:16:57.941658
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-25 12:16:58.137355
+violin_1_pitch_handler_two
+count
+60
+
+2019-11-25 12:16:58.328569
+violin_1_pitch_handler_one
+count
+54
+
+2019-11-25 12:16:58.517141
+violin_1_pitch_handler_four
+count
+35
+
+2019-11-25 12:16:58.689648
+violin_1_pitch_handler_three
+count
+33
+
+2019-11-25 12:17:00.176469
+violin_2_pitch_handler_two
+count
+53
+
+2019-11-25 12:17:00.357531
+violin_2_pitch_handler_one
+count
+17
+
+2019-11-25 12:17:00.589793
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 12:17:00.790601
+violin_2_pitch_handler_four
+count
+13
+
+2019-11-25 12:17:01.032220
+violin_2_pitch_handler_two
+count
+69
+
+2019-11-25 12:17:01.243778
+violin_2_pitch_handler_one
+count
+27
+
+2019-11-25 12:17:01.432865
+violin_2_pitch_handler_four
+count
+16
+
+2019-11-25 12:17:01.615502
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 12:17:04.775765
+viola_pitch_handler_two
+count
+73
+
+2019-11-25 12:17:05.027827
+viola_pitch_handler_one
+count
+38
+
+2019-11-25 12:17:05.239788
+viola_pitch_handler_three
+count
+48
+
+2019-11-25 12:17:05.464629
+viola_pitch_handler_four
+count
+38
+
+2019-11-25 12:17:05.700802
+viola_pitch_handler_two
+count
+82
+
+2019-11-25 12:17:05.901644
+viola_pitch_handler_one
+count
+39
+
+2019-11-25 12:17:06.081745
+viola_pitch_handler_four
+count
+39
+
+2019-11-25 12:17:06.256643
+viola_pitch_handler_three
+count
+50
+
+2019-11-25 12:17:06.994081
+cello_pitch_handler_two
+count
+56
+
+2019-11-25 12:17:07.182209
+cello_pitch_handler_one
+count
+30
+
+2019-11-25 12:17:07.345522
+cello_pitch_handler_three
+count
+33
+
+2019-11-25 12:17:07.536708
+cello_pitch_handler_four
+count
+11
+
+2019-11-25 12:17:07.696445
+cello_pitch_handler_two
+count
+58
+
+2019-11-25 12:17:07.883751
+cello_pitch_handler_one
+count
+32
+
+2019-11-25 12:17:08.063420
+cello_pitch_handler_four
+count
+14
+
+2019-11-25 12:17:08.261759
+cello_pitch_handler_three
+count
+36
+
+2019-11-25 12:17:09.559877
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-25 12:17:09.644221
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-25 12:17:09.733082
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-25 12:17:11.161529
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-25 12:17:11.306617
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-25 12:17:11.337384
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-25 12:17:14.400688
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-25 12:17:14.432210
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-25 12:17:14.521762
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-25 12:17:14.589988
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-25 12:17:15.263084
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-25 12:17:16.394901
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-25 12:17:16.535089
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-25 12:17:16.766949
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-25 12:17:18.192947
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-25 12:17:18.334933
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-25 12:17:18.398706
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-25 12:17:21.391606
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-25 12:17:21.486781
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-25 12:17:21.599413
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-25 12:17:21.747069
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-25 12:17:22.549817
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-25 12:17:23.741413
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-25 12:17:23.829665
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-25 12:17:23.921782
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-25 12:17:25.276631
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-25 12:17:25.403340
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-25 12:17:25.427725
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-25 12:17:28.414944
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-25 12:17:28.472450
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-25 12:17:28.540189
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-25 12:17:28.604675
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-25 12:17:29.240367
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+
+2019-11-25 13:44:33.891829
+violin_1_pitch_handler_two
+count
+58
+
+2019-11-25 13:44:34.098799
+violin_1_pitch_handler_one
+count
+52
+
+2019-11-25 13:44:34.263101
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-25 13:44:34.431279
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-25 13:44:34.581156
+violin_1_pitch_handler_two
+count
+60
+
+2019-11-25 13:44:34.742924
+violin_1_pitch_handler_one
+count
+54
+
+2019-11-25 13:44:34.910903
+violin_1_pitch_handler_four
+count
+35
+
+2019-11-25 13:44:35.093765
+violin_1_pitch_handler_three
+count
+33
+
+2019-11-25 13:44:36.556714
+violin_2_pitch_handler_two
+count
+53
+
+2019-11-25 13:44:36.718364
+violin_2_pitch_handler_one
+count
+17
+
+2019-11-25 13:44:36.898515
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 13:44:37.050912
+violin_2_pitch_handler_four
+count
+13
+
+2019-11-25 13:44:37.277210
+violin_2_pitch_handler_two
+count
+69
+
+2019-11-25 13:44:37.461985
+violin_2_pitch_handler_one
+count
+27
+
+2019-11-25 13:44:37.632425
+violin_2_pitch_handler_four
+count
+16
+
+2019-11-25 13:44:37.789853
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 13:44:40.953992
+viola_pitch_handler_two
+count
+73
+
+2019-11-25 13:44:41.177858
+viola_pitch_handler_one
+count
+38
+
+2019-11-25 13:44:41.353435
+viola_pitch_handler_three
+count
+48
+
+2019-11-25 13:44:41.558699
+viola_pitch_handler_four
+count
+38
+
+2019-11-25 13:44:41.727815
+viola_pitch_handler_two
+count
+82
+
+2019-11-25 13:44:41.885749
+viola_pitch_handler_one
+count
+39
+
+2019-11-25 13:44:42.044435
+viola_pitch_handler_four
+count
+39
+
+2019-11-25 13:44:42.199047
+viola_pitch_handler_three
+count
+50
+
+2019-11-25 13:44:42.889146
+cello_pitch_handler_two
+count
+56
+
+2019-11-25 13:44:43.055880
+cello_pitch_handler_one
+count
+30
+
+2019-11-25 13:44:43.228472
+cello_pitch_handler_three
+count
+33
+
+2019-11-25 13:44:43.405805
+cello_pitch_handler_four
+count
+11
+
+2019-11-25 13:44:43.561187
+cello_pitch_handler_two
+count
+58
+
+2019-11-25 13:44:43.714711
+cello_pitch_handler_one
+count
+32
+
+2019-11-25 13:44:43.885137
+cello_pitch_handler_four
+count
+14
+
+2019-11-25 13:44:44.055748
+cello_pitch_handler_three
+count
+36
+
+2019-11-25 13:44:45.325360
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-25 13:44:45.404573
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-25 13:44:45.494724
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-25 13:44:46.832321
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-25 13:44:46.947574
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-25 13:44:46.975126
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-25 13:44:50.129576
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-25 13:44:50.160914
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-25 13:44:50.232010
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-25 13:44:50.278597
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-25 13:44:50.996770
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-25 13:44:52.066459
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-25 13:44:52.152153
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-25 13:44:52.336038
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-25 13:44:53.745485
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-25 13:44:53.873974
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-25 13:44:53.951770
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-25 13:44:56.959549
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-25 13:44:57.043929
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-25 13:44:57.124941
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-25 13:44:57.255391
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-25 13:44:58.057698
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-25 13:44:59.145960
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-25 13:44:59.205152
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-25 13:44:59.275193
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-25 13:45:00.679267
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-25 13:45:00.779020
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-25 13:45:00.805884
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-25 13:45:04.010274
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-25 13:45:04.051152
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-25 13:45:04.120457
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-25 13:45:04.169467
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-25 13:45:04.802166
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+
+2019-11-25 15:09:34.230574
+violin_1_pitch_handler_two
+count
+58
+
+2019-11-25 15:09:34.396980
+violin_1_pitch_handler_one
+count
+52
+
+2019-11-25 15:09:34.529209
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-25 15:09:34.638658
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-25 15:09:34.745909
+violin_1_pitch_handler_two
+count
+60
+
+2019-11-25 15:09:34.877861
+violin_1_pitch_handler_one
+count
+54
+
+2019-11-25 15:09:34.974920
+violin_1_pitch_handler_four
+count
+35
+
+2019-11-25 15:09:35.082099
+violin_1_pitch_handler_three
+count
+33
+
+2019-11-25 15:09:36.005495
+violin_2_pitch_handler_two
+count
+53
+
+2019-11-25 15:09:36.111811
+violin_2_pitch_handler_one
+count
+17
+
+2019-11-25 15:09:36.132337
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 15:09:36.229413
+violin_2_pitch_handler_four
+count
+13
+
+2019-11-25 15:09:36.383659
+violin_2_pitch_handler_two
+count
+69
+
+2019-11-25 15:09:36.512387
+violin_2_pitch_handler_one
+count
+27
+
+2019-11-25 15:09:36.627692
+violin_2_pitch_handler_four
+count
+16
+
+2019-11-25 15:09:36.733086
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 15:09:38.573835
+viola_pitch_handler_two
+count
+73
+
+2019-11-25 15:09:38.726627
+viola_pitch_handler_one
+count
+38
+
+2019-11-25 15:09:38.830090
+viola_pitch_handler_three
+count
+48
+
+2019-11-25 15:09:38.958288
+viola_pitch_handler_four
+count
+38
+
+2019-11-25 15:09:39.089106
+viola_pitch_handler_two
+count
+82
+
+2019-11-25 15:09:39.205735
+viola_pitch_handler_one
+count
+39
+
+2019-11-25 15:09:39.318778
+viola_pitch_handler_four
+count
+39
+
+2019-11-25 15:09:39.428275
+viola_pitch_handler_three
+count
+50
+
+2019-11-25 15:09:39.866115
+cello_pitch_handler_two
+count
+56
+
+2019-11-25 15:09:39.966413
+cello_pitch_handler_one
+count
+30
+
+2019-11-25 15:09:40.076677
+cello_pitch_handler_three
+count
+33
+
+2019-11-25 15:09:40.178186
+cello_pitch_handler_four
+count
+11
+
+2019-11-25 15:09:40.293336
+cello_pitch_handler_two
+count
+58
+
+2019-11-25 15:09:40.406682
+cello_pitch_handler_one
+count
+32
+
+2019-11-25 15:09:40.524170
+cello_pitch_handler_four
+count
+14
+
+2019-11-25 15:09:40.623100
+cello_pitch_handler_three
+count
+36
+
+2019-11-25 15:09:41.429433
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-25 15:09:41.472880
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-25 15:09:41.531885
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-25 15:09:42.402592
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-25 15:09:42.474907
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-25 15:09:42.494267
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-25 15:09:44.364113
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-25 15:09:44.388802
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-25 15:09:44.440584
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-25 15:09:44.470955
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-25 15:09:44.879252
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-25 15:09:45.567546
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-25 15:09:45.615325
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-25 15:09:45.754815
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-25 15:09:46.650868
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-25 15:09:46.742876
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-25 15:09:46.782403
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-25 15:09:48.711353
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-25 15:09:48.756330
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-25 15:09:48.803628
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-25 15:09:48.887646
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-25 15:09:49.426035
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-25 15:09:50.106013
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-25 15:09:50.145396
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-25 15:09:50.182573
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-25 15:09:51.042386
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-25 15:09:51.103495
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-25 15:09:51.127206
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-25 15:09:52.992250
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-25 15:09:53.017094
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-25 15:09:53.068792
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-25 15:09:53.092845
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-25 15:09:53.484401
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+
+2019-11-25 15:33:23.765566
+violin_1_pitch_handler_two
+count
+58
+
+2019-11-25 15:33:23.908562
+violin_1_pitch_handler_one
+count
+52
+
+2019-11-25 15:33:24.011324
+violin_1_pitch_handler_three
+count
+32
+
+2019-11-25 15:33:24.138367
+violin_1_pitch_handler_four
+count
+33
+
+2019-11-25 15:33:24.315474
+violin_1_pitch_handler_two
+count
+60
+
+2019-11-25 15:33:24.572176
+violin_1_pitch_handler_one
+count
+54
+
+2019-11-25 15:33:24.814876
+violin_1_pitch_handler_four
+count
+35
+
+2019-11-25 15:33:24.924339
+violin_1_pitch_handler_three
+count
+33
+
+2019-11-25 15:33:26.503396
+violin_2_pitch_handler_two
+count
+53
+
+2019-11-25 15:33:26.609170
+violin_2_pitch_handler_one
+count
+17
+
+2019-11-25 15:33:26.626888
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 15:33:26.735369
+violin_2_pitch_handler_four
+count
+13
+
+2019-11-25 15:33:26.877962
+violin_2_pitch_handler_two
+count
+69
+
+2019-11-25 15:33:27.114370
+violin_2_pitch_handler_one
+count
+27
+
+2019-11-25 15:33:27.266236
+violin_2_pitch_handler_four
+count
+16
+
+2019-11-25 15:33:27.372155
+violin_2_pitch_handler_three
+count
+44
+
+2019-11-25 15:33:30.471004
+viola_pitch_handler_two
+count
+73
+
+2019-11-25 15:33:30.711443
+viola_pitch_handler_one
+count
+38
+
+2019-11-25 15:33:30.874594
+viola_pitch_handler_three
+count
+48
+
+2019-11-25 15:33:31.044222
+viola_pitch_handler_four
+count
+38
+
+2019-11-25 15:33:31.181277
+viola_pitch_handler_two
+count
+82
+
+2019-11-25 15:33:31.480516
+viola_pitch_handler_one
+count
+39
+
+2019-11-25 15:33:31.681641
+viola_pitch_handler_four
+count
+39
+
+2019-11-25 15:33:31.811405
+viola_pitch_handler_three
+count
+50
+
+2019-11-25 15:33:32.353645
+cello_pitch_handler_two
+count
+56
+
+2019-11-25 15:33:32.468992
+cello_pitch_handler_one
+count
+30
+
+2019-11-25 15:33:32.617823
+cello_pitch_handler_three
+count
+33
+
+2019-11-25 15:33:32.810581
+cello_pitch_handler_four
+count
+11
+
+2019-11-25 15:33:32.922516
+cello_pitch_handler_two
+count
+58
+
+2019-11-25 15:33:33.050787
+cello_pitch_handler_one
+count
+32
+
+2019-11-25 15:33:33.266838
+cello_pitch_handler_four
+count
+14
+
+2019-11-25 15:33:33.539902
+cello_pitch_handler_three
+count
+36
+
+2019-11-25 15:33:34.769904
+dynamic_handler_one
+count 1
+1
+count 2
+0
+count 3
+0
+count 4
+0
+count 5
+1
+
+2019-11-25 15:33:34.833053
+dynamic_handler_two
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-25 15:33:34.882805
+dynamic_handler_one
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+0
+
+2019-11-25 15:33:36.079581
+dynamic_handler_one
+count 1
+12
+count 2
+4
+count 3
+7
+count 4
+4
+count 5
+0
+
+2019-11-25 15:33:36.151538
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-25 15:33:36.173031
+dynamic_handler_one
+count 1
+14
+count 2
+5
+count 3
+8
+count 4
+5
+count 5
+1
+
+2019-11-25 15:33:38.128769
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-25 15:33:38.152849
+dynamic_handler_one
+count 1
+17
+count 2
+6
+count 3
+10
+count 4
+6
+count 5
+0
+
+2019-11-25 15:33:38.207146
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-25 15:33:38.240385
+dynamic_handler_one
+count 1
+21
+count 2
+7
+count 3
+13
+count 4
+8
+count 5
+0
+
+2019-11-25 15:33:38.692706
+dynamic_handler_one
+count 1
+31
+count 2
+11
+count 3
+19
+count 4
+12
+count 5
+0
+
+2019-11-25 15:33:39.368577
+articulation_handler_three
+count 1
+2
+count 2
+1
+count 3
+-1
+
+2019-11-25 15:33:39.414616
+articulation_handler_two
+count 1
+-1
+count 2
+1
+count 3
+0
+
+2019-11-25 15:33:39.554311
+articulation_handler_three
+count 1
+17
+count 2
+9
+count 3
+-1
+
+2019-11-25 15:33:40.436958
+articulation_handler_three
+count 1
+26
+count 2
+15
+count 3
+-1
+
+2019-11-25 15:33:40.531409
+articulation_handler_two
+count 1
+-1
+count 2
+5
+count 3
+2
+
+2019-11-25 15:33:40.585392
+articulation_handler_three
+count 1
+31
+count 2
+17
+count 3
+-1
+
+2019-11-25 15:33:42.898425
+articulation_handler_two
+count 1
+-1
+count 2
+7
+count 3
+3
+
+2019-11-25 15:33:42.945466
+articulation_handler_three
+count 1
+37
+count 2
+21
+count 3
+-1
+
+2019-11-25 15:33:43.016165
+articulation_handler_two
+count 1
+-1
+count 2
+9
+count 3
+4
+
+2019-11-25 15:33:43.111118
+articulation_handler_three
+count 1
+46
+count 2
+26
+count 3
+-1
+
+2019-11-25 15:33:43.657715
+articulation_handler_three
+count 1
+70
+count 2
+37
+count 3
+-1
+
+2019-11-25 15:33:44.512083
+notehead handler one
+count
+1
+head vector count
+1
+transition vector count
+1
+
+2019-11-25 15:33:44.573569
+notehead handler two
+count
+17
+head vector count
+17
+transition vector count
+17
+
+2019-11-25 15:33:44.649302
+notehead handler three
+count
+10
+head vector count
+10
+transition vector count
+10
+
+2019-11-25 15:33:45.715359
+notehead handler one
+count
+7
+head vector count
+7
+transition vector count
+7
+
+2019-11-25 15:33:45.779583
+notehead handler two
+count
+26
+head vector count
+44
+transition vector count
+44
+
+2019-11-25 15:33:45.799806
+notehead handler three
+count
+14
+head vector count
+14
+transition vector count
+14
+
+2019-11-25 15:33:48.416730
+notehead handler two
+count
+35
+head vector count
+80
+transition vector count
+80
+
+2019-11-25 15:33:48.441460
+notehead handler one
+count
+11
+head vector count
+11
+transition vector count
+11
+
+2019-11-25 15:33:48.488684
+notehead handler two
+count
+17
+head vector count
+98
+transition vector count
+98
+
+2019-11-25 15:33:48.524188
+notehead handler three
+count
+20
+head vector count
+20
+transition vector count
+20
+
+2019-11-25 15:33:49.001856
+notehead handler three
+count
+38
+head vector count
+38
+transition vector count
+38
+

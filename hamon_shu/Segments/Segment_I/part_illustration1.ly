@@ -120,6 +120,7 @@
             \set Staff.instrumentName =                                        %! applying staff names and clefs
             \markup { "Violin I" }                                             %! applying staff names and clefs
             \clef "treble"
+            \override Staff.Stem.stemlet-length = 0.75
             aqs16
             \f
             - \tweak stencil #abjad-flared-hairpin
@@ -130,11 +131,13 @@
 
             bqf16
 
+            \revert Staff.Stem.stemlet-length
             aqs16
             ]
 
             \times 4/5 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 e'8
                 [
 
@@ -144,6 +147,7 @@
 
                 bqf8
 
+                \revert Staff.Stem.stemlet-length
                 bqf8
                 ]
                 <>
@@ -156,6 +160,7 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 18/17 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 bqs16
                 \p
                 \<
@@ -191,11 +196,13 @@
 
                 aqs16
 
+                \revert Staff.Stem.stemlet-length
                 e'16
                 ]
 
             }
 
+            \override Staff.Stem.stemlet-length = 0.75
             aqs32
             [
 
@@ -204,47 +211,54 @@
             bqf32
 
             bqf32
-            ]
             <>
             \mf
 
+            \revert Staff.Stem.stemlet-length
             r4
+            ]
 
             \once \override Rest.transparent = ##t                             %! applying invisibility
             r1 * 1/8
 
             R1 * 1/8
 
+            \override Staff.Stem.stemlet-length = 0.75
             r4
+            [
 
             aqs16
             \ff
             \>
-            [
 
+            \revert Staff.Stem.stemlet-length
             e'16
             ]
 
-            e'16
+            \override Staff.Stem.stemlet-length = 0.75
+            bqf16
             [
 
-            aqs16
+            e'16
             ~
 
-            aqs16
+            e'16
 
-            bf16
+            \revert Staff.Stem.stemlet-length
+            aqs16
             ~
             ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 6/7 {
 
-                bf16
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs16
                 [
 
-                bqf8.
+                b8.
 
+                \revert Staff.Stem.stemlet-length
                 aqs8.
                 ]
                 <>
@@ -257,48 +271,52 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/13 {
 
-                aqs16
+                \override Staff.Stem.stemlet-length = 0.75
+                e'16
                 \mp
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
 
-                e'16
-
                 bqf16
 
                 e'16
+
+                ef'16
+
+                aqs16
+
+                ef'16
+
+                e'16
+
+                d'16
+
+                e'16
+
+                ef'16
 
                 aqs16
 
                 b16
 
-                aqs16
-
-                e'16
-
-                bqf16
-
-                e'16
-
-                ef'16
-
-                aqs16
-
-                ef'16
+                \revert Staff.Stem.stemlet-length
+                c'16
                 ]
 
             }
 
-            e'16
+            \override Staff.Stem.stemlet-length = 0.75
+            cs'16
             [
 
             d'8.
-            ]
             <>
             \p
 
+            \revert Staff.Stem.stemlet-length
             r8
+            ]
 
             r2.
 
@@ -307,36 +325,32 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 e'8
                 \mf
                 - \tweak stencil #abjad-flared-hairpin
                 \<
                 [
 
+                \revert Staff.Stem.stemlet-length
                 ef'16
                 ]
 
             }
 
-            \times 2/3 {
+            \times 4/5 {
 
-                e'8
+                ef'4.
+
+                \override Staff.Stem.stemlet-length = 0.75
+                cs'8
                 [
-
-                ef'8
-                ]
                 <>
                 \ff
 
-                r4
-
-                ef'8
-                \f
-                \>
-                <>
-                \mp
-
+                \revert Staff.Stem.stemlet-length
                 r8
+                ]
 
             }
 
@@ -344,44 +358,50 @@
 
             r2.
 
-            \times 2/3 {
+            \times 4/5 {
 
-                cs'8
+                ef'4.
+                \f
+                \>
+                <>
+                \mp
+
+                \override Staff.Stem.stemlet-length = 0.75
+                eqf'8
                 \p
                 \<
                 [
-
-                c'8
-                ]
                 <>
                 \mf
 
-                r4
+                \revert Staff.Stem.stemlet-length
+                r8
+                ]
 
-                b8
+            }
+
+            \times 2/3 {
+
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs16
                 \ff
                 - \tweak stencil #abjad-flared-hairpin
                 \>
                 [
-
-                bf8
-                ]
                 <>
                 \f
 
-            }
+                r16
 
-            \times 4/5 {
-
-                r8.
-
-                b16
+                bqf8
                 \mp
                 - \tweak stencil #abjad-flared-hairpin
                 \>
-                [
 
-                c'16
+                bqs16
+
+                \revert Staff.Stem.stemlet-length
+                cqs'16
                 ]
                 <>
                 \p
@@ -390,65 +410,75 @@
 
             \times 2/3 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 r8
+                [
 
+                \revert Staff.Stem.stemlet-length
                 cs'8
                 \mf
                 \<
+                ]
 
                 c'4
+
+                \override Staff.Stem.stemlet-length = 0.75
+                bqs8
+                [
                 <>
                 \ff
 
+                \revert Staff.Stem.stemlet-length
                 r8
-
-                r8
+                ]
 
             }
 
-            cs'8
+            bqs8
             \f
             \>
             ~
 
-            cs'4
+            bqs4
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 1/1 {
 
-                b4
+                cqs'4
                 ~
 
             }
 
-            b4
+            cqs'4
 
-            bf8
+            dqf'8
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/11 {
 
-                ef'16
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs16
                 [
 
-                eqf'16
+                e'16
+
+                e'16
 
                 aqs16
+
+                bf16
+
+                bqf16
+
+                aqs16
+
+                bf16
 
                 bqf16
 
                 bqs16
 
-                cqs'16
-
-                cs'16
-
-                c'16
-
-                bqs16
-
-                bqs16
-
+                \revert Staff.Stem.stemlet-length
                 cqs'16
                 ]
                 <>
@@ -461,21 +491,23 @@
 
             R1 * 1/4
 
-            dqf'8
+            \override Staff.Stem.stemlet-length = 0.75
+            cs'8
             \p
             - \tweak stencil #abjad-flared-hairpin
             \<
             [
 
-            cs'8
+            \revert Staff.Stem.stemlet-length
+            dqs'8
             ]
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 8/7 {
 
-                c'16
+                d'16
 
-                bqs4.
+                dqs'4.
                 \mf
 
             }
@@ -483,42 +515,46 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 12/13 {
 
-                bqs16
+                \override Staff.Stem.stemlet-length = 0.75
+                e'16
                 \mp
                 \>
                 [
 
-                cqs'16
+                e'16
 
-                bqs16
-
-                bqs16
+                e'16
 
                 aqs16
 
-                bqs16
+                e'16
 
-                bqs16
+                aqs16
+
+                e'16
+
+                e'16
+
+                aqs16
+
+                bqf16
+
+                bf16
 
                 bqf16
 
+                \revert Staff.Stem.stemlet-length
                 bqs16
-
-                bqs16
-
-                c'16
-
-                bqs16
-
-                bqf16
                 ]
 
             }
 
-            bqs16
+            \override Staff.Stem.stemlet-length = 0.75
+            cs'16
             [
 
-            bqf8.
+            \revert Staff.Stem.stemlet-length
+            d'8.
             \p
             - \tweak stencil #constante-hairpin
             \<
@@ -531,14 +567,16 @@
 
             \times 4/5 {
 
-                aqs16
+                \override Staff.Stem.stemlet-length = 0.75
+                ef'16
                 \mf
                 \>
                 [
 
-                e'16
+                d'16
 
-                aqs8.
+                \revert Staff.Stem.stemlet-length
+                d'8.
                 ]
                 <>
                 \pp
@@ -552,62 +590,71 @@
 
             r4
 
-            \times 2/3 {
+            \times 4/5 {
 
-                bf16
+                \override Staff.Stem.stemlet-length = 0.75
+                d'8.
                 \f
                 \>
                 [
 
-                b16
+                d'16
                 \p
                 - \tweak stencil #constante-hairpin
                 \<
-                ]
 
-                r8
+                \revert Staff.Stem.stemlet-length
+                r16
                 \!
-
-                cs'16
-                \mf
-                \>
-                [
-
-                c'16
                 ]
-                <>
-                \mp
 
             }
 
-            r2.
+            \tweak text #tuplet-number::calc-fraction-text
+            \times 5/6 {
 
-            bf4
-            \p
-            - \tweak stencil #constante-hairpin
-            \<
+                ef'4
+                \mf
+                \>
+                <>
+                \mp
 
-            r4
+                r4
+
+                cs'2
+                \p
+                \<
+
+                c'4
+
+                bqs4
+                \mf
+                - \tweak stencil #constante-hairpin
+                \<
+
+            }
+
+            \override Staff.Stem.stemlet-length = 0.75
+            bqs16
             \!
-
-            c'16
             \ff
             - \tweak stencil #abjad-flared-hairpin
             \>
             [
 
-            cs'16
+            cqs'16
             ~
 
-            cs'16
+            cqs'16
 
-            d'16
+            \revert Staff.Stem.stemlet-length
+            bqs16
             ~
             ]
 
-            d'4
+            bqs4
 
-            aqs4
+            bqs4
             <>
             \f
 
@@ -618,38 +665,40 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 16/15 {
 
-                b32
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs32
                 \mp
                 \>
                 [
 
-                c'32
+                bqs32
 
-                cs'32
-
-                d'32
-
-                cs'32
-
-                d'32
-
-                ef'32
-
-                d'32
-
-                d'32
-
-                d'32
-
-                d'32
-
-                ef'32
-
-                aqs32
+                bqs32
 
                 bqf32
 
+                bqs32
+
+                bqs32
+
                 c'32
+
+                bqs32
+
+                bqf32
+
+                bqs32
+
+                bqf32
+
+                aqs32
+
+                bqs32
+
+                c'32
+
+                \revert Staff.Stem.stemlet-length
+                bqs32
                 ]
                 <>
                 \p
@@ -658,50 +707,58 @@
 
             r2
 
-            bqf16
+            \override Staff.Stem.stemlet-length = 0.75
+            c'16
             \mf
             \<
             [
 
             b16
 
-            aqs16
+            bf16
 
+            \revert Staff.Stem.stemlet-length
             b16
             ]
 
+            \override Staff.Stem.stemlet-length = 0.75
             c'16
             [
 
-            bqf16
+            cs'16
 
-            e'16
+            c'16
 
-            ef'16
+            \revert Staff.Stem.stemlet-length
+            cs'16
             ]
 
-            aqs16
+            \override Staff.Stem.stemlet-length = 0.75
+            b16
             [
 
-            ef'16
+            bf16
 
+            aqs16
+
+            \revert Staff.Stem.stemlet-length
             e'16
-
-            d'16
             ]
 
             \times 4/5 {
 
-                e'16
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs16
                 [
 
-                ef'16
+                bf16
 
-                d'16
+                b16
 
-                ef'16
+                cs'16
 
-                e'16
+                \revert Staff.Stem.stemlet-length
+                c'16
                 ]
 
             }
@@ -709,17 +766,17 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 16/15 {
 
-                bqf8
+                bf8
 
                 c'4..
 
-                cqs'8
+                cs'8
 
-                cs'4
+                d'4
 
             }
 
-            d'4
+            ef'4
             \bar "||"
             <>
             \ff

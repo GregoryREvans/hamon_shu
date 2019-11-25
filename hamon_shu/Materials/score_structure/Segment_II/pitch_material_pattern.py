@@ -3,63 +3,47 @@ from hamon_shu.Materials.pitch.Segment_II.pitch_handlers import *
 
 
 key_list_1 = [
-    "violin_1_pitch_handler_one",
-    "violin_1_pitch_handler_one",
     "violin_1_pitch_handler_two",
-    "violin_1_pitch_handler_two",
-    "violin_1_pitch_handler_three",
+    "violin_1_pitch_handler_one",
     "violin_1_pitch_handler_three",
     "violin_1_pitch_handler_four",
+    "violin_1_pitch_handler_two",
+    "violin_1_pitch_handler_one",
     "violin_1_pitch_handler_four",
     "violin_1_pitch_handler_three",
-    "violin_1_pitch_handler_three",
-    "violin_1_pitch_handler_two",
-    "violin_1_pitch_handler_two",
 ]
 
 key_list_2 = [
-    "violin_2_pitch_handler_one",
-    "violin_2_pitch_handler_one",
     "violin_2_pitch_handler_two",
-    "violin_2_pitch_handler_two",
-    "violin_2_pitch_handler_three",
+    "violin_2_pitch_handler_one",
     "violin_2_pitch_handler_three",
     "violin_2_pitch_handler_four",
+    "violin_2_pitch_handler_two",
+    "violin_2_pitch_handler_one",
     "violin_2_pitch_handler_four",
     "violin_2_pitch_handler_three",
-    "violin_2_pitch_handler_three",
-    "violin_2_pitch_handler_two",
-    "violin_2_pitch_handler_two",
 ]
 
 key_list_3 = [
-    "viola_pitch_handler_one",
-    "viola_pitch_handler_one",
     "viola_pitch_handler_two",
-    "viola_pitch_handler_two",
-    "viola_pitch_handler_three",
+    "viola_pitch_handler_one",
     "viola_pitch_handler_three",
     "viola_pitch_handler_four",
+    "viola_pitch_handler_two",
+    "viola_pitch_handler_one",
     "viola_pitch_handler_four",
     "viola_pitch_handler_three",
-    "viola_pitch_handler_three",
-    "viola_pitch_handler_two",
-    "viola_pitch_handler_two",
 ]
 
 key_list_4 = [
-    "cello_pitch_handler_one",
-    "cello_pitch_handler_one",
     "cello_pitch_handler_two",
-    "cello_pitch_handler_two",
-    "cello_pitch_handler_three",
+    "cello_pitch_handler_one",
     "cello_pitch_handler_three",
     "cello_pitch_handler_four",
+    "cello_pitch_handler_two",
+    "cello_pitch_handler_one",
     "cello_pitch_handler_four",
     "cello_pitch_handler_three",
-    "cello_pitch_handler_three",
-    "cello_pitch_handler_two",
-    "cello_pitch_handler_two",
 ]
 
 dict = {

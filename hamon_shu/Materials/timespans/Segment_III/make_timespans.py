@@ -41,15 +41,8 @@ rhythm_timespan_list = rhythm_timespan_maker(
 pitch_target_timespan = abjad.Timespan(0, (31, 4))
 
 pitch_timespan_maker = TaleaTimespanMaker(
-    # initial_silence_talea=rmakers.Talea(counts=([0, 5, 3, 6, 2]), denominator=8),
-    # synchronize_step=True, #goes down voices instead of across? maybe not consistent...
-    # synchronize_groupings=True, #goes down voices instead of across? maybe not consistent...
-    playing_talea=rmakers.Talea(counts=([5, 3, 2, 6]), denominator=4),
-    # playing_groupings=(
-    #     [1, 2, 3, 2]
-    # ),  # smashes timespans together without intermittent silence
+    playing_talea=rmakers.Talea(counts=([31]), denominator=32),
     silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-    # fuse_groups=False, #turns groups from multiple timespans into one large timespan
 )
 
 pitch_timespan_list = pitch_timespan_maker(

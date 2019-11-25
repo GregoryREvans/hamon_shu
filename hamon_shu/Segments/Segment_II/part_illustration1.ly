@@ -77,7 +77,7 @@
             \markup { "Violin I" }                                             %! applying staff names and clefs
             \once \override Staff.NoteHead.style = #'harmonic-mixed
             \clef "treble"
-            bf8
+            eqf'8
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -126,7 +126,7 @@
 
 
             \once \override Staff.NoteHead.style = #'triangle
-            aqf4
+            f'4
             \stopTextSpanOne
             ~
             - \abjad-solid-line-with-arrow
@@ -143,11 +143,12 @@
             \startTextSpanOne
 
             \once \override Staff.NoteHead.style = #'triangle
-            aqf4
+            f'4
             ~
 
             \once \override Staff.NoteHead.style = #'triangle
-            aqf8
+            \override Staff.Stem.stemlet-length = 0.75
+            f'8
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -176,7 +177,9 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #10
             \startTextSpanTwo
+            [
 
+            \revert Staff.Stem.stemlet-length
             r8
             \!
             \stopTextSpanOne
@@ -193,6 +196,7 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #6
             \startTextSpanOne
+            ]
 
             r4
             \stopTextSpanOne
@@ -204,7 +208,8 @@
 
                 \times 2/3 {
 
-                    a8
+                    \override Staff.Stem.stemlet-length = 0.75
+                    bf8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -236,24 +241,27 @@
                     \startTextSpanThree
                     [
 
-                    bf8
+                    aqf8
                     ~
 
-                    bf32
+                    \revert Staff.Stem.stemlet-length
+                    aqf32
                     ]
 
                 }
 
-                bqs4
+                a4
 
                 \times 2/3 {
 
-                    cs'16
+                    \override Staff.Stem.stemlet-length = 0.75
+                    bf16
                     [
 
-                    d'16.
+                    bqs16.
 
-                    e'8
+                    \revert Staff.Stem.stemlet-length
+                    cs'8
                     ]
 
                 }
@@ -261,14 +269,16 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/7 {
 
-                    ef'4
+                    d'4
 
+                    \override Staff.Stem.stemlet-length = 0.75
                     e'8.
                     [
 
                 }
 
-                fs'8
+                \revert Staff.Stem.stemlet-length
+                ef'8
                 ]
 
             }
@@ -279,7 +289,8 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 10/11 {
 
-                    fqs'16.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    e'16.
                     [
 
                     fs'16
@@ -289,31 +300,32 @@
 
                 }
 
-                eqf'8
+                fqs'8
 
                 \times 4/5 {
 
-                    f'32
+                    fs'32
 
                     aqf32
                     ~
 
                     aqf128
 
-                    b32.
+                    fs'32.
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/7 {
 
-                    c'8
+                    aqf8
 
-                    aqs16.
+                    fs'16.
 
                 }
 
-                c'8
+                \revert Staff.Stem.stemlet-length
+                fs'8
                 \stopTextSpanTwo
                 - \abjad-dashed-line-with-hook
                 - \tweak bound-details.left.text \markup {
@@ -340,10 +352,13 @@
 
             R1 * 1/4
 
+            \override Staff.Stem.stemlet-length = 0.75
             r4
+            [
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            cqs'8
+            \revert Staff.Stem.stemlet-length
+            f'8
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -384,19 +399,20 @@
             - \tweak bound-details.right.padding 1.4
             - \tweak staff-padding #10
             \startTextSpanTwo
+            ]
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            cqs'4
+            f'4
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 3/5 {
 
                 \once \override Staff.NoteHead.style = #'harmonic-mixed
-                cqs'8
+                f'8
 
                 \once \override Staff.NoteHead.style = #'triangle
-                b2
+                f'2
                 \stopTextSpanOne
                 \stopTextSpanTwo
                 - \abjad-solid-line-with-arrow
@@ -447,9 +463,12 @@
             r4
             \stopTextSpanOne
 
+            \override Staff.Stem.stemlet-length = 0.75
             r8
+            [
 
-            f'8
+            \revert Staff.Stem.stemlet-length
+            c'8
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -489,17 +508,18 @@
             - \tweak bound-details.right.padding 1.4
             - \tweak staff-padding #10
             \startTextSpanTwo
+            ]
 
-            f'4
+            c'4
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 3/4 {
 
-                f'8
+                c'8
 
                 \once \override Staff.NoteHead.style = #'harmonic-mixed
-                f'4.
+                bqs4.
                 \stopTextSpanOne
                 - \abjad-solid-line-with-arrow
                 - \tweak bound-details.left.text \markup {
@@ -516,7 +536,7 @@
 
             }
 
-            fs'4
+            aqf4
             \stopTextSpanOne
             \stopTextSpanTwo
             - \abjad-solid-line-with-arrow
@@ -575,7 +595,7 @@
             \startTextSpanOne
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            aqf2
+            b2
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -618,7 +638,7 @@
             \startTextSpanTwo
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            aqf4
+            b4
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -671,7 +691,7 @@
             \tweak text #tuplet-number::calc-fraction-text
             \times 3/5 {
 
-                c'4
+                aqf4
                 _ #(make-dynamic-script
                     (markup
                         #:whiteout
@@ -713,7 +733,7 @@
                 \startTextSpanTwo
 
                 \once \override Staff.NoteHead.style = #'triangle
-                bqs4.
+                bf4.
                 \stopTextSpanOne
                 ~
                 - \abjad-solid-line-with-arrow
@@ -732,20 +752,20 @@
             }
 
             \once \override Staff.NoteHead.style = #'triangle
-            bqs2
+            bf2
             ~
 
             \once \override Staff.NoteHead.style = #'triangle
-            bqs4.
+            bf4.
             ~
 
             \once \override Staff.NoteHead.style = #'triangle
-            bqs4
+            bf4
 
             \times 2/3 {
 
                 \once \override Staff.NoteHead.style = #'harmonic-mixed
-                a2
+                cs'2
                 \stopTextSpanOne
                 - \abjad-solid-line-with-arrow
                 - \tweak bound-details.left.text \markup {
@@ -760,7 +780,7 @@
                 - \tweak staff-padding #6
                 \startTextSpanOne
 
-                fs'4
+                d'4
                 \stopTextSpanOne
                 ~
                 - \abjad-solid-line-with-arrow
@@ -778,10 +798,10 @@
 
             }
 
-            fs'4
+            d'4
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            a2
+            fs'2
             \stopTextSpanOne
             ~
             - \abjad-solid-line-with-arrow
@@ -798,7 +818,7 @@
             \startTextSpanOne
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            a4
+            fs'4
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {

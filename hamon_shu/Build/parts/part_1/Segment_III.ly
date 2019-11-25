@@ -35,8 +35,8 @@
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 5/8                                                          %! scaling time signatures
-            s1 * 5/8
+            \time 3/8                                                          %! scaling time signatures
+            s1 * 3/8
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
@@ -54,25 +54,29 @@
                 \set Staff.instrumentName =                                    %! applying staff names and clefs
                 \markup { "Violin I" }                                         %! applying staff names and clefs
                 \clef "treble"
-                a8
+                \override Staff.Stem.stemlet-length = 0.75
+                aqf'8
                 \p
                 - \accent
                 - \tweak stencil #constante-hairpin
                 \<
                 [
 
-                gqs8
+                \revert Staff.Stem.stemlet-length
+                r8
+                \!
                 ]
 
-                r4
-                \!
-
-                aqf8
+                gqs'4
                 \mp
                 \>
+
+                \override Staff.Stem.stemlet-length = 0.75
+                aqs'8
                 [
 
-                a8
+                \revert Staff.Stem.stemlet-length
+                af8
                 ]
                 <>
                 \pp
@@ -81,63 +85,70 @@
 
             \times 4/5 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 r8.
+                [
 
-                cs'16
+                bf16
                 \mf
                 - \tweak stencil #constante-hairpin
                 \<
 
-                r16
-                \!
+                \revert Staff.Stem.stemlet-length
+                g16
+                - \accent
+                ]
 
             }
 
             r2
+            \!
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 10/17 {
 
                 \times 2/3 {
 
-                    dqs'4
+                    a4
                     \f
                     - \tenuto
                     \>
 
-                    e'4
+                    gqs4
                     ~
 
-                    e'16
+                    gqs16
 
                 }
 
-                af'2
+                aqf2
 
                 \times 2/3 {
 
-                    fs'8
+                    \override Staff.Stem.stemlet-length = 0.75
+                    a8
                     - \tenuto
                     [
 
-                    af'8.
+                    \revert Staff.Stem.stemlet-length
+                    cs'8.
                     - \accent
                     ]
 
-                    aqs'4
+                    dqs'4
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/7 {
 
-                    a'2
+                    aqs'2
 
-                    aqs'4.
+                    aqf4.
 
                 }
 
-                aqf4
+                cqs'4
                 <>
                 \mf
 
@@ -148,47 +159,55 @@
 
             R1 * 3/8
 
-            cqs'2
+            dqs'2
 
-            dqf'4
+            cs'4
 
             r2
 
-            aqf'8
+            \override Staff.Stem.stemlet-length = 0.75
+            bf8
             [
 
-            gqs'8
+            \revert Staff.Stem.stemlet-length
+            r8
             ]
 
-            r4
+            c'4
 
-            aqs'8
+            \override Staff.Stem.stemlet-length = 0.75
+            e'8
             [
 
-            af8
+            \revert Staff.Stem.stemlet-length
+            af'8
             ]
 
             \times 4/5 {
 
+                \override Staff.Stem.stemlet-length = 0.75
                 r8.
+                [
 
-                bf16
+                fs'16
 
-                r16
+                \revert Staff.Stem.stemlet-length
+                af'16
+                ]
 
             }
 
             r4
 
-            g4
+            aqs'4
             ~
 
             \tweak text #tuplet-number::calc-fraction-text
             \times 4/3 {
 
-                g4
+                aqs'4
 
-                dqs'8
+                ef'8
 
             }
 
@@ -199,7 +218,10 @@
 
             R1 * 1/4
 
-            r4.
+            \once \override Rest.transparent = ##t                             %! applying invisibility
+            r1 * 3/16
+
+            R1 * 3/16
             \bar "||"
 
             \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips

@@ -68,7 +68,8 @@
 
                 \times 4/5 {
 
-                    a64
+                    \override Staff.Stem.stemlet-length = 0.75
+                    b64
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -100,33 +101,34 @@
                     \startTextSpanThree
                     [
 
-                    c'64.
+                    cqs'64.
 
                 }
 
-                d'8
+                b8
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 3/5 {
 
-                    cs'16
+                    aqs16
 
-                    ef'32
+                    fs'32
 
-                    f'16
+                    aqs16
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/7 {
 
-                    fs'16
+                    b16
 
-                    f'32.
+                    aqf32.
 
                 }
 
-                d'16
+                \revert Staff.Stem.stemlet-length
+                f'16
                 ]
 
             }
@@ -136,27 +138,31 @@
 
                 \times 2/3 {
 
-                    cs'8
+                    \override Staff.Stem.stemlet-length = 0.75
+                    eqf'8
                     [
 
-                    b8
+                    dqs'8
                     ~
 
-                    b32
+                    \revert Staff.Stem.stemlet-length
+                    dqs'32
                     ]
 
                 }
 
-                a4
+                eqf'4
 
                 \times 2/3 {
 
-                    aqf16
+                    \override Staff.Stem.stemlet-length = 0.75
+                    ef'16
                     [
 
-                    fs'16.
+                    f'16.
 
-                    aqf8
+                    \revert Staff.Stem.stemlet-length
+                    ef'8
                     ]
 
                 }
@@ -164,14 +170,16 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/7 {
 
-                    a4
+                    dqs'4
 
-                    fs'8.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    ef'8.
                     [
 
                 }
 
-                f'8
+                \revert Staff.Stem.stemlet-length
+                d'8
                 ]
 
             }
@@ -181,41 +189,43 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 10/11 {
 
-                    f'16.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    e'16.
                     [
 
-                    fs'16
+                    fqs'16
                     ~
 
-                    fs'64
+                    fqs'64
 
                 }
 
-                aqf8
+                e'8
 
                 \times 4/5 {
 
                     fs'32
 
-                    a32
+                    fs'32
                     ~
 
-                    a128
+                    fs'128
 
-                    fs'32.
+                    aqf32.
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/7 {
 
-                    fs'8
+                    bf8
 
-                    aqf16.
+                    a16.
 
                 }
 
-                fs'8
+                \revert Staff.Stem.stemlet-length
+                aqf8
                 ]
 
             }
@@ -226,42 +236,44 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    f'8.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    fs'8.
                     [
 
-                    ef'8
+                    fs'8
                     ~
 
-                    ef'32
+                    fs'32
 
                 }
 
-                c'8
+                fs'8
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/6 {
 
-                    aqs16
+                    e'16
 
-                    b16
+                    fqs'16
 
-                    aqf16
+                    e'16
 
                 }
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/9 {
 
-                    b8
+                    fs'8
 
-                    c'8
+                    fqs'8
                     ~
 
-                    c'32
+                    fqs'32
 
                 }
 
-                cs'8.
+                \revert Staff.Stem.stemlet-length
+                e'8.
                 \stopTextSpanTwo
                 - \abjad-dashed-line-with-hook
                 - \tweak bound-details.left.text \markup {
@@ -283,7 +295,7 @@
             \times 2/3 {
 
                 \once \override Staff.NoteHead.style = #'default
-                dqs'8
+                f'8
                 _ #(make-dynamic-script
                     (markup
                         #:whiteout
@@ -395,11 +407,14 @@
             - \tweak staff-padding #6
             \startTextSpanOne
 
+            \override Staff.Stem.stemlet-length = 0.75
             r4
             \stopTextSpanOne
+            [
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            cqs'8
+            \revert Staff.Stem.stemlet-length
+            ef'8
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -440,9 +455,10 @@
             - \tweak bound-details.right.padding 1.4
             - \tweak staff-padding #10
             \startTextSpanTwo
+            ]
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            cqs'4
+            ef'4
 
                             - \tweak arrow-length #2
                             - \tweak arrow-width #0.5
@@ -452,7 +468,7 @@
 
 
             \once \override Staff.NoteHead.style = #'default
-            d'4
+            f'4
             \stopTextSpanOne
             ~
             - \abjad-solid-line-with-arrow
@@ -469,7 +485,8 @@
             \startTextSpanOne
 
             \once \override Staff.NoteHead.style = #'default
-            d'8
+            \override Staff.Stem.stemlet-length = 0.75
+            f'8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {
@@ -484,7 +501,9 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #10
             \startTextSpanTwo
+            [
 
+            \revert Staff.Stem.stemlet-length
             r8
             \!
             \stopTextSpanOne
@@ -501,6 +520,7 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #6
             \startTextSpanOne
+            ]
 
             r8
             \stopTextSpanOne
@@ -511,7 +531,8 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 6/11 {
 
-                    ef'8.
+                    \override Staff.Stem.stemlet-length = 0.75
+                    bf8.
                     \ppp
                     \>
                     - \abjad-dashed-line-with-arrow
@@ -542,21 +563,21 @@
                     \startTextSpanThree
                     [
 
-                    d'8
+                    fs'8
                     ~
 
-                    d'32
+                    fs'32
 
                 }
 
-                e'8.
+                aqf8.
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
-                    fqs'16
+                    b16
 
-                    e'16
+                    aqf16
 
                     fs'16
 
@@ -565,42 +586,45 @@
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 5/4 {
 
-                    fs'16
+                    e'16
 
-                    aqf16
+                    d'16
 
                 }
 
-                bf8.
+                \revert Staff.Stem.stemlet-length
+                d'8.
                 ]
 
             }
 
             \times 2/3 {
 
-                a16.
+                \override Staff.Stem.stemlet-length = 0.75
+                dqs'16.
                 [
 
-                aqf16.
+                f'16.
 
-                fs'8.
+                eqf'8.
 
                 \tweak text #tuplet-number::calc-fraction-text
                 \times 1/1 {
 
-                    fs'16
+                    dqs'16
 
-                    fs'16
+                    ef'16
 
-                    e'16
+                    d'16
 
                 }
 
-                fqs'16.
+                cqs'16.
 
-                e'16.
+                c'16.
 
-                fs'8.
+                \revert Staff.Stem.stemlet-length
+                aqs8.
                 \ppppp
                 \stopTextSpanTwo
                 - \abjad-dashed-line-with-hook
@@ -621,7 +645,7 @@
             }
 
             \once \override Staff.NoteHead.style = #'harmonic-mixed
-            fqs'4
+            c'4
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -667,9 +691,9 @@
             \times 2/3 {
 
                 \once \override Staff.NoteHead.style = #'harmonic-mixed
-                fqs'2
+                c'2
 
-                b4
+                cqs'4
                 \stopTextSpanOne
                 ~
                 - \abjad-solid-line-with-arrow
@@ -687,17 +711,19 @@
 
             }
 
-            b4.
+            cqs'4.
             ~
 
-            b4
+            cqs'4
             ~
 
-            b8
+            \override Staff.Stem.stemlet-length = 0.75
+            cqs'8
             [
 
             \once \override Staff.NoteHead.style = #'triangle
-            cqs'8
+            \revert Staff.Stem.stemlet-length
+            fs'8
             \stopTextSpanOne
             ~
             - \abjad-solid-line-with-arrow
@@ -715,7 +741,8 @@
             ]
 
             \once \override Staff.NoteHead.style = #'triangle
-            cqs'8
+            \override Staff.Stem.stemlet-length = 0.75
+            fs'8
             \stopTextSpanTwo
             - \abjad-dashed-line-with-hook
             - \tweak bound-details.left.text \markup {
@@ -730,6 +757,7 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #10
             \startTextSpanTwo
+            [
             <>
             _ #(make-dynamic-script
                 (markup
@@ -744,6 +772,7 @@
                     )
                 )
 
+            \revert Staff.Stem.stemlet-length
             r8
             \stopTextSpanOne
             \stopTextSpanTwo
@@ -759,13 +788,14 @@
             - \tweak bound-details.right.padding 3
             - \tweak staff-padding #6
             \startTextSpanOne
+            ]
 
             r4
             \stopTextSpanOne
 
             r4.
 
-            f'4
+            fs'4
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -829,7 +859,7 @@
             \stopTextSpanOne
 
             \once \override Staff.NoteHead.style = #'triangle
-            d'2
+            fs'2
             _ #(make-dynamic-script
                 (markup
                     #:whiteout
@@ -870,7 +900,7 @@
             - \tweak staff-padding #10
             \startTextSpanTwo
 
-            ef'4
+            aqf4
             \stopTextSpanOne
             \stopTextSpanTwo
             - \abjad-solid-line-with-arrow
