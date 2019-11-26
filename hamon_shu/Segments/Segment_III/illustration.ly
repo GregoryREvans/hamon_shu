@@ -54,10 +54,6 @@
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
 
-            \once \override TimeSignature.color = #white                       %! applying ending skips
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
-
         }
 
         \context StaffGroup = "Staff Group"
@@ -253,18 +249,6 @@
 
                     R1 * 3/16
                     \bar "||"
-
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -544,18 +528,6 @@
 
                     R1 * 3/16
                     \bar "||"
-
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -865,18 +837,6 @@
                     R1 * 3/16
                     \bar "||"
 
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
-
                 }
 
             }
@@ -1107,18 +1067,6 @@
 
                     aqf4
                     \bar "||"
-
-                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
-
-                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
-                    ^ \markup {                                                %! applying ending skips
-                        \musicglyph                                            %! applying ending skips
-                            #"scripts.ushortfermata"                           %! applying ending skips
-                        }                                                      %! applying ending skips
-                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 

@@ -1,4 +1,4 @@
-    
+
     \context Score = "hamon_shu Score"
     <<
 
@@ -165,11 +165,15 @@
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
+            \once \override TimeSignature.color = #white                       %! applying ending skips
+            \time 1/8                                                          %! scaling time signatures
+            s1 * 1/8
+
         }
 
         \context StaffGroup = "Staff Group"
         <<
-
+\tag #'voice1 {
             \context Staff = "Staff 1"
             {
 
@@ -750,10 +754,23 @@
                     R1 * 1/4
                     \bar "||"
 
+                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
+                    r1 * 1/16
+
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
+                    R1 * 1/16
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
+
                 }
 
             }
-
+}
+\tag #'voice2 {
             \context Staff = "Staff 2"
             {
 
@@ -1337,10 +1354,23 @@
                     R1 * 1/4
                     \bar "||"
 
+                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
+                    r1 * 1/16
+
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
+                    R1 * 1/16
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
+
                 }
 
             }
-
+}
+\tag #'voice3 {
             \context Staff = "Staff 3"
             {
 
@@ -1946,10 +1976,23 @@
 
                     }
 
+                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
+                    r1 * 1/16
+
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
+                    R1 * 1/16
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
+
                 }
 
             }
-
+}
+\tag #'voice4 {
             \context Staff = "Staff 4"
             {
 
@@ -2557,10 +2600,22 @@
                     R1 * 1/4
                     \bar "||"
 
+                    \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
+                    r1 * 1/16
+
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
+                    R1 * 1/16
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
+
                 }
 
             }
-
+}
         >>
 
     >>

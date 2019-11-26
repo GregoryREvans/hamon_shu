@@ -3,7 +3,7 @@
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "a4portrait")
-#(set-global-staff-size 14)
+#(set-global-staff-size 13.5)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
@@ -24,7 +24,7 @@
 	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
-    %{ ragged-right = ##t %}
+    ragged-right = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
