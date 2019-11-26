@@ -1,18 +1,18 @@
-\version "2.19.83"  %! abjad.LilyPondFile._get_format_pieces()
-\language "english" %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"              %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header { %! abjad.LilyPondFile._get_formatted_blocks()
+\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
-} %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
 
 \layout {}
 
 \paper {}
 
-\score { %! abjad.LilyPondFile._get_formatted_blocks()
+\score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
     
     \context Score = "hamon_shu Score"
     <<
@@ -21,167 +21,167 @@
         {
 
             \tempo 4=120
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 5/4 %! scaling time signatures
+            \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 3/4 %! scaling time signatures
+            \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \time 4/4 %! scaling time signatures
+            \time 4/4                                                          %! scaling time signatures
             s1 * 1
 
-            \time 2/4 %! scaling time signatures
+            \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
 
-            \once \override TimeSignature.color = #white %! applying ending skips
-            \time 1/8 %! scaling time signatures
+            \once \override TimeSignature.color = #white                       %! applying ending skips
+            \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
 
         }
@@ -195,10 +195,10 @@
                 \context Voice = "Voice 1"
                 {
 
-                    \set Staff.shortInstrumentName = %! applying staff names and clefs
-                    \markup { "vln. I" }             %! applying staff names and clefs
-                    \set Staff.instrumentName = %! applying staff names and clefs
-                    \markup { "Violin I" }      %! applying staff names and clefs
+                    \set Staff.shortInstrumentName =                           %! applying staff names and clefs
+                    \markup { "vln. I" }                                       %! applying staff names and clefs
+                    \set Staff.instrumentName =                                %! applying staff names and clefs
+                    \markup { "Violin I" }                                     %! applying staff names and clefs
                     \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -220,7 +220,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -229,27 +229,27 @@
 
                     e'4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
@@ -364,7 +364,7 @@
 
                     r1
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -378,27 +378,27 @@
 
                     g4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -560,12 +560,12 @@
                     b8
                     ]
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -627,7 +627,7 @@
 
                     bqf2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -758,28 +758,28 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
 
-                    \once \override MultiMeasureRest.color = #white %! applying ending skips
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
-                    ^ \markup {                      %! applying ending skips
-                        \musicglyph                  %! applying ending skips
-                            #"scripts.ushortfermata" %! applying ending skips
-                        }                            %! applying ending skips
-                    \stopStaff \startStaff %! applying ending skips
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -795,10 +795,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        \set Staff.shortInstrumentName = %! applying staff names and clefs
-                        \markup { "vln. II" }            %! applying staff names and clefs
-                        \set Staff.instrumentName = %! applying staff names and clefs
-                        \markup { "Violin II" }     %! applying staff names and clefs
+                        \set Staff.shortInstrumentName =                       %! applying staff names and clefs
+                        \markup { "vln. II" }                                  %! applying staff names and clefs
+                        \set Staff.instrumentName =                            %! applying staff names and clefs
+                        \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
                         e'4
 
@@ -806,7 +806,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -865,7 +865,7 @@
 
                     d'2.
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
@@ -986,12 +986,12 @@
 
                     r1
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1060,17 +1060,17 @@
 
                     r4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
@@ -1155,12 +1155,12 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -1186,12 +1186,12 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1232,7 +1232,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1266,12 +1266,12 @@
 
                     f'4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -1352,33 +1352,33 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
 
-                    \once \override MultiMeasureRest.color = #white %! applying ending skips
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
-                    ^ \markup {                      %! applying ending skips
-                        \musicglyph                  %! applying ending skips
-                            #"scripts.ushortfermata" %! applying ending skips
-                        }                            %! applying ending skips
-                    \stopStaff \startStaff %! applying ending skips
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -1390,10 +1390,10 @@
                 \context Voice = "Voice 3"
                 {
 
-                    \set Staff.shortInstrumentName = %! applying staff names and clefs
-                    \markup { vla. }                 %! applying staff names and clefs
-                    \set Staff.instrumentName = %! applying staff names and clefs
-                    \markup { Viola }           %! applying staff names and clefs
+                    \set Staff.shortInstrumentName =                           %! applying staff names and clefs
+                    \markup { vla. }                                           %! applying staff names and clefs
+                    \set Staff.instrumentName =                                %! applying staff names and clefs
+                    \markup { Viola }                                          %! applying staff names and clefs
                     \clef "varC"
                     bqf'4
 
@@ -1401,7 +1401,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -1492,7 +1492,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
@@ -1552,7 +1552,7 @@
 
                     r1
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -1604,17 +1604,17 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1695,32 +1695,32 @@
 
                     r2.
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -1736,12 +1736,12 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1768,12 +1768,12 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
@@ -1990,16 +1990,16 @@
                     }
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
 
-                    \once \override MultiMeasureRest.color = #white %! applying ending skips
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
-                    ^ \markup {                      %! applying ending skips
-                        \musicglyph                  %! applying ending skips
-                            #"scripts.ushortfermata" %! applying ending skips
-                        }                            %! applying ending skips
-                    \stopStaff \startStaff %! applying ending skips
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -2014,10 +2014,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        \set Staff.shortInstrumentName = %! applying staff names and clefs
-                        \markup { vc. }                  %! applying staff names and clefs
-                        \set Staff.instrumentName = %! applying staff names and clefs
-                        \markup { Violoncello }     %! applying staff names and clefs
+                        \set Staff.shortInstrumentName =                       %! applying staff names and clefs
+                        \markup { vc. }                                        %! applying staff names and clefs
+                        \set Staff.instrumentName =                            %! applying staff names and clefs
+                        \markup { Violoncello }                                %! applying staff names and clefs
                         \clef "bass"
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
@@ -2052,7 +2052,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -2148,27 +2148,27 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -2250,22 +2250,22 @@
 
                     g2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
@@ -2326,7 +2326,7 @@
 
                     r2.
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
@@ -2560,7 +2560,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
 
                     R1 * 1/2
@@ -2606,23 +2606,23 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t %! applying invisibility
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
-                    \once \override Rest.color = #white %! applying ending skips
+                    \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
 
-                    \once \override MultiMeasureRest.color = #white %! applying ending skips
+                    \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
-                    ^ \markup {                      %! applying ending skips
-                        \musicglyph                  %! applying ending skips
-                            #"scripts.ushortfermata" %! applying ending skips
-                        }                            %! applying ending skips
-                    \stopStaff \startStaff %! applying ending skips
+                    ^ \markup {                                                %! applying ending skips
+                        \musicglyph                                            %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
+                        }                                                      %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -2631,5 +2631,4 @@
         >>
 
     >>
-    \midi {}
-} %! abjad.LilyPondFile._get_formatted_blocks()
+}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
