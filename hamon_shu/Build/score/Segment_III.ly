@@ -7,6 +7,12 @@
 
             \tempo 4=60
             \time 2/4                                                          %! scaling time signatures
+            \mark \markup {
+                \bold
+                    {
+                        B
+                    }
+                }
             s1 * 1/2
 
             \time 3/4                                                          %! scaling time signatures

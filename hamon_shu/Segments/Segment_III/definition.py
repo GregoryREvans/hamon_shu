@@ -39,6 +39,7 @@ maker = evans.SegmentMaker(
     beam_pattern="meter",
     barline="||",
     tempo=((1, 4), 60),
+    rehearsal_mark="B",
     midi=False,
 )
 

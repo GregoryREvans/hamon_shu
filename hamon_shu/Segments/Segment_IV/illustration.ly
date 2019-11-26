@@ -22,6 +22,12 @@
 
             \tempo 4=120
             \time 5/4                                                          %! scaling time signatures
+            \mark \markup {
+                \bold
+                    {
+                        C
+                    }
+                }
             s1 * 5/4
 
             \time 2/4                                                          %! scaling time signatures

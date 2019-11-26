@@ -7,6 +7,12 @@
 
             \tempo 8=40
             \time 5/8                                                          %! scaling time signatures
+            \mark \markup {
+                \bold
+                    {
+                        A
+                    }
+                }
             s1 * 5/8
 
             \time 5/4                                                          %! scaling time signatures
