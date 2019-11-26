@@ -3,7 +3,7 @@
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "a4portrait")
-#(set-global-staff-size 13)
+#(set-global-staff-size 14)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
@@ -163,7 +163,7 @@
 	oddFooterMarkup = \markup
         \fill-line {
             \override #'(font-name . "Didot")
-                \bold \fontsize #3 "Hamonshū"
+                \bold \fontsize #3 "Hamonshū - GR Evans"
             \concat {
                 \override #'(font-name . "Didot")
                     \bold \fontsize #3
@@ -180,6 +180,6 @@
                         \fromproperty #'page:page-number-string
                 }
             \override #'(font-name . "Didot")
-                \bold \fontsize #3 "Hamonshū"
+                \bold \fontsize #3 "Hamonshū - GR Evans"
             }
 }
