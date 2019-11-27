@@ -13,6 +13,20 @@ from hamon_shu.Materials.score_structure.Segment_VI.time_signatures import (
 from hamon_shu.Materials.pitch.Segment_VI.clef_handlers import clef_handlers
 
 
+c = abjad.LilyPondLiteral(
+    r"""
+        _ \markup {
+            \override #'(font-name . "Didot")
+            \with-color #black
+            \right-column {
+                \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
+                \line { August 2018 \hspace #0.75 - \hspace #0.75 October 2019 }
+            }
+        }
+    """,
+    format_slot="absolute_after"
+)
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
@@ -24,6 +38,7 @@ maker = evans.SegmentMaker(
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=[[], [], [], []],
     add_final_grand_pause=True,
+    fermata="scripts.ufermata",
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",
@@ -37,9 +52,10 @@ maker = evans.SegmentMaker(
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
     cutaway=False,
     beam_pattern="meter",
-    barline="||",
+    barline="|.",
     tempo=((1, 4), 90),
     rehearsal_mark="E",
+    colophon=c,
     midi=False,
 )
 

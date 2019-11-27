@@ -64,6 +64,7 @@
 
         \context StaffGroup = "Staff Group"
         <<
+            \tag #'voice1 {
 
             \context Staff = "Staff 1"
             {
@@ -259,6 +260,8 @@
                 }
 
             }
+            }
+            \tag #'voice2 {
 
             \context Staff = "Staff 2"
             {
@@ -538,6 +541,8 @@
                 }
 
             }
+            }
+            \tag #'voice3 {
 
             \context Staff = "Staff 3"
             {
@@ -846,6 +851,8 @@
                 }
 
             }
+            }
+            \tag #'voice4 {
 
             \context Staff = "Staff 4"
             {
@@ -1076,6 +1083,7 @@
 
                 }
 
+            }
             }
 
         >>

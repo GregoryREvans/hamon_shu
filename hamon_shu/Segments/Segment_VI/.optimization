@@ -42,3 +42,62 @@ Abjad/Lilypond runtime: 5 seconds
 Segment runtime: 48 seconds 
 Abjad/Lilypond runtime: 5 seconds 
 
+2019-11-27 08:31:55.605219
+Segment runtime: 49 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+
+2019-11-27 09:17:23.722492
+Segment runtime: 47 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-11-27 09:25:09.796458
+Segment runtime: 48 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-11-27 09:31:34.001906
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-11-27 09:44:52.924679
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -5 seconds 
+
+2019-11-27 09:58:31.183315
+Segment runtime: 45 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -5 seconds 
+
+2019-11-27 10:06:06.348920
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -6 seconds 
+
+2019-11-27 10:08:10.625185
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -6 seconds 
+
+2019-11-27 10:12:50.206130
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -6 seconds 
+
+2019-11-27 10:20:21.626576
+Segment runtime: 46 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-11-27 10:22:43.561990
+Segment runtime: 45 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-11-27 10:26:40.984792
+Segment runtime: 47 seconds 
+Abjad/Lilypond runtime: 5 seconds 
+Parts extraction runtime: -6 seconds 
+
