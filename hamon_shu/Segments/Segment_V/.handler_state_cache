@@ -3496,3 +3496,355 @@ articulation_handler_two
 count
 39
 
+2019-11-26 19:15:14.246552
+violin_1_pitch_handler_three
+count
+55
+
+2019-11-26 19:15:14.588476
+violin_1_pitch_handler_one
+count
+41
+
+2019-11-26 19:15:14.977043
+violin_1_pitch_handler_two
+count
+82
+
+2019-11-26 19:15:15.373077
+violin_1_pitch_handler_four
+count
+54
+
+2019-11-26 19:15:15.742786
+violin_1_pitch_handler_three
+count
+81
+
+2019-11-26 19:15:16.139003
+violin_1_pitch_handler_one
+count
+70
+
+2019-11-26 19:15:16.508187
+violin_1_pitch_handler_four
+count
+76
+
+2019-11-26 19:15:16.865700
+violin_1_pitch_handler_two
+count
+92
+
+2019-11-26 19:15:28.318991
+violin_2_pitch_handler_three
+count
+63
+
+2019-11-26 19:15:28.680982
+violin_2_pitch_handler_one
+count
+38
+
+2019-11-26 19:15:29.081946
+violin_2_pitch_handler_two
+count
+80
+
+2019-11-26 19:15:29.465278
+violin_2_pitch_handler_four
+count
+38
+
+2019-11-26 19:15:29.867828
+violin_2_pitch_handler_three
+count
+92
+
+2019-11-26 19:15:30.223317
+violin_2_pitch_handler_one
+count
+45
+
+2019-11-26 19:15:30.577995
+violin_2_pitch_handler_four
+count
+58
+
+2019-11-26 19:15:30.952110
+violin_2_pitch_handler_two
+count
+101
+
+2019-11-26 19:15:41.575476
+viola_pitch_handler_three
+count
+57
+
+2019-11-26 19:15:41.946314
+viola_pitch_handler_one
+count
+41
+
+2019-11-26 19:15:42.350744
+viola_pitch_handler_two
+count
+96
+
+2019-11-26 19:15:42.727794
+viola_pitch_handler_four
+count
+43
+
+2019-11-26 19:15:43.109877
+viola_pitch_handler_three
+count
+76
+
+2019-11-26 19:15:43.481063
+viola_pitch_handler_one
+count
+59
+
+2019-11-26 19:15:43.854416
+viola_pitch_handler_four
+count
+53
+
+2019-11-26 19:15:44.249090
+viola_pitch_handler_two
+count
+123
+
+2019-11-26 19:15:55.963817
+cello_pitch_handler_three
+count
+59
+
+2019-11-26 19:15:56.328260
+cello_pitch_handler_one
+count
+47
+
+2019-11-26 19:15:56.684563
+cello_pitch_handler_two
+count
+64
+
+2019-11-26 19:15:57.087400
+cello_pitch_handler_four
+count
+36
+
+2019-11-26 19:15:57.456486
+cello_pitch_handler_three
+count
+77
+
+2019-11-26 19:15:57.836318
+cello_pitch_handler_one
+count
+72
+
+2019-11-26 19:15:58.236713
+cello_pitch_handler_four
+count
+66
+
+2019-11-26 19:15:58.620590
+cello_pitch_handler_two
+count
+87
+
+2019-11-26 19:16:08.838410
+articulation_handler_one
+bend count
+24
+vector count
+24
+
+2019-11-26 19:16:08.931278
+articulation_handler_two
+count
+1
+
+2019-11-26 19:16:08.989485
+articulation_handler_three
+bend count
+25
+vector count
+25
+
+2019-11-26 19:16:09.076337
+articulation_handler_two
+count
+3
+
+2019-11-26 19:16:09.140523
+articulation_handler_one
+bend count
+50
+vector count
+50
+
+2019-11-26 19:16:09.211894
+articulation_handler_two
+count
+5
+
+2019-11-26 19:16:09.261212
+articulation_handler_three
+bend count
+47
+vector count
+47
+
+2019-11-26 19:16:09.309588
+articulation_handler_two
+count
+7
+
+2019-11-26 19:16:20.383531
+articulation_handler_one
+bend count
+73
+vector count
+73
+
+2019-11-26 19:16:20.456059
+articulation_handler_two
+count
+9
+
+2019-11-26 19:16:20.517139
+articulation_handler_three
+bend count
+76
+vector count
+76
+
+2019-11-26 19:16:20.653578
+articulation_handler_two
+count
+12
+
+2019-11-26 19:16:20.715070
+articulation_handler_one
+bend count
+102
+vector count
+102
+
+2019-11-26 19:16:20.747158
+articulation_handler_two
+count
+15
+
+2019-11-26 19:16:20.794363
+articulation_handler_three
+bend count
+96
+vector count
+96
+
+2019-11-26 19:16:20.855267
+articulation_handler_two
+count
+18
+
+2019-11-26 19:16:31.102750
+articulation_handler_one
+bend count
+115
+vector count
+115
+
+2019-11-26 19:16:31.151028
+articulation_handler_two
+count
+21
+
+2019-11-26 19:16:31.237627
+articulation_handler_three
+bend count
+135
+vector count
+135
+
+2019-11-26 19:16:31.276747
+articulation_handler_two
+count
+24
+
+2019-11-26 19:16:31.332733
+articulation_handler_one
+bend count
+134
+vector count
+134
+
+2019-11-26 19:16:31.371506
+articulation_handler_two
+count
+25
+
+2019-11-26 19:16:31.416561
+articulation_handler_three
+bend count
+145
+vector count
+145
+
+2019-11-26 19:16:31.474496
+articulation_handler_two
+count
+27
+
+2019-11-26 19:16:42.869326
+articulation_handler_one
+bend count
+161
+vector count
+161
+
+2019-11-26 19:16:42.927425
+articulation_handler_two
+count
+29
+
+2019-11-26 19:16:42.961041
+articulation_handler_three
+bend count
+156
+vector count
+156
+
+2019-11-26 19:16:43.047747
+articulation_handler_two
+count
+32
+
+2019-11-26 19:16:43.099068
+articulation_handler_one
+bend count
+179
+vector count
+179
+
+2019-11-26 19:16:43.163534
+articulation_handler_two
+count
+34
+
+2019-11-26 19:16:43.236119
+articulation_handler_three
+bend count
+186
+vector count
+186
+
+2019-11-26 19:16:43.290614
+articulation_handler_two
+count
+39
+
