@@ -4552,3 +4552,3493 @@ articulation_handler_two
 count
 39
 
+2019-11-27 11:36:39.676760
+violin_1_pitch_handler_three
+count
+55
+
+2019-11-27 11:36:40.019192
+violin_1_pitch_handler_one
+count
+41
+
+2019-11-27 11:36:40.401559
+violin_1_pitch_handler_two
+count
+82
+
+2019-11-27 11:36:40.781484
+violin_1_pitch_handler_four
+count
+54
+
+2019-11-27 11:36:41.148567
+violin_1_pitch_handler_three
+count
+81
+
+2019-11-27 11:36:41.518561
+violin_1_pitch_handler_one
+count
+70
+
+2019-11-27 11:36:41.885249
+violin_1_pitch_handler_four
+count
+76
+
+2019-11-27 11:36:42.231422
+violin_1_pitch_handler_two
+count
+92
+
+2019-11-27 11:36:53.230905
+violin_2_pitch_handler_three
+count
+63
+
+2019-11-27 11:36:53.591435
+violin_2_pitch_handler_one
+count
+38
+
+2019-11-27 11:36:53.976845
+violin_2_pitch_handler_two
+count
+80
+
+2019-11-27 11:36:54.343208
+violin_2_pitch_handler_four
+count
+38
+
+2019-11-27 11:36:54.722572
+violin_2_pitch_handler_three
+count
+92
+
+2019-11-27 11:36:55.064523
+violin_2_pitch_handler_one
+count
+45
+
+2019-11-27 11:36:55.426652
+violin_2_pitch_handler_four
+count
+58
+
+2019-11-27 11:36:55.786941
+violin_2_pitch_handler_two
+count
+101
+
+2019-11-27 11:37:06.081989
+viola_pitch_handler_three
+count
+57
+
+2019-11-27 11:37:06.450138
+viola_pitch_handler_one
+count
+41
+
+2019-11-27 11:37:06.849326
+viola_pitch_handler_two
+count
+96
+
+2019-11-27 11:37:07.218902
+viola_pitch_handler_four
+count
+43
+
+2019-11-27 11:37:07.587113
+viola_pitch_handler_three
+count
+76
+
+2019-11-27 11:37:07.949206
+viola_pitch_handler_one
+count
+59
+
+2019-11-27 11:37:08.309423
+viola_pitch_handler_four
+count
+53
+
+2019-11-27 11:37:08.686850
+viola_pitch_handler_two
+count
+123
+
+2019-11-27 11:37:19.961341
+cello_pitch_handler_three
+count
+59
+
+2019-11-27 11:37:20.315450
+cello_pitch_handler_one
+count
+47
+
+2019-11-27 11:37:20.662372
+cello_pitch_handler_two
+count
+64
+
+2019-11-27 11:37:21.042831
+cello_pitch_handler_four
+count
+36
+
+2019-11-27 11:37:21.399184
+cello_pitch_handler_three
+count
+77
+
+2019-11-27 11:37:21.759523
+cello_pitch_handler_one
+count
+72
+
+2019-11-27 11:37:22.132731
+cello_pitch_handler_four
+count
+66
+
+2019-11-27 11:37:22.506063
+cello_pitch_handler_two
+count
+87
+
+2019-11-27 11:37:32.310318
+dynamic_handler_one
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-27 11:37:32.325995
+dynamic_handler_two
+count 1
+2
+count 2
+0
+count 3
+1
+count 4
+0
+count 5
+2
+
+2019-11-27 11:37:32.367271
+dynamic_handler_one
+count 1
+3
+count 2
+0
+count 3
+2
+count 4
+0
+count 5
+3
+
+2019-11-27 11:37:32.392153
+dynamic_handler_one
+count 1
+6
+count 2
+1
+count 3
+4
+count 4
+1
+count 5
+6
+
+2019-11-27 11:37:32.414207
+dynamic_handler_one
+count 1
+8
+count 2
+2
+count 3
+5
+count 4
+2
+count 5
+8
+
+2019-11-27 11:37:32.438246
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-27 11:37:32.465061
+dynamic_handler_one
+count 1
+9
+count 2
+2
+count 3
+6
+count 4
+2
+count 5
+9
+
+2019-11-27 11:37:32.486685
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-27 11:37:32.512329
+dynamic_handler_one
+count 1
+12
+count 2
+3
+count 3
+8
+count 4
+3
+count 5
+12
+
+2019-11-27 11:37:32.576634
+dynamic_handler_one
+count 1
+15
+count 2
+4
+count 3
+10
+count 4
+4
+count 5
+15
+
+2019-11-27 11:37:32.601193
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-27 11:37:32.653290
+dynamic_handler_one
+count 1
+18
+count 2
+5
+count 3
+12
+count 4
+5
+count 5
+18
+
+2019-11-27 11:37:32.675346
+dynamic_handler_one
+count 1
+20
+count 2
+6
+count 3
+13
+count 4
+6
+count 5
+20
+
+2019-11-27 11:37:32.704146
+dynamic_handler_two
+count 1
+8
+count 2
+2
+count 3
+5
+count 4
+2
+count 5
+8
+
+2019-11-27 11:37:32.737893
+dynamic_handler_one
+count 1
+21
+count 2
+6
+count 3
+14
+count 4
+6
+count 5
+21
+
+2019-11-27 11:37:32.768735
+dynamic_handler_two
+count 1
+11
+count 2
+3
+count 3
+7
+count 4
+3
+count 5
+11
+
+2019-11-27 11:37:32.795106
+dynamic_handler_one
+count 1
+23
+count 2
+7
+count 3
+15
+count 4
+7
+count 5
+23
+
+2019-11-27 11:37:32.815043
+dynamic_handler_two
+count 1
+13
+count 2
+4
+count 3
+8
+count 4
+4
+count 5
+13
+
+2019-11-27 11:37:32.865802
+dynamic_handler_one
+count 1
+26
+count 2
+8
+count 3
+17
+count 4
+8
+count 5
+26
+
+2019-11-27 11:37:32.917131
+dynamic_handler_one
+count 1
+29
+count 2
+9
+count 3
+19
+count 4
+9
+count 5
+29
+
+2019-11-27 11:37:43.441726
+dynamic_handler_one
+count 1
+30
+count 2
+9
+count 3
+20
+count 4
+9
+count 5
+30
+
+2019-11-27 11:37:43.459712
+dynamic_handler_two
+count 1
+14
+count 2
+4
+count 3
+9
+count 4
+4
+count 5
+14
+
+2019-11-27 11:37:43.505723
+dynamic_handler_one
+count 1
+33
+count 2
+10
+count 3
+22
+count 4
+10
+count 5
+33
+
+2019-11-27 11:37:43.530066
+dynamic_handler_one
+count 1
+35
+count 2
+11
+count 3
+23
+count 4
+11
+count 5
+35
+
+2019-11-27 11:37:43.557860
+dynamic_handler_two
+count 1
+17
+count 2
+5
+count 3
+11
+count 4
+5
+count 5
+17
+
+2019-11-27 11:37:43.571283
+dynamic_handler_one
+count 1
+36
+count 2
+11
+count 3
+24
+count 4
+11
+count 5
+36
+
+2019-11-27 11:37:43.594243
+dynamic_handler_two
+count 1
+19
+count 2
+6
+count 3
+12
+count 4
+6
+count 5
+19
+
+2019-11-27 11:37:43.610223
+dynamic_handler_one
+count 1
+38
+count 2
+12
+count 3
+25
+count 4
+12
+count 5
+38
+
+2019-11-27 11:37:43.661641
+dynamic_handler_one
+count 1
+39
+count 2
+12
+count 3
+26
+count 4
+12
+count 5
+39
+
+2019-11-27 11:37:43.736467
+dynamic_handler_one
+count 1
+44
+count 2
+14
+count 3
+29
+count 4
+14
+count 5
+44
+
+2019-11-27 11:37:43.758115
+dynamic_handler_one
+count 1
+45
+count 2
+14
+count 3
+30
+count 4
+14
+count 5
+45
+
+2019-11-27 11:37:43.779559
+dynamic_handler_two
+count 1
+20
+count 2
+6
+count 3
+13
+count 4
+6
+count 5
+20
+
+2019-11-27 11:37:43.832053
+dynamic_handler_one
+count 1
+48
+count 2
+15
+count 3
+32
+count 4
+15
+count 5
+48
+
+2019-11-27 11:37:43.875928
+dynamic_handler_one
+count 1
+53
+count 2
+17
+count 3
+35
+count 4
+17
+count 5
+53
+
+2019-11-27 11:37:43.900100
+dynamic_handler_two
+count 1
+22
+count 2
+7
+count 3
+14
+count 4
+7
+count 5
+22
+
+2019-11-27 11:37:43.919566
+dynamic_handler_one
+count 1
+54
+count 2
+17
+count 3
+36
+count 4
+17
+count 5
+54
+
+2019-11-27 11:37:43.938021
+dynamic_handler_two
+count 1
+23
+count 2
+7
+count 3
+15
+count 4
+7
+count 5
+23
+
+2019-11-27 11:37:43.967108
+dynamic_handler_one
+count 1
+57
+count 2
+18
+count 3
+38
+count 4
+18
+count 5
+57
+
+2019-11-27 11:37:43.993188
+dynamic_handler_two
+count 1
+25
+count 2
+8
+count 3
+16
+count 4
+8
+count 5
+25
+
+2019-11-27 11:37:44.032259
+dynamic_handler_one
+count 1
+60
+count 2
+19
+count 3
+40
+count 4
+19
+count 5
+60
+
+2019-11-27 11:37:44.113774
+dynamic_handler_one
+count 1
+65
+count 2
+21
+count 3
+43
+count 4
+21
+count 5
+65
+
+2019-11-27 11:37:53.933449
+dynamic_handler_one
+count 1
+66
+count 2
+21
+count 3
+44
+count 4
+21
+count 5
+66
+
+2019-11-27 11:37:53.945355
+dynamic_handler_two
+count 1
+26
+count 2
+8
+count 3
+17
+count 4
+8
+count 5
+26
+
+2019-11-27 11:37:53.975352
+dynamic_handler_one
+count 1
+71
+count 2
+23
+count 3
+47
+count 4
+23
+count 5
+71
+
+2019-11-27 11:37:54.031099
+dynamic_handler_one
+count 1
+74
+count 2
+24
+count 3
+49
+count 4
+24
+count 5
+74
+
+2019-11-27 11:37:54.043451
+dynamic_handler_two
+count 1
+28
+count 2
+9
+count 3
+18
+count 4
+9
+count 5
+28
+
+2019-11-27 11:37:54.057606
+dynamic_handler_one
+count 1
+75
+count 2
+24
+count 3
+50
+count 4
+24
+count 5
+75
+
+2019-11-27 11:37:54.089425
+dynamic_handler_two
+count 1
+29
+count 2
+9
+count 3
+19
+count 4
+9
+count 5
+29
+
+2019-11-27 11:37:54.114330
+dynamic_handler_one
+count 1
+77
+count 2
+25
+count 3
+51
+count 4
+25
+count 5
+77
+
+2019-11-27 11:37:54.139229
+dynamic_handler_two
+count 1
+31
+count 2
+10
+count 3
+20
+count 4
+10
+count 5
+31
+
+2019-11-27 11:37:54.175407
+dynamic_handler_one
+count 1
+80
+count 2
+26
+count 3
+53
+count 4
+26
+count 5
+80
+
+2019-11-27 11:37:54.247356
+dynamic_handler_one
+count 1
+84
+count 2
+27
+count 3
+56
+count 4
+27
+count 5
+84
+
+2019-11-27 11:37:54.263936
+dynamic_handler_one
+count 1
+86
+count 2
+28
+count 3
+57
+count 4
+28
+count 5
+86
+
+2019-11-27 11:37:54.279273
+dynamic_handler_two
+count 1
+32
+count 2
+10
+count 3
+21
+count 4
+10
+count 5
+32
+
+2019-11-27 11:37:54.337499
+dynamic_handler_one
+count 1
+89
+count 2
+29
+count 3
+59
+count 4
+29
+count 5
+89
+
+2019-11-27 11:37:54.376141
+dynamic_handler_one
+count 1
+92
+count 2
+30
+count 3
+61
+count 4
+30
+count 5
+92
+
+2019-11-27 11:37:54.403026
+dynamic_handler_two
+count 1
+34
+count 2
+11
+count 3
+22
+count 4
+11
+count 5
+34
+
+2019-11-27 11:37:54.436565
+dynamic_handler_one
+count 1
+93
+count 2
+30
+count 3
+62
+count 4
+30
+count 5
+93
+
+2019-11-27 11:37:54.474198
+dynamic_handler_two
+count 1
+37
+count 2
+12
+count 3
+24
+count 4
+12
+count 5
+37
+
+2019-11-27 11:37:54.496330
+dynamic_handler_one
+count 1
+95
+count 2
+31
+count 3
+63
+count 4
+31
+count 5
+95
+
+2019-11-27 11:37:54.529880
+dynamic_handler_two
+count 1
+40
+count 2
+13
+count 3
+26
+count 4
+13
+count 5
+40
+
+2019-11-27 11:37:54.560026
+dynamic_handler_one
+count 1
+98
+count 2
+32
+count 3
+65
+count 4
+32
+count 5
+98
+
+2019-11-27 11:37:54.643299
+dynamic_handler_one
+count 1
+101
+count 2
+33
+count 3
+67
+count 4
+33
+count 5
+101
+
+2019-11-27 11:38:05.512053
+dynamic_handler_one
+count 1
+102
+count 2
+33
+count 3
+68
+count 4
+33
+count 5
+102
+
+2019-11-27 11:38:05.519406
+dynamic_handler_two
+count 1
+41
+count 2
+13
+count 3
+27
+count 4
+13
+count 5
+41
+
+2019-11-27 11:38:05.579814
+dynamic_handler_one
+count 1
+105
+count 2
+34
+count 3
+70
+count 4
+34
+count 5
+105
+
+2019-11-27 11:38:05.608104
+dynamic_handler_one
+count 1
+108
+count 2
+35
+count 3
+72
+count 4
+35
+count 5
+108
+
+2019-11-27 11:38:05.623100
+dynamic_handler_two
+count 1
+43
+count 2
+14
+count 3
+28
+count 4
+14
+count 5
+43
+
+2019-11-27 11:38:05.647824
+dynamic_handler_one
+count 1
+110
+count 2
+36
+count 3
+73
+count 4
+36
+count 5
+110
+
+2019-11-27 11:38:05.663192
+dynamic_handler_two
+count 1
+44
+count 2
+14
+count 3
+29
+count 4
+14
+count 5
+44
+
+2019-11-27 11:38:05.677634
+dynamic_handler_one
+count 1
+111
+count 2
+36
+count 3
+74
+count 4
+36
+count 5
+111
+
+2019-11-27 11:38:05.689925
+dynamic_handler_two
+count 1
+46
+count 2
+15
+count 3
+30
+count 4
+15
+count 5
+46
+
+2019-11-27 11:38:05.712277
+dynamic_handler_one
+count 1
+113
+count 2
+37
+count 3
+75
+count 4
+37
+count 5
+113
+
+2019-11-27 11:38:05.792178
+dynamic_handler_one
+count 1
+117
+count 2
+38
+count 3
+78
+count 4
+38
+count 5
+117
+
+2019-11-27 11:38:05.807423
+dynamic_handler_one
+count 1
+119
+count 2
+39
+count 3
+79
+count 4
+39
+count 5
+119
+
+2019-11-27 11:38:05.827000
+dynamic_handler_two
+count 1
+47
+count 2
+15
+count 3
+31
+count 4
+15
+count 5
+47
+
+2019-11-27 11:38:05.868804
+dynamic_handler_one
+count 1
+122
+count 2
+40
+count 3
+81
+count 4
+40
+count 5
+122
+
+2019-11-27 11:38:05.906562
+dynamic_handler_one
+count 1
+123
+count 2
+40
+count 3
+82
+count 4
+40
+count 5
+123
+
+2019-11-27 11:38:05.935290
+dynamic_handler_two
+count 1
+49
+count 2
+16
+count 3
+32
+count 4
+16
+count 5
+49
+
+2019-11-27 11:38:05.968826
+dynamic_handler_one
+count 1
+126
+count 2
+41
+count 3
+84
+count 4
+41
+count 5
+126
+
+2019-11-27 11:38:05.993360
+dynamic_handler_two
+count 1
+50
+count 2
+16
+count 3
+33
+count 4
+16
+count 5
+50
+
+2019-11-27 11:38:06.015308
+dynamic_handler_one
+count 1
+128
+count 2
+42
+count 3
+85
+count 4
+42
+count 5
+128
+
+2019-11-27 11:38:06.036716
+dynamic_handler_two
+count 1
+52
+count 2
+17
+count 3
+34
+count 4
+17
+count 5
+52
+
+2019-11-27 11:38:06.085793
+dynamic_handler_one
+count 1
+129
+count 2
+42
+count 3
+86
+count 4
+42
+count 5
+129
+
+2019-11-27 11:38:06.183783
+dynamic_handler_one
+count 1
+137
+count 2
+45
+count 3
+91
+count 4
+45
+count 5
+137
+
+2019-11-27 11:38:15.669064
+articulation_handler_one
+bend count
+24
+vector count
+24
+
+2019-11-27 11:38:15.691999
+articulation_handler_two
+count
+1
+
+2019-11-27 11:38:15.755185
+articulation_handler_three
+bend count
+25
+vector count
+25
+
+2019-11-27 11:38:15.838985
+articulation_handler_two
+count
+3
+
+2019-11-27 11:38:15.894424
+articulation_handler_one
+bend count
+50
+vector count
+50
+
+2019-11-27 11:38:15.967475
+articulation_handler_two
+count
+5
+
+2019-11-27 11:38:16.034767
+articulation_handler_three
+bend count
+47
+vector count
+47
+
+2019-11-27 11:38:16.079491
+articulation_handler_two
+count
+7
+
+2019-11-27 11:38:26.813448
+articulation_handler_one
+bend count
+73
+vector count
+73
+
+2019-11-27 11:38:26.889626
+articulation_handler_two
+count
+9
+
+2019-11-27 11:38:26.951961
+articulation_handler_three
+bend count
+76
+vector count
+76
+
+2019-11-27 11:38:27.093924
+articulation_handler_two
+count
+12
+
+2019-11-27 11:38:27.156664
+articulation_handler_one
+bend count
+102
+vector count
+102
+
+2019-11-27 11:38:27.187256
+articulation_handler_two
+count
+15
+
+2019-11-27 11:38:27.232632
+articulation_handler_three
+bend count
+96
+vector count
+96
+
+2019-11-27 11:38:27.283796
+articulation_handler_two
+count
+18
+
+2019-11-27 11:38:37.189273
+articulation_handler_one
+bend count
+115
+vector count
+115
+
+2019-11-27 11:38:37.237292
+articulation_handler_two
+count
+21
+
+2019-11-27 11:38:37.325078
+articulation_handler_three
+bend count
+135
+vector count
+135
+
+2019-11-27 11:38:37.363712
+articulation_handler_two
+count
+24
+
+2019-11-27 11:38:37.420776
+articulation_handler_one
+bend count
+134
+vector count
+134
+
+2019-11-27 11:38:37.460538
+articulation_handler_two
+count
+25
+
+2019-11-27 11:38:37.502242
+articulation_handler_three
+bend count
+145
+vector count
+145
+
+2019-11-27 11:38:37.560355
+articulation_handler_two
+count
+27
+
+2019-11-27 11:38:48.415717
+articulation_handler_one
+bend count
+161
+vector count
+161
+
+2019-11-27 11:38:48.462647
+articulation_handler_two
+count
+29
+
+2019-11-27 11:38:48.503897
+articulation_handler_three
+bend count
+156
+vector count
+156
+
+2019-11-27 11:38:48.586446
+articulation_handler_two
+count
+32
+
+2019-11-27 11:38:48.629283
+articulation_handler_one
+bend count
+179
+vector count
+179
+
+2019-11-27 11:38:48.695005
+articulation_handler_two
+count
+34
+
+2019-11-27 11:38:48.752484
+articulation_handler_three
+bend count
+186
+vector count
+186
+
+2019-11-27 11:38:48.820025
+articulation_handler_two
+count
+39
+
+2019-11-27 11:38:58.295907
+notehead handler one
+count
+24
+head vector count
+24
+transition vector count
+24
+
+2019-11-27 11:38:58.322331
+notehead handler two
+count
+6
+head vector count
+6
+transition vector count
+6
+
+2019-11-27 11:38:58.392714
+notehead handler three
+count
+25
+head vector count
+25
+transition vector count
+25
+
+2019-11-27 11:38:58.470845
+notehead handler one
+count
+47
+head vector count
+47
+transition vector count
+47
+
+2019-11-27 11:38:58.529338
+notehead handler two
+count
+25
+head vector count
+32
+transition vector count
+32
+
+2019-11-27 11:38:58.604281
+notehead handler three
+count
+54
+head vector count
+54
+transition vector count
+54
+
+2019-11-27 11:38:58.657581
+notehead handler two
+count
+21
+head vector count
+54
+transition vector count
+54
+
+2019-11-27 11:38:58.715683
+notehead handler one
+count
+57
+head vector count
+57
+transition vector count
+57
+
+2019-11-27 11:39:09.318452
+notehead handler two
+count
+22
+head vector count
+77
+transition vector count
+77
+
+2019-11-27 11:39:09.382234
+notehead handler three
+count
+75
+head vector count
+75
+transition vector count
+75
+
+2019-11-27 11:39:09.443047
+notehead handler three
+count
+104
+head vector count
+104
+transition vector count
+104
+
+2019-11-27 11:39:09.518119
+notehead handler one
+count
+84
+head vector count
+84
+transition vector count
+84
+
+2019-11-27 11:39:09.592858
+notehead handler two
+count
+28
+head vector count
+106
+transition vector count
+106
+
+2019-11-27 11:39:09.618408
+notehead handler three
+count
+111
+head vector count
+111
+transition vector count
+111
+
+2019-11-27 11:39:09.688282
+notehead handler one
+count
+104
+head vector count
+104
+transition vector count
+104
+
+2019-11-27 11:39:09.742550
+notehead handler two
+count
+20
+head vector count
+127
+transition vector count
+127
+
+2019-11-27 11:39:19.608010
+notehead handler three
+count
+124
+head vector count
+124
+transition vector count
+124
+
+2019-11-27 11:39:19.664705
+notehead handler two
+count
+22
+head vector count
+150
+transition vector count
+150
+
+2019-11-27 11:39:19.778329
+notehead handler one
+count
+143
+head vector count
+143
+transition vector count
+143
+
+2019-11-27 11:39:19.818771
+notehead handler two
+count
+15
+head vector count
+166
+transition vector count
+166
+
+2019-11-27 11:39:19.875688
+notehead handler three
+count
+143
+head vector count
+143
+transition vector count
+143
+
+2019-11-27 11:39:19.922625
+notehead handler three
+count
+161
+head vector count
+161
+transition vector count
+161
+
+2019-11-27 11:39:19.981135
+notehead handler one
+count
+153
+head vector count
+153
+transition vector count
+153
+
+2019-11-27 11:39:20.042887
+notehead handler two
+count
+26
+head vector count
+193
+transition vector count
+193
+
+2019-11-27 11:39:30.931228
+notehead handler three
+count
+188
+head vector count
+188
+transition vector count
+188
+
+2019-11-27 11:39:30.987979
+notehead handler one
+count
+172
+head vector count
+172
+transition vector count
+172
+
+2019-11-27 11:39:31.030907
+notehead handler two
+count
+10
+head vector count
+204
+transition vector count
+204
+
+2019-11-27 11:39:31.095979
+notehead handler three
+count
+215
+head vector count
+215
+transition vector count
+215
+
+2019-11-27 11:39:31.150499
+notehead handler two
+count
+17
+head vector count
+222
+transition vector count
+222
+
+2019-11-27 11:39:31.225168
+notehead handler one
+count
+197
+head vector count
+197
+transition vector count
+197
+
+2019-11-27 11:39:31.291872
+notehead handler two
+count
+29
+head vector count
+252
+transition vector count
+252
+
+2019-11-27 11:39:31.356849
+notehead handler three
+count
+238
+head vector count
+238
+transition vector count
+238
+
+2019-11-27 11:43:39.832941
+violin_1_pitch_handler_three
+count
+55
+
+2019-11-27 11:43:40.181053
+violin_1_pitch_handler_one
+count
+41
+
+2019-11-27 11:43:40.564292
+violin_1_pitch_handler_two
+count
+82
+
+2019-11-27 11:43:40.975258
+violin_1_pitch_handler_four
+count
+54
+
+2019-11-27 11:43:41.361502
+violin_1_pitch_handler_three
+count
+81
+
+2019-11-27 11:43:41.753545
+violin_1_pitch_handler_one
+count
+70
+
+2019-11-27 11:43:42.131875
+violin_1_pitch_handler_four
+count
+76
+
+2019-11-27 11:43:42.479827
+violin_1_pitch_handler_two
+count
+92
+
+2019-11-27 11:43:53.949540
+violin_2_pitch_handler_three
+count
+63
+
+2019-11-27 11:43:54.306690
+violin_2_pitch_handler_one
+count
+38
+
+2019-11-27 11:43:54.699656
+violin_2_pitch_handler_two
+count
+80
+
+2019-11-27 11:43:55.069704
+violin_2_pitch_handler_four
+count
+38
+
+2019-11-27 11:43:55.447315
+violin_2_pitch_handler_three
+count
+92
+
+2019-11-27 11:43:55.786297
+violin_2_pitch_handler_one
+count
+45
+
+2019-11-27 11:43:56.159836
+violin_2_pitch_handler_four
+count
+58
+
+2019-11-27 11:43:56.533047
+violin_2_pitch_handler_two
+count
+101
+
+2019-11-27 11:44:06.748275
+viola_pitch_handler_three
+count
+57
+
+2019-11-27 11:44:07.122897
+viola_pitch_handler_one
+count
+41
+
+2019-11-27 11:44:07.527042
+viola_pitch_handler_two
+count
+96
+
+2019-11-27 11:44:07.893624
+viola_pitch_handler_four
+count
+43
+
+2019-11-27 11:44:08.264349
+viola_pitch_handler_three
+count
+76
+
+2019-11-27 11:44:08.631903
+viola_pitch_handler_one
+count
+59
+
+2019-11-27 11:44:08.987923
+viola_pitch_handler_four
+count
+53
+
+2019-11-27 11:44:09.370342
+viola_pitch_handler_two
+count
+123
+
+2019-11-27 11:44:20.747117
+cello_pitch_handler_three
+count
+59
+
+2019-11-27 11:44:21.106734
+cello_pitch_handler_one
+count
+47
+
+2019-11-27 11:44:21.452488
+cello_pitch_handler_two
+count
+64
+
+2019-11-27 11:44:21.843706
+cello_pitch_handler_four
+count
+36
+
+2019-11-27 11:44:22.217853
+cello_pitch_handler_three
+count
+77
+
+2019-11-27 11:44:22.587404
+cello_pitch_handler_one
+count
+72
+
+2019-11-27 11:44:22.971084
+cello_pitch_handler_four
+count
+66
+
+2019-11-27 11:44:23.339738
+cello_pitch_handler_two
+count
+87
+
+2019-11-27 11:44:33.275871
+dynamic_handler_one
+count 1
+0
+count 2
+-1
+count 3
+0
+count 4
+-1
+count 5
+0
+
+2019-11-27 11:44:33.290899
+dynamic_handler_two
+count 1
+2
+count 2
+0
+count 3
+1
+count 4
+0
+count 5
+2
+
+2019-11-27 11:44:33.340705
+dynamic_handler_one
+count 1
+3
+count 2
+0
+count 3
+2
+count 4
+0
+count 5
+3
+
+2019-11-27 11:44:33.366139
+dynamic_handler_one
+count 1
+6
+count 2
+1
+count 3
+4
+count 4
+1
+count 5
+6
+
+2019-11-27 11:44:33.388248
+dynamic_handler_one
+count 1
+8
+count 2
+2
+count 3
+5
+count 4
+2
+count 5
+8
+
+2019-11-27 11:44:33.409468
+dynamic_handler_two
+count 1
+4
+count 2
+1
+count 3
+2
+count 4
+1
+count 5
+4
+
+2019-11-27 11:44:33.442193
+dynamic_handler_one
+count 1
+9
+count 2
+2
+count 3
+6
+count 4
+2
+count 5
+9
+
+2019-11-27 11:44:33.455547
+dynamic_handler_two
+count 1
+5
+count 2
+1
+count 3
+3
+count 4
+1
+count 5
+5
+
+2019-11-27 11:44:33.481352
+dynamic_handler_one
+count 1
+12
+count 2
+3
+count 3
+8
+count 4
+3
+count 5
+12
+
+2019-11-27 11:44:33.544713
+dynamic_handler_one
+count 1
+15
+count 2
+4
+count 3
+10
+count 4
+4
+count 5
+15
+
+2019-11-27 11:44:33.570274
+dynamic_handler_two
+count 1
+7
+count 2
+2
+count 3
+4
+count 4
+2
+count 5
+7
+
+2019-11-27 11:44:33.625658
+dynamic_handler_one
+count 1
+18
+count 2
+5
+count 3
+12
+count 4
+5
+count 5
+18
+
+2019-11-27 11:44:33.651992
+dynamic_handler_one
+count 1
+20
+count 2
+6
+count 3
+13
+count 4
+6
+count 5
+20
+
+2019-11-27 11:44:33.683828
+dynamic_handler_two
+count 1
+8
+count 2
+2
+count 3
+5
+count 4
+2
+count 5
+8
+
+2019-11-27 11:44:33.709889
+dynamic_handler_one
+count 1
+21
+count 2
+6
+count 3
+14
+count 4
+6
+count 5
+21
+
+2019-11-27 11:44:33.743671
+dynamic_handler_two
+count 1
+11
+count 2
+3
+count 3
+7
+count 4
+3
+count 5
+11
+
+2019-11-27 11:44:33.767250
+dynamic_handler_one
+count 1
+23
+count 2
+7
+count 3
+15
+count 4
+7
+count 5
+23
+
+2019-11-27 11:44:33.788590
+dynamic_handler_two
+count 1
+13
+count 2
+4
+count 3
+8
+count 4
+4
+count 5
+13
+
+2019-11-27 11:44:33.824480
+dynamic_handler_one
+count 1
+26
+count 2
+8
+count 3
+17
+count 4
+8
+count 5
+26
+
+2019-11-27 11:44:33.892629
+dynamic_handler_one
+count 1
+29
+count 2
+9
+count 3
+19
+count 4
+9
+count 5
+29
+
+2019-11-27 11:44:44.463244
+dynamic_handler_one
+count 1
+30
+count 2
+9
+count 3
+20
+count 4
+9
+count 5
+30
+
+2019-11-27 11:44:44.484782
+dynamic_handler_two
+count 1
+14
+count 2
+4
+count 3
+9
+count 4
+4
+count 5
+14
+
+2019-11-27 11:44:44.526026
+dynamic_handler_one
+count 1
+33
+count 2
+10
+count 3
+22
+count 4
+10
+count 5
+33
+
+2019-11-27 11:44:44.551136
+dynamic_handler_one
+count 1
+35
+count 2
+11
+count 3
+23
+count 4
+11
+count 5
+35
+
+2019-11-27 11:44:44.582513
+dynamic_handler_two
+count 1
+17
+count 2
+5
+count 3
+11
+count 4
+5
+count 5
+17
+
+2019-11-27 11:44:44.594231
+dynamic_handler_one
+count 1
+36
+count 2
+11
+count 3
+24
+count 4
+11
+count 5
+36
+
+2019-11-27 11:44:44.610357
+dynamic_handler_two
+count 1
+19
+count 2
+6
+count 3
+12
+count 4
+6
+count 5
+19
+
+2019-11-27 11:44:44.632885
+dynamic_handler_one
+count 1
+38
+count 2
+12
+count 3
+25
+count 4
+12
+count 5
+38
+
+2019-11-27 11:44:44.685926
+dynamic_handler_one
+count 1
+39
+count 2
+12
+count 3
+26
+count 4
+12
+count 5
+39
+
+2019-11-27 11:44:44.767359
+dynamic_handler_one
+count 1
+44
+count 2
+14
+count 3
+29
+count 4
+14
+count 5
+44
+
+2019-11-27 11:44:44.790524
+dynamic_handler_one
+count 1
+45
+count 2
+14
+count 3
+30
+count 4
+14
+count 5
+45
+
+2019-11-27 11:44:44.814432
+dynamic_handler_two
+count 1
+20
+count 2
+6
+count 3
+13
+count 4
+6
+count 5
+20
+
+2019-11-27 11:44:44.871489
+dynamic_handler_one
+count 1
+48
+count 2
+15
+count 3
+32
+count 4
+15
+count 5
+48
+
+2019-11-27 11:44:44.915290
+dynamic_handler_one
+count 1
+53
+count 2
+17
+count 3
+35
+count 4
+17
+count 5
+53
+
+2019-11-27 11:44:44.941737
+dynamic_handler_two
+count 1
+22
+count 2
+7
+count 3
+14
+count 4
+7
+count 5
+22
+
+2019-11-27 11:44:44.958109
+dynamic_handler_one
+count 1
+54
+count 2
+17
+count 3
+36
+count 4
+17
+count 5
+54
+
+2019-11-27 11:44:44.976965
+dynamic_handler_two
+count 1
+23
+count 2
+7
+count 3
+15
+count 4
+7
+count 5
+23
+
+2019-11-27 11:44:45.003893
+dynamic_handler_one
+count 1
+57
+count 2
+18
+count 3
+38
+count 4
+18
+count 5
+57
+
+2019-11-27 11:44:45.033600
+dynamic_handler_two
+count 1
+25
+count 2
+8
+count 3
+16
+count 4
+8
+count 5
+25
+
+2019-11-27 11:44:45.072083
+dynamic_handler_one
+count 1
+60
+count 2
+19
+count 3
+40
+count 4
+19
+count 5
+60
+
+2019-11-27 11:44:45.151534
+dynamic_handler_one
+count 1
+65
+count 2
+21
+count 3
+43
+count 4
+21
+count 5
+65
+
+2019-11-27 11:44:55.072442
+dynamic_handler_one
+count 1
+66
+count 2
+21
+count 3
+44
+count 4
+21
+count 5
+66
+
+2019-11-27 11:44:55.082562
+dynamic_handler_two
+count 1
+26
+count 2
+8
+count 3
+17
+count 4
+8
+count 5
+26
+
+2019-11-27 11:44:55.115521
+dynamic_handler_one
+count 1
+71
+count 2
+23
+count 3
+47
+count 4
+23
+count 5
+71
+
+2019-11-27 11:44:55.168955
+dynamic_handler_one
+count 1
+74
+count 2
+24
+count 3
+49
+count 4
+24
+count 5
+74
+
+2019-11-27 11:44:55.182008
+dynamic_handler_two
+count 1
+28
+count 2
+9
+count 3
+18
+count 4
+9
+count 5
+28
+
+2019-11-27 11:44:55.198249
+dynamic_handler_one
+count 1
+75
+count 2
+24
+count 3
+50
+count 4
+24
+count 5
+75
+
+2019-11-27 11:44:55.231183
+dynamic_handler_two
+count 1
+29
+count 2
+9
+count 3
+19
+count 4
+9
+count 5
+29
+
+2019-11-27 11:44:55.259225
+dynamic_handler_one
+count 1
+77
+count 2
+25
+count 3
+51
+count 4
+25
+count 5
+77
+
+2019-11-27 11:44:55.283229
+dynamic_handler_two
+count 1
+31
+count 2
+10
+count 3
+20
+count 4
+10
+count 5
+31
+
+2019-11-27 11:44:55.323252
+dynamic_handler_one
+count 1
+80
+count 2
+26
+count 3
+53
+count 4
+26
+count 5
+80
+
+2019-11-27 11:44:55.381650
+dynamic_handler_one
+count 1
+84
+count 2
+27
+count 3
+56
+count 4
+27
+count 5
+84
+
+2019-11-27 11:44:55.395355
+dynamic_handler_one
+count 1
+86
+count 2
+28
+count 3
+57
+count 4
+28
+count 5
+86
+
+2019-11-27 11:44:55.408726
+dynamic_handler_two
+count 1
+32
+count 2
+10
+count 3
+21
+count 4
+10
+count 5
+32
+
+2019-11-27 11:44:55.466344
+dynamic_handler_one
+count 1
+89
+count 2
+29
+count 3
+59
+count 4
+29
+count 5
+89
+
+2019-11-27 11:44:55.494544
+dynamic_handler_one
+count 1
+92
+count 2
+30
+count 3
+61
+count 4
+30
+count 5
+92
+
+2019-11-27 11:44:55.514466
+dynamic_handler_two
+count 1
+34
+count 2
+11
+count 3
+22
+count 4
+11
+count 5
+34
+
+2019-11-27 11:44:55.556314
+dynamic_handler_one
+count 1
+93
+count 2
+30
+count 3
+62
+count 4
+30
+count 5
+93
+
+2019-11-27 11:44:55.593167
+dynamic_handler_two
+count 1
+37
+count 2
+12
+count 3
+24
+count 4
+12
+count 5
+37
+
+2019-11-27 11:44:55.614122
+dynamic_handler_one
+count 1
+95
+count 2
+31
+count 3
+63
+count 4
+31
+count 5
+95
+
+2019-11-27 11:44:55.651793
+dynamic_handler_two
+count 1
+40
+count 2
+13
+count 3
+26
+count 4
+13
+count 5
+40
+
+2019-11-27 11:44:55.684517
+dynamic_handler_one
+count 1
+98
+count 2
+32
+count 3
+65
+count 4
+32
+count 5
+98
+
+2019-11-27 11:44:55.775311
+dynamic_handler_one
+count 1
+101
+count 2
+33
+count 3
+67
+count 4
+33
+count 5
+101
+
+2019-11-27 11:45:06.610006
+dynamic_handler_one
+count 1
+102
+count 2
+33
+count 3
+68
+count 4
+33
+count 5
+102
+
+2019-11-27 11:45:06.617255
+dynamic_handler_two
+count 1
+41
+count 2
+13
+count 3
+27
+count 4
+13
+count 5
+41
+
+2019-11-27 11:45:06.666487
+dynamic_handler_one
+count 1
+105
+count 2
+34
+count 3
+70
+count 4
+34
+count 5
+105
+
+2019-11-27 11:45:06.701237
+dynamic_handler_one
+count 1
+108
+count 2
+35
+count 3
+72
+count 4
+35
+count 5
+108
+
+2019-11-27 11:45:06.718800
+dynamic_handler_two
+count 1
+43
+count 2
+14
+count 3
+28
+count 4
+14
+count 5
+43
+
+2019-11-27 11:45:06.738623
+dynamic_handler_one
+count 1
+110
+count 2
+36
+count 3
+73
+count 4
+36
+count 5
+110
+
+2019-11-27 11:45:06.751151
+dynamic_handler_two
+count 1
+44
+count 2
+14
+count 3
+29
+count 4
+14
+count 5
+44
+
+2019-11-27 11:45:06.764106
+dynamic_handler_one
+count 1
+111
+count 2
+36
+count 3
+74
+count 4
+36
+count 5
+111
+
+2019-11-27 11:45:06.778425
+dynamic_handler_two
+count 1
+46
+count 2
+15
+count 3
+30
+count 4
+15
+count 5
+46
+
+2019-11-27 11:45:06.807052
+dynamic_handler_one
+count 1
+113
+count 2
+37
+count 3
+75
+count 4
+37
+count 5
+113
+
+2019-11-27 11:45:06.878495
+dynamic_handler_one
+count 1
+117
+count 2
+38
+count 3
+78
+count 4
+38
+count 5
+117
+
+2019-11-27 11:45:06.901868
+dynamic_handler_one
+count 1
+119
+count 2
+39
+count 3
+79
+count 4
+39
+count 5
+119
+
+2019-11-27 11:45:06.925683
+dynamic_handler_two
+count 1
+47
+count 2
+15
+count 3
+31
+count 4
+15
+count 5
+47
+
+2019-11-27 11:45:06.964332
+dynamic_handler_one
+count 1
+122
+count 2
+40
+count 3
+81
+count 4
+40
+count 5
+122
+
+2019-11-27 11:45:06.995815
+dynamic_handler_one
+count 1
+123
+count 2
+40
+count 3
+82
+count 4
+40
+count 5
+123
+
+2019-11-27 11:45:07.030301
+dynamic_handler_two
+count 1
+49
+count 2
+16
+count 3
+32
+count 4
+16
+count 5
+49
+
+2019-11-27 11:45:07.061653
+dynamic_handler_one
+count 1
+126
+count 2
+41
+count 3
+84
+count 4
+41
+count 5
+126
+
+2019-11-27 11:45:07.075826
+dynamic_handler_two
+count 1
+50
+count 2
+16
+count 3
+33
+count 4
+16
+count 5
+50
+
+2019-11-27 11:45:07.093504
+dynamic_handler_one
+count 1
+128
+count 2
+42
+count 3
+85
+count 4
+42
+count 5
+128
+
+2019-11-27 11:45:07.118931
+dynamic_handler_two
+count 1
+52
+count 2
+17
+count 3
+34
+count 4
+17
+count 5
+52
+
+2019-11-27 11:45:07.165717
+dynamic_handler_one
+count 1
+129
+count 2
+42
+count 3
+86
+count 4
+42
+count 5
+129
+
+2019-11-27 11:45:07.269891
+dynamic_handler_one
+count 1
+137
+count 2
+45
+count 3
+91
+count 4
+45
+count 5
+137
+
+2019-11-27 11:45:16.731182
+articulation_handler_one
+bend count
+24
+vector count
+24
+
+2019-11-27 11:45:16.753469
+articulation_handler_two
+count
+1
+
+2019-11-27 11:45:16.818985
+articulation_handler_three
+bend count
+25
+vector count
+25
+
+2019-11-27 11:45:16.903792
+articulation_handler_two
+count
+3
+
+2019-11-27 11:45:16.966258
+articulation_handler_one
+bend count
+50
+vector count
+50
+
+2019-11-27 11:45:17.039851
+articulation_handler_two
+count
+5
+
+2019-11-27 11:45:17.096182
+articulation_handler_three
+bend count
+47
+vector count
+47
+
+2019-11-27 11:45:17.136693
+articulation_handler_two
+count
+7
+
+2019-11-27 11:45:27.641369
+articulation_handler_one
+bend count
+73
+vector count
+73
+
+2019-11-27 11:45:27.701483
+articulation_handler_two
+count
+9
+
+2019-11-27 11:45:27.775539
+articulation_handler_three
+bend count
+76
+vector count
+76
+
+2019-11-27 11:45:27.901454
+articulation_handler_two
+count
+12
+
+2019-11-27 11:45:27.968237
+articulation_handler_one
+bend count
+102
+vector count
+102
+
+2019-11-27 11:45:27.993356
+articulation_handler_two
+count
+15
+
+2019-11-27 11:45:28.044871
+articulation_handler_three
+bend count
+96
+vector count
+96
+
+2019-11-27 11:45:28.095719
+articulation_handler_two
+count
+18
+
+2019-11-27 11:45:37.908891
+articulation_handler_one
+bend count
+115
+vector count
+115
+
+2019-11-27 11:45:37.961289
+articulation_handler_two
+count
+21
+
+2019-11-27 11:45:38.050948
+articulation_handler_three
+bend count
+135
+vector count
+135
+
+2019-11-27 11:45:38.102977
+articulation_handler_two
+count
+24
+
+2019-11-27 11:45:38.152243
+articulation_handler_one
+bend count
+134
+vector count
+134
+
+2019-11-27 11:45:38.199402
+articulation_handler_two
+count
+25
+
+2019-11-27 11:45:38.233302
+articulation_handler_three
+bend count
+145
+vector count
+145
+
+2019-11-27 11:45:38.304286
+articulation_handler_two
+count
+27
+
+2019-11-27 11:45:49.220853
+articulation_handler_one
+bend count
+161
+vector count
+161
+
+2019-11-27 11:45:49.264570
+articulation_handler_two
+count
+29
+
+2019-11-27 11:45:49.306634
+articulation_handler_three
+bend count
+156
+vector count
+156
+
+2019-11-27 11:45:49.391317
+articulation_handler_two
+count
+32
+
+2019-11-27 11:45:49.452979
+articulation_handler_one
+bend count
+179
+vector count
+179
+
+2019-11-27 11:45:49.514266
+articulation_handler_two
+count
+34
+
+2019-11-27 11:45:49.579523
+articulation_handler_three
+bend count
+186
+vector count
+186
+
+2019-11-27 11:45:49.636496
+articulation_handler_two
+count
+39
+
+2019-11-27 11:45:59.104378
+notehead handler one
+count
+24
+head vector count
+24
+transition vector count
+24
+
+2019-11-27 11:45:59.131840
+notehead handler two
+count
+6
+head vector count
+6
+transition vector count
+6
+
+2019-11-27 11:45:59.196063
+notehead handler three
+count
+25
+head vector count
+25
+transition vector count
+25
+
+2019-11-27 11:45:59.249877
+notehead handler one
+count
+47
+head vector count
+47
+transition vector count
+47
+
+2019-11-27 11:45:59.311071
+notehead handler two
+count
+25
+head vector count
+32
+transition vector count
+32
+
+2019-11-27 11:45:59.375635
+notehead handler three
+count
+54
+head vector count
+54
+transition vector count
+54
+
+2019-11-27 11:45:59.431048
+notehead handler two
+count
+21
+head vector count
+54
+transition vector count
+54
+
+2019-11-27 11:45:59.462429
+notehead handler one
+count
+57
+head vector count
+57
+transition vector count
+57
+
+2019-11-27 11:46:10.042395
+notehead handler two
+count
+22
+head vector count
+77
+transition vector count
+77
+
+2019-11-27 11:46:10.087341
+notehead handler three
+count
+75
+head vector count
+75
+transition vector count
+75
+
+2019-11-27 11:46:10.157645
+notehead handler three
+count
+104
+head vector count
+104
+transition vector count
+104
+
+2019-11-27 11:46:10.217984
+notehead handler one
+count
+84
+head vector count
+84
+transition vector count
+84
+
+2019-11-27 11:46:10.284342
+notehead handler two
+count
+28
+head vector count
+106
+transition vector count
+106
+
+2019-11-27 11:46:10.312546
+notehead handler three
+count
+111
+head vector count
+111
+transition vector count
+111
+
+2019-11-27 11:46:10.363427
+notehead handler one
+count
+104
+head vector count
+104
+transition vector count
+104
+
+2019-11-27 11:46:10.412292
+notehead handler two
+count
+20
+head vector count
+127
+transition vector count
+127
+
+2019-11-27 11:46:20.223629
+notehead handler three
+count
+124
+head vector count
+124
+transition vector count
+124
+
+2019-11-27 11:46:20.277602
+notehead handler two
+count
+22
+head vector count
+150
+transition vector count
+150
+
+2019-11-27 11:46:20.363787
+notehead handler one
+count
+143
+head vector count
+143
+transition vector count
+143
+
+2019-11-27 11:46:20.413052
+notehead handler two
+count
+15
+head vector count
+166
+transition vector count
+166
+
+2019-11-27 11:46:20.460822
+notehead handler three
+count
+143
+head vector count
+143
+transition vector count
+143
+
+2019-11-27 11:46:20.503515
+notehead handler three
+count
+161
+head vector count
+161
+transition vector count
+161
+
+2019-11-27 11:46:20.548931
+notehead handler one
+count
+153
+head vector count
+153
+transition vector count
+153
+
+2019-11-27 11:46:20.622059
+notehead handler two
+count
+26
+head vector count
+193
+transition vector count
+193
+
+2019-11-27 11:46:31.470397
+notehead handler three
+count
+188
+head vector count
+188
+transition vector count
+188
+
+2019-11-27 11:46:31.512329
+notehead handler one
+count
+172
+head vector count
+172
+transition vector count
+172
+
+2019-11-27 11:46:31.553940
+notehead handler two
+count
+10
+head vector count
+204
+transition vector count
+204
+
+2019-11-27 11:46:31.618103
+notehead handler three
+count
+215
+head vector count
+215
+transition vector count
+215
+
+2019-11-27 11:46:31.672067
+notehead handler two
+count
+17
+head vector count
+222
+transition vector count
+222
+
+2019-11-27 11:46:31.732176
+notehead handler one
+count
+197
+head vector count
+197
+transition vector count
+197
+
+2019-11-27 11:46:31.800891
+notehead handler two
+count
+29
+head vector count
+252
+transition vector count
+252
+
+2019-11-27 11:46:31.857307
+notehead handler three
+count
+238
+head vector count
+238
+transition vector count
+238
+

@@ -105,7 +105,7 @@ Segment_VI_notehead_timespans = evans.ConvertTimespans.convert_timespans(
 ###############
 Segment_VI_timespans = [
     Segment_VI_pitch_timespans,
-    # Segment_VI_dynamic_timespans,
+    Segment_VI_dynamic_timespans,
     Segment_VI_articulation_timespans,
     Segment_VI_notehead_timespans,
 ]

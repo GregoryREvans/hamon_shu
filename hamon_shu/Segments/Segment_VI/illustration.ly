@@ -310,6 +310,19 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 1
                     fqs'''4.
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -357,6 +370,20 @@
                     \ottava 0
                     \revert Staff.Stem.stemlet-length
                     b8.
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mf"
+                                #:hspace -0.2
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -374,6 +401,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -398,6 +426,20 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     a'1
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -441,6 +483,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -460,14 +503,42 @@
                     r4
 
                     af'2.
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \>
                     ~
 
                     af'4
                     ~
 
                     af'2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     r2.
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -475,6 +546,8 @@
                     R1 * 1/8
 
                     a4
+                    \pppp
+                    \<
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -520,6 +593,9 @@
                     ~
 
                     af'4
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -536,10 +612,14 @@
                     \startTextSpanTwo
 
                     r1
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
                     a'4
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -593,6 +673,7 @@
                     \startTextSpanTwo
 
                     r2.
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -606,6 +687,8 @@
                     \times 3/5 {
 
                         e''1
+                        \p
+                        \>
 
                         \ottava 1
                         fqs'''4
@@ -639,10 +722,28 @@
                     \times 2/3 {
 
                         fqs'''2
+                        \ppp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \ottava 0
                         dqf'1
+                        \!
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "pp"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -724,6 +825,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -741,6 +843,19 @@
                     R1 * 1/4
 
                     g''4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \>
                     \stopTextSpanOne
                     ~
 
@@ -763,9 +878,27 @@
                     }
 
                     aqf2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "ppp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Staff.NoteHead.style = #'default
                     c'''4
+                    \!
+                    \pppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -841,12 +974,15 @@
                     \startTextSpanTwo
 
                     r2
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
                     \ottava 1
                     dqs'''4
+                    \pp
+                    \<
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -921,8 +1057,26 @@
                     ~
 
                     d'''4
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     ef'''2
+                    \!
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mf"
+                                #:hspace -0.2
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1026,6 +1180,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -1049,12 +1204,43 @@
                     R1 * 5/8
 
                     a1
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \<
                     ~
 
                     a2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf'4
+                    \!
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1134,6 +1320,7 @@
                     \startTextSpanTwo
 
                     r2.
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -1144,6 +1331,8 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'2
+                    \ppp
+                    \>
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -1241,11 +1430,15 @@
 
                     \revert Staff.Stem.stemlet-length
                     b''8
+                    \pppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
+                    \!
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
@@ -1284,6 +1477,20 @@
                     R1 * 5/8
 
                     f'2.
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1399,6 +1606,9 @@
                     \ottava 1
                     \revert Staff.Stem.stemlet-length
                     d'''8
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1476,11 +1686,14 @@
 
                     \ottava 0
                     r2
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
                     a4
+                    \mp
+                    \>
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1526,6 +1739,9 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     d'''4
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1543,6 +1759,7 @@
 
                     \ottava 0
                     r4
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -1555,6 +1772,9 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     c''2.
+                    \ppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1616,6 +1836,20 @@
 
                     \revert Staff.Stem.stemlet-length
                     f'8
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     \stopTextSpanThree
                     ~
@@ -1639,6 +1873,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     r4
+                    \!
                     \stopTextSpanOne
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
@@ -1663,6 +1898,19 @@
                     R1 * 3/8
 
                     c''4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mf"
+                                #:hspace -0.2
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \>
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1680,6 +1928,20 @@
                     c''4
 
                     a'1
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1696,6 +1958,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -1724,6 +1987,20 @@
                     R1 * 1/8
 
                     b'4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1839,9 +2116,12 @@
                     eqf'4
 
                     r1
+                    \!
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     cs'2
+                    \pppp
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1896,6 +2176,9 @@
                     ~
 
                     bqf''4
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1912,6 +2195,7 @@
                     \startTextSpanTwo
 
                     r2.
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -1927,6 +2211,9 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a'2
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -2016,6 +2303,19 @@
                     \once \override Staff.NoteHead.style = #'default
                     \ottava 1
                     ef'''2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2053,9 +2353,24 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -2074,6 +2389,20 @@
 
                     \ottava 1
                     fqs'''4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "ppp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2166,6 +2495,8 @@
                         \once \override Staff.NoteHead.style = #'default
                         \ottava 1
                         fqs'''4
+                        \p
+                        \>
                         ~
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -2249,6 +2580,9 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     f'4
+                    \ppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -2265,13 +2599,18 @@
                     \startTextSpanTwo
 
                     r1
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
                     c''2
+                    \pppp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
 
                     R1 * 1/8
 
@@ -2326,6 +2665,19 @@
                     R1 * 1/4
 
                     gqf2.
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2501,9 +2853,26 @@
                         ~
 
                         d8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         dqf2.
+                        \!
+                        \pp
+                        \<
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -2541,6 +2910,9 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf'2
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -2558,6 +2930,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -2574,6 +2947,9 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         af'4
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -2632,12 +3008,15 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
                     R1 * 1/4
 
                     f'4
+                    \ppp
+                    \>
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2700,6 +3079,9 @@
 
                         \once \override Staff.NoteHead.style = #'default
                         dqf'2..
+                        \pppp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
                         - \tweak bound-details.left.text \markup {
@@ -2718,6 +3100,20 @@
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "varC"
                         fs2
+                        \!
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "p"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        \>
                         \stopTextSpanTwo
                         \stopTextSpanThree
                         ~
@@ -2934,8 +3330,23 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     aqf4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     r2
+                    \!
                     \stopTextSpanOne
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
@@ -2956,6 +3367,20 @@
 
                         \clef "treble"
                         c'''2
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mp"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        - \tweak stencil #constante-hairpin
+                        \<
                         \stopTextSpanOne
                         ~
 
@@ -2966,6 +3391,9 @@
                     }
 
                     bf'2
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3085,6 +3513,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
 
                     R1 * 5/8
 
@@ -3094,9 +3523,13 @@
                     R1 * 1/8
 
                     cs''1
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
 
                     R1 * 1/4
 
@@ -3108,6 +3541,20 @@
                     r4
 
                     af'4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3231,6 +3678,9 @@
                     cs'4
 
                     af'2
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -3258,10 +3708,13 @@
                     \startTextSpanThree
 
                     r2
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
                     bf'4
+                    \ppp
+                    \>
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3295,6 +3748,9 @@
                     eqf'2
 
                     bf'2
+                    \pppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -3312,6 +3768,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -3326,6 +3783,9 @@
                     \times 8/9 {
 
                         dqf'2..
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -3379,6 +3839,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -3441,6 +3902,19 @@
                     \once \override Staff.NoteHead.style = #'default
                     \clef "bass"
                     b,2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "ppp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3509,9 +3983,24 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     a,4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -3533,6 +4022,20 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "pp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3584,6 +4087,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -3607,6 +4111,8 @@
                     R1 * 5/8
 
                     dqf4
+                    \mp
+                    \>
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3673,6 +4179,9 @@
                     ~
 
                     dqf2
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -3689,6 +4198,7 @@
                     \startTextSpanTwo
 
                     r2.
+                    \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -3698,6 +4208,9 @@
                     R1 * 1/8
 
                     g,4
+                    \ppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -3764,6 +4277,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/16
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -3775,15 +4289,34 @@
                     R1 * 7/16
 
                     c''2.
+                    \pppp
+                    \<
                     ~
 
                     c''4
                     ~
 
                     c''2
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'2.
+                    \!
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    \>
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3804,11 +4337,26 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a'2
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "p"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     - \abjad-invisible-line                                    %! applying indicators
                     - \tweak bound-details.left.text \markup {                 %! applying indicators
@@ -3835,6 +4383,20 @@
 
                     \clef "bass"
                     dqf4
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mf"
+                                #:hspace -0.2
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3867,6 +4429,7 @@
                     dqf4
 
                     r4
+                    \!
                     \stopTextSpanOne
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
@@ -3895,6 +4458,19 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a4.
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "pp"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        \<
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -3939,8 +4515,26 @@
 
                     \clef "tenorvarC"
                     a'2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "mp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     b2
+                    \!
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -4007,6 +4601,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -4019,6 +4614,8 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a,1
+                    \p
+                    \>
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -4082,6 +4679,9 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     f'2
+                    \ppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -4099,6 +4699,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -4121,6 +4722,19 @@
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "bass"
                         d2
+                        _ #(make-dynamic-script
+                            (markup
+                                #:whiteout
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mp"
+                                    #:hspace -0.25
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )
+                        \>
                         ~
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -4272,6 +4886,20 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "ppp"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -4287,6 +4915,7 @@
                     \startTextSpanOne
 
                     r2.
+                    \!
                     \stopTextSpanOne
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
@@ -4305,6 +4934,20 @@
                     \stopTextSpanOne
 
                     eqf'2
+                    _ #(make-dynamic-script
+                        (markup
+                            #:whiteout
+                            #:line (
+                                #:general-align Y -2 #:normal-text #:larger "“"
+                                #:hspace -0.1
+                                #:dynamic "p"
+                                #:hspace -0.25
+                                #:general-align Y -2 #:normal-text #:larger "”"
+                                )
+                            )
+                        )
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     a4
                     ~
@@ -4315,6 +4958,9 @@
                     a4
 
                     cs'4
+                    \pppp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -4399,6 +5045,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
                     \stopTextSpanThree                                         %! applying indicators
 
@@ -4410,6 +5057,8 @@
                     R1 * 3/8
 
                     f'2.
+                    \pp
+                    \<
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -4460,9 +5109,13 @@
                     ~
 
                     ef'2
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \!                                                         %! applying indicators
 
                     R1 * 1/8
 
@@ -4475,7 +5128,7 @@
                                 \with-color #black
                                 \right-column {
                                     \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 October 2019 }
+                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 November 2019 }
                                 }
                             }
 

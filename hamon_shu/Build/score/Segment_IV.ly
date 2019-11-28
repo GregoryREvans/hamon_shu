@@ -194,17 +194,26 @@
 
                     \revert Staff.Stem.stemlet-length
                     d''8
+                    \p
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     r4
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     c''8
+                    \mp
+                    \>
                     [
 
                     \revert Staff.Stem.stemlet-length
                     aqs8
                     ]
+                    <>
+                    \pp
 
                     r2
 
@@ -214,8 +223,13 @@
                     R1 * 1/4
 
                     d'2
+                    \mf
+                    - \tenuto
+                    \>
 
                     e'4
+                    <>
+                    \mp
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -252,14 +266,23 @@
                         [
 
                         b16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         g16
+                        \p
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         gqs16
+                        - \accent
                         ]
+                        <>
+                        \mp
 
                     }
 
@@ -269,10 +292,14 @@
                         r4
 
                         b4
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         eqf'2
 
                         r4
+                        \!
 
                         r4
 
@@ -286,13 +313,21 @@
                         [
 
                         fs'16
+                        \mf
+                        \>
 
                         aqf'8
+                        <>
+                        \p
 
                         r16
 
                         \revert Staff.Stem.stemlet-length
                         cs''16
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
                     }
@@ -304,11 +339,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         \revert Staff.Stem.stemlet-length
                         cs''8
+                        \pp
+                        \<
                         ]
+                        <>
+                        \mf
 
                     }
 
@@ -324,6 +364,9 @@
                         r4
 
                         g8
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         d''8
@@ -336,13 +379,21 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         g16
+                        \mp
+                        - \accent
+                        \>
                         [
 
                         b16
+                        <>
+                        \pp
 
                         r8
 
                         gqs16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         b16
@@ -351,6 +402,7 @@
                     }
 
                     r1
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -360,11 +412,16 @@
                     r2
 
                     d''4
+                    \p
+                    \<
                     ~
 
                     d''4
 
                     g4
+                    - \accent
+                    <>
+                    \mp
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -394,6 +451,9 @@
                     r2
 
                     eqf'2.
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
 
                     eqf'2
@@ -417,6 +477,9 @@
                     dqf'4
 
                     eqs'2.
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
 
                     eqs'2.
@@ -426,13 +489,23 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         a'16
+                        \f
+                        - \tenuto
+                        \>
+                        <>
+                        \mf
 
                         r8
 
                         b'16
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         f'16
@@ -441,6 +514,7 @@
                     }
 
                     r1
+                    \!
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
@@ -448,12 +522,20 @@
                         r4
 
                         c'4
+                        \mf
+                        \>
+                        <>
+                        \p
 
                         r2
 
                         e'4
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         g'4
+                        - \accent
 
                     }
 
@@ -462,13 +544,18 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         \revert Staff.Stem.stemlet-length
                         b'8
+                        \pp
+                        \<
                         ]
 
                         d''4
+                        <>
+                        \mf
 
                         r8
 
@@ -482,9 +569,13 @@
 
                     \revert Staff.Stem.stemlet-length
                     aqs8
+                    \mf
+                    \<
                     ]
 
                     c''4
+                    <>
+                    \f
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -492,11 +583,18 @@
 
                     \revert Staff.Stem.stemlet-length
                     aqs8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     d''2.
+                    - \tenuto
 
                     b'2
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
@@ -505,6 +603,7 @@
                         g'4
 
                         bqf'4
+                        - \accent
 
                         e'4.
                         ~
@@ -529,6 +628,7 @@
                     d'4
 
                     r4
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -536,12 +636,20 @@
 
                     \revert Staff.Stem.stemlet-length
                     g8
+                    \mp
+                    \>
                     ]
+                    <>
+                    \pp
 
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     gqs8
+                    \mf
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -550,6 +658,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
 
                     R1 * 5/8
 
@@ -568,10 +677,17 @@
                         [
 
                         eqf'16
+                        \p
+                        \<
+                        <>
+                        \mp
 
                         r8
 
                         dqf'16
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         eqf'16
@@ -584,6 +700,7 @@
                     \times 8/7 {
 
                         aqf'4
+                        - \accent
 
                         fs'8
 
@@ -597,8 +714,11 @@
                     cs''2.
 
                     r2.
+                    \!
 
                     b'2
+                    \mf
+                    \>
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
@@ -607,6 +727,7 @@
                         b'1
 
                         d''4
+                        - \accent
 
                     }
 
@@ -614,6 +735,8 @@
                     ~
 
                     bqf2
+                    <>
+                    \p
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -628,17 +751,25 @@
 
                     \revert Staff.Stem.stemlet-length
                     c'8
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     r4
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cs'8
+                    \pp
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
                     d'8
                     ]
+                    <>
+                    \mf
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -648,10 +779,15 @@
                         [
 
                         e'16
+                        \p
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         cs'8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         r16
@@ -660,11 +796,18 @@
                     }
 
                     e'2.
+                    \mp
+                    \>
                     ~
 
                     e'2
+                    \pp
 
                     fqs'4
+                    \mp
+                    \<
+                    <>
+                    \mf
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -674,14 +817,24 @@
                         [
 
                         d'16
+                        \f
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         cs'16
+                        \mf
+                        - \tenuto
+                        \>
 
                         \revert Staff.Stem.stemlet-length
                         cs'16
+                        - \accent
                         ]
+                        <>
+                        \mp
 
                     }
 
@@ -697,14 +850,22 @@
                         [
 
                         e'16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         cs'16
+                        \f
+                        \>
 
                         \revert Staff.Stem.stemlet-length
                         d'16
                         ]
+                        <>
+                        \mf
 
                     }
 
@@ -714,6 +875,9 @@
                         r4
 
                         cs'4
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         g2
 
@@ -779,6 +943,9 @@
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
                         e'4
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         bqf'2.
 
@@ -786,6 +953,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
 
                     R1 * 1/4
 
@@ -795,12 +963,20 @@
 
                     \revert Staff.Stem.stemlet-length
                     c''8
+                    \p
+                    - \accent
+                    \<
                     ]
+                    <>
+                    \mp
 
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -811,10 +987,15 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         b'4
+                        \mf
+                        \>
 
                         bqf'2
+                        <>
+                        \p
 
                         r4
 
@@ -827,6 +1008,10 @@
                     \times 10/11 {
 
                         c''4
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         bqf'2
 
@@ -842,9 +1027,11 @@
                     c'4
 
                     d'2.
+                    - \accent
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
 
                     R1 * 5/8
 
@@ -858,10 +1045,17 @@
                         [
 
                         eqf'16
+                        \pp
+                        \<
+                        <>
+                        \mf
 
                         r8
 
                         fs'16
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         eqf'16
@@ -873,10 +1067,16 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         aqf'4
+                        \mp
+                        \>
 
                         c''2
+                        - \accent
+                        <>
+                        \pp
 
                         r4
 
@@ -892,13 +1092,19 @@
                         [
 
                         cs''16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         aqf'8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         fs'16
+                        \p
+                        \<
                         ]
 
                     }
@@ -907,6 +1113,8 @@
                     \times 4/5 {
 
                         aqf'4.
+                        <>
+                        \mp
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
@@ -914,6 +1122,10 @@
 
                         \revert Staff.Stem.stemlet-length
                         cs''8
+                        \pp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
                     }
@@ -923,6 +1135,7 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         r16
@@ -930,6 +1143,8 @@
                         r8
 
                         c''16
+                        \mf
+                        \>
 
                         \revert Staff.Stem.stemlet-length
                         aqf'16
@@ -946,10 +1161,15 @@
                     ~
 
                     fs'1
+                    <>
+                    \p
 
                     r2
 
                     gqs'2.
+                    \mf
+                    - \tenuto
+                    \<
                     ~
 
                     gqs'4
@@ -961,6 +1181,8 @@
                     ~
 
                     fqs'4
+                    <>
+                    \f
 
                     r1
 
@@ -982,17 +1204,27 @@
 
                     \revert Staff.Stem.stemlet-length
                     eqs'8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     r4
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     a'8
+                    \mp
+                    - \tenuto
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
                     eqs'8
+                    - \accent
                     ]
+                    <>
+                    \mf
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
@@ -1003,11 +1235,15 @@
 
                         \revert Staff.Stem.stemlet-length
                         f'8
+                        \f
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
                         eqf'4
 
                         r8
+                        \!
 
                         r8
 
@@ -1022,9 +1258,13 @@
 
                         \revert Staff.Stem.stemlet-length
                         c'8
+                        \mf
+                        \>
                         ]
 
                         b4
+                        <>
+                        \mp
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
@@ -1032,11 +1272,16 @@
 
                         \revert Staff.Stem.stemlet-length
                         dqf'8
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
                     }
 
                     r4
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -1059,10 +1304,17 @@
                         r4
 
                         g'4
+                        \pp
+                        \<
+                        <>
+                        \mf
 
                         r2
 
                         d'4
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         c'4
 
@@ -1073,13 +1325,19 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         \revert Staff.Stem.stemlet-length
                         e'8
+                        \mp
+                        \>
                         ]
 
                         bqf'4
+                        - \accent
+                        <>
+                        \pp
 
                         r8
 
@@ -1095,13 +1353,19 @@
                         [
 
                         g'16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         b'8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         d''16
+                        \p
+                        \<
                         ]
 
                     }
@@ -1115,6 +1379,7 @@
                     \times 8/9 {
 
                         c''2..
+                        - \accent
 
                         bqf'4
 
@@ -1128,13 +1393,18 @@
                     \times 6/5 {
 
                         g'4.
+                        \mp
 
                         d'4
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \!                                                         %! applying indicators
 
                     R1 * 5/8
 
@@ -1151,10 +1421,18 @@
                         [
 
                         eqf'16
+                        \mf
+                        \>
+                        <>
+                        \p
 
                         r8
 
                         aqf'16
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         c''16
@@ -1163,6 +1441,7 @@
                     }
 
                     r2
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
@@ -1184,10 +1463,17 @@
                         [
 
                         aqf'16
+                        \pp
+                        \<
+                        <>
+                        \mf
 
                         r8
 
                         cs''16
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         c''16
@@ -1199,10 +1485,16 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         cs''4
+                        \mp
+                        - \accent
+                        \>
 
                         g2
+                        <>
+                        \pp
 
                         r4
 
@@ -1218,6 +1510,9 @@
                     r2.
 
                     eqs'2
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1239,6 +1534,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     f'8
+                    - \accent
                     ~
                     ]
 
@@ -1246,6 +1542,7 @@
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \!                                                         %! applying indicators
 
                     R1 * 1/4
 
@@ -1257,12 +1554,17 @@
                     r2
 
                     a'2.
+                    \mf
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
 
                     a'1
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
+                    \!
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1364,8 +1666,12 @@
                     \markup { Viola }                                          %! applying staff names and clefs
                     \clef "varC"
                     bqf'4
+                    \p
+                    \<
 
                     e'2
+                    <>
+                    \mp
 
                     r2
 
@@ -1375,20 +1681,32 @@
                     R1 * 1/4
 
                     g'4
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         b'8
+                        \mf
+                        \>
+                        <>
+                        \p
 
                         r4
 
                         \clef "treble"
                         d''8
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \clef "varC"
                         \revert Staff.Stem.stemlet-length
@@ -1402,11 +1720,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         c''16
+                        \pp
+                        \<
 
                         bqf'8
+                        <>
+                        \mf
 
                         r16
 
@@ -1422,17 +1745,24 @@
 
                     \revert Staff.Stem.stemlet-length
                     b'8
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     \clef "treble"
                     d''4
+                    - \accent
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
+                    \!
                     [
 
                     \revert Staff.Stem.stemlet-length
                     b'8
+                    \mp
+                    \>
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
@@ -1441,11 +1771,16 @@
                         \override Staff.Stem.stemlet-length = 0.75
                         bqf'8.
                         [
+                        <>
+                        \pp
 
                         r16
 
                         \revert Staff.Stem.stemlet-length
                         e'16
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ]
 
                     }
@@ -1459,6 +1794,7 @@
                     bqf'4
 
                     r2
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
@@ -1475,10 +1811,18 @@
                         [
 
                         fs'16
+                        \p
+                        - \accent
+                        \<
+                        <>
+                        \mp
 
                         r8
 
                         eqf'16
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         aqf'16
@@ -1490,10 +1834,15 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         c''4
+                        \mf
+                        \>
 
                         aqf'2
+                        <>
+                        \p
 
                         r4
 
@@ -1503,6 +1852,10 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''8
+                    \mp
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1519,6 +1872,7 @@
                     e4
 
                     r1
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -1528,8 +1882,12 @@
                     r2
 
                     a2.
+                    \f
+                    \>
 
                     cs'4
+                    <>
+                    \mf
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -1539,15 +1897,24 @@
                         [
 
                         a16
+                        \mp
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         g16
+                        \pp
+                        \<
 
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
                         d''16
                         ]
+                        <>
+                        \mf
 
                     }
 
@@ -1559,10 +1926,15 @@
                         [
 
                         g16
+                        \p
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         a8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         r16
@@ -1595,12 +1967,20 @@
 
                     \revert Staff.Stem.stemlet-length
                     g8
+                    \mf
+                    - \accent
+                    \<
                     ]
+                    <>
+                    \f
 
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     d''8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
                     \clef "varC"
@@ -1613,13 +1993,18 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         \revert Staff.Stem.stemlet-length
                         bqf8
+                        \mp
+                        \<
                         ]
 
                         e4
+                        <>
+                        \mf
 
                         r8
 
@@ -1629,8 +2014,14 @@
 
                     \clef "treble"
                     d''2
+                    \f
+                    - \tenuto
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     a'4
+                    \mp
+                    \>
                     ~
 
                     \scaleDurations #'(1 . 1) {
@@ -1648,20 +2039,29 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     a'8
+                    \pp
                     [
 
                     \revert Staff.Stem.stemlet-length
                     eqs'8
+                    \mf
+                    \>
                     ~
                     ]
 
                     eqs'4
+                    <>
+                    \mp
 
                     r2
 
                     b'4
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     r2.
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -1698,9 +2098,14 @@
                     \times 3/4 {
 
                         g4
+                        \p
+                        \<
 
                         \clef "varC"
                         fqs2.
+                        - \accent
+                        <>
+                        \mp
 
                     }
 
@@ -1724,15 +2129,23 @@
                         [
 
                         e16
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         cs''16
+                        \mf
+                        \>
 
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
                         d''16
                         ]
+                        <>
+                        \p
 
                     }
 
@@ -1756,14 +2169,23 @@
                         [
 
                         eqf'8
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r4
+                        \!
 
                         f'8
+                        \pp
+                        - \accent
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         b'8
                         ]
+                        <>
+                        \mf
 
                     }
 
@@ -1775,10 +2197,14 @@
                         [
 
                         d''16
+                        \p
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         g8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         r16
@@ -1792,9 +2218,14 @@
 
                     \revert Staff.Stem.stemlet-length
                     b8
+                    \mp
+                    \>
                     ]
 
                     c'4
+                    - \accent
+                    <>
+                    \pp
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -1802,6 +2233,9 @@
 
                     \revert Staff.Stem.stemlet-length
                     bqf8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1811,8 +2245,13 @@
                         c'2.
 
                         r4
+                        \!
 
                         b4
+                        \p
+                        \<
+                        <>
+                        \mp
 
                     }
 
@@ -1828,9 +2267,13 @@
                         r8
 
                         g16
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         d''16
+                        - \accent
                         ]
 
                     }
@@ -1857,17 +2300,25 @@
 
                     \revert Staff.Stem.stemlet-length
                     a'8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     eqs'4
+                    - \tenuto
 
                     r2
+                    \!
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
                         dqf'2
+                        \f
+                        - \accent
+                        \>
 
                         e8
                         ~
@@ -1875,6 +2326,8 @@
                     }
 
                     e4
+                    <>
+                    \mf
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -1983,10 +2436,18 @@
 
                         \clef "tenorvarC"
                         bqf'16
+                        \mf
+                        \>
+                        <>
+                        \p
 
                         r8
 
                         e'16
+                        \mp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         g'16
@@ -1998,11 +2459,16 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         b'4
+                        \pp
+                        \<
 
                         \clef "treble"
                         d''2
+                        <>
+                        \mf
 
                         r4
 
@@ -2017,6 +2483,9 @@
 
                     \clef "bass"
                     e2.
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ~
 
                     e1
@@ -2028,13 +2497,22 @@
                     \times 2/3 {
 
                         r4
+                        \!
 
                         \clef "tenorvarC"
                         c''4
+                        \mp
+                        - \accent
+                        \>
+                        <>
+                        \pp
 
                         r2
 
                         bqf'4
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         g'4
 
@@ -2045,11 +2523,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         d'16
+                        \p
+                        \<
 
                         aqs8
+                        <>
+                        \mp
 
                         r16
 
@@ -2067,13 +2550,20 @@
                         [
 
                         c'16
+                        \pp
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         e'8
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         c'16
+                        \mf
+                        \>
                         ]
 
                     }
@@ -2082,6 +2572,8 @@
                     ~
 
                     d'2.
+                    <>
+                    \p
 
                     r2
 
@@ -2095,14 +2587,23 @@
                         [
 
                         g16
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r8
+                        \!
 
                         e16
+                        \pp
+                        - \accent
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         fqs16
                         ]
+                        <>
+                        \mf
 
                     }
 
@@ -2134,6 +2635,9 @@
                     r2
 
                     e4
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     g4
 
@@ -2147,20 +2651,32 @@
                     d''4
 
                     gqs'2
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         r4
+                        \!
 
                         g'4
+                        \mp
+                        \>
+                        <>
+                        \pp
 
                         r2
 
                         b'4
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         g'4
+                        - \accent
 
                     }
 
@@ -2169,13 +2685,18 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         \revert Staff.Stem.stemlet-length
                         gqs'8
+                        \p
+                        \<
                         ]
 
                         fqs'4
+                        <>
+                        \mp
 
                         r8
 
@@ -2189,9 +2710,17 @@
 
                     \revert Staff.Stem.stemlet-length
                     d'8
+                    \pp
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     cs'4
+                    \mf
+                    - \tenuto
+                    \<
+                    <>
+                    \f
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -2199,14 +2728,22 @@
 
                     \revert Staff.Stem.stemlet-length
                     d''8
+                    \mf
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     r2
+                    \!
 
                     g2.
+                    \mp
+                    \<
                     ~
 
                     g2
+                    <>
+                    \mf
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
@@ -2232,8 +2769,11 @@
                     \times 4/5 {
 
                         aqs2.
+                        \mf
+                        \>
 
                         d'2
+                        - \accent
                         ~
 
                     }
@@ -2252,6 +2792,8 @@
                         e'2.
 
                         c'2
+                        <>
+                        \p
 
                     }
 
@@ -2261,13 +2803,22 @@
                         r4
 
                         d'4
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         r2
+                        \!
 
                         aqs4
+                        \pp
+                        - \accent
+                        \<
 
                         \clef "bass"
                         f4
+                        <>
+                        \mf
 
                     }
 
@@ -2277,12 +2828,16 @@
 
                     \revert Staff.Stem.stemlet-length
                     e8
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
                     ]
 
                     \clef "tenorvarC"
                     c''4
 
                     r2.
+                    \!
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -2295,12 +2850,20 @@
 
                     \revert Staff.Stem.stemlet-length
                     e8
+                    \mp
+                    \>
                     ]
+                    <>
+                    \pp
 
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     g8
+                    \mf
+                    - \accent
+                    - \tweak stencil #constante-hairpin
+                    \<
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2312,11 +2875,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         b16
+                        \p
+                        \<
 
                         g8
+                        <>
+                        \mp
 
                         r16
 
@@ -2332,12 +2900,19 @@
                         r4
 
                         gqs4
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         b2
+                        - \accent
 
                         r4
+                        \!
 
                         g4
+                        \mf
+                        \>
 
                     }
 
@@ -2346,22 +2921,31 @@
                     \times 3/5 {
 
                         fqs2.
+                        <>
+                        \p
 
                         r4
 
                         g4
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
                     r4
+                    \!
 
                     b4
+                    \pp
+                    \<
                     ~
 
                     b4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     gqs8
+                    - \accent
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2382,12 +2966,17 @@
                     ~
 
                     e4
+                    <>
+                    \mf
 
                     r2
 
                     r2.
 
                     e4
+                    \p
+                    - \tweak stencil #constante-hairpin
+                    \<
 
                     bqf4
                     ~
@@ -2402,6 +2991,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         e8
+                        - \accent
                         ]
 
                         g4
@@ -2424,13 +3014,22 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
+                        \!
                         [
 
                         bqf8
+                        \mp
+                        \>
+                        <>
+                        \pp
 
                         r4
 
                         e8
+                        \mf
+                        - \accent
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         \revert Staff.Stem.stemlet-length
                         bqf8
@@ -2443,11 +3042,16 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r16
+                        \!
                         [
 
                         b16
+                        \p
+                        \<
 
                         g8
+                        <>
+                        \mp
 
                         r16
 
@@ -2465,13 +3069,20 @@
                         [
 
                         b16
+                        \pp
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                         c'8
+                        - \accent
 
                         r16
+                        \!
 
                         \revert Staff.Stem.stemlet-length
                         eqf'16
+                        \mf
+                        \>
                         ]
 
                     }
@@ -2480,20 +3091,30 @@
                     \times 4/5 {
 
                         c'2.
+                        <>
+                        \p
 
                         r4
 
                         dqf'4
+                        \f
+                        - \tenuto
+                        - \tweak stencil #constante-hairpin
+                        \<
 
                     }
 
                     r2
+                    \!
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "8")
                     \times 6/7 {
 
                         eqs'4
+                        \mf
+                        - \accent
+                        \>
 
                         a'2
                         ~
@@ -2513,6 +3134,7 @@
                     ]
 
                     e'2.
+                    \mp
 
                     g'4
 

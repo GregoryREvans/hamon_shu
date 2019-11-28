@@ -10,10 +10,6 @@
 } %! LilyPondFile
 
 \score{
-%\keepWithTag #'voice1
-%\keepWithTag #'voice2
-%\keepWithTag #'voice3
-%\keepWithTag #'voice4
 	{
 	\include "Segment_I.ly"
     \include "Segment_II.ly"

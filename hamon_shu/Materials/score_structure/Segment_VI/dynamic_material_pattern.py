@@ -1,20 +1,36 @@
 from hamon_shu.Materials.dynamics.Segment_VI.dynamic_handlers import *
 
 
-key_list_1 = ["dynamic_handler_three", "dynamic_handler_two", "dynamic_handler_three"]
-
-key_list_2 = ["dynamic_handler_three", "dynamic_handler_two", "dynamic_handler_three"]
-
-key_list_3 = [
+key_list_1 = [
+    "dynamic_handler_one",
     "dynamic_handler_two",
     "dynamic_handler_three",
     "dynamic_handler_two",
-    "dynamic_handler_three",
 ]
 
-key_list_4 = ["dynamic_handler_three"]
+key_list_2 = [
+    "dynamic_handler_one",
+    "dynamic_handler_two",
+    "dynamic_handler_three",
+    "dynamic_handler_two",
+]
+
+key_list_3 = [
+    "dynamic_handler_one",
+    "dynamic_handler_two",
+    "dynamic_handler_three",
+    "dynamic_handler_two",
+]
+
+key_list_4 = [
+    "dynamic_handler_one",
+    "dynamic_handler_two",
+    "dynamic_handler_three",
+    "dynamic_handler_two",
+]
 
 dict = {
+    "dynamic_handler_one": dynamic_handler_one,
     "dynamic_handler_two": dynamic_handler_two,
     "dynamic_handler_three": dynamic_handler_three,
 }

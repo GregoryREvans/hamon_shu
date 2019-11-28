@@ -55,10 +55,35 @@ dynamic_target_timespan = abjad.Timespan(0, (225, 4))
 
 dynamic_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(
-        counts=([10, 16, 54, 39, 18, 23, 20, 14, 10, 36, 80]), denominator=8
+        counts=([
+            273,
+            289,
+            305,
+            321,
+            305,
+            307,
+            289,
+            273,
+            289,
+            305,
+            321,
+            323,
+            305,
+            289,
+            273,
+            289,
+            305,
+            339,
+            321,
+            305,
+            289,
+            273,
+            289,
+            323,
+        ]), denominator=32
     ),
     initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
-    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
+    silence_talea=rmakers.Talea(counts=([0]), denominator=2),
 )
 
 dynamic_timespan_list = dynamic_timespan_maker(

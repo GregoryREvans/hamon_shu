@@ -20,7 +20,7 @@ c = abjad.LilyPondLiteral(
             \with-color #black
             \right-column {
                 \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                \line { August 2018 \hspace #0.75 - \hspace #0.75 October 2019 }
+                \line { August 2018 \hspace #0.75 - \hspace #0.75 November 2019 }
             }
         }
     """,
@@ -38,7 +38,7 @@ maker = evans.SegmentMaker(
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=[[], [], [], []],
     add_final_grand_pause=True,
-    fermata="scripts.ufermata",
+    fermata="scripts.uverylongfermata",
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",

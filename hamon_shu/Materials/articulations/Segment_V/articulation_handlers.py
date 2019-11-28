@@ -3,7 +3,7 @@ import abjad
 
 
 articulation_handler_one = evans.BendHandler(
-        bend_amounts=[1, 2, -1, 3, -2, -1],
+        bend_amounts=[2, 3, -2, 4, -3, -2],
         bend_continuous=True,
         boolean_vector=[1, 0, 0],
         vector_continuous=True,
@@ -19,7 +19,7 @@ articulation_handler_two = evans.GlissandoHandler(
 )
 
 articulation_handler_three = evans.BendHandler(
-        bend_amounts=[5, 4, -3, 2, -1, -2, 3, -4, ],
+        bend_amounts=[6, 5, -4, 3, -2, -3, 4, -5, ],
         bend_continuous=True,
         boolean_vector=[1, 0, 0],
         vector_continuous=True,

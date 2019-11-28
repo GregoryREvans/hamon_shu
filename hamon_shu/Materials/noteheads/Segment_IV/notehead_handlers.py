@@ -4,11 +4,9 @@ import abjad
 
 notehead_handler_one = evans.NoteheadHandler(
     notehead_list=["harmonic-mixed", "triangle", "default", "triangle", "harmonic-mixed", "default"],
-    transition=True,
+    transition=False,
     head_boolean_vector=[0],
     head_vector_continuous=True,
-    transition_boolean_vector=[0],
-    transition_vector_continuous=True,
     continuous=True,
     count=-1,
     name="notehead handler one",
