@@ -1419,6 +1419,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
+                    \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -1429,10 +1430,9 @@
                     R1 * 1/16
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
-                            #"scripts.ufermata"                                %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
                         }                                                      %! applying ending skips
-                    \bar "|."
-                    \stopStaff                                                 %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -2613,6 +2613,7 @@
                     r1 * 1/8
 
                     R1 * 1/8
+                    \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -2622,10 +2623,9 @@
                     R1 * 1/16
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
-                            #"scripts.ufermata"                                %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
                         }                                                      %! applying ending skips
-                    \bar "|."
-                    \stopStaff                                                 %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -3854,6 +3854,7 @@
                     r1 * 1/8
 
                     R1 * 1/8
+                    \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -3863,10 +3864,9 @@
                     R1 * 1/16
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
-                            #"scripts.ufermata"                                %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
                         }                                                      %! applying ending skips
-                    \bar "|."
-                    \stopStaff                                                 %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 
@@ -5103,29 +5103,19 @@
                     \!                                                         %! applying indicators
 
                     R1 * 1/8
+                    \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
 
-                            _ \markup {
-                                \override #'(font-name . "Didot")
-                                \with-color #black
-                                \right-column {
-                                    \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 November 2019 }
-                                }
-                            }
-
-
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
-                            #"scripts.ufermata"                                %! applying ending skips
+                            #"scripts.ushortfermata"                           %! applying ending skips
                         }                                                      %! applying ending skips
-                    \bar "|."
-                    \stopStaff                                                 %! applying ending skips
+                    \stopStaff \startStaff                                     %! applying ending skips
 
                 }
 

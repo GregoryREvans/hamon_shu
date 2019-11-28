@@ -24,6 +24,7 @@ maker = evans.SegmentMaker(
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=[[abjad.StopHairpin()], [], [], []],
     add_final_grand_pause=True,
+    fermata="scripts.ufermata",
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",

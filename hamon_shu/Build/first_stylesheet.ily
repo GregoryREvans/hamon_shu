@@ -3,7 +3,7 @@
 \version "2.19.83"
 \language "english"
 #(set-default-paper-size "a4portrait")
-#(set-global-staff-size 13.5)
+#(set-global-staff-size 13)
 \include "ekmel.ily"
 \ekmelicStyle evans
 
@@ -24,7 +24,7 @@
 	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
-    ragged-right = ##t
+    %{ ragged-right = ##t %}
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
@@ -81,7 +81,7 @@
         \accepts TimeSignatureContext
 		\override BarLine.bar-extent = #'(-2 . 2)
 		\override BarLine.hair-thickness = #0.9
-		\override BarLine.thick-thickness = #2.7
+		\override BarLine.thick-thickness = #8
 		%\override BarLine.stencil = ##f
         \override Beam.breakable = ##t
 		\override Beam.concaveness = #10000
@@ -120,7 +120,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
 		%{ subdivideBeams = ##t %}
-		proportionalNotationDuration = #(ly:make-moment 1 35)
+		proportionalNotationDuration = #(ly:make-moment 1 38)
         tupletFullLength = ##t
     }
 	\context {
