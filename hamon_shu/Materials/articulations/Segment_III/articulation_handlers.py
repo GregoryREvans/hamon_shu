@@ -35,13 +35,7 @@ articulation_handler_two = evans.ArticulationHandler(
 )
 
 articulation_handler_three = evans.ArticulationHandler(
-    articulation_list=[
-        "accent",
-        "default",
-        "default",
-        "default",
-        "default",
-    ],
+    articulation_list=["accent", "default", "default", "default", "default"],
     continuous=True,
     name="articulation_handler_three",
 )

@@ -1,17 +1,9 @@
 from hamon_shu.Materials.noteheads.Segment_V.notehead_handlers import *
 
 
-key_list_1 = [
-    "notehead_handler_one",
-    "notehead_handler_two",
-    "notehead_handler_three",
-]
+key_list_1 = ["notehead_handler_one", "notehead_handler_two", "notehead_handler_three"]
 
-key_list_2 = [
-    "notehead_handler_one",
-    "notehead_handler_two",
-    "notehead_handler_three",
-]
+key_list_2 = ["notehead_handler_one", "notehead_handler_two", "notehead_handler_three"]
 
 key_list_3 = [
     "notehead_handler_two",

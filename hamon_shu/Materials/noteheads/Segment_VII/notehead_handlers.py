@@ -24,7 +24,7 @@ notehead_handler_two = evans.NoteheadHandler(
 )
 
 notehead_handler_three = evans.NoteheadHandler(
-    notehead_list=["harmonic-mixed", "harmonic-mixed", "default",],
+    notehead_list=["harmonic-mixed", "harmonic-mixed", "default"],
     transition=False,
     head_boolean_vector=[0, 0, 1, 0, 1, 0, 1],
     head_vector_continuous=True,

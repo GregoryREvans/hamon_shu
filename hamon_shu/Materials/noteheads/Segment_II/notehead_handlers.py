@@ -3,7 +3,14 @@ import abjad
 
 
 notehead_handler_one = evans.NoteheadHandler(
-    notehead_list=["harmonic-mixed", "triangle", "default", "triangle", "harmonic-mixed", "default"],
+    notehead_list=[
+        "harmonic-mixed",
+        "triangle",
+        "default",
+        "triangle",
+        "harmonic-mixed",
+        "default",
+    ],
     transition=True,
     head_boolean_vector=[0],
     head_vector_continuous=True,
@@ -27,7 +34,13 @@ notehead_handler_two = evans.NoteheadHandler(
 )
 
 notehead_handler_three = evans.NoteheadHandler(
-    notehead_list=["harmonic-mixed", "triangle", "triangle", "harmonic-mixed", "triangle",],
+    notehead_list=[
+        "harmonic-mixed",
+        "triangle",
+        "triangle",
+        "harmonic-mixed",
+        "triangle",
+    ],
     transition=False,
     head_boolean_vector=[0, 0, 1, 0, 1, 0, 1],
     head_vector_continuous=True,

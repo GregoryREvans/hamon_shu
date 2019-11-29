@@ -24,7 +24,7 @@ c = abjad.LilyPondLiteral(
             }
         }
     """,
-    format_slot="absolute_after"
+    format_slot="absolute_after",
 )
 
 maker = evans.SegmentMaker(
@@ -39,20 +39,20 @@ maker = evans.SegmentMaker(
     voicewise_persistent_indicators=[
         [
             abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up)
+            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
         ],
         [
             abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up)
+            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
         ],
         [
             abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up)
+            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
         ],
         [
             abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up)
-        ]
+            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
+        ],
     ],
     add_final_grand_pause=True,
     fermata="scripts.uverylongfermata",

@@ -24,9 +24,7 @@ rhythm_timespan_maker = TaleaTimespanMaker(
     synchronize_step=True,
     # synchronize_groupings=True,
     playing_talea=rmakers.Talea(counts=(padovan_1), denominator=4),
-    playing_groupings=(
-        padovan_3
-    ),
+    playing_groupings=(padovan_3),
     silence_talea=rmakers.Talea(counts=(padovan_2), denominator=4),
 )
 

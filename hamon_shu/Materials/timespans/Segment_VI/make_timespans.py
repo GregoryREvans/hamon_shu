@@ -24,9 +24,7 @@ rhythm_timespan_maker = TaleaTimespanMaker(
     # synchronize_step=True,
     # synchronize_groupings=True,
     playing_talea=rmakers.Talea(counts=(padovan_1), denominator=2),
-    playing_groupings=(
-        padovan_3
-    ),
+    playing_groupings=(padovan_3),
     silence_talea=rmakers.Talea(counts=(padovan_2), denominator=2),
 )
 
@@ -55,32 +53,35 @@ dynamic_target_timespan = abjad.Timespan(0, (225, 4))
 
 dynamic_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(
-        counts=([
-            273,
-            289,
-            305,
-            321,
-            305,
-            307,
-            289,
-            273,
-            289,
-            305,
-            321,
-            323,
-            305,
-            289,
-            273,
-            289,
-            305,
-            339,
-            321,
-            305,
-            289,
-            273,
-            289,
-            323,
-        ]), denominator=32
+        counts=(
+            [
+                273,
+                289,
+                305,
+                321,
+                305,
+                307,
+                289,
+                273,
+                289,
+                305,
+                321,
+                323,
+                305,
+                289,
+                273,
+                289,
+                305,
+                339,
+                321,
+                305,
+                289,
+                273,
+                289,
+                323,
+            ]
+        ),
+        denominator=32,
     ),
     initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
     silence_talea=rmakers.Talea(counts=([0]), denominator=2),
@@ -96,9 +97,7 @@ dynamic_timespan_list = dynamic_timespan_maker(
 articulation_target_timespan = abjad.Timespan(0, (225, 4))
 
 articulation_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(
-        counts=([225]), denominator=32
-    ),
+    playing_talea=rmakers.Talea(counts=([225]), denominator=32),
     initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
     silence_talea=rmakers.Talea(counts=([3, 4, 5, 6, 5, 4]), denominator=2),
 )

@@ -24,11 +24,7 @@ articulation_handler_one = evans.ArticulationHandler(
 )
 
 articulation_handler_two = evans.ArticulationHandler(
-    articulation_list=[
-        "default",
-    ],
-    continuous=True,
-    name="articulation_handler_two",
+    articulation_list=["default"], continuous=True, name="articulation_handler_two"
 )
 
 articulation_handler_three = evans.ArticulationHandler(
