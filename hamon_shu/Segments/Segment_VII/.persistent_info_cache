@@ -46,3 +46,51 @@ voice_2
 voice_3
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "Didot")\n            \\with-color #black\n            \\right-column {\n                \\line { Miami, Fl. \\hspace #0.75 - \\hspace #0.75 Iowa City, Ia. }\n                \\line { August 2018 \\hspace #0.75 - \\hspace #0.75 November 2019 }\n            }\n        }\n    ', format_slot='absolute_after')]
 
+2019-12-01 16:09:43.987002
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:09:43.989695
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:09:43.990963
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:09:43.992232
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "Didot")\n            \\with-color #black\n            \\right-column {\n                \\line { Miami, Fl. \\hspace #0.75 - \\hspace #0.75 Iowa City, Ia. }\n                \\line { August 2018 \\hspace #0.75 - \\hspace #0.75 November 2019 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2019-12-01 16:13:45.432348
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:13:45.433749
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:13:45.434808
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:13:45.435935
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "Didot")\n            \\with-color #black\n            \\right-column {\n                \\line { Miami, Fl. \\hspace #0.75 - \\hspace #0.75 Iowa City, Ia. }\n                \\line { August 2018 \\hspace #0.75 - \\hspace #0.75 November 2019 }\n            }\n        }\n    ', format_slot='absolute_after')]
+
+2019-12-01 16:15:01.842263
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:15:01.843716
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:15:01.844827
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-12-01 16:15:01.845996
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), LilyPondLiteral('\n        _ \\markup {\n            \\override #\'(font-name . "Didot")\n            \\with-color #black\n            \\right-column {\n                \\line { Miami, Fl. \\hspace #0.75 - \\hspace #0.75 Iowa City, Ia. }\n                \\line { August 2018 \\hspace #0.75 - \\hspace #0.75 November 2019 }\n            }\n        }\n    ', format_slot='absolute_after')]
+

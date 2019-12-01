@@ -35,6 +35,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -47,6 +48,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -59,6 +61,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 9/8                                                          %! scaling time signatures
             s1 * 9/8
@@ -71,6 +74,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -83,6 +87,7 @@
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            \pageBreak
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -96,6 +101,7 @@
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
+            \pageBreak
 
         }
 
@@ -131,21 +137,14 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \ottava 0
-                    r1 * 1/2
+                    r1
 
-                    R1 * 1/2
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
+                    r2.
 
-                    R1 * 3/8
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
-
-                    R1 * 5/8
+                    r2
 
                     cs''2
                     - \tenuto
@@ -196,10 +195,9 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2.
 
-                    R1 * 5/8
+                    r2
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
@@ -246,41 +244,30 @@
                     \ottava 1
                     bf'''2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \ottava 0
-                    r1 * 5/8
+                    r2.
 
-                    R1 * 5/8
+                    r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
+                    r2.
 
-                    R1 * 3/8
+                    r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r4.
 
-                    R1 * 1/4
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4.
 
-                    R1 * 5/16
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4.
 
-                    R1 * 5/16
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r2.
 
-                    R1 * 5/16
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 9/16
-
-                    R1 * 9/16
+                    r4.
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -334,16 +321,12 @@
 
                     d'''2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \ottava 0
-                    r1 * 3/8
+                    r2.
 
-                    R1 * 3/8
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
-
-                    R1 * 5/8
+                    r2
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
@@ -427,10 +410,9 @@
                     \ottava 0
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2.
 
-                    R1 * 5/8
+                    r2
 
                     r4
 
@@ -506,25 +488,21 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4.
 
-                    R1 * 5/16
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4.
 
-                    R1 * 5/16
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4.
 
-                    R1 * 5/16
+                    r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 9/16
+                    r2.
 
-                    R1 * 9/16
+                    r4.
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -567,20 +545,13 @@
                     \clef "varC"
                     e2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/2
+                    r1
 
-                    R1 * 1/2
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
+                    r2.
 
-                    R1 * 3/8
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
-
-                    R1 * 5/8
+                    r2
 
                     e'2
                     - \tenuto
@@ -596,20 +567,13 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r2
 
-                    R1 * 1/4
+                    r1
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/2
+                    r2.
 
-                    R1 * 1/2
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
-
-                    R1 * 5/8
+                    r2
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
@@ -800,10 +764,9 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2.
 
-                    R1 * 5/8
+                    r2
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
@@ -843,45 +806,31 @@
 
                     r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r2
 
-                    R1 * 1/4
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2
 
-                    R1 * 5/8
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
+                    r2
 
-                    R1 * 3/8
+                    r4.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r4
 
-                    R1 * 1/4
+                    r4.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4
 
-                    R1 * 5/16
+                    r4.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
+                    r4
 
-                    R1 * 5/16
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/16
-
-                    R1 * 5/16
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 9/16
-
-                    R1 * 9/16
+                    r4.
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips

@@ -35,6 +35,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            \pageBreak
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -50,6 +51,7 @@
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -65,6 +67,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            \pageBreak
 
             \time 9/8                                                          %! scaling time signatures
             s1 * 9/8
@@ -80,6 +83,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -95,6 +99,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -110,6 +115,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            \pageBreak
 
         }
 
@@ -228,10 +234,7 @@
                     r4
                     ]
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
@@ -503,10 +506,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cs'8
@@ -603,10 +603,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     r4
 
@@ -822,11 +819,8 @@
                     \markup { "vln. II" }                                      %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin II" }                                    %! applying staff names and clefs
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \clef "treble"
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     r8
 
@@ -949,10 +943,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 7/16
-
-                    R1 * 7/16
+                    r2..
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -1349,10 +1340,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     r8
 
@@ -1607,11 +1595,8 @@
                     \markup { vla. }                                           %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \clef "varC"
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
@@ -1643,10 +1628,7 @@
 
                     r8
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/16
-
-                    R1 * 3/16
+                    r4.
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
@@ -1930,11 +1912,8 @@
                     \<
                     ]
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/8
+                    r4
+                    \!
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
@@ -1958,10 +1937,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     r8
 
@@ -2102,15 +2078,9 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
+                    r2.
 
-                    R1 * 3/8
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     r4
 
@@ -2279,10 +2249,7 @@
 
                     r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
                     \bar "||"
 
                 }
@@ -2470,10 +2437,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 23 24) "32")
@@ -2616,10 +2580,7 @@
 
                     r1
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 7) "8")
@@ -2798,10 +2759,7 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
@@ -3009,10 +2967,7 @@
                     <>
                     \mf
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
+                    r4
                     \bar "||"
 
                 }

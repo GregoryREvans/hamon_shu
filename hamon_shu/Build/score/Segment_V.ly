@@ -17,6 +17,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -29,6 +30,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -41,6 +43,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -53,6 +56,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -65,6 +69,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -77,6 +82,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -89,6 +95,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -101,6 +108,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -113,6 +121,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -125,6 +134,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -137,6 +147,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -149,6 +160,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -161,6 +173,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -173,6 +186,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -185,6 +199,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -197,6 +212,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -209,6 +225,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -221,6 +238,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -233,6 +251,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -245,6 +264,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -257,6 +277,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -269,6 +290,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -281,6 +303,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -293,6 +316,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -305,6 +329,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
         }
 
@@ -368,11 +393,8 @@
                     bqf'1
                     - \bendAfter #'3
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 3/8
+                    r2.
+                    \!
 
                     \scaleDurations #'(1 . 1) {
 
@@ -880,10 +902,7 @@
                     <>
                     \mp
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
 
                     e''2.
                     \pp
@@ -1136,11 +1155,8 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 3/8
+                    r2.
+                    \!
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
@@ -1162,10 +1178,7 @@
                     <>
                     \mf
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     aqs4
                     \f
@@ -2268,10 +2281,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqs'2.
@@ -2305,10 +2315,7 @@
                     <>
                     \mf
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     aqs2
@@ -2427,11 +2434,8 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 3/8
+                    r2.
+                    \!
 
                     d'2
                     \p
@@ -2439,15 +2443,11 @@
                     <>
                     \mp
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2.
 
-                    R1 * 5/8
+                    r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
                     \bar "||"
 
                 }
@@ -2543,11 +2543,8 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8.
@@ -3095,11 +3092,8 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     r4
 
@@ -3171,11 +3165,8 @@
                     bqs4
                     - \bendAfter #'-2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     c''2.
                     \mf
@@ -3389,11 +3380,8 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     r4
 
@@ -3423,11 +3411,8 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 3/8
+                    r2.
+                    \!
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
@@ -3539,20 +3524,13 @@
 
                     r2
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r2
 
-                    R1 * 1/4
+                    r2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 5/8
+                    r2
 
-                    R1 * 5/8
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
                     \bar "||"
 
                 }
@@ -3920,11 +3898,8 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
@@ -4390,10 +4365,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     \once \override Staff.NoteHead.style = #'default
                     f1
@@ -4600,11 +4572,8 @@
 
                     ef'2.
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-                    \!                                                         %! applying indicators
-
-                    R1 * 1/4
+                    r2
+                    \!
 
                     \once \override Staff.NoteHead.style = #'triangle
                     fs'2.
@@ -4629,11 +4598,8 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-                    \!                                                         %! applying indicators
-
-                    R1 * 3/8
+                    r2.
+                    \!
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {

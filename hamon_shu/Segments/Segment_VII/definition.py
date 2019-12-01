@@ -72,6 +72,7 @@ maker = evans.SegmentMaker(
     barline="|.",
     tempo=((1, 4), 40),
     rehearsal_mark="F",
+    page_break_counts=[3, 4, 4, 4, 4, 4],
     colophon=c,
     midi=False,
 )

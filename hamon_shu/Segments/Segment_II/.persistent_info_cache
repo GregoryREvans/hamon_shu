@@ -718,3 +718,51 @@ voice_2
 voice_3
 [LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin(), StopTextSpan(command='\\stopTextSpanOne'), StartTextSpan(command='\\startTextSpanOne', concat_hspace_left=0.5, left_text=Markup(contents=['\\center-column { \\center-align \\vcenter \\upright \\fraction 1 2 }'], literal=True), right_padding=3, style='invisible-line', tweaks=LilyPondTweakManager(('_literal', None), ('staff_padding', 6))), StopTextSpan(command='\\stopTextSpanTwo')]
 
+2019-11-29 09:00:39.128464
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:00:39.132273
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-11-29 09:00:39.135421
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:00:39.136928
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin(), StopTextSpan(command='\\stopTextSpanOne'), StartTextSpan(command='\\startTextSpanOne', concat_hspace_left=0.5, left_text=Markup(contents=['\\center-column { \\center-align \\vcenter \\upright \\fraction 1 2 }'], literal=True), right_padding=3, style='invisible-line', tweaks=LilyPondTweakManager(('_literal', None), ('staff_padding', 6))), StopTextSpan(command='\\stopTextSpanTwo')]
+
+2019-11-29 09:10:54.563765
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:10:54.565374
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-11-29 09:10:54.567214
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:10:54.568440
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin(), StopTextSpan(command='\\stopTextSpanOne'), StartTextSpan(command='\\startTextSpanOne', concat_hspace_left=0.5, left_text=Markup(contents=['\\center-column { \\center-align \\vcenter \\upright \\fraction 1 2 }'], literal=True), right_padding=3, style='invisible-line', tweaks=LilyPondTweakManager(('_literal', None), ('staff_padding', 6))), StopTextSpan(command='\\stopTextSpanTwo')]
+
+2019-11-29 09:21:59.228030
+voice_0
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:21:59.229746
+voice_1
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before')]
+
+2019-11-29 09:21:59.231695
+voice_2
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopTextSpan(command='\\stopTextSpanOne')]
+
+2019-11-29 09:21:59.233056
+voice_3
+[LilyPondLiteral('\\stopStaff \\once \\override Staff.StaffSymbol.line-count = #0 \\startStaff', format_slot='before'), LilyPondLiteral('\\once \\override Rest.color = #white', format_slot='before'), StopHairpin(), StopTextSpan(command='\\stopTextSpanOne'), StartTextSpan(command='\\startTextSpanOne', concat_hspace_left=0.5, left_text=Markup(contents=['\\center-column { \\center-align \\vcenter \\upright \\fraction 1 2 }'], literal=True), right_padding=3, style='invisible-line', tweaks=LilyPondTweakManager(('_literal', None), ('staff_padding', 6))), StopTextSpan(command='\\stopTextSpanTwo')]
+

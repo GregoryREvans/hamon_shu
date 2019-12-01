@@ -49,7 +49,7 @@ pitch_timespan_list = pitch_timespan_maker(
 #########
 # dynamic#
 #########
-dynamic_target_timespan = abjad.Timespan(0, 45)
+dynamic_target_timespan = abjad.Timespan(0, 50)
 
 dynamic_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(

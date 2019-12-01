@@ -29,6 +29,7 @@
                     }
                 }
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -41,6 +42,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -59,6 +61,7 @@
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
+            \pageBreak
 
         }
 
@@ -185,10 +188,7 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/8
-
-                    R1 * 3/8
+                    r2.
 
                     dqs'2
 
@@ -246,15 +246,9 @@
 
                     r8
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r2
 
-                    R1 * 1/4
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/16
-
-                    R1 * 3/16
+                    r4.
                     \bar "||"
 
                 }
@@ -527,15 +521,9 @@
 
                     }
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
+                    r2
 
-                    R1 * 1/4
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/16
-
-                    R1 * 3/16
+                    r4.
                     \bar "||"
 
                 }
@@ -842,10 +830,7 @@
 
                     r4
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 3/16
-
-                    R1 * 3/16
+                    r4.
                     \bar "||"
 
                 }
@@ -1071,10 +1056,7 @@
                     r8
                     \!
 
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/4
-
-                    R1 * 1/4
+                    r2
 
                     r8
 
