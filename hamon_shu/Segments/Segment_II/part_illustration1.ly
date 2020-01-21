@@ -3,6 +3,7 @@
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
+\include "/Users/evansdsg2/evans/evans/lilypond/evans-markups.ily" 
 
 \header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
@@ -96,7 +97,7 @@
             - \tweak bound-details.left.text \markup {
                 \concat
                     {
-                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                        \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.20 \upright \fraction 1 2 }
                         \hspace
                             #0.5
                     }
@@ -133,7 +134,7 @@
             - \tweak bound-details.left.text \markup {
                 \concat
                     {
-                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                        \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.20 \upright \fraction 1 4 }
                         \hspace
                             #0.5
                     }

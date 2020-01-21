@@ -297,12 +297,16 @@
                     \markup { "vln. I" }                                       %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \clef "treble"
-                    r2
+                    r1 * 1/4
 
-                    r2.
+                    R1 * 1/4
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+
+                    R1 * 5/8
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 1
@@ -325,7 +329,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -345,7 +349,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -366,7 +370,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 0
                     \revert Staff.Stem.stemlet-length
-                    b8.
+                    bes8.
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -386,7 +390,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                 \hspace
                                     #0.5
                             }
@@ -396,24 +400,17 @@
                     \startTextSpanOne
                     ]
 
-                    r4
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r2.
-                    \stopTextSpanOne
+                    R1 * 1/8
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+
+                    R1 * 3/8
 
                     \once \override Staff.NoteHead.style = #'default
                     a'1
@@ -435,7 +432,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 0 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 }
                                 \hspace
                                     #0.5
                             }
@@ -452,7 +449,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -472,28 +469,16 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf''4
 
-                    r2.
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 1 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r2
-                    \stopTextSpanOne
+                    R1 * 5/8
 
                     r4
 
-                    af'2.
+                    gtes'2.
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -509,10 +494,10 @@
                     \>
                     ~
 
-                    af'4
+                    gtes'4
                     ~
 
-                    af'2
+                    gtes'2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -531,9 +516,12 @@
                     r2.
                     \!
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
 
-                    a4
+                    R1 * 1/8
+
+                    aes4
                     \pppp
                     \<
                     - \abjad-dashed-line-with-arrow
@@ -572,15 +560,15 @@
 
                         eqf'4.
 
-                        af'4
+                        gtes'4
                         ~
 
                     }
 
-                    af'4
+                    gtes'4
                     ~
 
-                    af'4
+                    gtes'4
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -665,7 +653,10 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
@@ -733,7 +724,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                     \hspace
                                         #0.5
                                 }
@@ -745,14 +736,14 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'2.
+                    bes'2.
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -762,23 +753,23 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'2
+                    bes'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'4
+                    bes'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'2
+                    bes'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'4.
+                    bes'4.
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b'8
+                    bes'8
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -786,16 +777,16 @@
                     \times 5/2 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        b'4
+                        bes'4
 
-                        bf'4
+                        ates'4
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -806,23 +797,14 @@
 
                     }
 
-                    bf'4
+                    ates'4
 
-                    r2
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
+
+                    R1 * 1/4
 
                     g''4
                     _ #(make-dynamic-script
@@ -838,7 +820,6 @@
                             )
                         )
                     \>
-                    \stopTextSpanOne
                     ~
 
                     g''4
@@ -876,7 +857,7 @@
                     \<
 
                     \once \override Staff.NoteHead.style = #'default
-                    c'''4
+                    btes''4
                     \!
                     \pppp
                     - \tweak stencil #constante-hairpin
@@ -910,11 +891,11 @@
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    c'''2.
+                    btes''2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    c'''2
+                    btes''2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     f'4
@@ -994,27 +975,27 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 0
-                    b2
+                    bes2
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        b1
+                        bes1
                         ~
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        b4
+                        bes4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b4
+                    bes4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b2
+                    bes2
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1030,7 +1011,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    fs''2
+                    gtef''2
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
@@ -1043,7 +1024,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    ef'''2
+                    etef'''2
                     \!
                     _ #(make-dynamic-script
                         (markup
@@ -1064,7 +1045,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1073,23 +1054,23 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    ef'''4
+                    etef'''4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ef'''8
+                    etef'''8
                     [
 
                     \ottava 0
                     \revert Staff.Stem.stemlet-length
-                    a8
+                    aes8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1099,10 +1080,10 @@
                     \startTextSpanOne
                     ]
 
-                    a2
+                    aes2
                     ~
 
-                    a2
+                    aes2
 
                     \ottava 1
                     fqs'''1
@@ -1111,7 +1092,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 0 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1121,14 +1102,14 @@
                     \startTextSpanOne
 
                     \ottava 0
-                    a4
+                    aes4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -1137,10 +1118,10 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    a1
+                    aes1
                     ~
 
-                    a2
+                    aes2
 
                     aqf4
                     \stopTextSpanOne
@@ -1149,7 +1130,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1160,28 +1141,19 @@
 
                     aqf1
 
-                    r4
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r2.
-                    \stopTextSpanOne
+                    R1 * 1/8
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
 
-                    a1
+                    R1 * 5/8
+
+                    aes1
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -1197,7 +1169,7 @@
                     \<
                     ~
 
-                    a2
+                    aes2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -1258,10 +1230,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
-                        bf'1
+                        ates'1
 
                         \once \override Staff.NoteHead.style = #'default
-                        af'2.
+                        gtes'2.
                         ~
 
                     }
@@ -1271,7 +1243,7 @@
                     \times 3/5 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        af'4
+                        gtes'4
 
                         b''1
                         ~
@@ -1302,7 +1274,10 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'2
@@ -1336,7 +1311,7 @@
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    ef'4
+                    dtes'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1344,11 +1319,11 @@
                     \times 10/11 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        ef'2
+                        dtes'2
                         ~
 
                         \once \override Staff.NoteHead.style = #'default
-                        ef'8
+                        dtes'8
 
                         \ottava 1
                         fqs'''2.
@@ -1440,12 +1415,16 @@
                     \markup { "vln. II" }                                      %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin II" }                                    %! applying staff names and clefs
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \clef "treble"
-                    r2
+                    r1 * 1/4
 
-                    r2.
+                    R1 * 1/4
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+
+                    R1 * 5/8
 
                     f'2.
                     _ #(make-dynamic-script
@@ -1467,7 +1446,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1492,7 +1471,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 7 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 7 }
                                     \hspace
                                         #0.5
                                 }
@@ -1531,7 +1510,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 7 }
                                 \hspace
                                     #0.5
                             }
@@ -1545,32 +1524,19 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fs''8
+                    gtef''8
                     \stopTextSpanOne
                     ~
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 4 7 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
                     ]
 
-                    fs''2
-                    \stopTextSpanOne
+                    gtef''2
                     ~
 
-                    fs''1
+                    gtef''1
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fs''8
+                    gtef''8
                     [
 
                     \once \override Staff.NoteHead.style = #'default
@@ -1618,21 +1584,21 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \ottava 0
-                        fs''2.
+                        gtef''2.
 
                         \once \override Staff.NoteHead.style = #'default
                         \ottava 1
-                        ef'''8
+                        etef'''8
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    ef'''4
+                    etef'''4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    ef'''4
+                    etef'''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     fqs'''1
@@ -1662,7 +1628,7 @@
                     \stopTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    a4
+                    aes4
                     \mp
                     \>
                     ~
@@ -1694,11 +1660,11 @@
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    a4
+                    aes4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 1
-                    ef'''4
+                    etef'''4
 
                     \once \override Staff.NoteHead.style = #'default
                     d'''2.
@@ -1734,7 +1700,10 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     r2
 
@@ -1825,7 +1794,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1843,24 +1812,14 @@
                     r4
                     \!
                     \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 0 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
                     ]
 
                     r2
-                    \stopTextSpanOne
 
-                    r2.
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+
+                    R1 * 3/8
 
                     c''4
                     _ #(make-dynamic-script
@@ -1881,7 +1840,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -1912,7 +1871,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1921,28 +1880,24 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    r2.
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r2
-                    \stopTextSpanOne
+                    R1 * 3/8
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
 
-                    b'4
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+
+                    bes'4
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -1962,7 +1917,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1972,18 +1927,18 @@
                     \startTextSpanOne
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    b'8
+                    bes'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    c'''8
+                    btes''8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 0 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 }
                                 \hspace
                                     #0.5
                             }
@@ -1993,31 +1948,31 @@
                     \startTextSpanOne
                     ]
 
-                    c'''4.
+                    btes''4.
                     ~
 
-                    c'''8
+                    btes''8
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
-                        c'''2
+                        btes''2
                         ~
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        c'''8
+                        btes''8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        b'8
+                        bes'8
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                     \hspace
                                         #0.5
                                 }
@@ -2034,7 +1989,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -2050,23 +2005,10 @@
 
                     g''4
 
-                    bf'2
+                    ates'2
                     \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
 
                     eqf'4
-                    \stopTextSpanOne
                     ~
 
                     eqf'4
@@ -2075,7 +2017,7 @@
                     \!
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    cs'2
+                    ctes'2
                     \pppp
                     \<
                     ~
@@ -2107,7 +2049,7 @@
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    cs'4
+                    ctes'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -2115,7 +2057,7 @@
                     \times 5/7 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        cs'2.
+                        ctes'2.
 
                         bqf''1
                         ~
@@ -2155,7 +2097,10 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
 
                     r4
 
@@ -2255,7 +2200,7 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     \ottava 1
-                    ef'''2
+                    etef'''2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -2274,7 +2219,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 3 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 3 7 }
                                 \hspace
                                     #0.5
                             }
@@ -2284,18 +2229,18 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'default
-                    ef'''4
+                    etef'''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 0
-                    a2.
+                    aes2.
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 2 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 2 7 }
                                 \hspace
                                     #0.5
                             }
@@ -2305,7 +2250,7 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    a2
+                    aes2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -2321,21 +2266,12 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r1
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 7 7 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/2
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
+
+                    R1 * 1/2
 
                     \ottava 1
                     fqs'''4
@@ -2353,13 +2289,12 @@
                         )
                     - \tweak stencil #constante-hairpin
                     \<
-                    \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 6 7 }
                                 \hspace
                                     #0.5
                             }
@@ -2375,13 +2310,13 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     \ottava 0
-                    af'2
+                    gtes'2
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 5 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 5 7 }
                                 \hspace
                                     #0.5
                             }
@@ -2390,14 +2325,14 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    b'1
+                    bes'1
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 6 7 }
                                 \hspace
                                     #0.5
                             }
@@ -2406,29 +2341,16 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    b'4
+                    bes'4
                     ~
 
-                    b'1
+                    bes'1
 
                     g''4
                     \stopTextSpanOne
                     ~
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 1 2 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
 
                     g''1
-                    \stopTextSpanOne
                     ~
 
                     g''2
@@ -2490,7 +2412,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 0
-                    ef'2.
+                    dtes'2.
 
                     \once \override Staff.NoteHead.style = #'default
                     \ottava 1
@@ -2558,14 +2480,26 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r4
-                    \!
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
 
-                    r1
+                    R1 * 1/8
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/2
 
-                    r4
+                    R1 * 1/2
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
@@ -2596,8 +2530,11 @@
                     \markup { vla. }                                           %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
                     \clef "varC"
-                    r2
+                    r1 * 1/4
+
+                    R1 * 1/4
 
                     gqf2.
                     _ #(make-dynamic-script
@@ -2618,7 +2555,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                 \hspace
                                     #0.5
                             }
@@ -2641,7 +2578,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 0 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -2659,7 +2596,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                     \hspace
                                         #0.5
                                 }
@@ -2672,14 +2609,14 @@
 
                     b''8
 
-                    b4
+                    bes4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -2688,7 +2625,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    b4
+                    bes4
 
                     a'2.
                     \stopTextSpanOne
@@ -2697,7 +2634,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                 \hspace
                                     #0.5
                             }
@@ -2728,7 +2665,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -2751,24 +2688,11 @@
                         \ottava 1
                         d'''2
                         \stopTextSpanOne
-                        - \abjad-invisible-line
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \center-column { \center-align \vcenter \upright \fraction 0 4 }
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #6
-                        \startTextSpanOne
 
                     }
 
                     \ottava 0
-                    fs''1
-                    \stopTextSpanOne
+                    gtef''1
 
                     \clef "varC"
                     \override Staff.Stem.stemlet-length = 0.75
@@ -2776,7 +2700,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    d8
+                    des8
                     ~
                     ]
 
@@ -2784,10 +2708,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
-                        d2
+                        des2
                         ~
 
-                        d8
+                        des8
                         _ #(make-dynamic-script
                             (markup
                                 #:whiteout
@@ -2837,7 +2761,7 @@
 
                     }
 
-                    a4
+                    aes4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf'2.
@@ -2863,19 +2787,25 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r2.
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r4
+                    R1 * 3/8
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        af'4
+                        gtes'4
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2907,13 +2837,13 @@
                         \startTextSpanThree
 
                         \clef "treble"
-                        fs''2..
+                        gtef''2..
                         ~
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fs''8
+                    gtef''8
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2935,10 +2865,13 @@
                     \startTextSpanTwo
                     ]
 
-                    r2
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
+
+                    R1 * 1/4
 
                     f'4
                     \ppp
@@ -3025,7 +2958,7 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "varC"
-                        fs2
+                        ftes2
                         \!
                         _ #(make-dynamic-script
                             (markup
@@ -3047,7 +2980,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -3063,13 +2996,13 @@
                     \times 3/2 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fs2
+                        ftes2
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fs4
+                    ftes4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
@@ -3083,7 +3016,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -3094,14 +3027,14 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "varC"
-                        fs2
+                        ftes2
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -3113,24 +3046,24 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fs2
+                    ftes2
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    fs8
+                    ftes8
                     [
 
                     \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
-                    cs'8
+                    ctes'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -3141,15 +3074,15 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'default
-                    cs'2
+                    ctes'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    cs'4
+                    ctes'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    cs'4
+                    ctes'4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     aqf4
@@ -3159,7 +3092,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3176,14 +3109,14 @@
                         aqf8
 
                         \once \override Staff.NoteHead.style = #'default
-                        a4.
+                        aes4.
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 7 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 7 }
                                     \hspace
                                         #0.5
                                 }
@@ -3195,7 +3128,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    a8
+                    aes8
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf'2.
@@ -3205,7 +3138,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3222,13 +3155,13 @@
                     eqf'4
 
                     \once \override Staff.NoteHead.style = #'default
-                    a4
+                    aes4
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 3 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 3 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3245,7 +3178,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 2 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 2 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3274,25 +3207,13 @@
                     r2
                     \!
                     \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 7 7 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "8")
                     \times 6/7 {
 
                         \clef "treble"
-                        c'''2
+                        btes''2
                         _ #(make-dynamic-script
                             (markup
                                 #:whiteout
@@ -3307,16 +3228,15 @@
                             )
                         - \tweak stencil #constante-hairpin
                         \<
-                        \stopTextSpanOne
                         ~
 
-                        c'''8
+                        btes''8
 
-                        b'4
+                        bes'4
 
                     }
 
-                    bf'2
+                    ates'2
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3349,7 +3269,7 @@
                     \startTextSpanThree
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bf'8
+                    ates'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3379,7 +3299,7 @@
 
                     gqf2
 
-                    b1
+                    bes1
 
                     a'2
                     ~
@@ -3392,17 +3312,17 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    b8
+                    bes8
                     ~
                     ]
 
-                    b2
+                    bes2
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
-                        b4
+                        bes4
 
                         gqf8
 
@@ -3437,26 +3357,37 @@
                     \stopTextSpanThree
                     ]
 
-                    r2.
-                    \!
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+                    \!                                                         %! applying indicators
 
-                    r2
+                    R1 * 5/8
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
 
-                    cs''1
+                    R1 * 1/8
+
+                    \clef "treble"
+                    dtef''1
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r2
-                    \!
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+                    \!                                                         %! applying indicators
+
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     r4
 
-                    r4
-
-                    af'4
+                    gtes'4
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -3476,7 +3407,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -3485,23 +3416,23 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    af'4
+                    gtes'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
-                        af'2
+                        gtes'2
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        a1
+                        aes1
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -3518,7 +3449,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -3551,7 +3482,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 }
                                 \hspace
                                     #0.5
                             }
@@ -3568,32 +3499,19 @@
 
                     aqf1
 
-                    cs'4
-                    \stopTextSpanOne
-                    ~
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 0 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
-
-                    cs'1
+                    ctes'4
                     \stopTextSpanOne
                     ~
 
-                    cs'2
+                    ctes'1
                     ~
 
-                    cs'4
+                    ctes'2
+                    ~
 
-                    af'2
+                    ctes'4
+
+                    gtes'2
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3628,7 +3546,7 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    bf'4
+                    ates'4
                     \ppp
                     \>
                     ~
@@ -3659,11 +3577,11 @@
                     - \tweak staff-padding #10
                     \startTextSpanThree
 
-                    bf'4
+                    ates'4
 
                     eqf'2
 
-                    bf'2
+                    ates'2
                     \pppp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3682,12 +3600,18 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r2.
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r4
+                    R1 * 3/8
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
@@ -3723,15 +3647,16 @@
                         - \tweak staff-padding #10
                         \startTextSpanThree
 
-                        cs4
+                        \clef "varC"
+                        ctes4
                         ~
 
                     }
 
-                    cs4
+                    ctes4
                     ~
 
-                    cs2.
+                    ctes2.
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -3747,22 +3672,38 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r2.
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r2
+                    R1 * 5/8
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
 
-                    r4
+                    R1 * 1/4
 
-                    r1
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
 
-                    r2
+                    R1 * 1/8
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/2
+
+                    R1 * 1/2
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
@@ -3795,7 +3736,7 @@
                     \markup { Violoncello }                                    %! applying staff names and clefs
                     \once \override Staff.NoteHead.style = #'default
                     \clef "bass"
-                    b,2
+                    bef,2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -3814,7 +3755,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 6 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3824,17 +3765,17 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'default
-                    b,1
+                    bef,1
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    g,4
+                    ges,4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 5 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 5 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3846,27 +3787,27 @@
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        g,1
+                        ges,1
                         ~
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        g,8
+                        ges,8
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    g,8
+                    ges,8
 
                     \once \override Staff.NoteHead.style = #'default
-                    a,4
+                    aes,4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 6 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 6 7 }
                                 \hspace
                                     #0.5
                             }
@@ -3876,7 +3817,7 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'default
-                    a,4
+                    aes,4
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -3892,24 +3833,14 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r2.
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 1 2 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
+
+                    R1 * 3/8
 
                     r2.
-                    \stopTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf2
@@ -3932,7 +3863,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 }
                                 \hspace
                                     #0.5
                             }
@@ -3956,7 +3887,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                 \hspace
                                     #0.5
                             }
@@ -3976,26 +3907,17 @@
 
                     }
 
-                    r4
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r2.
-                    \stopTextSpanOne
+                    R1 * 1/8
 
-                    r2
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/8
+
+                    R1 * 5/8
 
                     dqf4
                     \mp
@@ -4033,12 +3955,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    g,8
+                    ges,8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    g,8
+                    ges,8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -4055,7 +3977,7 @@
 
                         bf,4.
 
-                        g,8
+                        ges,8
 
                         dqf4.
                         ~
@@ -4089,9 +4011,12 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
 
-                    g,4
+                    R1 * 1/8
+
+                    ges,4
                     \ppp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -4122,17 +4047,17 @@
                     - \tweak staff-padding #10
                     \startTextSpanThree
 
-                    cs4
+                    ctes4
                     ~
 
-                    cs4
+                    ctes4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        cs4
+                        ctes4
 
                         \clef "treble"
                         e''2.
@@ -4159,14 +4084,18 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r4.
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 5/16
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r4
+                    R1 * 5/16
 
-                    r2..
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 7/16
+
+                    R1 * 7/16
 
                     c''2.
                     \pppp
@@ -4202,7 +4131,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 2 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 }
                                 \hspace
                                     #0.5
                             }
@@ -4234,24 +4163,17 @@
 
                     }
 
-                    r2
-                    \!
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 1 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+                    \!                                                         %! applying indicators
+                    \stopTextSpanOne                                           %! applying indicators
 
-                    r4
-                    \stopTextSpanOne
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     r4
 
@@ -4276,7 +4198,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 4 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 }
                                 \hspace
                                     #0.5
                             }
@@ -4305,21 +4227,11 @@
                     r4
                     \!
                     \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
 
-                    r4
-                    \stopTextSpanOne
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     r2
 
@@ -4328,7 +4240,7 @@
                     \times 6/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        a4.
+                        aes4.
                         _ #(make-dynamic-script
                             (markup
                                 #:whiteout
@@ -4346,7 +4258,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 0 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -4358,31 +4270,18 @@
                         aqf4
                         \stopTextSpanOne
                         ~
-                        - \abjad-invisible-line
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \center-column { \center-align \vcenter \upright \fraction 1 2 }
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #6
-                        \startTextSpanOne
 
                     }
 
                     aqf4
-                    \stopTextSpanOne
 
-                    cs'4
+                    ctes'4
                     ~
 
-                    cs'4
+                    ctes'4
                     ~
 
-                    cs'4
+                    ctes'4
 
                     \clef "tenorvarC"
                     a'2
@@ -4401,7 +4300,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    b2
+                    bes2
                     \!
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -4434,27 +4333,27 @@
                     - \tweak staff-padding #10
                     \startTextSpanThree
 
-                    b4
+                    bes4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
 
-                        b2
+                        bes2
                         ~
 
-                        b8
+                        bes8
 
                         \once \override Staff.NoteHead.style = #'default
                         \clef "bass"
-                        b,4
+                        bef,4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    b,2
+                    bef,2
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -4470,15 +4369,21 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r1
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/2
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r2
+                    R1 * 1/2
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    a,1
+                    aes,1
                     \p
                     \>
                     - \abjad-dashed-line-with-arrow
@@ -4562,14 +4467,23 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    r4
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r2
+                    R1 * 1/8
 
-                    r4
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/4
+
+                    R1 * 1/4
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
@@ -4577,7 +4491,7 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "bass"
-                        d2
+                        des2
                         _ #(make-dynamic-script
                             (markup
                                 #:whiteout
@@ -4596,7 +4510,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 1 4 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 4 }
                                     \hspace
                                         #0.5
                                 }
@@ -4606,16 +4520,16 @@
                         \startTextSpanOne
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        d8
+                        des8
 
                         \once \override Staff.NoteHead.style = #'default
-                        a4
+                        aes4
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 1 7 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 7 }
                                     \hspace
                                         #0.5
                                 }
@@ -4632,7 +4546,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 3 7 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 7 }
                                     \hspace
                                         #0.5
                                 }
@@ -4654,14 +4568,14 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     \revert Staff.Stem.stemlet-length
-                    d8
+                    des8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 4 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 7 }
                                 \hspace
                                     #0.5
                             }
@@ -4672,32 +4586,32 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'default
-                    d4
+                    des4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    d4
+                    des4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    d1
+                    des1
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
-                    d8
+                    des8
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    a8
+                    aes8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 3 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 3 7 }
                                 \hspace
                                     #0.5
                             }
@@ -4708,7 +4622,7 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    a2
+                    aes2
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -4716,7 +4630,7 @@
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        a2
+                        aes2
 
                         \once \override Staff.NoteHead.style = #'default
                         aqf4
@@ -4726,7 +4640,7 @@
                         - \tweak bound-details.left.text \markup {
                             \concat
                                 {
-                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \upright \fraction 2 7 }
+                                    \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 2 7 }
                                     \hspace
                                         #0.5
                                 }
@@ -4741,7 +4655,7 @@
                     aqf4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    a2
+                    aes2
                     _ #(make-dynamic-script
                         (markup
                             #:whiteout
@@ -4761,7 +4675,7 @@
                     - \tweak bound-details.left.text \markup {
                         \concat
                             {
-                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \upright \fraction 7 7 }
+                                \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 7 7 }
                                 \hspace
                                     #0.5
                             }
@@ -4773,21 +4687,8 @@
                     r2.
                     \!
                     \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 6 7 }
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #6
-                    \startTextSpanOne
 
                     r4
-                    \stopTextSpanOne
 
                     eqf'2
                     _ #(make-dynamic-script
@@ -4805,15 +4706,15 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    a4
+                    aes4
                     ~
 
-                    a2
+                    aes2
                     ~
 
-                    a4
+                    aes4
 
-                    cs'4
+                    ctes'4
                     \pppp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -4846,18 +4747,18 @@
 
                     aqf4
 
-                    cs'2
+                    ctes'2
                     ~
 
-                    cs'4
+                    ctes'4
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
-                        cs'1
+                        ctes'1
                         ~
 
-                        cs'4
+                        ctes'4
 
                     }
 
@@ -4899,12 +4800,18 @@
 
                     }
 
-                    r4
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+                    \stopTextSpanTwo                                           %! applying indicators
+                    \stopTextSpanThree                                         %! applying indicators
 
-                    r2.
+                    R1 * 1/8
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 3/8
+
+                    R1 * 3/8
 
                     f'2.
                     \pp
@@ -4949,22 +4856,25 @@
 
                     \clef "bass"
                     \revert Staff.Stem.stemlet-length
-                    fs8
+                    ftes8
                     ~
                     ]
 
-                    fs4
+                    ftes4
 
-                    ef'1
+                    dtes'1
                     ~
 
-                    ef'2
+                    dtes'2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    r4
-                    \!
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+                    \!                                                         %! applying indicators
+
+                    R1 * 1/8
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
