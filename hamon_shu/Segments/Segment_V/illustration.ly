@@ -20,7 +20,7 @@
         \context TimeSignatureContext = "Global Context"
         {
 
-            \tempo 4=108
+            \tempo 4=116
             \time 5/4                                                          %! scaling time signatures
             \mark \markup {
                 \bold
@@ -374,14 +374,14 @@
                     - \bendAfter #'3
 
                     \once \override Staff.NoteHead.style = #'default
-                    atef4
+                    af4
                     - \bendAfter #'-2
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    etef'4
+                    ef'4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtef'4
+                    fs'4
                     - \bendAfter #'-3
 
                     \once \override Staff.NoteHead.style = #'default
@@ -395,7 +395,7 @@
                     r2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtef'1
+                    fs'1
                     \ff
                     - \tweak stencil #constante-hairpin
                     \<
@@ -417,19 +417,19 @@
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'default
-                        eef''1
+                        e''1
                         \mp
                         \>
                         ~
 
                         \once \override Staff.NoteHead.style = #'default
-                        eef''4
+                        e''4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    eef''4
+                    e''4
                     - \bendAfter #'-2
                     <>
                     \pp
@@ -443,7 +443,7 @@
                     \<
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    atef4
+                    af4
                     - \bendAfter #'-3
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -457,41 +457,41 @@
                         [
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        atef8
+                        af8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         af''8
                         - \bendAfter #'3
 
                         \once \override Staff.NoteHead.style = #'default
-                        eef''8
+                        e''8
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'triangle
                         bqf'8
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        etef''8
+                        ef''8
                         - \bendAfter #'-3
 
                         \once \override Staff.NoteHead.style = #'default
-                        gtef'8
+                        fs'8
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         bqs8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        etef'8
+                        ef'8
                         - \bendAfter #'3
 
                         \once \override Staff.NoteHead.style = #'default
-                        atef8
+                        af8
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \revert Staff.Stem.stemlet-length
-                        etef'8
+                        ef'8
                         ]
 
                     }
@@ -513,7 +513,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
-                        fes'2
+                        f'2
                         \p
                         \<
                         \glissando                                             %! abjad.glissando(7)
@@ -529,35 +529,35 @@
 
                     r2
 
-                    fes'4
+                    f'4
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    fes'1
+                    f'1
                     ~
 
-                    fes'2.
+                    f'2.
                     ~
 
-                    fes'2
+                    f'2
 
-                    ces''1
+                    c''1
                     ~
 
-                    ces''2
+                    c''2
                     ~
 
-                    ces''2.
+                    c''2.
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
-                        ces''1
+                        c''1
                         ~
 
-                        ces''4
+                        c''4
 
                     }
 
@@ -595,12 +595,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gtef'16
+                    fs'16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'8
+                    fs'8
                     - \bendAfter #'-4
                     [
 
@@ -633,7 +633,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8
+                    e''8
                     \mp
                     - \bendAfter #'-5
                     - \tweak stencil #constante-hairpin
@@ -647,7 +647,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'8
+                    fs'8
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -670,7 +670,7 @@
                         - \bendAfter #'-3
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtef'4
+                        fs'4
                         - \bendAfter #'4
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -682,7 +682,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    etef'4
+                    ef'4
                     \mf
                     - \bendAfter #'5
                     - \tweak stencil #constante-hairpin
@@ -691,14 +691,14 @@
                     af'4
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'4
+                    fs'4
                     - \bendAfter #'3
 
                     bqf'1
                     - \bendAfter #'-2
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2.
+                    fs'2.
                     \pp
                     \<
 
@@ -706,10 +706,10 @@
                     af'2
                     - \bendAfter #'4
 
-                    etef'2.
+                    ef'2.
                     ~
 
-                    etef'2
+                    ef'2
                     - \bendAfter #'-5
                     <>
                     \mf
@@ -738,15 +738,15 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'default
-                    gef'2
+                    g'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    gef'4
+                    g'4
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''4
+                    cs''4
                     \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -764,7 +764,7 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ees''8
+                        e''8
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -780,11 +780,11 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        gef'8
+                        g'8
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'default
-                        fes'8
+                        f'8
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -808,11 +808,11 @@
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''4
+                        cs''4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        gef'4
+                        g'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'default
@@ -825,7 +825,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'4
+                        f'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -833,7 +833,7 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'default
-                        gef'4
+                        g'4
                         \glissando                                             %! abjad.glissando(7)
 
                     }
@@ -862,16 +862,16 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    gef'8
+                    g'8
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gef'4
+                    g'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gef'4
+                    g'4
                     <>
                     \pp
 
@@ -880,26 +880,26 @@
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'default
-                        fes'1
+                        f'1
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
                         ~
 
                         \once \override Staff.NoteHead.style = #'default
-                        fes'4
+                        f'4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    fes'2.
+                    f'2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    fes'2
+                    f'2
 
-                    atef1
+                    af1
                     \ff
                     - \bendAfter #'3
                     \>
@@ -914,7 +914,7 @@
                     \mp
                     - \bendAfter #'-2
 
-                    etef''2
+                    ef''2
                     \p
                     \<
                     <>
@@ -925,7 +925,7 @@
 
                     R1 * 1/4
 
-                    eef''2.
+                    e''2.
                     \pp
                     - \bendAfter #'-3
                     - \tweak stencil #constante-hairpin
@@ -937,9 +937,9 @@
                         bqf'4
                         - \bendAfter #'-2
 
-                        etef'4
+                        ef'4
 
-                        gtef'4
+                        fs'4
                         - \bendAfter #'3
 
                     }
@@ -953,15 +953,15 @@
                         - \bendAfter #'-2
                         [
 
-                        gtef'8
+                        fs'8
 
                         bqf'8
                         - \bendAfter #'-3
 
-                        etef'8
+                        ef'8
                         - \bendAfter #'-2
 
-                        atef8
+                        af8
 
                         af''8
                         - \bendAfter #'3
@@ -969,10 +969,10 @@
                         bqs8
                         - \bendAfter #'-2
 
-                        gtef'8
+                        fs'8
 
                         \revert Staff.Stem.stemlet-length
-                        etef'8
+                        ef'8
                         - \bendAfter #'-3
                         ]
 
@@ -981,12 +981,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        atef4
+                        af4
                         - \bendAfter #'-2
 
                         fs''4
 
-                        eef''4
+                        e''4
                         - \bendAfter #'3
 
                     }
@@ -994,17 +994,17 @@
                     bqf'4
                     - \bendAfter #'-2
 
-                    eef''4
+                    e''4
 
                     fs''4
                     - \bendAfter #'-3
 
-                    atef4
+                    af4
                     - \bendAfter #'-2
 
-                    etef'4
+                    ef'4
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'3
 
                     bqs2
@@ -1063,7 +1063,7 @@
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        fes'4
+                        f'4
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1071,7 +1071,7 @@
                         dqs'4
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        fes'4
+                        f'4
 
                     }
 
@@ -1079,16 +1079,16 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ces''8
+                        c''8
                         [
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a'8
 
-                        ces''8
+                        c''8
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'8
+                        f'8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \revert Staff.Stem.stemlet-length
@@ -1097,7 +1097,7 @@
 
                     }
 
-                    ces''4
+                    c''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf''4
@@ -1123,7 +1123,7 @@
 
                     }
 
-                    fes'2.
+                    f'2.
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
@@ -1131,7 +1131,7 @@
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a'4
 
-                        fes'4
+                        f'4
 
                         \once \override Staff.NoteHead.style = #'triangle
                         bf4
@@ -1219,29 +1219,29 @@
                     \mf
                     - \bendAfter #'6
 
-                    fes'4
+                    f'4
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    fes'2.
+                    f'2.
                     ~
 
-                    fes'4
+                    f'4
 
                     dqs'4
                     - \bendAfter #'-4
 
-                    gef'1
+                    g'1
                     ~
 
-                    gef'2
+                    g'2
                     - \bendAfter #'3
 
                     dqs'4
 
-                    fes'4
+                    f'4
                     - \bendAfter #'-3
 
                     r2
@@ -1278,7 +1278,7 @@
                         cqs'8
                         - \bendAfter #'-2
 
-                        fes'8
+                        f'8
 
                         dqs'8
                         - \bendAfter #'4
@@ -1288,14 +1288,14 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
-                        eef''8
+                        e''8
                         \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtes4
+                    af4
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'default
@@ -1311,7 +1311,7 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'default
-                    eef''2
+                    e''2
 
                     r2.
                     \!
@@ -1342,13 +1342,13 @@
                         bqf'4
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtef'2
+                        fs'2
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2
+                    fs'2
 
                     \once \override Staff.NoteHead.style = #'default
                     af'2
@@ -1374,13 +1374,13 @@
                         af'4
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        etef'1.
+                        ef'1.
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    etef'2
+                    ef'2
                     \bar "||"
                     <>
                     \mp
@@ -1404,20 +1404,20 @@
                         \set Staff.instrumentName =                            %! applying staff names and clefs
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
-                        gtef'1
+                        fs'1
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
                         ~
 
-                        gtef'4
+                        fs'4
                         ~
 
                     }
 
-                    gtef'4
+                    fs'4
 
-                    etef''2
+                    ef''2
                     \ff
                     - \bendAfter #'-3
                     - \tweak stencil #constante-hairpin
@@ -1429,15 +1429,15 @@
                         fs''4
                         - \bendAfter #'-2
 
-                        eef''4
+                        e''4
 
                         bqf'4
                         - \bendAfter #'3
 
-                        eef''4
+                        e''4
                         - \bendAfter #'-2
 
-                        etef''4
+                        ef''4
 
                     }
 
@@ -1450,11 +1450,11 @@
                         - \bendAfter #'-3
                         [
 
-                        etef''8
+                        ef''8
                         - \bendAfter #'-2
 
                         \revert Staff.Stem.stemlet-length
-                        eef''8
+                        e''8
                         \mf
                         \>
                         ]
@@ -1470,22 +1470,22 @@
                         bqs4
                         - \bendAfter #'-2
 
-                        etef'4
+                        ef'4
 
                         bqf'4
                         - \bendAfter #'-3
 
-                        etef'4
+                        ef'4
                         - \bendAfter #'-2
 
                     }
 
                     bqs4
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'3
 
-                    etef''4
+                    ef''4
                     - \bendAfter #'-2
 
                     bqf'4
@@ -1494,13 +1494,13 @@
 
                     r2
 
-                    eef''2
+                    e''2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    eef''2.
+                    e''2.
                     - \bendAfter #'-3
 
                     af''2
@@ -1519,13 +1519,13 @@
                     af''4
                     - \bendAfter #'-2
 
-                    atef4
+                    af4
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        atef4
+                        af4
 
                         fs''2
                         ~
@@ -1538,21 +1538,21 @@
                     fs''2
                     - \bendAfter #'3
 
-                    ces''2
+                    c''2
                     \pp
                     \<
                     ~
 
-                    ces''2
+                    c''2
                     ~
 
-                    ces''2.
+                    c''2.
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
-                        ces''2.
+                        c''2.
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -1566,7 +1566,7 @@
                     \times 5/4 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ces''4
+                        c''4
                         \glissando                                             %! abjad.glissando(7)
 
                         gqf''4
@@ -1611,7 +1611,7 @@
                         gqf''8
                         \glissando                                             %! abjad.glissando(7)
 
-                        ces''8
+                        c''8
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1619,7 +1619,7 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \revert Staff.Stem.stemlet-length
-                        ces''8
+                        c''8
                         \glissando                                             %! abjad.glissando(7)
                         ]
 
@@ -1675,13 +1675,13 @@
                         bqf'1
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtef'2.
+                        fs'2.
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2.
+                    fs'2.
                     \mp
                     - \bendAfter #'5
 
@@ -1708,7 +1708,7 @@
                         \pp
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        etef'2
+                        ef'2
                         \mf
                         - \bendAfter #'-2
                         - \tweak stencil #constante-hairpin
@@ -1733,12 +1733,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gtef'8
+                    fs'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'16
+                    fs'16
                     - \bendAfter #'-5
                     [
 
@@ -1765,17 +1765,17 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    eef''8
+                    e''8
                     ]
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtes8
+                    af8
                     - \bendAfter #'-3
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    eef''8
+                    e''8
                     - \bendAfter #'4
                     ]
 
@@ -1797,17 +1797,17 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    gtes8
+                    af8
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        eef''4
+                        e''4
                         - \bendAfter #'3
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtes4
+                        af4
                         - \bendAfter #'-2
 
                         cs'4
@@ -1815,20 +1815,20 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'4
+                    ef'4
                     - \bendAfter #'4
 
                     \once \override Staff.NoteHead.style = #'triangle
                     af'4
                     - \bendAfter #'-5
 
-                    gtef'2.
+                    fs'2.
 
                     \once \override Staff.NoteHead.style = #'triangle
                     d'4
                     - \bendAfter #'5
 
-                    gtef'4
+                    fs'4
                     \p
                     - \bendAfter #'-4
                     \<
@@ -1838,7 +1838,7 @@
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'8
+                        ef'8
                         [
 
                         cs'8
@@ -1856,18 +1856,18 @@
                     r4
 
                     \once \override Staff.NoteHead.style = #'default
-                    ees''2
+                    e''2
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    ees''2
+                    e''2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    ees''2
+                    e''2
 
                     r4
                     \!
@@ -1881,29 +1881,29 @@
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''1
+                        cs''1
                         ~
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''4
+                        cs''4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''2.
+                    cs''2.
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'default
-                    gef'4
+                    g'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    gef'2
+                    g'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    gef'4
+                    g'4
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'triangle
@@ -1919,7 +1919,7 @@
                     \times 5/6 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        fes'4
+                        f'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1927,7 +1927,7 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''4
+                        cs''4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'default
@@ -1935,11 +1935,11 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''4
+                        cs''4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ees''4
+                        e''4
                         \glissando                                             %! abjad.glissando(7)
 
                     }
@@ -1952,23 +1952,23 @@
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'4
+                        f'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gef'4
+                        g'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'default
-                        ctes''4
+                        cs''4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gef'4
+                        g'4
                         \glissando                                             %! abjad.glissando(7)
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'4
+                        f'4
                         \glissando                                             %! abjad.glissando(7)
 
                     }
@@ -2015,7 +2015,7 @@
                         aqs8
 
                         \revert Staff.Stem.stemlet-length
-                        etef''8
+                        ef''8
                         - \bendAfter #'-2
                         ]
 
@@ -2026,22 +2026,22 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'16
+                    ef'16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'8
+                    ef'8
                     - \bendAfter #'-3
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    atef8
+                    af8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef16
+                    af16
                     - \bendAfter #'-2
                     [
 
@@ -2052,23 +2052,23 @@
                     \<
                     ]
 
-                    eef''2
+                    e''2
                     - \bendAfter #'3
 
                     af''4
                     - \bendAfter #'-2
 
-                    atef4
+                    af4
 
                     fs''4
                     - \bendAfter #'-3
 
-                    etef''4
+                    ef''4
                     - \bendAfter #'-2
 
                     bqf'4
 
-                    eef''4
+                    e''4
                     \pp
                     - \bendAfter #'3
                     \<
@@ -2088,7 +2088,7 @@
 
                     fs''2.
 
-                    atef2
+                    af2
                     - \bendAfter #'-3
 
                     \scaleDurations #'(1 . 1) {
@@ -2104,7 +2104,7 @@
                     fs''4
                     - \bendAfter #'-2
 
-                    eef''4
+                    e''4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -2114,38 +2114,38 @@
                         - \bendAfter #'3
                         [
 
-                        eef''8
+                        e''8
                         - \bendAfter #'-2
 
                         \revert Staff.Stem.stemlet-length
-                        etef''8
+                        ef''8
                         ]
 
                     }
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'-3
 
                     bqs4
                     - \bendAfter #'-2
 
-                    atef4
+                    af4
 
                     fs''4
                     - \bendAfter #'3
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef''8.
+                    ef''8.
                     - \bendAfter #'-2
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    eef''16
+                    e''16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8
+                    e''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2161,18 +2161,18 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'8.
+                    ef'8.
                     - \bendAfter #'-2
                     ]
 
                     bqs4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fes'4
+                    f'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fes'2.
+                    f'2.
                     <>
                     \pp
 
@@ -2191,14 +2191,14 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 2 3) "4")
                     \times 3/2 {
 
-                        ces''2
+                        c''2
                         \p
                         \<
                         ~
 
                     }
 
-                    ces''4
+                    c''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf''2
@@ -2262,12 +2262,12 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes''8
+                    cs''8
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    gef'8
+                    g'8
                     - \bendAfter #'-5
                     ]
 
@@ -2275,14 +2275,14 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'4
+                        f'4
                         - \bendAfter #'6
 
                         \once \override Staff.NoteHead.style = #'default
                         gqs'4
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes'4
+                        f'4
                         - \bendAfter #'-4
 
                     }
@@ -2292,7 +2292,7 @@
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gef'4
+                        g'4
                         \mf
                         - \bendAfter #'3
                         \>
@@ -2301,7 +2301,7 @@
                         dqs'4
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gef'4
+                        g'4
                         - \bendAfter #'-3
                         <>
                         \p
@@ -2321,7 +2321,7 @@
                     \<
 
                     \once \override Staff.NoteHead.style = #'default
-                    fes'4
+                    f'4
                     \f
                     \>
 
@@ -2361,7 +2361,7 @@
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        ees''4
+                        e''4
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         aqs1
@@ -2378,7 +2378,7 @@
                     - \bendAfter #'-5
 
                     \once \override Staff.NoteHead.style = #'default
-                    ctes''2
+                    cs''2
 
                     r2.
                     \!
@@ -2391,20 +2391,20 @@
 
                     r2
 
-                    eef''4
+                    e''4
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    eef''2.
+                    e''2.
 
                     bqf'4
 
-                    eef''4
+                    e''4
                     ~
 
-                    eef''4
+                    e''4
 
                     b'4
                     ~
@@ -2424,17 +2424,17 @@
                         af'8
                         [
 
-                        etef'8
+                        ef'8
 
-                        gtef'8
+                        fs'8
 
                         d'8
 
-                        gtes8
+                        af8
 
                         cs'8
 
-                        etef'8
+                        ef'8
 
                         af'8
 
@@ -2448,7 +2448,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
-                        gtef'4
+                        fs'4
 
                         d'4
 
@@ -2459,11 +2459,11 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        etef'4
+                        ef'4
 
                         af'4
 
-                        gtef'4
+                        fs'4
 
                     }
 
@@ -2508,14 +2508,14 @@
                     \markup { Viola }                                          %! applying staff names and clefs
                     \once \override Staff.NoteHead.style = #'triangle
                     \clef "treble"
-                    etef''2
+                    ef''2
                     \pp
                     - \bendAfter #'3
                     - \tweak stencil #constante-hairpin
                     \<
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtef'2.
+                    fs'2.
                     - \bendAfter #'-2
 
                     bqf'4
@@ -2524,7 +2524,7 @@
                     \<
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    eef''2
+                    e''2
                     - \bendAfter #'-3
 
                     af''1
@@ -2548,13 +2548,13 @@
                         - \bendAfter #'3
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        etef''4
+                        ef''4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    etef''2.
+                    ef''2.
                     - \bendAfter #'-2
                     <>
                     \p
@@ -2562,24 +2562,24 @@
                     r2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    eef''2.
+                    e''2.
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    eef''2
+                    e''2
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        eef''1
+                        e''1
                         ~
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        eef''4
+                        e''4
 
                     }
 
@@ -2598,29 +2598,29 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    eef''16
+                    e''16
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8
+                    e''8
                     - \bendAfter #'-2
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef''8
+                    ef''8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef''16
+                    ef''16
                     \mf
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    gtef'8.
+                    fs'8.
                     \p
                     - \bendAfter #'3
                     - \tweak stencil #constante-hairpin
@@ -2635,13 +2635,13 @@
                         a'8
                         [
 
-                        fes'8
+                        f'8
 
-                        ces''8
+                        c''8
 
                         fqs''8
 
-                        ces''8
+                        c''8
 
                         gqf''8
 
@@ -2682,13 +2682,13 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        ces''4
+                        c''4
                         \glissando                                             %! abjad.glissando(7)
 
                         fqs''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        ces''4
+                        c''4
                         \glissando                                             %! abjad.glissando(7)
 
                         gqf''4
@@ -2703,17 +2703,17 @@
                     \mp
                     \<
 
-                    ces''2
+                    c''2
                     ~
 
-                    ces''2.
+                    c''2.
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
-                        ces''2.
+                        c''2.
                         \f
 
                         gqf''1
@@ -2748,7 +2748,7 @@
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
-                        gtes8
+                        af8
                         \mf
                         - \bendAfter #'5
                         - \tweak stencil #constante-hairpin
@@ -2761,7 +2761,7 @@
 
                         \once \override Staff.NoteHead.style = #'default
                         \revert Staff.Stem.stemlet-length
-                        gtes8
+                        af8
                         ]
 
                     }
@@ -2781,7 +2781,7 @@
                     eqs4
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtes4
+                    af4
                     - \bendAfter #'-5
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2791,7 +2791,7 @@
                     \once \override Staff.NoteHead.style = #'default
                     \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8.
+                    e''8.
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2833,7 +2833,7 @@
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        eef''4
+                        e''4
                         - \bendAfter #'4
 
                         \once \override Staff.NoteHead.style = #'default
@@ -2863,7 +2863,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    gtef'8
+                    fs'8
                     - \bendAfter #'-2
                     ]
 
@@ -2895,7 +2895,7 @@
                         - \bendAfter #'5
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        gtes4
+                        af4
                         \mp
                         - \bendAfter #'-4
 
@@ -2928,7 +2928,7 @@
                     - \bendAfter #'-5
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtes4
+                    af4
                     - \bendAfter #'6
 
                     \once \override Staff.NoteHead.style = #'default
@@ -2955,7 +2955,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtes4
+                    af4
                     - \bendAfter #'-3
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2964,11 +2964,11 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     \clef "treble"
-                    eef''2
+                    e''2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    eef''2.
+                    e''2.
                     \p
 
                     \clef "varC"
@@ -3010,30 +3010,30 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ctes''16
+                    cs''16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes''8
+                    cs''8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gef'8
+                    g'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gef'16
+                    g'16
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fes'8.
+                    f'8.
                     ]
 
                     gqs'2
 
-                    ees''2
+                    e''2
 
                     af''4
 
@@ -3072,7 +3072,7 @@
                     \times 3/5 {
 
                         \clef "treble"
-                        etef''1
+                        ef''1
                         \mp
                         - \bendAfter #'-2
                         \>
@@ -3080,7 +3080,7 @@
                         \pp
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        eef''4
+                        e''4
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
@@ -3089,15 +3089,15 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    eef''2
+                    e''2
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    eef''2.
+                    e''2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    eef''2
+                    e''2
 
                     \once \override Staff.NoteHead.style = #'triangle
                     af''1
@@ -3106,13 +3106,13 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    eef''2.
+                    e''2.
                     ~
 
-                    eef''2
+                    e''2
                     ~
 
-                    eef''4
+                    e''4
                     - \bendAfter #'-2
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -3124,7 +3124,7 @@
                         fs''8
                         [
 
-                        etef''8
+                        ef''8
                         - \bendAfter #'3
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3146,7 +3146,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
-                        eef''4
+                        e''4
                         \p
                         \<
 
@@ -3155,10 +3155,10 @@
                         - \bendAfter #'-3
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        etef'4
+                        ef'4
                         - \bendAfter #'-2
 
-                        gtef'4
+                        fs'4
 
                         \once \override Staff.NoteHead.style = #'triangle
                         bqs4
@@ -3166,11 +3166,11 @@
 
                     }
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'-2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'4
+                    ef'4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
@@ -3180,7 +3180,7 @@
                         - \bendAfter #'-3
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        etef'2
+                        ef'2
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3217,15 +3217,15 @@
 
                     R1 * 1/4
 
-                    ces''2.
+                    c''2.
                     \mf
                     \>
                     ~
 
-                    ces''2
+                    c''2
                     ~
 
-                    ces''2
+                    c''2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'1
@@ -3238,10 +3238,10 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'4
 
-                    fes'4
+                    f'4
                     ~
 
-                    fes'2.
+                    f'2.
                     \p
 
                     \once \override Staff.NoteHead.style = #'triangle
@@ -3272,17 +3272,17 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        fes'8
+                        f'8
                         [
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ces''8
+                        c''8
 
                         \clef "treble"
                         fqs''8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ces''8
+                        c''8
 
                         \revert Staff.Stem.stemlet-length
                         gqf''8
@@ -3296,7 +3296,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf''4
 
-                    ces''4
+                    c''4
 
                     \once \override Staff.NoteHead.style = #'triangle
                     fqs''4
@@ -3304,20 +3304,20 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        ces''4
+                        c''4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        fes'4
+                        f'4
 
                         a'4
 
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ces''2
+                    c''2
 
                     r4
                     \!
@@ -3362,7 +3362,7 @@
 
                         \once \override Staff.NoteHead.style = #'default
                         \clef "treble"
-                        ees''2
+                        e''2
                         \pp
                         \<
                         ~
@@ -3370,16 +3370,16 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    ees''2
+                    e''2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    ees''4
+                    e''4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees''8
+                    e''8
                     \mf
                     [
 
@@ -3400,29 +3400,29 @@
                     \!
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''2.
+                    cs''2.
                     \mp
                     \<
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''2.
+                    cs''2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''2
+                    cs''2
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ctes''2
+                        cs''2
                         \f
                         - \bendAfter #'-5
 
                         \once \override Staff.NoteHead.style = #'default
-                        gef'1
+                        g'1
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -3480,7 +3480,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8
+                    e''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3488,7 +3488,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'8
+                    fs'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3496,7 +3496,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'8
+                    ef'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3508,7 +3508,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gtef'8
+                    fs'8
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
@@ -3516,17 +3516,17 @@
 
                         d'4
 
-                        etef'4
+                        ef'4
 
                         af'4
 
                     }
 
-                    etef'4
+                    ef'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'8
+                    ef'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3536,7 +3536,7 @@
 
                     d'4
 
-                    gtef'2
+                    fs'2
 
                     bqf'4
 
@@ -3554,7 +3554,7 @@
 
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
-                        eef''8
+                        e''8
                         [
 
                         bqf'8
@@ -3630,7 +3630,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     bqf'1
 
-                    etef'2
+                    ef'2
                     \mf
                     - \bendAfter #'-3
                     - \tweak stencil #constante-hairpin
@@ -3641,13 +3641,13 @@
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtef'4
+                        fs'4
                         \mf
                         - \bendAfter #'-2
                         \>
 
                         \clef "treble"
-                        etef''4
+                        ef''4
 
                         \once \override Staff.NoteHead.style = #'triangle
                         fs''4
@@ -3664,13 +3664,13 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \clef "treble"
                     \revert Staff.Stem.stemlet-length
-                    eef''16
+                    e''16
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef''8
+                    e''8
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
@@ -3686,7 +3686,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gtef'8.
+                    fs'8.
                     - \bendAfter #'-2
                     ]
 
@@ -3708,28 +3708,28 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    atef16
+                    af16
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    atef8
+                    af8
                     - \bendAfter #'-2
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'8
+                    ef'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'16
+                    ef'16
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    atef8.
+                    af8.
                     - \bendAfter #'-3
                     ]
 
@@ -3757,13 +3757,13 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
-                        atef4
+                        af4
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        etef'4
+                        ef'4
 
-                        atef4
+                        af4
                         - \bendAfter #'-3
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3783,13 +3783,13 @@
                     fs''4
                     - \bendAfter #'-2
 
-                    etef''4
+                    ef''4
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2
+                    fs'2
                     - \bendAfter #'-3
 
-                    etef'4
+                    ef'4
                     \pp
                     - \bendAfter #'-2
                     \<
@@ -3828,7 +3828,7 @@
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \revert Staff.Stem.stemlet-length
-                        fes8
+                        f8
                         \glissando                                             %! abjad.glissando(7)
                         ]
 
@@ -3858,14 +3858,14 @@
                     r2.
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fes1
+                    f1
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fes2
+                    f2
 
                     \once \override Staff.NoteHead.style = #'triangle
                     bf4
@@ -3897,7 +3897,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes4
+                        f4
 
                         \once \override Staff.NoteHead.style = #'triangle
                         f4
@@ -3955,7 +3955,7 @@
                         eqs4
 
                         \clef "treble"
-                        eef''1.
+                        e''1.
                         - \bendAfter #'-2
 
                     }
@@ -4022,7 +4022,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'8
+                    fs'8
                     \pp
                     - \bendAfter #'-4
                     - \tweak stencil #constante-hairpin
@@ -4099,19 +4099,19 @@
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \clef "tenorvarC"
-                        gef'8
+                        g'8
 
                         dqs'8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        fes'8
+                        f'8
 
                         gqs'8
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
-                        ees''8
+                        e''8
                         ]
                         <>
                         \p
@@ -4121,7 +4121,7 @@
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes''8.
+                    cs''8.
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -4130,28 +4130,28 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    gef'16
+                    g'16
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    gef'8
+                    g'8
                     \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    ctes''8
+                    cs''8
                     ~
                     ]
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''4
+                    cs''4
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes''4
+                    cs''4
                     \glissando                                                 %! abjad.glissando(7)
 
                     gqs'4
@@ -4174,18 +4174,18 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ees''2
+                    e''2
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ees''4
+                    e''4
                     \glissando                                                 %! abjad.glissando(7)
 
                     gqs'2.
                     \glissando                                                 %! abjad.glissando(7)
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ctes''1
+                    cs''1
 
                     bqf'4
                     \pp
@@ -4202,18 +4202,18 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        eef''4
+                        e''4
                         \mp
                         - \bendAfter #'3
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        etef''4
+                        ef''4
                         - \bendAfter #'-2
 
-                        gtef'4
+                        fs'4
 
-                        etef''4
+                        ef''4
                         - \bendAfter #'-3
 
                     }
@@ -4221,7 +4221,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
-                        eef''4
+                        e''4
                         \p
                         - \bendAfter #'-2
                         - \tweak stencil #constante-hairpin
@@ -4233,7 +4233,7 @@
                         ef4
                         - \bendAfter #'3
 
-                        atef4
+                        af4
                         - \bendAfter #'-2
 
                         d4
@@ -4247,12 +4247,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        eef''4
+                        e''4
                         - \bendAfter #'-2
 
                         bqf'4
 
-                        etef'4
+                        ef'4
                         - \bendAfter #'3
 
                     }
@@ -4260,32 +4260,32 @@
                     r4
                     \!
 
-                    gtef'4
+                    fs'4
                     \mp
                     \>
                     ~
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'-2
 
-                    etef''2
+                    ef''2
                     ~
 
-                    etef''2
+                    ef''2
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        etef''2.
+                        ef''2.
 
-                        gtef'4
+                        fs'4
                         ~
 
                     }
 
-                    gtef'4
+                    fs'4
                     - \bendAfter #'-3
 
                     bqf'4
@@ -4339,7 +4339,7 @@
                         fqs''8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ces''8
+                        c''8
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         fqs''8
@@ -4355,7 +4355,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ces''4
+                        c''4
 
                         \once \override Staff.NoteHead.style = #'triangle
                         a'4
@@ -4366,7 +4366,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    fes'4
+                    f'4
                     \f
                     \>
 
@@ -4381,7 +4381,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \clef "bass"
-                    fes4
+                    f4
 
                     \once \override Staff.NoteHead.style = #'default
                     dqs'2
@@ -4394,7 +4394,7 @@
                         bf4
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fes4
+                        f4
                         \mf
 
                         \once \override Staff.NoteHead.style = #'default
@@ -4413,7 +4413,7 @@
                         [
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        fes8
+                        f8
 
                         \once \override Staff.NoteHead.style = #'default
                         dqs8
@@ -4436,14 +4436,14 @@
                     R1 * 3/8
 
                     \once \override Staff.NoteHead.style = #'default
-                    fes1
+                    f1
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    fes2
+                    f2
 
                     r2
                     \!
@@ -4480,7 +4480,7 @@
                     \p
 
                     \clef "treble"
-                    ees''4
+                    e''4
                     \mp
                     - \bendAfter #'6
                     \<
@@ -4492,12 +4492,12 @@
                         gqs'4
                         - \bendAfter #'5
 
-                        ctes''4
+                        cs''4
 
-                        gef'4
+                        g'4
                         - \bendAfter #'3
 
-                        ctes''4
+                        cs''4
                         \f
                         - \bendAfter #'-2
 
@@ -4506,7 +4506,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ees''4
+                        e''4
                         - \bendAfter #'4
 
                     }
@@ -4563,7 +4563,7 @@
 
                     }
 
-                    fes'4
+                    f'4
                     - \bendAfter #'-3
 
                     cqs'2
@@ -4582,13 +4582,13 @@
                         - \bendAfter #'6
 
                         \clef "tenorvarC"
-                        gef'8
+                        g'8
                         - \bendAfter #'5
 
-                        fes'8
+                        f'8
 
                         \revert Staff.Stem.stemlet-length
-                        etef'8
+                        ef'8
                         ]
 
                     }
@@ -4597,7 +4597,7 @@
                     af'4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtef'4
+                    fs'4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
@@ -4605,7 +4605,7 @@
                         d'4
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        gtes4
+                        af4
 
                         eqs4
                         <>
@@ -4630,15 +4630,15 @@
                         cs'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        etef'4
+                        ef'4
                         ~
 
                     }
 
-                    etef'2
+                    ef'2
                     ~
 
-                    etef'2.
+                    ef'2.
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -4647,17 +4647,17 @@
                     R1 * 1/4
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2.
+                    fs'2.
                     \mp
                     \>
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2
+                    fs'2
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'4
+                    fs'4
                     <>
                     \pp
 
@@ -4678,14 +4678,14 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        gtes4
+                        af4
                         \p
                         \<
 
                         \once \override Staff.NoteHead.style = #'triangle
                         cs'4
 
-                        etef'4
+                        ef'4
 
                     }
 
@@ -4698,27 +4698,27 @@
                         cs'8
                         [
 
-                        gtes8
+                        af8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \clef "bass"
                         cqs8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtes8
+                        af8
 
                         eqs8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         \clef "treble"
-                        eef''8
+                        e''8
                         \mp
 
                         \clef "bass"
                         eqs8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        gtes8
+                        af8
 
                         \revert Staff.Stem.stemlet-length
                         cqs8
@@ -4727,7 +4727,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    gtes4
+                    af4
 
                     r4
                     \bar "||"

@@ -404,11 +404,24 @@
                     r1 * 1/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 3/8
 
@@ -473,6 +486,18 @@
                     r1 * 5/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 5/8
 
@@ -803,6 +828,18 @@
                     r1 * 1/4
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/4
 
@@ -820,6 +857,7 @@
                             )
                         )
                     \>
+                    \stopTextSpanOne
                     ~
 
                     g''4
@@ -1145,11 +1183,24 @@
                     r1 * 1/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 5/8
 
@@ -1527,9 +1578,22 @@
                     gtef''8
                     \stopTextSpanOne
                     ~
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 4 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     gtef''2
+                    \stopTextSpanOne
                     ~
 
                     gtef''1
@@ -1812,9 +1876,22 @@
                     r4
                     \!
                     \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 0 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r2
+                    \stopTextSpanOne
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
@@ -1884,11 +1961,24 @@
                     r1 * 3/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 3/8
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/4
 
@@ -2007,8 +2097,21 @@
 
                     ates'2
                     \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     eqf'4
+                    \stopTextSpanOne
                     ~
 
                     eqf'4
@@ -2270,6 +2373,18 @@
                     r1 * 1/2
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 7 7 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/2
 
@@ -2289,6 +2404,7 @@
                         )
                     - \tweak stencil #constante-hairpin
                     \<
+                    \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2349,8 +2465,21 @@
                     g''4
                     \stopTextSpanOne
                     ~
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 2 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     g''1
+                    \stopTextSpanOne
                     ~
 
                     g''2
@@ -2688,11 +2817,24 @@
                         \ottava 1
                         d'''2
                         \stopTextSpanOne
+                        - \abjad-invisible-line
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \center-column { \center-align \vcenter \upright \fraction 0 4 }
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 3
+                        - \tweak staff-padding #6
+                        \startTextSpanOne
 
                     }
 
                     \ottava 0
                     gtef''1
+                    \stopTextSpanOne
 
                     \clef "varC"
                     \override Staff.Stem.stemlet-length = 0.75
@@ -3207,6 +3349,18 @@
                     r2
                     \!
                     \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 7 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "8")
@@ -3228,6 +3382,7 @@
                             )
                         - \tweak stencil #constante-hairpin
                         \<
+                        \stopTextSpanOne
                         ~
 
                         btes''8
@@ -3502,8 +3657,21 @@
                     ctes'4
                     \stopTextSpanOne
                     ~
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 0 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     ctes'1
+                    \stopTextSpanOne
                     ~
 
                     ctes'2
@@ -3837,10 +4005,23 @@
                     r1 * 3/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 1 2 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 3/8
 
                     r2.
+                    \stopTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf2
@@ -3911,11 +4092,24 @@
                     r1 * 1/8
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 5/8
 
@@ -4167,11 +4361,24 @@
                     r1 * 1/4
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/4
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
 
@@ -4227,9 +4434,22 @@
                     r4
                     \!
                     \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
 
@@ -4270,10 +4490,23 @@
                         aqf4
                         \stopTextSpanOne
                         ~
+                        - \abjad-invisible-line
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \center-column { \center-align \vcenter \upright \fraction 1 2 }
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        - \tweak bound-details.right.padding 3
+                        - \tweak staff-padding #6
+                        \startTextSpanOne
 
                     }
 
                     aqf4
+                    \stopTextSpanOne
 
                     ctes'4
                     ~
@@ -4687,8 +4920,21 @@
                     r2.
                     \!
                     \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 6 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     r4
+                    \stopTextSpanOne
 
                     eqf'2
                     _ #(make-dynamic-script

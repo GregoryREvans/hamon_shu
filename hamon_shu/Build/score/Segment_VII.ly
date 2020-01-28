@@ -306,7 +306,7 @@
                         \clef "treble"
                         g'2.
                         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
-                        - \staccato
+                        - \tenuto
                         ^ \markup { "sempre col legno tratto" }                %! attaching persistent indicators
 
                         bf''2
@@ -547,7 +547,7 @@
                     \clef "varC"
                     b2
                     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
-                    - \staccato
+                    - \tenuto
                     ^ \markup { "sempre col legno tratto" }                    %! attaching persistent indicators
 
                     \clef "treble"

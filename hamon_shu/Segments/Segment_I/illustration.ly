@@ -153,7 +153,7 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ees'8
+                        e'8
                         [
 
                         aqs8
@@ -213,7 +213,7 @@
                         aqs16
 
                         \revert Staff.Stem.stemlet-length
-                        ees'16
+                        e'16
                         ]
 
                     }
@@ -248,17 +248,17 @@
                     \>
 
                     \revert Staff.Stem.stemlet-length
-                    ees'16
+                    e'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf16
                     [
 
-                    ees'16
+                    e'16
                     ~
 
-                    ees'16
+                    e'16
 
                     \revert Staff.Stem.stemlet-length
                     aqs16
@@ -290,7 +290,7 @@
                     \times 12/13 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ees'16
+                        e'16
                         \mp
                         - \tweak stencil #abjad-flared-hairpin
                         \>
@@ -298,37 +298,37 @@
 
                         bqf16
 
-                        ees'16
+                        e'16
 
-                        etef'16
+                        ef'16
 
                         aqs16
 
-                        etef'16
+                        ef'16
 
-                        ees'16
+                        e'16
 
-                        des'16
+                        d'16
 
-                        ees'16
+                        e'16
 
-                        etef'16
+                        ef'16
 
                         aqs16
 
                         b16
 
                         \revert Staff.Stem.stemlet-length
-                        ces'16
+                        c'16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'16
+                    cs'16
                     [
 
-                    def'8.
+                    d'8.
                     <>
                     \p
 
@@ -345,14 +345,14 @@
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        eef'8
+                        e'8
                         \mf
                         - \tweak stencil #abjad-flared-hairpin
                         \<
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        etef'16
+                        ef'16
                         ]
 
                     }
@@ -360,10 +360,10 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        etef'4.
+                        ef'4.
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        dtef'8
+                        cs'8
                         [
                         <>
                         \ff
@@ -381,7 +381,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        dtes'4.
+                        ef'4.
                         \f
                         \>
                         <>
@@ -483,7 +483,7 @@
                         aqs16
                         [
 
-                        ees'16
+                        e'16
 
                         e'16
 
@@ -546,19 +546,19 @@
                         \>
                         [
 
-                        eef'16
+                        e'16
 
                         e'16
 
                         aqs16
 
-                        ees'16
+                        e'16
 
                         aqs16
 
                         e'16
 
-                        ees'16
+                        e'16
 
                         aqs16
 
@@ -575,11 +575,11 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    dtef'16
+                    cs'16
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'8.
+                    d'8.
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -594,15 +594,15 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'16
+                        ef'16
                         \mf
                         \>
                         [
 
-                        des'16
+                        d'16
 
                         \revert Staff.Stem.stemlet-length
-                        def'8.
+                        d'8.
                         ]
                         <>
                         \pp
@@ -620,12 +620,12 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des'8.
+                        d'8.
                         \f
                         \>
                         [
 
-                        des'16
+                        d'16
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -641,7 +641,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
-                        etef'4
+                        ef'4
                         \mf
                         \>
                         <>
@@ -742,28 +742,28 @@
                     \<
                     [
 
-                    bes16
+                    b16
 
                     bf16
 
                     \revert Staff.Stem.stemlet-length
-                    bes16
+                    b16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     c'16
                     [
 
-                    dtef'16
+                    cs'16
 
                     c'16
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'16
+                    cs'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bes16
+                    b16
                     [
 
                     bf16
@@ -771,7 +771,7 @@
                     aqs16
 
                     \revert Staff.Stem.stemlet-length
-                    eef'16
+                    e'16
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
@@ -783,9 +783,9 @@
 
                         bf16
 
-                        bes16
+                        b16
 
-                        ctes'16
+                        cs'16
 
                         \revert Staff.Stem.stemlet-length
                         c'16
@@ -801,13 +801,13 @@
 
                         c'4..
 
-                        ctes'8
+                        cs'8
 
-                        des'4
+                        d'4
 
                     }
 
-                    etef'4
+                    ef'4
                     \bar "||"
                     <>
                     \ff
@@ -852,7 +852,7 @@
 
                         aqs8
 
-                        ees'8
+                        e'8
 
                         \revert Staff.Stem.stemlet-length
                         e'8
@@ -865,7 +865,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees'16
+                    e'16
                     ]
 
                     \scaleDurations #'(1 . 1) {
@@ -876,7 +876,7 @@
 
                     e'4.
 
-                    ees'4
+                    e'4
 
                     e'8
 
@@ -911,14 +911,14 @@
                         r16
                         \!
 
-                        ees'8
+                        e'8
                         \mf
                         \>
 
-                        des'16
+                        d'16
 
                         \revert Staff.Stem.stemlet-length
-                        ees'16
+                        e'16
                         ]
                         <>
                         \mp
@@ -934,7 +934,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        etef'8
+                        ef'8
                         \p
                         \<
                         ]
@@ -942,7 +942,7 @@
                         aqs4
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'8
+                        ef'8
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -965,17 +965,17 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'8
+                    d'8
                     \f
                     - \tweak stencil #abjad-flared-hairpin
                     \>
                     ~
                     ]
 
-                    des'4
+                    d'4
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees'8
+                    e'8
                     [
                     <>
                     \mp
@@ -988,7 +988,7 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des'32
+                        d'32
                         \p
                         - \tweak stencil #abjad-flared-hairpin
                         \<
@@ -998,11 +998,11 @@
 
                         r32
 
-                        des'16
+                        d'16
                         \ff
                         \>
 
-                        dtef'32
+                        cs'32
 
                         \revert Staff.Stem.stemlet-length
                         cqs'32
@@ -1014,24 +1014,24 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
-                        ces'4
+                        c'4
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        eef'16
+                        e'16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        etef'16
+                        ef'16
                         ]
 
-                        eef'4..
+                        e'4..
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'16
+                        ef'16
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        eef'16
+                        e'16
                         ]
 
                     }
@@ -1040,25 +1040,25 @@
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'32
+                        ef'32
                         [
 
-                        des'32
+                        d'32
 
-                        etef'32
+                        ef'32
 
-                        etef'32
+                        ef'32
 
-                        eef'32
+                        e'32
 
-                        etef'32
+                        ef'32
 
-                        des'32
+                        d'32
 
-                        ctes'32
+                        cs'32
 
                         \revert Staff.Stem.stemlet-length
-                        bes32
+                        b32
                         ]
 
                     }
@@ -1075,19 +1075,19 @@
 
                         aqs16
 
-                        ees'16
+                        e'16
 
                         \revert Staff.Stem.stemlet-length
-                        etef'16
+                        ef'16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'16
+                    d'16
                     [
 
-                    etef'16
+                    ef'16
                     <>
                     \f
 
@@ -1101,7 +1101,7 @@
                     r8
                     [
 
-                    dtef'16
+                    cs'16
                     \mp
                     \>
 
@@ -1114,10 +1114,10 @@
                     c'16
                     [
 
-                    dtes'16
+                    ef'16
                     ~
 
-                    dtes'16
+                    ef'16
 
                     \revert Staff.Stem.stemlet-length
                     dqf'16
@@ -1178,7 +1178,7 @@
                     dqf'32
 
                     \revert Staff.Stem.stemlet-length
-                    dtes'32
+                    ef'32
                     ]
 
                     \scaleDurations #'(1 . 1) {
@@ -1328,12 +1328,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 14) "16")
                     \times 14/13 {
 
-                        ctes'2
+                        cs'2
                         \p
                         \<
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ces'8.
+                        c'8.
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -1372,18 +1372,18 @@
                         \<
                         [
 
-                        dtef'16
+                        cs'16
 
-                        def'16
+                        d'16
 
-                        ctes'16
+                        cs'16
 
-                        def'16
+                        d'16
 
-                        dtef'16
+                        cs'16
 
                         \revert Staff.Stem.stemlet-length
-                        des'16
+                        d'16
                         ]
 
                     }
@@ -1393,12 +1393,12 @@
                     \times 6/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        dtef'16
+                        cs'16
                         [
 
-                        ctes'16
+                        cs'16
 
-                        ces'16
+                        c'16
 
                         bqf16
 
@@ -1446,7 +1446,7 @@
 
                         dqf'16
 
-                        dtes'16
+                        ef'16
 
                         dqf'16
 
@@ -1468,7 +1468,7 @@
 
                         aqs16
 
-                        ees'16
+                        e'16
 
                         \revert Staff.Stem.stemlet-length
                         bqf16
@@ -1481,7 +1481,7 @@
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ees'32
+                        e'32
                         [
 
                         aqs32
@@ -1499,9 +1499,9 @@
                         aqs8.
                         [
 
-                        ees'8.
+                        e'8.
 
-                        dtes'16
+                        ef'16
 
                         dqf'16
 
@@ -1523,17 +1523,17 @@
                     r8
                     [
 
-                    bes16
+                    b16
                     \f
                     - \tweak stencil #abjad-flared-hairpin
                     \>
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'16
+                    cs'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bes16
+                    b16
                     [
 
                     c'16
@@ -1548,13 +1548,13 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bes16
+                        b16
                         [
 
-                        ctes'16
+                        cs'16
 
                         \revert Staff.Stem.stemlet-length
-                        bes16
+                        b16
                         ]
 
                     }
@@ -1571,23 +1571,23 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        dtef'8
+                        cs'8
                         ]
 
-                        etef'4
+                        ef'4
                         ~
 
-                        etef'16
+                        ef'16
 
-                        des'4.
+                        d'4.
 
-                        ctes'16
+                        cs'16
                         ~
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'8
+                    cs'8
                     [
                     <>
                     \mp
@@ -1663,7 +1663,7 @@
                         \>
                         [
 
-                        ees'16
+                        e'16
                         <>
                         \f
 
@@ -1678,11 +1678,11 @@
                     - \tweak stencil #abjad-flared-hairpin
                     \>
 
-                    ces'4
+                    c'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ces'8
+                    c'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1700,32 +1700,32 @@
                         cqs'8
                         [
 
-                        dtef'8
+                        cs'8
 
-                        ctes'8
+                        cs'8
 
-                        def'8
+                        d'8
 
                         \revert Staff.Stem.stemlet-length
-                        des'8
+                        d'8
                         \p
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'16
+                    ef'16
                     \mf
                     - \tweak stencil #abjad-flared-hairpin
                     \<
                     [
 
-                    des'16
+                    d'16
 
-                    dtef'16
+                    cs'16
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'16
+                    cs'16
                     ]
                     <>
                     \ff
@@ -1737,73 +1737,73 @@
                     \times 24/25 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        def'32
+                        d'32
                         \f
                         \>
                         [
 
-                        des'32
+                        d'32
 
-                        des'32
+                        d'32
 
-                        etef'32
+                        ef'32
 
                         aqs32
 
                         bqf32
 
-                        ces'32
+                        c'32
 
                         bqf32
 
                         aqs32
 
-                        eef'32
+                        e'32
 
-                        etef'32
+                        ef'32
 
-                        eef'32
+                        e'32
 
                         aqs32
 
-                        eef'32
+                        e'32
 
-                        etef'32
+                        ef'32
 
-                        des'32
+                        d'32
 
-                        ctes'32
+                        cs'32
 
-                        dtef'32
+                        cs'32
 
-                        etef'32
+                        ef'32
 
-                        eef'32
+                        e'32
 
-                        ees'32
+                        e'32
 
                         bf32
 
-                        ees'32
+                        e'32
 
-                        eef'32
+                        e'32
 
                         \revert Staff.Stem.stemlet-length
-                        etef'32
+                        ef'32
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef'16
+                    e'16
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'16
+                    ef'16
                     ~
                     ]
 
-                    etef'4
+                    ef'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -1811,16 +1811,16 @@
                     \times 6/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'16
+                        ef'16
                         [
 
-                        ees'16
+                        e'16
 
                         \revert Staff.Stem.stemlet-length
-                        etef'16
+                        ef'16
                         ]
 
-                        eef'4
+                        e'4
 
                     }
 
@@ -1829,39 +1829,39 @@
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'16
+                        ef'16
                         [
 
-                        dtef'16
+                        cs'16
 
                         \revert Staff.Stem.stemlet-length
-                        des'16
+                        d'16
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'16
+                    cs'16
                     [
 
-                    bes16
+                    b16
 
                     c'16
 
                     \revert Staff.Stem.stemlet-length
-                    dtef'16
+                    cs'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     c'16
                     [
 
-                    ctes'16
+                    cs'16
 
-                    des'16
+                    d'16
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'16
+                    cs'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -1877,7 +1877,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees'16
+                    e'16
                     [
 
                     bf16
@@ -1885,7 +1885,7 @@
                     aqs16
 
                     \revert Staff.Stem.stemlet-length
-                    eef'16
+                    e'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -1893,11 +1893,11 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees'16
+                    e'16
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    dtes'16
+                    ef'16
                     [
 
                     dqf'16
@@ -1907,7 +1907,7 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees'8
+                    e'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1920,12 +1920,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees'8.
+                    e'8.
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees'16
+                    e'16
                     \mp
                     [
 
@@ -2061,7 +2061,7 @@
                         dqs'8
 
                         \revert Staff.Stem.stemlet-length
-                        eef'8
+                        e'8
                         ]
 
                     }
@@ -2076,32 +2076,32 @@
 
                         aqs16
 
-                        ees'16
+                        e'16
 
-                        des'16
+                        d'16
 
-                        def'16
+                        d'16
 
-                        dtef'16
+                        cs'16
 
                         cqs'16
 
-                        dtef'16
+                        cs'16
 
-                        def'16
+                        d'16
 
-                        des'16
+                        d'16
 
-                        def'16
+                        d'16
 
-                        des'16
+                        d'16
 
-                        dtef'16
+                        cs'16
 
                         cqs'16
 
                         \revert Staff.Stem.stemlet-length
-                        ctes'16
+                        cs'16
                         ]
                         <>
                         \mf
@@ -2121,26 +2121,26 @@
                     r4
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    def'32
+                    d'32
                     \ff
                     - \tweak stencil #abjad-flared-hairpin
                     \>
                     [
 
-                    des'32
+                    d'32
 
-                    etef'32
+                    ef'32
 
-                    des'32
+                    d'32
 
-                    dtef'32
+                    cs'32
 
-                    ctes'32
+                    cs'32
 
-                    ces'32
+                    c'32
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'32
+                    cs'32
                     ]
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
@@ -2150,13 +2150,13 @@
                         cqs'16
                         [
 
-                        dtef'16
+                        cs'16
 
                         cqs'16
 
-                        ctes'16
+                        cs'16
 
-                        def'16
+                        d'16
 
                         cqs'16
 
@@ -2224,7 +2224,7 @@
                         aqs16
 
                         \revert Staff.Stem.stemlet-length
-                        ees'16
+                        e'16
                         ]
 
                     }
@@ -2238,7 +2238,7 @@
 
                         bqf16
 
-                        ees'4.
+                        e'4.
 
                         aqs8
                         <>
@@ -2248,38 +2248,38 @@
 
                     r2
 
-                    etef'4
+                    ef'4
                     \mf
                     \<
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'16
+                    ef'16
                     [
 
-                    ees'16
+                    e'16
                     ~
 
-                    ees'16
+                    e'16
 
                     \revert Staff.Stem.stemlet-length
-                    eef'16
+                    e'16
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef'8.
+                    e'8.
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'16
+                    ef'16
                     ~
                     ]
 
-                    etef'4
+                    ef'4
                     ~
 
-                    etef'4
+                    ef'4
                     <>
                     \ff
 
@@ -2317,7 +2317,7 @@
                         \>
                         [
 
-                        ees'16
+                        e'16
                         <>
                         \mp
 
@@ -2424,7 +2424,7 @@
 
                     }
 
-                    ees'8
+                    e'8
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf8
@@ -2446,30 +2446,30 @@
 
                         bqf16
 
-                        ces'16
+                        c'16
 
-                        ctes'16
+                        cs'16
 
-                        dtef'16
+                        cs'16
 
                         cqs'16
 
                         b16
 
-                        ces'16
+                        c'16
 
                         bqf16
 
-                        ees'16
+                        e'16
 
-                        etef'16
+                        ef'16
 
                         aqs16
 
                         b16
 
                         \revert Staff.Stem.stemlet-length
-                        ces'16
+                        c'16
                         ]
                         <>
                         \ff
@@ -2492,7 +2492,7 @@
                         \>
                         [
 
-                        ces'32
+                        c'32
 
                         cqs'32
 
@@ -2500,27 +2500,27 @@
 
                         aqs32
 
-                        ees'32
+                        e'32
 
-                        des'32
+                        d'32
 
-                        ees'32
+                        e'32
 
-                        eef'32
+                        e'32
 
-                        etef'32
+                        ef'32
 
-                        etef'32
+                        ef'32
 
-                        dtef'32
+                        cs'32
 
                         c'32
 
-                        bes32
+                        b32
 
-                        ctes'32
+                        cs'32
 
-                        bes32
+                        b32
 
                         c'32
 
@@ -2528,14 +2528,14 @@
 
                         aqs32
 
-                        ees'32
+                        e'32
 
-                        etef'32
+                        ef'32
 
-                        ees'32
+                        e'32
 
                         \revert Staff.Stem.stemlet-length
-                        eef'32
+                        e'32
                         ]
                         <>
                         \mp
@@ -2561,21 +2561,21 @@
                     bf16
 
                     \revert Staff.Stem.stemlet-length
-                    bes16
+                    b16
                     ~
                     ]
 
                     \scaleDurations #'(1 . 1) {
 
-                        bes4
+                        b4
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'16
+                    cs'16
                     [
 
-                    dtef'16
+                    cs'16
 
                     c'16
 
@@ -2584,15 +2584,15 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bes16
+                    b16
                     [
 
                     bf16
 
-                    ees'16
+                    e'16
 
                     \revert Staff.Stem.stemlet-length
-                    eef'16
+                    e'16
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -2600,22 +2600,22 @@
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'8
+                        ef'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        eef'16
+                        e'16
                         ~
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    eef'16
+                    e'16
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'8.
+                    ef'8.
                     ]
                     <>
                     \mf
@@ -2631,7 +2631,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 7) "8")
                     \times 7/5 {
 
-                        dtes'4.
+                        ef'4.
                         \ff
                         \>
 
@@ -2665,7 +2665,7 @@
                         - \tweak stencil #abjad-flared-hairpin
                         \<
 
-                        ees'16
+                        e'16
 
                         \revert Staff.Stem.stemlet-length
                         bqf16
@@ -2798,7 +2798,7 @@
 
                     bqs4
 
-                    etef'4
+                    ef'4
                     <>
                     \pp
 
@@ -2820,12 +2820,12 @@
 
                         b16
 
-                        ces'16
+                        c'16
 
                         bqf16
 
                         \revert Staff.Stem.stemlet-length
-                        ces'16
+                        c'16
                         ]
 
                     }
@@ -2860,7 +2860,7 @@
                         \mf
                         \>
 
-                        ees'2
+                        e'2
                         \mp
 
                     }
@@ -2904,7 +2904,7 @@
 
                         bqs2.
 
-                        des'4
+                        d'4
                         <>
                         \mf
 
@@ -2916,7 +2916,7 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        etef'16
+                        ef'16
                         \ff
                         - \tweak stencil #abjad-flared-hairpin
                         \>
@@ -2926,15 +2926,15 @@
 
                         r16
 
-                        eef'8
+                        e'8
                         \mp
                         - \tweak stencil #abjad-flared-hairpin
                         \>
 
-                        etef'16
+                        ef'16
 
                         \revert Staff.Stem.stemlet-length
-                        dtef'16
+                        cs'16
                         ]
                         <>
                         \p
@@ -2947,12 +2947,12 @@
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        des'8.
+                        d'8.
                         \mf
                         \<
                         [
 
-                        etef'16
+                        ef'16
                         <>
                         \ff
 
@@ -2966,7 +2966,7 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ees'8
+                        e'8
                         \f
                         \>
                         [
@@ -2983,34 +2983,34 @@
                         \<
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        eef'8
+                        e'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        etef'8
+                        ef'8
                         ]
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    des'8
+                    d'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ctes'8
+                    cs'8
                     ~
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'16
+                    cs'16
                     [
 
-                    bes16
+                    b16
 
                     c'16
 
                     \revert Staff.Stem.stemlet-length
-                    dtef'16
+                    cs'16
                     ]
                     <>
                     \mf

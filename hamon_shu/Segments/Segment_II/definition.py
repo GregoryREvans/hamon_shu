@@ -23,6 +23,7 @@ maker = evans.SegmentMaker(
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=[[abjad.StopHairpin()], [], [], []],
+    tuplet_bracket_noteheads=False,
     add_final_grand_pause=True,
     fermata="scripts.ufermata",
     score_includes=[

@@ -220,7 +220,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    def''8
+                    d''8
                     \p
                     - \accent
                     - \tweak stencil #constante-hairpin
@@ -231,7 +231,7 @@
                     \!
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ces''8
+                    c''8
                     \mp
                     \>
                     [
@@ -249,12 +249,12 @@
 
                     R1 * 1/4
 
-                    des'2
+                    d'2
                     \mf
                     - \tenuto
                     \>
 
-                    ees'4
+                    e'4
                     <>
                     \mp
 
@@ -305,7 +305,7 @@
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        bef16
+                        b16
                         - \accent
                         ]
                         <>
@@ -323,7 +323,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        gtef'2
+                        fs'2
 
                         r4
                         \!
@@ -350,7 +350,7 @@
                         r16
 
                         \revert Staff.Stem.stemlet-length
-                        def''16
+                        d''16
                         \mp
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -362,7 +362,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
-                        ctes''4.
+                        cs''4.
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
@@ -370,7 +370,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        def''8
+                        d''8
                         \pp
                         \<
                         ]
@@ -390,7 +390,7 @@
 
                         r4
 
-                        bef8
+                        b8
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -405,7 +405,7 @@
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bef16
+                        b16
                         \mp
                         - \accent
                         \>
@@ -438,14 +438,14 @@
 
                     r2
 
-                    ctes'4
+                    cs'4
                     \p
                     \<
                     ~
 
-                    ctes'4
+                    cs'4
 
-                    dtef'4
+                    cs'4
                     - \accent
                     <>
                     \mp
@@ -477,20 +477,20 @@
 
                     r2
 
-                    fes'2.
+                    f'2.
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    fes'2
+                    f'2
                     ~
 
-                    fes'4
+                    f'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -503,13 +503,13 @@
 
                     eqs'4
 
-                    aef'2.
+                    a'2.
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    aef'2.
+                    a'2.
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -519,7 +519,7 @@
                         \!
                         [
 
-                        def''16
+                        d''16
                         \f
                         - \tenuto
                         \>
@@ -548,7 +548,7 @@
 
                         r4
 
-                        btes4
+                        c'4
                         \mf
                         \>
                         <>
@@ -556,12 +556,12 @@
 
                         r2
 
-                        ees'4
+                        e'4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ges'4
+                        g'4
                         - \accent
 
                     }
@@ -575,12 +575,12 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        bef'8
+                        b'8
                         \pp
                         \<
                         ]
 
-                        def''4
+                        d''4
                         <>
                         \mf
 
@@ -600,7 +600,7 @@
                     \<
                     ]
 
-                    ces''4
+                    c''4
                     <>
                     \f
 
@@ -615,10 +615,10 @@
                     \<
                     ]
 
-                    def''2.
+                    d''2.
                     - \tenuto
 
-                    bef'2
+                    b'2
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -627,32 +627,32 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
 
-                        ges'4
+                        g'4
 
                         bqf'4
                         - \accent
 
-                        ees'4.
+                        e'4.
                         ~
 
                     }
 
-                    ees'4
+                    e'4
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
-                        ees'8
+                        e'8
 
-                        btes2
+                        c'2
 
-                        des'2
+                        d'2
                         ~
 
                     }
 
-                    des'4
+                    d'4
 
                     r4
                     \!
@@ -662,7 +662,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bef8
+                    b8
                     \mp
                     \>
                     ]
@@ -711,7 +711,7 @@
 
                         r8
 
-                        gtef'16
+                        fs'16
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -726,12 +726,12 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
 
-                        ctes''4
+                        cs''4
                         - \accent
 
                         c''8
 
-                        ctes''4.
+                        cs''4.
 
                         gqs8
                         ~
@@ -753,7 +753,7 @@
 
                         bqf1
 
-                        bef4
+                        b4
                         - \accent
 
                     }
@@ -787,13 +787,13 @@
                     \!
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ees'8
+                    e'8
                     \pp
                     \<
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ges'8
+                    g'8
                     ]
                     <>
                     \mf
@@ -830,7 +830,7 @@
                     gqs'2
                     \pp
 
-                    bef'4
+                    b'4
                     \mp
                     \<
                     <>
@@ -843,7 +843,7 @@
                         r16
                         [
 
-                        ges'16
+                        g'16
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
@@ -851,7 +851,7 @@
                         r8
                         \!
 
-                        ees'16
+                        e'16
                         \mf
                         - \tenuto
                         \>
@@ -889,7 +889,7 @@
                         \>
 
                         \revert Staff.Stem.stemlet-length
-                        ges'16
+                        g'16
                         ]
                         <>
                         \mf
@@ -901,12 +901,12 @@
 
                         r4
 
-                        ees'4
+                        e'4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        dtef'2
+                        cs'2
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -926,12 +926,12 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        ctes'8
+                        cs'8
                         \p
                         \<
                         ]
 
-                        des'4
+                        d'4
                         <>
                         \mp
 
@@ -981,7 +981,7 @@
                         \set Staff.instrumentName =                            %! applying staff names and clefs
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
-                        ees'4
+                        e'4
                         \mf
                         \>
 
@@ -1001,7 +1001,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ces''8
+                    c''8
                     \mp
                     - \accent
                     - \tweak stencil #constante-hairpin
@@ -1012,13 +1012,13 @@
                     \!
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bef'8
+                    b'8
                     \pp
                     \<
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ges'8
+                    g'8
                     ]
                     <>
                     \mf
@@ -1028,7 +1028,7 @@
 
                         r4
 
-                        bef'4
+                        b'4
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1046,28 +1046,28 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
-                        ces''4
+                        c''4
                         \mp
                         - \accent
                         \>
 
                         bqf'2
 
-                        bef'4.
+                        b'4.
 
-                        def''4
+                        d''4
                         ~
 
                     }
 
-                    def''4
+                    d''4
                     \pp
 
-                    btes4
+                    c'4
                     \mf
                     \<
 
-                    des'2.
+                    d'2.
                     - \accent
                     <>
                     \f
@@ -1086,7 +1086,7 @@
                         r16
                         [
 
-                        gtef'16
+                        fs'16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1099,7 +1099,7 @@
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        gtef'16
+                        fs'16
                         ]
                         <>
                         \mp
@@ -1116,7 +1116,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ctes''2
+                        cs''2
                         - \accent
 
                         r4
@@ -1133,7 +1133,7 @@
                         r16
                         [
 
-                        def''16
+                        d''16
                         \mf
                         \>
 
@@ -1163,7 +1163,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        def''8
+                        d''8
                         \pp
                         - \accent
                         \<
@@ -1184,7 +1184,7 @@
 
                         r8
 
-                        ctes''16
+                        cs''16
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1195,10 +1195,10 @@
 
                     }
 
-                    gtef'4
+                    fs'4
                     ~
 
-                    gtef'4
+                    fs'4
 
                     aqf'1
                     \mf
@@ -1211,21 +1211,21 @@
                     r2
                     \!
 
-                    ges'2.
+                    g'2.
                     \mp
                     - \tenuto
                     \>
                     ~
 
-                    ges'4
+                    g'4
 
-                    ees'4
+                    e'4
                     ~
 
-                    ees'2.
+                    e'2.
                     ~
 
-                    ees'4
+                    e'4
                     <>
                     \pp
 
@@ -1248,7 +1248,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fes'8
+                    f'8
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1265,7 +1265,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fes'8
+                    f'8
                     - \accent
                     ]
                     <>
@@ -1279,7 +1279,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        aef'8
+                        a'8
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1307,7 +1307,7 @@
                         \>
                         ]
 
-                        ces'4
+                        c'4
                         <>
                         \p
 
@@ -1348,7 +1348,7 @@
 
                         r4
 
-                        ges'4
+                        g'4
                         \pp
                         \<
                         <>
@@ -1356,12 +1356,12 @@
 
                         r2
 
-                        des'4
+                        d'4
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        btes4
+                        c'4
 
                     }
 
@@ -1374,7 +1374,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        ees'8
+                        e'8
                         \mp
                         \>
                         ]
@@ -1397,18 +1397,18 @@
                         r16
                         [
 
-                        ges'16
+                        g'16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bef'8
+                        b'8
 
                         r16
                         \!
 
                         \revert Staff.Stem.stemlet-length
-                        def''16
+                        d''16
                         \p
                         \<
                         ]
@@ -1423,23 +1423,23 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
-                        ces''2..
+                        c''2..
                         - \accent
 
                         bqf'4
 
                     }
 
-                    ges'4
+                    g'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
-                        ges'4.
+                        g'4.
 
-                        des'4
+                        d'4
                         <>
                         \mp
 
@@ -1462,7 +1462,7 @@
                         r16
                         [
 
-                        gtef'16
+                        fs'16
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1476,7 +1476,7 @@
                         \>
 
                         \revert Staff.Stem.stemlet-length
-                        ctes''16
+                        cs''16
                         ]
                         <>
                         \p
@@ -1512,13 +1512,13 @@
 
                         r8
 
-                        def''16
+                        d''16
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        ctes''16
+                        cs''16
                         ]
 
                     }
@@ -1529,12 +1529,12 @@
                         r4
                         \!
 
-                        def''4
+                        d''4
                         \mf
                         - \accent
                         \>
 
-                        bef2
+                        b2
                         <>
                         \mp
 
@@ -1551,7 +1551,7 @@
 
                     r2.
 
-                    fes'2
+                    f'2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1561,26 +1561,26 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
-                        fes'4
+                        f'4
 
-                        aef'2
+                        a'2
 
                     }
 
-                    def''4
+                    d''4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    def''8
+                    d''8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    aef'8
+                    a'8
                     - \accent
                     ~
                     ]
 
-                    aef'4
+                    a'4
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -1610,7 +1610,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ges'8
+                    g'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1626,7 +1626,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'8
+                    d'8
                     ]
                     <>
                     \pp
@@ -1636,12 +1636,12 @@
 
                         r4
 
-                        ctes'4
+                        cs'4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        dtef'2
+                        cs'2
 
                         r4
                         \!
@@ -1659,7 +1659,7 @@
                         r16
                         [
 
-                        ees'16
+                        e'16
                         \p
                         \<
                         <>
@@ -1667,7 +1667,7 @@
 
                         r8
 
-                        ges'16
+                        g'16
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1736,7 +1736,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    ees'2
+                    e'2
 
                     r2
                     \!
@@ -1746,7 +1746,7 @@
 
                     R1 * 1/4
 
-                    ges'4
+                    g'4
                     \f
                     \>
                     <>
@@ -1759,7 +1759,7 @@
                         r8
                         [
 
-                        bef'8
+                        b'8
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1768,14 +1768,14 @@
                         \!
 
                         \clef "treble"
-                        def''8
+                        d''8
                         \mf
                         - \accent
                         \<
 
                         \clef "varC"
                         \revert Staff.Stem.stemlet-length
-                        ees8
+                        e8
                         ]
                         <>
                         \f
@@ -1789,7 +1789,7 @@
                         r16
                         [
 
-                        ces''16
+                        c''16
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1810,13 +1810,13 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bef'8
+                    b'8
                     \pp
                     \<
                     ]
 
                     \clef "treble"
-                    def''4
+                    d''4
                     - \accent
                     <>
                     \mf
@@ -1826,7 +1826,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bef'8
+                    b'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1843,7 +1843,7 @@
                         \!
 
                         \revert Staff.Stem.stemlet-length
-                        ees'16
+                        e'16
                         \mp
                         \>
                         ]
@@ -1876,7 +1876,7 @@
                         r16
                         [
 
-                        gtef'16
+                        fs'16
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -1917,24 +1917,24 @@
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes''8
+                    cs''8
                     \mf
                     - \accent
                     \>
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    def''8
+                    d''8
                     ~
                     ]
 
-                    def''2
+                    d''2
 
                     \clef "varC"
-                    ees2
+                    e2
                     ~
 
-                    ees4
+                    e4
                     <>
                     \p
 
@@ -1952,7 +1952,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    dtef'4
+                    cs'4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
@@ -1971,14 +1971,14 @@
 
                         r8
 
-                        gef16
+                        g16
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
-                        def''16
+                        d''16
                         ]
 
                     }
@@ -1991,8 +1991,7 @@
                         \!
                         [
 
-                        \clef "varC"
-                        gef16
+                        g16
                         \mp
                         - \accent
                         \>
@@ -2043,16 +2042,15 @@
                     r4
                     \!
 
-                    \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
-                    def''8
+                    d''8
                     \p
                     \<
                     [
 
                     \clef "varC"
                     \revert Staff.Stem.stemlet-length
-                    ees8
+                    e8
                     ]
                     <>
                     \mp
@@ -2071,7 +2069,7 @@
                         \<
                         ]
 
-                        ees4
+                        e4
 
                         r8
                         \!
@@ -2081,29 +2079,29 @@
                     }
 
                     \clef "treble"
-                    def''2
+                    d''2
                     \mf
                     - \tenuto
                     \>
 
-                    aef'4
+                    a'4
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
-                        aef'1
+                        a'1
                         ~
 
                     }
 
-                    aef'2.
+                    a'2.
                     ~
 
-                    aef'4
+                    a'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    aef'8
+                    a'8
                     \p
                     [
 
@@ -2120,7 +2118,7 @@
                     r2
                     \!
 
-                    bef'4
+                    b'4
                     \mp
                     \<
                     <>
@@ -2193,7 +2191,7 @@
                         r16
                         [
 
-                        ees16
+                        e16
                         \pp
                         \<
                         <>
@@ -2201,14 +2199,14 @@
 
                         r8
 
-                        ctes''16
+                        cs''16
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
-                        def''16
+                        d''16
                         ]
 
                     }
@@ -2241,7 +2239,7 @@
 
                         r4
 
-                        fes'8
+                        f'8
                         \f
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -2261,7 +2259,7 @@
                         \!
                         [
 
-                        def''16
+                        d''16
                         \mf
                         \>
 
@@ -2282,13 +2280,13 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bef8
+                    b8
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
 
-                    ces'4
+                    c'4
                     - \accent
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -2306,13 +2304,13 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
-                        ces'2.
+                        c'2.
                         <>
                         \mf
 
                         r4
 
-                        bef4
+                        b4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2337,7 +2335,7 @@
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        def''16
+                        d''16
                         - \accent
                         ]
 
@@ -2347,7 +2345,7 @@
                     \times 2/3 {
 
                         \clef "varC"
-                        ees4
+                        e4
 
                         b'8
                         ~
@@ -2356,15 +2354,15 @@
 
                     b'4
 
-                    fes'4
+                    f'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    aef'8
+                    a'8
                     ]
 
                     eqs'4
@@ -2382,12 +2380,12 @@
                         - \accent
                         \<
 
-                        ees8
+                        e8
                         ~
 
                     }
 
-                    ees4
+                    e4
                     <>
                     \mp
 
@@ -2396,7 +2394,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    bef'8
+                    b'8
                     \mf
                     \<
                     ]
@@ -2427,7 +2425,7 @@
                     \<
                     ]
 
-                    ges'4
+                    g'4
                     <>
                     \mf
 
@@ -2440,12 +2438,12 @@
                         r16
                         [
 
-                        bef'16
+                        b'16
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ges'8
+                        g'8
 
                         r16
                         \!
@@ -2476,19 +2474,19 @@
 
                     }
 
-                    ges'1
+                    g'1
                     ~
 
-                    ges'2
+                    g'2
                     ~
 
-                    ges'1
+                    g'1
                     ~
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
-                        ges'4
+                        g'4
 
                         c'2
                         \mf
@@ -2532,13 +2530,13 @@
                         r8
                         \!
 
-                        ees'16
+                        e'16
                         \pp
                         - \accent
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        ges'16
+                        g'16
                         ]
                         <>
                         \mf
@@ -2550,13 +2548,13 @@
 
                         r4
 
-                        bef'4
+                        b'4
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \clef "treble"
-                        def''2
+                        d''2
 
                         r4
                         \!
@@ -2571,15 +2569,15 @@
                     R1 * 1/4
 
                     \clef "bass"
-                    ees2.
+                    e2.
                     \mp
                     \>
                     ~
 
-                    ees1
+                    e1
                     ~
 
-                    ees4
+                    e4
                     <>
                     \pp
 
@@ -2588,8 +2586,8 @@
 
                         r4
 
-                        \clef "treble"
-                        ces''4
+                        \clef "tenorvarC"
+                        c''4
                         \mf
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -2602,7 +2600,7 @@
                         \p
                         \<
 
-                        ges'4
+                        g'4
                         <>
                         \mp
 
@@ -2615,7 +2613,7 @@
                         r16
                         [
 
-                        des'16
+                        d'16
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2638,19 +2636,19 @@
                         r16
                         [
 
-                        btes16
+                        c'16
                         \mf
                         - \accent
                         \>
 
-                        ees'8
+                        e'8
                         <>
                         \p
 
                         r16
 
                         \revert Staff.Stem.stemlet-length
-                        btes16
+                        c'16
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2658,10 +2656,10 @@
 
                     }
 
-                    des'2.
+                    d'2.
                     ~
 
-                    des'2.
+                    d'2.
 
                     r2
                     \!
@@ -2683,8 +2681,7 @@
 
                         r8
 
-                        \clef "bass"
-                        ees16
+                        e16
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -2724,23 +2721,23 @@
 
                     r2
 
-                    ees4
+                    e4
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    gef4
+                    g4
 
                     \clef "treble"
-                    def''4
+                    d''4
                     \mp
                     \>
                     ~
 
-                    def''2
+                    d''2
                     ~
 
-                    def''4
+                    d''4
 
                     gqs'2
                     <>
@@ -2752,7 +2749,7 @@
 
                         r4
 
-                        ges'4
+                        g'4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2760,11 +2757,11 @@
                         r2
                         \!
 
-                        bef'4
+                        b'4
                         \p
                         \<
 
-                        ges'4
+                        g'4
                         - \accent
                         <>
                         \mp
@@ -2799,12 +2796,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    des'8
+                    d'8
                     \mf
                     \>
                     ]
 
-                    dtef'4
+                    cs'4
                     - \tenuto
                     <>
                     \p
@@ -2814,7 +2811,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    def''8
+                    d''8
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2860,28 +2857,28 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        des'2
+                        d'2
                         - \accent
                         ~
 
                     }
 
-                    des'2
+                    d'2
                     ~
 
-                    des'2.
+                    d'2.
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
-                        btes4
+                        c'4
                         \f
                         \>
 
-                        ees'2.
+                        e'2.
 
-                        btes2
+                        c'2
                         <>
                         \mf
 
@@ -2892,7 +2889,7 @@
 
                         r4
 
-                        des'4
+                        d'4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2906,7 +2903,7 @@
                         \<
 
                         \clef "bass"
-                        fes4
+                        f4
                         <>
                         \f
 
@@ -2917,13 +2914,13 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees8
+                    e8
                     \mp
                     \>
                     ]
 
-                    \clef "treble"
-                    ces''4
+                    \clef "tenorvarC"
+                    c''4
                     <>
                     \pp
 
@@ -2938,9 +2935,8 @@
                     r8
                     [
 
-                    \clef "bass"
                     \revert Staff.Stem.stemlet-length
-                    ees8
+                    e8
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2969,7 +2965,7 @@
                         r16
                         [
 
-                        bef16
+                        b16
                         \pp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -2995,7 +2991,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bef2
+                        b2
                         - \accent
 
                         r4
@@ -3027,12 +3023,12 @@
                     r4
                     \!
 
-                    bef4
+                    b4
                     \mf
                     \>
                     ~
 
-                    bef4
+                    b4
                     \mp
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -3052,14 +3048,14 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees8
+                    e8
                     ~
                     ]
 
-                    ees4
+                    e4
                     ~
 
-                    ees4
+                    e4
                     <>
                     \p
 
@@ -3067,7 +3063,7 @@
 
                     r2.
 
-                    ees4
+                    e4
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3084,7 +3080,7 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        ees8
+                        e8
                         - \accent
                         ]
 
@@ -3093,13 +3089,13 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bef4.
+                        b4.
                         ~
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bef8
+                    b8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3122,7 +3118,7 @@
 
                         r4
 
-                        ees8
+                        e8
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -3142,7 +3138,7 @@
                         \!
                         [
 
-                        bef16
+                        b16
                         \mp
                         \>
 
@@ -3165,12 +3161,12 @@
                         r16
                         [
 
-                        bef16
+                        b16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ces'8
+                        c'8
                         - \accent
 
                         r16
@@ -3187,7 +3183,7 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
-                        ces'2.
+                        c'2.
                         <>
                         \mp
 
@@ -3213,28 +3209,27 @@
                         - \accent
                         \>
 
-                        \clef "tenorvarC"
-                        aef'2
+                        a'2
                         ~
 
-                        aef'8
+                        a'8
                         ~
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    aef'8
+                    a'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ees'8
+                    e'8
                     ~
                     ]
 
-                    ees'2.
+                    e'2.
                     \p
 
-                    ges'4
+                    g'4
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -3265,7 +3260,7 @@
                         r8
                         [
 
-                        des'8
+                        d'8
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -3273,7 +3268,7 @@
                         r4
                         \!
 
-                        ctes'8
+                        cs'8
                         \mp
                         \>
 
@@ -3290,12 +3285,12 @@
 
                         r4
 
-                        dtef'4
+                        cs'4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        ees'2
+                        e'2
 
                         r4
                         \!

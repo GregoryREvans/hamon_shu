@@ -185,17 +185,28 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r4
+                    \stopTextSpanOne
 
                     r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 10) "16")
                     \times 10/17 {
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16.")
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -242,7 +253,6 @@
 
                         a4
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16.")
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -258,7 +268,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "16")
                         \times 5/7 {
 
                             def'4
@@ -276,11 +285,9 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 21 20) "32")
                     \times 20/21 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "64")
                         \times 10/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -296,7 +303,6 @@
 
                         fqs'8
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "64.")
                         \times 4/5 {
 
                             ftes'32
@@ -311,7 +317,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "32")
                         \times 5/7 {
 
                             aqf8
@@ -402,7 +407,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -444,8 +448,21 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     r4
+                    \stopTextSpanOne
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
@@ -498,7 +515,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 3) "8")
                     \times 3/4 {
 
                         ces'8
@@ -566,6 +582,18 @@
                     r4
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 2 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     bef2
@@ -582,6 +610,7 @@
                             )
                         )
                     \>
+                    \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -644,11 +673,23 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 6 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     r8
+                    \stopTextSpanOne
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
                         aqf4
@@ -722,7 +763,6 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     ates4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -799,11 +839,24 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
+                    \stopTextSpanOne
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
@@ -931,6 +984,18 @@
                     r1 * 5/16
                     \stopTextSpanOne                                           %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 3 7 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 5/16
 
@@ -1020,9 +1085,22 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r4.
+                    \stopTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
@@ -1134,18 +1212,29 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 5 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 7) "8")
                     \times 7/13 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 6) "16")
                         \times 6/11 {
 
                             def'4.
                             \ppp
                             \>
+                            \stopTextSpanOne
                             - \abjad-dashed-line-with-arrow
                             - \tweak bound-details.left.text \markup {
                                 \concat
@@ -1183,7 +1272,6 @@
                         f'4
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "16")
                         \times 5/6 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1199,7 +1287,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "16")
                         \times 5/9 {
 
                             d'4
@@ -1216,11 +1303,9 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 29 24) "64")
                     \times 24/29 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 6) "64")
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1247,7 +1332,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "64")
                         \times 5/4 {
 
                             aqs32
@@ -1284,7 +1368,6 @@
 
                     r8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8.")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1502,10 +1585,23 @@
                     r8
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 4 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 3/8
 
@@ -1547,10 +1643,8 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "32")
                     \times 12/13 {
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "128")
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1593,7 +1687,6 @@
                         bef8
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "32")
                         \times 3/5 {
 
                             aqs16
@@ -1605,7 +1698,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "64")
                         \times 6/7 {
 
                             bef16
@@ -1621,10 +1713,8 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 14) "16")
                     \times 14/17 {
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16.")
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1642,7 +1732,6 @@
 
                         eqf'4
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16.")
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1658,7 +1747,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "16")
                         \times 5/7 {
 
                             dqs'4
@@ -1675,11 +1763,9 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 4) "16.")
                     \times 4/7 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "64")
                         \times 10/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1695,7 +1781,6 @@
 
                         e'8
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "64.")
                         \times 4/5 {
 
                             ftes'32
@@ -1710,7 +1795,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "32")
                         \times 5/7 {
 
                             ates8
@@ -1726,11 +1810,9 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 10) "16")
                     \times 10/13 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 6) "32")
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1747,7 +1829,6 @@
                         ftes'8
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "32")
                         \times 5/6 {
 
                             e'16
@@ -1759,7 +1840,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 5) "32")
                         \times 5/9 {
 
                             ftes'8
@@ -1791,7 +1871,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -1894,9 +1973,22 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    \stopTextSpanOne
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1995,16 +2087,27 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 2 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r8
+                    \stopTextSpanOne
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 29 20) "32")
                     \times 20/29 {
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 6) "32")
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -2059,7 +2162,6 @@
                         }
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "32")
                         \times 5/4 {
 
                             e'16
@@ -2074,7 +2176,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2164,7 +2265,6 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2253,9 +2353,22 @@
                     r8
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 6 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r4
+                    \stopTextSpanOne
 
                     r4.
 
@@ -2304,10 +2417,23 @@
                     \!                                                         %! applying indicators
                     \stopTextSpanOne                                           %! applying indicators
                     \stopTextSpanTwo                                           %! applying indicators
+                    - \abjad-invisible-line                                    %! applying indicators
+                    - \tweak bound-details.left.text \markup {                 %! applying indicators
+                        \concat                                                %! applying indicators
+                            {                                                  %! applying indicators
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 } %! applying indicators
+                                \hspace                                        %! applying indicators
+                                    #0.5                                       %! applying indicators
+                            }                                                  %! applying indicators
+                        }                                                      %! applying indicators
+                    - \tweak bound-details.right.padding 3                     %! applying indicators
+                    - \tweak staff-padding #6                                  %! applying indicators
+                    \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/4
 
                     r4
+                    \stopTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'triangle
                     gtef'2
@@ -2384,11 +2510,24 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     \bar "||"
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
+                    \stopTextSpanOne
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
@@ -2482,7 +2621,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "8")
                     \times 5/4 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -2536,8 +2674,21 @@
                     r8
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     r2
+                    \stopTextSpanOne
 
                     r4.
 
@@ -2640,9 +2791,22 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 6 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r8
+                    \stopTextSpanOne
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
@@ -2764,9 +2928,22 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
                     ]
 
                     r4
+                    \stopTextSpanOne
 
                     r4.
 
@@ -2856,9 +3033,22 @@
                     r4
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 4 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    \stopTextSpanOne
                     [
 
                     \once \override Staff.NoteHead.style = #'triangle
@@ -2936,7 +3126,6 @@
 
                     aqf8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3072,6 +3261,18 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 5 7 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     f'4
@@ -3089,6 +3290,7 @@
                         )
                     - \tweak stencil #constante-hairpin
                     \<
+                    \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -3121,6 +3323,18 @@
                     \!
                     \stopTextSpanOne
                     \stopTextSpanTwo
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 1 2 }
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #6
+                    \startTextSpanOne
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
                     R1 * 1/16
@@ -3128,6 +3342,7 @@
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ufermata"                                %! applying ending skips
                         }                                                      %! applying ending skips
+                    \stopTextSpanOne
                     \stopStaff \startStaff                                     %! applying ending skips
 
                 }

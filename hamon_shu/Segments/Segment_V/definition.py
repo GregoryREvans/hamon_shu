@@ -38,7 +38,7 @@ maker = evans.SegmentMaker(
     cutaway=False,
     beam_pattern="meter",
     barline="||",
-    tempo=((1, 4), 108),
+    tempo=((1, 4), 116),
     rehearsal_mark="D",
     page_break_counts=[
         2,
