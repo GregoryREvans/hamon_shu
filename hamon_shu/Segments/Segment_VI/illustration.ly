@@ -293,8 +293,8 @@
             s1 * 1/4
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
-            \time 1/8                                                          %! scaling time signatures
-            s1 * 1/8
+            \time 1/4                                                          %! scaling time signatures
+            s1 * 1/4
 
         }
 
@@ -324,7 +324,6 @@
                     R1 * 5/8
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 1
                     fqs'''4.
                     _ #(make-dynamic-script
                         (markup
@@ -383,7 +382,6 @@
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 0
                     \revert Staff.Stem.stemlet-length
                     bes8.
                     _ #(make-dynamic-script
@@ -706,7 +704,6 @@
                         \p
                         \>
 
-                        \ottava 1
                         fqs'''4
                         ~
 
@@ -743,7 +740,6 @@
                         \<
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        \ottava 0
                         dqf'1
                         \!
                         _ #(make-dynamic-script
@@ -881,10 +877,8 @@
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
 
-                        \ottava 1
                         fqs'''4
 
-                        \ottava 0
                         aqf2
                         ~
 
@@ -995,7 +989,6 @@
                     \stopTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    \ottava 1
                     dqs'''4
                     \pp
                     \<
@@ -1027,7 +1020,6 @@
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 0
                     bes2
                     ~
 
@@ -1068,7 +1060,6 @@
                     \stopTextSpanTwo
                     \stopTextSpanThree
 
-                    \ottava 1
                     d'''2
                     ~
 
@@ -1114,7 +1105,6 @@
                     etef'''8
                     [
 
-                    \ottava 0
                     \revert Staff.Stem.stemlet-length
                     aes8
                     \stopTextSpanOne
@@ -1138,7 +1128,6 @@
 
                     aes2
 
-                    \ottava 1
                     fqs'''1
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -1154,7 +1143,6 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \ottava 0
                     aes4
                     \stopTextSpanOne
                     ~
@@ -1391,7 +1379,6 @@
                         \once \override Staff.NoteHead.style = #'default
                         dtes'8
 
-                        \ottava 1
                         fqs'''2.
                         ~
 
@@ -1415,7 +1402,6 @@
                     \startTextSpanTwo
                     [
 
-                    \ottava 0
                     \revert Staff.Stem.stemlet-length
                     e''8
                     \stopTextSpanTwo
@@ -1454,11 +1440,11 @@
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
+                    r1 * 1/8
                     \!
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
+                    R1 * 1/8
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
@@ -1619,7 +1605,6 @@
                     [
 
                     \once \override Staff.NoteHead.style = #'default
-                    \ottava 1
                     \revert Staff.Stem.stemlet-length
                     d'''8
                     \pp
@@ -1662,11 +1647,9 @@
                         d'''2
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        \ottava 0
                         gtef''2.
 
                         \once \override Staff.NoteHead.style = #'default
-                        \ottava 1
                         etef'''8
                         ~
 
@@ -1700,7 +1683,6 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    \ottava 0
                     r2
                     \!
                     \stopTextSpanTwo
@@ -1742,7 +1724,6 @@
                     aes4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 1
                     etef'''4
 
                     \once \override Staff.NoteHead.style = #'default
@@ -1773,7 +1754,6 @@
                     - \tweak staff-padding #6
                     \startTextSpanTwo
 
-                    \ottava 0
                     r4
                     \!
                     \stopTextSpanTwo
@@ -2317,7 +2297,6 @@
                     eqf''4
 
                     \once \override Staff.NoteHead.style = #'default
-                    \ottava 1
                     etef'''2
                     _ #(make-dynamic-script
                         (markup
@@ -2350,7 +2329,6 @@
                     etef'''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 0
                     aes2.
                     \stopTextSpanOne
                     ~
@@ -2403,7 +2381,6 @@
 
                     R1 * 1/2
 
-                    \ottava 1
                     fqs'''4
                     _ #(make-dynamic-script
                         (markup
@@ -2440,7 +2417,6 @@
                     fqs'''4
 
                     \once \override Staff.NoteHead.style = #'default
-                    \ottava 0
                     gtes'2
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -2509,7 +2485,6 @@
                         g''1
 
                         \once \override Staff.NoteHead.style = #'default
-                        \ottava 1
                         fqs'''4
                         \p
                         \>
@@ -2555,11 +2530,9 @@
                     fqs'''2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 0
                     dtes'2.
 
                     \once \override Staff.NoteHead.style = #'default
-                    \ottava 1
                     fqs'''4
                     ~
 
@@ -2567,7 +2540,6 @@
                     fqs'''2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \ottava 0
                     dqf'2
                     ~
 
@@ -2648,10 +2620,10 @@
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
+                    r1 * 1/8
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
+                    R1 * 1/8
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
@@ -3891,10 +3863,10 @@
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
+                    r1 * 1/8
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
+                    R1 * 1/8
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
@@ -5140,10 +5112,10 @@
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
-                    r1 * 1/16
+                    r1 * 1/8
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
-                    R1 * 1/16
+                    R1 * 1/8
                     ^ \markup {                                                %! applying ending skips
                         \musicglyph                                            %! applying ending skips
                             #"scripts.ushortfermata"                           %! applying ending skips
