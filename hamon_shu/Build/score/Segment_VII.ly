@@ -104,7 +104,6 @@
                     \markup { "vln. I" }                                       %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
-                    \ottava 1
                     \clef "treble"
                     fs''''1
                     :32
@@ -112,7 +111,6 @@
                     ^ \markup { "sempre col legno tratto" }                    %! attaching persistent indicators
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         fs''''4
@@ -123,7 +121,6 @@
                     }
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
-                    \ottava 0
                     r1 * 1/2
 
                     R1 * 1/2
@@ -142,7 +139,6 @@
                     - \tenuto
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         f''2
@@ -151,7 +147,6 @@
                         b''2
                         - \espressivo
 
-                        \ottava 1
                         bf'''2.
                         ~
 
@@ -160,7 +155,6 @@
                     bf'''4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         ef'''4
@@ -172,10 +166,8 @@
 
                     fs''''4
 
-                    \ottava 0
                     cs'4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
                         b2
@@ -296,7 +288,6 @@
                 \context Voice = "Voice 2"
                 {
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
@@ -316,7 +307,6 @@
 
                     bf''4
 
-                    \ottava 1
                     a'''4
 
                     af'''2
@@ -324,7 +314,6 @@
                     d'''2
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
-                    \ottava 0
                     r1 * 3/8
 
                     R1 * 3/8
@@ -334,7 +323,6 @@
 
                     R1 * 5/8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         f''4.
@@ -360,7 +348,6 @@
 
                     f''4
 
-                    \ottava 1
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'''8
                     [
@@ -371,7 +358,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
                         fs''''4
@@ -393,25 +379,21 @@
                     bf'''4
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bf'''8
                         [
 
-                        \ottava 0
                         \revert Staff.Stem.stemlet-length
                         cs''8
                         ]
 
-                        \ottava 1
                         af'''4.
                         :32
 
                     }
 
-                    \ottava 0
                     r2
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
@@ -422,10 +404,8 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 8 7) "8")
                     \times 7/8 {
 
-                        \ottava 1
                         cs''''8
 
                         d'''4
@@ -439,7 +419,6 @@
 
                     fs''''2
 
-                    \ottava 0
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
                     [
@@ -453,7 +432,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "8")
                     \times 5/4 {
 
                         b'8
@@ -465,28 +443,22 @@
                     d''2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
-                        \ottava 1
                         ef'''4
                         - \tenuto
 
-                        \ottava 0
                         cs''4
 
                         e'4
 
-                        \ottava 1
                         fs''''4
 
                     }
 
-                    \ottava 0
                     d'2.
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         d'2
@@ -721,7 +693,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         b2
@@ -742,7 +713,6 @@
                     af,2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -769,7 +739,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "8")
                     \times 6/7 {
 
                         f'4
@@ -810,7 +779,6 @@
                     a,4.
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         e,2

@@ -432,7 +432,6 @@
                     - \bendAfter #'-3
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -495,7 +494,6 @@
                     r2
                     \!
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         f'2
@@ -554,7 +552,6 @@
                     fqs''2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 2 3) "4")
                     \times 3/2 {
 
                         gqf''2
@@ -642,7 +639,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         b'4
@@ -735,7 +731,6 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -789,7 +784,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -806,7 +800,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -916,7 +909,6 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         bqf'4
@@ -930,7 +922,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -963,7 +954,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         af4
@@ -1012,7 +1002,6 @@
                     bf2
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -1028,7 +1017,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 2 3) "4")
                     \times 3/2 {
 
                         af''2
@@ -1044,7 +1032,6 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -1060,7 +1047,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1095,7 +1081,6 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     gqf''4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         bf4
@@ -1110,7 +1095,6 @@
 
                     f'2.
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1168,7 +1152,6 @@
                     R1 * 3/8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         aqs4
@@ -1233,7 +1216,6 @@
                     \!
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1316,7 +1298,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1352,7 +1333,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -1408,7 +1388,6 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         fs''4
@@ -1427,7 +1406,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1446,7 +1424,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         af''4
@@ -1507,7 +1484,6 @@
                     af4
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         af4
@@ -1534,7 +1510,6 @@
                     c''2.
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         c''2.
@@ -1547,7 +1522,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -1566,7 +1540,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -1654,7 +1627,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         bqf'1
@@ -1683,7 +1655,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         af'1
@@ -1785,7 +1756,6 @@
                     af8
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         e''4
@@ -1818,7 +1788,6 @@
                     - \bendAfter #'-4
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1900,7 +1869,6 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -1933,7 +1901,6 @@
                     gqs'2.
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1959,7 +1926,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -2091,7 +2057,6 @@
 
                     e''4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2173,7 +2138,6 @@
                     \!
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 2 3) "4")
                     \times 3/2 {
 
                         c''2
@@ -2256,7 +2220,6 @@
                     - \bendAfter #'-5
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2273,7 +2236,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -2342,7 +2304,6 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'default
@@ -2402,7 +2363,6 @@
 
                     b'4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2430,7 +2390,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         fs'4
@@ -2441,7 +2400,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         ef'4
@@ -2526,7 +2484,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
                         fs''1
@@ -2613,7 +2570,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2636,7 +2592,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \clef "varC"
@@ -2664,7 +2619,6 @@
                     \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
                         c''4
@@ -2695,7 +2649,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         c''2.
@@ -2709,7 +2662,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         gqf''1
@@ -2728,7 +2680,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -2814,7 +2765,6 @@
                     bqf'4
                     - \bendAfter #'-3
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2864,7 +2814,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -2919,7 +2868,6 @@
                     \once \override Staff.NoteHead.style = #'default
                     d'4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2972,7 +2920,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
                         af''4
@@ -3053,7 +3000,6 @@
                     aqs2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
                         \clef "treble"
@@ -3101,7 +3047,6 @@
                     - \bendAfter #'-2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3128,7 +3073,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         e''4
@@ -3158,7 +3102,6 @@
                     ef'4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         bqf'2
@@ -3253,7 +3196,6 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqs'4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -3286,7 +3228,6 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     fqs''4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         c''4
@@ -3307,7 +3248,6 @@
                     r4
                     \!
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3337,7 +3277,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3398,7 +3337,6 @@
                     cs''2
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3423,7 +3361,6 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 2 3) "4")
                     \times 3/2 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3496,7 +3433,6 @@
                     fs'8
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         d'4
@@ -3534,7 +3470,6 @@
                     \clef "varC"
                     cqs4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \clef "treble"
@@ -3622,7 +3557,6 @@
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3719,7 +3653,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3739,7 +3672,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         af4
@@ -3780,7 +3712,6 @@
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3798,7 +3729,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -3864,7 +3794,6 @@
                     dqs4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3878,7 +3807,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -3934,7 +3862,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         eqs4
@@ -3952,7 +3879,6 @@
                     R1 * 1/4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
 
                         bqf'1.
@@ -3973,7 +3899,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 5) "4")
                     \times 5/3 {
 
                         af'2
@@ -4019,7 +3944,6 @@
                     - \bendAfter #'3
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         cs'4
@@ -4062,7 +3986,6 @@
                     bf4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -4184,7 +4107,6 @@
                     \mf
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
                         e''4
@@ -4203,7 +4125,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         e''4
@@ -4229,7 +4150,6 @@
                     fs''4
                     - \bendAfter #'-3
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         e''4
@@ -4260,7 +4180,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
 
                         ef''2.
@@ -4311,7 +4230,6 @@
                     dqs1
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -4336,7 +4254,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -4372,7 +4289,6 @@
                     dqs'2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -4389,7 +4305,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -4445,7 +4360,6 @@
                     cqs2.
                     ~
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         cqs1
@@ -4471,7 +4385,6 @@
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         gqs'4
@@ -4512,7 +4425,6 @@
                     - \bendAfter #'-4
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         dqs'4
@@ -4535,7 +4447,6 @@
 
                     bf4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         dqs'2
@@ -4556,7 +4467,6 @@
                     - \bendAfter #'4
                     \<
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -4584,7 +4494,6 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     fs'4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         d'4
@@ -4601,7 +4510,6 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         \once \override Staff.NoteHead.style = #'triangle
@@ -4660,7 +4568,6 @@
 
                     R1 * 3/8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         af4
@@ -4675,7 +4582,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
 
                         \once \override Staff.NoteHead.style = #'triangle

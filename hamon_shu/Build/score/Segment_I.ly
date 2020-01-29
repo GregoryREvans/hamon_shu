@@ -134,7 +134,6 @@
                     aqs16
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -158,7 +157,6 @@
                     r2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 18) "16")
                     \times 18/17 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -251,7 +249,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -271,7 +268,6 @@
                     r2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -326,7 +322,6 @@
                     r4.
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -342,7 +337,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         ef'4.
@@ -363,7 +357,6 @@
 
                     r2.
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         ef'4.
@@ -386,7 +379,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -415,7 +407,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -461,7 +452,6 @@
                     dqf'8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 12) "16")
                     \times 12/11 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -511,7 +501,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
                         d'16
@@ -522,7 +511,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -575,7 +563,6 @@
 
                     r2
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -601,7 +588,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -623,7 +609,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
 
                         ef'4
@@ -676,7 +661,6 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "32")
                     \times 16/15 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -759,7 +743,6 @@
                     e'16
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -779,7 +762,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
                         bf8
@@ -822,7 +804,6 @@
                     r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
                     \times 7/6 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -866,7 +847,6 @@
                     e'8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
                         aqs4.
@@ -883,7 +863,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -911,7 +890,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "8")
                     \times 5/6 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -969,7 +947,6 @@
                     r8
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -996,7 +973,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
                         c'4
@@ -1021,7 +997,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "32")
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1049,7 +1024,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1139,7 +1113,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1183,7 +1156,6 @@
                     dqf'16
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1203,7 +1175,6 @@
                     r2.
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "8")
                     \times 3/5 {
 
                         aqs4.
@@ -1224,7 +1195,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1256,7 +1226,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1280,7 +1249,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1310,7 +1278,6 @@
                     r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 14) "16")
                     \times 14/13 {
 
                         cs'2
@@ -1348,7 +1315,6 @@
                     r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1374,7 +1340,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "16")
                     \times 6/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1415,7 +1380,6 @@
                     <>
                     \mf
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1462,7 +1426,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "32")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1477,7 +1440,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1529,7 +1491,6 @@
                     c'16
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1548,7 +1509,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1604,7 +1564,6 @@
 
                     R1 * 1/8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 17 16) "16")
                     \times 16/17 {
 
                         aqs4
@@ -1619,7 +1578,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         bf2.
@@ -1639,7 +1597,6 @@
 
                     R1 * 3/16
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1678,7 +1635,6 @@
                     b8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1718,7 +1674,6 @@
                     r2
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 25 24) "32")
                     \times 24/25 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1792,7 +1747,6 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "16")
                     \times 6/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1810,7 +1764,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1928,7 +1881,6 @@
                     R1 * 1/8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1957,7 +1909,6 @@
                     r8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 3) "4")
                     \times 3/5 {
 
                         dqf'2.
@@ -1974,7 +1925,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2034,7 +1984,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2052,7 +2001,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 16) "16")
                     \times 16/15 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2128,7 +2076,6 @@
                     cs'32
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "16")
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2156,7 +2103,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 12) "16")
                     \times 12/11 {
 
                         bqs16
@@ -2191,7 +2137,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "16")
                     \times 8/7 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2215,7 +2160,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 12) "16")
                     \times 12/13 {
 
                         bqf4
@@ -2288,7 +2232,6 @@
                 \context Voice = "Voice 4"
                 {
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
@@ -2312,7 +2255,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
 
                         aqs4
@@ -2359,7 +2301,6 @@
                     r8.
                     ]
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "32")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2376,7 +2317,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         aqs16
@@ -2396,7 +2336,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2420,7 +2359,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 15 14) "16")
                     \times 14/15 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2467,7 +2405,6 @@
                     R1 * 3/8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 23 24) "32")
                     \times 24/23 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2581,7 +2518,6 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "16")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2613,7 +2549,6 @@
                     R1 * 1/8
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 7) "8")
                     \times 7/5 {
 
                         ef'4.
@@ -2632,7 +2567,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2660,7 +2594,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2690,7 +2623,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2709,7 +2641,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2737,7 +2668,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2769,7 +2699,6 @@
 
                     r4
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         cqs'4
@@ -2794,7 +2723,6 @@
 
                     R1 * 3/8
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2816,7 +2744,6 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2838,7 +2765,6 @@
                     \!
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 12) "16")
                     \times 12/11 {
 
                         bqf8.
@@ -2884,7 +2810,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         bqs2.
@@ -2897,7 +2822,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2928,7 +2852,6 @@
 
                     r2
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2947,7 +2870,6 @@
 
                     }
 
-                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \override Staff.Stem.stemlet-length = 0.75

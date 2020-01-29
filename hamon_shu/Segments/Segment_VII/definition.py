@@ -54,6 +54,7 @@ maker = evans.SegmentMaker(
             abjad.Markup("sempre col legno tratto", direction=abjad.Up),
         ],
     ],
+    tuplet_bracket_noteheads=False,
     add_final_grand_pause=True,
     fermata="scripts.uverylongfermata",
     score_includes=[
