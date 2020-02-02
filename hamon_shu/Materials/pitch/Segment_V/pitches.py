@@ -59,7 +59,9 @@ violin_1_random_walk_chord_1 = [
     )
 ]
 
-violin_1_random_walk_chord_1 = [evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_1]
+violin_1_random_walk_chord_1 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_1
+]
 
 violin_1_mirrored_chord_2 = evans.mirror(violin_1_chord_2, sequential_duplicates=False)
 violin_1_rotated_chord_2 = evans.rotate(violin_1_chord_2, 12)
@@ -74,7 +76,9 @@ violin_1_random_walk_chord_2 = [
     )
 ]
 
-violin_1_random_walk_chord_2 = [evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_2]
+violin_1_random_walk_chord_2 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_2
+]
 
 violin_1_mirrored_chord_3 = evans.mirror(violin_1_chord_3, sequential_duplicates=False)
 violin_1_rotated_chord_3 = evans.rotate(violin_1_chord_3, 10)
@@ -89,7 +93,9 @@ violin_1_random_walk_chord_3 = [
     )
 ]
 
-violin_1_random_walk_chord_3 = [evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_3]
+violin_1_random_walk_chord_3 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_3
+]
 
 violin_1_mirrored_chord_4 = evans.mirror(violin_1_chord_4, sequential_duplicates=False)
 violin_1_rotated_chord_4 = evans.rotate(violin_1_chord_4, 9)
@@ -104,7 +110,9 @@ violin_1_random_walk_chord_4 = [
     )
 ]
 
-violin_1_random_walk_chord_4 = [evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_4]
+violin_1_random_walk_chord_4 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_1_random_walk_chord_4
+]
 
 # violin 2
 violin_2_chord_1 = [
@@ -141,7 +149,9 @@ violin_2_random_walk_chord_1 = [
     )
 ]
 
-violin_2_random_walk_chord_1 = [evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_1]
+violin_2_random_walk_chord_1 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_1
+]
 
 violin_2_mirrored_chord_2 = evans.mirror(violin_2_chord_2, sequential_duplicates=False)
 violin_2_rotated_chord_2 = evans.rotate(violin_2_chord_2, 12)
@@ -156,7 +166,9 @@ violin_2_random_walk_chord_2 = [
     )
 ]
 
-violin_2_random_walk_chord_2 = [evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_2]
+violin_2_random_walk_chord_2 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_2
+]
 
 violin_2_mirrored_chord_3 = evans.mirror(violin_2_chord_3, sequential_duplicates=False)
 violin_2_rotated_chord_3 = evans.rotate(violin_2_chord_3, 10)
@@ -171,7 +183,9 @@ violin_2_random_walk_chord_3 = [
     )
 ]
 
-violin_2_random_walk_chord_3 = [evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_3]
+violin_2_random_walk_chord_3 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_3
+]
 
 violin_2_mirrored_chord_4 = evans.mirror(violin_2_chord_4, sequential_duplicates=False)
 violin_2_rotated_chord_4 = evans.rotate(violin_2_chord_4, 9)
@@ -186,7 +200,9 @@ violin_2_random_walk_chord_4 = [
     )
 ]
 
-violin_2_random_walk_chord_4 = [evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_4]
+violin_2_random_walk_chord_4 = [
+    evans.to_nearest_quarter_tone(_) for _ in violin_2_random_walk_chord_4
+]
 
 # viola
 viola_chord_1 = [
@@ -223,7 +239,9 @@ viola_random_walk_chord_1 = [
     )
 ]
 
-viola_random_walk_chord_1 = [evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_1]
+viola_random_walk_chord_1 = [
+    evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_1
+]
 
 viola_mirrored_chord_2 = evans.mirror(viola_chord_2, sequential_duplicates=False)
 viola_rotated_chord_2 = evans.rotate(viola_chord_2, 12)
@@ -238,7 +256,9 @@ viola_random_walk_chord_2 = [
     )
 ]
 
-viola_random_walk_chord_2 = [evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_2]
+viola_random_walk_chord_2 = [
+    evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_2
+]
 
 viola_mirrored_chord_3 = evans.mirror(viola_chord_3, sequential_duplicates=False)
 viola_rotated_chord_3 = evans.rotate(viola_chord_3, 10)
@@ -253,7 +273,9 @@ viola_random_walk_chord_3 = [
     )
 ]
 
-viola_random_walk_chord_3 = [evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_3]
+viola_random_walk_chord_3 = [
+    evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_3
+]
 
 viola_mirrored_chord_4 = evans.mirror(viola_chord_4, sequential_duplicates=False)
 viola_rotated_chord_4 = evans.rotate(viola_chord_4, 9)
@@ -268,7 +290,9 @@ viola_random_walk_chord_4 = [
     )
 ]
 
-viola_random_walk_chord_4 = [evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_4]
+viola_random_walk_chord_4 = [
+    evans.to_nearest_quarter_tone(_) for _ in viola_random_walk_chord_4
+]
 
 # cello
 cello_chord_1 = [
@@ -305,7 +329,9 @@ cello_random_walk_chord_1 = [
     )
 ]
 
-cello_random_walk_chord_1 = [evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_1]
+cello_random_walk_chord_1 = [
+    evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_1
+]
 
 cello_mirrored_chord_2 = evans.mirror(cello_chord_2, sequential_duplicates=False)
 cello_rotated_chord_2 = evans.rotate(cello_chord_2, 12)
@@ -320,7 +346,9 @@ cello_random_walk_chord_2 = [
     )
 ]
 
-cello_random_walk_chord_2 = [evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_2]
+cello_random_walk_chord_2 = [
+    evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_2
+]
 
 cello_mirrored_chord_3 = evans.mirror(cello_chord_3, sequential_duplicates=False)
 cello_rotated_chord_3 = evans.rotate(cello_chord_3, 10)
@@ -335,7 +363,9 @@ cello_random_walk_chord_3 = [
     )
 ]
 
-cello_random_walk_chord_3 = [evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_3]
+cello_random_walk_chord_3 = [
+    evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_3
+]
 
 cello_mirrored_chord_4 = evans.mirror(cello_chord_4, sequential_duplicates=False)
 cello_rotated_chord_4 = evans.rotate(cello_chord_4, 9)
@@ -350,4 +380,6 @@ cello_random_walk_chord_4 = [
     )
 ]
 
-cello_random_walk_chord_4 = [evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_4]
+cello_random_walk_chord_4 = [
+    evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_4
+]

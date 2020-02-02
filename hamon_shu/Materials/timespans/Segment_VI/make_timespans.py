@@ -35,7 +35,7 @@ rhythm_timespan_list = rhythm_timespan_maker(
 #######
 # pitch#
 #######
-pitch_target_timespan = abjad.Timespan(0, (164, 4))
+pitch_target_timespan = abjad.Timespan(0, (170, 4))
 
 pitch_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(counts=([225]), denominator=32),
@@ -49,7 +49,7 @@ pitch_timespan_list = pitch_timespan_maker(
 #########
 # dynamic#
 #########
-dynamic_target_timespan = abjad.Timespan(0, (164, 4))
+dynamic_target_timespan = abjad.Timespan(0, (170, 4))
 
 dynamic_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(
@@ -94,7 +94,7 @@ dynamic_timespan_list = dynamic_timespan_maker(
 ##############
 # articulation#
 ##############
-articulation_target_timespan = abjad.Timespan(0, (164, 4))
+articulation_target_timespan = abjad.Timespan(0, (170, 4))
 
 articulation_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(counts=([225]), denominator=32),
@@ -109,7 +109,7 @@ articulation_timespan_list = articulation_timespan_maker(
 ##############
 #  note head #
 ##############
-notehead_target_timespan = abjad.Timespan(0, (164, 4))
+notehead_target_timespan = abjad.Timespan(0, (170, 4))
 
 notehead_timespan_maker = TaleaTimespanMaker(
     playing_talea=rmakers.Talea(

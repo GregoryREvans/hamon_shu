@@ -22,13 +22,7 @@ notehead_handler_one = evans.NoteheadHandler(
 )
 
 notehead_handler_two = evans.NoteheadHandler(
-    notehead_list=[
-        "default",
-        "triangle",
-        "triangle",
-        "harmonic-mixed",
-        "default",
-    ],
+    notehead_list=["default", "triangle", "triangle", "harmonic-mixed", "default"],
     transition=False,
     head_boolean_vector=[1],
     head_vector_continuous=True,

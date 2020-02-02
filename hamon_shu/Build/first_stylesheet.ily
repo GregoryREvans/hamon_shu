@@ -102,7 +102,7 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 25) (minimum-distance . 25) (padding . 0))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 0))
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}
@@ -143,7 +143,7 @@
 
 \paper {
 	%{ system-separator-markup = \slashSeparator %}
-	system-separator-markup = \markup { \fill-line { \slashSeparator \slashSeparator } }
+	system-separator-markup = \markup { \slashSeparator }
 	%system-system-spacing = #'((basic-distance . 25) (minimum-distance . 25) (padding . 5))
 	system-system-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 4))
 

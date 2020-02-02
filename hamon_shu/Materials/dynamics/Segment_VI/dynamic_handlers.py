@@ -7,8 +7,6 @@ dynamic_handler_one = evans.DynamicHandler(
     hold_first_continuous=True,
     hold_last_boolean_vector=[1],
     hold_last_continuous=True,
-    effort_boolean_vector=[1],
-    effort_continuous=False,
     continuous=True,
     name="dynamic_handler_one",
 )
@@ -29,8 +27,6 @@ dynamic_handler_three = evans.DynamicHandler(
     hold_first_continuous=True,
     hold_last_boolean_vector=[1],
     hold_last_continuous=True,
-    effort_boolean_vector=[1],
-    effort_continuous=False,
     continuous=True,
     name="dynamic_handler_one",
 )

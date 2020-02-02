@@ -38,20 +38,20 @@ maker = evans.SegmentMaker(
     clef_handlers=clef_handlers,
     voicewise_persistent_indicators=[
         [
-            abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
+            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
         ],
         [
-            abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
+            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
         ],
         [
-            abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
+            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
         ],
         [
-            abjad.Dynamic("sempre appena udibile", name_is_textual=True),
-            abjad.Markup("sempre col legno tratto", direction=abjad.Up),
+            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
         ],
     ],
     tuplet_bracket_noteheads=False,
