@@ -19,226 +19,199 @@
                 1 -1 moveto
                 0 -2 rlineto
                 stroke
-                2.3207547169811322 -1 moveto
+                2.5789473684210527 -1 moveto
                 0 -2 rlineto
                 stroke
-                3.641509433962264 -1 moveto
+                6.526315789473684 -1 moveto
+                0 -5 rlineto
+                stroke
+                8.105263157894736 -1 moveto
+                0 -5 rlineto
+                stroke
+                11.263157894736842 -1 moveto
                 0 -2 rlineto
                 stroke
-                5.622641509433962 -1 moveto
-                0 -5 rlineto
-                stroke
-                7.60377358490566 -1 moveto
-                0 -2 rlineto
-                stroke
-                8.924528301886792 -1 moveto
-                0 -5 rlineto
-                stroke
-                9.584905660377357 -1 moveto
-                0 -2 rlineto
-                stroke
-                12.226415094339622 -1 moveto
-                0 -8 rlineto
-                stroke
-                12.886792452830187 -1 moveto
-                0 -5 rlineto
-                stroke
-                13.547169811320755 -1 moveto
-                0 -5 rlineto
-                stroke
-                15.528301886792452 -1 moveto
+                12.052631578947368 -1 moveto
                 0 -11 rlineto
                 stroke
-                16.849056603773583 -1 moveto
-                0 -2 rlineto
-                stroke
-                18.830188679245282 -1 moveto
-                0 -2 rlineto
-                stroke
-                19.49056603773585 -1 moveto
-                0 -2 rlineto
-                stroke
-                21.471698113207545 -1 moveto
-                0 -5 rlineto
-                stroke
-                22.79245283018868 -1 moveto
-                0 -2 rlineto
-                stroke
-                23.452830188679243 -1 moveto
-                0 -5 rlineto
-                stroke
-                26.754716981132074 -1 moveto
-                0 -2 rlineto
-                stroke
-                27.41509433962264 -1 moveto
-                0 -2 rlineto
-                stroke
-                28.735849056603772 -1 moveto
-                0 -5 rlineto
-                stroke
-                29.39622641509434 -1 moveto
+                13.631578947368421 -1 moveto
                 0 -8 rlineto
                 stroke
-                30.056603773584904 -1 moveto
+                14.421052631578947 -1 moveto
                 0 -2 rlineto
                 stroke
-                30.71698113207547 -1 moveto
+                15.210526315789474 -1 moveto
+                0 -2 rlineto
+                stroke
+                19.157894736842106 -1 moveto
                 0 -5 rlineto
                 stroke
-                34.0188679245283 -1 moveto
+                19.94736842105263 -1 moveto
                 0 -2 rlineto
                 stroke
-                35.33962264150943 -1 moveto
+                22.315789473684212 -1 moveto
                 0 -2 rlineto
                 stroke
-                36 -1 moveto
+                23.105263157894736 -1 moveto
+                0 -2 rlineto
+                stroke
+                24.68421052631579 -1 moveto
                 0 -5 rlineto
                 stroke
-                37.9811320754717 -1 moveto
-                0 -2 rlineto
+                27.05263157894737 -1 moveto
+                0 -8 rlineto
                 stroke
-                38.64150943396226 -1 moveto
-                0 -2 rlineto
-                stroke
-                39.9622641509434 -1 moveto
-                0 -2 rlineto
-                stroke
-                41.283018867924525 -1 moveto
+                28.63157894736842 -1 moveto
                 0 -5 rlineto
                 stroke
-                41.94339622641509 -1 moveto
+                31 -1 moveto
                 0 -2 rlineto
                 stroke
-                42.60377358490566 -1 moveto
+                31.789473684210527 -1 moveto
                 0 -2 rlineto
                 stroke
-                44.58490566037736 -1 moveto
+                32.578947368421055 -1 moveto
                 0 -5 rlineto
                 stroke
-                45.24528301886792 -1 moveto
+                34.1578947368421 -1 moveto
                 0 -2 rlineto
                 stroke
-                45.90566037735849 -1 moveto
+                34.94736842105263 -1 moveto
+                0 -2 rlineto
+                stroke
+                35.73684210526316 -1 moveto
+                0 -2 rlineto
+                stroke
+                36.526315789473685 -1 moveto
                 0 -5 rlineto
                 stroke
-                47.22641509433962 -1 moveto
+                37.31578947368421 -1 moveto
+                0 -2 rlineto
+                stroke
+                38.10526315789474 -1 moveto
+                0 -2 rlineto
+                stroke
+                39.68421052631579 -1 moveto
+                0 -2 rlineto
+                stroke
+                40.473684210526315 -1 moveto
                 0 -5 rlineto
                 stroke
-                47.886792452830186 -1 moveto
+                42.05263157894737 -1 moveto
                 0 -5 rlineto
                 stroke
-                51.18867924528302 -1 moveto
+                42.8421052631579 -1 moveto
+                0 -2 rlineto
+                stroke
+                46 -1 moveto
+                0 -2 rlineto
+                stroke
+                46.78947368421053 -1 moveto
+                0 -2 rlineto
+                stroke
+                48.36842105263158 -1 moveto
+                0 -2 rlineto
+                stroke
+                49.1578947368421 -1 moveto
                 0 -11 rlineto
                 stroke
-                51.84905660377358 -1 moveto
+                49.94736842105263 -1 moveto
                 0 -2 rlineto
                 stroke
-                54.490566037735846 -1 moveto
-                0 -8 rlineto
-                stroke
-                56.471698113207545 -1 moveto
+                50.73684210526316 -1 moveto
                 0 -2 rlineto
                 stroke
-                58.45283018867924 -1 moveto
-                0 -5 rlineto
-                stroke
-                59.11320754716981 -1 moveto
-                0 -8 rlineto
-                stroke
-                60.43396226415094 -1 moveto
-                0 -5 rlineto
-                stroke
-                63.73584905660377 -1 moveto
-                0 -5 rlineto
-                stroke
-                64.39622641509433 -1 moveto
+                53.10526315789474 -1 moveto
                 0 -2 rlineto
                 stroke
-                65.71698113207547 -1 moveto
+                53.89473684210527 -1 moveto
                 0 -2 rlineto
                 stroke
-                67.69811320754717 -1 moveto
-                0 -8 rlineto
-                stroke
-                68.35849056603773 -1 moveto
+                56.26315789473684 -1 moveto
                 0 -5 rlineto
                 stroke
-                69.0188679245283 -1 moveto
+                57.05263157894737 -1 moveto
                 0 -2 rlineto
                 stroke
-                69.67924528301886 -1 moveto
+                57.8421052631579 -1 moveto
+                0 -2 rlineto
+                stroke
+                59.421052631578945 -1 moveto
                 0 -5 rlineto
                 stroke
-                70.33962264150944 -1 moveto
+                61 -1 moveto
+                0 -2 rlineto
+                stroke
+                61.78947368421053 -1 moveto
+                0 -2 rlineto
+                stroke
+                64.94736842105263 -1 moveto
                 0 -5 rlineto
                 stroke
-                72.32075471698113 -1 moveto
+                67.3157894736842 -1 moveto
                 0 -5 rlineto
                 stroke
-                74.30188679245282 -1 moveto
+                71.26315789473685 -1 moveto
+                0 -5 rlineto
+                stroke
+                72.05263157894737 -1 moveto
+                0 -5 rlineto
+                stroke
+                76 -1 moveto
                 0 -11 rlineto
                 stroke
-                76.28301886792453 -1 moveto
+                76.78947368421052 -1 moveto
                 0 -5 rlineto
                 stroke
-                77.60377358490565 -1 moveto
-                0 -5 rlineto
-                stroke
-                78.9245283018868 -1 moveto
-                0 -5 rlineto
-                stroke
-                79.58490566037736 -1 moveto
-                0 -5 rlineto
-                stroke
-                82.22641509433961 -1 moveto
-                0 -2 rlineto
-                stroke
-                82.88679245283018 -1 moveto
-                0 -5 rlineto
-                stroke
-                83.54716981132076 -1 moveto
-                0 -2 rlineto
-                stroke
-                84.86792452830188 -1 moveto
-                0 -5 rlineto
-                stroke
-                85.52830188679245 -1 moveto
+                80.73684210526316 -1 moveto
                 0 -8 rlineto
                 stroke
-                86.84905660377358 -1 moveto
+                81.52631578947368 -1 moveto
                 0 -2 rlineto
                 stroke
-                88.83018867924528 -1 moveto
+                82.3157894736842 -1 moveto
+                0 -2 rlineto
+                stroke
+                83.10526315789474 -1 moveto
                 0 -5 rlineto
                 stroke
-                89.49056603773585 -1 moveto
+                83.89473684210526 -1 moveto
                 0 -5 rlineto
                 stroke
-                90.15094339622641 -1 moveto
+                84.6842105263158 -1 moveto
                 0 -2 rlineto
                 stroke
-                90.81132075471697 -1 moveto
+                87.84210526315789 -1 moveto
+                0 -5 rlineto
+                stroke
+                88.63157894736842 -1 moveto
+                0 -5 rlineto
+                stroke
+                89.42105263157895 -1 moveto
+                0 -5 rlineto
+                stroke
+                91 -1 moveto
                 0 -2 rlineto
                 stroke
-                91.47169811320754 -1 moveto
+                91.78947368421053 -1 moveto
+                0 -2 rlineto
+                stroke
+                94.15789473684211 -1 moveto
+                0 -2 rlineto
+                stroke
+                94.94736842105263 -1 moveto
                 0 -8 rlineto
                 stroke
-                93.45283018867924 -1 moveto
+                98.89473684210526 -1 moveto
+                0 -5 rlineto
+                stroke
+                102.05263157894737 -1 moveto
                 0 -2 rlineto
                 stroke
-                97.41509433962264 -1 moveto
+                102.84210526315789 -1 moveto
                 0 -2 rlineto
                 stroke
-                98.0754716981132 -1 moveto
-                0 -2 rlineto
-                stroke
-                100.71698113207546 -1 moveto
-                0 -2 rlineto
-                stroke
-                102.0377358490566 -1 moveto
-                0 -2 rlineto
-                stroke
-                102.69811320754717 -1 moveto
+                105.21052631578948 -1 moveto
                 0 -2 rlineto
                 stroke
                 106 -1 moveto
@@ -255,7 +228,7 @@
                                 0
                                 1
             \translate
-                #'(2.3207547169811322 . 1)
+                #'(2.5789473684210527 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -264,16 +237,7 @@
                                 1
                                 2
             \translate
-                #'(3.641509433962264 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                1
-                                1
-            \translate
-                #'(5.622641509433962 . 1)
+                #'(6.526315789473684 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -282,25 +246,16 @@
                                 7
                                 4
             \translate
-                #'(7.60377358490566 . 1)
+                #'(8.105263157894736 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                5
-                                2
+                                9
+                                4
             \translate
-                #'(8.924528301886792 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                3
-                                1
-            \translate
-                #'(9.584905660377357 . 1)
+                #'(11.263157894736842 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -309,7 +264,25 @@
                                 13
                                 4
             \translate
-                #'(12.226415094339622 . 1)
+                #'(12.052631578947368 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                7
+                                2
+            \translate
+                #'(13.631578947368421 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                4
+                                1
+            \translate
+                #'(14.421052631578947 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -318,7 +291,7 @@
                                 17
                                 4
             \translate
-                #'(12.886792452830187 . 1)
+                #'(15.210526315789474 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -327,25 +300,16 @@
                                 9
                                 2
             \translate
-                #'(13.547169811320755 . 1)
+                #'(19.157894736842106 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                19
+                                23
                                 4
             \translate
-                #'(15.528301886792452 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                11
-                                2
-            \translate
-                #'(16.849056603773583 . 1)
+                #'(19.94736842105263 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -354,7 +318,7 @@
                                 6
                                 1
             \translate
-                #'(18.830188679245282 . 1)
+                #'(22.315789473684212 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -363,7 +327,7 @@
                                 27
                                 4
             \translate
-                #'(19.49056603773585 . 1)
+                #'(23.105263157894736 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -372,16 +336,16 @@
                                 7
                                 1
             \translate
-                #'(21.471698113207545 . 1)
+                #'(24.68421052631579 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                31
-                                4
+                                15
+                                2
             \translate
-                #'(22.79245283018868 . 1)
+                #'(27.05263157894737 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -390,16 +354,25 @@
                                 33
                                 4
             \translate
-                #'(23.452830188679243 . 1)
+                #'(28.63157894736842 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                17
+                                35
+                                4
+            \translate
+                #'(31.0 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                19
                                 2
             \translate
-                #'(26.754716981132074 . 1)
+                #'(31.789473684210527 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -408,7 +381,7 @@
                                 39
                                 4
             \translate
-                #'(27.41509433962264 . 1)
+                #'(32.578947368421055 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -417,7 +390,7 @@
                                 10
                                 1
             \translate
-                #'(28.735849056603772 . 1)
+                #'(34.1578947368421 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -426,7 +399,7 @@
                                 21
                                 2
             \translate
-                #'(29.39622641509434 . 1)
+                #'(34.94736842105263 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -435,7 +408,7 @@
                                 43
                                 4
             \translate
-                #'(30.056603773584904 . 1)
+                #'(35.73684210526316 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -444,7 +417,7 @@
                                 11
                                 1
             \translate
-                #'(30.71698113207547 . 1)
+                #'(36.526315789473685 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -453,7 +426,34 @@
                                 45
                                 4
             \translate
-                #'(34.0188679245283 . 1)
+                #'(37.31578947368421 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                23
+                                2
+            \translate
+                #'(38.10526315789474 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                47
+                                4
+            \translate
+                #'(39.68421052631579 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                49
+                                4
+            \translate
+                #'(40.473684210526315 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -462,7 +462,7 @@
                                 25
                                 2
             \translate
-                #'(35.33962264150943 . 1)
+                #'(42.05263157894737 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -471,7 +471,7 @@
                                 13
                                 1
             \translate
-                #'(36.0 . 1)
+                #'(42.8421052631579 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -480,16 +480,7 @@
                                 53
                                 4
             \translate
-                #'(37.9811320754717 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                14
-                                1
-            \translate
-                #'(38.64150943396226 . 1)
+                #'(46.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -498,16 +489,25 @@
                                 57
                                 4
             \translate
-                #'(39.9622641509434 . 1)
+                #'(46.78947368421053 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                59
-                                4
+                                29
+                                2
             \translate
-                #'(41.283018867924525 . 1)
+                #'(48.36842105263158 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                15
+                                1
+            \translate
+                #'(49.1578947368421 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -516,7 +516,7 @@
                                 61
                                 4
             \translate
-                #'(41.94339622641509 . 1)
+                #'(49.94736842105263 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -525,7 +525,7 @@
                                 31
                                 2
             \translate
-                #'(42.60377358490566 . 1)
+                #'(50.73684210526316 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -534,7 +534,7 @@
                                 63
                                 4
             \translate
-                #'(44.58490566037736 . 1)
+                #'(53.10526315789474 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -543,7 +543,7 @@
                                 33
                                 2
             \translate
-                #'(45.24528301886792 . 1)
+                #'(53.89473684210527 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -552,16 +552,7 @@
                                 67
                                 4
             \translate
-                #'(45.90566037735849 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                17
-                                1
-            \translate
-                #'(47.22641509433962 . 1)
+                #'(56.26315789473684 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -570,7 +561,7 @@
                                 35
                                 2
             \translate
-                #'(47.886792452830186 . 1)
+                #'(57.05263157894737 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -579,7 +570,25 @@
                                 71
                                 4
             \translate
-                #'(51.18867924528302 . 1)
+                #'(57.8421052631579 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                18
+                                1
+            \translate
+                #'(59.421052631578945 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                37
+                                2
+            \translate
+                #'(61.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -588,7 +597,7 @@
                                 19
                                 1
             \translate
-                #'(51.84905660377358 . 1)
+                #'(61.78947368421053 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -597,7 +606,7 @@
                                 77
                                 4
             \translate
-                #'(54.490566037735846 . 1)
+                #'(64.94736842105263 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -606,7 +615,7 @@
                                 81
                                 4
             \translate
-                #'(56.471698113207545 . 1)
+                #'(67.3157894736842 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -615,25 +624,16 @@
                                 21
                                 1
             \translate
-                #'(58.45283018867924 . 1)
+                #'(71.26315789473685 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                87
+                                89
                                 4
             \translate
-                #'(59.11320754716981 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                22
-                                1
-            \translate
-                #'(60.43396226415094 . 1)
+                #'(72.05263157894737 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -642,7 +642,7 @@
                                 45
                                 2
             \translate
-                #'(63.73584905660377 . 1)
+                #'(76.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -651,7 +651,7 @@
                                 95
                                 4
             \translate
-                #'(64.39622641509433 . 1)
+                #'(76.78947368421052 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -660,16 +660,7 @@
                                 24
                                 1
             \translate
-                #'(65.71698113207547 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                49
-                                2
-            \translate
-                #'(67.69811320754717 . 1)
+                #'(80.73684210526316 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -678,7 +669,7 @@
                                 101
                                 4
             \translate
-                #'(68.35849056603773 . 1)
+                #'(81.52631578947368 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -687,7 +678,7 @@
                                 51
                                 2
             \translate
-                #'(69.0188679245283 . 1)
+                #'(82.3157894736842 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -696,7 +687,7 @@
                                 103
                                 4
             \translate
-                #'(69.67924528301886 . 1)
+                #'(83.10526315789474 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -705,7 +696,7 @@
                                 26
                                 1
             \translate
-                #'(70.33962264150944 . 1)
+                #'(83.89473684210526 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -714,16 +705,25 @@
                                 105
                                 4
             \translate
-                #'(72.32075471698113 . 1)
+                #'(84.6842105263158 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                27
-                                1
+                                53
+                                2
             \translate
-                #'(74.30188679245282 . 1)
+                #'(87.84210526315789 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                55
+                                2
+            \translate
+                #'(88.63157894736842 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -732,7 +732,16 @@
                                 111
                                 4
             \translate
-                #'(76.28301886792453 . 1)
+                #'(89.42105263157895 . 1)
+                \sans
+                    \fontsize
+                        #-3
+                        \center-align
+                            \fraction
+                                28
+                                1
+            \translate
+                #'(91.0 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -741,16 +750,16 @@
                                 57
                                 2
             \translate
-                #'(77.60377358490565 . 1)
+                #'(91.78947368421053 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                29
-                                1
+                                115
+                                4
             \translate
-                #'(78.9245283018868 . 1)
+                #'(94.15789473684211 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -759,7 +768,7 @@
                                 59
                                 2
             \translate
-                #'(79.58490566037736 . 1)
+                #'(94.94736842105263 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -768,16 +777,7 @@
                                 119
                                 4
             \translate
-                #'(82.22641509433961 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                123
-                                4
-            \translate
-                #'(82.88679245283018 . 1)
+                #'(98.89473684210526 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -786,25 +786,7 @@
                                 31
                                 1
             \translate
-                #'(83.54716981132076 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                125
-                                4
-            \translate
-                #'(84.86792452830188 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                127
-                                4
-            \translate
-                #'(85.52830188679245 . 1)
+                #'(102.05263157894737 . 1)
                 \sans
                     \fontsize
                         #-3
@@ -813,113 +795,23 @@
                                 32
                                 1
             \translate
-                #'(86.84905660377358 . 1)
+                #'(102.84210526315789 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                65
-                                2
-            \translate
-                #'(88.83018867924528 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                133
+                                129
                                 4
             \translate
-                #'(89.49056603773585 . 1)
+                #'(105.21052631578948 . 1)
                 \sans
                     \fontsize
                         #-3
                         \center-align
                             \fraction
-                                67
-                                2
-            \translate
-                #'(90.15094339622641 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                135
-                                4
-            \translate
-                #'(90.81132075471697 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                34
+                                33
                                 1
-            \translate
-                #'(91.47169811320754 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                137
-                                4
-            \translate
-                #'(93.45283018867924 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                35
-                                1
-            \translate
-                #'(97.41509433962264 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                73
-                                2
-            \translate
-                #'(98.0754716981132 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                147
-                                4
-            \translate
-                #'(100.71698113207546 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                151
-                                4
-            \translate
-                #'(102.0377358490566 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                153
-                                4
-            \translate
-                #'(102.69811320754717 . 1)
-                \sans
-                    \fontsize
-                        #-3
-                        \center-align
-                            \fraction
-                                77
-                                2
             \translate
                 #'(106.0 . 1)
                 \sans
@@ -927,7 +819,7 @@
                         #-3
                         \center-align
                             \fraction
-                                159
+                                133
                                 4
         }
     }

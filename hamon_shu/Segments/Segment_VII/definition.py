@@ -20,7 +20,7 @@ c = abjad.LilyPondLiteral(
             \with-color #black
             \right-column {
                 \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                \line { August 2018 \hspace #0.75 - \hspace #0.75 November 2019 }
+                \line { August 2018 \hspace #0.75 - \hspace #0.75 February 2020 }
             }
         }
     """,

@@ -17,7 +17,7 @@ music_specifiers = OrderedDict(
 ########
 # rhythm#
 ######## #was 225
-rhythm_target_timespan = abjad.Timespan(0, (160, 4))
+rhythm_target_timespan = abjad.Timespan(0, (136, 4))
 
 rhythm_timespan_maker = TaleaTimespanMaker(
     initial_silence_talea=rmakers.Talea(counts=([7, 7, 2, 0]), denominator=4),

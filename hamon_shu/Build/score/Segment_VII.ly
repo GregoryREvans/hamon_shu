@@ -107,8 +107,8 @@
                     \clef "treble"
                     fs''''1
                     :32
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
-                    ^ \markup { "sempre col legno tratto" }                    %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
+                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
                     ~
 
                     \times 2/3 {
@@ -296,9 +296,9 @@
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
                         g'2.
-                        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
+                        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
                         - \tenuto
-                        ^ \markup { "sempre col legno tratto" }                %! attaching persistent indicators
+                        ^ \markup { "col legno tratto al fino" }               %! attaching persistent indicators
 
                         bf''2
                         ~
@@ -518,9 +518,9 @@
                     \markup { Viola }                                          %! applying staff names and clefs
                     \clef "varC"
                     b2
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
                     - \tenuto
-                    ^ \markup { "sempre col legno tratto" }                    %! attaching persistent indicators
+                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
 
                     \clef "treble"
                     bf''2
@@ -683,8 +683,8 @@
                     \markup { Violoncello }                                    %! applying staff names and clefs
                     \clef "tenorvarC"
                     g'1
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "sempre appena udibile")) %! attaching persistent indicators
-                    ^ \markup { "sempre col legno tratto" }                    %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
+                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
 
                     e4
                     :32
@@ -847,7 +847,7 @@
                                 \with-color #black
                                 \right-column {
                                     \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 November 2019 }
+                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 February 2020 }
                                 }
                             }
 
