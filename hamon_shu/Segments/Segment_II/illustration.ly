@@ -94,18 +94,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \clef "treble"
                     eqf'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
                     \!                                                         %! attaching persistent indicators
                     \>
                     - \abjad-solid-line-with-arrow
@@ -165,18 +154,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     \stopTextSpanTwo
@@ -375,18 +353,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     f'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
@@ -485,18 +452,7 @@
 
                     \revert Staff.Stem.stemlet-length
                     ces'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mf"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mf
                     \<
                     ~
                     - \abjad-solid-line-with-arrow
@@ -581,18 +537,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
                     <>
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
 
                     r4
                     \stopTextSpanOne
@@ -612,18 +557,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     bef2
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     \>
                     \stopTextSpanOne
                     ~
@@ -655,18 +589,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     bef4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     - \tweak stencil #constante-hairpin
                     \<
                     \stopTextSpanTwo
@@ -708,18 +631,7 @@
                     \times 3/5 {
 
                         aqf4
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.1
-                                    #:dynamic "mf"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )
+                        \mf
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-solid-line-with-arrow
@@ -902,18 +814,7 @@
 
                     \once \override Staff.NoteHead.style = #'default
                     f'4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
                     \>
                     ~
                     - \abjad-solid-line-with-arrow
@@ -982,18 +883,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
                     <>
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/16
@@ -1021,18 +911,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     etef'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     \<
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1065,18 +944,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     etef'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mf"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     \stopTextSpanTwo
@@ -1120,18 +988,7 @@
                     \once \override Staff.NoteHead.style = #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
                     - \tweak stencil #constante-hairpin
                     \<
                     - \abjad-solid-line-with-arrow
@@ -1460,18 +1317,7 @@
 
                     e'4
                     \!
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     \>
                     \stopTextSpanTwo
                     \stopTextSpanThree
@@ -1583,18 +1429,7 @@
                     \startTextSpanTwo
                     [
                     <>
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
 
                     \revert Staff.Stem.stemlet-length
                     r8
@@ -1890,18 +1725,7 @@
 
                         \once \override Staff.NoteHead.style = #'default
                         etes'8
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.1
-                                    #:dynamic "mf"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )
+                        \mf
                         \<
                         \stopTextSpanTwo
                         \stopTextSpanThree
@@ -1940,18 +1764,7 @@
 
                         \once \override Staff.NoteHead.style = #'triangle
                         d'4
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.4
-                                    #:dynamic "f"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )
+                        \f
                         - \tweak stencil #constante-hairpin
                         \<
                         \stopTextSpanOne
@@ -2009,18 +1822,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     etef'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
@@ -2238,18 +2040,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ces'4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     \<
                     \stopTextSpanTwo
                     \stopTextSpanThree
@@ -2351,18 +2142,7 @@
                     \startTextSpanTwo
                     [
                     <>
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mf"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mf
 
                     \revert Staff.Stem.stemlet-length
                     r8
@@ -2388,18 +2168,7 @@
                     r4.
 
                     gtef'4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
                     - \tweak stencil #constante-hairpin
                     \<
                     - \abjad-solid-line-with-arrow
@@ -2452,18 +2221,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     gtef'2
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     - \abjad-solid-line-with-arrow
@@ -2571,18 +2329,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     \clef "bass"
                     aqf4.
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     \<
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2671,18 +2418,7 @@
                         - \tweak staff-padding #10
                         \startTextSpanTwo
                         <>
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.1
-                                    #:dynamic "mf"
-                                    #:hspace -0.2
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )
+                        \mf
 
                     }
 
@@ -2710,18 +2446,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     ates8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
                     \>
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2771,18 +2496,7 @@
                     \scaleDurations #'(1 . 1) {
 
                         aqf2
-                        _ #(make-dynamic-script
-                            (markup
-                                #:whiteout
-                                #:line (
-                                    #:general-align Y -2 #:normal-text #:larger "“"
-                                    #:hspace -0.1
-                                    #:dynamic "mp"
-                                    #:hspace -0.25
-                                    #:general-align Y -2 #:normal-text #:larger "”"
-                                    )
-                                )
-                            )
+                        \mp
                         - \tweak stencil #constante-hairpin
                         \<
                         \stopTextSpanTwo
@@ -2827,18 +2541,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
                     etes'8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
@@ -2964,18 +2667,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     eqf'2
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mf"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mf
                     \<
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -3032,18 +2724,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
                     <>
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.4
-                                #:dynamic "f"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \f
 
                     r4
                     \stopTextSpanOne
@@ -3069,18 +2750,7 @@
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
                     a8
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mp"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mp
                     \>
                     ~
                     - \abjad-solid-line-with-arrow
@@ -3243,18 +2913,7 @@
                     ]
 
                     etef'4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "p"
-                                #:hspace -0.25
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \p
                     - \tweak stencil #constante-hairpin
                     \<
                     \stopTextSpanTwo
@@ -3291,18 +2950,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     f'4
-                    _ #(make-dynamic-script
-                        (markup
-                            #:whiteout
-                            #:line (
-                                #:general-align Y -2 #:normal-text #:larger "“"
-                                #:hspace -0.1
-                                #:dynamic "mf"
-                                #:hspace -0.2
-                                #:general-align Y -2 #:normal-text #:larger "”"
-                                )
-                            )
-                        )
+                    \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     \stopTextSpanOne
