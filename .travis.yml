@@ -59,6 +59,16 @@ before_install:
     - git clone https://github.com/ivanalexandermoscotta/tsmakers.git $TSMAKERS
     - export PYTHONPATH=$TSMAKERS:$PYTHONPATH
 
+    # clone & install numpy:
+    - NUMPY=/tmp/numpy
+    - git clone https://github.com/numpy/numpy.git $NUMPY
+    - export PYTHONPATH=$NUMPY:$PYTHONPATH
+
+    # clone & install scipy:
+    - NUMPY=/tmp/scipy
+    - git clone https://github.com/scipy/scipy.git $SCIPY
+    - export PYTHONPATH=$SCIPY:$PYTHONPATH
+
     # log setup:
     - echo $PYTHONPATH
 
