@@ -1,11 +1,11 @@
 % 2018-07-17 19:54
 
-\version "2.19.83"
+\version "2.19.84"
 \language "english"
 #(set-default-paper-size "a4portrait")
 #(set-global-staff-size 13)
-\include "ekmel.ily"
-\ekmelicStyle evans
+%{ \include "ekmel.ily"
+\ekmelicStyle evans %}
 
 \header {
 	tagline = ##f

@@ -54,11 +54,6 @@ before_install:
     - git clone https://github.com/trevorbaca/baca.git $BACA
     - export PYTHONPATH=$BACA/:$PYTHONPATH
 
-    # clone & install moscotta:
-    - MOSCOTTA=/tmp/moscotta
-    - git clone https://github.com/ivanalexandermoscotta/moscotta.git $MOSCOTTA
-    - export PYTHONPATH=$MOSCOTTA:$PYTHONPATH
-
     # clone & install tsmakers:
     - TSMAKERS=/tmp/tsmakers
     - git clone https://github.com/ivanalexandermoscotta/tsmakers.git $TSMAKERS
