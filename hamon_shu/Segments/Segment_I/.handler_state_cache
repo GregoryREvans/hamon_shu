@@ -9898,3 +9898,423 @@ count 4
 count 5
 103
 
+2020-03-13 23:41:53.904683
+violin_1_pitch_handler_one
+count
+29
+
+2020-03-13 23:41:54.173544
+violin_1_pitch_handler_two
+count
+21
+
+2020-03-13 23:41:54.408439
+violin_1_pitch_handler_three
+count
+3
+
+2020-03-13 23:41:54.659051
+violin_1_pitch_handler_four
+count
+11
+
+2020-03-13 23:41:54.930639
+violin_1_pitch_handler_one
+count
+57
+
+2020-03-13 23:41:55.171061
+violin_1_pitch_handler_two
+count
+29
+
+2020-03-13 23:41:55.442229
+violin_1_pitch_handler_four
+count
+33
+
+2020-03-13 23:41:55.710488
+violin_1_pitch_handler_three
+count
+25
+
+2020-03-13 23:42:04.291232
+violin_2_pitch_handler_one
+count
+13
+
+2020-03-13 23:42:04.547794
+violin_2_pitch_handler_two
+count
+13
+
+2020-03-13 23:42:04.822123
+violin_2_pitch_handler_three
+count
+22
+
+2020-03-13 23:42:05.074399
+violin_2_pitch_handler_four
+count
+15
+
+2020-03-13 23:42:05.325570
+violin_2_pitch_handler_one
+count
+24
+
+2020-03-13 23:42:05.581124
+violin_2_pitch_handler_two
+count
+27
+
+2020-03-13 23:42:05.862147
+violin_2_pitch_handler_four
+count
+42
+
+2020-03-13 23:42:06.116138
+violin_2_pitch_handler_three
+count
+36
+
+2020-03-13 23:42:14.114428
+viola_pitch_handler_one
+count
+5
+
+2020-03-13 23:42:14.375333
+viola_pitch_handler_two
+count
+22
+
+2020-03-13 23:42:14.683446
+viola_pitch_handler_three
+count
+41
+
+2020-03-13 23:42:14.944233
+viola_pitch_handler_four
+count
+9
+
+2020-03-13 23:42:15.194575
+viola_pitch_handler_one
+count
+16
+
+2020-03-13 23:42:15.471686
+viola_pitch_handler_two
+count
+50
+
+2020-03-13 23:42:15.728794
+viola_pitch_handler_four
+count
+30
+
+2020-03-13 23:42:15.961313
+viola_pitch_handler_three
+count
+45
+
+2020-03-13 23:42:23.398657
+cello_pitch_handler_one
+count
+12
+
+2020-03-13 23:42:23.680859
+cello_pitch_handler_two
+count
+27
+
+2020-03-13 23:42:23.963449
+cello_pitch_handler_three
+count
+29
+
+2020-03-13 23:42:24.205836
+cello_pitch_handler_four
+count
+8
+
+2020-03-13 23:42:24.451347
+cello_pitch_handler_one
+count
+23
+
+2020-03-13 23:42:24.702036
+cello_pitch_handler_two
+count
+36
+
+2020-03-13 23:42:24.941657
+cello_pitch_handler_four
+count
+18
+
+2020-03-13 23:42:25.195407
+cello_pitch_handler_three
+count
+45
+
+2020-03-13 23:42:35.169903
+dynamic_handler_one
+count 1
+5
+count 2
+2
+count 3
+2
+count 4
+2
+count 5
+5
+
+2020-03-13 23:42:35.233896
+dynamic_handler_one
+count 1
+11
+count 2
+5
+count 3
+5
+count 4
+5
+count 5
+11
+
+2020-03-13 23:42:35.331004
+dynamic_handler_one
+count 1
+23
+count 2
+11
+count 3
+11
+count 4
+11
+count 5
+23
+
+2020-03-13 23:42:35.434348
+dynamic_handler_two
+count 1
+9
+count 2
+4
+count 3
+0
+count 4
+4
+count 5
+9
+
+2020-03-13 23:42:35.541663
+dynamic_handler_one
+count 1
+29
+count 2
+14
+count 3
+14
+count 4
+14
+count 5
+29
+
+2020-03-13 23:42:44.851839
+dynamic_handler_two
+count 1
+16
+count 2
+7
+count 3
+0
+count 4
+8
+count 5
+16
+
+2020-03-13 23:42:44.972584
+dynamic_handler_one
+count 1
+37
+count 2
+18
+count 3
+18
+count 4
+18
+count 5
+37
+
+2020-03-13 23:42:45.081011
+dynamic_handler_two
+count 1
+28
+count 2
+13
+count 3
+0
+count 4
+14
+count 5
+28
+
+2020-03-13 23:42:45.162179
+dynamic_handler_two
+count 1
+34
+count 2
+16
+count 3
+0
+count 4
+17
+count 5
+34
+
+2020-03-13 23:42:45.269881
+dynamic_handler_one
+count 1
+41
+count 2
+20
+count 3
+20
+count 4
+20
+count 5
+41
+
+2020-03-13 23:42:53.909135
+dynamic_handler_one
+count 1
+47
+count 2
+23
+count 3
+23
+count 4
+23
+count 5
+47
+
+2020-03-13 23:42:54.030115
+dynamic_handler_one
+count 1
+51
+count 2
+25
+count 3
+25
+count 4
+25
+count 5
+51
+
+2020-03-13 23:42:54.099340
+dynamic_handler_two
+count 1
+43
+count 2
+20
+count 3
+0
+count 4
+22
+count 5
+43
+
+2020-03-13 23:42:54.195617
+dynamic_handler_one
+count 1
+55
+count 2
+27
+count 3
+27
+count 4
+27
+count 5
+55
+
+2020-03-13 23:42:54.256133
+dynamic_handler_one
+count 1
+59
+count 2
+29
+count 3
+29
+count 4
+29
+count 5
+59
+
+2020-03-13 23:43:02.207710
+dynamic_handler_one
+count 1
+69
+count 2
+34
+count 3
+34
+count 4
+34
+count 5
+69
+
+2020-03-13 23:43:02.301451
+dynamic_handler_one
+count 1
+73
+count 2
+36
+count 3
+36
+count 4
+36
+count 5
+73
+
+2020-03-13 23:43:02.406543
+dynamic_handler_one
+count 1
+89
+count 2
+44
+count 3
+44
+count 4
+44
+count 5
+89
+
+2020-03-13 23:43:02.472142
+dynamic_handler_two
+count 1
+49
+count 2
+23
+count 3
+0
+count 4
+25
+count 5
+49
+
+2020-03-13 23:43:02.608799
+dynamic_handler_one
+count 1
+103
+count 2
+51
+count 3
+51
+count 4
+51
+count 5
+103
+

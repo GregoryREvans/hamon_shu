@@ -204,7 +204,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             bf8
-                            \p
+                            \mf
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-dashed-line-with-arrow
@@ -352,7 +352,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    fs'8
+                    f'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -385,14 +385,14 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    fs'4
+                    f'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        fs'8
+                        f'8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         f'2
@@ -1104,7 +1104,7 @@
                         \times 6/11 {
 
                             d'4.
-                            \ppp
+                            \mp
                             \>
                             \stopTextSpanOne
                             - \abjad-dashed-line-with-arrow
@@ -1230,7 +1230,7 @@
                         \startTextSpanTwo
                         ]
                         <>
-                        \ppppp
+                        \pp
 
                     }
 
@@ -1244,7 +1244,7 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bqs16.
-                        \mp
+                        \mf
                         \<
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -1294,7 +1294,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         d'8.
-                        \mf
+                        \f
                         - \tweak stencil #constante-hairpin
                         \<
                         \stopTextSpanTwo
@@ -1499,7 +1499,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             b64
-                            \p
+                            \mf
                             - \tweak stencil #constante-hairpin
                             \<
                             - \abjad-dashed-line-with-arrow
@@ -1929,7 +1929,7 @@
 
                             \override Staff.Stem.stemlet-length = 0.75
                             bf8.
-                            \ppp
+                            \mp
                             \>
                             - \abjad-dashed-line-with-arrow
                             - \tweak bound-details.left.text \markup {
@@ -2019,7 +2019,7 @@
 
                         \revert Staff.Stem.stemlet-length
                         aqs8.
-                        \ppppp
+                        \pp
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
                         - \tweak bound-details.left.text \markup {

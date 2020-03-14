@@ -1,4 +1,4 @@
-
+    
     \context Score = "hamon_shu Score"
     <<
 
@@ -20,7 +20,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -36,7 +36,7 @@
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -52,7 +52,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 9/8                                                          %! scaling time signatures
             s1 * 9/8
@@ -68,7 +68,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -84,7 +84,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -100,7 +100,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
         }
 
@@ -210,12 +210,12 @@
                     bqf32
 
                     bqf32
-                    ]
                     <>
                     \mf
 
                     \revert Staff.Stem.stemlet-length
                     r4
+                    ]
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -224,9 +224,9 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    [
 
                     aqs16
-                    [
                     \ff
                     \>
 

@@ -83,7 +83,7 @@
                         \markup { "Violin I" }                                 %! applying staff names and clefs
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqs'8
+                        aqf'8
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -95,16 +95,16 @@
                         \!
                         ]
 
-                        aqf'4
+                        gqs'4
                         \mp
                         \>
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        g8
+                        aqs'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        bf8
+                        af8
                         ]
                         <>
                         \pp
@@ -117,13 +117,13 @@
                         r8.
                         [
 
-                        dqf'16
+                        bf16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        af16
+                        g16
                         - \accent
                         ]
 
@@ -194,14 +194,14 @@
                     r2
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    dqf'8
+                    bf8
                     [
 
                     \revert Staff.Stem.stemlet-length
                     r8
                     ]
 
-                    ef'4
+                    c'4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e'8
