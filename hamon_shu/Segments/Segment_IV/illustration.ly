@@ -249,12 +249,12 @@
 
                     R1 * 1/4
 
-                    e'2
+                    d'2
                     \mf
                     - \tenuto
                     \>
 
-                    g'4
+                    e'4
                     <>
                     \mp
 
@@ -540,7 +540,7 @@
 
                         r4
 
-                        d'4
+                        c'4
                         \mf
                         \>
                         <>
@@ -548,12 +548,12 @@
 
                         r2
 
-                        g'4
+                        e'4
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        bqf'4
+                        g'4
                         - \accent
 
                     }
@@ -566,12 +566,12 @@
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        c''8
+                        b'8
                         \pp
                         \<
                         ]
 
-                        aqs4
+                        d''4
                         <>
                         \mf
 
@@ -586,12 +586,12 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    d'8
+                    aqs8
                     \mf
                     \<
                     ]
 
-                    d''4
+                    c''4
                     <>
                     \f
 
@@ -600,16 +600,16 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    d'8
+                    aqs8
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
 
-                    aqs2.
+                    d''2.
                     - \tenuto
 
-                    c''2
+                    b'2
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -617,31 +617,31 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 8/7 {
 
-                        bqf'4
+                        g'4
 
-                        b'4
+                        bqf'4
                         - \accent
 
-                        g'4.
-                        ~
-
-                    }
-
-                    g'4
-                    ~
-
-                    \times 8/9 {
-
-                        g'8
-
-                        d'2
-
-                        e'2
+                        e'4.
                         ~
 
                     }
 
                     e'4
+                    ~
+
+                    \times 8/9 {
+
+                        e'8
+
+                        c'2
+
+                        d'2
+                        ~
+
+                    }
+
+                    d'4
 
                     r4
                     \!
@@ -961,11 +961,11 @@
                         \set Staff.instrumentName =                            %! applying staff names and clefs
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
-                        d'4
+                        e'4
                         \mf
                         \>
 
-                        g'2.
+                        bqf'2.
                         <>
                         \p
 
@@ -981,7 +981,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    b'8
+                    c''8
                     \mp
                     - \accent
                     - \tweak stencil #constante-hairpin
@@ -992,13 +992,13 @@
                     \!
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bqf'8
+                    b'8
                     \pp
                     \<
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    e'8
+                    g'8
                     ]
                     <>
                     \mf
@@ -1007,12 +1007,12 @@
 
                         r4
 
-                        bqf'4
+                        b'4
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        g'2
+                        bqf'2
 
                         r4
                         \!
@@ -1024,24 +1024,24 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/11 {
 
-                        b'4
+                        c''4
                         \mp
                         - \accent
                         \>
 
-                        g'2
+                        bqf'2
 
-                        bqf'4.
+                        b'4.
 
-                        c''4
+                        d''4
                         ~
 
                     }
 
-                    c''4
+                    d''4
                     \pp
 
-                    aqs4
+                    c'4
                     \mf
                     \<
 
@@ -1331,7 +1331,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        aqs4
+                        c'4
 
                     }
 
