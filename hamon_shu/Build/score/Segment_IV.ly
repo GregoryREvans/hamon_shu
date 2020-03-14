@@ -1,4 +1,4 @@
-
+    
     \context Score = "hamon_shu Score"
     <<
 
@@ -23,7 +23,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -39,7 +39,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -55,7 +55,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -65,7 +65,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -81,7 +81,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -97,7 +97,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -110,7 +110,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -123,7 +123,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -136,7 +136,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -149,7 +149,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -162,7 +162,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -175,7 +175,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -364,14 +364,13 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r8
-                        %[
+                        [
 
                         r8
 
                         r4
 
                         g8
-                        [
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1704,7 +1703,6 @@
                         [
 
                         b'8
-                        ]
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1713,7 +1711,6 @@
                         \!
 
                         d''8
-                        [
                         \mf
                         - \accent
                         \<
@@ -2159,7 +2156,6 @@
                         [
 
                         eqf'8
-                        ]
                         \mp
                         \>
                         <>
@@ -2168,7 +2164,6 @@
                         r4
 
                         f'8
-                        [
                         \f
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -3015,7 +3010,6 @@
                         [
 
                         bqf8
-                        ]
                         \pp
                         \<
                         <>
@@ -3024,7 +3018,6 @@
                         r4
 
                         e8
-                        [
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -3162,7 +3155,6 @@
                         [
 
                         d'8
-                        ]
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
@@ -3171,7 +3163,6 @@
                         \!
 
                         cs'8
-                        [
                         \mp
                         \>
 
