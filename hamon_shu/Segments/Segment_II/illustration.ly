@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
@@ -203,7 +203,7 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ates8
+                            bf8
                             \p
                             - \tweak stencil #constante-hairpin
                             \<
@@ -249,13 +249,13 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ates16
+                            bf16
                             [
 
                             bqs16.
 
                             \revert Staff.Stem.stemlet-length
-                            ctes'8
+                            cs'8
                             ]
 
                         }
@@ -263,7 +263,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
 
-                            def'4
+                            d'4
 
                             \override Staff.Stem.stemlet-length = 0.75
                             e'8.
@@ -272,7 +272,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        dtes'8
+                        ef'8
                         ]
 
                     }
@@ -287,10 +287,10 @@
                             e'16.
                             [
 
-                            ftes'16
+                            fs'16
                             ~
 
-                            ftes'64
+                            fs'64
 
                         }
 
@@ -298,14 +298,14 @@
 
                         \times 4/5 {
 
-                            ftes'32
+                            fs'32
 
                             aqf32
                             ~
 
                             aqf128
 
-                            gtef'32.
+                            fs'32.
 
                         }
 
@@ -314,12 +314,12 @@
 
                             aqf8
 
-                            ftes'16.
+                            fs'16.
 
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        gtef'8
+                        fs'8
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
                         - \tweak bound-details.left.text \markup {
@@ -352,7 +352,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    f'8
+                    fs'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -385,17 +385,17 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    f'4
+                    fs'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        f'8
+                        fs'8
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        etes'2
+                        f'2
                         \stopTextSpanOne
                         \stopTextSpanTwo
                         - \abjad-solid-line-with-arrow
@@ -451,7 +451,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    ces'8
+                    c'8
                     \mf
                     \<
                     ~
@@ -482,13 +482,13 @@
                     \startTextSpanTwo
                     ]
 
-                    ces'4
+                    c'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
 
-                        ces'8
+                        c'8
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         bqs4.
@@ -556,7 +556,7 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    bef2
+                    b2
                     \mp
                     \>
                     \stopTextSpanOne
@@ -588,7 +588,7 @@
                     \startTextSpanTwo
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    bef4
+                    b4
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -661,7 +661,7 @@
                         \startTextSpanTwo
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        ates4.
+                        bf4.
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -680,20 +680,20 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ates2
+                    bf2
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ates4.
+                    bf4.
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ates4
+                    bf4
 
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ctes'2
+                        cs'2
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -729,7 +729,7 @@
                     d'4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ftes'2
+                    fs'2
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -746,7 +746,7 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ftes'4
+                    fs'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -854,7 +854,7 @@
 
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    etef'2.
+                    ef'2.
                     \stopTextSpanOne
                     \stopTextSpanTwo
                     - \abjad-solid-line-with-arrow
@@ -910,7 +910,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    etef'8
+                    ef'8
                     \p
                     \<
                     ~
@@ -943,7 +943,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'8
+                    ef'8
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1027,7 +1027,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    gtef'8
+                    fs'8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1051,7 +1051,7 @@
 
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ftes'4
+                    fs'4
                     \stopTextSpanOne
                     \stopTextSpanTwo
                     - \abjad-solid-line-with-arrow
@@ -1103,7 +1103,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/11 {
 
-                            def'4.
+                            d'4.
                             \ppp
                             \>
                             \stopTextSpanOne
@@ -1163,10 +1163,10 @@
 
                             d'4
 
-                            etef'4
+                            ef'4
                             ~
 
-                            etef'16
+                            ef'16
 
                         }
 
@@ -1181,7 +1181,7 @@
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            gtef'16.
+                            fs'16.
                             [
 
                             eqf'16
@@ -1191,13 +1191,13 @@
 
                         }
 
-                        gtef'16.
+                        fs'16.
 
                         \scaleDurations #'(1 . 1) {
 
                             aqf32
 
-                            bef32
+                            b32
 
                             aqf32
 
@@ -1208,7 +1208,7 @@
 
                             aqs32
 
-                            ces'32
+                            c'32
 
                         }
 
@@ -1274,26 +1274,26 @@
                         \startTextSpanThree
                         [
 
-                        ctes'16.
+                        cs'16.
 
                         bqs8.
 
                         \scaleDurations #'(1 . 1) {
 
-                            def'16
+                            d'16
 
-                            dtes'16
+                            ef'16
 
                             e'16
 
                         }
 
-                        def'16.
+                        d'16.
 
-                        ctes'16.
+                        cs'16.
 
                         \revert Staff.Stem.stemlet-length
-                        def'8.
+                        d'8.
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1354,7 +1354,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    def'8
+                    d'8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1386,7 +1386,7 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes'8
+                    cs'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1403,16 +1403,16 @@
                     \startTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes'4
+                    cs'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    ctes'4
+                    cs'4
                     ~
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    ctes'8
+                    cs'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1498,7 +1498,7 @@
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            bef64
+                            b64
                             \p
                             - \tweak stencil #constante-hairpin
                             \<
@@ -1534,14 +1534,14 @@
 
                         }
 
-                        bef8
+                        b8
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
 
                             aqs16
 
-                            gtef'32
+                            fs'32
 
                             aqs16
 
@@ -1550,7 +1550,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
 
-                            bef16
+                            b16
 
                             aqf32.
 
@@ -1585,13 +1585,13 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            etef'16
+                            ef'16
                             [
 
                             f'16.
 
                             \revert Staff.Stem.stemlet-length
-                            etef'8
+                            ef'8
                             ]
 
                         }
@@ -1602,13 +1602,13 @@
                             dqs'4
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            dtes'8.
+                            ef'8.
                             [
 
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        def'8
+                        d'8
                         ]
 
                     }
@@ -1633,12 +1633,12 @@
 
                         \times 4/5 {
 
-                            ftes'32
+                            fs'32
 
-                            gtef'32
+                            fs'32
                             ~
 
-                            gtef'128
+                            fs'128
 
                             aqf32.
 
@@ -1647,7 +1647,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/7 {
 
-                            ates8
+                            bf8
 
                             a16.
 
@@ -1666,17 +1666,17 @@
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ftes'8.
+                            fs'8.
                             [
 
-                            gtef'8
+                            fs'8
                             ~
 
-                            gtef'32
+                            fs'32
 
                         }
 
-                        ftes'8
+                        fs'8
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
@@ -1692,7 +1692,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/9 {
 
-                            ftes'8
+                            fs'8
 
                             fqs'8
                             ~
@@ -1724,7 +1724,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        etes'8
+                        f'8
                         \mf
                         \<
                         \stopTextSpanTwo
@@ -1821,7 +1821,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    etef'8
+                    ef'8
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1854,7 +1854,7 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'4
+                    ef'4
 
                                     - \tweak arrow-length #2
                                     - \tweak arrow-width #0.5
@@ -1928,7 +1928,7 @@
                         \times 6/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ates8.
+                            bf8.
                             \ppp
                             \>
                             - \abjad-dashed-line-with-arrow
@@ -1959,10 +1959,10 @@
                             \startTextSpanThree
                             [
 
-                            gtef'8
+                            fs'8
                             ~
 
-                            gtef'32
+                            fs'32
 
                         }
 
@@ -1970,11 +1970,11 @@
 
                         \scaleDurations #'(1 . 1) {
 
-                            bes16
+                            b16
 
                             aqf16
 
-                            gtef'16
+                            fs'16
 
                         }
 
@@ -1988,7 +1988,7 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        def'8.
+                        d'8.
                         ]
 
                     }
@@ -2007,7 +2007,7 @@
 
                             dqs'16
 
-                            etef'16
+                            ef'16
 
                             d'16
 
@@ -2015,7 +2015,7 @@
 
                         cqs'16.
 
-                        ces'16.
+                        c'16.
 
                         \revert Staff.Stem.stemlet-length
                         aqs8.
@@ -2039,7 +2039,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ces'4
+                    c'4
                     \p
                     \<
                     \stopTextSpanTwo
@@ -2074,7 +2074,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        ces'2
+                        c'2
 
                         cqs'4
                         \stopTextSpanOne
@@ -2106,7 +2106,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    ftes'8
+                    fs'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2125,7 +2125,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    ftes'8
+                    fs'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -2167,7 +2167,7 @@
 
                     r4.
 
-                    gtef'4
+                    fs'4
                     \f
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2220,7 +2220,7 @@
                     \stopTextSpanOne
 
                     \once \override Staff.NoteHead.style = #'triangle
-                    gtef'2
+                    fs'2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2388,8 +2388,7 @@
                         \once \override Staff.NoteHead.style = #'triangle
                         aqs8
 
-                        \clef "tenorvarC"
-                        gtef'4.
+                        fs'4.
                         \stopTextSpanOne
                         \stopTextSpanTwo
                         - \abjad-solid-line-with-arrow
@@ -2445,7 +2444,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    ates8
+                    bf8
                     \f
                     \>
                     - \abjad-solid-line-with-arrow
@@ -2540,7 +2539,7 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \revert Staff.Stem.stemlet-length
-                    etes'8
+                    f'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2574,11 +2573,11 @@
 
                     \once \override Staff.NoteHead.style = #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    etes'8
+                    f'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    gtef'8
+                    fs'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2596,12 +2595,12 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef'8
+                    fs'8
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    ates8
+                    bf8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2619,12 +2618,12 @@
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    ates4
+                    bf4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    ates8
+                    bf8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -2695,7 +2694,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    etef'4
+                    ef'4
                     \stopTextSpanOne
                     \stopTextSpanTwo
                     - \abjad-solid-line-with-arrow
@@ -2829,7 +2828,7 @@
                         - \tweak staff-padding #6
                         \startTextSpanOne
 
-                        bes8
+                        b8
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -2847,11 +2846,11 @@
 
                     }
 
-                    bes4
+                    b4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bes8
+                    b8
                     [
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -2895,7 +2894,7 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'8
+                    ef'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2912,7 +2911,7 @@
                     \startTextSpanOne
                     ]
 
-                    etef'4
+                    ef'4
                     \p
                     - \tweak stencil #constante-hairpin
                     \<

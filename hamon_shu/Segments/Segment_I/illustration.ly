@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()

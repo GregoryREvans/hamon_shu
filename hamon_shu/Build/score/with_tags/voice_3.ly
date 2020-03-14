@@ -1,7 +1,7 @@
-\version "2.19.83"  %! LilyPondFile
+\version "2.19.84"  %! LilyPondFile
 \language "english" %! LilyPondFile
 
-\include "../../first_stylesheet.ily"                                      %! LilyPondFile
+\include "first_stylesheet.ily"                                      %! LilyPondFile
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily" %! LilyPondFile
 \include "/Users/evansdsg2/evans/evans/lilypond/evans-articulations.ily"
 

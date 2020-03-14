@@ -2,10 +2,10 @@
 
 \version "2.19.84"
 \language "english"
-#(set-default-paper-size "a4portrait")
+%{ #(set-default-paper-size "a4portrait") %}
+#(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 13)
-%{ \include "ekmel.ily"
-\ekmelicStyle evans %}
+
 
 \header {
 	tagline = ##f
@@ -14,7 +14,7 @@
 	title =  \markup { \epsfile #Y #15 #"/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Covers/title2.eps" }
 	subtitle = \markup \override #'(font-name . "Didot") \fontsize #2.5 \center-column {"f o r     s t r i n g     q u a r t e t"}
 	subsubtitle = \markup \override #'(font-name . "Didot") \fontsize #3 \center-column {"; or , the many ways of drawing water"}
-	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans"}
+	composer = \markup \override #'(font-name . "Didot") \fontsize #3 {"Gregory Rowland Evans" \override #'(font-name . "MaestroTimes") "(*1995)"}
 }
 
 \layout {
@@ -39,9 +39,9 @@
 		\override BarNumber.Y-extent = #'(0 . 0)
 		\override BarNumber.Y-offset = 0
 		\override BarNumber.extra-offset = #'(-4 . 0)
-		%\override BarNumber.font-name = "Didot"
+		\override BarNumber.font-name = "MaestroTimes"
 		%{ \override BarNumber.stencil = #(make-stencil-boxer 0.1 0.7 ly:text-interface::print) %}
-		\override BarNumber.stencil = #(make-stencil-boxer 0.1 0.7 ly:text-interface::print)
+		\override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
 		\override BarNumber.font-size = 5
 		\override BarNumber.padding = 4
 		%\override BarNumber.stencil = ##f
@@ -51,7 +51,6 @@
 		\override MetronomeMark.extra-offset = #'(0 . 1)
 		\override MetronomeMark.font-size = 3
 		%\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
-		\override RehearsalMark.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
 		\override RehearsalMark.X-extent = #'(0 . 0)
 		\override RehearsalMark.X-offset = 6
 		\override RehearsalMark.Y-offset = -2.5
@@ -102,7 +101,7 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 0))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 8))
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}
@@ -120,7 +119,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
 		%{ subdivideBeams = ##t %}
-		proportionalNotationDuration = #(ly:make-moment 1 38)
+		proportionalNotationDuration = #(ly:make-moment 1 45)
         tupletFullLength = ##t
     }
 	\context {
@@ -145,7 +144,7 @@
 	%{ system-separator-markup = \slashSeparator %}
 	system-separator-markup = \markup { \slashSeparator }
 	%system-system-spacing = #'((basic-distance . 25) (minimum-distance . 25) (padding . 5))
-	system-system-spacing = #'((basic-distance . 17) (minimum-distance . 17) (padding . 4))
+	system-system-spacing = #'((basic-distance . 16) (minimum-distance . 16) (padding . 4))
 
 	indent = 20\mm
     short-indent = 15\mm
@@ -167,7 +166,7 @@
             \override #'(font-name . "Didot")
                 \bold \fontsize #3 "Hamonshū - GR Evans"
             \concat {
-                \override #'(font-name . "Didot")
+                \override #'(font-name . "MaestroTimes")
                     \bold \fontsize #3
                         %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string
@@ -176,7 +175,7 @@
     evenFooterMarkup = \markup
         \fill-line {
             \concat {
-                \override #'(font-name . "Didot")
+                \override #'(font-name . "MaestroTimes")
                     \bold \fontsize #3
                         %{ \on-the-fly #print-page-number-check-first %}
                         \fromproperty #'page:page-number-string

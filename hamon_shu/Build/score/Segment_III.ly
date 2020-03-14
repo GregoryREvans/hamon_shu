@@ -1,4 +1,4 @@
-    
+
     \context Score = "hamon_shu Score"
     <<
 
@@ -14,7 +14,7 @@
                     }
                 }
             s1 * 1/2
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -27,7 +27,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -46,7 +46,7 @@
 
             \time 3/8                                                          %! scaling time signatures
             s1 * 3/8
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
         }
 
@@ -68,7 +68,7 @@
                         \markup { "Violin I" }                                 %! applying staff names and clefs
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqf'8
+                        aqs'8
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -80,16 +80,16 @@
                         \!
                         ]
 
-                        gqs'4
+                        aqf'4
                         \mp
                         \>
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqs'8
+                        g8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af8
+                        bf8
                         ]
                         <>
                         \pp
@@ -102,13 +102,13 @@
                         r8.
                         [
 
-                        bf16
+                        dqf'16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        g16
+                        af16
                         - \accent
                         ]
 
@@ -173,20 +173,20 @@
                     R1 * 3/8
 
                     dqs'2
-
+\tag #'score { \pageBreak }
                     cs'4
 
                     r2
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bf8
+                    dqf'8
                     [
 
                     \revert Staff.Stem.stemlet-length
                     r8
                     ]
 
-                    c'4
+                    ef'4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e'8
@@ -409,9 +409,9 @@
                         \override Staff.Stem.stemlet-length = 0.75
                         r4.
                         \!
-                        [
 
                         fs'8
+                        [
                         \mp
                         \>
 
@@ -702,9 +702,9 @@
                         \override Staff.Stem.stemlet-length = 0.75
                         r4.
                         \!
-                        [
 
                         gqf8
+                        [
                         \mp
                         \>
 
@@ -857,9 +857,9 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r4.
-                        [
 
                         aqs'8
+                        [
                         \pp
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -1006,9 +1006,9 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         r4.
-                        [
 
                         b8
+                        [
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<

@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
@@ -162,26 +162,26 @@
                         b''2
                         - \espressivo
 
-                        bf'''2.
+                        e''2.
                         ~
 
                     }
 
-                    bf'''4
+                    e''4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
-                        ef'''4
+                        d''4
 
-                        fs''''8
+                        ef'''8
                         ~
 
                     }
 
-                    fs''''4
+                    ef'''4
 
-                    cs'4
+                    fs''''4
 
                     \times 8/9 {
 
@@ -224,24 +224,24 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    f'8
+                    g8
                     - \accent
                     ~
                     ]
 
-                    f'4
+                    g4
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
-                        f'2
+                        g2
                         ~
 
-                        f'8
+                        g8
 
                     }
 
-                    af2
+                    bf'''2
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
@@ -364,26 +364,7 @@
                     f''4
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ef'''8
-                    [
-
-                    \revert Staff.Stem.stemlet-length
-                    fs''''8
-                    ~
-                    ]
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/5 {
-
-                        fs''''4
-
-                        ef'''4.
-                        ~
-
-                    }
-
-                    \override Staff.Stem.stemlet-length = 0.75
-                    ef'''8
+                    e''8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -391,13 +372,32 @@
                     ~
                     ]
 
-                    bf'''4
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/5 {
+
+                        bf'''4
+
+                        e''4.
+                        ~
+
+                    }
+
+                    \override Staff.Stem.stemlet-length = 0.75
+                    e''8
+                    [
+
+                    \revert Staff.Stem.stemlet-length
+                    ef'''8
+                    ~
+                    ]
+
+                    ef'''4
                     ~
 
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        bf'''8
+                        ef'''8
                         [
 
                         \revert Staff.Stem.stemlet-length
@@ -435,32 +435,32 @@
                     fs''''2
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    e''8
+                    d''8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    b'8
+                    f'8
                     ~
                     ]
 
-                    b'4
+                    f'4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/4 {
 
-                        b'8
+                        f'8
 
-                        f'4.
+                        cs'4.
 
                     }
 
-                    d''2
+                    b'2
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/4 {
 
-                        ef'''4
+                        e''4
                         - \tenuto
 
                         cs''4
@@ -696,42 +696,44 @@
                     \markup { vc. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Violoncello }                                    %! applying staff names and clefs
-                    \clef "tenorvarC"
-                    g'1
+                    \clef "bass"
+                    c,1
                     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
                     ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
 
-                    e4
+                    \clef "tenorvarC"
+                    g'4
                     :32
 
-                    b4
+                    \clef "treble"
+                    cs''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
-                        b2
+                        cs''2
 
                         \clef "bass"
-                        bf,4
+                        a,4
                         ~
 
                     }
 
-                    bf,2.
+                    a,2.
                     ~
 
-                    bf,4
+                    a,4
 
                     r1
 
-                    af,2
+                    c,2
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/11 {
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        ef8
+                        af,8
                         - \tenuto
                         [
 
@@ -746,9 +748,9 @@
 
                         g'8
 
-                        af4
+                        g4
 
-                        f'4
+                        cs'4
                         ~
 
                     }
@@ -756,18 +758,18 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
 
-                        f'4
+                        cs'4
 
-                        cs'8
+                        af8
 
-                        b'2
+                        f'2
 
                     }
 
-                    cs'2
+                    af2
                     ~
 
-                    cs'2
+                    af2
 
                     r2
 
@@ -782,29 +784,29 @@
 
                     \clef "bass"
                     \revert Staff.Stem.stemlet-length
-                    e,8
+                    c,8
                     ~
                     ]
 
-                    e,8
+                    c,8
 
-                    a,4
+                    e,4
                     ~
 
-                    a,4.
+                    e,4.
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
-                        e,2
+                        c,2
 
-                        f'4
+                        cs'4
                         ~
 
                     }
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    f'8
+                    cs'8
                     [
 
                     \revert Staff.Stem.stemlet-length

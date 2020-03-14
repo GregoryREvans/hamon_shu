@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
@@ -2465,7 +2465,7 @@
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
                     \once \override Staff.NoteHead.style = #'triangle
-                    \clef "treble"
+                    \clef "varC"
                     ef''2
                     \pp
                     - \bendAfter #'3
@@ -2485,6 +2485,7 @@
                     e''2
                     - \bendAfter #'-3
 
+                    \clef "treble"
                     af''1
                     - \bendAfter #'-2
 
@@ -2492,7 +2493,6 @@
                     \clef "varC"
                     cqs2
 
-                    \clef "treble"
                     fs''1
                     \mf
                     \>
@@ -2546,6 +2546,7 @@
 
                     R1 * 1/4
 
+                    \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8.
                     \pp
@@ -2740,7 +2741,6 @@
                     - \bendAfter #'6
 
                     \once \override Staff.NoteHead.style = #'default
-                    \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8.
                     [
@@ -2832,7 +2832,6 @@
                     \times 5/6 {
 
                         \once \override Staff.NoteHead.style = #'triangle
-                        \clef "varC"
                         eqs4
                         - \bendAfter #'-5
 
@@ -2911,7 +2910,6 @@
                     - \bendAfter #'4
 
                     \once \override Staff.NoteHead.style = #'default
-                    \clef "treble"
                     e''2
                     ~
 
@@ -2919,7 +2917,6 @@
                     e''2.
                     \p
 
-                    \clef "varC"
                     f4
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -3017,7 +3014,6 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
 
-                        \clef "treble"
                         ef''1
                         \mp
                         - \bendAfter #'-2
@@ -3046,6 +3042,7 @@
                     e''2
 
                     \once \override Staff.NoteHead.style = #'triangle
+                    \clef "treble"
                     af''1
                     \mf
                     - \bendAfter #'-3
@@ -3220,12 +3217,12 @@
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         c''8
 
-                        \clef "treble"
                         fqs''8
 
                         \once \override Staff.NoteHead.style = #'triangle
                         c''8
 
+                        \clef "treble"
                         \revert Staff.Stem.stemlet-length
                         gqf''8
                         ]
@@ -3300,7 +3297,6 @@
                         - \bendAfter #'-2
 
                         \once \override Staff.NoteHead.style = #'default
-                        \clef "treble"
                         e''2
                         \pp
                         \<
@@ -3406,6 +3402,7 @@
 
                     R1 * 3/8
 
+                    \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
                     \p
@@ -3487,7 +3484,6 @@
 
                     \times 2/3 {
 
-                        \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
                         e''8
                         [

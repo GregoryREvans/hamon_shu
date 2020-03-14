@@ -1,4 +1,4 @@
-\version "2.19.83"                                                             %! abjad.LilyPondFile._get_format_pieces()
+\version "2.19.84"                                                             %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! abjad.LilyPondFile._get_format_pieces()
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
@@ -83,7 +83,7 @@
                         \markup { "Violin I" }                                 %! applying staff names and clefs
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqf'8
+                        aqs'8
                         \p
                         - \accent
                         - \tweak stencil #constante-hairpin
@@ -95,16 +95,16 @@
                         \!
                         ]
 
-                        gqs'4
+                        aqf'4
                         \mp
                         \>
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        aqs'8
+                        g8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af8
+                        bf8
                         ]
                         <>
                         \pp
@@ -117,13 +117,13 @@
                         r8.
                         [
 
-                        bf16
+                        dqf'16
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \revert Staff.Stem.stemlet-length
-                        g16
+                        af16
                         - \accent
                         ]
 
@@ -194,14 +194,14 @@
                     r2
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bf8
+                    dqf'8
                     [
 
                     \revert Staff.Stem.stemlet-length
                     r8
                     ]
 
-                    c'4
+                    ef'4
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e'8

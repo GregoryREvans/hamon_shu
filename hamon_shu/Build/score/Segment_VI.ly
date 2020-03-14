@@ -1,4 +1,4 @@
-    
+
     \context Score = "hamon_shu Score"
     <<
 
@@ -26,7 +26,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -42,7 +42,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -58,7 +58,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -77,7 +77,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -93,7 +93,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -106,7 +106,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -119,7 +119,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -135,7 +135,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -151,7 +151,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -168,7 +168,7 @@
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            %\tag #'score {\pageBreak}
 
         }
 
@@ -233,7 +233,7 @@
                         \startTextSpanOne
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        bes4
+                        b4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -345,17 +345,17 @@
 
                     R1 * 5/8
 
-                    gtes'2
+                    af'2
                     \mp
                     \>
                     ~
 
-                    gtes'2
+                    af'2
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    aes4
+                    a4
                     \!
                     \pppp
                     \<
@@ -384,10 +384,10 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
-                    aes4
+                    a4
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -444,33 +444,28 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
-                    gtes'4
+                    af'4
                     ~
 
-                    gtes'4
+                    af'4
                     ~
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
+                    af'2.
+                    ~
 
-                        gtes'2
-                        ~
-
-                    }
-
-                    gtes'4
+                    af'4
 
                     \scaleDurations #'(1 . 1) {
 
-                        gtef''2
+                        fs''2
                         ~
 
                     }
 
-                    gtef''4
+                    fs''4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -521,7 +516,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding #10.5
                         \startTextSpanThree
 
                         c''2.
@@ -636,7 +631,7 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'4
 
-                    bes'1
+                    b'1
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -652,13 +647,13 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    bes'4
+                    b'4
                     ~
 
-                    bes'2.
+                    b'2.
                     ~
 
-                    bes'2
+                    b'2
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -682,16 +677,16 @@
                     r4
                     \stopTextSpanOne
 
-                    ates'4
+                    bf'4
                     \mp
                     \>
                     ~
 
-                    ates'4
+                    bf'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    ates'8
+                    bf'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -748,7 +743,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding #10.5
                         \startTextSpanThree
 
                     }
@@ -848,7 +843,7 @@
 
                     R1 * 5/8
 
-                    btes''2
+                    c'''2
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -889,7 +884,7 @@
 
                     aqf1
 
-                    aes4
+                    a4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -905,7 +900,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    aes4
+                    a4
 
                     eqf'1
                     \stopTextSpanOne
@@ -922,7 +917,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    ates'4
+                    bf'4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -938,7 +933,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    ates'2.
+                    bf'2.
 
                     b''2
                     \stopTextSpanOne
@@ -971,7 +966,7 @@
                     dqf'2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    dtes'4
+                    ef'4
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1000,11 +995,11 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    dtes'4
+                    ef'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1053,7 +1048,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     fqs'''2
@@ -1181,7 +1176,7 @@
 
                         bqf''2
 
-                        gtef''2
+                        fs''2
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -1198,7 +1193,7 @@
                         \startTextSpanOne
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        gtef''8
+                        fs''8
                         [
 
                         d'''8
@@ -1217,7 +1212,7 @@
                         \startTextSpanOne
 
                         \revert Staff.Stem.stemlet-length
-                        gtef''8
+                        fs''8
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -1236,21 +1231,21 @@
 
                     }
 
-                    gtef''4
+                    fs''4
                     ~
 
-                    gtef''2.
+                    fs''2.
                     ~
 
-                    gtef''4
+                    fs''4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    gtef''8
+                    fs''8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    etef'''8
+                    ef'''8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1287,7 +1282,7 @@
 
                     fqs'''2
 
-                    aes4
+                    a4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1303,15 +1298,15 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    aes2
+                    a2
                     ~
 
-                    aes4
+                    a4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/3 {
 
-                        etef'''2
+                        ef'''2
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -1348,13 +1343,8 @@
                     \stopTextSpanOne
                     ~
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        d'''2
-                        ~
-
-                    }
+                    d'''2.
+                    ~
 
                     d'''4
 
@@ -1399,7 +1389,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding #10.5
                         \startTextSpanThree
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1681,7 +1671,7 @@
 
                     R1 * 1/8
 
-                    bes2.
+                    b2.
                     \mf
                     \>
                     ~
@@ -1698,13 +1688,13 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    bes2
+                    b2
                     ~
 
-                    bes2
+                    b2
                     ~
 
-                    bes2.
+                    b2.
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1738,7 +1728,7 @@
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \ottava 1
-                    etef'''4
+                    ef'''4
                     \mp
                     \>
                     ~
@@ -1766,48 +1756,43 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'''4
-
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        \once \override Staff.NoteHead.style = #'default
-                        \ottava 0
-                        aes2
-                        ~
-
-                    }
+                    ef'''4
 
                     \once \override Staff.NoteHead.style = #'default
-                    aes4
+                    \ottava 0
+                    a2.
+                    ~
+
+                    \once \override Staff.NoteHead.style = #'default
+                    a4
 
                     \ottava 1
                     fqs'''2
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'''2.
+                    ef'''2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    etef'''4
+                    ef'''4
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
-                    etef'''8
+                    ef'''8
                     [
 
                     \ottava 0
                     \revert Staff.Stem.stemlet-length
-                    bes'8
+                    b'8
                     ]
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    btes''2.
+                    c'''2.
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1839,16 +1824,16 @@
 
                     R1 * 5/8
 
-                    bes'1
+                    b'1
                     \ppp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    bes'4
+                    b'4
                     ~
 
-                    bes'4
+                    b'4
 
                     r1
                     \!
@@ -1878,7 +1863,7 @@
                         g''4
 
                         \once \override Staff.NoteHead.style = #'default
-                        ates'4
+                        bf'4
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -1897,39 +1882,39 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    ates'2.
+                    bf'2.
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'default
-                        ates'1
+                        bf'1
                         ~
 
                         \once \override Staff.NoteHead.style = #'default
-                        ates'4
+                        bf'4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    ates'4
+                    bf'4
                     ~
 
                     \scaleDurations #'(1 . 1) {
 
                         \once \override Staff.NoteHead.style = #'default
-                        ates'1
+                        bf'1
                         ~
 
                         \once \override Staff.NoteHead.style = #'default
-                        ates'4
+                        bf'4
                         ~
 
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    ates'4
+                    bf'4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'2.
@@ -1976,7 +1961,7 @@
                     }
 
                     \once \override Staff.NoteHead.style = #'default
-                    dtes'4
+                    ef'4
                     \stopTextSpanOne
                     ~
                     - \abjad-invisible-line
@@ -2015,11 +2000,11 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    dtes'4
+                    ef'4
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2078,7 +2063,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
@@ -2105,7 +2090,7 @@
                     b''4
 
                     \once \override Staff.NoteHead.style = #'default
-                    bes2
+                    b2
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2250,25 +2235,20 @@
 
                     dqf'2
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        ctes'2
-                        \stopTextSpanOne
-                        - \abjad-invisible-line
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                    \hspace
-                                        #0.5
-                                }
+                    cs'2.
+                    \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
+                                \hspace
+                                    #0.5
                             }
-                        - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
-                        \startTextSpanOne
-
-                    }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #8
+                    \startTextSpanOne
 
                     aqf2
                     \stopTextSpanOne
@@ -2279,12 +2259,12 @@
 
                         aqf2.
 
-                        aes8
+                        a8
                         ~
 
                     }
 
-                    aes1
+                    a1
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -2330,23 +2310,23 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
-                    aes4
+                    a4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    aes4
+                    a4
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    aes2
+                    a2
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    aes2.
+                    a2.
 
                     aqf2
                     ~
@@ -2408,7 +2388,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
+                    - \tweak staff-padding #10.5
                     \startTextSpanThree
 
                     \clef "treble"
@@ -2418,13 +2398,8 @@
                     eqf''4
                     ~
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        eqf''2
-                        ~
-
-                    }
+                    eqf''2.
+                    ~
 
                     eqf''2
                     ~
@@ -2529,7 +2504,7 @@
 
                         \once \override Staff.NoteHead.style = #'default
                         \ottava 0
-                        gtef''4
+                        fs''4
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -2572,7 +2547,7 @@
                     dqf4
 
                     \once \override Staff.NoteHead.style = #'default
-                    des1
+                    d1
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2633,7 +2608,7 @@
                     \times 2/3 {
 
                         \once \override Staff.NoteHead.style = #'default
-                        aes2
+                        a2
                         \p
                         \>
                         - \abjad-solid-line-with-arrow
@@ -2680,21 +2655,21 @@
                     \!
 
                     \clef "treble"
-                    btes''1
+                    c'''1
                     \pppp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    btes''4
+                    c'''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
 
-                        btes''4
+                        c'''4
 
-                        bes'1.
+                        b'1.
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
                             \concat
@@ -2719,12 +2694,12 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding #10.5
                         \startTextSpanThree
 
                     }
 
-                    ates'1
+                    bf'1
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {

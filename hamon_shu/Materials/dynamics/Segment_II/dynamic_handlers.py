@@ -2,7 +2,7 @@ import evans
 
 
 dynamic_handler_two = evans.DynamicHandler(
-    dynamic_list=["p", "ppp", "ppppp", "mp", "mf"],
+    dynamic_list=["mf", "mp", "pp", "mf", "f"],
     hold_first_boolean_vector=[1, 0, 0],
     hold_first_continuous=True,
     hold_last_boolean_vector=[0, 1],
