@@ -1,4 +1,4 @@
-
+    
     \context Score = "hamon_shu Score"
     <<
 
@@ -17,7 +17,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -30,7 +30,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -43,7 +43,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -56,7 +56,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -69,7 +69,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -82,7 +82,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -95,7 +95,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -108,7 +108,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -121,7 +121,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -134,7 +134,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -147,7 +147,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -160,7 +160,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -173,7 +173,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -186,7 +186,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -199,7 +199,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -212,7 +212,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -225,7 +225,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -238,7 +238,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -251,7 +251,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -264,7 +264,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -277,7 +277,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -290,7 +290,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -303,7 +303,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -316,7 +316,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -329,16 +329,16 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
         }
 
         \context StaffGroup = "Staff Group"
         <<
-            \tag #'voice1 {
 
             \context Staff = "Staff 1"
             {
+                \tag #'voice1 {
 
                 \context Voice = "Voice 1"
                 {
@@ -1351,13 +1351,13 @@
                     \mp
 
                 }
+                }
 
             }
-            }
-            \tag #'voice2 {
 
             \context Staff = "Staff 2"
             {
+                \tag #'voice2 {
 
                 \context Voice = "Voice 2"
                 {
@@ -2434,13 +2434,13 @@
                     \bar "||"
 
                 }
+                }
 
             }
-            }
-            \tag #'voice3 {
 
             \context Staff = "Staff 3"
             {
+                \tag #'voice3 {
 
                 \context Voice = "Voice 3"
                 {
@@ -3512,13 +3512,13 @@
                     \bar "||"
 
                 }
+                }
 
             }
-            }
-            \tag #'voice4 {
 
             \context Staff = "Staff 4"
             {
+                \tag #'voice4 {
 
                 \context Voice = "Voice 4"
                 {
@@ -4620,8 +4620,8 @@
                     \bar "||"
 
                 }
+                }
 
-            }
             }
 
         >>

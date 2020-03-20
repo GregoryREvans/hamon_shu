@@ -5374,3 +5374,387 @@ count
 vector count
 30
 
+2020-03-20 15:54:58.890240
+violin_1_pitch_handler_three
+count
+32
+
+2020-03-20 15:54:58.959343
+violin_1_pitch_handler_one
+count
+34
+
+2020-03-20 15:54:58.970961
+violin_1_pitch_handler_two
+count
+59
+
+2020-03-20 15:54:59.045783
+violin_1_pitch_handler_four
+count
+35
+
+2020-03-20 15:54:59.122898
+violin_1_pitch_handler_three
+count
+34
+
+2020-03-20 15:54:59.197154
+violin_1_pitch_handler_one
+count
+36
+
+2020-03-20 15:54:59.271776
+violin_1_pitch_handler_four
+count
+37
+
+2020-03-20 15:54:59.338888
+violin_1_pitch_handler_two
+count
+59
+
+2020-03-20 15:54:59.982573
+violin_2_pitch_handler_three
+count
+44
+
+2020-03-20 15:55:00.046974
+violin_2_pitch_handler_one
+count
+18
+
+2020-03-20 15:55:00.121538
+violin_2_pitch_handler_two
+count
+54
+
+2020-03-20 15:55:00.201378
+violin_2_pitch_handler_four
+count
+15
+
+2020-03-20 15:55:00.275589
+violin_2_pitch_handler_three
+count
+46
+
+2020-03-20 15:55:00.349410
+violin_2_pitch_handler_one
+count
+22
+
+2020-03-20 15:55:00.426377
+violin_2_pitch_handler_four
+count
+20
+
+2020-03-20 15:55:00.499027
+violin_2_pitch_handler_two
+count
+58
+
+2020-03-20 15:55:00.808845
+viola_pitch_handler_three
+count
+47
+
+2020-03-20 15:55:00.873597
+viola_pitch_handler_one
+count
+18
+
+2020-03-20 15:55:00.885856
+viola_pitch_handler_two
+count
+59
+
+2020-03-20 15:55:00.949546
+viola_pitch_handler_four
+count
+27
+
+2020-03-20 15:55:00.956846
+viola_pitch_handler_three
+count
+47
+
+2020-03-20 15:55:00.970722
+viola_pitch_handler_one
+count
+20
+
+2020-03-20 15:55:01.038255
+viola_pitch_handler_four
+count
+29
+
+2020-03-20 15:55:01.104276
+viola_pitch_handler_two
+count
+60
+
+2020-03-20 15:55:01.656821
+cello_pitch_handler_three
+count
+35
+
+2020-03-20 15:55:01.720554
+cello_pitch_handler_one
+count
+29
+
+2020-03-20 15:55:01.788448
+cello_pitch_handler_two
+count
+57
+
+2020-03-20 15:55:01.938501
+cello_pitch_handler_four
+count
+14
+
+2020-03-20 15:55:02.032953
+cello_pitch_handler_three
+count
+35
+
+2020-03-20 15:55:02.046902
+cello_pitch_handler_one
+count
+32
+
+2020-03-20 15:55:02.117471
+cello_pitch_handler_four
+count
+15
+
+2020-03-20 15:55:02.182767
+cello_pitch_handler_two
+count
+57
+
+2020-03-20 15:55:02.610747
+articulation_handler_one
+count
+1
+vector count
+1
+
+2020-03-20 15:55:02.617358
+articulation_handler_two
+count
+-1
+vector count
+-1
+
+2020-03-20 15:55:02.630680
+articulation_handler_three
+count
+2
+vector count
+2
+
+2020-03-20 15:55:02.642236
+articulation_handler_two
+count
+3
+vector count
+3
+
+2020-03-20 15:55:02.653078
+articulation_handler_one
+count
+3
+vector count
+3
+
+2020-03-20 15:55:02.662677
+articulation_handler_two
+count
+5
+vector count
+5
+
+2020-03-20 15:55:02.674154
+articulation_handler_three
+count
+4
+vector count
+4
+
+2020-03-20 15:55:02.683163
+articulation_handler_two
+count
+5
+vector count
+5
+
+2020-03-20 15:55:03.340742
+articulation_handler_one
+count
+7
+vector count
+7
+
+2020-03-20 15:55:03.347816
+articulation_handler_two
+count
+6
+vector count
+6
+
+2020-03-20 15:55:03.360157
+articulation_handler_three
+count
+7
+vector count
+7
+
+2020-03-20 15:55:03.372966
+articulation_handler_two
+count
+10
+vector count
+10
+
+2020-03-20 15:55:03.387841
+articulation_handler_one
+count
+9
+vector count
+9
+
+2020-03-20 15:55:03.401952
+articulation_handler_two
+count
+14
+vector count
+14
+
+2020-03-20 15:55:03.418449
+articulation_handler_three
+count
+12
+vector count
+12
+
+2020-03-20 15:55:03.432022
+articulation_handler_two
+count
+18
+vector count
+18
+
+2020-03-20 15:55:03.691844
+articulation_handler_one
+count
+12
+vector count
+12
+
+2020-03-20 15:55:03.697750
+articulation_handler_two
+count
+18
+vector count
+18
+
+2020-03-20 15:55:03.707117
+articulation_handler_three
+count
+14
+vector count
+14
+
+2020-03-20 15:55:03.713493
+articulation_handler_two
+count
+18
+vector count
+18
+
+2020-03-20 15:55:03.720122
+articulation_handler_one
+count
+12
+vector count
+12
+
+2020-03-20 15:55:03.730262
+articulation_handler_two
+count
+20
+vector count
+20
+
+2020-03-20 15:55:03.737438
+articulation_handler_three
+count
+16
+vector count
+16
+
+2020-03-20 15:55:03.747125
+articulation_handler_two
+count
+21
+vector count
+21
+
+2020-03-20 15:55:04.252226
+articulation_handler_one
+count
+15
+vector count
+15
+
+2020-03-20 15:55:04.262612
+articulation_handler_two
+count
+22
+vector count
+22
+
+2020-03-20 15:55:04.274142
+articulation_handler_three
+count
+20
+vector count
+20
+
+2020-03-20 15:55:04.289426
+articulation_handler_two
+count
+27
+vector count
+27
+
+2020-03-20 15:55:04.299784
+articulation_handler_one
+count
+15
+vector count
+15
+
+2020-03-20 15:55:04.313179
+articulation_handler_two
+count
+30
+vector count
+30
+
+2020-03-20 15:55:04.325830
+articulation_handler_three
+count
+21
+vector count
+21
+
+2020-03-20 15:55:04.333726
+articulation_handler_two
+count
+30
+vector count
+30
+

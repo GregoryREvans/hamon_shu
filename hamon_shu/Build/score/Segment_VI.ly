@@ -1,4 +1,4 @@
-
+    
     \context Score = "hamon_shu Score"
     <<
 
@@ -26,7 +26,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -42,7 +42,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -58,7 +58,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
@@ -77,7 +77,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -93,7 +93,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -106,7 +106,7 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -119,7 +119,7 @@
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -135,7 +135,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
@@ -151,7 +151,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
@@ -168,16 +168,16 @@
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
         }
 
         \context StaffGroup = "Staff Group"
         <<
-            \tag #'voice1 {
 
             \context Staff = "Staff 1"
             {
+                \tag #'voice1 {
 
                 \context Voice = "Voice 1"
                 {
@@ -384,7 +384,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     a4
@@ -444,7 +444,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     af'4
@@ -453,8 +453,13 @@
                     af'4
                     ~
 
-                    af'2.
-                    ~
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/2 {
+
+                        af'2
+                        ~
+
+                    }
 
                     af'4
 
@@ -516,7 +521,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #10.5
+                        - \tweak staff-padding #12
                         \startTextSpanThree
 
                         c''2.
@@ -743,7 +748,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #10.5
+                        - \tweak staff-padding #12
                         \startTextSpanThree
 
                     }
@@ -817,13 +822,13 @@
                     \stopStaff \startStaff                                     %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice2 {
 
             \context Staff = "Staff 2"
             {
+                \tag #'voice2 {
 
                 \context Voice = "Voice 2"
                 {
@@ -995,7 +1000,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1048,7 +1053,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     fqs'''2
@@ -1343,8 +1348,13 @@
                     \stopTextSpanOne
                     ~
 
-                    d'''2.
-                    ~
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/2 {
+
+                        d'''2
+                        ~
+
+                    }
 
                     d'''4
 
@@ -1389,7 +1399,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #10.5
+                        - \tweak staff-padding #12
                         \startTextSpanThree
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
@@ -1456,13 +1466,13 @@
                     \stopStaff \startStaff                                     %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice3 {
 
             \context Staff = "Staff 3"
             {
+                \tag #'voice3 {
 
                 \context Voice = "Voice 3"
                 {
@@ -1756,16 +1766,21 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ef'''4
 
-                    \once \override Staff.NoteHead.style = #'default
-                    \ottava 0
-                    a2.
-                    ~
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/2 {
+
+                        \once \override Staff.NoteHead.style = #'default
+                        \ottava 0
+                        a2
+                        ~
+
+                    }
 
                     \once \override Staff.NoteHead.style = #'default
                     a4
@@ -2000,7 +2015,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
@@ -2063,7 +2078,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
@@ -2131,13 +2146,13 @@
                     \stopStaff \startStaff                                     %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice4 {
 
             \context Staff = "Staff 4"
             {
+                \tag #'voice4 {
 
                 \context Voice = "Voice 4"
                 {
@@ -2235,20 +2250,25 @@
 
                     dqf'2
 
-                    cs'2.
-                    \stopTextSpanOne
-                    - \abjad-invisible-line
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                \hspace
-                                    #0.5
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/2 {
+
+                        cs'2
+                        \stopTextSpanOne
+                        - \abjad-invisible-line
+                        - \tweak bound-details.left.text \markup {
+                            \concat
+                                {
+                                    \center-column { \center-align \vcenter \upright \fraction 3 4 }
+                                    \hspace
+                                        #0.5
+                                }
                             }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #8
-                    \startTextSpanOne
+                        - \tweak bound-details.right.padding 3
+                        - \tweak staff-padding #8
+                        \startTextSpanOne
+
+                    }
 
                     aqf2
                     \stopTextSpanOne
@@ -2310,7 +2330,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \once \override Staff.NoteHead.style = #'default
@@ -2388,7 +2408,7 @@
                             }
                         }
                     - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #10.5
+                    - \tweak staff-padding #12
                     \startTextSpanThree
 
                     \clef "treble"
@@ -2398,8 +2418,13 @@
                     eqf''4
                     ~
 
-                    eqf''2.
-                    ~
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 3/2 {
+
+                        eqf''2
+                        ~
+
+                    }
 
                     eqf''2
                     ~
@@ -2694,7 +2719,7 @@
                                 }
                             }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #10.5
+                        - \tweak staff-padding #12
                         \startTextSpanThree
 
                     }
@@ -2747,8 +2772,8 @@
                     \stopStaff \startStaff                                     %! applying ending skips
 
                 }
+                }
 
-            }
             }
 
         >>

@@ -1,4 +1,4 @@
-
+    
     \context Score = "hamon_shu Score"
     <<
 
@@ -20,7 +20,7 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -33,7 +33,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
@@ -46,7 +46,7 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 9/8                                                          %! scaling time signatures
             s1 * 9/8
@@ -59,7 +59,7 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
@@ -72,7 +72,7 @@
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
@@ -86,16 +86,16 @@
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/8                                                          %! scaling time signatures
             s1 * 1/8
-            %\tag #'score {\pageBreak}
+            \pageBreak
 
         }
 
         \context StaffGroup = "Staff Group"
         <<
-            \tag #'voice1 {
 
             \context Staff = "Staff 1"
             {
+                \tag #'voice1 {
 
                 \context Voice = "Voice 1"
                 {
@@ -186,10 +186,12 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    [
 
                     \revert Staff.Stem.stemlet-length
                     b'8
                     ~
+                    ]
 
                     b'8
 
@@ -275,13 +277,13 @@
                     \stopStaff                                                 %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice2 {
 
             \context Staff = "Staff 2"
             {
+                \tag #'voice2 {
 
                 \context Voice = "Voice 2"
                 {
@@ -499,13 +501,13 @@
                     \stopStaff                                                 %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice3 {
 
             \context Staff = "Staff 3"
             {
+                \tag #'voice3 {
 
                 \context Voice = "Voice 3"
                 {
@@ -572,10 +574,12 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    [
 
                     \revert Staff.Stem.stemlet-length
                     b'8
                     ~
+                    ]
 
                     b'4.
 
@@ -662,13 +666,13 @@
                     \stopStaff                                                 %! applying ending skips
 
                 }
+                }
 
             }
-            }
-            \tag #'voice4 {
 
             \context Staff = "Staff 4"
             {
+                \tag #'voice4 {
 
                 \context Voice = "Voice 4"
                 {
@@ -761,11 +765,13 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     r4
+                    [
 
                     \clef "bass"
                     \revert Staff.Stem.stemlet-length
                     c,8
                     ~
+                    ]
 
                     c,8
 
@@ -786,9 +792,11 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     cs'8
+                    [
 
                     \revert Staff.Stem.stemlet-length
                     r4
+                    ]
 
                     r4
 
@@ -835,16 +843,15 @@
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
                     r1 * 1/16
-                    \tag #'score {
+
                             _ \markup {
                                 \override #'(font-name . "Didot")
                                 \with-color #black
                                 \right-column {
                                     \line { Miami, Fl. \hspace #0.75 - \hspace #0.75 Iowa City, Ia. }
-                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 March 2020 }
+                                    \line { August 2018 \hspace #0.75 - \hspace #0.75 February 2020 }
                                 }
                             }
-                        }
 
 
                     \once \override MultiMeasureRest.color = #white            %! applying ending skips
@@ -857,8 +864,8 @@
                     \stopStaff                                                 %! applying ending skips
 
                 }
+                }
 
-            }
             }
 
         >>
