@@ -16,7 +16,7 @@ from hamon_shu.Materials.pitch.Segment_VI.clef_handlers import clef_handlers
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
-    abbreviations=["vln. I", "vln. II", "vla.", "vc."],
+    abbreviations=["vn. I", "vn. II", "va.", "vc."],
     rhythm_timespans=Segment_VI_rhythm_timespans,
     handler_timespans=Segment_VI_timespans,
     score_template=score,
@@ -39,10 +39,11 @@ maker = evans.SegmentMaker(
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
     cutaway=False,
     beam_pattern="meter",
+    beam_rests=False,
     barline="||",
     tempo=((1, 4), 90),
     rehearsal_mark="E",
-    page_break_counts=[5, 5, 5, 6, 5, 4, 4, 5, 5, 5],
+    page_break_counts=[9, 12, 9, 9, 10,],
     midi=False,
 )
 

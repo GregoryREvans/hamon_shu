@@ -4,6 +4,7 @@
 
         \context TimeSignatureContext = "Global Context"
         {
+            % [Global Context measure 1]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \tempo 4=90
             \time 2/4                                                          %! scaling time signatures
@@ -14,156 +15,199 @@
                     }
                 }
             s1 * 1/2
+            % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 3]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 4]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 5]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
+            % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 7]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 8]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            \pageBreak
+            % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 12]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 13]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 14]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 15]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            % [Global Context measure 16]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 17]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 18]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 19]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 20]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 21]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
             \pageBreak
+            % [Global Context measure 22]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 23]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 24]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 25]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 26]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            % [Global Context measure 27]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 28]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 29]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 30]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
             \pageBreak
+            % [Global Context measure 31]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 32]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 33]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 34]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
+            % [Global Context measure 35]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
+            % [Global Context measure 36]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 37]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
+            % [Global Context measure 38]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 39]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
             \pageBreak
+            % [Global Context measure 40]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 41]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 42]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 43]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 44]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
+            % [Global Context measure 45]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
+            % [Global Context measure 46]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 47]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
+            % [Global Context measure 48]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
+            % [Global Context measure 49]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \once \override TimeSignature.color = #white                       %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
@@ -181,9 +225,10 @@
 
                 \context Voice = "Voice 1"
                 {
+                    % [Voice 1 measure 1]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. I" }                                       %! applying staff names and clefs
+                    \markup { "vn. I" }                                        %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
@@ -191,11 +236,13 @@
                     r1 * 1/4
 
                     R1 * 1/4
+                    % [Voice 1 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
+                    % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     fqs'''2
@@ -215,6 +262,7 @@
                     \startTextSpanOne
 
                     \times 8/9 {
+                        % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Staff.NoteHead.style = #'default
                         dqs'''2..
@@ -252,6 +300,7 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 1 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
@@ -271,12 +320,14 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 3/8
+                    % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
                     \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     a'1
@@ -312,13 +363,16 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf''4
                     ~
+                    % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     eqf''1
+                    % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -338,17 +392,20 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
                     \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 5/8
+                    % [Voice 1 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af'2
                     \mp
                     \>
                     ~
+                    % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af'2
                     \p
@@ -386,6 +443,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
+                    % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a4
                     \pp
@@ -410,11 +468,13 @@
                     \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
+                    % [Voice 1 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
 
                     R1 * 1/8
+                    % [Voice 1 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'4
                     \mp
@@ -449,26 +509,22 @@
 
                     af'4
                     ~
+                    % [Voice 1 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af'4
                     ~
+                    % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        af'2
-                        ~
-
-                    }
+                    af'2.
+                    ~
+                    % [Voice 1 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af'4
+                    % [Voice 1 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \scaleDurations #'(1 . 1) {
-
-                        fs''2
-                        ~
-
-                    }
+                    fs''2
+                    ~
+                    % [Voice 1 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''4
                     \stopTextSpanTwo
@@ -492,9 +548,10 @@
                     \stopTextSpanThree
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/5 {
+                    \times 6/5 {
+                        % [Voice 1 measure 22]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        a'2
+                        a'4
                         \p
                         \>
                         - \abjad-dashed-line-with-arrow
@@ -524,13 +581,15 @@
                         - \tweak staff-padding #12
                         \startTextSpanThree
 
-                        c''2.
+                        c''4.
                         ~
 
                     }
+                    % [Voice 1 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c''4
                     ~
+                    % [Voice 1 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c''2
                     \ppp
@@ -555,6 +614,7 @@
                     \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
+                    % [Voice 1 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
 
@@ -563,12 +623,14 @@
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
+                    % [Voice 1 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     e''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
+                        % [Voice 1 measure 27]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         e''1.
 
@@ -592,13 +654,16 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 1 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     fqs'''4
                     ~
+                    % [Voice 1 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     fqs'''1
+                    % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'2.
@@ -616,22 +681,21 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 1 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \scaleDurations #'(1 . 1) {
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    dqf'2.
+                    ~
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        dqf'1
-                        ~
-
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        dqf'4
-                        ~
-
-                    }
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    dqf'2
+                    ~
+                    % [Voice 1 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'4
                     ~
+                    % [Voice 1 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     dqf'4
@@ -651,14 +715,17 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 1 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'4
                     ~
+                    % [Voice 1 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'2.
                     ~
 
                     b'2
+                    % [Voice 1 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -678,6 +745,7 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 1 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
                     \stopTextSpanOne
@@ -686,9 +754,11 @@
                     \mp
                     \>
                     ~
+                    % [Voice 1 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bf'4
                     ~
+                    % [Voice 1 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bf'8
@@ -712,6 +782,7 @@
                     ~
 
                     \times 2/3 {
+                        % [Voice 1 measure 40]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         fqs'''4
                         \ppp
@@ -752,10 +823,12 @@
                         \startTextSpanThree
 
                     }
+                    % [Voice 1 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     aqf2.
                     ~
+                    % [Voice 1 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     aqf2.
@@ -763,27 +836,33 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     f'4
                     ~
+                    % [Voice 1 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     f'4
+                    % [Voice 1 measure 44]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     eqf''4
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     bqf''1
+                    % [Voice 1 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     dqs'''1
                     ~
+                    % [Voice 1 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     dqs'''4
                     ~
+                    % [Voice 1 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     dqs'''2.
                     ~
+                    % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     dqs'''4
@@ -805,6 +884,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanTwo
                     \bar "||"
+                    % [Voice 1 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -832,9 +912,10 @@
 
                 \context Voice = "Voice 2"
                 {
+                    % [Voice 2 measure 1]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { "vln. II" }                                      %! applying staff names and clefs
+                    \markup { "vn. II" }                                       %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin II" }                                    %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
@@ -842,11 +923,13 @@
                     r1 * 1/4
 
                     R1 * 1/4
+                    % [Voice 2 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
+                    % [Voice 2 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c'''2
                     \mf
@@ -864,6 +947,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 4]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     aqf1
                     \stopTextSpanOne
@@ -880,12 +964,15 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     aqf2.
                     ~
+                    % [Voice 2 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     aqf4
                     ~
+                    % [Voice 2 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     aqf1
 
@@ -904,8 +991,10 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a4
+                    % [Voice 2 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'1
                     \stopTextSpanOne
@@ -921,6 +1010,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bf'4
                     \stopTextSpanOne
@@ -937,6 +1027,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bf'2.
 
@@ -955,20 +1046,26 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b''2
                     \stopTextSpanOne
+                    % [Voice 2 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'2.
                     ~
+                    % [Voice 2 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'1
                     ~
+                    % [Voice 2 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'4
                     ~
+                    % [Voice 2 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'2
+                    % [Voice 2 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ef'4
@@ -1002,6 +1099,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
+                    % [Voice 2 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ef'4
@@ -1024,6 +1122,7 @@
                     \!
                     \stopTextSpanTwo
                     \stopTextSpanThree
+                    % [Voice 2 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fqs'''4
                     \ppp
@@ -1055,41 +1154,44 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
+                    % [Voice 2 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fqs'''2
                     ~
+                    % [Voice 2 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fqs'''4
 
                     \once \override Staff.NoteHead.style = #'default
                     e''1
                     ~
+                    % [Voice 2 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    e''2.
+                    ~
+                    % [Voice 2 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    e''4
+                    ~
+                    % [Voice 2 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     e''2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'default
-                    e''4
+                    e''2
                     ~
-
-                    \scaleDurations #'(1 . 1) {
-
-                        \once \override Staff.NoteHead.style = #'default
-                        e''1
-                        ~
-
-                        \once \override Staff.NoteHead.style = #'default
-                        e''4
-                        ~
-
-                    }
+                    % [Voice 2 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     e''2
 
                     f'2
                     ~
+                    % [Voice 2 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f'4
                     \pppp
@@ -1109,6 +1211,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanTwo
+                    % [Voice 2 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
@@ -1117,6 +1220,7 @@
                     \stopTextSpanThree                                         %! applying indicators
 
                     R1 * 5/8
+                    % [Voice 2 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -1125,6 +1229,7 @@
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 8/7 {
+                        % [Voice 2 measure 29]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         eqf''4.
                         \p
@@ -1147,6 +1252,7 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 2 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b''4
                     ~
@@ -1178,6 +1284,7 @@
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/11 {
+                        % [Voice 2 measure 31]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         bqf''2
 
@@ -1235,9 +1342,11 @@
                         ]
 
                     }
+                    % [Voice 2 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''4
                     ~
+                    % [Voice 2 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''2.
                     ~
@@ -1265,6 +1374,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
                     ]
+                    % [Voice 2 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fqs'''4
                     \stopTextSpanOne
@@ -1281,11 +1391,13 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fqs'''2.
                     ~
 
                     fqs'''2
+                    % [Voice 2 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a4
                     \stopTextSpanOne
@@ -1302,16 +1414,19 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 2 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a2
                     ~
+                    % [Voice 2 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a4
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/3 {
+                    \times 5/6 {
+                        % [Voice 2 measure 39]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        ef'''2
+                        ef'''1
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -1326,7 +1441,7 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        d'''4
+                        d'''2
                         \stopTextSpanOne
                         ~
                         - \abjad-invisible-line
@@ -1343,23 +1458,22 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 2 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     d'''4
                     \stopTextSpanOne
                     ~
+                    % [Voice 2 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        d'''2
-                        ~
-
-                    }
+                    d'''2.
+                    ~
+                    % [Voice 2 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     d'''4
 
                     r2.
                     \!
+                    % [Voice 2 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -1368,6 +1482,7 @@
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/9 {
+                        % [Voice 2 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Staff.NoteHead.style = #'harmonic-mixed
                         c''2
@@ -1410,12 +1525,14 @@
                         ~
 
                     }
+                    % [Voice 2 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     f'1
                     ~
 
                     \times 2/3 {
+                        % [Voice 2 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Staff.NoteHead.style = #'default
                         f'8
@@ -1438,6 +1555,7 @@
                         \startTextSpanTwo
 
                     }
+                    % [Voice 2 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
@@ -1446,12 +1564,14 @@
                     \stopTextSpanThree                                         %! applying indicators
 
                     R1 * 3/8
+                    % [Voice 2 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
 
                     R1 * 1/8
                     \bar "||"
+                    % [Voice 2 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -1476,9 +1596,10 @@
 
                 \context Voice = "Voice 3"
                 {
+                    % [Voice 3 measure 1]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
-                    \markup { vla. }                                           %! applying staff names and clefs
+                    \markup { va. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
                     \once \override Rest.transparent = ##t                     %! applying invisibility
@@ -1486,6 +1607,7 @@
                     r1 * 1/4
 
                     R1 * 1/4
+                    % [Voice 3 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a'4
                     \pp
@@ -1554,8 +1676,10 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
                     ]
+                    % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf''2
+                    % [Voice 3 measure 4]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b''1
                     \stopTextSpanOne
@@ -1572,6 +1696,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 3 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b''4
 
@@ -1592,6 +1717,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 3 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -1611,6 +1737,7 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 3 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
                     \stopTextSpanOne
@@ -1652,9 +1779,11 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 3 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqs'''4
                     ~
+                    % [Voice 3 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqs'''4
 
@@ -1674,12 +1803,14 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
                     \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 3 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b2.
                     \mf
@@ -1700,14 +1831,17 @@
 
                     b2
                     ~
+                    % [Voice 3 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b2
                     ~
+                    % [Voice 3 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b2.
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
+                    % [Voice 3 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
@@ -1727,12 +1861,14 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/2
+                    % [Voice 3 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
                     \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 3 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
 
@@ -1768,25 +1904,25 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
+                    % [Voice 3 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ef'''4
+                    % [Voice 3 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        \once \override Staff.NoteHead.style = #'default
-                        \ottava 0
-                        a2
-                        ~
-
-                    }
+                    \once \override Staff.NoteHead.style = #'default
+                    \ottava 0
+                    a2.
+                    ~
+                    % [Voice 3 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     a4
+                    % [Voice 3 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \ottava 1
                     fqs'''2
+                    % [Voice 3 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     ef'''2.
@@ -1805,6 +1941,7 @@
                     \revert Staff.Stem.stemlet-length
                     b'8
                     ]
+                    % [Voice 3 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     c'''2.
@@ -1825,6 +1962,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanTwo
+                    % [Voice 3 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -1833,25 +1971,30 @@
                     \stopTextSpanThree                                         %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 3 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 5/8
 
                     R1 * 5/8
+                    % [Voice 3 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'1
                     \ppp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
+                    % [Voice 3 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'4
                     ~
+                    % [Voice 3 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'4
 
                     r1
                     \!
+                    % [Voice 3 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     g''4
                     \pp
@@ -1871,6 +2014,7 @@
                     \startTextSpanOne
 
                     \times 2/3 {
+                        % [Voice 3 measure 29]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         g''1
                         ~
@@ -1895,41 +2039,39 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 3 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    bf'2.
+                    ~
+                    % [Voice 3 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     bf'2.
                     ~
 
-                    \scaleDurations #'(1 . 1) {
-
-                        \once \override Staff.NoteHead.style = #'default
-                        bf'1
-                        ~
-
-                        \once \override Staff.NoteHead.style = #'default
-                        bf'4
-                        ~
-
-                    }
+                    \once \override Staff.NoteHead.style = #'default
+                    bf'2
+                    ~
+                    % [Voice 3 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     bf'4
                     ~
+                    % [Voice 3 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \scaleDurations #'(1 . 1) {
+                    \once \override Staff.NoteHead.style = #'default
+                    bf'2.
+                    ~
 
-                        \once \override Staff.NoteHead.style = #'default
-                        bf'1
-                        ~
-
-                        \once \override Staff.NoteHead.style = #'default
-                        bf'4
-                        ~
-
-                    }
+                    \once \override Staff.NoteHead.style = #'default
+                    bf'2
+                    ~
+                    % [Voice 3 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
                     bf'4
+                    % [Voice 3 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'2.
@@ -1951,34 +2093,46 @@
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'2
                     ~
+                    % [Voice 3 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'4
+                    ~
+                    % [Voice 3 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    a'2
+                    ~
+                    % [Voice 3 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    a'4
+                    ~
+                    % [Voice 3 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    a'2.
                     ~
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'2
                     ~
+                    % [Voice 3 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
                     a'4
                     ~
+                    % [Voice 3 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \scaleDurations #'(1 . 1) {
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    a'4
+                    \mp
+                    - \tweak stencil #constante-hairpin
+                    \<
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        a'1
-                        ~
-
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        a'4
-
-                    }
-
-                    \once \override Staff.NoteHead.style = #'default
-                    ef'4
+                    r2
+                    \!
                     \stopTextSpanOne
-                    ~
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -1991,65 +2145,16 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanOne
-                    - \abjad-dashed-line-with-arrow
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    ord.
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 1.4
-                    - \tweak staff-padding #8
-                    \startTextSpanTwo
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    clt.
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
-                    \startTextSpanThree
-
-                    \once \override Staff.NoteHead.style = #'default
-                    ef'4
-                    \mp
-                    - \tweak stencil #constante-hairpin
-                    \<
-                    \stopTextSpanOne
-                    \stopTextSpanTwo
-                    - \abjad-dashed-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    st.
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #8
-                    \startTextSpanTwo
-
-                    r2
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
+                    % [Voice 3 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/2
+                    \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/2
+                    % [Voice 3 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \once \override Staff.NoteHead.style = #'default
                     \clef "varC"
                     gqf4
                     \pppp
@@ -2080,31 +2185,31 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
+                    % [Voice 3 measure 44]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
                     \clef "treble"
                     bqf''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
-                    bqf''2
-
-                    \scaleDurations #'(1 . 1) {
-
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        b''1
-                        ~
-
-                    }
-
                     \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    bqf''2
+                    % [Voice 3 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    b''1
+                    ~
+                    % [Voice 3 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
                     b''4
                     ~
-
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    b''4
+                    % [Voice 3 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
+                    b''4
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
                     b2
                     \pp
                     - \tweak stencil #constante-hairpin
@@ -2115,7 +2220,7 @@
                         \concat
                             {
                                 \upright
-                                    sp.
+                                    st.
                                 \hspace
                                     #0.5
                             }
@@ -2123,6 +2228,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanTwo
+                    % [Voice 3 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -2132,6 +2238,7 @@
 
                     R1 * 1/8
                     \bar "||"
+                    % [Voice 3 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips
@@ -2156,6 +2263,7 @@
 
                 \context Voice = "Voice 4"
                 {
+                    % [Voice 4 measure 1]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \set Staff.shortInstrumentName =                           %! applying staff names and clefs
                     \markup { vc. }                                            %! applying staff names and clefs
@@ -2179,21 +2287,20 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 4 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \scaleDurations #'(1 . 1) {
+                    dqf'2.
+                    ~
 
-                        dqf'1
-                        ~
-
-                        dqf'4
-                        ~
-
-                    }
+                    dqf'2
+                    ~
+                    % [Voice 4 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'2
                     ~
 
                     \times 4/5 {
+                        % [Voice 4 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         dqf'2.
 
@@ -2214,12 +2321,15 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 4 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f'2.
                     ~
+                    % [Voice 4 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f'4
                     ~
+                    % [Voice 4 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f'2.
 
@@ -2238,37 +2348,37 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 4 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'4
                     ~
+                    % [Voice 4 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'1
                     ~
+                    % [Voice 4 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'4
                     ~
+                    % [Voice 4 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqf'2
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        cs'2
-                        \stopTextSpanOne
-                        - \abjad-invisible-line
-                        - \tweak bound-details.left.text \markup {
-                            \concat
-                                {
-                                    \center-column { \center-align \vcenter \upright \fraction 3 4 }
-                                    \hspace
-                                        #0.5
-                                }
+                    cs'2.
+                    \stopTextSpanOne
+                    - \abjad-invisible-line
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \center-column { \center-align \vcenter \upright \fraction 3 4 }
+                                \hspace
+                                    #0.5
                             }
-                        - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
-                        \startTextSpanOne
-
-                    }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #8
+                    \startTextSpanOne
+                    % [Voice 4 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     aqf2
                     \stopTextSpanOne
@@ -2276,6 +2386,7 @@
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % [Voice 4 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         aqf2.
 
@@ -2283,29 +2394,118 @@
                         ~
 
                     }
+                    % [Voice 4 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     a1
+                    % [Voice 4 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
                     \!                                                         %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 4 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
 
                     R1 * 1/4
+                    % [Voice 4 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
 
                     R1 * 1/8
+                    % [Voice 4 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
+                    - \abjad-dashed-line-with-arrow
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \upright
+                                    ord.
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 1.4
+                    - \tweak staff-padding #8
+                    \startTextSpanTwo
+                    - \abjad-solid-line-with-hook
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \upright
+                                    clt.
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #12
+                    \startTextSpanThree
+
+                    \once \override Staff.NoteHead.style = #'default
+                    a4
+                    ~
+                    % [Voice 4 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    a4
+                    ~
+                    % [Voice 4 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    a2
+                    ~
+                    % [Voice 4 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    a2.
+
+                    aqf2
+                    ~
+                    % [Voice 4 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    aqf4
+                    \stopTextSpanTwo
+                    - \abjad-dashed-line-with-hook
+                    - \tweak bound-details.left.text \markup {
+                        \concat
+                            {
+                                \upright
+                                    sp.
+                                \hspace
+                                    #0.5
+                            }
+                        }
+                    - \tweak bound-details.right.padding 3
+                    - \tweak staff-padding #8
+                    \startTextSpanTwo
+
+                    r2
+                    \!
+                    \stopTextSpanTwo
+                    \stopTextSpanThree
+                    % [Voice 4 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Rest.transparent = ##t                     %! applying invisibility
+                    r1 * 1/8
+
+                    R1 * 1/8
+                    % [Voice 4 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    r4
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \clef "tenorvarC"
+                    a'1
+                    \p
+                    \>
                     - \abjad-dashed-line-with-arrow
                     - \tweak bound-details.left.text \markup {
                         \concat
@@ -2332,105 +2532,27 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #12
                     \startTextSpanThree
-
-                    \once \override Staff.NoteHead.style = #'default
-                    a4
-                    ~
-
-                    \once \override Staff.NoteHead.style = #'default
-                    a4
-                    ~
-
-                    \once \override Staff.NoteHead.style = #'default
-                    a2
-                    ~
-
-                    \once \override Staff.NoteHead.style = #'default
-                    a2.
-
-                    aqf2
-                    ~
-
-                    aqf4
-                    \stopTextSpanTwo
-                    - \abjad-dashed-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    ord.
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #8
-                    \startTextSpanTwo
-
-                    r2
-                    \!
-                    \stopTextSpanTwo
-                    \stopTextSpanThree
-
-                    \once \override Rest.transparent = ##t                     %! applying invisibility
-                    r1 * 1/8
-
-                    R1 * 1/8
-
-                    r4
-
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    \clef "tenorvarC"
-                    a'1
-                    \p
-                    \>
-                    - \abjad-dashed-line-with-arrow
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    st.
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 1.4
-                    - \tweak staff-padding #8
-                    \startTextSpanTwo
-                    - \abjad-solid-line-with-hook
-                    - \tweak bound-details.left.text \markup {
-                        \concat
-                            {
-                                \upright
-                                    "1/2 clt."
-                                \hspace
-                                    #0.5
-                            }
-                        }
-                    - \tweak bound-details.right.padding 3
-                    - \tweak staff-padding #12
-                    \startTextSpanThree
+                    % [Voice 4 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "treble"
                     eqf''1
                     ~
+                    % [Voice 4 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf''4
                     ~
+                    % [Voice 4 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 3/2 {
-
-                        eqf''2
-                        ~
-
-                    }
+                    eqf''2.
+                    ~
 
                     eqf''2
                     ~
+                    % [Voice 4 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf''4
                     ~
+                    % [Voice 4 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf''2
                     \ppp
@@ -2451,7 +2573,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \once \override Staff.NoteHead.style = #'default
                     f'2
                     \!
                     \ppp
@@ -2472,16 +2594,18 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 4 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \once \override Staff.NoteHead.style = #'default
                     f'2.
 
                     \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/3 {
+                    \times 10/9 {
+                        % [Voice 4 measure 31]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \clef "bass"
-                        gqf2
+                        gqf2.
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -2496,10 +2620,10 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \once \override Staff.NoteHead.style = #'default
                         \ottava 1
                         \clef "treble"
-                        d'''4
+                        d'''4.
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -2516,18 +2640,20 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 4 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \once \override Staff.NoteHead.style = #'default
                     d'''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/11 {
-
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
-                        d'''8
+                        % [Voice 4 measure 33]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Staff.NoteHead.style = #'default
+                        d'''8
+
+                        \once \override Staff.NoteHead.style = #'harmonic-mixed
                         \ottava 0
                         fs''4
                         \stopTextSpanOne
@@ -2544,7 +2670,7 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \once \override Staff.NoteHead.style = #'default
                         \clef "bass"
                         dqf1
                         \stopTextSpanOne
@@ -2563,15 +2689,17 @@
                         \startTextSpanOne
 
                     }
-
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    dqf4
-                    ~
-
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
-                    dqf4
+                    % [Voice 4 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Staff.NoteHead.style = #'default
+                    dqf4
+                    ~
+                    % [Voice 4 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
+
+                    \once \override Staff.NoteHead.style = #'default
+                    dqf4
+
+                    \once \override Staff.NoteHead.style = #'harmonic-mixed
                     d1
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -2586,8 +2714,9 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 4 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \once \override Staff.NoteHead.style = #'default
                     dqf4
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -2602,6 +2731,7 @@
                     - \tweak bound-details.right.padding 1.4
                     - \tweak staff-padding #8
                     \startTextSpanOne
+                    % [Voice 4 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/4
@@ -2621,18 +2751,20 @@
                     \startTextSpanOne                                          %! applying indicators
 
                     R1 * 1/4
+                    % [Voice 4 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
                     \stopTextSpanOne                                           %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 4 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r4
 
                     \times 2/3 {
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \once \override Staff.NoteHead.style = #'harmonic-mixed
                         a2
                         \p
                         \>
@@ -2666,10 +2798,12 @@
                         \startTextSpanOne
 
                     }
+                    % [Voice 4 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'4
                     \stopTextSpanOne
                     ~
+                    % [Voice 4 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'4
                     \pp
@@ -2678,6 +2812,7 @@
 
                     r2
                     \!
+                    % [Voice 4 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "treble"
                     c'''1
@@ -2685,12 +2820,14 @@
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
+                    % [Voice 4 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c'''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
+                        % [Voice 4 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         c'''4
 
@@ -2700,7 +2837,7 @@
                             \concat
                                 {
                                     \upright
-                                        sp.
+                                        st.
                                     \hspace
                                         #0.5
                                 }
@@ -2723,6 +2860,7 @@
                         \startTextSpanThree
 
                     }
+                    % [Voice 4 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bf'1
                     \stopTextSpanTwo
@@ -2731,7 +2869,7 @@
                         \concat
                             {
                                 \upright
-                                    msp.
+                                    ord.
                                 \hspace
                                     #0.5
                             }
@@ -2739,6 +2877,7 @@
                     - \tweak bound-details.right.padding 3
                     - \tweak staff-padding #8
                     \startTextSpanTwo
+                    % [Voice 4 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
@@ -2747,17 +2886,20 @@
                     \stopTextSpanThree                                         %! applying indicators
 
                     R1 * 1/8
+                    % [Voice 4 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 3/8
 
                     R1 * 3/8
+                    % [Voice 4 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
                     r1 * 1/8
 
                     R1 * 1/8
                     \bar "||"
+                    % [Voice 4 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \stopStaff \once \override Staff.StaffSymbol.line-count = #0 \startStaff %! applying ending skips
                     \once \override Rest.color = #white                        %! applying ending skips

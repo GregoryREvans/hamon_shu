@@ -13,7 +13,7 @@ articulation_handler_one = evans.BendHandler(
 articulation_handler_two = evans.GlissandoHandler(
     # glissando_style="hide_middle_note_heads",
     line_style=None,
-    boolean_vector=[0, 1],
+    boolean_vector=[1, 0],
     continuous=True,
     name="articulation_handler_two",
 )
