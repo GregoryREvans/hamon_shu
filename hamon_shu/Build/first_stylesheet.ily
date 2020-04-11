@@ -4,7 +4,7 @@
 \language "english"
 %{ #(set-default-paper-size "a4portrait") %}
 #(set-default-paper-size "11x17landscape")
-#(set-global-staff-size 12)
+#(set-global-staff-size 13)
 
 
 \header {
@@ -24,7 +24,7 @@
 	\accidentalStyle dodecaphonic
     indent = #15
 	ragged-last = ##t
-    %{ ragged-right = ##t %}
+    ragged-right = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
