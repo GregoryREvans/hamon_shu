@@ -43628,3 +43628,1529 @@ abjad.OrderedDict(
         ]
     )
 
+2020-04-15 11:40:14.012438
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 2),
+        ('logical_ties_produced', 6),
+        ]
+    )
+
+2020-04-15 11:40:14.021395
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.040418
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 3),
+        ('logical_ties_produced', 2),
+        ('talea_weight_consumed', 11),
+        ]
+    )
+
+2020-04-15 11:40:14.048718
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.066447
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 2),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 1),
+        ('talea_weight_consumed', 4),
+        ]
+    )
+
+2020-04-15 11:40:14.070828
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.093078
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 6),
+        ('logical_ties_produced', 22),
+        ]
+    )
+
+2020-04-15 11:40:14.097115
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.111166
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 4),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 3),
+        ('talea_weight_consumed', 8),
+        ]
+    )
+
+2020-04-15 11:40:14.115474
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.192347
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 15),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 6),
+        ('talea_weight_consumed', 42),
+        ]
+    )
+
+2020-04-15 11:40:14.196852
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.222756
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 12),
+        ('logical_ties_produced', 42),
+        ]
+    )
+
+2020-04-15 11:40:14.240373
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 7),
+        ('logical_ties_produced', 6),
+        ('talea_weight_consumed', 25),
+        ]
+    )
+
+2020-04-15 11:40:14.246054
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.273169
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 14),
+        ('logical_ties_produced', 10),
+        ('talea_weight_consumed', 41),
+        ]
+    )
+
+2020-04-15 11:40:14.293984
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 16),
+        ('logical_ties_produced', 60),
+        ]
+    )
+
+2020-04-15 11:40:14.317530
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 18),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 12),
+        ('talea_weight_consumed', 53),
+        ]
+    )
+
+2020-04-15 11:40:14.321802
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.362047
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 22),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 9),
+        ('talea_weight_consumed', 60),
+        ]
+    )
+
+2020-04-15 11:40:14.366149
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.399782
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 22),
+        ('logical_ties_produced', 82),
+        ]
+    )
+
+2020-04-15 11:40:14.441155
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 30),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 12),
+        ('talea_weight_consumed', 82),
+        ]
+    )
+
+2020-04-15 11:40:14.445750
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.483071
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 30),
+        ('logical_ties_produced', 108),
+        ]
+    )
+
+2020-04-15 11:40:14.488449
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.495854
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 31),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 12),
+        ('talea_weight_consumed', 83),
+        ]
+    )
+
+2020-04-15 11:40:14.499954
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.511445
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 32),
+        ('logical_ties_produced', 112),
+        ]
+    )
+
+2020-04-15 11:40:14.515842
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.535974
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 21),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 15),
+        ('talea_weight_consumed', 62),
+        ]
+    )
+
+2020-04-15 11:40:14.547474
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 33),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 12),
+        ('talea_weight_consumed', 86),
+        ]
+    )
+
+2020-04-15 11:40:14.553180
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 33),
+        ('logical_ties_produced', 114),
+        ]
+    )
+
+2020-04-15 11:40:14.557156
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.573869
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 36),
+        ('logical_ties_produced', 128),
+        ]
+    )
+
+2020-04-15 11:40:14.583680
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 35),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 13),
+        ('talea_weight_consumed', 88),
+        ]
+    )
+
+2020-04-15 11:40:14.589781
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.640911
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 45),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 16),
+        ('talea_weight_consumed', 122),
+        ]
+    )
+
+2020-04-15 11:40:14.660486
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 47),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 16),
+        ('talea_weight_consumed', 126),
+        ]
+    )
+
+2020-04-15 11:40:14.685948
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 42),
+        ('logical_ties_produced', 146),
+        ]
+    )
+
+2020-04-15 11:40:14.690111
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.757325
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 32),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 20),
+        ('talea_weight_consumed', 93),
+        ]
+    )
+
+2020-04-15 11:40:14.780586
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 47),
+        ('logical_ties_produced', 162),
+        ]
+    )
+
+2020-04-15 11:40:14.784652
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.805971
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 36),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 104),
+        ]
+    )
+
+2020-04-15 11:40:14.810455
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.842966
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 54),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 20),
+        ('talea_weight_consumed', 152),
+        ]
+    )
+
+2020-04-15 11:40:14.880185
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 54),
+        ('logical_ties_produced', 187),
+        ]
+    )
+
+2020-04-15 11:40:14.887315
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.905988
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 57),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 20),
+        ('talea_weight_consumed', 155),
+        ]
+    )
+
+2020-04-15 11:40:14.911393
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:14.941581
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 62),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 171),
+        ]
+    )
+
+2020-04-15 11:40:14.974330
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 60),
+        ('logical_ties_produced', 214),
+        ]
+    )
+
+2020-04-15 11:40:14.981562
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 63),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 172),
+        ]
+    )
+
+2020-04-15 11:40:14.992032
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 62),
+        ('logical_ties_produced', 220),
+        ]
+    )
+
+2020-04-15 11:40:14.996110
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.013883
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 40),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 24),
+        ('talea_weight_consumed', 114),
+        ]
+    )
+
+2020-04-15 11:40:15.030266
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 65),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 180),
+        ]
+    )
+
+2020-04-15 11:40:15.052491
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 67),
+        ('logical_ties_produced', 233),
+        ]
+    )
+
+2020-04-15 11:40:15.062394
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 67),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 184),
+        ]
+    )
+
+2020-04-15 11:40:15.068650
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.075945
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 68),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 22),
+        ('talea_weight_consumed', 185),
+        ]
+    )
+
+2020-04-15 11:40:15.080139
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.145850
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 81),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 26),
+        ('talea_weight_consumed', 223),
+        ]
+    )
+
+2020-04-15 11:40:15.161582
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 71),
+        ('logical_ties_produced', 242),
+        ]
+    )
+
+2020-04-15 11:40:15.165608
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.178313
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 73),
+        ('logical_ties_produced', 248),
+        ]
+    )
+
+2020-04-15 11:40:15.182620
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.205590
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 45),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 28),
+        ('talea_weight_consumed', 128),
+        ]
+    )
+
+2020-04-15 11:40:15.210031
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.217362
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 46),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 28),
+        ('talea_weight_consumed', 130),
+        ]
+    )
+
+2020-04-15 11:40:15.221455
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.250205
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 52),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 31),
+        ('talea_weight_consumed', 143),
+        ]
+    )
+
+2020-04-15 11:40:15.269189
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 76),
+        ('logical_ties_produced', 263),
+        ]
+    )
+
+2020-04-15 11:40:15.273891
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.279093
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 77),
+        ('logical_ties_produced', 264),
+        ]
+    )
+
+2020-04-15 11:40:15.283287
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.296999
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 55),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 35),
+        ('talea_weight_consumed', 154),
+        ]
+    )
+
+2020-04-15 11:40:15.317300
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 85),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 28),
+        ('talea_weight_consumed', 239),
+        ]
+    )
+
+2020-04-15 11:40:15.323433
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.346887
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 88),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 28),
+        ('talea_weight_consumed', 249),
+        ]
+    )
+
+2020-04-15 11:40:15.352598
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.385779
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 81),
+        ('logical_ties_produced', 281),
+        ]
+    )
+
+2020-04-15 11:40:15.390144
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.400424
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 83),
+        ('logical_ties_produced', 286),
+        ]
+    )
+
+2020-04-15 11:40:15.404663
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.441122
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 96),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 32),
+        ('talea_weight_consumed', 273),
+        ]
+    )
+
+2020-04-15 11:40:15.445685
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.481988
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 91),
+        ('logical_ties_produced', 315),
+        ]
+    )
+
+2020-04-15 11:40:15.486027
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.493697
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 97),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 32),
+        ('talea_weight_consumed', 274),
+        ]
+    )
+
+2020-04-15 11:40:15.507488
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 94),
+        ('logical_ties_produced', 321),
+        ]
+    )
+
+2020-04-15 11:40:15.524651
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 58),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 38),
+        ('talea_weight_consumed', 165),
+        ]
+    )
+
+2020-04-15 11:40:15.529193
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.547817
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 100),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 33),
+        ('talea_weight_consumed', 282),
+        ]
+    )
+
+2020-04-15 11:40:15.563474
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 98),
+        ('logical_ties_produced', 330),
+        ]
+    )
+
+2020-04-15 11:40:15.575137
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 102),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 33),
+        ('talea_weight_consumed', 286),
+        ]
+    )
+
+2020-04-15 11:40:15.579219
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.631093
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 114),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 39),
+        ('talea_weight_consumed', 320),
+        ]
+    )
+
+2020-04-15 11:40:15.639546
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 99),
+        ('logical_ties_produced', 333),
+        ]
+    )
+
+2020-04-15 11:40:15.644315
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.664923
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 103),
+        ('logical_ties_produced', 345),
+        ]
+    )
+
+2020-04-15 11:40:15.669072
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.715038
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 68),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 42),
+        ('talea_weight_consumed', 195),
+        ]
+    )
+
+2020-04-15 11:40:15.735223
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 107),
+        ('logical_ties_produced', 358),
+        ]
+    )
+
+2020-04-15 11:40:15.739352
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.745375
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 108),
+        ('logical_ties_produced', 361),
+        ]
+    )
+
+2020-04-15 11:40:15.765109
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 72),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 45),
+        ('talea_weight_consumed', 207),
+        ]
+    )
+
+2020-04-15 11:40:15.770330
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.791742
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 118),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 40),
+        ('talea_weight_consumed', 332),
+        ]
+    )
+
+2020-04-15 11:40:15.796075
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.818921
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 121),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 41),
+        ('talea_weight_consumed', 344),
+        ]
+    )
+
+2020-04-15 11:40:15.822987
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.853991
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 114),
+        ('logical_ties_produced', 385),
+        ]
+    )
+
+2020-04-15 11:40:15.870676
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 124),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 42),
+        ('talea_weight_consumed', 350),
+        ]
+    )
+
+2020-04-15 11:40:15.876151
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.895334
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 128),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 43),
+        ('talea_weight_consumed', 362),
+        ]
+    )
+
+2020-04-15 11:40:15.911167
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 117),
+        ('logical_ties_produced', 393),
+        ]
+    )
+
+2020-04-15 11:40:15.915483
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.937635
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 121),
+        ('logical_ties_produced', 408),
+        ]
+    )
+
+2020-04-15 11:40:15.945956
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 129),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 43),
+        ('talea_weight_consumed', 363),
+        ]
+    )
+
+2020-04-15 11:40:15.958622
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 124),
+        ('logical_ties_produced', 415),
+        ]
+    )
+
+2020-04-15 11:40:15.977311
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 76),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 46),
+        ('talea_weight_consumed', 216),
+        ]
+    )
+
+2020-04-15 11:40:15.981367
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:15.994480
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 131),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 43),
+        ('talea_weight_consumed', 366),
+        ]
+    )
+
+2020-04-15 11:40:16.011784
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 128),
+        ('logical_ties_produced', 423),
+        ]
+    )
+
+2020-04-15 11:40:16.025505
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 134),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 44),
+        ('talea_weight_consumed', 369),
+        ]
+    )
+
+2020-04-15 11:40:16.029729
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.062209
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 138),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 46),
+        ('talea_weight_consumed', 383),
+        ]
+    )
+
+2020-04-15 11:40:16.066778
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.107577
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 144),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 48),
+        ('talea_weight_consumed', 405),
+        ]
+    )
+
+2020-04-15 11:40:16.125565
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 131),
+        ('logical_ties_produced', 434),
+        ]
+    )
+
+2020-04-15 11:40:16.130002
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.146073
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 134),
+        ('logical_ties_produced', 448),
+        ]
+    )
+
+2020-04-15 11:40:16.150106
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.209931
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 86),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 53),
+        ('talea_weight_consumed', 246),
+        ]
+    )
+
+2020-04-15 11:40:16.227630
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 138),
+        ('logical_ties_produced', 461),
+        ]
+    )
+
+2020-04-15 11:40:16.231665
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.256835
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 91),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 55),
+        ('talea_weight_consumed', 257),
+        ]
+    )
+
+2020-04-15 11:40:16.307332
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 152),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 50),
+        ('talea_weight_consumed', 425),
+        ]
+    )
+
+2020-04-15 11:40:16.341249
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 144),
+        ('logical_ties_produced', 483),
+        ]
+    )
+
+2020-04-15 11:40:16.345553
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.356071
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 154),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 50),
+        ('talea_weight_consumed', 429),
+        ]
+    )
+
+2020-04-15 11:40:16.360146
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.388970
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 160),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 52),
+        ('talea_weight_consumed', 445),
+        ]
+    )
+
+2020-04-15 11:40:16.423488
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 153),
+        ('logical_ties_produced', 505),
+        ]
+    )
+
+2020-04-15 11:40:16.432514
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 161),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 52),
+        ('talea_weight_consumed', 446),
+        ]
+    )
+
+2020-04-15 11:40:16.447069
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 156),
+        ('logical_ties_produced', 515),
+        ]
+    )
+
+2020-04-15 11:40:16.451111
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.468562
+rhythm_handler_seven
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 94),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 56),
+        ('talea_weight_consumed', 268),
+        ]
+    )
+
+2020-04-15 11:40:16.472665
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.490381
+rhythm_handler_eight
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 163),
+        ('incomplete_last_note', True),
+        ('logical_ties_produced', 52),
+        ('talea_weight_consumed', 452),
+        ]
+    )
+
+2020-04-15 11:40:16.494727
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.499643
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 157),
+        ('logical_ties_produced', 516),
+        ]
+    )
+
+2020-04-15 11:40:16.505750
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+
+2020-04-15 11:40:16.524482
+rhythm_handler_six
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 160),
+        ('logical_ties_produced', 529),
+        ]
+    )
+
+2020-04-15 11:40:16.528930
+silence maker
+abjad.OrderedDict(
+    [
+        ('divisions_consumed', 1),
+        ('logical_ties_produced', 1),
+        ]
+    )
+

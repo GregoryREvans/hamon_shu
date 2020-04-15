@@ -107,7 +107,7 @@
                     \markup { "vn. I" }                                        %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     eqf'8
                     \f
@@ -146,7 +146,7 @@
                                     \glissando
 
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     f'4
                     \stopTextSpanOne
                     ~
@@ -163,12 +163,12 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     f'4
                     ~
                     % [Voice 1 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     f'8
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -364,7 +364,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'8
                     \p
                     - \tweak stencil #constante-hairpin
@@ -396,7 +396,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'4
                     ~
 
@@ -404,10 +404,10 @@
                     \times 6/5 {
                         % [Voice 1 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'16
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f'4
                         \stopTextSpanOne
                         \stopTextSpanTwo
@@ -500,7 +500,7 @@
 
                         c'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         bqs4.
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
@@ -566,7 +566,7 @@
                     \startTextSpanOne
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     b2
                     \mp
                     \>
@@ -599,7 +599,7 @@
                     \startTextSpanTwo
                     % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     b4
                     \p
                     - \tweak stencil #constante-hairpin
@@ -674,7 +674,7 @@
                         \startTextSpanTwo
                         [
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         bf8.
                         \stopTextSpanOne
@@ -696,22 +696,22 @@
                     }
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf2
                     ~
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
 
                     \times 2/3 {
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         cs'2
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
@@ -748,7 +748,7 @@
 
                     d'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'2
                     \stopTextSpanOne
                     ~
@@ -766,7 +766,7 @@
                     \startTextSpanOne
                     % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -835,7 +835,7 @@
                     \clef "treble"
                     r4.
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'4
                     \f
                     \>
@@ -867,7 +867,7 @@
                     \startTextSpanTwo
                     % [Voice 2 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2
 
                                     - \tweak arrow-length #2
@@ -877,7 +877,7 @@
                                     \glissando
 
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'2.
                     \stopTextSpanOne
                     \stopTextSpanTwo
@@ -932,7 +932,7 @@
 
                     r8
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'8
                     \p
                     \<
@@ -963,7 +963,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'8
                     \mf
                     - \tweak stencil #constante-hairpin
@@ -1004,7 +1004,7 @@
                     r4.
                     \stopTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8
                     \f
@@ -1044,7 +1044,7 @@
                                     \glissando
 
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     fs'8
                     \stopTextSpanOne
@@ -1070,7 +1070,7 @@
 
                     % [Voice 2 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'4
                     \stopTextSpanOne
                     \stopTextSpanTwo
@@ -1376,7 +1376,7 @@
                     e'8
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     d'8
                     \stopTextSpanOne
@@ -1410,7 +1410,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs'8
                     \stopTextSpanOne
                     ~
@@ -1427,16 +1427,16 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs'4
                     ~
                     % [Voice 2 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs'4
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -1753,7 +1753,7 @@
                     \times 2/3 {
                         % [Voice 3 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f'8
                         \mf
                         \<
@@ -1792,7 +1792,7 @@
                                         \glissando
 
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         d'4
                         \f
                         - \tweak stencil #constante-hairpin
@@ -1848,7 +1848,7 @@
                     r4
                     \stopTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'8
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -1880,7 +1880,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'4
 
                                     - \tweak arrow-length #2
@@ -1891,7 +1891,7 @@
 
                     % [Voice 3 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'4
                     \stopTextSpanOne
                     ~
@@ -1908,7 +1908,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -2063,7 +2063,7 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     c'4
                     \p
                     \<
@@ -2099,7 +2099,7 @@
                     \times 2/3 {
                         % [Voice 3 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c'2
 
                         cqs'4
@@ -2131,7 +2131,7 @@
                     cqs'8
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     fs'8
                     \stopTextSpanOne
@@ -2151,7 +2151,7 @@
                     ]
                     % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -2246,7 +2246,7 @@
                     r4
                     \stopTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'2
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -2356,7 +2356,7 @@
                     \markup { vc. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Violoncello }                                    %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "bass"
                     aqf4.
                     \p
@@ -2388,12 +2388,12 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     aqf8
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     aqs8
                     \stopTextSpanOne
@@ -2416,7 +2416,7 @@
                     \times 5/4 {
                         % [Voice 4 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         aqs8
 
                         fs'4.
@@ -2474,7 +2474,7 @@
 
                     r4.
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     bf8
                     \f
@@ -2565,7 +2565,7 @@
                     r8
                     \stopTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     f'8
                     \p
                     - \tweak stencil #constante-hairpin
@@ -2598,7 +2598,7 @@
                     \startTextSpanTwo
                     % [Voice 4 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     f'8
                     [
@@ -2625,7 +2625,7 @@
                     fs'8
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     bf8
                     \stopTextSpanOne
@@ -2644,11 +2644,11 @@
                     \startTextSpanOne
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -2688,7 +2688,7 @@
 
                     r4.
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     eqf'2
                     \mf
                     \<
@@ -2770,7 +2770,7 @@
                     r4
                     \stopTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     a8
                     \mp
                     \>
@@ -2801,7 +2801,7 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     a8
                     [
@@ -2836,7 +2836,7 @@
 
                     \times 4/5 {
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqf2
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
@@ -2878,7 +2878,7 @@
                     b8
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     aqf8
                     \stopTextSpanOne
@@ -2897,7 +2897,7 @@
                     ]
                     % [Voice 4 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     d'4
                     \stopTextSpanOne
                     ~
@@ -2914,7 +2914,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
                     [
@@ -2974,7 +2974,7 @@
                     - \tweak staff-padding #6
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'4
                     \mf
                     - \tweak stencil #constante-hairpin

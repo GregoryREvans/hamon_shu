@@ -259,7 +259,7 @@
                     R1 * 5/8
                     % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fqs'''2
                     \p
                     \<
@@ -279,7 +279,7 @@
                     \times 8/9 {
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         dqs'''2..
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
@@ -295,7 +295,7 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         b4
                         \mf
                         - \tweak stencil #constante-hairpin
@@ -344,7 +344,7 @@
                     R1 * 1/8
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a'1
                     \pp
                     - \tweak stencil #constante-hairpin
@@ -362,7 +362,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     eqf''4
                     \stopTextSpanOne
                     ~
@@ -380,12 +380,12 @@
                     \startTextSpanOne
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     eqf''4
                     ~
                     % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     eqf''1
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -649,7 +649,7 @@
 
                         e''1.
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         fqs'''4
                         \pp
                         - \tweak stencil #constante-hairpin
@@ -671,16 +671,16 @@
                     }
                     % [Voice 1 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fqs'''4
                     ~
                     % [Voice 1 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fqs'''1
                     % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqf'2.
                     \stopTextSpanOne
                     ~
@@ -698,21 +698,21 @@
                     \startTextSpanOne
                     % [Voice 1 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqf'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqf'2
                     ~
                     % [Voice 1 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqf'4
                     ~
                     % [Voice 1 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqf'4
 
                     b'1
@@ -804,7 +804,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         aqf8
                         \!
                         \pp
@@ -840,46 +840,46 @@
                     }
                     % [Voice 1 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     aqf2.
                     ~
                     % [Voice 1 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     aqf2.
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'4
                     ~
                     % [Voice 1 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'4
                     % [Voice 1 measure 44]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     eqf''4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf''1
                     % [Voice 1 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'''1
                     ~
                     % [Voice 1 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'''4
                     ~
                     % [Voice 1 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'''2.
                     ~
                     % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'''4
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -1082,7 +1082,7 @@
                     dqf'2
                     % [Voice 2 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'4
                     \p
                     - \tweak stencil #constante-hairpin
@@ -1116,7 +1116,7 @@
                     \startTextSpanThree
                     % [Voice 2 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -1177,31 +1177,31 @@
 
                     fqs'''4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''1
                     ~
                     % [Voice 2 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2.
                     ~
                     % [Voice 2 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''4
                     ~
                     % [Voice 2 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     ~
                     % [Voice 2 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
 
                     f'2
@@ -1499,7 +1499,7 @@
                     \times 10/9 {
                         % [Voice 2 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''2
                         \pp
                         - \tweak stencil #constante-hairpin
@@ -1532,27 +1532,27 @@
                         - \tweak staff-padding #12
                         \startTextSpanThree
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f'2
                         ~
 
                     }
                     % [Voice 2 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'1
                     ~
 
                     \times 2/3 {
                         % [Voice 2 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''4
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
@@ -1887,7 +1887,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \ottava 1
                     ef'''4
                     \mp
@@ -1921,17 +1921,17 @@
                     \startTextSpanThree
                     % [Voice 3 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'''4
                     % [Voice 3 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \ottava 0
                     a2.
                     ~
                     % [Voice 3 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a4
                     % [Voice 3 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1939,15 +1939,15 @@
                     fqs'''2
                     % [Voice 3 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'''4
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'''8
                     [
@@ -1958,7 +1958,7 @@
                     ]
                     % [Voice 3 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     c'''2.
                     \p
                     - \tweak stencil #constante-hairpin
@@ -2036,7 +2036,7 @@
 
                         g''4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         bf'4
                         \stopTextSpanOne
                         ~
@@ -2056,39 +2056,39 @@
                     }
                     % [Voice 3 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'2.
                     ~
                     % [Voice 3 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'2
                     ~
                     % [Voice 3 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'4
                     ~
                     % [Voice 3 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'2
                     ~
                     % [Voice 3 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bf'4
                     % [Voice 3 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2.
                     \stopTextSpanOne
                     ~
@@ -2105,41 +2105,41 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2
                     ~
                     % [Voice 3 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
                     ~
                     % [Voice 3 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2
                     ~
                     % [Voice 3 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
                     ~
                     % [Voice 3 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2
                     ~
                     % [Voice 3 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
                     ~
                     % [Voice 3 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -2169,7 +2169,7 @@
                     R1 * 1/2
                     % [Voice 3 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \clef "varC"
                     gqf4
                     \pppp
@@ -2202,29 +2202,29 @@
                     \startTextSpanThree
                     % [Voice 3 measure 44]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     bqf''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf''2
                     % [Voice 3 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     b''1
                     ~
                     % [Voice 3 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     b''4
                     ~
                     % [Voice 3 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     b''4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     b2
                     \pp
                     - \tweak stencil #constante-hairpin
@@ -2464,22 +2464,22 @@
                     - \tweak staff-padding #12
                     \startTextSpanThree
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a4
                     ~
                     % [Voice 4 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a4
                     ~
                     % [Voice 4 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a2
                     ~
                     % [Voice 4 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     a2.
 
                     aqf2
@@ -2516,7 +2516,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "tenorvarC"
                     a'1
                     \p
@@ -2588,7 +2588,7 @@
                     - \tweak staff-padding #8
                     \startTextSpanTwo
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2
                     \!
                     \ppp
@@ -2611,14 +2611,14 @@
                     \startTextSpanOne
                     % [Voice 4 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2.
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/9 {
                         % [Voice 4 measure 31]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \clef "bass"
                         gqf2.
                         \stopTextSpanOne
@@ -2635,7 +2635,7 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \ottava 1
                         \clef "treble"
                         d'''4.
@@ -2657,7 +2657,7 @@
                     }
                     % [Voice 4 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     d'''4
                     ~
 
@@ -2665,10 +2665,10 @@
                     \times 10/11 {
                         % [Voice 4 measure 33]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         d'''8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \ottava 0
                         fs''4
                         \stopTextSpanOne
@@ -2685,7 +2685,7 @@
                         - \tweak staff-padding #8
                         \startTextSpanOne
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \clef "bass"
                         dqf1
                         \stopTextSpanOne
@@ -2706,15 +2706,15 @@
                     }
                     % [Voice 4 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqf4
                     ~
                     % [Voice 4 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqf4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     d1
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -2731,7 +2731,7 @@
                     \startTextSpanOne
                     % [Voice 4 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqf4
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -2779,7 +2779,7 @@
 
                     \times 2/3 {
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         a2
                         \p
                         \>

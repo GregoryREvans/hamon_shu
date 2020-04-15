@@ -434,7 +434,7 @@
                     \markup { "vn. I" }                                        %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { "Violin I" }                                     %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     af''4
                     \p
@@ -442,21 +442,21 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs''4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'4
                     - \bendAfter #'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'4
                     % [Voice 1 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     bqs4
                     \f
                     \>
@@ -466,7 +466,7 @@
                     r2
                     % [Voice 1 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'1
                     \ff
                     - \bendAfter #'2
@@ -474,12 +474,12 @@
                     \<
                     % [Voice 1 measure 4]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'2
                     ~
                     % [Voice 1 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'1
                     % [Voice 1 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -490,18 +490,18 @@
                     R1 * 3/8
                     % [Voice 1 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2.
                     \mp
                     \>
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     ~
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''4
                     <>
                     \pp
@@ -509,56 +509,56 @@
                     r2
                     % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af''4
                     \mf
                     - \bendAfter #'4
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     af4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 10/11 {
                         % [Voice 1 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         fs''8
                         [
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         af8
                         - \bendAfter #'2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af''8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         e''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bqf'8
                         - \bendAfter #'4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         ef''8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         fs'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         bqs8
                         - \bendAfter #'2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         ef'8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         af8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         ef'8
                         - \bendAfter #'4
@@ -567,14 +567,14 @@
                     }
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqs4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af''4
                     % [Voice 1 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqs4
                     - \bendAfter #'2
 
@@ -658,13 +658,13 @@
                     r4
                     % [Voice 1 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cs'2
                     \mp
                     - \bendAfter #'6
                     \<
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8.
                     [
@@ -678,13 +678,13 @@
                     fs'8
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     bqf'8
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'16
                     - \bendAfter #'3
@@ -695,7 +695,7 @@
                     ]
                     % [Voice 1 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     af'8
                     [
@@ -706,7 +706,7 @@
                     - \bendAfter #'4
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
                     \mp
@@ -714,7 +714,7 @@
                     \<
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     bqf'8
                     ]
@@ -724,7 +724,7 @@
                     - \bendAfter #'5
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     af'8
                     ]
@@ -735,16 +735,16 @@
 
                         b'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af'4
                         - \bendAfter #'-2
 
                         bqf'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fs'4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         d'4
                         - \bendAfter #'-5
 
@@ -753,7 +753,7 @@
                     }
                     % [Voice 1 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'4
                     \mf
                     - \tweak stencil #constante-hairpin
@@ -763,20 +763,20 @@
                     - \bendAfter #'-4
                     % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'4
 
                     bqf'1
                     % [Voice 1 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'2.
                     \pp
                     - \bendAfter #'-3
                     \<
                     % [Voice 1 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af'2
 
                     ef'2.
@@ -790,7 +790,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af'1
                     \p
                     - \bendAfter #'6
@@ -809,22 +809,22 @@
                     bqf'2
                     % [Voice 1 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     gqs'4
                     \mp
                     \>
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     g'2
                     ~
                     % [Voice 1 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     g'4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''4
                     \glissando                                                 %! abjad.glissando(7)
 
@@ -832,49 +832,49 @@
                     \times 10/11 {
                         % [Voice 1 measure 40]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         af''8
                         \glissando                                             %! abjad.glissando(7)
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         aqs8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         e''8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         aqs8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         bf8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         dqs'8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         g'8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f'8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         cqs'8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         aqs8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         af''8
                         \glissando                                             %! abjad.glissando(7)
@@ -886,15 +886,15 @@
                     \times 4/3 {
                         % [Voice 1 measure 41]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         cs''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         g'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         gqs'4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -903,57 +903,57 @@
                     \times 2/3 {
                         % [Voice 1 measure 42]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         gqs'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         g'4
                         \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 1 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2.
                     ~
                     % [Voice 1 measure 44]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2
                     ~
                     % [Voice 1 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'4
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     dqs'8
                     \glissando                                                 %! abjad.glissando(7)
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     g'8
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     g'4
                     ~
                     % [Voice 1 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     g'4
                     <>
                     \pp
@@ -961,24 +961,24 @@
                     r2.
                     % [Voice 1 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2.
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2
                     ~
                     % [Voice 1 measure 48]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2.
                     ~
                     % [Voice 1 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'2
                     % [Voice 1 measure 50]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1096,23 +1096,23 @@
                     bqs2
                     % [Voice 1 measure 61]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     gqf''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     gqf''2
                     ~
                     % [Voice 1 measure 62]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     gqf''2
                     ~
 
                     \times 2/3 {
                         % [Voice 1 measure 63]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         gqf''4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -1129,7 +1129,7 @@
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 1 measure 65]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     af''2
                     <>
                     \p
@@ -1140,7 +1140,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf4
                         \f
                         - \tweak stencil #constante-hairpin
@@ -1148,7 +1148,7 @@
 
                         f'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         dqs'4
 
                     }
@@ -1160,15 +1160,15 @@
                         f'8
                         [
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''8
 
                         a'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         f'8
                         ]
@@ -1178,7 +1178,7 @@
 
                     a'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     c''4
 
                     gqf''4
@@ -1186,7 +1186,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fqs''4
 
                     \times 2/3 {
@@ -1194,10 +1194,10 @@
 
                         gqf''4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         af''4
 
                     }
@@ -1208,23 +1208,23 @@
                     \times 4/5 {
                         % [Voice 1 measure 71]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
 
                         a'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f'4
 
                         bf4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af''4
 
                     }
                     % [Voice 1 measure 72]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     bf8
                     \mf
@@ -1235,7 +1235,7 @@
                     gqf''8
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
                     [
@@ -1245,7 +1245,7 @@
                     ]
                     % [Voice 1 measure 73]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
                     <>
                     \ff
@@ -1370,7 +1370,7 @@
 
                         bf8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
                         e''8
                         \glissando                                             %! abjad.glissando(7)
@@ -1379,44 +1379,44 @@
                     }
                     % [Voice 1 measure 86]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af''4
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 1 measure 87]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     b'4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     af''2
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 1 measure 88]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
 
                     r2.
                     \!
                     % [Voice 1 measure 89]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf'2
                     \p
                     \<
                     ~
                     % [Voice 1 measure 90]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf'2.
                     ~
                     % [Voice 1 measure 91]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf'2
                     ~
 
@@ -1424,39 +1424,39 @@
                     \times 5/7 {
                         % [Voice 1 measure 92]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         bqf'1
                         ~
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         bqf'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fs'2
                         ~
 
                     }
                     % [Voice 1 measure 93]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'2
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af'2
                     ~
                     % [Voice 1 measure 94]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af'2
                     ~
                     % [Voice 1 measure 95]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af'2.
                     ~
                     % [Voice 1 measure 96]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     af'2
                     ~
 
@@ -1464,17 +1464,17 @@
                     \times 5/7 {
                         % [Voice 1 measure 97]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         af'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         ef'1.
                         ~
 
                     }
                     % [Voice 1 measure 98]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'2
                     \bar "||"
                     <>
@@ -1646,7 +1646,7 @@
                         c''2.
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fqs''2
                         \glissando                                             %! abjad.glissando(7)
 
@@ -1656,14 +1656,14 @@
                     \times 5/4 {
                         % [Voice 2 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         c''4
                         \glissando                                             %! abjad.glissando(7)
 
                         gqf''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af''4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -1675,7 +1675,7 @@
                     \times 8/9 {
                         % [Voice 2 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         gqf''8
                         \glissando                                             %! abjad.glissando(7)
@@ -1685,27 +1685,27 @@
                         \mf
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         gqf''8
                         \mp
                         \<
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf8
                         \glissando                                             %! abjad.glissando(7)
 
                         af''8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         gqf''8
                         \glissando                                             %! abjad.glissando(7)
 
                         c''8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         fqs''8
                         \glissando                                             %! abjad.glissando(7)
 
@@ -1717,11 +1717,11 @@
                     }
                     % [Voice 2 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af''4
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 2 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1733,14 +1733,14 @@
                     r2
                     % [Voice 2 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf2.
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf2
                     % [Voice 2 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1754,7 +1754,7 @@
                     af''2
                     % [Voice 2 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
 
                     r2
@@ -1773,19 +1773,19 @@
                         bqf'1
                         - \bendAfter #'6
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fs'2.
                         ~
 
                     }
                     % [Voice 2 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'2.
                     \mp
                     % [Voice 2 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqf'2
                     \mp
                     \>
@@ -1808,7 +1808,7 @@
                         \pp
                         - \bendAfter #'3
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         ef'2
                         \mf
                         - \tweak stencil #constante-hairpin
@@ -1821,13 +1821,13 @@
                     cs'8.
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     d'16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
                     - \bendAfter #'4
@@ -1842,13 +1842,13 @@
                     fs'16
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     bqf'8.
                     ]
                     % [Voice 2 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
                     - \bendAfter #'5
@@ -1858,7 +1858,7 @@
                     af'8
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
                     [
@@ -1868,7 +1868,7 @@
                     - \bendAfter #'-2
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af8
                     [
@@ -1877,13 +1877,13 @@
                     e''8
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
                     - \bendAfter #'-5
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     cs'8
                     ]
@@ -1892,7 +1892,7 @@
                     af''8
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     af8
                     - \bendAfter #'-4
@@ -1903,7 +1903,7 @@
 
                         e''4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af4
 
                         cs'4
@@ -1912,17 +1912,17 @@
                     }
                     % [Voice 2 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af'4
 
                     fs'2.
                     - \bendAfter #'6
                     % [Voice 2 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     d'4
 
                     fs'4
@@ -1932,7 +1932,7 @@
                     \times 2/3 {
                         % [Voice 2 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'8
                         - \bendAfter #'3
@@ -1940,7 +1940,7 @@
 
                         cs'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
                         gqs'8
                         ]
@@ -1951,7 +1951,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     \pp
                     - \tweak stencil #constante-hairpin
@@ -1959,57 +1959,57 @@
                     ~
                     % [Voice 2 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     ~
                     % [Voice 2 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
 
                     r4
                     \!
                     % [Voice 2 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqs'2
                     \mf
                     \>
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 2 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2
                     ~
                     % [Voice 2 measure 41]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2.
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     g'4
                     ~
                     % [Voice 2 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     g'2
                     ~
                     % [Voice 2 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     g'4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cqs'4
                     \glissando                                                 %! abjad.glissando(7)
 
@@ -2017,57 +2017,57 @@
                     \times 5/6 {
                         % [Voice 2 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         gqs'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         cs''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         af''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         cs''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         e''4
                         \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 2 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     gqs'2.
                     \glissando                                                 %! abjad.glissando(7)
 
                     \times 4/5 {
                         % [Voice 2 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         g'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         cs''4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         g'4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -2077,41 +2077,41 @@
                     \times 10/9 {
                         % [Voice 2 measure 47]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs'8
                         \glissando                                             %! abjad.glissando(7)
                         [
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqs8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af''8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         bf8
                         \p
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af''8
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqs8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         cqs'8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqs8
 
                         \revert Staff.Stem.stemlet-length
@@ -2266,12 +2266,12 @@
                     bqs4
                     - \bendAfter #'2
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'4
                     ~
                     % [Voice 2 measure 61]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f'2.
                     <>
                     \pp
@@ -2279,7 +2279,7 @@
                     r2
                     % [Voice 2 measure 62]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     a'2
                     \mf
                     - \tweak stencil #constante-hairpin
@@ -2297,31 +2297,31 @@
 
                     c''4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''2
                     ~
                     % [Voice 2 measure 65]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''2
                     ~
                     % [Voice 2 measure 66]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''2
                     ~
                     % [Voice 2 measure 67]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''2
                     ~
                     % [Voice 2 measure 68]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''4
                     \mp
 
@@ -2334,7 +2334,7 @@
                     af''4
                     \ff
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
                     \pp
                     - \tweak stencil #constante-hairpin
@@ -2342,7 +2342,7 @@
                     ~
                     % [Voice 2 measure 70]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf2.
                     % [Voice 2 measure 71]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2360,34 +2360,34 @@
 
                     gqf''4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af''4
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     % [Voice 2 measure 75]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''8
                     - \bendAfter #'4
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     g'8
                     ]
 
                     \times 2/3 {
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         gqs'4
                         - \bendAfter #'5
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f'4
 
                     }
@@ -2396,16 +2396,16 @@
                     \times 4/3 {
                         % [Voice 2 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         g'4
                         \mf
                         \>
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         dqs'4
                         - \bendAfter #'-2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         g'4
                         <>
                         \p
@@ -2419,33 +2419,33 @@
                     R1 * 1/4
                     % [Voice 2 measure 78]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqs'2.
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
                     % [Voice 2 measure 79]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f'4
                     \f
                     - \bendAfter #'-5
                     \>
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cqs'4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
                     \mf
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'4
                     \pp
                     - \bendAfter #'-4
                     \<
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
                     <>
                     \mf
@@ -2457,7 +2457,7 @@
                     R1 * 3/8
                     % [Voice 2 measure 81]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     aqs2
                     \p
                     - \tweak stencil #constante-hairpin
@@ -2466,26 +2466,26 @@
                     \times 4/5 {
                         % [Voice 2 measure 82]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         e''4
                         - \bendAfter #'-3
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqs1
                         ~
 
                     }
                     % [Voice 2 measure 83]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     aqs2
                     % [Voice 2 measure 84]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af''1
                     % [Voice 2 measure 85]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     cs''2
                     - \bendAfter #'6
 
@@ -2626,14 +2626,14 @@
                     \markup { va. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Viola }                                          %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "varC"
                     ef''2
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'2.
                     % [Voice 3 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2643,7 +2643,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2
                     % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2651,7 +2651,7 @@
                     af''1
                     % [Voice 3 measure 4]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "varC"
                     cqs2
                     - \bendAfter #'2
@@ -2668,14 +2668,14 @@
 
                         fs''2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         ef''8
                         ~
 
                     }
                     % [Voice 3 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef''2.
                     <>
                     \p
@@ -2683,7 +2683,7 @@
                     r2
                     % [Voice 3 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2.
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -2691,21 +2691,21 @@
                     ~
                     % [Voice 3 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2
                     ~
                     % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2
                     ~
                     % [Voice 3 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2
                     - \bendAfter #'4
                     % [Voice 3 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -2715,13 +2715,13 @@
                     af''8.
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     e''16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
                     [
@@ -2736,7 +2736,7 @@
                     - \bendAfter #'2
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     fs'8.
                     \pp
@@ -2870,7 +2870,7 @@
 
                     \times 2/3 {
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         af8
                         \mf
@@ -2878,10 +2878,10 @@
                         \<
                         [
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         d'8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         af8
                         - \bendAfter #'3
@@ -2890,44 +2890,44 @@
                     }
                     % [Voice 3 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "varC"
                     eqs4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "treble"
                     af''4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \clef "varC"
                     eqs4
                     - \bendAfter #'4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cqs4
                     % [Voice 3 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8.
                     - \bendAfter #'5
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     b'16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     af'8
                     \mf
@@ -2936,62 +2936,62 @@
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af'16
                     [
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \revert Staff.Stem.stemlet-length
                     b'8.
                     - \bendAfter #'-2
                     ]
                     % [Voice 3 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'4
 
                     \times 4/5 {
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         e''4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         bqf'4
                         - \bendAfter #'-5
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         af'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         b'4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         af'4
                         - \bendAfter #'-4
 
                     }
                     % [Voice 3 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
                     \ff
                     \>
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     fs'8
                     ]
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
                     - \bendAfter #'-3
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     cs'8
                     ]
@@ -3000,33 +3000,33 @@
                     \times 5/6 {
                         % [Voice 3 measure 30]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         eqs4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         cs'4
                         - \bendAfter #'6
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         d'4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         af4
                         \mp
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         d'4
                         \p
                         - \bendAfter #'3
                         \<
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         cs'4
 
                     }
                     % [Voice 3 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     eqs4
                     <>
                     \mp
@@ -3034,36 +3034,36 @@
                     r2
                     % [Voice 3 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     cs'2
                     \pp
                     - \bendAfter #'4
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     d'2.
                     % [Voice 3 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     af4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     d'4
                     - \bendAfter #'5
 
                     \times 2/3 {
                         % [Voice 3 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         cs'8
                         [
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         eqs8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         cs'8
                         - \bendAfter #'-2
@@ -3071,19 +3071,19 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     af4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cqs2.
                     % [Voice 3 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     ~
                     % [Voice 3 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2.
                     - \bendAfter #'-5
 
@@ -3201,7 +3201,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         e''8
                         \f
                         - \tweak stencil #constante-hairpin
@@ -3211,21 +3211,21 @@
                     }
                     % [Voice 3 measure 49]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     e''2
                     ~
                     % [Voice 3 measure 50]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     e''2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     e''2
                     - \bendAfter #'4
                     % [Voice 3 measure 51]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "treble"
                     af''1
                     \mp
@@ -3245,7 +3245,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         fs''8
                         - \bendAfter #'2
@@ -3253,7 +3253,7 @@
 
                         ef''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         fs''8
                         ]
@@ -3279,16 +3279,16 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         bqf'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         ef'4
 
                         fs'4
                         - \bendAfter #'2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bqs4
 
                     }
@@ -3296,7 +3296,7 @@
 
                     fs'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     ef'4
                     - \bendAfter #'4
 
@@ -3306,10 +3306,10 @@
 
                         bqf'2
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         ef'2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bqs2
                         - \bendAfter #'2
 
@@ -3324,7 +3324,7 @@
                     ef8
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     bqs8
                     \p
@@ -3332,7 +3332,7 @@
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bqs4
                     <>
                     \mp
@@ -3357,17 +3357,17 @@
                     c''2
                     % [Voice 3 measure 63]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'1
                     ~
                     % [Voice 3 measure 64]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'2.
                     ~
                     % [Voice 3 measure 65]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
 
                     f'4
@@ -3376,31 +3376,31 @@
 
                     f'2.
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf2
                     \mf
                     \<
                     ~
                     % [Voice 3 measure 67]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf2
                     ~
                     % [Voice 3 measure 68]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf1
                     \ff
                     % [Voice 3 measure 69]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqs'2
                     \mf
                     \>
                     ~
                     % [Voice 3 measure 70]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqs'4
 
                     \times 4/5 {
@@ -3409,12 +3409,12 @@
                         f'8
                         [
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''8
 
                         fqs''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         c''8
 
                         \clef "treble"
@@ -3425,15 +3425,15 @@
                     }
                     % [Voice 3 measure 71]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fqs''4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqf''4
 
                     c''4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fqs''4
                     \p
 
@@ -3445,7 +3445,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f'4
 
                         a'4
@@ -3453,7 +3453,7 @@
                     }
                     % [Voice 3 measure 73]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     c''2
 
                     r4
@@ -3462,15 +3462,15 @@
                     \times 2/3 {
                         % [Voice 3 measure 74]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         cqs'4
                         \f
                         \>
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \clef "varC"
                         f4
                         - \bendAfter #'-4
@@ -3478,11 +3478,11 @@
                     }
                     % [Voice 3 measure 75]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "treble"
                     af''2
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "varC"
                     cqs4
                     ~
@@ -3491,11 +3491,11 @@
                     \times 4/3 {
                         % [Voice 3 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         cqs4
                         \mf
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         e''2
                         \mp
                         - \tweak stencil #constante-hairpin
@@ -3505,22 +3505,22 @@
                     }
                     % [Voice 3 measure 77]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''2
                     ~
                     % [Voice 3 measure 78]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     e''4
                     ~
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
                     - \bendAfter #'-3
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     gqs'8
                     \ff
@@ -3529,37 +3529,37 @@
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     gqs'4
                     % [Voice 3 measure 79]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     r2
                     \!
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2.
                     \mp
                     \<
                     ~
                     % [Voice 3 measure 80]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2.
                     ~
                     % [Voice 3 measure 81]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''2
                     ~
 
                     \times 2/3 {
                         % [Voice 3 measure 82]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         cs''2
                         \f
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         g'1
                         \pp
                         - \bendAfter #'6
@@ -3578,7 +3578,7 @@
 
                     r4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2.
                     \p
                     - \tweak stencil #constante-hairpin
@@ -3586,11 +3586,11 @@
                     ~
                     % [Voice 3 measure 85]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2.
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs'2
                     % [Voice 3 measure 86]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3758,24 +3758,24 @@
                     \markup { vc. }                                            %! applying staff names and clefs
                     \set Staff.instrumentName =                                %! applying staff names and clefs
                     \markup { Violoncello }                                    %! applying staff names and clefs
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "tenorvarC"
                     bqf'2.
                     \p
                     \<
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'2
                     ~
                     % [Voice 4 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'2.
                     ~
                     % [Voice 4 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqf'1
                     \mp
                     - \bendAfter #'4
@@ -3790,7 +3790,7 @@
                     \times 4/3 {
                         % [Voice 4 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fs'4
                         \pp
                         - \tweak stencil #constante-hairpin
@@ -3800,7 +3800,7 @@
                         ef''4
                         - \bendAfter #'2
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         fs''4
 
                     }
@@ -3811,26 +3811,26 @@
                     cqs8.
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     \revert Staff.Stem.stemlet-length
                     e''16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
                     - \bendAfter #'4
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     bqf'8
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'16
                     [
@@ -3840,7 +3840,7 @@
                     ]
                     % [Voice 4 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bqs2.
                     - \bendAfter #'2
 
@@ -3855,13 +3855,13 @@
                     \>
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     af16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     af8
                     [
@@ -3876,7 +3876,7 @@
                     - \bendAfter #'4
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     af8.
                     ]
@@ -3885,7 +3885,7 @@
                     \times 4/3 {
                         % [Voice 4 measure 9]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         bqs8
                         [
@@ -3893,7 +3893,7 @@
                         ef8
                         - \bendAfter #'2
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
                         bqs8
                         ]
@@ -3906,16 +3906,16 @@
 
                         af4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         ef'4
                         - \bendAfter #'4
 
                         af4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bqs4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         ef4
                         - \bendAfter #'2
 
@@ -3924,7 +3924,7 @@
                     }
                     % [Voice 4 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     fs''4
 
@@ -3932,7 +3932,7 @@
                     - \bendAfter #'4
                     % [Voice 4 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     fs'2
                     \p
 
@@ -3945,16 +3945,16 @@
                     \times 4/3 {
                         % [Voice 4 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \clef "bass"
                         f4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         cqs4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         dqs4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -3963,17 +3963,17 @@
                     \times 2/3 {
                         % [Voice 4 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs8
                         \glissando                                             %! abjad.glissando(7)
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         f8
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         f8
                         \glissando                                             %! abjad.glissando(7)
@@ -3981,64 +3981,64 @@
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
                     ~
                     % [Voice 4 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f2
                     ~
                     % [Voice 4 measure 16]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f1
                     ~
                     % [Voice 4 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f2
 
                     r2.
                     \!
                     % [Voice 4 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f1
                     \pp
                     \<
                     ~
                     % [Voice 4 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f2
                     \mf
                     % [Voice 4 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
                     \ff
                     \>
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/4 {
                         % [Voice 4 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f2
                         \mp
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         bf2
                         \p
                         - \tweak stencil #constante-hairpin
@@ -4049,27 +4049,27 @@
                     \times 2/3 {
                         % [Voice 4 measure 22]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         cqs4
 
                     }
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     dqs2
                     % [Voice 4 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f2
                     ~
                     % [Voice 4 measure 24]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     f2
 
                     r4
@@ -4189,19 +4189,19 @@
 
                         d'4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \clef "bass"
                         cqs4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         aqs4
                         \glissando                                             %! abjad.glissando(7)
 
                         f4
                         \glissando                                             %! abjad.glissando(7)
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -4211,7 +4211,7 @@
                     f4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     aqs4
                     <>
                     \mp
@@ -4225,10 +4225,10 @@
                     \<
                     % [Voice 4 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     aqs4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     bf4
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -4239,31 +4239,31 @@
                         f8
                         [
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf8
 
                         cqs'8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         aqs8
 
                         cqs'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         dqs'8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \clef "tenorvarC"
                         g'8
 
                         dqs'8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f'8
 
                         gqs'8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \clef "treble"
                         \revert Staff.Stem.stemlet-length
                         e''8
@@ -4282,30 +4282,30 @@
                     \glissando                                                 %! abjad.glissando(7)
                     [
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
                     g'16
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     g'8
                     \glissando                                                 %! abjad.glissando(7)
                     [
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     cs''8
                     ~
                     ]
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''4
                     ~
                     % [Voice 4 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     cs''4
                     \glissando                                                 %! abjad.glissando(7)
 
@@ -4327,12 +4327,12 @@
                     gqs'4
                     \glissando                                                 %! abjad.glissando(7)
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''2
                     ~
                     % [Voice 4 measure 46]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     e''4
                     \glissando                                                 %! abjad.glissando(7)
 
@@ -4340,7 +4340,7 @@
                     \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cs''1
                     \p
 
@@ -4468,7 +4468,7 @@
 
                     bqf'2.
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     \clef "bass"
                     cqs2
                     \mp
@@ -4476,33 +4476,33 @@
                     ~
                     % [Voice 4 measure 62]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     cqs2
                     % [Voice 4 measure 63]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     dqs1
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/5 {
                         % [Voice 4 measure 64]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs8
                         [
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \clef "treble"
                         fqs''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         c''8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         fqs''8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         a'8
                         ]
@@ -4512,53 +4512,53 @@
                     \times 2/3 {
                         % [Voice 4 measure 65]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         c''4
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         a'4
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         dqs'4
                         \pp
 
                     }
                     % [Voice 4 measure 66]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     f'4
                     \f
                     \>
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     a'4
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     bf4
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     \clef "bass"
                     f4
                     % [Voice 4 measure 67]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     dqs'2
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
                         % [Voice 4 measure 68]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         bf4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         f4
                         \mf
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         dqs4
                         \mf
                         - \tweak stencil #constante-hairpin
@@ -4569,21 +4569,21 @@
                     \times 4/5 {
                         % [Voice 4 measure 69]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         f8
                         [
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         f8
 
-                        \once \override Staff.NoteHead.style = #'default
+                        \tweak NoteHead.style #'default
                         dqs8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         cqs8
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
                         dqs8
                         ]
@@ -4598,14 +4598,14 @@
                     R1 * 3/8
                     % [Voice 4 measure 71]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f1
                     \p
                     \<
                     ~
                     % [Voice 4 measure 72]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'default
+                    \tweak NoteHead.style #'default
                     f2
                     <>
                     \mp
@@ -4757,10 +4757,10 @@
                     }
                     % [Voice 4 measure 86]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'4
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     af'4
 
                     \times 2/3 {
@@ -4768,7 +4768,7 @@
 
                         fs'4
 
-                        \once \override Staff.NoteHead.style = #'harmonic-mixed
+                        \tweak NoteHead.style #'harmonic-mixed
                         d'4
 
                         af4
@@ -4782,13 +4782,13 @@
                     \times 5/6 {
                         % [Voice 4 measure 88]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         eqs1
                         \pp
                         \<
                         ~
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         eqs4
                         \glissando                                             %! abjad.glissando(7)
 
@@ -4813,26 +4813,26 @@
                     R1 * 1/4
                     % [Voice 4 measure 92]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'2.
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'2
                     ~
                     % [Voice 4 measure 93]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'triangle
+                    \tweak NoteHead.style #'triangle
                     ef'4
 
                     r2.
                     \!
                     % [Voice 4 measure 94]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     fs'2
                     \mp
                     \>
@@ -4853,7 +4853,7 @@
                         - \tweak stencil #constante-hairpin
                         \<
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af4
 
                         cs'4
@@ -4864,29 +4864,29 @@
                     \times 10/9 {
                         % [Voice 4 measure 97]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'8
                         [
 
                         cs'8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         af8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \clef "bass"
                         cqs8
 
                         af8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         eqs8
 
                         \clef "treble"
                         e''8
 
-                        \once \override Staff.NoteHead.style = #'triangle
+                        \tweak NoteHead.style #'triangle
                         \clef "bass"
                         eqs8
 
@@ -4897,7 +4897,7 @@
                     }
                     % [Voice 4 measure 98]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    \once \override Staff.NoteHead.style = #'harmonic-mixed
+                    \tweak NoteHead.style #'harmonic-mixed
                     cqs4
 
                     r4
