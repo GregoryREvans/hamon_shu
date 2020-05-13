@@ -1,10 +1,11 @@
+from collections import OrderedDict
+
 import abjad
-import evans
 import abjadext.rmakers as rmakers
-from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
+import evans
 from hamon_shu.Materials.rhythm.Segment_IV.rhythm_handlers import *
 from hamon_shu.Materials.score_structure.instruments import instruments
-from collections import OrderedDict
+from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 
 padovan_1 = evans.e_dovan_cycle(n=3, iters=30, first=3, second=5, modulus=7)
 padovan_2 = evans.e_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=3)

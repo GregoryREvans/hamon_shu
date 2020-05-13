@@ -1,2 +1,1 @@
-from . import parts
-from . import score
+from . import parts, score

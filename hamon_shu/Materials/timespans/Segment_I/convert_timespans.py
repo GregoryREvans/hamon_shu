@@ -1,27 +1,26 @@
-import evans
 import pathlib
 
-# from evans.abjad_functions.ConvertTimespans import ConvertTimespans
-from hamon_shu.Materials.score_structure.Segment_I.rhythm_material_pattern import (
-    rhythm_material_list,
-)
-from hamon_shu.Materials.score_structure.Segment_I.pitch_material_pattern import (
-    pitch_material_list,
+import evans
+from hamon_shu.Materials.score_structure.Segment_I.articulation_material_pattern import (
+    articulation_material_list,
 )
 from hamon_shu.Materials.score_structure.Segment_I.dynamic_material_pattern import (
     dynamic_material_list,
 )
-from hamon_shu.Materials.score_structure.Segment_I.articulation_material_pattern import (
-    articulation_material_list,
+from hamon_shu.Materials.score_structure.Segment_I.pitch_material_pattern import (
+    pitch_material_list,
 )
-from hamon_shu.Materials.timespans.Segment_I.make_timespans import (
-    rhythm_timespan_list,
-    pitch_timespan_list,
-    dynamic_timespan_list,
-    articulation_timespan_list,
+# from evans.abjad_functions.ConvertTimespans import ConvertTimespans
+from hamon_shu.Materials.score_structure.Segment_I.rhythm_material_pattern import (
+    rhythm_material_list,
 )
 from hamon_shu.Materials.score_structure.Segment_I.time_signatures import bounds
-
+from hamon_shu.Materials.timespans.Segment_I.make_timespans import (
+    articulation_timespan_list,
+    dynamic_timespan_list,
+    pitch_timespan_list,
+    rhythm_timespan_list,
+)
 
 ########
 # rhythm#

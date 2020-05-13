@@ -1,5 +1,6 @@
-import abjad
 import pathlib
+
+import abjad
 from hamon_shu.Materials.timespans.Segment_VI.make_timespans import rhythm_timespan_list
 
 offset_counter = abjad.OffsetCounter(rhythm_timespan_list)

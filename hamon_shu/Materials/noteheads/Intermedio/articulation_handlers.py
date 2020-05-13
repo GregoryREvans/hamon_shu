@@ -1,7 +1,6 @@
-import evans
-
 # import baca
 import abjad
+import evans
 
 articulation_handler_one = evans.ArticulationHandler(
     articulation_list=[

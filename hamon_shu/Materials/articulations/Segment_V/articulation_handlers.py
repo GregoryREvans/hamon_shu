@@ -1,6 +1,5 @@
-import evans
 import abjad
-
+import evans
 
 articulation_handler_one = evans.BendHandler(
     bend_amounts=[2, 3, -2, 4, -3, -2],

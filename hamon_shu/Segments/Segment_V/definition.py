@@ -1,17 +1,15 @@
+import pathlib
+
 import abjad
 import evans
-import pathlib
+from hamon_shu.Materials.pitch.Segment_V.clef_handlers import clef_handlers
+from hamon_shu.Materials.score_structure.Segment_V.time_signatures import time_signatures
 from hamon_shu.Materials.score_structure.instruments import instruments as insts
+from hamon_shu.Materials.score_structure.score_structure import score
 from hamon_shu.Materials.timespans.Segment_V.convert_timespans import (
     Segment_V_rhythm_timespans,
     Segment_V_timespans,
 )
-from hamon_shu.Materials.score_structure.score_structure import score
-from hamon_shu.Materials.score_structure.Segment_V.time_signatures import (
-    time_signatures,
-)
-from hamon_shu.Materials.pitch.Segment_V.clef_handlers import clef_handlers
-
 
 maker = evans.SegmentMaker(
     instruments=insts,

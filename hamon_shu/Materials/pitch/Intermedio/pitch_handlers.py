@@ -1,9 +1,9 @@
 import evans
 from hamon_shu.Materials.pitch.Intermedio.pitches import (
+    cello_random_walk_chord_1,
+    viola_random_walk_chord_1,
     violin_1_random_walk_chord_1,
     violin_2_random_walk_chord_1,
-    viola_random_walk_chord_1,
-    cello_random_walk_chord_1,
 )
 
 # violin 1

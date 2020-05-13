@@ -1,6 +1,5 @@
 from hamon_shu.Materials.dynamics.Segment_III.dynamic_handlers import *
 
-
 key_list_1 = ["dynamic_handler_three", "dynamic_handler_two", "dynamic_handler_three"]
 
 key_list_2 = ["dynamic_handler_three", "dynamic_handler_two", "dynamic_handler_three"]

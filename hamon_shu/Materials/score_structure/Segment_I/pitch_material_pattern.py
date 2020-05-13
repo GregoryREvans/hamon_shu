@@ -1,7 +1,6 @@
 import evans
 from hamon_shu.Materials.pitch.Segment_I.pitch_handlers import *
 
-
 key_list_1 = [
     "violin_1_pitch_handler_one",
     "violin_1_pitch_handler_two",

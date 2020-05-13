@@ -1,7 +1,7 @@
 import numpy as np
+
 import evans
 from hamon_shu.Materials.music_makers import *
-
 
 transition_prob = {
     "music_maker_one": {

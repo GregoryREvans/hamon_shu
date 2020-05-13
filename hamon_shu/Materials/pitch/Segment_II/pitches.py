@@ -1,18 +1,15 @@
 import abjad
 import evans
 from hamon_shu.Materials.score_structure.instruments import (
-    instrument_one_range_lowest,
-    instrument_two_range_lowest,
-    instrument_three_range_lowest,
-    instrument_four_range_lowest,
-)
-from hamon_shu.Materials.score_structure.instruments import (
-    instrument_one_range_highest,
-    instrument_two_range_highest,
-    instrument_three_range_highest,
     instrument_four_range_highest,
+    instrument_four_range_lowest,
+    instrument_one_range_highest,
+    instrument_one_range_lowest,
+    instrument_three_range_highest,
+    instrument_three_range_lowest,
+    instrument_two_range_highest,
+    instrument_two_range_lowest,
 )
-
 
 chord_1 = [-24, -20, -15, -14, -4, 5, 11, 19, 26, 37, 39, 42]
 chord_2 = [-24, -16, -9, 2, 4, 7, 13, 17, 22, 23, 33, 42]

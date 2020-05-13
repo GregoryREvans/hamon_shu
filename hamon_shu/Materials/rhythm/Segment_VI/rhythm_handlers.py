@@ -1,6 +1,6 @@
 import abjad
-import evans
 import abjadext.rmakers
+import evans
 from hamon_shu.Materials.rhythm.Segment_VI.rhythm_makers import *
 
 silence_maker = abjadext.rmakers.stack(

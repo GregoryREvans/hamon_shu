@@ -1,5 +1,13 @@
 import evans
 from hamon_shu.Materials.pitch.Segment_VII.pitches import (
+    cello_random_walk_chord_1,
+    cello_random_walk_chord_2,
+    cello_random_walk_chord_3,
+    cello_random_walk_chord_4,
+    viola_random_walk_chord_1,
+    viola_random_walk_chord_2,
+    viola_random_walk_chord_3,
+    viola_random_walk_chord_4,
     violin_1_random_walk_chord_1,
     violin_1_random_walk_chord_2,
     violin_1_random_walk_chord_3,
@@ -8,14 +16,6 @@ from hamon_shu.Materials.pitch.Segment_VII.pitches import (
     violin_2_random_walk_chord_2,
     violin_2_random_walk_chord_3,
     violin_2_random_walk_chord_4,
-    viola_random_walk_chord_1,
-    viola_random_walk_chord_2,
-    viola_random_walk_chord_3,
-    viola_random_walk_chord_4,
-    cello_random_walk_chord_1,
-    cello_random_walk_chord_2,
-    cello_random_walk_chord_3,
-    cello_random_walk_chord_4,
 )
 
 # violin 1

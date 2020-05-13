@@ -1,4 +1,5 @@
 import numpy as np
+
 import evans
 from hamon_shu.Materials.rhythm.Segment_III.rhythm_handlers import *
 

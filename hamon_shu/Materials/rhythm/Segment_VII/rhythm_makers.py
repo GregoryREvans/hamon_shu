@@ -1,7 +1,6 @@
 import abjad
-import evans
 import abjadext.rmakers
-
+import evans
 
 padovan_4 = evans.e_dovan_cycle(n=3, iters=60, first=5, second=8, modulus=5)
 padovan_5 = evans.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=3)

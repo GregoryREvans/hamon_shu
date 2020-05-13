@@ -1,6 +1,5 @@
 import evans
 
-
 dynamic_handler_two = evans.DynamicHandler(
     dynamic_list=["mf", "mp", "mf", "f"],
     hold_first_boolean_vector=[0, 1],

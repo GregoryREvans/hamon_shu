@@ -1,6 +1,5 @@
-import evans
 import abjad
-
+import evans
 
 articulation_handler_one = evans.TextSpanHandler(
     span_one_positions=["1/2", "1/4", "3/4", "4/4", "0/4"],

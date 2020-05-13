@@ -1,8 +1,7 @@
 import abjad
-import evans
 import abjadext.rmakers
+import evans
 from hamon_shu.Materials.rhythm.Segment_II.rtm_lists import final_rtm_list
-
 
 padovan_4 = evans.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
 
