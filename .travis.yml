@@ -1,15 +1,13 @@
-# hello world, this is my first travis file
-sudo: false
+os: linux
+
+dist: xenial
 
 language: python
 
-# xenial necessary for "3.8-dev"
-# dist: xenial # this test latex
-
 python:
     - 3.6
-    # - 3.7
-    #- "3.8-dev"
+    - 3.7
+    - 3.8
 
 before_install:
     # name working directory:
@@ -25,7 +23,7 @@ before_install:
     # install lilypond:
     - LILYPOND=/tmp/lilypond
     - LILYPOND_URL=http://lilypond.org/download/binaries/linux-64/
-    - LILYPOND_SOURCE=lilypond-2.19.83-1.linux-64.sh
+    - LILYPOND_SOURCE=lilypond-2.19.84-1.linux-64.sh
     - wget -q -O $LILYPOND $LILYPOND_URL/$LILYPOND_SOURCE
     - sh $LILYPOND --batch
 
@@ -59,25 +57,11 @@ before_install:
     - git clone https://github.com/ivanalexandermoscotta/tsmakers.git $TSMAKERS
     - export PYTHONPATH=$TSMAKERS:$PYTHONPATH
 
-    # # clone & install numpy:
-    # - NUMPY=/tmp/numpy
-    # - git clone https://github.com/numpy/numpy.git $NUMPY
-    # - export PYTHONPATH=$NUMPY:$PYTHONPATH
-    #
-    # # clone & install scipy:
-    # - NUMPY=/tmp/scipy
-    # - git clone https://github.com/scipy/scipy.git $SCIPY
-    # - export PYTHONPATH=$SCIPY:$PYTHONPATH
-
     # log setup:
     - echo $PYTHONPATH
 
-install:
-    - pip install coverage
-    # - pip install -e .
-
 script:
-    - coverage run -a `which py.test` -rf $PACKAGE
+    - py.test -rf $PACKAGE
 
 after_success:
     - pip install --quiet coveralls
