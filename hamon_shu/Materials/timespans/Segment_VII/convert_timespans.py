@@ -13,7 +13,6 @@ from hamon_shu.Materials.score_structure.Segment_VII.notehead_material_pattern i
 from hamon_shu.Materials.score_structure.Segment_VII.pitch_material_pattern import (
     pitch_material_list,
 )
-# from evans.abjad_functions.ConvertTimespans import ConvertTimespans
 from hamon_shu.Materials.score_structure.Segment_VII.rhythm_material_pattern import (
     rhythm_material_list,
 )

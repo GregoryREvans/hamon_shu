@@ -3,7 +3,9 @@ import pathlib
 import abjad
 import evans
 from hamon_shu.Materials.pitch.Segment_VI.clef_handlers import clef_handlers
-from hamon_shu.Materials.score_structure.Segment_VI.time_signatures import time_signatures
+from hamon_shu.Materials.score_structure.Segment_VI.time_signatures import (
+    time_signatures,
+)
 from hamon_shu.Materials.score_structure.instruments import instruments as insts
 from hamon_shu.Materials.score_structure.score_structure import score
 from hamon_shu.Materials.timespans.Segment_VI.convert_timespans import (

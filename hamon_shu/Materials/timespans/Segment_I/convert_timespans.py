@@ -10,7 +10,6 @@ from hamon_shu.Materials.score_structure.Segment_I.dynamic_material_pattern impo
 from hamon_shu.Materials.score_structure.Segment_I.pitch_material_pattern import (
     pitch_material_list,
 )
-# from evans.abjad_functions.ConvertTimespans import ConvertTimespans
 from hamon_shu.Materials.score_structure.Segment_I.rhythm_material_pattern import (
     rhythm_material_list,
 )

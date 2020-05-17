@@ -1,4 +1,3 @@
-# import baca
 import abjad
 import evans
 
