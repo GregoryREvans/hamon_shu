@@ -1,6 +1,5 @@
 import pathlib
 
-import abjad
 import evans
 from hamon_shu.Materials.pitch.Segment_VI.clef_handlers import clef_handlers
 from hamon_shu.Materials.score_structure.Segment_VI.time_signatures import (

@@ -1,4 +1,4 @@
-from hamon_shu.Materials.noteheads.Segment_VI.notehead_handlers import *
+from hamon_shu.Materials.noteheads.Segment_VI import notehead_handlers
 
 key_list_1 = ["notehead_handler_one", "notehead_handler_two", "notehead_handler_three"]
 
@@ -14,9 +14,9 @@ key_list_3 = [
 key_list_4 = ["notehead_handler_three"]
 
 dict = {
-    "notehead_handler_one": notehead_handler_one,
-    "notehead_handler_two": notehead_handler_two,
-    "notehead_handler_three": notehead_handler_three,
+    "notehead_handler_one": notehead_handlers.notehead_handler_one,
+    "notehead_handler_two": notehead_handlers.notehead_handler_two,
+    "notehead_handler_three": notehead_handlers.notehead_handler_three,
 }
 
 

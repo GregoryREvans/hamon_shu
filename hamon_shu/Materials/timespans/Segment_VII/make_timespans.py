@@ -3,7 +3,6 @@ from collections import OrderedDict
 import abjad
 import abjadext.rmakers as rmakers
 import evans
-from hamon_shu.Materials.rhythm.Segment_VII.rhythm_handlers import *
 from hamon_shu.Materials.score_structure.instruments import instruments
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 

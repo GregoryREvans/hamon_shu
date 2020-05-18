@@ -1,4 +1,4 @@
-from hamon_shu.Materials.dynamics.Segment_V.dynamic_handlers import *
+from hamon_shu.Materials.dynamics.Segment_V import dynamic_handlers
 
 key_list_1 = ["dynamic_handler_three", "dynamic_handler_two", "dynamic_handler_three"]
 
@@ -14,8 +14,8 @@ key_list_3 = [
 key_list_4 = ["dynamic_handler_three"]
 
 dict = {
-    "dynamic_handler_two": dynamic_handler_two,
-    "dynamic_handler_three": dynamic_handler_three,
+    "dynamic_handler_two": dynamic_handlers.dynamic_handler_two,
+    "dynamic_handler_three": dynamic_handlers.dynamic_handler_three,
 }
 
 

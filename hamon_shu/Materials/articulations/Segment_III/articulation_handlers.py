@@ -1,4 +1,3 @@
-import abjad
 import evans
 
 articulation_handler_one = evans.ArticulationHandler(

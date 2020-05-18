@@ -1,4 +1,4 @@
-from hamon_shu.Materials.articulations.Segment_VI.articulation_handlers import *
+from hamon_shu.Materials.articulations.Segment_VI import articulation_handlers
 
 key_list_1 = [
     "articulation_handler_one",
@@ -29,9 +29,9 @@ key_list_4 = [
 ]
 
 dict = {
-    "articulation_handler_one": articulation_handler_one,
-    "articulation_handler_two": articulation_handler_two,
-    "articulation_handler_three": articulation_handler_three,
+    "articulation_handler_one": articulation_handlers.articulation_handler_one,
+    "articulation_handler_two": articulation_handlers.articulation_handler_two,
+    "articulation_handler_three": articulation_handlers.articulation_handler_three,
 }
 
 

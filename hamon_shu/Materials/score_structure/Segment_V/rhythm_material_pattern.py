@@ -1,7 +1,9 @@
-import numpy as np
-
-import evans
-from hamon_shu.Materials.rhythm.Segment_V.rhythm_handlers import *
+from hamon_shu.Materials.rhythm.Segment_V.rhythm_handlers import (
+    rhythm_handler_eight,
+    rhythm_handler_seven,
+    rhythm_handler_six,
+    silence_maker,
+)
 
 key_list_1 = [
     "rhythm_handler_six",

@@ -1,4 +1,3 @@
-import abjad
 import evans
 
 notehead_handler_one = evans.NoteheadHandler(
