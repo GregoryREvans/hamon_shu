@@ -1,4 +1,4 @@
-from hamon_shu.Materials.dynamics.Segment_VII.dynamic_handlers import dynamic_handlers
+from hamon_shu.Materials.dynamics.Segment_VII import dynamic_handlers
 
 key_list_1 = [
     "dynamic_handler_one",

@@ -1,6 +1,4 @@
-from hamon_shu.Materials.articulations.Segment_II.articulation_handlers import (
-    articulation_handlers,
-)
+from hamon_shu.Materials.articulations.Segment_II import articulation_handlers
 
 key_list_1 = [
     "articulation_handler_three",
