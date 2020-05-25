@@ -60,18 +60,3 @@ articulation_timespan_maker = TaleaTimespanMaker(
 articulation_timespan_list = articulation_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=articulation_target_timespan
 )
-
-##############
-#  note head #
-##############
-notehead_target_timespan = abjad.Timespan(0, 15)
-
-notehead_timespan_maker = TaleaTimespanMaker(
-    playing_talea=rmakers.Talea(counts=([15]), denominator=8),
-    initial_silence_talea=rmakers.Talea(counts=([0]), denominator=8),
-    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-)
-
-notehead_timespan_list = articulation_timespan_maker(
-    music_specifiers=music_specifiers, target_timespan=notehead_target_timespan
-)

@@ -7,9 +7,6 @@ from hamon_shu.Materials.score_structure.Segment_IV.articulation_material_patter
 from hamon_shu.Materials.score_structure.Segment_IV.dynamic_material_pattern import (
     dynamic_material_list,
 )
-from hamon_shu.Materials.score_structure.Segment_IV.notehead_material_pattern import (
-    notehead_material_list,
-)
 from hamon_shu.Materials.score_structure.Segment_IV.pitch_material_pattern import (
     pitch_material_list,
 )
@@ -20,7 +17,6 @@ from hamon_shu.Materials.score_structure.Segment_IV.time_signatures import bound
 from hamon_shu.Materials.timespans.Segment_IV.make_timespans import (
     articulation_timespan_list,
     dynamic_timespan_list,
-    notehead_timespan_list,
     pitch_timespan_list,
     rhythm_timespan_list,
 )
@@ -83,21 +79,6 @@ Segment_IV_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     fill_gaps=False,
 )
 
-##############
-#  note head #
-##############
-notehead_mat = notehead_material_list
-
-Segment_IV_notehead_timespans = evans.ConvertTimespans.convert_timespans(
-    materials=notehead_mat,
-    ts_list=notehead_timespan_list,
-    bounds=bounds,
-    segment_name="Segment_IV_notehead_timespans",
-    current_directory=pathlib.Path(__file__).parent,
-    add_silence=False,
-    fill_gaps=False,
-)
-
 ###############
 # all timespans#
 ###############
@@ -105,5 +86,4 @@ Segment_IV_timespans = [
     Segment_IV_pitch_timespans,
     Segment_IV_dynamic_timespans,
     Segment_IV_articulation_timespans,
-    # Segment_IV_notehead_timespans,
 ]
