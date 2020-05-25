@@ -1,4 +1,4 @@
-from hamon_shu.Materials.pitch.Segment_II import pitch_handlers
+from hamon_shu.Materials.pitch import pitches_II
 
 key_list_1 = [
     "violin_1_pitch_handler_two",
@@ -45,22 +45,22 @@ key_list_4 = [
 ]
 
 dict = {
-    "violin_1_pitch_handler_one": pitch_handlers.violin_1_pitch_handler_one,
-    "violin_1_pitch_handler_two": pitch_handlers.violin_1_pitch_handler_two,
-    "violin_1_pitch_handler_three": pitch_handlers.violin_1_pitch_handler_three,
-    "violin_1_pitch_handler_four": pitch_handlers.violin_1_pitch_handler_four,
-    "violin_2_pitch_handler_one": pitch_handlers.violin_2_pitch_handler_one,
-    "violin_2_pitch_handler_two": pitch_handlers.violin_2_pitch_handler_two,
-    "violin_2_pitch_handler_three": pitch_handlers.violin_2_pitch_handler_three,
-    "violin_2_pitch_handler_four": pitch_handlers.violin_2_pitch_handler_four,
-    "viola_pitch_handler_one": pitch_handlers.viola_pitch_handler_one,
-    "viola_pitch_handler_two": pitch_handlers.viola_pitch_handler_two,
-    "viola_pitch_handler_three": pitch_handlers.viola_pitch_handler_three,
-    "viola_pitch_handler_four": pitch_handlers.viola_pitch_handler_four,
-    "cello_pitch_handler_one": pitch_handlers.cello_pitch_handler_one,
-    "cello_pitch_handler_two": pitch_handlers.cello_pitch_handler_two,
-    "cello_pitch_handler_three": pitch_handlers.cello_pitch_handler_three,
-    "cello_pitch_handler_four": pitch_handlers.cello_pitch_handler_four,
+    "violin_1_pitch_handler_one": pitches_II.violin_1_pitch_handler_one,
+    "violin_1_pitch_handler_two": pitches_II.violin_1_pitch_handler_two,
+    "violin_1_pitch_handler_three": pitches_II.violin_1_pitch_handler_three,
+    "violin_1_pitch_handler_four": pitches_II.violin_1_pitch_handler_four,
+    "violin_2_pitch_handler_one": pitches_II.violin_2_pitch_handler_one,
+    "violin_2_pitch_handler_two": pitches_II.violin_2_pitch_handler_two,
+    "violin_2_pitch_handler_three": pitches_II.violin_2_pitch_handler_three,
+    "violin_2_pitch_handler_four": pitches_II.violin_2_pitch_handler_four,
+    "viola_pitch_handler_one": pitches_II.viola_pitch_handler_one,
+    "viola_pitch_handler_two": pitches_II.viola_pitch_handler_two,
+    "viola_pitch_handler_three": pitches_II.viola_pitch_handler_three,
+    "viola_pitch_handler_four": pitches_II.viola_pitch_handler_four,
+    "cello_pitch_handler_one": pitches_II.cello_pitch_handler_one,
+    "cello_pitch_handler_two": pitches_II.cello_pitch_handler_two,
+    "cello_pitch_handler_three": pitches_II.cello_pitch_handler_three,
+    "cello_pitch_handler_four": pitches_II.cello_pitch_handler_four,
 }
 
 
