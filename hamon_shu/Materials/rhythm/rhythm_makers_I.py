@@ -10,12 +10,6 @@ rmaker_one = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([6], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -25,12 +19,6 @@ rmaker_two = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -69,10 +57,25 @@ rmaker_three = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([3], cyclic=True, overhang=True)
-    #     .map(abjad.select()[-1])
-    # ),
+)
+
+### HANDLERS ###
+silence_maker = abjadext.rmakers.stack(
+    abjadext.rmakers.NoteRhythmMaker(),
+    abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),
+)
+
+silence_maker = evans.RhythmHandler(rmaker=silence_maker, name="silence maker")
+
+
+rhythm_handler_one = evans.RhythmHandler(
+    rmaker=rmaker_one, continuous=True, name="rhythm_handler_one"
+)
+
+rhythm_handler_two = evans.RhythmHandler(
+    rmaker=rmaker_two, continuous=True, name="rhythm_handler_two"
+)
+
+rhythm_handler_three = evans.RhythmHandler(
+    rmaker=rmaker_three, continuous=True, name="rhythm_handler_three"
 )

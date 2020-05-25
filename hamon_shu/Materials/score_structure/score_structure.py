@@ -1,5 +1,6 @@
 import abjad
-from hamon_shu.Materials.score_structure.instruments import voices
+
+from .instruments import voices
 
 voice_staff_names = [[f"Voice {i + 1}", f"Staff {i + 1}"] for i in range(voices)]
 score = abjad.Score(

@@ -12,12 +12,6 @@ rmaker_six = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -27,12 +21,6 @@ rmaker_seven = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -42,10 +30,24 @@ rmaker_eight = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
+)
+
+### HANDLERS ###
+silence_maker = abjadext.rmakers.stack(
+    abjadext.rmakers.NoteRhythmMaker(),
+    abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),
+)
+
+silence_maker = evans.RhythmHandler(rmaker=silence_maker, name="silence maker")
+
+rhythm_handler_six = evans.RhythmHandler(
+    rmaker=rmaker_six, continuous=True, name="rhythm_handler_six"
+)
+
+rhythm_handler_seven = evans.RhythmHandler(
+    rmaker=rmaker_seven, continuous=True, name="rhythm_handler_seven"
+)
+
+rhythm_handler_eight = evans.RhythmHandler(
+    rmaker=rmaker_eight, continuous=True, name="rhythm_handler_eight"
 )

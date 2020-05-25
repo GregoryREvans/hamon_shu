@@ -2,22 +2,15 @@ import abjad
 import abjadext.rmakers
 import evans
 
-padovan_4 = evans.e_dovan_cycle(n=3, iters=60, first=5, second=8, modulus=21)
-padovan_5 = evans.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=13)
-padovan_6 = evans.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=8)
+padovan_5 = evans.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=9)
+padovan_6 = evans.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=7)
 
 rmaker_six = abjadext.rmakers.stack(
-    abjadext.rmakers.talea(padovan_5, 8, extra_counts=[0, 1, 0, 0, -1]),  # E
+    abjadext.rmakers.even_division([4, 2, 4, 8, 4], extra_counts=[0, 1, -1, 1]),  # A
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -27,12 +20,6 @@ rmaker_seven = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
 )
 
 ######
@@ -42,10 +29,24 @@ rmaker_eight = abjadext.rmakers.stack(
     abjadext.rmakers.extract_trivial(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_rest_filled(abjad.select().tuplets()),
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
-    # abjadext.rmakers.force_rest(
-    #     abjad.select()
-    #     .logical_ties(pitched=True)
-    #     .partition_by_counts([4], cyclic=True, overhang=True)
-    #     .map(abjad.select()[2])
-    # ),
+)
+
+### HANDLERS ###
+silence_maker = abjadext.rmakers.stack(
+    abjadext.rmakers.NoteRhythmMaker(),
+    abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),
+)
+
+silence_maker = evans.RhythmHandler(rmaker=silence_maker, name="silence maker")
+
+rhythm_handler_six = evans.RhythmHandler(
+    rmaker=rmaker_six, continuous=True, name="rhythm_handler_six"
+)
+
+rhythm_handler_seven = evans.RhythmHandler(
+    rmaker=rmaker_seven, continuous=True, name="rhythm_handler_seven"
+)
+
+rhythm_handler_eight = evans.RhythmHandler(
+    rmaker=rmaker_eight, continuous=True, name="rhythm_handler_eight"
 )

@@ -1,4 +1,4 @@
-from hamon_shu.Materials.rhythm.Segment_I.rhythm_handlers import (
+from hamon_shu.Materials.rhythm.rhythm_makers_I import (
     rhythm_handler_one,
     rhythm_handler_three,
     rhythm_handler_two,
