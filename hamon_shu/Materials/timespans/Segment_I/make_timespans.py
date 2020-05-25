@@ -71,24 +71,3 @@ dynamic_timespan_maker = TaleaTimespanMaker(
 dynamic_timespan_list = dynamic_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=dynamic_target_timespan
 )
-
-##############
-# articulation#
-##############
-articulation_target_timespan = abjad.Timespan(0, 27)
-
-articulation_timespan_maker = TaleaTimespanMaker(
-    # initial_silence_talea=rmakers.Talea(counts=([0, 5, 3, 6, 2]), denominator=8),
-    # synchronize_step=True, #goes down voices instead of across? maybe not consistent...
-    # synchronize_groupings=True, #goes down voices instead of across? maybe not consistent...
-    playing_talea=rmakers.Talea(counts=(padovan_3), denominator=2),
-    # playing_groupings=(
-    #     [1, 2, 3, 2]
-    # ),  # smashes timespans together without intermittent silence
-    silence_talea=rmakers.Talea(counts=([0]), denominator=4),
-    # fuse_groups=False, #turns groups from multiple timespans into one large timespan
-)
-
-articulation_timespan_list = articulation_timespan_maker(
-    music_specifiers=music_specifiers, target_timespan=articulation_target_timespan
-)

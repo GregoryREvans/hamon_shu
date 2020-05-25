@@ -1,21 +1,5 @@
 import evans
 
-articulation_handler_one = evans.ArticulationHandler(
-    articulation_list=[
-        "accent",
-        "default",
-        "default",
-        "tenuto",
-        "accent",
-        "default",
-        "espressivo",
-        "default",
-        "default",
-    ],
-    continuous=True,
-    name="articulation_handler_one",
-)
-
 articulation_handler_two = evans.ArticulationHandler(
     articulation_list=[
         "tenuto",

@@ -22,7 +22,6 @@ key_list_3 = [
 key_list_4 = ["articulation_handler_three"]
 
 dict = {
-    "articulation_handler_one": articulation_handlers.articulation_handler_one,
     "articulation_handler_two": articulation_handlers.articulation_handler_two,
     "articulation_handler_three": articulation_handlers.articulation_handler_three,
 }
