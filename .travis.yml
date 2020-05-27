@@ -20,11 +20,10 @@ before_install:
     # upgrade pip:
     - pip install --upgrade pip
 
-    # install flake8:
+    # install isort, flake8, mypy:
     - pip install flake8
-
-    # install isort:
     - pip install isort
+    - pip install mypy
 
     # install lilypond:
     - LILYPOND=/tmp/lilypond
@@ -82,11 +81,13 @@ before_install:
     - which evans-doctest
     - which flake8-check
     - which isort-check
+    - which mypy-check
 
 script:
     - black-check $PACKAGE
     - flake8-check $PACKAGE
     - isort-check $PACKAGE
+    - mypy-check $PACKAGE
     - evans-doctest $PACKAGE
     - py.test -rf $PACKAGE/test.py
 
