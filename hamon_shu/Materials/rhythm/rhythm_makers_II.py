@@ -1,5 +1,3 @@
-import typing
-
 import abjad
 import abjadext.rmakers
 import evans
