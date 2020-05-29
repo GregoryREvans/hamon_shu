@@ -10,9 +10,6 @@ python:
     - 3.8
 
 before_install:
-    # name working directory:
-    - LOCATION=`pwd`
-
     # alias package:
     - PACKAGE=`pwd`/hamon_shu
     - export PYTHONPATH=$PACKAGE:$PYTHONPATH
@@ -20,7 +17,7 @@ before_install:
     # upgrade pip:
     - pip install --upgrade pip
 
-    # install isort, flake8, mypy:
+    # install testers:
     - pip install flake8
     - pip install isort
     - pip install mypy
@@ -42,9 +39,7 @@ before_install:
     # clone & install rmakers:
     - RMAKERS=/tmp/abjad-ext-rmakers
     - git clone https://github.com/Abjad/abjad-ext-rmakers.git $RMAKERS
-    - cd $RMAKERS
     - pip install -e $RMAKERS
-    - cd $LOCATION
     - export MYPYPATH=$MYPYPATH:$RMAKERS
 
     # clone & install evans:
@@ -52,6 +47,8 @@ before_install:
     - git clone https://github.com/GregoryREvans/evans.git $EVANS
     - export PYTHONPATH=$EVANS/:$PYTHONPATH
     - export PATH=$EVANS/evans/scr/:$PATH
+    - export MYPYPATH=$MYPYPATH:$EVANS
+    - ln -s $EVANS/evans/dotfiles/.mypy.ini ~/.mypy.ini
 
     # clone & install baca:
     - BACA=/tmp/baca
@@ -77,18 +74,20 @@ before_install:
     - echo $TRAVIS_BUILD_DIR
     - ls
     - echo $PACKAGE
+    - pwd
+    - echo $TRAVIS_BUILD_DIR
     - which black-check
     - which evans-doctest
     - which flake8-check
     - which isort-check
-    - which mypy-check
+    - which mypy
 
 script:
     - black-check $PACKAGE
     - flake8-check $PACKAGE
     - isort-check $PACKAGE
-    - mypy-check $PACKAGE
     - evans-doctest $PACKAGE
+    - mypy $PACKAGE
     - py.test -rf $PACKAGE/test.py
 
 notifications:
