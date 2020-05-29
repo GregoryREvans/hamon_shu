@@ -33,12 +33,12 @@ rmaker_eight = abjadext.rmakers.stack(
 )
 
 ### HANDLERS ###
-silence_maker = abjadext.rmakers.stack(
+silence_maker_ = abjadext.rmakers.stack(
     abjadext.rmakers.NoteRhythmMaker(),
     abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),
 )
 
-silence_maker = evans.RhythmHandler(rmaker=silence_maker, name="silence maker")
+silence_maker = evans.RhythmHandler(rmaker=silence_maker_, name="silence maker")
 
 rhythm_handler_six = evans.RhythmHandler(
     rmaker=rmaker_six, continuous=True, name="rhythm_handler_six"
