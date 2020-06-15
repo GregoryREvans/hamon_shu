@@ -14,9 +14,9 @@ music_specifiers = OrderedDict(
     [(f"Voice {i+1}", None) for i, name in enumerate(instruments)]
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_target_timespan = abjad.Timespan(0, 15)
 
 rhythm_timespan_maker = TaleaTimespanMaker(
@@ -32,9 +32,9 @@ rhythm_timespan_list = rhythm_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=rhythm_target_timespan
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_target_timespan = abjad.Timespan(0, 15)
 
 pitch_timespan_maker = TaleaTimespanMaker(
@@ -46,9 +46,9 @@ pitch_timespan_list = pitch_timespan_maker(
     music_specifiers=music_specifiers, target_timespan=pitch_target_timespan
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_target_timespan = abjad.Timespan(0, 15)
 
 articulation_timespan_maker = TaleaTimespanMaker(

@@ -17,9 +17,9 @@ from hamon_shu.Materials.timespans.Segment_VII.make_timespans import (
     rhythm_timespan_list,
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_mat = rhythm_material_list
 
 Segment_VII_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
@@ -32,9 +32,9 @@ Segment_VII_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     split=True,
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_mat = pitch_material_list
 
 Segment_VII_pitch_timespans = evans.ConvertTimespans.convert_timespans(
@@ -46,9 +46,9 @@ Segment_VII_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_mat = articulation_material_list
 
 Segment_VII_articulation_timespans = evans.ConvertTimespans.convert_timespans(
@@ -61,9 +61,9 @@ Segment_VII_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     fill_gaps=False,
 )
 
-###############
+# ##############
 # all timespans#
-###############
+# ##############
 Segment_VII_timespans = [
     Segment_VII_pitch_timespans,
     Segment_VII_articulation_timespans,

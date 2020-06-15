@@ -25,9 +25,9 @@ from hamon_shu.Materials.timespans.Segment_V.make_timespans import (
     rhythm_timespan_list,
 )
 
-########
+# #######
 # rhythm#
-########
+# #######
 rhythm_mat = rhythm_material_list
 
 Segment_V_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
@@ -40,9 +40,9 @@ Segment_V_rhythm_timespans = evans.ConvertTimespans.convert_timespans(
     split=True,
 )
 
-#######
+# ######
 # pitch#
-#######
+# ######
 pitch_mat = pitch_material_list
 
 Segment_V_pitch_timespans = evans.ConvertTimespans.convert_timespans(
@@ -54,9 +54,9 @@ Segment_V_pitch_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-#########
+# ########
 # dynamic#
-#########
+# ########
 dynamic_mat = dynamic_material_list
 
 Segment_V_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
@@ -68,9 +68,9 @@ Segment_V_dynamic_timespans = evans.ConvertTimespans.convert_timespans(
     add_silence=False,
 )
 
-##############
+# #############
 # articulation#
-##############
+# #############
 articulation_mat = articulation_material_list
 
 Segment_V_articulation_timespans = evans.ConvertTimespans.convert_timespans(
@@ -83,9 +83,9 @@ Segment_V_articulation_timespans = evans.ConvertTimespans.convert_timespans(
     fill_gaps=False,
 )
 
-##############
+# #############
 #  note head #
-##############
+# #############
 notehead_mat = notehead_material_list
 
 Segment_V_notehead_timespans = evans.ConvertTimespans.convert_timespans(
@@ -98,9 +98,9 @@ Segment_V_notehead_timespans = evans.ConvertTimespans.convert_timespans(
     fill_gaps=False,
 )
 
-###############
+# ##############
 # all timespans#
-###############
+# ##############
 Segment_V_timespans = [
     Segment_V_pitch_timespans,
     Segment_V_dynamic_timespans,

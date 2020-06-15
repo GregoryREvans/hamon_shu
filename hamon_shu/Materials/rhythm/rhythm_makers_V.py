@@ -13,7 +13,7 @@ rmaker_six = abjadext.rmakers.stack(
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
 )
 
-######
+# #####
 rmaker_seven = abjadext.rmakers.stack(
     abjadext.rmakers.talea(padovan_5, 4, extra_counts=[0, 1, 0, 0, -1]),  # E
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
@@ -22,7 +22,7 @@ rmaker_seven = abjadext.rmakers.stack(
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
 )
 
-######
+# #####
 rmaker_eight = abjadext.rmakers.stack(
     abjadext.rmakers.talea(padovan_6, 2, extra_counts=[-1, 0, 1, 1, 0]),  # F
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
@@ -31,7 +31,7 @@ rmaker_eight = abjadext.rmakers.stack(
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
 )
 
-### HANDLERS ###
+# ## HANDLERS ###
 silence_maker_ = abjadext.rmakers.stack(
     abjadext.rmakers.NoteRhythmMaker(),
     abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),

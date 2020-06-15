@@ -31,7 +31,7 @@ for tuple_ in tuple_list:
 
 final_rtm_list = evans.rotate(final_rtm_list, 1)
 
-### MAKERS ###
+# ## MAKERS ###
 
 padovan_1 = evans.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=9)
 
@@ -47,10 +47,10 @@ rmaker_three = abjadext.rmakers.stack(
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
 )
 
-######
+# #####
 rmaker_four = evans.RTMMaker(rtm=final_rtm_list)  # D
 
-######
+# #####
 rmaker_five = abjadext.rmakers.stack(
     abjadext.rmakers.talea(padovan_2, 4, extra_counts=[0, 1, 0, -1]),  # E
     abjadext.rmakers.trivialize(abjad.select().tuplets()),
@@ -59,7 +59,7 @@ rmaker_five = abjadext.rmakers.stack(
     abjadext.rmakers.rewrite_sustained(abjad.select().tuplets()),
 )
 
-### HANDLERS ###
+# ## HANDLERS ###
 silence_maker_ = abjadext.rmakers.stack(
     abjadext.rmakers.NoteRhythmMaker(),
     abjadext.rmakers.force_rest(abjad.select().leaves(pitched=True)),

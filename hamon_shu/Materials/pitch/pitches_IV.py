@@ -380,7 +380,7 @@ cello_random_walk_chord_4 = [
     evans.to_nearest_quarter_tone(_) for _ in cello_random_walk_chord_4
 ]
 
-### HANDLERS ###
+# ## HANDLERS ###
 # violin 1
 violin_1_pitch_handler_one = evans.PitchHandler(
     pitch_list=violin_1_random_walk_chord_1,
