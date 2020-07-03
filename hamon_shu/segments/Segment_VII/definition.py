@@ -61,10 +61,6 @@ maker = evans.SegmentMaker(
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
         "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",
     ],
-    parts_includes=[
-        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily",
-    ],
     segment_name="Segment_VII",
     current_directory=pathlib.Path(__file__).parent,
     build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
@@ -76,7 +72,6 @@ maker = evans.SegmentMaker(
     rehearsal_mark="F",
     page_break_counts=[1, 8, 7, 9],
     colophon=c,
-    midi=False,
 )
 
 maker.build_segment()
