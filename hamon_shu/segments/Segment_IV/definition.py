@@ -21,7 +21,6 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    voicewise_persistent_indicators=[[], [], [], []],
     tuplet_bracket_noteheads=False,
     add_final_grand_pause=False,
     score_includes=[

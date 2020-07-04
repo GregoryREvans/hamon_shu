@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+import baca
 import evans
 from hamon_shu.Materials.score_structure.Segment_VII.time_signatures import (
     time_signatures,
@@ -27,6 +28,49 @@ c = abjad.LilyPondLiteral(
     format_slot="absolute_after",
 )
 
+commands = [
+    evans.attach(
+        "Voice 1",
+        abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 1",
+        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 2",
+        abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 2",
+        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 3",
+        abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 3",
+        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 4",
+        abjad.Dynamic("appena udibile al fino", name_is_textual=True),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 4",
+        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
+        baca.leaf(0),
+    ),
+]
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
@@ -36,24 +80,7 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    voicewise_persistent_indicators=[
-        [
-            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        ],
-        [
-            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        ],
-        [
-            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        ],
-        [
-            abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-            abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        ],
-    ],
+    commands=commands,
     tuplet_bracket_noteheads=False,
     add_final_grand_pause=True,
     fermata="scripts.uverylongfermata",

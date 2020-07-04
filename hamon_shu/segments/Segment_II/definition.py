@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+import baca
 import evans
 from hamon_shu.Materials.score_structure.Segment_II.time_signatures import (
     time_signatures,
@@ -13,6 +14,8 @@ from hamon_shu.Materials.timespans.Segment_II.convert_timespans import (
     Segment_II_timespans,
 )
 
+commands = [evans.attach("Voice 1", abjad.StopHairpin(), baca.leaf(0))]
+
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
@@ -22,7 +25,7 @@ maker = evans.SegmentMaker(
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
-    voicewise_persistent_indicators=[[abjad.StopHairpin()], [], [], []],
+    commands=commands,
     tuplet_bracket_noteheads=False,
     add_final_grand_pause=True,
     fermata="scripts.ufermata",
