@@ -1,8 +1,8 @@
 from collections import OrderedDict
 
 import abjad
-import abjadext.rmakers as rmakers
 import evans
+from abjadext import rmakers as rmakers
 from hamon_shu.Materials.score_structure.instruments import instruments
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
 
