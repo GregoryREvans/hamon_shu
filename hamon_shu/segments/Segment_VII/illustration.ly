@@ -143,8 +143,8 @@
                     \clef "treble"
                     fs''''1
                     :32
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
-                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
+                    ^ \markup { "col legno tratto al fino" }
                     ~
 
                     \times 2/3 {
@@ -348,9 +348,9 @@
                         \markup { "Violin II" }                                %! applying staff names and clefs
                         \clef "treble"
                         g'2.
-                        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
+                        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
                         - \tenuto
-                        ^ \markup { "col legno tratto al fino" }               %! attaching persistent indicators
+                        ^ \markup { "col legno tratto al fino" }
 
                         bf''2
                         ~
@@ -592,9 +592,9 @@
                     \markup { Viola }                                          %! applying staff names and clefs
                     \clef "varC"
                     b2
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
                     - \tenuto
-                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
+                    ^ \markup { "col legno tratto al fino" }
 
                     \clef "treble"
                     bf''2
@@ -773,8 +773,8 @@
                     \markup { Violoncello }                                    %! applying staff names and clefs
                     \clef "bass"
                     c,1
-                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino")) %! attaching persistent indicators
-                    ^ \markup { "col legno tratto al fino" }                   %! attaching persistent indicators
+                    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
+                    ^ \markup { "col legno tratto al fino" }
                     % [Voice 4 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "tenorvarC"

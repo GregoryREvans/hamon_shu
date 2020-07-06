@@ -96,7 +96,7 @@
                     \clef "treble"
                     eqf'8
                     \f
-                    \!                                                         %! attaching persistent indicators
+                    \!
                     \>
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
