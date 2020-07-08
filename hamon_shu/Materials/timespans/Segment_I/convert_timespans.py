@@ -1,6 +1,7 @@
 import pathlib
 
 import evans
+
 from hamon_shu.Materials.score_structure.Segment_I.dynamic_material_pattern import (
     dynamic_material_list,
 )

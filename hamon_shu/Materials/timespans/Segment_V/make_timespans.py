@@ -3,8 +3,9 @@ from collections import OrderedDict
 import abjad
 import evans
 from abjadext import rmakers as rmakers
-from hamon_shu.Materials.score_structure.instruments import instruments
 from tsmakers.TaleaTimespanMaker import TaleaTimespanMaker
+
+from hamon_shu.Materials.score_structure.instruments import instruments
 
 padovan_1 = evans.e_dovan_cycle(n=3, iters=30, first=3, second=5, modulus=7)
 padovan_2 = evans.e_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=3)
