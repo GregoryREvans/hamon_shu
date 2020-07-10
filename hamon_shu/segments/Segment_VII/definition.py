@@ -87,11 +87,10 @@ maker = evans.SegmentMaker(
     fermata="scripts.uverylongfermata",
     score_includes=[
         "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/first_stylesheet.ily",
+        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily",
     ],
     segment_name="Segment_VII",
-    current_directory=pathlib.Path(__file__).parent,
-    build_path=(pathlib.Path(__file__).parent / ".." / ".." / "Build").resolve(),
+    current_directory=pathlib.Path(__file__).resolve().parent,
     cutaway=False,
     beam_pattern="meter",
     beam_rests=False,
