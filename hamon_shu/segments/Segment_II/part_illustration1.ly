@@ -3,7 +3,7 @@
 
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/Build/parts_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
-\include "/Users/evansdsg2/evans/evans/lilypond/evans-markups.ily" 
+\include "/Users/evansdsg2/evans/lilypond/evans-markups.ily" 
 
 \header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
