@@ -1,5 +1,3 @@
-import pathlib
-
 import evans
 
 from hamon_shu.Materials.score_structure.Segment_IV.articulation_material_pattern import (
@@ -21,6 +19,7 @@ from hamon_shu.Materials.timespans.Segment_IV.make_timespans import (
     pitch_timespan_list,
     rhythm_timespan_list,
 )
+
 from .make_timespans import music_specifiers
 
 voice_names = [specifier for specifier in music_specifiers]
