@@ -16,10 +16,10 @@ chord_2 = [-24, -16, -9, 2, 4, 7, 13, 17, 22, 23, 33, 42]
 chord_3 = [-24, -21, -19, -8, -1, 7, 13, 22, 32, 33, 38, 42]
 chord_4 = [-24, -15, -5, -4, 1, 5, 11, 14, 16, 27, 34, 42]
 
-chord_1 = evans.reproportion_chord(base=10, chord=chord_1, round=True)
-chord_2 = evans.reproportion_chord(base=10, chord=chord_2, round=True)
-chord_3 = evans.reproportion_chord(base=10, chord=chord_3, round=True)
-chord_4 = evans.reproportion_chord(base=10, chord=chord_4, round=True)
+chord_1 = evans.reproportion_chord(base=10, chord=chord_1, round=evans.to_nearest_eighth_tone)
+chord_2 = evans.reproportion_chord(base=10, chord=chord_2, round=evans.to_nearest_eighth_tone)
+chord_3 = evans.reproportion_chord(base=10, chord=chord_3, round=evans.to_nearest_eighth_tone)
+chord_4 = evans.reproportion_chord(base=10, chord=chord_4, round=evans.to_nearest_eighth_tone)
 
 # violin 1
 violin_1_chord_1 = [

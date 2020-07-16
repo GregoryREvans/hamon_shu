@@ -9,16 +9,16 @@ from hamon_shu.Materials.score_structure.clef_handlers import clef_handlers
 from hamon_shu.Materials.score_structure.instruments import instruments as insts
 from hamon_shu.Materials.score_structure.score_structure import score
 from hamon_shu.Materials.timespans.Segment_V.convert_timespans import (
-    Segment_V_rhythm_timespans,
-    Segment_V_timespans,
+    segment_V_rhythm_timespans,
+    segment_V_timespans,
 )
 
 maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
     abbreviations=["vn. I", "vn. II", "va.", "vc."],
-    rhythm_timespans=Segment_V_rhythm_timespans,
-    handler_timespans=Segment_V_timespans,
+    rhythm_timespans=segment_V_rhythm_timespans,
+    handler_timespans=segment_V_timespans,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

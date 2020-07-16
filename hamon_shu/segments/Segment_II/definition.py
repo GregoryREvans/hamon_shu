@@ -11,8 +11,8 @@ from hamon_shu.Materials.score_structure.clef_handlers import clef_handlers
 from hamon_shu.Materials.score_structure.instruments import instruments as insts
 from hamon_shu.Materials.score_structure.score_structure import score
 from hamon_shu.Materials.timespans.Segment_II.convert_timespans import (
-    Segment_II_rhythm_timespans,
-    Segment_II_timespans,
+    segment_II_rhythm_timespans,
+    segment_II_timespans,
 )
 
 commands = [evans.attach("Voice 1", abjad.StopHairpin(), baca.leaf(0))]
@@ -21,8 +21,8 @@ maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
     abbreviations=["vn. I", "vn. II", "va.", "vc."],
-    rhythm_timespans=Segment_II_rhythm_timespans,
-    handler_timespans=Segment_II_timespans,
+    rhythm_timespans=segment_II_rhythm_timespans,
+    handler_timespans=segment_II_timespans,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
