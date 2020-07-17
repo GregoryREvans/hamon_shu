@@ -4,12 +4,12 @@ import abjad
 import baca
 import evans
 
-from hamon_shu.materials.score_structure.segment_07.time_signatures import (
-    time_signatures,
-)
 from hamon_shu.materials.score_structure.clef_handlers import clef_handlers
 from hamon_shu.materials.score_structure.instruments import instruments as insts
 from hamon_shu.materials.score_structure.score_structure import score
+from hamon_shu.materials.score_structure.segment_07.time_signatures import (
+    time_signatures,
+)
 from hamon_shu.materials.timespans.segment_07.convert_timespans import (
     segment_07_rhythm_timespans,
     segment_07_timespans,

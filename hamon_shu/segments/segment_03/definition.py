@@ -2,12 +2,12 @@ import pathlib
 
 import evans
 
-from hamon_shu.materials.score_structure.segment_03.time_signatures import (
-    time_signatures,
-)
 from hamon_shu.materials.score_structure.clef_handlers import clef_handlers
 from hamon_shu.materials.score_structure.instruments import instruments as insts
 from hamon_shu.materials.score_structure.score_structure import score
+from hamon_shu.materials.score_structure.segment_03.time_signatures import (
+    time_signatures,
+)
 from hamon_shu.materials.timespans.segment_03.convert_timespans import (
     segment_03_rhythm_timespans,
     segment_03_timespans,
