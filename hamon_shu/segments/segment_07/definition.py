@@ -11,8 +11,8 @@ from hamon_shu.materials.score_structure.segment_07.time_signatures import (
     time_signatures,
 )
 from hamon_shu.materials.timespans.segment_07.convert_timespans import (
-    segment_07_rhythm_timespans,
-    segment_07_timespans,
+    handler_commands,
+    rhythm_commands,
 )
 
 c = abjad.LilyPondLiteral(
@@ -76,8 +76,8 @@ maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
     abbreviations=["vn. I", "vn. II", "va.", "vc."],
-    rhythm_timespans=segment_07_rhythm_timespans,
-    handler_timespans=segment_07_timespans,
+    rhythm_commands=rhythm_commands,
+    handler_commands=handler_commands,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

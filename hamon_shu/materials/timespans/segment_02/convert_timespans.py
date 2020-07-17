@@ -1,3 +1,4 @@
+import abjad
 import evans
 
 from hamon_shu.materials.score_structure.segment_02.articulation_material_pattern import (
@@ -42,6 +43,15 @@ segment_02_rhythm_timespans = evans.timespan.make_split_list(
     rhythm_timespan_list, bounds
 )
 
+rhythm_commands = []
+for span in segment_02_rhythm_timespans:
+    r_command = evans.RhythmCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    rhythm_commands.append(r_command)
+
 # ######
 # pitch#
 # ######
@@ -53,6 +63,15 @@ for voice in voice_names:
             span._handler = pitch_mat(r=1)[0]
 
 segment_02_pitch_timespans = pitch_timespan_list
+
+pitch_commands = []
+for span in segment_02_pitch_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    pitch_commands.append(command)
 
 # ########
 # dynamic#
@@ -66,6 +85,15 @@ for voice in voice_names:
 
 segment_02_dynamic_timespans = dynamic_timespan_list
 
+dynamic_commands = []
+for span in segment_02_dynamic_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    dynamic_commands.append(command)
+
 # #############
 # articulation#
 # #############
@@ -77,6 +105,15 @@ for voice in voice_names:
             span._handler = articulation_mat(r=1)[0]
 
 segment_02_articulation_timespans = articulation_timespan_list
+
+articulation_commands = []
+for span in segment_02_articulation_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    articulation_commands.append(command)
 
 # #############
 #  note head #
@@ -90,12 +127,21 @@ for voice in voice_names:
 
 segment_02_notehead_timespans = notehead_timespan_list
 
+notehead_commands = []
+for span in segment_02_notehead_timespans:
+    command = evans.HandlerCommand(
+        voice_name=span.voice_name,
+        timespan=abjad.Timespan(span.start_offset, span.stop_offset),
+        handler=span.handler,
+    )
+    notehead_commands.append(command)
+
 # ##############
-# all timespans#
+# all commands#
 # ##############
-segment_02_timespans = [
-    segment_02_pitch_timespans,
-    segment_02_dynamic_timespans,
-    segment_02_articulation_timespans,
-    segment_02_notehead_timespans,
+handler_commands = [
+    pitch_commands,
+    dynamic_commands,
+    articulation_commands,
+    notehead_commands,
 ]
