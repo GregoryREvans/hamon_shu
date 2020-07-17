@@ -1,0 +1,164 @@
+2019-11-26 16:34:32.033387
+Segment runtime: 258 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+
+2019-11-26 16:46:58.173858
+Segment runtime: 260 seconds 
+Abjad/Lilypond runtime: 9 seconds 
+
+2019-11-26 17:29:53.989045
+Segment runtime: 127 seconds 
+Abjad/Lilypond runtime: 6 seconds 
+
+2019-11-26 17:33:53.898461
+Segment runtime: 125 seconds 
+Abjad/Lilypond runtime: 6 seconds 
+
+2019-11-26 19:16:56.022548
+Segment runtime: 132 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+
+2019-11-27 08:29:47.262193
+Segment runtime: 131 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+
+2019-11-27 09:53:04.052933
+Segment runtime: 127 seconds 
+Abjad/Lilypond runtime: 6 seconds 
+Parts extraction runtime: -6 seconds 
+
+2019-11-27 11:39:45.237113
+Segment runtime: 214 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -8 seconds 
+
+2019-11-27 11:46:45.694825
+Segment runtime: 215 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -8 seconds 
+
+2019-11-27 18:56:39.954529
+Segment runtime: 215 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -8 seconds 
+
+2019-12-01 10:53:07.884264
+Segment runtime: 218 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-12-01 10:58:00.983670
+Segment runtime: 209 seconds 
+Abjad/Lilypond runtime: 1 seconds 
+Parts extraction runtime: -1 seconds 
+
+2019-12-01 11:02:19.048827
+Segment runtime: 211 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2019-12-01 11:12:58.582088
+Segment runtime: 230 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -8 seconds 
+
+2019-12-01 15:41:09.290469
+Segment runtime: 219 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2020-01-20 18:32:43.942011
+Segment runtime: 235 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -8 seconds 
+
+2020-01-28 12:21:22.266012
+Segment runtime: 215 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2020-01-28 12:28:51.444397
+Segment runtime: 209 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2020-01-29 11:20:50.612671
+Segment runtime: 211 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2020-03-09 21:33:49.077521
+Segment runtime: 229 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -7 seconds 
+
+2020-03-20 15:53:51.193373
+Segment runtime: 214 seconds 
+Abjad/Lilypond runtime: 9 seconds 
+Parts extraction runtime: -9 seconds 
+
+2020-04-11 11:50:48.816771
+Segment runtime: 219 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -8 seconds 
+
+2020-04-15 11:44:01.541468
+Segment runtime: 221 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -9 seconds 
+
+2020-05-12 13:06:33.467143
+Segment runtime: 216 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -8 seconds 
+
+2020-05-19 15:57:56.464306
+Segment runtime: 224 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -9 seconds 
+
+2020-05-19 22:22:13.717501
+Segment runtime: 218 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -8 seconds 
+
+2020-07-04 00:36:49.719015
+Segment runtime: 170 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -8 seconds 
+
+2020-07-06 15:42:43.644615
+Segment runtime: 192 seconds 
+Abjad/Lilypond runtime: 8 seconds 
+Parts extraction runtime: -9 seconds 
+
+2020-07-06 17:07:21.810358
+Segment runtime: 169 seconds 
+Abjad/Lilypond runtime: 7 seconds 
+Parts extraction runtime: -8 seconds 
+
+
+
+2020-07-10 13:37:20
+Segment runtime: 173 seconds
+ Pre-handlers runtime: 16 seconds
+ Handlers runtime: 145 seconds
+ Post-handlers runtime: 12 seconds
+
+2020-07-12 17:32:36
+Segment runtime: 171 seconds
+ Pre-handlers runtime: 16 seconds
+ Handlers runtime: 143 seconds
+ Post-handlers runtime: 12 seconds
+
+2020-07-15 20:37:24
+Segment runtime: 181 seconds
+ Pre-handlers runtime: 17 seconds
+ Handlers runtime: 152 seconds
+ Post-handlers runtime: 12 seconds
+
+2020-07-16 22:02:22
+Segment runtime: 178 seconds
+ Pre-handlers runtime: 17 seconds
+ Handlers runtime: 149 seconds
+ Post-handlers runtime: 12 seconds
