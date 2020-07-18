@@ -535,6 +535,7 @@
                     af4
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
                         % [Voice 1 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -596,6 +597,7 @@
                     r2
                     \!
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 1 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -745,6 +747,7 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 1 measure 28]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -828,7 +831,6 @@
                     gqs'4
                     \mp
                     \>
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'default
                     g'2
@@ -837,98 +839,82 @@
 
                     \tweak NoteHead.style #'default
                     g'4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     cs''4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
                         % [Voice 1 measure 40]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         af''8
-                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'default
                         aqs8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         e''8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         aqs8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         bf8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         dqs'8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         g'8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         f'8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         cqs'8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         aqs8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         af''8
-                        \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 1 measure 41]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         cs''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         g'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         gqs'4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 1 measure 42]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         gqs'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         g'4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 1 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -954,7 +940,6 @@
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     dqs'8
-                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -1014,7 +999,7 @@
 
                     ef''2
                     \p
-                    - \bendAfter #'4
+                    - \bendAfter #'2
                     \<
                     <>
                     \mp
@@ -1031,19 +1016,21 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 1 measure 55]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         bqf'4
 
                         ef'4
-                        - \bendAfter #'2
+                        - \bendAfter #'4
 
                         fs'4
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
                         % [Voice 1 measure 56]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1052,21 +1039,21 @@
                         [
 
                         fs'8
-                        - \bendAfter #'4
+                        - \bendAfter #'2
 
                         bqf'8
 
                         ef'8
 
                         af8
-                        - \bendAfter #'2
+                        - \bendAfter #'4
 
                         af''8
 
                         bqs8
 
                         fs'8
-                        - \bendAfter #'4
+                        - \bendAfter #'2
 
                         \revert Staff.Stem.stemlet-length
                         ef'8
@@ -1074,13 +1061,14 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 1 measure 57]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af4
 
                         fs''4
-                        - \bendAfter #'2
+                        - \bendAfter #'4
 
                         e''4
 
@@ -1090,14 +1078,14 @@
                     bqf'4
 
                     e''4
-                    - \bendAfter #'4
+                    - \bendAfter #'2
 
                     fs''4
 
                     af4
 
                     ef'4
-                    - \bendAfter #'2
+                    - \bendAfter #'4
                     % [Voice 1 measure 59]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs'4
@@ -1124,6 +1112,7 @@
                     gqf''2
                     ~
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 1 measure 63]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1153,6 +1142,7 @@
                     r4
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
 
                         \tweak NoteHead.style #'triangle
@@ -1168,6 +1158,7 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
                         % [Voice 1 measure 67]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1204,6 +1195,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     fqs''4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 1 measure 69]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1220,6 +1212,7 @@
 
                     bf2.
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 1 measure 71]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1281,12 +1274,13 @@
                     R1 * 3/8
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 1 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         aqs4
                         \pp
-                        - \bendAfter #'3
+                        - \bendAfter #'5
                         \<
 
                         bf4
@@ -1297,7 +1291,7 @@
                     % [Voice 1 measure 77]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bf2
-                    - \bendAfter #'4
+                    - \bendAfter #'-2
                     <>
                     \mf
                     % [Voice 1 measure 78]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1330,7 +1324,7 @@
                     % [Voice 1 measure 81]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f'4
-                    - \bendAfter #'5
+                    - \bendAfter #'-5
 
                     dqs'4
                     % [Voice 1 measure 82]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1343,7 +1337,7 @@
                     % [Voice 1 measure 84]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     dqs'4
-                    - \bendAfter #'-2
+                    - \bendAfter #'-4
 
                     f'4
 
@@ -1351,6 +1345,7 @@
                     \!
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
                         % [Voice 1 measure 85]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1361,7 +1356,7 @@
                         [
 
                         aqs8
-                        - \bendAfter #'-5
+                        - \bendAfter #'-3
 
                         af''8
                         \pp
@@ -1372,14 +1367,14 @@
                         \<
 
                         af''8
-                        - \bendAfter #'-4
+                        - \bendAfter #'6
 
                         aqs8
 
                         cqs'8
 
                         f'8
-                        - \bendAfter #'-3
+                        - \bendAfter #'3
 
                         dqs'8
 
@@ -1436,6 +1431,7 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 1 measure 92]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1476,6 +1472,7 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 1 measure 97]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1491,9 +1488,8 @@
 
                     \tweak NoteHead.style #'triangle
                     ef'2
-                    \bar "||"
-                    <>
                     \mp
+                    \bar "||"
 
                 }
                 }
@@ -1524,31 +1520,32 @@
                     % [Voice 2 measure 2]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs'4
-                    - \bendAfter #'4
 
                     ef''2
                     \ff
                     - \tweak stencil #constante-hairpin
                     \<
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 2 measure 3]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         fs''4
+                        - \bendAfter #'4
 
                         e''4
-                        - \bendAfter #'2
 
                         bqf'4
 
                         e''4
+                        - \bendAfter #'2
 
                         ef''4
-                        - \bendAfter #'4
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
                         % [Voice 2 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1557,43 +1554,44 @@
                         [
 
                         ef''8
+                        - \bendAfter #'4
 
                         \revert Staff.Stem.stemlet-length
                         e''8
                         \mf
-                        - \bendAfter #'2
                         \>
                         ]
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 2 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af''4
 
                         bqs4
+                        - \bendAfter #'2
 
                         ef'4
-                        - \bendAfter #'4
 
                         bqf'4
 
                         ef'4
+                        - \bendAfter #'4
 
                     }
                     % [Voice 2 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bqs4
-                    - \bendAfter #'2
 
                     fs'4
 
                     ef''4
+                    - \bendAfter #'2
                     % [Voice 2 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bqf'4
-                    - \bendAfter #'4
                     <>
                     \p
 
@@ -1621,15 +1619,16 @@
                     % [Voice 2 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af''4
+                    - \bendAfter #'4
 
                     af4
                     ~
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 2 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af4
-                        - \bendAfter #'2
 
                         fs''2
                         ~
@@ -1655,6 +1654,7 @@
                     c''2.
                     ~
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 2 measure 16]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1668,6 +1668,7 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
                         % [Voice 2 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1687,6 +1688,7 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
                         % [Voice 2 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1782,11 +1784,11 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 2 measure 26]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         bqf'1
-                        - \bendAfter #'6
 
                         \tweak NoteHead.style #'triangle
                         fs'2.
@@ -1798,6 +1800,7 @@
                     \tweak NoteHead.style #'triangle
                     fs'2.
                     \mp
+                    - \bendAfter #'3
                     % [Voice 2 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -1813,6 +1816,7 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 2 measure 30]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1821,11 +1825,11 @@
 
                         af'4
                         \pp
-                        - \bendAfter #'3
 
                         \tweak NoteHead.style #'harmonic-mixed
                         ef'2
                         \mf
+                        - \bendAfter #'4
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -1845,7 +1849,6 @@
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
-                    - \bendAfter #'4
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1855,6 +1858,7 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     fs'16
+                    - \bendAfter #'5
                     [
 
                     \tweak NoteHead.style #'triangle
@@ -1866,11 +1870,11 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
-                    - \bendAfter #'5
                     [
 
                     \revert Staff.Stem.stemlet-length
                     af'8
+                    - \bendAfter #'-2
                     ]
 
                     \tweak NoteHead.style #'triangle
@@ -1880,12 +1884,12 @@
 
                     \revert Staff.Stem.stemlet-length
                     e''8
-                    - \bendAfter #'-2
                     ]
 
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af8
+                    - \bendAfter #'-5
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -1895,12 +1899,12 @@
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8
-                    - \bendAfter #'-5
                     [
 
                     \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     cs'8
+                    - \bendAfter #'-4
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
@@ -1910,50 +1914,52 @@
                     \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     af8
-                    - \bendAfter #'-4
                     ]
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 2 measure 33]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         e''4
+                        - \bendAfter #'-3
 
                         \tweak NoteHead.style #'triangle
                         af4
 
                         cs'4
-                        - \bendAfter #'-3
 
                     }
                     % [Voice 2 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
                     ef'4
+                    - \bendAfter #'6
 
                     \tweak NoteHead.style #'triangle
                     af'4
 
                     fs'2.
-                    - \bendAfter #'6
                     % [Voice 2 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
                     d'4
+                    - \bendAfter #'3
 
                     fs'4
                     \p
                     \<
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
                         % [Voice 2 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         ef'8
-                        - \bendAfter #'3
                         [
 
                         cs'8
+                        - \bendAfter #'4
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
@@ -1990,7 +1996,6 @@
                     gqs'2
                     \mf
                     \>
-                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 2 measure 40]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
@@ -2004,7 +2009,6 @@
 
                     \tweak NoteHead.style #'triangle
                     cs''2.
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'default
                     g'4
@@ -2018,119 +2022,101 @@
 
                     \tweak NoteHead.style #'default
                     g'4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     dqs'4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     cqs'4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 2 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         f'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         gqs'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         cs''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         af''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         cs''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         e''4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 2 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
                     gqs'2.
-                    \glissando                                                 %! abjad.glissando(7)
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 2 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         g'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         cs''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         g'4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f'4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
                         % [Voice 2 measure 47]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs'8
-                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'harmonic-mixed
                         aqs8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         af''8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         bf8
                         \p
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         af''8
                         \mp
                         - \tweak stencil #constante-hairpin
                         \<
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         aqs8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         cqs'8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         aqs8
 
                         \revert Staff.Stem.stemlet-length
                         ef''8
+                        - \bendAfter #'2
                         ]
 
                     }
@@ -2138,7 +2124,6 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8.
-                    - \bendAfter #'4
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2157,12 +2142,12 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     af16
+                    - \bendAfter #'4
                     [
 
                     \revert Staff.Stem.stemlet-length
                     af''8.
                     \f
-                    - \bendAfter #'2
                     - \tweak stencil #constante-hairpin
                     \<
                     ]
@@ -2172,16 +2157,16 @@
                     % [Voice 2 measure 50]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af''4
+                    - \bendAfter #'2
 
                     af4
-                    - \bendAfter #'4
 
                     fs''4
 
                     ef''4
+                    - \bendAfter #'4
 
                     bqf'4
-                    - \bendAfter #'2
                     % [Voice 2 measure 51]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     e''4
@@ -2201,10 +2186,10 @@
                     % [Voice 2 measure 53]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af''2
+                    - \bendAfter #'2
                     % [Voice 2 measure 54]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''2.
-                    - \bendAfter #'4
                     % [Voice 2 measure 55]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     af2
@@ -2218,10 +2203,11 @@
                     % [Voice 2 measure 57]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''4
+                    - \bendAfter #'4
 
                     e''4
-                    - \bendAfter #'2
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
                         % [Voice 2 measure 58]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2230,10 +2216,10 @@
                         [
 
                         e''8
+                        - \bendAfter #'2
 
                         \revert Staff.Stem.stemlet-length
                         ef''8
-                        - \bendAfter #'4
                         ]
 
                     }
@@ -2241,15 +2227,16 @@
                     fs'4
 
                     bqs4
+                    - \bendAfter #'4
 
                     af4
-                    - \bendAfter #'2
 
                     fs''4
                     % [Voice 2 measure 59]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef''8.
+                    - \bendAfter #'2
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2259,7 +2246,6 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
-                    - \bendAfter #'4
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -2275,11 +2261,11 @@
 
                     \revert Staff.Stem.stemlet-length
                     ef'8.
+                    - \bendAfter #'4
                     ]
                     % [Voice 2 measure 60]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bqs4
-                    - \bendAfter #'2
 
                     \tweak NoteHead.style #'harmonic-mixed
                     f'4
@@ -2311,6 +2297,7 @@
                     % [Voice 2 measure 64]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c''4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     gqf''2
@@ -2339,6 +2326,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     gqf''4
                     \mp
+                    \glissando                                                 %! abjad.glissando(7)
 
                     af''2.
                     \mf
@@ -2348,6 +2336,7 @@
 
                     af''4
                     \ff
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     bf4
@@ -2359,6 +2348,7 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     bf2.
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 2 measure 71]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     gqf''1
@@ -2378,6 +2368,7 @@
                     \tweak NoteHead.style #'triangle
                     af''4
                     \mp
+                    - \bendAfter #'4
                     - \tweak stencil #constante-hairpin
                     \<
                     % [Voice 2 measure 75]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -2385,7 +2376,6 @@
                     \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     cs''8
-                    - \bendAfter #'4
                     [
 
                     \tweak NoteHead.style #'triangle
@@ -2393,14 +2383,15 @@
                     g'8
                     ]
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f'4
+                        - \bendAfter #'5
 
                         \tweak NoteHead.style #'default
                         gqs'4
-                        - \bendAfter #'5
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f'4
@@ -2408,17 +2399,18 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 2 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         g'4
                         \mf
+                        - \bendAfter #'-2
                         \>
 
                         \tweak NoteHead.style #'default
                         dqs'4
-                        - \bendAfter #'-2
 
                         \tweak NoteHead.style #'triangle
                         g'4
@@ -2437,6 +2429,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     gqs'2.
                     \mp
+                    - \bendAfter #'-5
                     - \tweak stencil #constante-hairpin
                     \<
                     % [Voice 2 measure 79]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -2444,7 +2437,6 @@
                     \tweak NoteHead.style #'default
                     f'4
                     \f
-                    - \bendAfter #'-5
                     \>
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -2453,11 +2445,11 @@
                     \tweak NoteHead.style #'triangle
                     bf4
                     \mf
+                    - \bendAfter #'-4
 
                     \tweak NoteHead.style #'default
                     dqs'4
                     \pp
-                    - \bendAfter #'-4
                     \<
 
                     \tweak NoteHead.style #'triangle
@@ -2475,15 +2467,16 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     aqs2
                     \p
+                    - \bendAfter #'-3
                     - \tweak stencil #constante-hairpin
                     \<
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 2 measure 82]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         e''4
-                        - \bendAfter #'-3
 
                         \tweak NoteHead.style #'harmonic-mixed
                         aqs1
@@ -2498,11 +2491,11 @@
 
                     \tweak NoteHead.style #'triangle
                     af''1
+                    - \bendAfter #'6
                     % [Voice 2 measure 85]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
                     cs''2
-                    - \bendAfter #'6
 
                     r2.
                     \!
@@ -2548,6 +2541,7 @@
 
                     b'4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
                     \times 8/9 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -2575,6 +2569,7 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 2 measure 93]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2586,6 +2581,7 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 2 measure 94]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2645,6 +2641,7 @@
                     \clef "varC"
                     ef''2
                     \pp
+                    - \bendAfter #'2
                     - \tweak stencil #constante-hairpin
                     \<
 
@@ -2654,12 +2651,12 @@
 
                     bqf'4
                     \ff
-                    - \bendAfter #'4
                     - \tweak stencil #constante-hairpin
                     \<
 
                     \tweak NoteHead.style #'harmonic-mixed
                     e''2
+                    - \bendAfter #'4
                     % [Voice 3 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "treble"
@@ -2669,7 +2666,6 @@
                     \tweak NoteHead.style #'triangle
                     \clef "varC"
                     cqs2
-                    - \bendAfter #'2
                     % [Voice 3 measure 5]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs''1
@@ -2678,10 +2674,12 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
                         % [Voice 3 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         fs''2
+                        - \bendAfter #'2
 
                         \tweak NoteHead.style #'triangle
                         ef''8
@@ -2722,12 +2720,12 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     e''2
-                    - \bendAfter #'4
                     % [Voice 3 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "treble"
                     \override Staff.Stem.stemlet-length = 0.75
                     af''8.
+                    - \bendAfter #'4
                     [
 
                     \tweak NoteHead.style #'triangle
@@ -2748,57 +2746,71 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef''16
-                    - \bendAfter #'2
                     [
 
                     \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
                     fs'8.
                     \pp
+                    - \bendAfter #'2
                     \<
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "8")
                     \times 8/7 {
                         % [Voice 3 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         a'8
+                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         f'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         c''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         fqs''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         c''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         gqf''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \revert Staff.Stem.stemlet-length
                         af''8
+                        \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 3 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \clef "varC"
                         cqs4
+                        \glissando                                             %! abjad.glissando(7)
 
                         f4
+                        \glissando                                             %! abjad.glissando(7)
 
                         dqs4
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 3 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     cqs4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \clef "treble"
                     gqf''4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     af''4
                     <>
@@ -2811,20 +2823,17 @@
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
                         % [Voice 3 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         c''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         fqs''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         c''4
-                        \glissando                                             %! abjad.glissando(7)
 
                         gqf''4
 
@@ -2837,6 +2846,7 @@
                     fqs''2
                     \mp
                     \<
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 3 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     c''2
@@ -2847,11 +2857,13 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 3 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         c''2.
                         \f
+                        \glissando                                             %! abjad.glissando(7)
 
                         gqf''1
                         \mp
@@ -2860,12 +2872,15 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 3 measure 22]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         gqf''1
+                        \glissando                                             %! abjad.glissando(7)
 
                         af''2
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 3 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -2883,6 +2898,7 @@
 
                     r4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
 
                         \tweak NoteHead.style #'triangle
@@ -2899,7 +2915,7 @@
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         af8
-                        - \bendAfter #'3
+                        - \bendAfter #'5
                         ]
 
                     }
@@ -2916,7 +2932,7 @@
                     \tweak NoteHead.style #'default
                     \clef "varC"
                     eqs4
-                    - \bendAfter #'4
+                    - \bendAfter #'-2
 
                     \tweak NoteHead.style #'triangle
                     af4
@@ -2928,7 +2944,7 @@
                     \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8.
-                    - \bendAfter #'5
+                    - \bendAfter #'-5
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -2959,13 +2975,14 @@
                     \tweak NoteHead.style #'default
                     \revert Staff.Stem.stemlet-length
                     b'8.
-                    - \bendAfter #'-2
+                    - \bendAfter #'-4
                     ]
                     % [Voice 3 measure 28]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
                     bqf'4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -2973,7 +2990,7 @@
 
                         \tweak NoteHead.style #'default
                         bqf'4
-                        - \bendAfter #'-5
+                        - \bendAfter #'-3
 
                         \tweak NoteHead.style #'harmonic-mixed
                         af'4
@@ -2983,7 +3000,7 @@
 
                         \tweak NoteHead.style #'default
                         af'4
-                        - \bendAfter #'-4
+                        - \bendAfter #'6
 
                     }
                     % [Voice 3 measure 29]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3003,7 +3020,7 @@
                     \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     d'8
-                    - \bendAfter #'-3
+                    - \bendAfter #'3
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -3012,6 +3029,7 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 3 measure 30]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3020,7 +3038,7 @@
 
                         \tweak NoteHead.style #'default
                         cs'4
-                        - \bendAfter #'6
+                        - \bendAfter #'4
 
                         \tweak NoteHead.style #'triangle
                         d'4
@@ -3032,7 +3050,7 @@
                         \tweak NoteHead.style #'default
                         d'4
                         \p
-                        - \bendAfter #'3
+                        - \bendAfter #'5
                         \<
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -3052,7 +3070,7 @@
                     \tweak NoteHead.style #'default
                     cs'2
                     \pp
-                    - \bendAfter #'4
+                    - \bendAfter #'-2
                     - \tweak stencil #constante-hairpin
                     \<
 
@@ -3065,8 +3083,9 @@
 
                     \tweak NoteHead.style #'default
                     d'4
-                    - \bendAfter #'5
+                    - \bendAfter #'-5
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
                         % [Voice 3 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3081,7 +3100,7 @@
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         cs'8
-                        - \bendAfter #'-2
+                        - \bendAfter #'-4
                         ]
 
                     }
@@ -3100,7 +3119,7 @@
 
                     \tweak NoteHead.style #'default
                     e''2.
-                    - \bendAfter #'-5
+                    - \bendAfter #'-3
 
                     f4
                     \mf
@@ -3119,6 +3138,7 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
                         % [Voice 3 measure 38]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3208,6 +3228,7 @@
                     \mf
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
                         % [Voice 3 measure 48]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3237,7 +3258,7 @@
 
                     \tweak NoteHead.style #'triangle
                     e''2
-                    - \bendAfter #'4
+                    - \bendAfter #'2
                     % [Voice 3 measure 51]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
@@ -3258,12 +3279,13 @@
                     e''4
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
 
                         \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         fs''8
-                        - \bendAfter #'2
+                        - \bendAfter #'4
                         [
 
                         ef''8
@@ -3286,11 +3308,12 @@
 
                     r4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
 
                         e''4
                         \mf
-                        - \bendAfter #'4
+                        - \bendAfter #'2
                         - \tweak stencil #constante-hairpin
                         \<
 
@@ -3301,7 +3324,7 @@
                         ef'4
 
                         fs'4
-                        - \bendAfter #'2
+                        - \bendAfter #'4
 
                         \tweak NoteHead.style #'triangle
                         bqs4
@@ -3313,9 +3336,10 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     ef'4
-                    - \bendAfter #'4
+                    - \bendAfter #'2
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 3 measure 58]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3326,7 +3350,7 @@
 
                         \tweak NoteHead.style #'triangle
                         bqs2
-                        - \bendAfter #'2
+                        - \bendAfter #'4
 
                     }
                     % [Voice 3 measure 59]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3418,6 +3442,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     dqs'4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -3452,6 +3477,7 @@
                     fqs''4
                     \p
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 3 measure 72]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3474,6 +3500,7 @@
                     r4
                     \!
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 3 measure 74]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3484,11 +3511,11 @@
 
                         \tweak NoteHead.style #'triangle
                         bf4
+                        - \bendAfter #'3
 
                         \tweak NoteHead.style #'default
                         \clef "varC"
                         f4
-                        - \bendAfter #'-4
 
                     }
                     % [Voice 3 measure 75]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3503,12 +3530,14 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 3 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         cqs4
                         \mf
+                        - \bendAfter #'4
 
                         \tweak NoteHead.style #'default
                         e''2
@@ -3532,7 +3561,6 @@
                     \tweak NoteHead.style #'default
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
-                    - \bendAfter #'-3
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -3567,17 +3595,18 @@
                     cs''2
                     ~
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 3 measure 82]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         cs''2
                         \f
+                        - \bendAfter #'5
 
                         \tweak NoteHead.style #'default
                         g'1
                         \pp
-                        - \bendAfter #'6
                         \<
                         <>
                         \mf
@@ -3628,52 +3657,66 @@
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
                     b'8
+                    \glissando                                                 %! abjad.glissando(7)
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
                     bqf'8
+                    \glissando                                                 %! abjad.glissando(7)
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     fs'8
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
                     af'8
+                    \glissando                                                 %! abjad.glissando(7)
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'8
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
                     af'8
+                    \glissando                                                 %! abjad.glissando(7)
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
                     fs'8
+                    \glissando                                                 %! abjad.glissando(7)
                     ]
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 3 measure 89]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         d'4
+                        \glissando                                             %! abjad.glissando(7)
 
                         ef'4
+                        \glissando                                             %! abjad.glissando(7)
 
                         af'4
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 3 measure 90]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3683,6 +3726,7 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'8
+                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3691,33 +3735,44 @@
                     ]
 
                     d'4
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 3 measure 91]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     fs'2
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 3 measure 92]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     bqf'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     af'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     b'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     af''4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \clef "varC"
                     cqs4
+                    \glissando                                                 %! abjad.glissando(7)
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
                         % [Voice 3 measure 93]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         e''8
+                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         bqf'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \revert Staff.Stem.stemlet-length
                         af'8
+                        \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
@@ -3727,6 +3782,7 @@
                     % [Voice 3 measure 94]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     b'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     af'4
                     ~
@@ -3793,7 +3849,6 @@
                     \tweak NoteHead.style #'triangle
                     bqf'1
                     \mp
-                    - \bendAfter #'4
                     % [Voice 4 measure 4]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     ef'2
@@ -3802,18 +3857,19 @@
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 4 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         fs'4
                         \pp
+                        - \bendAfter #'4
                         - \tweak stencil #constante-hairpin
                         \<
 
                         \clef "treble"
                         ef''4
-                        - \bendAfter #'2
 
                         \tweak NoteHead.style #'triangle
                         fs''4
@@ -3824,6 +3880,7 @@
                     \clef "bass"
                     \override Staff.Stem.stemlet-length = 0.75
                     cqs8.
+                    - \bendAfter #'2
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -3836,7 +3893,6 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     e''8
-                    - \bendAfter #'4
                     [
 
                     \tweak NoteHead.style #'triangle
@@ -3852,12 +3908,12 @@
 
                     \revert Staff.Stem.stemlet-length
                     fs'8.
+                    - \bendAfter #'4
                     ]
                     % [Voice 4 measure 7]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
                     bqs2.
-                    - \bendAfter #'2
 
                     r2
                     \!
@@ -3879,6 +3935,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     af8
+                    - \bendAfter #'2
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -3888,7 +3945,6 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     ef'16
-                    - \bendAfter #'4
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -3897,16 +3953,17 @@
                     ]
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "8")
                     \times 4/3 {
                         % [Voice 4 measure 9]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         bqs8
+                        - \bendAfter #'4
                         [
 
                         ef8
-                        - \bendAfter #'2
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
@@ -3916,23 +3973,24 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 4 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af4
+                        - \bendAfter #'2
 
                         \tweak NoteHead.style #'harmonic-mixed
                         ef'4
-                        - \bendAfter #'4
 
                         af4
 
                         \tweak NoteHead.style #'triangle
                         bqs4
+                        - \bendAfter #'4
 
                         \tweak NoteHead.style #'harmonic-mixed
                         ef4
-                        - \bendAfter #'2
 
                         cqs4
 
@@ -3942,9 +4000,9 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     \clef "treble"
                     fs''4
+                    - \bendAfter #'2
 
                     ef''4
-                    - \bendAfter #'4
                     % [Voice 4 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
@@ -3953,45 +4011,42 @@
 
                     ef'4
                     \mp
+                    - \bendAfter #'4
                     - \tweak stencil #constante-hairpin
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 4 measure 13]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \clef "bass"
                         f4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         cqs4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         dqs4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
                     \times 2/3 {
                         % [Voice 4 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs8
-                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'default
                         f8
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         f8
-                        \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
@@ -4003,7 +4058,6 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     bf4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'default
                     f2
@@ -4032,51 +4086,63 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     f2
                     \mf
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
                     bf4
                     \ff
                     \>
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'default
                     f4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     dqs4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
                         % [Voice 4 measure 21]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f2
                         \mp
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         bf2
                         \p
                         - \tweak stencil #constante-hairpin
                         \<
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 4 measure 22]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f4
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         f4
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         cqs4
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
                     \tweak NoteHead.style #'triangle
                     dqs2
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 23]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -4115,14 +4181,15 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 4 measure 28]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         eqs4
-                        - \bendAfter #'3
 
                         \clef "treble"
                         e''1.
+                        - \bendAfter #'6
                         <>
                         \pp
 
@@ -4135,6 +4202,7 @@
                     R1 * 1/4
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "4")
                     \times 5/7 {
                         % [Voice 4 measure 30]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4157,11 +4225,11 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 4 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af'1
-                        - \bendAfter #'4
 
                         b'2
                         ~
@@ -4182,6 +4250,7 @@
 
                     \override Staff.Stem.stemlet-length = 0.75
                     b'8
+                    - \bendAfter #'3
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -4191,14 +4260,15 @@
                     \override Staff.Stem.stemlet-length = 0.75
                     bqf'8
                     \p
-                    - \bendAfter #'5
                     \<
                     [
 
                     \revert Staff.Stem.stemlet-length
                     fs'8
+                    - \bendAfter #'4
                     ]
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 4 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4207,24 +4277,19 @@
                         \tweak NoteHead.style #'triangle
                         \clef "bass"
                         cqs4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         aqs4
-                        \glissando                                             %! abjad.glissando(7)
 
                         f4
-                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         bf4
-                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 4 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     f4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     aqs4
@@ -4238,45 +4303,59 @@
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
                     aqs4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     bf4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 11 10) "8")
                     \times 10/11 {
                         % [Voice 4 measure 40]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \override Staff.Stem.stemlet-length = 0.75
                         f8
+                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'triangle
                         bf8
+                        \glissando                                             %! abjad.glissando(7)
 
                         cqs'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         aqs8
+                        \glissando                                             %! abjad.glissando(7)
 
                         cqs'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         dqs'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         \clef "tenorvarC"
                         g'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         dqs'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         f'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         gqs'8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \clef "treble"
@@ -4294,7 +4373,6 @@
                     cs''8.
                     \mf
                     \>
-                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -4306,7 +4384,6 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
                     g'8
-                    \glissando                                                 %! abjad.glissando(7)
                     [
 
                     \tweak NoteHead.style #'triangle
@@ -4322,7 +4399,6 @@
 
                     \tweak NoteHead.style #'triangle
                     cs''4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     gqs'4
                     ~
@@ -4340,7 +4416,6 @@
                     % [Voice 4 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     gqs'4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     e''2
@@ -4349,10 +4424,8 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     e''4
-                    \glissando                                                 %! abjad.glissando(7)
 
                     gqs'2.
-                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 47]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -4374,6 +4447,7 @@
                     - \bendAfter #'2
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
                         % [Voice 4 measure 50]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4391,6 +4465,7 @@
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 4 measure 51]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4415,6 +4490,7 @@
                     \clef "treble"
                     fs''4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
 
                         e''4
@@ -4448,6 +4524,7 @@
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
                     \times 5/4 {
                         % [Voice 4 measure 56]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4493,49 +4570,61 @@
 
                     \tweak NoteHead.style #'default
                     cqs2
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 63]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
                     dqs1
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
                     \times 6/5 {
                         % [Voice 4 measure 64]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         \override Staff.Stem.stemlet-length = 0.75
                         cqs8
+                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'default
                         \clef "treble"
                         fqs''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         c''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         fqs''8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         \revert Staff.Stem.stemlet-length
                         a'8
+                        \glissando                                             %! abjad.glissando(7)
                         ]
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 4 measure 65]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         c''4
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         a'4
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         dqs'4
                         \pp
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
                     % [Voice 4 measure 66]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -4544,59 +4633,74 @@
                     f'4
                     \f
                     \>
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     a'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'default
                     dqs'4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'harmonic-mixed
                     bf4
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak NoteHead.style #'triangle
                     \clef "bass"
                     f4
+                    \glissando                                                 %! abjad.glissando(7)
                     % [Voice 4 measure 67]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
                     dqs'2
+                    \glissando                                                 %! abjad.glissando(7)
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 4) "4")
                     \times 4/3 {
                         % [Voice 4 measure 68]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         bf4
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f4
                         \mf
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         dqs4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
+                        \glissando                                             %! abjad.glissando(7)
 
                     }
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
                         % [Voice 4 measure 69]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \override Staff.Stem.stemlet-length = 0.75
                         f8
+                        \glissando                                             %! abjad.glissando(7)
                         [
 
                         \tweak NoteHead.style #'triangle
                         f8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'default
                         dqs8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'triangle
                         cqs8
+                        \glissando                                             %! abjad.glissando(7)
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
@@ -4642,6 +4746,7 @@
                     cqs2.
                     ~
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 4 measure 76]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4669,6 +4774,7 @@
                     \<
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 4 measure 79]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4707,6 +4813,7 @@
                     cqs'8
                     ]
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "4")
                     \times 4/5 {
                         % [Voice 4 measure 82]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4729,6 +4836,7 @@
 
                     bf4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
                     \times 2/3 {
                         % [Voice 4 measure 84]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4751,6 +4859,7 @@
                     - \tweak stencil #constante-hairpin
                     \<
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
                     \times 4/5 {
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -4778,6 +4887,7 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     af'4
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 4 measure 87]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4794,6 +4904,7 @@
                     \!
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 4 measure 88]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4860,6 +4971,7 @@
 
                     R1 * 3/8
 
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                     \times 2/3 {
                         % [Voice 4 measure 96]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4876,6 +4988,7 @@
                     }
 
                     \tweak text #tuplet-number::calc-fraction-text
+                    \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "8")
                     \times 10/9 {
                         % [Voice 4 measure 97]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 

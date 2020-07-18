@@ -1,5 +1,6 @@
 import pathlib
 
+import abjad
 import evans
 
 from hamon_shu.materials.score_structure.clef_handlers import clef_handlers
@@ -17,11 +18,28 @@ maker = evans.SegmentMaker(
     instruments=insts,
     names=["Violin I", "Violin II", "Viola", "Violoncello"],
     abbreviations=["vn. I", "vn. II", "va.", "vc."],
-    rhythm_commands=rhythm_commands,
-    handler_commands=handler_commands,
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,
+    commands=[
+        rhythm_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.transform_brackets,
+            abjad.select().components(abjad.Score),
+        ),
+        evans.call(
+            "score",
+            evans.SegmentMaker.rewrite_meter,
+            abjad.select().components(abjad.Score),
+        ),
+        handler_commands,
+        evans.call(
+            "score",
+            evans.SegmentMaker.beam_score,
+            abjad.select().components(abjad.Score),
+        ),
+    ],
     tuplet_bracket_noteheads=False,
     add_final_grand_pause=True,
     fermata="scripts.ushortfermata",
