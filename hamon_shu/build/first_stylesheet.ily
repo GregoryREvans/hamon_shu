@@ -5,7 +5,7 @@
 %{ #(set-default-paper-size "a4portrait") %}
 #(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 13)
-
+\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
 
 \header {
 	tagline = ##f

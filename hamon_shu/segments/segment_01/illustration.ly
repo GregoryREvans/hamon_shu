@@ -848,8 +848,9 @@
                     % [Voice 1 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     ef'4
-                    \ff
                     \bar "||"
+                    <>
+                    \ff
 
                 }
                 }

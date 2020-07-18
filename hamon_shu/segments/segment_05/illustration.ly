@@ -1488,8 +1488,9 @@
 
                     \tweak NoteHead.style #'triangle
                     ef'2
-                    \mp
                     \bar "||"
+                    <>
+                    \mp
 
                 }
                 }
