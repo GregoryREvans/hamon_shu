@@ -28,7 +28,7 @@ chord_3 = evans.reproportion_chord(
 chord_4 = evans.reproportion_chord(
     base=7, chord=chord_4, round=evans.to_nearest_eighth_tone
 )
-
+# round to quarter tones?
 # violin 1
 violin_1_chord_1 = [
     _

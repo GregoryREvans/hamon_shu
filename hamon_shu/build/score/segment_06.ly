@@ -282,7 +282,9 @@
                         \startTextSpanOne
 
                         \tweak NoteHead.style #'harmonic-mixed
-                        b4
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        c'4
                         \mf
                         - \tweak stencil #constante-hairpin
                         \<
@@ -402,18 +404,24 @@
                     R1 * 5/8
                     % [Voice 1 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    af'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'2
                     \mp
                     \>
                     ~
                     % [Voice 1 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    af'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'2
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     \!
                     \pppp
                     \<
@@ -446,7 +454,9 @@
                     \startTextSpanThree
                     % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -508,26 +518,38 @@
                     - \tweak staff-padding #12
                     \startTextSpanThree
 
-                    af'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'4
                     ~
                     % [Voice 1 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    af'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'4
                     ~
                     % [Voice 1 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    af'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'2.
                     ~
                     % [Voice 1 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    af'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    g'4
                     % [Voice 1 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    fs''2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''2
                     ~
                     % [Voice 1 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    fs''4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -703,6 +725,8 @@
                     \tweak NoteHead.style #'harmonic-mixed
                     dqf'4
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'1
                     \stopTextSpanOne
                     ~
@@ -720,13 +744,19 @@
                     \startTextSpanOne
                     % [Voice 1 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'4
                     ~
                     % [Voice 1 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'2.
                     ~
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'2
                     % [Voice 1 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -753,18 +783,24 @@
                     r4
                     \stopTextSpanOne
 
-                    bf'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'4
                     \mp
                     \>
                     ~
                     % [Voice 1 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    bf'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'4
                     ~
                     % [Voice 1 measure 39]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    bf'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'8
                     [
 
                     \revert Staff.Stem.stemlet-length
@@ -935,7 +971,9 @@
                     R1 * 5/8
                     % [Voice 2 measure 3]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    c'''2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    b''2
                     \mf
                     - \tweak stencil #constante-hairpin
                     \<
@@ -980,7 +1018,9 @@
 
                     aqf1
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -997,7 +1037,9 @@
                     \startTextSpanOne
                     % [Voice 2 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     % [Voice 2 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     eqf'1
@@ -1016,7 +1058,9 @@
                     \startTextSpanOne
                     % [Voice 2 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    bf'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1033,7 +1077,9 @@
                     \startTextSpanOne
                     % [Voice 2 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    bf'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2.
 
                     b''2
                     \stopTextSpanOne
@@ -1072,7 +1118,9 @@
                     % [Voice 2 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    ef'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    d'4
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1106,7 +1154,9 @@
                     % [Voice 2 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    ef'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    d'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1294,7 +1344,9 @@
 
                         bqf''2
 
-                        fs''2
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf''2
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -1311,7 +1363,9 @@
                         \startTextSpanOne
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        fs''8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf''8
                         [
 
                         d'''8
@@ -1330,7 +1384,9 @@
                         \startTextSpanOne
 
                         \revert Staff.Stem.stemlet-length
-                        fs''8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf''8
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -1350,21 +1406,31 @@
                     }
                     % [Voice 2 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    fs''4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''4
                     ~
                     % [Voice 2 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    fs''2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''2.
                     ~
 
-                    fs''4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fs''8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf''8
                     [
 
                     \revert Staff.Stem.stemlet-length
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
@@ -1405,7 +1471,9 @@
                     fqs'''2
                     % [Voice 2 measure 36]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1422,17 +1490,23 @@
                     \startTextSpanOne
                     % [Voice 2 measure 37]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf2
                     ~
                     % [Voice 2 measure 38]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
 
                     \tweak text #tuplet-number::calc-fraction-text
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
                     \times 5/6 {
                         % [Voice 2 measure 39]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
                         ef'''1
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
@@ -1822,7 +1896,9 @@
                     R1 * 1/8
                     % [Voice 3 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    b2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'2.
                     \mf
                     \>
                     ~
@@ -1839,15 +1915,21 @@
                     - \tweak staff-padding #8
                     \startTextSpanOne
 
-                    b2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'2
                     ~
                     % [Voice 3 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    b2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'2
                     ~
                     % [Voice 3 measure 13]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    b2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'2.
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1884,6 +1966,8 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     \ottava 1
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''4
                     \mp
                     \>
@@ -1917,17 +2001,23 @@
                     % [Voice 3 measure 17]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''4
                     % [Voice 3 measure 18]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
                     \ottava 0
-                    a2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf2.
                     ~
                     % [Voice 3 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     % [Voice 3 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \ottava 1
@@ -1935,26 +2025,36 @@
                     % [Voice 3 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''2.
                     ~
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''4
                     ~
 
                     \tweak NoteHead.style #'harmonic-mixed
                     \override Staff.Stem.stemlet-length = 0.75
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'''8
                     [
 
                     \ottava 0
                     \revert Staff.Stem.stemlet-length
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'8
                     ]
                     % [Voice 3 measure 22]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    c'''2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    b''2.
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -1989,6 +2089,8 @@
                     R1 * 5/8
                     % [Voice 3 measure 25]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'1
                     \ppp
                     - \tweak stencil #constante-hairpin
@@ -1996,10 +2098,14 @@
                     ~
                     % [Voice 3 measure 26]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'4
                     ~
                     % [Voice 3 measure 27]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     b'4
 
                     r1
@@ -2033,7 +2139,9 @@
                         g''4
 
                         \tweak NoteHead.style #'default
-                        bf'4
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        a'4
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -2053,35 +2161,49 @@
                     % [Voice 3 measure 30]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    bf'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2.
                     ~
                     % [Voice 3 measure 31]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    bf'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2.
                     ~
 
                     \tweak NoteHead.style #'default
-                    bf'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2
                     ~
                     % [Voice 3 measure 32]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    bf'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'4
                     ~
                     % [Voice 3 measure 33]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    bf'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2.
                     ~
 
                     \tweak NoteHead.style #'default
-                    bf'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'2
                     ~
                     % [Voice 3 measure 34]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    bf'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'4
                     % [Voice 3 measure 35]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -2221,7 +2343,9 @@
                     b''4
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    b2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'2
                     \pp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2376,7 +2500,9 @@
 
                     dqf'2
 
-                    cs'2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    c'2.
                     \stopTextSpanOne
                     - \abjad-invisible-line
                     - \tweak bound-details.left.text \markup {
@@ -2403,13 +2529,17 @@
 
                         aqf2.
 
-                        a8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \seven-eighths-flat-markup
+                        bf8
                         ~
 
                     }
                     % [Voice 4 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    a1
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf1
                     % [Voice 4 measure 15]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \once \override Rest.transparent = ##t                     %! applying invisibility
@@ -2463,22 +2593,30 @@
                     \startTextSpanThree
 
                     \tweak NoteHead.style #'default
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     ~
                     % [Voice 4 measure 19]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    a4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf4
                     ~
                     % [Voice 4 measure 20]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    a2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf2
                     ~
                     % [Voice 4 measure 21]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'default
-                    a2.
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    bf2.
 
                     aqf2
                     ~
@@ -2670,7 +2808,9 @@
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \ottava 0
-                        fs''4
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf''4
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -2715,7 +2855,9 @@
                     dqf4
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    d1
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \seven-eighths-flat-markup
+                    ef1
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -2781,7 +2923,9 @@
                     \times 2/3 {
 
                         \tweak NoteHead.style #'harmonic-mixed
-                        a2
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \seven-eighths-flat-markup
+                        bf2
                         \p
                         \>
                         - \abjad-solid-line-with-arrow
@@ -2831,14 +2975,18 @@
                     % [Voice 4 measure 42]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \clef "treble"
-                    c'''1
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    b''1
                     \pppp
                     - \tweak stencil #constante-hairpin
                     \<
                     ~
                     % [Voice 4 measure 43]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    c'''4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    b''4
                     ~
 
                     \tweak text #tuplet-number::calc-fraction-text
@@ -2846,8 +2994,12 @@
                     \times 5/7 {
                         % [Voice 4 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        c'''4
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        b''4
 
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-sharp-markup
                         b'1.
                         - \abjad-dashed-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -2879,7 +3031,9 @@
                     }
                     % [Voice 4 measure 45]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    bf'1
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    a'1
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {

@@ -218,6 +218,8 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \five-eighths-flat-markup
                             bf8
                             \mf
                             - \tweak stencil #constante-hairpin
@@ -265,13 +267,17 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \five-eighths-flat-markup
                             bf16
                             [
 
                             bqs16.
 
                             \revert Staff.Stem.stemlet-length
-                            cs'8
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            c'8
                             ]
 
                         }
@@ -280,7 +286,9 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "16")
                         \times 5/7 {
 
-                            d'4
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
+                            df'4
 
                             \override Staff.Stem.stemlet-length = 0.75
                             e'8.
@@ -289,7 +297,9 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        ef'8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        d'8
                         ]
 
                     }
@@ -307,10 +317,14 @@
                             e'16.
                             [
 
-                            fs'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'16
                             ~
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'64
 
                         }
 
@@ -319,14 +333,18 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "64.")
                         \times 4/5 {
 
-                            fs'32
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'32
 
                             aqf32
                             ~
 
                             aqf128
 
-                            fs'32.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'32.
 
                         }
 
@@ -336,12 +354,16 @@
 
                             aqf8
 
-                            fs'16.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'16.
 
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        fs'8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf'8
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
                         - \tweak bound-details.left.text \markup {
@@ -417,7 +439,9 @@
                         f'16
 
                         \tweak NoteHead.style #'triangle
-                        f'4
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        e'4
                         \stopTextSpanOne
                         \stopTextSpanTwo
                         - \abjad-solid-line-with-arrow
@@ -470,6 +494,8 @@
 
                     r8
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     c'8
                     \mf
                     \<
@@ -500,6 +526,8 @@
                     - \tweak staff-padding #10
                     \startTextSpanTwo
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     c'4
                     ~
 
@@ -508,6 +536,8 @@
                     \times 3/4 {
                         % [Voice 1 measure 7]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-sharp-markup
                         c'8
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -577,6 +607,8 @@
                     % [Voice 1 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-flat-markup
                     b2
                     \mp
                     \>
@@ -610,6 +642,8 @@
                     % [Voice 1 measure 9]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-flat-markup
                     b4
                     \p
                     - \tweak stencil #constante-hairpin
@@ -687,6 +721,8 @@
 
                         \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \five-eighths-flat-markup
                         bf8.
                         \stopTextSpanOne
                         ~
@@ -708,15 +744,21 @@
                     % [Voice 1 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf2
                     ~
                     % [Voice 1 measure 11]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf4.
                     ~
 
                     \tweak NoteHead.style #'triangle
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf4
 
                     \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
@@ -724,7 +766,9 @@
                         % [Voice 1 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
-                        cs'2
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        c'2
                         \stopTextSpanOne
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup {
@@ -761,7 +805,9 @@
                     d'4
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    fs'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    f'2
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -779,7 +825,9 @@
                     % [Voice 1 measure 14]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'harmonic-mixed
-                    fs'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    f'4
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -890,6 +938,8 @@
 
 
                     \tweak NoteHead.style #'triangle
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'2.
                     \stopTextSpanOne
                     \stopTextSpanTwo
@@ -945,6 +995,8 @@
                     r8
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'8
                     \p
                     \<
@@ -976,6 +1028,8 @@
                     \startTextSpanTwo
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'8
                     \mf
                     - \tweak stencil #constante-hairpin
@@ -1058,7 +1112,9 @@
 
                     \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
-                    fs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf'8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1083,7 +1139,9 @@
                     % [Voice 2 measure 6]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
-                    fs'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    f'4
                     \stopTextSpanOne
                     \stopTextSpanTwo
                     - \abjad-solid-line-with-arrow
@@ -1139,7 +1197,9 @@
                             % [Voice 2 measure 7]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            d'16.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
+                            df'16.
                             \mp
                             \>
                             \stopTextSpanOne
@@ -1198,9 +1258,13 @@
 
                             d'16
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
                             ef'16
                             ~
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
                             ef'64
 
                         }
@@ -1221,7 +1285,9 @@
                             % [Voice 2 measure 8]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            fs'32.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'32.
                             [
 
                             eqf'32
@@ -1231,12 +1297,16 @@
 
                         }
 
-                        fs'16.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf'16.
 
                         \scaleDurations #'(1 . 1) {
 
                             aqf32
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
                             b32
 
                             aqf32
@@ -1249,6 +1319,8 @@
 
                             aqs32.
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-sharp-markup
                             c'32.
 
                         }
@@ -1317,26 +1389,38 @@
                         \startTextSpanThree
                         [
 
-                        cs'16.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        c'16.
 
                         bqs8.
 
                         \scaleDurations #'(1 . 1) {
 
-                            d'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
+                            df'16
 
-                            ef'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            d'16
 
                             e'16
 
                         }
 
-                        d'16.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-flat-markup
+                        df'16.
 
-                        cs'16.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        c'16.
 
                         \revert Staff.Stem.stemlet-length
-                        d'8.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-flat-markup
+                        df'8.
                         \f
                         - \tweak stencil #constante-hairpin
                         \<
@@ -1398,7 +1482,9 @@
 
                     \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
-                    d'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-flat-markup
+                    df'8
                     \stopTextSpanOne
                     - \abjad-solid-line-with-arrow
                     - \tweak bound-details.left.text \markup {
@@ -1431,7 +1517,9 @@
                     \startTextSpanOne
 
                     \tweak NoteHead.style #'triangle
-                    cs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    c'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -1448,16 +1536,22 @@
                     \startTextSpanOne
 
                     \tweak NoteHead.style #'triangle
-                    cs'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    c'4
                     ~
                     % [Voice 2 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
-                    cs'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    c'4
                     ~
 
                     \tweak NoteHead.style #'triangle
-                    cs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    c'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -1546,6 +1640,8 @@
                         \times 4/5 {
 
                             \override Staff.Stem.stemlet-length = 0.75
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
                             b64
                             \mf
                             - \tweak stencil #constante-hairpin
@@ -1582,6 +1678,8 @@
 
                         }
 
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-flat-markup
                         b8
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -1590,7 +1688,9 @@
 
                             aqs32
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'64
 
                             aqs32
 
@@ -1600,6 +1700,8 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 6) "64")
                         \times 6/7 {
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \one-eighth-flat-markup
                             b16
 
                             aqf32.
@@ -1639,12 +1741,16 @@
                         \times 2/3 {
 
                             \override Staff.Stem.stemlet-length = 0.75
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
                             ef'16
                             [
 
                             f'16.
 
                             \revert Staff.Stem.stemlet-length
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
                             ef'8
                             ]
 
@@ -1657,13 +1763,17 @@
                             dqs'4
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            ef'8.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            d'8.
                             [
 
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        d'8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-flat-markup
+                        df'8
                         ]
 
                     }
@@ -1692,12 +1802,18 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "128.")
                         \times 4/5 {
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'64
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'64
                             ~
 
-                            fs'256
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'256
 
                             aqf64.
 
@@ -1707,6 +1823,8 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 5) "64")
                         \times 5/7 {
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \five-eighths-flat-markup
                             bf16
 
                             a32.
@@ -1729,17 +1847,25 @@
                             % [Voice 3 measure 3]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            fs'16.
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'16.
                             [
 
-                            fs'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'16
                             ~
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'64
 
                         }
 
-                        fs'8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        f'8
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "64")
@@ -1757,7 +1883,9 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 10) "64")
                         \times 10/9 {
 
-                            fs'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-sharp-markup
+                            f'16
 
                             fqs'16
                             ~
@@ -1791,7 +1919,9 @@
                         % [Voice 3 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
-                        f'8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-sharp-markup
+                        e'8
                         \mf
                         \<
                         \stopTextSpanTwo
@@ -1886,6 +2016,8 @@
                     \stopTextSpanOne
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'8
                     \mp
                     - \tweak stencil #constante-hairpin
@@ -1918,6 +2050,8 @@
                     \startTextSpanTwo
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'4
 
                                     - \tweak arrow-length #2
@@ -1991,6 +2125,8 @@
                         \times 12/11 {
 
                             \override Staff.Stem.stemlet-length = 0.75
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \five-eighths-flat-markup
                             bf16.
                             \mp
                             \>
@@ -2022,10 +2158,14 @@
                             \startTextSpanThree
                             [
 
-                            fs'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'16
                             ~
 
-                            fs'64
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'64
 
                         }
 
@@ -2033,11 +2173,15 @@
 
                         \scaleDurations #'(1 . 1) {
 
-                            b16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            c'16
 
                             aqf16
 
-                            fs'16
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            gf'16
 
                         }
 
@@ -2052,7 +2196,9 @@
                         }
 
                         \revert Staff.Stem.stemlet-length
-                        d'8.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-flat-markup
+                        df'8.
                         ]
 
                     }
@@ -2073,6 +2219,8 @@
 
                             dqs'32.
 
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
                             ef'32.
 
                             d'32.
@@ -2081,6 +2229,8 @@
 
                         cqs'16
 
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-sharp-markup
                         c'16
 
                         \revert Staff.Stem.stemlet-length
@@ -2105,6 +2255,8 @@
                     }
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \one-eighth-sharp-markup
                     c'4
                     \p
                     \<
@@ -2142,6 +2294,8 @@
                         % [Voice 3 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \one-eighth-sharp-markup
                         c'2
 
                         cqs'4
@@ -2175,7 +2329,9 @@
 
                     \tweak NoteHead.style #'triangle
                     \revert Staff.Stem.stemlet-length
-                    fs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    f'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2194,7 +2350,9 @@
                     % [Voice 3 measure 10]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                     \tweak NoteHead.style #'triangle
-                    fs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    f'8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
                     - \tweak bound-details.left.text \markup {
@@ -2234,7 +2392,9 @@
 
                     r4.
 
-                    fs'4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf'4
                     \f
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2289,7 +2449,9 @@
                     \stopTextSpanOne
 
                     \tweak NoteHead.style #'triangle
-                    fs'2
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf'2
                     \mp
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2462,7 +2624,9 @@
                         \tweak NoteHead.style #'triangle
                         aqs8
 
-                        fs'4.
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        gf'4.
                         \stopTextSpanOne
                         \stopTextSpanTwo
                         - \abjad-solid-line-with-arrow
@@ -2519,6 +2683,8 @@
 
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf8
                     \f
                     \>
@@ -2609,7 +2775,9 @@
                     \stopTextSpanOne
 
                     \tweak NoteHead.style #'triangle
-                    f'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    e'8
                     \p
                     - \tweak stencil #constante-hairpin
                     \<
@@ -2643,11 +2811,15 @@
 
                     \tweak NoteHead.style #'triangle
                     \override Staff.Stem.stemlet-length = 0.75
-                    f'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-sharp-markup
+                    e'8
                     [
 
                     \revert Staff.Stem.stemlet-length
-                    fs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf'8
                     \stopTextSpanOne
                     ~
                     - \abjad-solid-line-with-arrow
@@ -2665,11 +2837,15 @@
                     ]
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    fs'8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    gf'8
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
                     \revert Staff.Stem.stemlet-length
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf8
                     \stopTextSpanOne
                     ~
@@ -2688,10 +2864,14 @@
                     ]
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf4
                     ~
 
                     \tweak NoteHead.style #'harmonic-mixed
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \five-eighths-flat-markup
                     bf8
                     \stopTextSpanTwo
                     - \abjad-dashed-line-with-hook
@@ -2762,6 +2942,8 @@
                     \startTextSpanTwo
                     % [Voice 4 measure 8]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'4
                     \stopTextSpanOne
                     \stopTextSpanTwo
@@ -2896,7 +3078,9 @@
                         - \tweak staff-padding #6
                         \startTextSpanOne
 
-                        b8
+                        \tweak Accidental.stencil #ly:text-interface::print
+                        \tweak Accidental.text \three-eighths-flat-markup
+                        c'8
                         \stopTextSpanOne
                         ~
                         - \abjad-solid-line-with-arrow
@@ -2915,11 +3099,15 @@
                     }
                     % [Voice 4 measure 12]                                     %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                    b4
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'4
                     ~
 
                     \override Staff.Stem.stemlet-length = 0.75
-                    b8
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
+                    c'8
                     [
 
                     \tweak NoteHead.style #'harmonic-mixed
@@ -2964,6 +3152,8 @@
                     [
 
                     \revert Staff.Stem.stemlet-length
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'8
                     \stopTextSpanOne
                     ~
@@ -2981,6 +3171,8 @@
                     \startTextSpanOne
                     ]
 
+                    \tweak Accidental.stencil #ly:text-interface::print
+                    \tweak Accidental.text \three-eighths-flat-markup
                     ef'4
                     \p
                     - \tweak stencil #constante-hairpin
