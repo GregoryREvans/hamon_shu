@@ -17,12 +17,12 @@ articulation_handler_one = evans.ArticulationHandler(
         "default",
         "default",
     ],
-    continuous=True,
+    forget=False,
     name="articulation_handler_one",
 )
 
 articulation_handler_two = evans.ArticulationHandler(
-    articulation_list=["default"], continuous=True, name="articulation_handler_two"
+    articulation_list=["default"], forget=False, name="articulation_handler_two"
 )
 
 articulation_handler_three = evans.ArticulationHandler(
@@ -40,6 +40,6 @@ articulation_handler_three = evans.ArticulationHandler(
         "default",
         "default",
     ],
-    continuous=True,
+    forget=False,
     name="articulation_handler_three",
 )

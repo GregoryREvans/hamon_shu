@@ -5,7 +5,7 @@ articulation_handler_one = evans.TextSpanHandler(
     span_one_style="solid-line",
     span_one_padding=8,
     attach_span_one_to="leaves",
-    continuous=True,
+    forget=False,
     name="articulation_handler_one",
 )
 
@@ -18,7 +18,7 @@ articulation_handler_two = evans.TextSpanHandler(
     span_three_style="solid-line",
     span_three_padding=12,
     attach_span_three_to="left",
-    continuous=True,
+    forget=False,
     name="articulation_handler_two",
 )
 
@@ -42,6 +42,6 @@ articulation_handler_three = evans.TextSpanHandler(
     span_one_style="solid-line",
     span_one_padding=8,
     attach_span_one_to="leaves",
-    continuous=True,
+    forget=False,
     name="articulation_handler_three",
 )

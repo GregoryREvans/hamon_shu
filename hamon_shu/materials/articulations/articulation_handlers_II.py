@@ -9,7 +9,7 @@ articulation_handler_two = evans.TextSpanHandler(
     span_three_style="solid-line",
     span_three_padding=10,
     attach_span_three_to="left",
-    continuous=True,
+    forget=False,
     name="articulation_handler_two",
 )
 
@@ -37,6 +37,6 @@ articulation_handler_three = evans.TextSpanHandler(
     span_two_style="dashed-line",
     span_two_padding=10,
     attach_span_two_to="bounds",
-    continuous=True,
+    forget=False,
     name="articulation_handler_three",
 )

@@ -69,7 +69,7 @@ silence_maker = evans.RhythmHandler(rmaker=silence_maker_, name="silence maker")
 
 rhythm_handler_three = evans.RhythmHandler(
     rmaker=rmaker_three,
-    continuous=True,
+    forget=False,
     name="rhythm_handler_three",
     state=abjad.OrderedDict(
         [
@@ -82,9 +82,9 @@ rhythm_handler_three = evans.RhythmHandler(
 )
 
 rhythm_handler_four = evans.RhythmHandler(
-    rmaker=rmaker_four, continuous=True, name="rhythm_handler_four"
+    rmaker=rmaker_four, forget=False, name="rhythm_handler_four"
 )
 
 rhythm_handler_five = evans.RhythmHandler(
-    rmaker=rmaker_five, continuous=True, name="rhythm_handler_five"
+    rmaker=rmaker_five, forget=False, name="rhythm_handler_five"
 )

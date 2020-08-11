@@ -32,7 +32,7 @@ voice_names = [specifier for specifier in music_specifiers]
 # #######
 # rhythm#
 # #######
-rhythm_mat = evans.CyclicList(rhythm_material_list, continuous=True)
+rhythm_mat = evans.CyclicList(rhythm_material_list, forget=False)
 
 for voice in voice_names:
     for span in rhythm_timespan_list:
@@ -57,7 +57,7 @@ evans.timespan.intercalate_silences(rhythm_commands)
 # ######
 # pitch#
 # ######
-pitch_mat = evans.CyclicList(pitch_material_list, continuous=True)
+pitch_mat = evans.CyclicList(pitch_material_list, forget=False)
 
 for voice in voice_names:
     for span in pitch_timespan_list:
@@ -78,7 +78,7 @@ for span in segment_06_pitch_timespans:
 # ########
 # dynamic#
 # ########
-dynamic_mat = evans.CyclicList(dynamic_material_list, continuous=True)
+dynamic_mat = evans.CyclicList(dynamic_material_list, forget=False)
 
 for voice in voice_names:
     for span in dynamic_timespan_list:
@@ -99,7 +99,7 @@ for span in segment_06_dynamic_timespans:
 # #############
 # articulation#
 # #############
-articulation_mat = evans.CyclicList(articulation_material_list, continuous=True)
+articulation_mat = evans.CyclicList(articulation_material_list, forget=False)
 
 for voice in voice_names:
     for span in articulation_timespan_list:
@@ -120,7 +120,7 @@ for span in segment_06_articulation_timespans:
 # #############
 #  note head #
 # #############
-notehead_mat = evans.CyclicList(notehead_material_list, continuous=True)
+notehead_mat = evans.CyclicList(notehead_material_list, forget=False)
 
 for voice in voice_names:
     for span in notehead_timespan_list:
