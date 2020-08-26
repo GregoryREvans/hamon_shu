@@ -436,10 +436,14 @@ violin_2_pitch_handler_four = evans.PitchHandler(
 
 # viola
 viola_pitch_handler_one = evans.PitchHandler(
-    pitch_list=viola_random_walk_chord_1, forget=False, name="viola_pitch_handler_one",
+    pitch_list=viola_random_walk_chord_1,
+    forget=False,
+    name="viola_pitch_handler_one",
 )
 viola_pitch_handler_two = evans.PitchHandler(
-    pitch_list=viola_random_walk_chord_2, forget=False, name="viola_pitch_handler_two",
+    pitch_list=viola_random_walk_chord_2,
+    forget=False,
+    name="viola_pitch_handler_two",
 )
 viola_pitch_handler_three = evans.PitchHandler(
     pitch_list=viola_random_walk_chord_3,
@@ -447,15 +451,21 @@ viola_pitch_handler_three = evans.PitchHandler(
     name="viola_pitch_handler_three",
 )
 viola_pitch_handler_four = evans.PitchHandler(
-    pitch_list=viola_random_walk_chord_4, forget=False, name="viola_pitch_handler_four",
+    pitch_list=viola_random_walk_chord_4,
+    forget=False,
+    name="viola_pitch_handler_four",
 )
 
 # cello
 cello_pitch_handler_one = evans.PitchHandler(
-    pitch_list=cello_random_walk_chord_1, forget=False, name="cello_pitch_handler_one",
+    pitch_list=cello_random_walk_chord_1,
+    forget=False,
+    name="cello_pitch_handler_one",
 )
 cello_pitch_handler_two = evans.PitchHandler(
-    pitch_list=cello_random_walk_chord_2, forget=False, name="cello_pitch_handler_two",
+    pitch_list=cello_random_walk_chord_2,
+    forget=False,
+    name="cello_pitch_handler_two",
 )
 cello_pitch_handler_three = evans.PitchHandler(
     pitch_list=cello_random_walk_chord_3,
@@ -463,5 +473,7 @@ cello_pitch_handler_three = evans.PitchHandler(
     name="cello_pitch_handler_three",
 )
 cello_pitch_handler_four = evans.PitchHandler(
-    pitch_list=cello_random_walk_chord_4, forget=False, name="cello_pitch_handler_four",
+    pitch_list=cello_random_walk_chord_4,
+    forget=False,
+    name="cello_pitch_handler_four",
 )
