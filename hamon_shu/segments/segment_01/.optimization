@@ -913,3 +913,21 @@ Segment runtime: 69 seconds
  Pre-handlers runtime: 0 seconds
  Handlers runtime: 64 seconds
  Post-handlers runtime: 5 seconds
+
+2020-09-16 12:38:14
+Segment runtime: 102 seconds
+ Pre-handlers runtime: 0 seconds
+ Handlers runtime: 94 seconds
+ Post-handlers runtime: 8 seconds
+
+2020-09-16 13:29:22
+Segment runtime: 67 seconds
+ Pre-handlers runtime: 0 seconds
+ Handlers runtime: 61 seconds
+ Post-handlers runtime: 6 seconds
+
+2020-11-21 15:34:20
+Segment runtime: 65 seconds
+ Pre-handlers runtime: 0 seconds
+ Handlers runtime: 60 seconds
+ Post-handlers runtime: 5 seconds

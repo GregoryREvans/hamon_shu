@@ -3,8 +3,8 @@
 \version "2.19.84"
 \language "english"
 %{ #(set-default-paper-size "a4portrait") %}
-#(set-default-paper-size "11x17landscape")
-#(set-global-staff-size 13)
+#(set-default-paper-size "a4portrait")
+#(set-global-staff-size 12)
 \include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
 
 \header {
@@ -110,7 +110,7 @@
         %{ \override SpacingSpanner.strict-grace-spacing = ##t %} %1
         %{ \override SpacingSpanner.strict-note-spacing = ##t %} %1
         %{ \override SpacingSpanner.uniform-stretching = ##t %} %1
-        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 23) (minimum-distance . 23) (padding . 8))
+        \override StaffGrouper.staff-staff-spacing = #'((basic-distance . 22) (minimum-distance . 22) (padding . 8))
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
 		%{ \override StemTremolo.shape = #'rectangle %}
@@ -128,7 +128,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
 		%{ subdivideBeams = ##t %}
-		proportionalNotationDuration = #(ly:make-moment 1 30)
+		proportionalNotationDuration = #(ly:make-moment 1 28)
         tupletFullLength = ##t
     }
 	\context {
