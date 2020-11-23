@@ -74,8 +74,8 @@ commands = [
 
 maker = evans.SegmentMaker(
     instruments=insts,
-    names=["Violin I", "Violin II", "Viola", "Violoncello"],
-    abbreviations=["vn. I", "vn. II", "va.", "vc."],
+    names=['"Violin I"', '"Violin II"', '"Viola"', '"Violoncello"'],
+    abbreviations=['"vn. I"', '"vn. II"', '"va."', '"vc."'],
     score_template=score,
     time_signatures=time_signatures,
     clef_handlers=clef_handlers,

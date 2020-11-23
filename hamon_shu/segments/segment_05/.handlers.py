@@ -165,11 +165,11 @@ handler_to_value = abjad.OrderedDict(
             'dynamic_handler_one',
             abjad.OrderedDict(
                 [
-                    ('count_1', 135),
-                    ('count_2', 44),
-                    ('count_3', 90),
-                    ('count_4', 44),
-                    ('count_5', 135),
+                    ('count_1', 137),
+                    ('count_2', 45),
+                    ('count_3', 91),
+                    ('count_4', 45),
+                    ('count_5', 137),
                     ]
                 ),
             ),

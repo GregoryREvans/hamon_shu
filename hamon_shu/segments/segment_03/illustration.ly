@@ -93,7 +93,7 @@
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
                             \markup { "vn. I" }                                %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            Violin I                                           %! applying staff names and clefs
+                            "Violin I"                                         %! applying staff names and clefs
                             \clef "treble"
                             aqf'8
                             \p
@@ -143,45 +143,45 @@
                         r2
                         \!
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                        \times 2/3 {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
+                        \times 5/6 {
                             % [Voice 1 measure 3]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
+                            \override Staff.Stem.stemlet-length = 0.75
                             a8
                             \f
                             - \tenuto
                             \>
+                            [
 
-                            gqs4
-
-                        }
-
-                        aqf4
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        a16
-                        - \tenuto
-                        [
-
-                        cs'16
-                        - \accent
-
-                        \revert Staff.Stem.stemlet-length
-                        dqs'8
-                        ]
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                        \times 2/3 {
-
-                            aqs'8
+                            \revert Staff.Stem.stemlet-length
+                            gqs8
+                            ]
 
                             aqf4
 
-                        }
+                            \override Staff.Stem.stemlet-length = 0.75
+                            a16
+                            - \tenuto
+                            [
 
-                        cqs'4
-                        <>
-                        \mf
+                            cs'16
+                            - \accent
+
+                            dqs'8
+
+                            e'8
+
+                            \revert Staff.Stem.stemlet-length
+                            aqs'8
+                            ]
+
+                            aqf2
+                            <>
+                            \mf
+
+                        }
                         % [Voice 1 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
@@ -205,11 +205,11 @@
                         c'4
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        e'8
+                        af'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        af'8
+                        fs'8
                         ]
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
@@ -218,11 +218,11 @@
                             r8.
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            fs'16
+                            af'16
                             [
 
                             \revert Staff.Stem.stemlet-length
-                            af'16
+                            aqs'16
                             ]
 
                         }
@@ -230,7 +230,7 @@
 
                         r4
 
-                        aqs'4
+                        a'4
                         ~
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -238,7 +238,7 @@
                         \times 4/3 {
                             % [Voice 1 measure 9]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                            aqs'4
+                            a'4
 
                             ef'8
 
@@ -278,7 +278,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { "vn. II" }                                   %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Violin II                                              %! applying staff names and clefs
+                        "Violin II"                                            %! applying staff names and clefs
                         \clef "treble"
                         r4
 
@@ -459,18 +459,13 @@
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
                         \times 4/5 {
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
+                            \override Staff.Stem.stemlet-length = 0.75
+                            b32
+                            \p
+                            \<
+                            [
 
-                                \override Staff.Stem.stemlet-length = 0.75
-                                b16
-                                \p
-                                \<
-                                [
-
-                                cs'32
-
-                            }
+                            cs'32
 
                             ef'16
 
@@ -481,14 +476,9 @@
 
                             eqf'32
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
+                            fs'32
 
-                                fs'16
-
-                                ef'32
-
-                            }
+                            ef'32
 
                             \revert Staff.Stem.stemlet-length
                             cs'16
@@ -530,27 +520,22 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { va. }                                        %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Viola                                                  %! applying staff names and clefs
+                        "Viola"                                                %! applying staff names and clefs
                         \clef "varC"
                         r4
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "8")
-                        \times 2/3 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
+                        \times 4/5 {
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
+                            \override Staff.Stem.stemlet-length = 0.75
+                            g'32
+                            \pp
+                            - \accent
+                            - \tweak stencil #constante-hairpin
+                            \<
+                            [
 
-                                \override Staff.Stem.stemlet-length = 0.75
-                                g'16
-                                \pp
-                                - \accent
-                                - \tweak stencil #constante-hairpin
-                                \<
-                                [
-
-                                ef'32
-
-                            }
+                            ef'32
 
                             f'16
 
@@ -566,63 +551,50 @@
 
                             }
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
-
-                                aqf'32
-
-                                g'16
-
-                            }
-
-                            \revert Staff.Stem.stemlet-length
-                            gqs'8
-                            ]
-
-                        }
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                        \times 2/3 {
-                            % [Voice 3 measure 2]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
-
-                            \override Staff.Stem.stemlet-length = 0.75
-                            aqs'16
-                            [
-
-                            \revert Staff.Stem.stemlet-length
-                            gqs'32
-                            - \accent
-                            ]
-
-                        }
-
-                        \override Staff.Stem.stemlet-length = 0.75
-                        g'32
-                        [
-
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                        \times 2/3 {
-
-                            \override Staff.Stem.stemlet-length = 0.75
-                            ef'32
-                            [
+                            aqf'32
 
                             g'32
 
                             \revert Staff.Stem.stemlet-length
-                            gqs'32
+                            gqs'16
                             ]
 
                         }
 
-                        aqs'64
-                        - \accent
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
+                        \times 4/5 {
+                            % [Voice 3 measure 2]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        gqs'64
+                            \override Staff.Stem.stemlet-length = 0.75
+                            aqs'32
+                            [
 
-                        \revert Staff.Stem.stemlet-length
-                        aqf'16
-                        ]
+                            gqs'32
+                            - \accent
+
+                            g'16
+
+                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
+                            \times 2/3 {
+
+                                ef'32
+
+                                g'32
+
+                                gqs'32
+
+                            }
+
+                            aqs'32
+                            - \accent
+
+                            gqs'32
+
+                            \revert Staff.Stem.stemlet-length
+                            aqf'16
+                            ]
+
+                        }
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                         \times 2/3 {
@@ -835,7 +807,7 @@
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
                             \markup { vc. }                                    %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            Violoncello                                        %! applying staff names and clefs
+                            "Violoncello"                                      %! applying staff names and clefs
                             \clef "tenorvarC"
                             g'8
                             \mf

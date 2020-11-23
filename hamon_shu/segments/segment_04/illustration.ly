@@ -264,7 +264,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { "vn. I" }                                    %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Violin I                                               %! applying staff names and clefs
+                        "Violin I"                                             %! applying staff names and clefs
                         \clef "treble"
                         r8
 
@@ -1042,7 +1042,7 @@
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
                             \markup { "vn. II" }                               %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            Violin II                                          %! applying staff names and clefs
+                            "Violin II"                                        %! applying staff names and clefs
                             \clef "treble"
                             e'4
                             \mf
@@ -1797,7 +1797,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { va. }                                        %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Viola                                                  %! applying staff names and clefs
+                        "Viola"                                                %! applying staff names and clefs
                         \clef "varC"
                         bqf'4
                         \mf
@@ -2575,7 +2575,7 @@
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
                             \markup { vc. }                                    %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            Violoncello                                        %! applying staff names and clefs
+                            "Violoncello"                                      %! applying staff names and clefs
                             \clef "bass"
                             r16
 

@@ -450,7 +450,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { "vn. I" }                                    %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Violin I                                               %! applying staff names and clefs
+                        "Violin I"                                             %! applying staff names and clefs
                         \clef "treble"
                         \tweak NoteHead.style #'harmonic-mixed
                         af''4
@@ -1513,7 +1513,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { "vn. II" }                                   %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Violin II                                              %! applying staff names and clefs
+                        "Violin II"                                            %! applying staff names and clefs
                         \clef "treble"
                         fs'2.
                         \pp
@@ -2645,7 +2645,7 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { va. }                                        %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Viola                                                  %! applying staff names and clefs
+                        "Viola"                                                %! applying staff names and clefs
                         \clef "varC"
                         \tweak NoteHead.style #'triangle
                         ef''2
@@ -2727,14 +2727,19 @@
                         ~
                         % [Voice 3 measure 11]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        \tweak NoteHead.style #'harmonic-mixed
-                        e''2
+                        \once \override Rest.transparent = ##t                 %! applying invisibility
+                        r1 * 1/4
+                        \!                                                     %! applying indicators
+
+                        R1 * 1/4
                         % [Voice 3 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
                         af''8.
+                        \pp
                         - \bendAfter #'4
+                        \<
                         [
 
                         \tweak NoteHead.style #'triangle
@@ -2755,13 +2760,15 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         ef''16
+                        \mf
                         [
 
                         \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         fs'8.
-                        \pp
+                        \p
                         - \bendAfter #'2
+                        - \tweak stencil #constante-hairpin
                         \<
                         ]
 
@@ -2822,16 +2829,14 @@
                         \glissando                                             %! abjad.glissando(7)
 
                         af''4
-                        <>
-                        \mf
                         % [Voice 3 measure 16]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r2.
+                        \!
 
                         gqf''4
-                        \p
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mp
+                        \>
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 4 5) "4")
@@ -2845,12 +2850,13 @@
                             c''4
 
                             gqf''4
+                            <>
+                            \pp
 
                         }
                         % [Voice 3 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r2
-                        \!
 
                         fqs''2
                         \mp
@@ -2875,8 +2881,9 @@
                             \glissando                                         %! abjad.glissando(7)
 
                             gqf''1
-                            \mp
-                            \>
+                            \mf
+                            - \tweak stencil #constante-hairpin
+                            \<
                             ~
 
                         }
@@ -2899,10 +2906,9 @@
                         % [Voice 3 measure 24]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         gqf''2
-                        <>
-                        \pp
 
                         r4
+                        \!
                         % [Voice 3 measure 25]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
@@ -2970,8 +2976,7 @@
                         \tweak NoteHead.style #'triangle
                         \revert Staff.Stem.stemlet-length
                         af'8
-                        \mf
-                        - \tweak stencil #constante-hairpin
+                        \p
                         \<
                         ~
                         ]
@@ -3009,6 +3014,7 @@
 
                             \tweak NoteHead.style #'default
                             af'4
+                            \mp
                             - \bendAfter #'6
 
                         }
@@ -3058,8 +3064,9 @@
 
                             \tweak NoteHead.style #'default
                             d'4
-                            \p
+                            \pp
                             - \bendAfter #'5
+                            - \tweak stencil #constante-hairpin
                             \<
 
                             \tweak NoteHead.style #'harmonic-mixed
@@ -3070,18 +3077,16 @@
 
                         \tweak NoteHead.style #'triangle
                         eqs4
-                        <>
-                        \mp
 
                         r2
+                        \!
                         % [Voice 3 measure 32]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         cs'2
-                        \pp
+                        \mf
                         - \bendAfter #'-2
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \>
 
                         \tweak NoteHead.style #'triangle
                         d'2.
@@ -3128,21 +3133,21 @@
 
                         \tweak NoteHead.style #'default
                         e''2.
+                        \p
                         - \bendAfter #'-3
 
                         f4
-                        \mf
-                        \>
-                        <>
-                        \p
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         % [Voice 3 measure 37]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
+                        \!
 
                         \clef "treble"
                         af''4
-                        \mp
-                        - \tweak stencil #constante-hairpin
+                        \pp
                         \<
                         ~
 
@@ -3208,13 +3213,15 @@
                         % [Voice 3 measure 43]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         f2.
+                        <>
+                        \mf
                         % [Voice 3 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
-                        \!
 
                         bf2
-                        \pp
+                        \p
+                        - \tweak stencil #constante-hairpin
                         \<
                         \glissando                                             %! abjad.glissando(7)
 
@@ -3234,7 +3241,6 @@
                         ~
 
                         aqs2
-                        \mf
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 6) "8")
@@ -3242,9 +3248,10 @@
                             % [Voice 3 measure 48]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             ef''2
-                            \p
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            \mp
+                            \>
+                            <>
+                            \pp
 
                             \tweak NoteHead.style #'triangle
                             e''8
@@ -3273,8 +3280,9 @@
                         \clef "treble"
                         \tweak NoteHead.style #'triangle
                         af''1
-                        \mp
-                        \>
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         % [Voice 3 measure 52]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         e''2.
@@ -3303,14 +3311,13 @@
                             \revert Staff.Stem.stemlet-length
                             fs''8
                             ]
-                            <>
-                            \pp
 
                         }
                         % [Voice 3 measure 55]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 1/4
+                        \!                                                     %! applying indicators
 
                         R1 * 1/4
                         % [Voice 3 measure 56]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3321,9 +3328,8 @@
                         \times 4/5 {
 
                             e''4
-                            \mf
+                            \p
                             - \bendAfter #'2
-                            - \tweak stencil #constante-hairpin
                             \<
 
                             \tweak NoteHead.style #'harmonic-mixed
@@ -3370,32 +3376,32 @@
 
                         \override Staff.Stem.stemlet-length = 0.75
                         ef8
+                        \mp
                         [
 
                         \tweak NoteHead.style #'harmonic-mixed
                         \revert Staff.Stem.stemlet-length
                         bqs8
-                        \p
+                        \pp
+                        - \tweak stencil #constante-hairpin
                         \<
                         ~
                         ]
 
                         \tweak NoteHead.style #'harmonic-mixed
                         bqs4
-                        <>
-                        \mp
                         % [Voice 3 measure 60]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 1/4
+                        \!                                                     %! applying indicators
 
                         R1 * 1/4
                         % [Voice 3 measure 61]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         c''2.
-                        \pp
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mf
+                        \>
                         ~
 
                         c''2
@@ -3423,6 +3429,7 @@
                         % [Voice 3 measure 66]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         f'2.
+                        \p
 
                         \tweak NoteHead.style #'triangle
                         bf2
@@ -3443,8 +3450,9 @@
 
                         \tweak NoteHead.style #'harmonic-mixed
                         dqs'2
-                        \mf
-                        \>
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ~
                         % [Voice 3 measure 70]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3484,7 +3492,6 @@
 
                         \tweak NoteHead.style #'triangle
                         fqs''4
-                        \p
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                         \times 2/3 {
@@ -3550,8 +3557,7 @@
 
                             \tweak NoteHead.style #'default
                             e''2
-                            \mp
-                            - \tweak stencil #constante-hairpin
+                            \pp
                             \<
                             ~
 
@@ -3570,6 +3576,7 @@
                         \tweak NoteHead.style #'default
                         \override Staff.Stem.stemlet-length = 0.75
                         e''8
+                        \mf
                         [
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -3615,16 +3622,16 @@
 
                             \tweak NoteHead.style #'default
                             g'1
-                            \pp
+                            \p
+                            - \tweak stencil #constante-hairpin
                             \<
-                            <>
-                            \mf
 
                         }
                         % [Voice 3 measure 83]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 1/4
+                        \!                                                     %! applying indicators
 
                         R1 * 1/4
                         % [Voice 3 measure 84]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3633,9 +3640,8 @@
 
                         \tweak NoteHead.style #'triangle
                         dqs'2.
-                        \p
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mp
+                        \>
                         ~
                         % [Voice 3 measure 85]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -3645,17 +3651,18 @@
 
                         \tweak NoteHead.style #'triangle
                         dqs'2
+                        \pp
                         % [Voice 3 measure 86]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         b'2
-                        \mp
-                        \>
-                        <>
-                        \pp
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         % [Voice 3 measure 87]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 3/8
+                        \!                                                     %! applying indicators
 
                         R1 * 3/8
                         % [Voice 3 measure 88]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -3663,8 +3670,7 @@
                         \clef "treble"
                         \override Staff.Stem.stemlet-length = 0.75
                         af''8
-                        \mf
-                        - \tweak stencil #constante-hairpin
+                        \p
                         \<
                         \glissando                                             %! abjad.glissando(7)
                         [
@@ -3798,9 +3804,10 @@
                         % [Voice 3 measure 95]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         af'4
+                        <>
+                        \mp
 
                         r2
-                        \!
                         % [Voice 3 measure 96]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
@@ -3840,11 +3847,12 @@
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
                         \markup { vc. }                                        %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        Violoncello                                            %! applying staff names and clefs
+                        "Violoncello"                                          %! applying staff names and clefs
                         \clef "tenorvarC"
                         \tweak NoteHead.style #'triangle
                         bqf'2.
-                        \p
+                        \pp
+                        - \tweak stencil #constante-hairpin
                         \<
                         ~
 
@@ -3860,7 +3868,6 @@
 
                         \tweak NoteHead.style #'triangle
                         bqf'1
-                        \mp
                         % [Voice 4 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         ef'2
@@ -3875,10 +3882,9 @@
 
                             \tweak NoteHead.style #'triangle
                             fs'4
-                            \pp
+                            \mf
                             - \bendAfter #'4
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            \>
 
                             \clef "treble"
                             ef''4
@@ -3926,16 +3932,18 @@
 
                         \tweak NoteHead.style #'triangle
                         bqs2.
+                        <>
+                        \p
 
                         r2
-                        \!
                         % [Voice 4 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \clef "bass"
                         \override Staff.Stem.stemlet-length = 0.75
                         ef8.
-                        \mf
-                        \>
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         [
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -4019,12 +4027,10 @@
 
                         \tweak NoteHead.style #'triangle
                         fs'2
-                        \p
 
                         ef'4
-                        \mp
+                        \pp
                         - \bendAfter #'4
-                        - \tweak stencil #constante-hairpin
                         \<
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4083,21 +4089,22 @@
 
                         \tweak NoteHead.style #'default
                         f2
+                        <>
+                        \mf
 
                         r2.
-                        \!
                         % [Voice 4 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f1
-                        \pp
+                        \p
+                        - \tweak stencil #constante-hairpin
                         \<
                         ~
                         % [Voice 4 measure 19]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f2
-                        \mf
                         \glissando                                             %! abjad.glissando(7)
                         % [Voice 4 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4127,9 +4134,8 @@
 
                             \tweak NoteHead.style #'default
                             bf2
-                            \p
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            \mp
+                            \>
                             \glissando                                         %! abjad.glissando(7)
 
                         }
@@ -4164,9 +4170,10 @@
 
                         \tweak NoteHead.style #'harmonic-mixed
                         f2
+                        <>
+                        \pp
 
                         r4
-                        \!
                         % [Voice 4 measure 25]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
@@ -4188,8 +4195,9 @@
                         cqs2
 
                         eqs4
-                        \mp
-                        \>
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ~
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4202,14 +4210,13 @@
                             \clef "treble"
                             e''1.
                             - \bendAfter #'6
-                            <>
-                            \pp
 
                         }
                         % [Voice 4 measure 29]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 1/4
+                        \!                                                     %! applying indicators
 
                         R1 * 1/4
 
@@ -4225,8 +4232,7 @@
                             \ff
 
                             af'4
-                            \mf
-                            - \tweak stencil #constante-hairpin
+                            \p
                             \<
                             ~
 
@@ -4267,11 +4273,13 @@
 
                         \revert Staff.Stem.stemlet-length
                         af'8
+                        \mp
                         ]
 
                         \override Staff.Stem.stemlet-length = 0.75
                         bqf'8
-                        \p
+                        \pp
+                        - \tweak stencil #constante-hairpin
                         \<
                         [
 
@@ -4305,16 +4313,14 @@
 
                         \tweak NoteHead.style #'triangle
                         aqs4
-                        <>
-                        \mp
                         % [Voice 4 measure 38]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r2
+                        \!
 
                         cqs'4
-                        \pp
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mf
+                        \>
                         \glissando                                             %! abjad.glissando(7)
                         % [Voice 4 measure 39]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4374,17 +4380,19 @@
                             \revert Staff.Stem.stemlet-length
                             e''8
                             ]
+                            <>
+                            \p
 
                         }
                         % [Voice 4 measure 41]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
-                        \!
 
                         \override Staff.Stem.stemlet-length = 0.75
                         cs''8.
-                        \mf
-                        \>
+                        \mp
+                        - \tweak stencil #constante-hairpin
+                        \<
                         [
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -4442,11 +4450,9 @@
 
                         \tweak NoteHead.style #'harmonic-mixed
                         cs''1
-                        \p
 
                         bqf'4
-                        \mp
-                        - \tweak stencil #constante-hairpin
+                        \pp
                         \<
                         ~
                         % [Voice 4 measure 48]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -4456,6 +4462,7 @@
                         % [Voice 4 measure 49]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         bqf'2
+                        \mf
                         - \bendAfter #'2
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4482,7 +4489,8 @@
                             % [Voice 4 measure 51]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             e''4
-                            \pp
+                            \p
+                            - \tweak stencil #constante-hairpin
                             \<
 
                             \clef "bass"
@@ -4511,18 +4519,16 @@
                             - \bendAfter #'2
 
                             ef'4
-                            <>
-                            \mf
 
                         }
                         % [Voice 4 measure 53]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r4
+                        \!
 
                         fs'4
-                        \p
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mp
+                        \>
                         ~
                         % [Voice 4 measure 54]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4571,12 +4577,14 @@
                         % [Voice 4 measure 61]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         bqf'2.
+                        \pp
 
                         \clef "bass"
                         \tweak NoteHead.style #'default
                         cqs2
-                        \mp
-                        \>
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         ~
                         % [Voice 4 measure 62]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -4635,7 +4643,6 @@
 
                             \tweak NoteHead.style #'default
                             dqs'4
-                            \pp
                             \glissando                                         %! abjad.glissando(7)
 
                         }
@@ -4685,8 +4692,7 @@
 
                             \tweak NoteHead.style #'default
                             dqs4
-                            \mf
-                            - \tweak stencil #constante-hairpin
+                            \p
                             \<
                             \glissando                                         %! abjad.glissando(7)
 
@@ -4718,31 +4724,32 @@
                             \revert Staff.Stem.stemlet-length
                             dqs8
                             ]
+                            <>
+                            \mp
 
                         }
                         % [Voice 4 measure 70]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 3/8
-                        \!                                                     %! applying indicators
 
                         R1 * 3/8
                         % [Voice 4 measure 71]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         f1
-                        \p
+                        \pp
+                        - \tweak stencil #constante-hairpin
                         \<
                         ~
                         % [Voice 4 measure 72]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'default
                         f2
-                        <>
-                        \mp
                         % [Voice 4 measure 73]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         r2
+                        \!
 
                         cqs4
                         \ff
@@ -4766,9 +4773,8 @@
                             - \bendAfter #'-2
 
                             aqs2
-                            \pp
-                            - \tweak stencil #constante-hairpin
-                            \<
+                            \mf
+                            \>
                             ~
 
                         }
@@ -4778,6 +4784,7 @@
                         % [Voice 4 measure 78]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         f2
+                        \p
 
                         \clef "treble"
                         e''4
@@ -4801,8 +4808,9 @@
                             \f
 
                             gqs'4
-                            \mf
-                            \>
+                            \mp
+                            - \tweak stencil #constante-hairpin
+                            \<
 
                             e''4
                             - \bendAfter #'-3
@@ -4863,12 +4871,10 @@
                         % [Voice 4 measure 85]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         f'4
-                        \p
                         - \bendAfter #'-2
 
                         cqs'2
-                        \mp
-                        - \tweak stencil #constante-hairpin
+                        \pp
                         \<
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
@@ -4909,11 +4915,12 @@
                             d'4
 
                             af4
+                            <>
+                            \mf
 
                         }
 
                         r4
-                        \!
 
                         \tweak text #tuplet-number::calc-fraction-text
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
@@ -4922,7 +4929,8 @@
 
                             \tweak NoteHead.style #'triangle
                             eqs1
-                            \pp
+                            \p
+                            - \tweak stencil #constante-hairpin
                             \<
                             ~
 
@@ -4941,21 +4949,19 @@
                         % [Voice 4 measure 90]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         cs'2.
-                        <>
-                        \mf
                         % [Voice 4 measure 91]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 1/4
+                        \!                                                     %! applying indicators
 
                         R1 * 1/4
                         % [Voice 4 measure 92]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'triangle
                         ef'2.
-                        \p
-                        - \tweak stencil #constante-hairpin
-                        \<
+                        \mp
+                        \>
                         ~
 
                         \tweak NoteHead.style #'triangle
@@ -4965,21 +4971,22 @@
 
                         \tweak NoteHead.style #'triangle
                         ef'4
+                        <>
+                        \pp
 
                         r2.
-                        \!
                         % [Voice 4 measure 94]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \tweak NoteHead.style #'harmonic-mixed
                         fs'2
-                        \mp
-                        \>
-                        <>
-                        \pp
+                        \mf
+                        - \tweak stencil #constante-hairpin
+                        \<
                         % [Voice 4 measure 95]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         r1 * 3/8
+                        \!                                                     %! applying indicators
 
                         R1 * 3/8
 
@@ -4988,8 +4995,7 @@
                             % [Voice 4 measure 96]                             %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             d'4
-                            \mf
-                            - \tweak stencil #constante-hairpin
+                            \p
                             \<
 
                             \tweak NoteHead.style #'triangle
@@ -5022,6 +5028,7 @@
 
                             \tweak NoteHead.style #'triangle
                             eqs8
+                            \mp
 
                             \clef "treble"
                             e''8
