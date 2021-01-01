@@ -2,8 +2,8 @@ import abjad
 import abjadext.rmakers
 import evans
 
-padovan_5 = evans.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=9)
-padovan_6 = evans.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=7)
+padovan_5 = evans.Sequence.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=9)
+padovan_6 = evans.Sequence.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=7)
 
 rmaker_six = abjadext.rmakers.stack(
     abjadext.rmakers.even_division([4, 2, 4, 8, 4], extra_counts=[0, 1, -1, 1]),  # A

@@ -29,7 +29,7 @@ for tuple_ in tuple_list:
     b = tuple_[-1]
     final_rtm_list.append(funnels[a][b])
 
-final_rtm_list = evans.rotate(final_rtm_list, 1)
+final_rtm_list = evans.Sequence(final_rtm_list).rotate(1)
 quantizer = evans.RhythmTreeQuantizer()
 final_rtm_list = [quantizer(_) for _ in final_rtm_list]
 # final_rtm_list = [
@@ -51,11 +51,11 @@ final_rtm_list = [quantizer(_) for _ in final_rtm_list]
 
 # ## MAKERS ###
 
-padovan_1 = evans.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=9)
+padovan_1 = evans.Sequence.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=9)
 
-padovan_2 = evans.e_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=5)
-padovan_3 = evans.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=7)
-padovan_4 = evans.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
+padovan_2 = evans.Sequence.e_dovan_cycle(n=2, iters=30, first=2, second=3, modulus=5)
+padovan_3 = evans.Sequence.e_dovan_cycle(n=2, iters=30, first=1, second=1, modulus=7)
+padovan_4 = evans.Sequence.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
 
 rmaker_three = abjadext.rmakers.stack(
     abjadext.rmakers.talea(padovan_1, 8, extra_counts=[0, 1, 0, -1]),  # B

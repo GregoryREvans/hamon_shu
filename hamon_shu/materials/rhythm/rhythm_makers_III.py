@@ -4,7 +4,7 @@ import evans
 
 from .rhythm_makers_II import final_rtm_list
 
-padovan_4 = evans.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
+padovan_4 = evans.Sequence.e_dovan_cycle(n=2, iters=30, first=4, second=7, modulus=9)
 
 rmaker_six = abjadext.rmakers.stack(
     abjadext.rmakers.tuplet(

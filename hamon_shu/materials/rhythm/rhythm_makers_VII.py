@@ -2,9 +2,9 @@ import abjad
 import abjadext.rmakers
 import evans
 
-padovan_4 = evans.e_dovan_cycle(n=3, iters=60, first=5, second=8, modulus=5)
-padovan_5 = evans.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=3)
-padovan_6 = evans.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=7)
+padovan_4 = evans.Sequence.e_dovan_cycle(n=3, iters=60, first=5, second=8, modulus=5)
+padovan_5 = evans.Sequence.e_dovan_cycle(n=2, iters=60, first=4, second=7, modulus=3)
+padovan_6 = evans.Sequence.e_dovan_cycle(n=3, iters=60, first=2, second=3, modulus=7)
 
 rmaker_six = abjadext.rmakers.stack(
     abjadext.rmakers.talea(padovan_4, 4, extra_counts=[0, 1, 0, 0, -1]),  # E
