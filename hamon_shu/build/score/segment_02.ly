@@ -1188,35 +1188,39 @@
                         ]
 
                         \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 7) "8")
-                        \times 7/6 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 12 7) "8")
+                        \times 7/12 {
                             % [Voice 3 measure 2]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            eqf'16
+                            eqf'8
                             [
 
-                            dqs'16
+                            \revert Staff.Stem.stemlet-length
+                            dqs'8
+                            ]
 
-                            eqf'8
+                            eqf'4
 
-                            \tweak Accidental.stencil #ly:text-interface::print
-                            \tweak Accidental.text \three-eighths-flat-markup
-                            ef'32
-
-                            f'32
-
+                            \override Staff.Stem.stemlet-length = 0.75
                             \tweak Accidental.stencil #ly:text-interface::print
                             \tweak Accidental.text \three-eighths-flat-markup
                             ef'16
+                            [
 
-                            dqs'16
+                            f'16
+
+                            \tweak Accidental.stencil #ly:text-interface::print
+                            \tweak Accidental.text \three-eighths-flat-markup
+                            ef'8
+
+                            dqs'8
 
                             \revert Staff.Stem.stemlet-length
-                            eqf'16
+                            eqf'8
                             ]
 
-                            dqs'4
+                            dqs'2
 
                         }
 
