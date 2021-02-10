@@ -1,6 +1,7 @@
 import pathlib
 
 import abjad
+import baca
 import evans
 
 from hamon_shu.materials.score_structure.clef_handlers import clef_handlers
@@ -35,6 +36,14 @@ maker = evans.SegmentMaker(
         ),
         "skips",
         handler_commands,
+        evans.attach(
+            "Voice 4",
+            abjad.LilyPondLiteral(
+                r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
+                format_slot="absolute_before",
+            ),
+            baca.leaf(0),
+        ),
         evans.call(
             "score",
             evans.SegmentMaker.beam_score,
@@ -55,7 +64,7 @@ maker = evans.SegmentMaker(
     barline="||",
     tempo=((1, 4), 60),
     rehearsal_mark="B",
-    page_break_counts=[5, 7],
+    page_break_counts=[90],
 )
 
 maker.build_segment()

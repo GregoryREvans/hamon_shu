@@ -32,6 +32,7 @@ for tuple_ in tuple_list:
 final_rtm_list = evans.Sequence(final_rtm_list).rotate(1)
 quantizer = evans.RhythmTreeQuantizer()
 final_rtm_list = [quantizer(_) for _ in final_rtm_list]
+final_rtm_list = [evans.flatten_tree_level(_, recurse=True) for _ in final_rtm_list]
 # final_rtm_list = [
 #     "(1 ((1 (1 2)) 1 (1 (1 1 2)) (1 (1 2)) 1))",  # modified
 #     "(1 ((1 (2 1)) 1 (1 (1 1 2)) (1 (2 1)) 1))",  # modified

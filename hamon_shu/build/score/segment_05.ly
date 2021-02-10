@@ -15,7 +15,6 @@
                     }
                 }
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
@@ -44,7 +43,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
             % [Global Context measure 9]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -77,7 +75,6 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            \pageBreak
             % [Global Context measure 17]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
@@ -110,7 +107,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
             % [Global Context measure 25]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -143,7 +139,6 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 33]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -180,7 +175,6 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            \pageBreak
             % [Global Context measure 42]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -213,7 +207,6 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            \pageBreak
             % [Global Context measure 50]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
@@ -242,7 +235,6 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 57]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -275,7 +267,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
             % [Global Context measure 65]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -312,7 +303,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
             % [Global Context measure 74]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -349,7 +339,6 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            \pageBreak
             % [Global Context measure 83]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -415,7 +404,6 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            \pageBreak
 
         }
 

@@ -70,6 +70,22 @@ commands = [
         abjad.Markup("col legno tratto al fino", direction=abjad.Up),
         baca.leaf(0),
     ),
+    evans.attach(
+        "Voice 3",
+        abjad.LilyPondLiteral(
+            r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
+            format_slot="absolute_before",
+        ),
+        baca.leaf(0),
+    ),
+    evans.attach(
+        "Voice 4",
+        abjad.LilyPondLiteral(
+            r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
+            format_slot="absolute_before",
+        ),
+        baca.leaf(0),
+    ),
 ]
 
 maker = evans.SegmentMaker(
@@ -115,7 +131,7 @@ maker = evans.SegmentMaker(
     barline="|.",
     tempo=((1, 4), 40),
     rehearsal_mark="F",
-    page_break_counts=[1, 8, 7, 9],
+    page_break_counts=[90],
     colophon=c,
 )
 

@@ -62,7 +62,6 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            \pageBreak
             % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
@@ -111,7 +110,6 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 22]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
@@ -148,7 +146,6 @@
 
             \time 3/4                                                          %! scaling time signatures
             s1 * 3/4
-            \pageBreak
             % [Global Context measure 31]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 5/4                                                          %! scaling time signatures
@@ -185,7 +182,6 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 40]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 1/4                                                          %! scaling time signatures
@@ -227,7 +223,6 @@
             \once \override Score.TimeSignature.stencil = ##f                  %! applying ending skips
             \time 1/4                                                          %! scaling time signatures
             s1 * 1/4
-            \pageBreak
 
         }
 

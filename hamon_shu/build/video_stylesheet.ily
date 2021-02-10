@@ -5,8 +5,8 @@
 %{ #(set-default-paper-size "a4portrait") %}
 %{ #(set-default-paper-size "a4portrait")
 #(set-global-staff-size 11) % was 12 %}
-#(set-default-paper-size "arch a")
-#(set-global-staff-size 8) % was 12
+#(set-default-paper-size "letterlandscape")
+#(set-global-staff-size 10) % was 12
 \include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
 
 \header {
@@ -27,6 +27,7 @@
     indent = #15
 	ragged-last = ##t
     ragged-right = ##t
+	ragged-bottom = ##t
     %left-margin = #15
 	\context {
         \name TimeSignatureContext
@@ -71,7 +72,7 @@
 		\override TimeSignature.whiteout-style = #'outline
 		\override TimeSignature.whiteout = ##t
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
-			(basic-distance . 15) (minimum-distance . 15) (padding . 3) (stretchability . 0)
+			(basic-distance . 16) (minimum-distance . 14) (padding . 4) (stretchability . 0)
 		)
 
 		%{ \override TimeSignature.X-extent = ##f
@@ -114,7 +115,7 @@
         %{ \override SpacingSpanner.strict-note-spacing = ##t %} %1
         %{ \override SpacingSpanner.uniform-stretching = ##t %} %1
         \override StaffGrouper.staff-staff-spacing = #'(
-			(basic-distance . 19) (minimum-distance . 19) (padding . 5)
+			(basic-distance . 11) (minimum-distance . 7) (padding . 5)
 		)
 		\override Stem.stemlet-length = #1.15
 		\override StemTremolo.slope = #0.3
@@ -133,7 +134,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 		autoBeaming = ##f
 		%{ subdivideBeams = ##t %}
-		proportionalNotationDuration = #(ly:make-moment 1 23)
+		proportionalNotationDuration = #(ly:make-moment 1 20)
         tupletFullLength = ##t
     }
 	\context {
@@ -156,10 +157,13 @@
 }
 
 \paper {
+	max-systems-per-page = #2
+	min-systems-per-page = #1
+	%{ systems-per-page = #2 %}
 	%{ system-separator-markup = \slashSeparator %}
 	system-separator-markup = \markup { \slashSeparator }
 	%system-system-spacing = #'((basic-distance . 25) (minimum-distance . 25) (padding . 5))
-	system-system-spacing = #'((basic-distance . 14) (minimum-distance . 14) (padding . 4))
+	system-system-spacing = #'((basic-distance . 13) (minimum-distance . 13) (padding . 4))
 
 	indent = 20\mm
     short-indent = 15\mm
@@ -176,26 +180,19 @@
 	%top-margin = .90\in
 	oddHeaderMarkup = \markup ""
 	evenHeaderMarkup = \markup ""
-	oddFooterMarkup = \markup
-        \fill-line {
-            \override #'(font-name . "STIXGeneral")
-                \bold \fontsize #3 "Hamonshū - GR Evans"
-            \concat {
-                \override #'(font-name . "STIXGeneral")
-                    \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
-                        \fromproperty #'page:page-number-string
-                }
-            }
-    evenFooterMarkup = \markup
-        \fill-line {
-            \concat {
-                \override #'(font-name . "STIXGeneral")
-                    \bold \fontsize #3
-                        %{ \on-the-fly #print-page-number-check-first %}
-                        \fromproperty #'page:page-number-string
-                }
-            \override #'(font-name . "STIXGeneral")
-                \bold \fontsize #3 "Hamonshū - GR Evans"
-            }
+	oddFooterMarkup = \markup \fill-line {
+	\override #'(font-name . "STIXGeneral")
+	\bold \fontsize #2
+    \concat {
+      "Hamonshū - GR Evans"
+     }
+  }
+  evenFooterMarkup = \markup \fill-line {
+	\override #'(font-name . "STIXGeneral")
+	\bold \fontsize #2
+	\concat { "Hamonshū - GR Evans"
+    }
+  }
+		}
+
 }

@@ -45,7 +45,6 @@
 
             \time 5/8                                                          %! scaling time signatures
             s1 * 5/8
-            \pageBreak
             % [Global Context measure 11]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
@@ -86,7 +85,6 @@
 
             \time 4/4                                                          %! scaling time signatures
             s1 * 1
-            \pageBreak
             % [Global Context measure 21]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures

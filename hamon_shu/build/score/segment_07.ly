@@ -15,7 +15,6 @@
                     }
                 }
             s1 * 1
-            \pageBreak
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 2/4                                                          %! scaling time signatures
@@ -48,7 +47,6 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            \pageBreak
             % [Global Context measure 10]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 4/4                                                          %! scaling time signatures
@@ -77,7 +75,6 @@
 
             \time 5/4                                                          %! scaling time signatures
             s1 * 5/4
-            \pageBreak
             % [Global Context measure 17]                                      %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
@@ -589,6 +586,7 @@
 
                     \context Voice = "Voice 3"
                     {
+                        \once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)
                         % [Voice 3 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
@@ -773,6 +771,7 @@
 
                     \context Voice = "Voice 4"
                     {
+                        \once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)
                         % [Voice 4 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs

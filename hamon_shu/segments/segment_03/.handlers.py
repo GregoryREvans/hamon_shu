@@ -15,7 +15,7 @@ handler_to_value = abjad.OrderedDict(
             'violin_1_pitch_handler_one',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 46),
+                    ('pitch_count', 45),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
@@ -25,7 +25,7 @@ handler_to_value = abjad.OrderedDict(
             'violin_1_pitch_handler_two',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 58),
+                    ('pitch_count', 59),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
@@ -85,7 +85,7 @@ handler_to_value = abjad.OrderedDict(
             'viola_pitch_handler_three',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 72),
+                    ('pitch_count', 73),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]
@@ -115,7 +115,7 @@ handler_to_value = abjad.OrderedDict(
             'viola_pitch_handler_four',
             abjad.OrderedDict(
                 [
-                    ('pitch_count', 38),
+                    ('pitch_count', 37),
                     ('chord_boolean_count', -1),
                     ('chord_groups_count', -1),
                     ]

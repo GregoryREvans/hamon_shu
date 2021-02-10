@@ -56,7 +56,7 @@ maker = evans.SegmentMaker(
     barline="||",
     tempo=((1, 4), 90),
     rehearsal_mark="E",
-    page_break_counts=[9, 12, 9, 9, 10],
+    page_break_counts=[90],
 )
 
 maker.build_segment()

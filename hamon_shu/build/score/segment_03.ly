@@ -31,7 +31,6 @@
 
             \time 2/4                                                          %! scaling time signatures
             s1 * 1/2
-            \pageBreak
             % [Global Context measure 6]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
             \time 3/4                                                          %! scaling time signatures
@@ -128,41 +127,36 @@
                         r2
                         \!
 
-                        \tweak text #tuplet-number::calc-fraction-text
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 6 5) "4")
-                        \times 5/6 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2.")
+                        \times 2/3 {
                             % [Voice 1 measure 3]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                            \override Staff.Stem.stemlet-length = 0.75
-                            a8
+                            a4
                             \f
                             - \tenuto
                             \>
+
+                            gqs4
+
+                            \override Staff.Stem.stemlet-length = 0.75
+                            aqf8
                             [
 
+                            a8
+                            - \tenuto
+
                             \revert Staff.Stem.stemlet-length
-                            gqs8
+                            cs'8
+                            - \accent
                             ]
+
+                            dqs'4
+
+                            aqs'4
 
                             aqf4
 
-                            \override Staff.Stem.stemlet-length = 0.75
-                            a16
-                            - \tenuto
-                            [
-
-                            cs'16
-                            - \accent
-
-                            dqs'8
-
-                            e'8
-
-                            \revert Staff.Stem.stemlet-length
-                            aqs'8
-                            ]
-
-                            aqf2
+                            cqs'4
                             <>
                             \mf
 
@@ -190,11 +184,11 @@
                         c'4
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        af'8
+                        e'8
                         [
 
                         \revert Staff.Stem.stemlet-length
-                        fs'8
+                        af'8
                         ]
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
@@ -203,11 +197,11 @@
                             r8.
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            af'16
+                            fs'16
                             [
 
                             \revert Staff.Stem.stemlet-length
-                            aqs'16
+                            af'16
                             ]
 
                         }
@@ -215,7 +209,7 @@
 
                         r4
 
-                        a'4
+                        aqs'4
                         ~
 
                         \tweak text #tuplet-number::calc-fraction-text
@@ -223,7 +217,7 @@
                         \times 4/3 {
                             % [Voice 1 measure 9]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                            a'4
+                            aqs'4
 
                             ef'8
 
@@ -441,8 +435,9 @@
 
                         r4.
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
-                        \times 4/5 {
+                        \tweak text #tuplet-number::calc-fraction-text
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 7 8) "32")
+                        \times 8/7 {
 
                             \override Staff.Stem.stemlet-length = 0.75
                             b32
@@ -452,7 +447,7 @@
 
                             cs'32
 
-                            ef'16
+                            ef'64
 
                             eqf'64
 
@@ -466,7 +461,7 @@
                             ef'32
 
                             \revert Staff.Stem.stemlet-length
-                            cs'16
+                            cs'64
                             ]
                             <>
                             \mp
@@ -509,74 +504,64 @@
                         \clef "varC"
                         r4
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
-                        \times 4/5 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 8) "32")
+                        \times 8/13 {
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            g'32
+                            g'16
                             \pp
                             - \accent
                             - \tweak stencil #constante-hairpin
                             \<
                             [
 
-                            ef'32
+                            ef'16
 
-                            f'16
+                            f'32
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
+                            gqs'32
 
-                                gqs'32
+                            aqs'32
 
-                                aqs'32
+                            gqf32
+                            - \accent
 
-                                gqf32
-                                - \accent
+                            aqf'16
 
-                            }
-
-                            aqf'32
-
-                            g'32
+                            g'16
 
                             \revert Staff.Stem.stemlet-length
-                            gqs'16
+                            gqs'32
                             ]
 
                         }
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "16")
-                        \times 4/5 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 8) "32")
+                        \times 8/13 {
                             % [Voice 3 measure 2]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            aqs'32
+                            aqs'16
                             [
 
-                            gqs'32
+                            gqs'16
                             - \accent
 
-                            g'16
+                            g'32
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "32")
-                            \times 2/3 {
+                            ef'32
 
-                                ef'32
-
-                                g'32
-
-                                gqs'32
-
-                            }
-
-                            aqs'32
-                            - \accent
+                            g'32
 
                             gqs'32
+
+                            aqs'16
+                            - \accent
+
+                            gqs'16
 
                             \revert Staff.Stem.stemlet-length
-                            aqf'16
+                            aqf'32
                             ]
 
                         }
@@ -678,50 +663,45 @@
 
                         }
 
-                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 5 4) "8")
-                        \times 4/5 {
+                        \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 13 8) "16")
+                        \times 8/13 {
                             % [Voice 3 measure 6]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \override Staff.Stem.stemlet-length = 0.75
-                            fs'16
+                            fs'8
                             - \accent
                             [
 
-                            ef'16
+                            ef'8
 
-                            dqs'8
+                            gqs'16
 
-                            \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "16")
-                            \times 2/3 {
+                            f'16
 
-                                gqs'16
-
-                                f'16
-
-                                dqf'16
-                                - \accent
-
-                            }
+                            dqf'16
 
                             ef'16
+                            - \accent
 
-                            c'16
+                            c'8
+
+                            ef'8
 
                             \revert Staff.Stem.stemlet-length
-                            ef'8
+                            dqf'16
                             ]
 
                         }
 
-                        dqf'4
+                        f'4
                         % [Voice 3 measure 7]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        f'4
+                        dqf'4
                         - \accent
                         ~
 
                         \override Staff.Stem.stemlet-length = 0.75
-                        f'8
+                        dqf'8
                         \pp
                         [
 
@@ -748,13 +728,13 @@
 
                         a'8
 
-                        eqf'4
+                        dqs'4
                         ~
 
-                        eqf'4
+                        dqs'4
                         % [Voice 3 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
-                        af'8
+                        eqf'8
                         - \tenuto
                         <>
                         \f
@@ -787,6 +767,7 @@
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
                         \times 2/3 {
+                            \once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)
                             % [Voice 4 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs

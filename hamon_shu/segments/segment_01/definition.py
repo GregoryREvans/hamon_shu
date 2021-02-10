@@ -54,7 +54,7 @@ maker = evans.SegmentMaker(
     beam_rests=False,
     barline="||",
     tempo=((1, 4), 90),
-    page_break_counts=[10, 10, 11],
+    page_break_counts=[90],
 )
 
 maker.build_segment()
