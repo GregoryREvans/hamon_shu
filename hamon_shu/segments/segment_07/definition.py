@@ -33,42 +33,50 @@ commands = [
     evans.attach(
         "Voice 1",
         abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 1",
-        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        baca.leaf(0),
+        abjad.Markup(
+            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+        ),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 2",
         abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 2",
-        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        baca.leaf(0),
+        abjad.Markup(
+            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+        ),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 3",
         abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 3",
-        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        baca.leaf(0),
+        abjad.Markup(
+            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+        ),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 4",
         abjad.Dynamic("appena udibile al fino", name_is_textual=True),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 4",
-        abjad.Markup("col legno tratto al fino", direction=abjad.Up),
-        baca.leaf(0),
+        abjad.Markup(
+            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+        ),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 3",
@@ -76,7 +84,7 @@ commands = [
             r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
             format_slot="absolute_before",
         ),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
     evans.attach(
         "Voice 4",
@@ -84,7 +92,7 @@ commands = [
             r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
             format_slot="absolute_before",
         ),
-        baca.leaf(0),
+        baca.selectors.leaf(0),
     ),
 ]
 

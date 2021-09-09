@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "hamon_shu Score"
@@ -23,12 +15,7 @@
 
             \tempo 4=40
             \time 4/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        F
-                    }
-                }
+            \mark \markup \bold { F }
             s1 * 1
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -136,14 +123,14 @@
                         % [Voice 1 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { "vn. I" }                                    %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vn. I" }                    %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violin I"                                             %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violin I" }                 %! applying staff names and clefs
                         \clef "treble"
                         fs''''1
                         :32
                         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
-                        ^ \markup { "col legno tratto al fino" }
+                        ^ \markup { col legno tratto al fino }
                         ~
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "4")
@@ -323,10 +310,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.uverylongfermata"                    %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.uverylongfermata" %! applying ending skips
                         \bar "|."
                         \stopStaff                                             %! applying ending skips
 
@@ -350,14 +334,14 @@
                             % [Voice 2 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
-                            \markup { "vn. II" }                               %! applying staff names and clefs
+                            \markup { \hcenter-in #12 "vn. II" }               %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            "Violin II"                                        %! applying staff names and clefs
+                            \markup { \hcenter-in #14 "Violin II" }            %! applying staff names and clefs
                             \clef "treble"
                             g'2.
                             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
                             - \tenuto
-                            ^ \markup { "col legno tratto al fino" }
+                            ^ \markup { col legno tratto al fino }
 
                             bf''2
                             ~
@@ -580,10 +564,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.uverylongfermata"                    %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.uverylongfermata" %! applying ending skips
                         \bar "|."
                         \stopStaff                                             %! applying ending skips
 
@@ -605,14 +586,14 @@
                         % [Voice 3 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { va. }                                        %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "va." }                      %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Viola"                                                %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Viola" }                    %! applying staff names and clefs
                         \clef "varC"
                         b2
                         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
                         - \tenuto
-                        ^ \markup { "col legno tratto al fino" }
+                        ^ \markup { col legno tratto al fino }
 
                         \clef "treble"
                         bf''2
@@ -765,10 +746,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.uverylongfermata"                    %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.uverylongfermata" %! applying ending skips
                         \bar "|."
                         \stopStaff                                             %! applying ending skips
 
@@ -790,13 +768,13 @@
                         % [Voice 4 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { vc. }                                        %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vc." }                      %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violoncello"                                          %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violoncello" }              %! applying staff names and clefs
                         \clef "bass"
                         c,1
                         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "appena udibile al fino"))
-                        ^ \markup { "col legno tratto al fino" }
+                        ^ \markup { col legno tratto al fino }
                         % [Voice 4 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \clef "tenorvarC"
@@ -985,10 +963,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/16
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.uverylongfermata"                    %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.uverylongfermata" %! applying ending skips
                         \bar "|."
                         \stopStaff                                             %! applying ending skips
 

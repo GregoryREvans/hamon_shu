@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "hamon_shu Score"
@@ -23,12 +15,7 @@
 
             \tempo 4=60
             \time 2/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        B
-                    }
-                }
+            \mark \markup \bold { B }
             s1 * 1/2
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -90,9 +77,9 @@
                             % [Voice 1 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
-                            \markup { "vn. I" }                                %! applying staff names and clefs
+                            \markup { \hcenter-in #12 "vn. I" }                %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            "Violin I"                                         %! applying staff names and clefs
+                            \markup { \hcenter-in #14 "Violin I" }             %! applying staff names and clefs
                             \clef "treble"
                             aqf'8
                             \p
@@ -270,9 +257,9 @@
                         % [Voice 2 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { "vn. II" }                                   %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vn. II" }                   %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violin II"                                            %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violin II" }                %! applying staff names and clefs
                         \clef "treble"
                         r4
 
@@ -513,9 +500,9 @@
                         % [Voice 3 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { va. }                                        %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "va." }                      %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Viola"                                                %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Viola" }                    %! applying staff names and clefs
                         \clef "varC"
                         r4
 
@@ -786,9 +773,9 @@
                             % [Voice 4 measure 1]                              %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                             \set Staff.shortInstrumentName =                   %! applying staff names and clefs
-                            \markup { vc. }                                    %! applying staff names and clefs
+                            \markup { \hcenter-in #12 "vc." }                  %! applying staff names and clefs
                             \set Staff.instrumentName =                        %! applying staff names and clefs
-                            "Violoncello"                                      %! applying staff names and clefs
+                            \markup { \hcenter-in #14 "Violoncello" }          %! applying staff names and clefs
                             \clef "tenorvarC"
                             g'8
                             \mf

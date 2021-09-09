@@ -4,14 +4,6 @@
 \include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile._get_formatted_includes()
 \include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily" %! abjad.LilyPondFile._get_formatted_includes()
 
-\header {                                                                      %! abjad.LilyPondFile._get_formatted_blocks()
-    tagline = ##f
-}                                                                              %! abjad.LilyPondFile._get_formatted_blocks()
-
-\layout {}
-
-\paper {}
-
 \score {                                                                       %! abjad.LilyPondFile._get_formatted_blocks()
 
     \context Score = "hamon_shu Score"
@@ -23,12 +15,7 @@
 
             \tempo 4=90
             \time 2/4                                                          %! scaling time signatures
-            \mark \markup {
-                \bold
-                    {
-                        E
-                    }
-                }
+            \mark \markup \bold { E }
             s1 * 1/2
             % [Global Context measure 2]                                       %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -240,9 +227,9 @@
                         % [Voice 1 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { "vn. I" }                                    %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vn. I" }                    %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violin I"                                             %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violin I" }                 %! applying staff names and clefs
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         \clef "treble"
                         r1 * 1/4
@@ -263,7 +250,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 9 8) "8")
@@ -276,7 +263,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \tweak NoteHead.style #'harmonic-mixed
@@ -290,7 +277,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -303,7 +290,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 4 4 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 3/8
@@ -324,7 +311,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -334,7 +321,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 1 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -354,7 +341,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 1 4 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 1/8
@@ -390,16 +377,14 @@
                         \<
                         ~
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            msp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright msp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 1 measure 14]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -411,10 +396,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         r2.
@@ -434,16 +418,14 @@
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            st. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright st. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            "1/2 clt." \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright 1/2 clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
 
                         \tweak Accidental.stencil #ly:text-interface::print
@@ -480,10 +462,9 @@
                         gf''4
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         r1
@@ -500,16 +481,14 @@
                             \p
                             \>
                             - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                sp. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright sp. \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanTwo
                             - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                "1/2 clt." \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright 1/2 clt. \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #12
+                            - \tweak staff-padding 12
                             \startTextSpanThree
 
                             c''4.
@@ -528,10 +507,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            msp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright msp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         r2.
@@ -568,7 +546,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -590,7 +568,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 1 measure 31]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -619,7 +597,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 1 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -646,7 +624,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 4 4 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 1/8
@@ -708,16 +686,14 @@
                             \<
                             ~
                             - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                ord. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanTwo
                             - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                clt. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #12
+                            - \tweak staff-padding 12
                             \startTextSpanThree
 
                         }
@@ -769,10 +745,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            st. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright st. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         \bar "||"
                         % [Voice 1 measure 49]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -786,10 +761,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/8
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \stopStaff \startStaff                                 %! applying ending skips
 
                     }
@@ -809,9 +781,9 @@
                         % [Voice 2 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { "vn. II" }                                   %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vn. II" }                   %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violin II"                                            %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violin II" }                %! applying staff names and clefs
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         \clef "treble"
                         r1 * 1/4
@@ -834,7 +806,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 4]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -844,7 +816,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -866,7 +838,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -880,7 +852,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -892,7 +864,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 11]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -906,7 +878,7 @@
                         - \abjad-invisible-line
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -938,16 +910,14 @@
                         \<
                         ~
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 2 measure 18]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -957,10 +927,9 @@
                         d'4
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            sp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright sp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         r2
@@ -974,16 +943,14 @@
                         \>
                         ~
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            msp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright msp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 2 measure 20]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1030,10 +997,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         % [Voice 2 measure 27]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1066,7 +1032,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -1086,7 +1052,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         ]
 
@@ -1108,7 +1074,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \override Staff.Stem.stemlet-length = 0.75
@@ -1122,7 +1088,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \revert Staff.Stem.stemlet-length
@@ -1134,7 +1100,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 3 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
                             ]
 
@@ -1171,7 +1137,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 2 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         ]
                         % [Voice 2 measure 34]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1182,7 +1148,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 7 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 35]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1200,7 +1166,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 6 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 2 measure 37]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1226,7 +1192,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 5 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             d'''2
@@ -1235,7 +1201,7 @@
                             - \abjad-invisible-line
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 6 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -1273,16 +1239,14 @@
                             \<
                             ~
                             - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                st. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright st. \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanTwo
                             - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                "1/2 clt." \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright 1/2 clt. \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #12
+                            - \tweak staff-padding 12
                             \startTextSpanThree
 
                             \tweak NoteHead.style #'harmonic-mixed
@@ -1310,10 +1274,9 @@
                             c''4
                             \stopTextSpanTwo
                             - \abjad-dashed-line-with-hook
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                ord. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanTwo
 
                         }
@@ -1341,10 +1304,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/8
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \stopStaff \startStaff                                 %! applying ending skips
 
                     }
@@ -1364,9 +1324,9 @@
                         % [Voice 3 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { va. }                                        %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "va." }                      %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Viola"                                                %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Viola" }                    %! applying staff names and clefs
                         \once \override Rest.transparent = ##t                 %! applying invisibility
                         \clef "varC"
                         r1 * 1/4
@@ -1381,7 +1341,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \override Staff.Stem.stemlet-length = 0.75
@@ -1396,7 +1356,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         ]
 
@@ -1417,7 +1377,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         ]
                         % [Voice 3 measure 3]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
@@ -1431,7 +1391,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 3 measure 5]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1445,7 +1405,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 3 measure 6]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1456,7 +1416,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 4 4 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 1/8
@@ -1475,7 +1435,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \ottava 1
@@ -1485,7 +1445,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -1504,7 +1464,7 @@
                         - \abjad-invisible-line
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 3 measure 10]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1524,7 +1484,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \tweak Accidental.stencil #ly:text-interface::print
@@ -1554,7 +1514,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 4 4 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 1/2
@@ -1578,16 +1538,14 @@
                         \>
                         ~
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            sp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright sp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            "1/2 clt." \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright 1/2 clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 3 measure 17]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1651,10 +1609,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            msp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright msp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         % [Voice 3 measure 23]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1703,7 +1660,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \tweak TupletNumber.text #(tuplet-number::append-note-wrapper(tuplet-number::non-default-tuplet-fraction-text 3 2) "2")
@@ -1724,7 +1681,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -1783,7 +1740,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
 
                         \tweak NoteHead.style #'harmonic-mixed
@@ -1832,7 +1789,7 @@
                         - \abjad-invisible-line
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 4 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 3 measure 42]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1849,16 +1806,14 @@
                         \pppp
                         \<
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 3 measure 44]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1893,10 +1848,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            st. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright st. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         % [Voice 3 measure 48]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1916,10 +1870,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/8
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \stopStaff \startStaff                                 %! applying ending skips
 
                     }
@@ -1939,9 +1890,9 @@
                         % [Voice 4 measure 1]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
                         \set Staff.shortInstrumentName =                       %! applying staff names and clefs
-                        \markup { vc. }                                        %! applying staff names and clefs
+                        \markup { \hcenter-in #12 "vc." }                      %! applying staff names and clefs
                         \set Staff.instrumentName =                            %! applying staff names and clefs
-                        "Violoncello"                                          %! applying staff names and clefs
+                        \markup { \hcenter-in #14 "Violoncello" }              %! applying staff names and clefs
                         \clef "bass"
                         dqf'2
                         \mp
@@ -1951,7 +1902,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 0 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 2]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -1977,7 +1928,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 2 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -1999,7 +1950,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 8]                                  %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2024,7 +1975,7 @@
                         - \abjad-invisible-line
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 3 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 12]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2076,16 +2027,14 @@
                         - \tweak stencil #constante-hairpin
                         \<
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
 
                         \tweak NoteHead.style #'default
@@ -2121,10 +2070,9 @@
                         aqf4
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            sp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright sp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         r2
@@ -2147,16 +2095,14 @@
                         \p
                         \>
                         - \abjad-dashed-line-with-arrow
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            msp. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright msp. \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         - \abjad-solid-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            clt. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright clt. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #12
+                        - \tweak staff-padding 12
                         \startTextSpanThree
                         % [Voice 4 measure 25]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2186,10 +2132,9 @@
                         \<
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
 
                         \tweak NoteHead.style #'default
@@ -2204,7 +2149,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 1 4 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 30]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2223,7 +2168,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 1 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \ottava 1
@@ -2235,7 +2180,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 3 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -2262,7 +2207,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 4 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             \clef "bass"
@@ -2273,7 +2218,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 3 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -2295,7 +2240,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 2 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 36]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2305,7 +2250,7 @@
                         - \abjad-solid-line-with-arrow
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-upbow \vspace #0.2 \upright \fraction 7 7 } \hspace #0.5 }
                         - \tweak bound-details.right.padding 1.4
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanOne
                         % [Voice 4 measure 37]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2316,7 +2261,7 @@
                         - \abjad-invisible-line                                %! applying indicators
                         - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 6 7 } \hspace #0.5 } %! applying indicators
                         - \tweak bound-details.right.padding 3                 %! applying indicators
-                        - \tweak staff-padding #8                              %! applying indicators
+                        - \tweak staff-padding 8                               %! applying indicators
                         \startTextSpanOne                                      %! applying indicators
 
                         R1 * 1/4
@@ -2343,7 +2288,7 @@
                             - \abjad-solid-line-with-arrow
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \musicglyph \evans-downbow \vspace #0.2 \upright \fraction 5 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                             eqf'1
@@ -2352,7 +2297,7 @@
                             - \abjad-invisible-line
                             - \tweak bound-details.left.text \markup \concat { \center-column { \center-align \vcenter \upright \fraction 6 7 } \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanOne
 
                         }
@@ -2400,16 +2345,14 @@
                             \tweak Accidental.text \one-eighth-sharp-markup
                             b'1.
                             - \abjad-dashed-line-with-arrow
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                st. \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright st. \hspace #0.5 }
                             - \tweak bound-details.right.padding 1.4
-                            - \tweak staff-padding #8
+                            - \tweak staff-padding 8
                             \startTextSpanTwo
                             - \abjad-solid-line-with-hook
-                            - \tweak bound-details.left.text \markup \concat { \upright
-                                "1/2 clt." \hspace #0.5 }
+                            - \tweak bound-details.left.text \markup \concat { \upright 1/2 clt. \hspace #0.5 }
                             - \tweak bound-details.right.padding 3
-                            - \tweak staff-padding #12
+                            - \tweak staff-padding 12
                             \startTextSpanThree
 
                         }
@@ -2420,10 +2363,9 @@
                         a'1
                         \stopTextSpanTwo
                         - \abjad-dashed-line-with-hook
-                        - \tweak bound-details.left.text \markup \concat { \upright
-                            ord. \hspace #0.5 }
+                        - \tweak bound-details.left.text \markup \concat { \upright ord. \hspace #0.5 }
                         - \tweak bound-details.right.padding 3
-                        - \tweak staff-padding #8
+                        - \tweak staff-padding 8
                         \startTextSpanTwo
                         % [Voice 4 measure 46]                                 %! COMMENT_MEASURE_NUMBERS:abjad.SegmentMaker.comment_measure_numbers()
 
@@ -2455,10 +2397,7 @@
 
                         \once \override MultiMeasureRest.color = #white        %! applying ending skips
                         R1 * 1/8
-                        ^ \markup {                                            %! applying ending skips
-                            \musicglyph                                        %! applying ending skips
-                                #"scripts.ushortfermata"                       %! applying ending skips
-                            }                                                  %! applying ending skips
+                        ^ \markup \center-align \musicglyph #"scripts.ushortfermata" %! applying ending skips
                         \stopStaff \startStaff                                 %! applying ending skips
 
                     }

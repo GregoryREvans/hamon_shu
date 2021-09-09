@@ -15,7 +15,7 @@ from hamon_shu.materials.timespans.segment_02.convert_timespans import (
     rhythm_commands,
 )
 
-commands = [evans.attach("Voice 1", abjad.StopHairpin(), baca.leaf(0))]
+commands = [evans.attach("Voice 1", abjad.StopHairpin(), baca.selectors.leaf(0))]
 
 maker = evans.SegmentMaker(
     instruments=insts,

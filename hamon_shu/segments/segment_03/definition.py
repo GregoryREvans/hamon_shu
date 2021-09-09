@@ -42,7 +42,7 @@ maker = evans.SegmentMaker(
                 r"\once \override Staff.Clef.X-extent = ##f \once \override Staff.Clef.extra-offset = #'(-2.25 . 0)",
                 format_slot="absolute_before",
             ),
-            baca.leaf(0),
+            baca.selectors.leaf(0),
         ),
         evans.call(
             "score",
