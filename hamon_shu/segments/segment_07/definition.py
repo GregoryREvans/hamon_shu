@@ -38,7 +38,8 @@ commands = [
     evans.attach(
         "Voice 1",
         abjad.Markup(
-            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+            r"\markup { col legno tratto al fino }",
+            direction=abjad.Up,
         ),
         baca.selectors.leaf(0),
     ),
@@ -50,7 +51,8 @@ commands = [
     evans.attach(
         "Voice 2",
         abjad.Markup(
-            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+            r"\markup { col legno tratto al fino }",
+            direction=abjad.Up,
         ),
         baca.selectors.leaf(0),
     ),
@@ -62,7 +64,8 @@ commands = [
     evans.attach(
         "Voice 3",
         abjad.Markup(
-            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+            r"\markup { col legno tratto al fino }",
+            direction=abjad.Up,
         ),
         baca.selectors.leaf(0),
     ),
@@ -74,7 +77,8 @@ commands = [
     evans.attach(
         "Voice 4",
         abjad.Markup(
-            r"\markup { col legno tratto al fino }", direction=abjad.Up, literal=True
+            r"\markup { col legno tratto al fino }",
+            direction=abjad.Up,
         ),
         baca.selectors.leaf(0),
     ),
@@ -108,19 +112,19 @@ maker = evans.SegmentMaker(
         evans.call(
             "score",
             evans.SegmentMaker.transform_brackets,
-            abjad.select().components(abjad.Score),
+            lambda _: abjad.Selection(_).components(abjad.Score),
         ),
         evans.call(
             "score",
             evans.SegmentMaker.rewrite_meter,
-            abjad.select().components(abjad.Score),
+            lambda _: abjad.Selection(_).components(abjad.Score),
         ),
         "skips",
         handler_commands,
         evans.call(
             "score",
             evans.SegmentMaker.beam_score,
-            abjad.select().components(abjad.Score),
+            lambda _: abjad.Selection(_).components(abjad.Score),
         ),
         commands,
     ],

@@ -1,9 +1,9 @@
 import abjad
-handler_to_value = abjad.OrderedDict(
+handler_to_value = dict(
     [
         (
             'violin_1_pitch_handler_three',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 39),
                     ('chord_boolean_count', -1),
@@ -13,7 +13,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_1_pitch_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 39),
                     ('chord_boolean_count', -1),
@@ -23,7 +23,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_1_pitch_handler_two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 66),
                     ('chord_boolean_count', -1),
@@ -33,7 +33,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_1_pitch_handler_four',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 41),
                     ('chord_boolean_count', -1),
@@ -43,7 +43,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_2_pitch_handler_three',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 52),
                     ('chord_boolean_count', -1),
@@ -53,7 +53,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_2_pitch_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 29),
                     ('chord_boolean_count', -1),
@@ -63,7 +63,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_2_pitch_handler_two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 55),
                     ('chord_boolean_count', -1),
@@ -73,7 +73,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'violin_2_pitch_handler_four',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 16),
                     ('chord_boolean_count', -1),
@@ -83,7 +83,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'viola_pitch_handler_three',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 52),
                     ('chord_boolean_count', -1),
@@ -93,7 +93,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'viola_pitch_handler_two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 60),
                     ('chord_boolean_count', -1),
@@ -103,7 +103,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'viola_pitch_handler_four',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 36),
                     ('chord_boolean_count', -1),
@@ -113,7 +113,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'viola_pitch_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('pitch_count', 25),
                     ('chord_boolean_count', -1),
@@ -123,7 +123,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'dynamic_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 8),
                     ('count_2', 2),
@@ -135,7 +135,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'dynamic_handler_two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 20),
                     ('count_2', 6),
@@ -147,7 +147,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'articulation_handler_one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 27),
                     ('count_2', -1),
@@ -157,7 +157,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'articulation_handler_two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', -1),
                     ('count_2', 23),
@@ -167,7 +167,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'articulation_handler_three',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count_1', 27),
                     ('count_2', -1),
@@ -177,7 +177,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'notehead handler one',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 24),
                     ('head_vector_count', 24),
@@ -187,7 +187,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'notehead handler two',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 1),
                     ('head_vector_count', 32),
@@ -197,7 +197,7 @@ handler_to_value = abjad.OrderedDict(
             ),
         (
             'notehead handler three',
-            abjad.OrderedDict(
+            dict(
                 [
                     ('count', 20),
                     ('head_vector_count', 20),
