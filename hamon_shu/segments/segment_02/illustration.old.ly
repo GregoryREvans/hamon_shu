@@ -1,8 +1,8 @@
 \version "2.19.83"                                                             %! abjad.LilyPondFile
 \language "english"                                                            %! abjad.LilyPondFile
 
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
-\include "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily" %! abjad.LilyPondFile
+\include "/Users/gregoryevans/abjad/docs/source/_stylesheets/abjad.ily"           %! abjad.LilyPondFile
+\include "/Users/gregoryevans/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily" %! abjad.LilyPondFile
 
 \header {                                                                      %! abjad.LilyPondFile
     tagline = ##f

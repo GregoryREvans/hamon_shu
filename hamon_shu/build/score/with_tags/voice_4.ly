@@ -2,8 +2,8 @@
 \language "english" %! LilyPondFile
 
 \include "first_stylesheet.ily"                                      %! LilyPondFile
-\include "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily" %! LilyPondFile
-\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
+\include "/Users/gregoryevans/abjad/docs/source/_stylesheets/abjad.ily" %! LilyPondFile
+\include "/Users/gregoryevans/evans/lilypond/evans-articulations.ily"
 
 \header { %! LilyPondFile
     tagline = ##f

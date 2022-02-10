@@ -5,13 +5,13 @@
 %{ #(set-default-paper-size "a4portrait") %}
 #(set-default-paper-size "11x17landscape")
 #(set-global-staff-size 13)
-\include "/Users/evansdsg2/evans/lilypond/evans-articulations.ily"
+\include "/Users/gregoryevans/evans/lilypond/evans-articulations.ily"
 
 \header {
 	tagline = ##f
 	breakbefore = ##t
 	dedication = \markup \override #'(font-name . "STIXGeneral") \fontsize #4.5 \center-column {"H   A   M   O   N   S   H   Ū"}
-	title =  \markup { \epsfile #Y #15 #"/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/covers/title2.eps" }
+	title =  \markup { \epsfile #Y #15 #"/Users/gregoryevans/Scores/hamon_shu/hamon_shu/build/covers/title2.eps" }
 	subtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #2.5 \center-column {"f o r     s t r i n g     q u a r t e t"}
 	subsubtitle = \markup \override #'(font-name . "STIXGeneral") \fontsize #3.5 \center-column {"; or , the many ways of drawing water"}
 	composer = \markup \override #'(font-name . "STIXGeneral") \fontsize #3 {"Gregory Rowland Evans (*1995)"}

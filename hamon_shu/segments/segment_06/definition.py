@@ -45,8 +45,8 @@ maker = evans.SegmentMaker(
     add_final_grand_pause=True,
     fermata="scripts.ushortfermata",
     score_includes=[
-        "/Users/evansdsg2/abjad/docs/source/_stylesheets/abjad.ily",
-        "/Users/evansdsg2/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily",
+        "/Users/gregoryevans/abjad/docs/source/_stylesheets/abjad.ily",
+        "/Users/gregoryevans/Scores/hamon_shu/hamon_shu/build/first_stylesheet.ily",
     ],
     segment_name="segment_06",
     current_directory=pathlib.Path(__file__).resolve().parent,
